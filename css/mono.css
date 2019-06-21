@@ -17,3 +17,45 @@ h3 {
 a {
     color: #5897C8;
 }
+
+
+
+/*Menu*/
+
+nav {
+    background-color: #1A76BD;
+}
+
+nav a {
+    color: white;
+}
+
+nav a:hover {
+    background-color: #13568A  ;
+    color: #9cc4f4;
+}
+
+
+/*Footer*/
+
+hr { display: block; height: 1px;
+    border: 0; border-top: 1px solid #13568A;
+    margin: 0; padding: 0; }
+
+
+/*.logos {*/
+/*    background-color: #bfd7f2;*/
+/*}*/
+
+.logos a {
+    color:#13568A;
+}
+
+.address {
+    background-color: #1B2E3D;
+    color: #9cc4f4;
+}
+
+address a {
+    color: #9cc4f4
+}
