@@ -25,6 +25,24 @@ main {
 
 h1 {
     text-align: center;
+    color: #1A76BD;
+}
+
+h1 span {
+ color:  #1B2E3D;
+}
+
+
+h2{
+    color: #13568A;
+}
+
+h3 {
+    color: #1B2E3D;
+}
+
+a {
+    color: #5897C8;
 }
 
 p {
@@ -79,13 +97,6 @@ main li {
     
 }
 
-.ip img {
-     -webkit-transform:rotate(90deg);
-  -moz-transform:rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -o-transform:rotate(90deg);
-  transform: rotate(90deg);
-}
 
 .ip img, .members img {
     width: 70%
@@ -112,6 +123,24 @@ figcaption {
 }
 
 /*Footer*/
+
+hr { display: block; height: 1px;
+    border: 0; border-top: 1px solid #13568A;
+    margin: 0; padding: 0; }
+
+
+.logos a {
+    color:#13568A;
+}
+
+.address {
+    background-color: #1B2E3D;
+    color: #9cc4f4;
+}
+
+address a {
+    color: #9cc4f4
+}
 
 .logos p {
 
@@ -153,63 +182,3 @@ address img {
 }
 
 
-/*Menu*/
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    font-size: 17pt;
-    align-items: center;
-    background-color: #1A76BD;
-}
-
-nav a {
-    display: block;
-    padding: 1em 1.6em 1em 1.6em;
-    text-decoration: none;
-    font-weight: bold;
-    color: white;
-}
-
-nav a:hover {
-    background-color: #13568A;
-    color: #9cc4f4;
-}
-
-nav img {
-    width: 10%;
-    padding-right: 2%;
-    padding-left: 1%;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: inline-flex;
-    padding-right: 2%;
-}
-
-nav > ul > li {
-    position: relative;
-}
-
-nav ul ul {
-    display: none;
-    font-size: 13pt;
-    background-color: #1A76BD;
-    z-index: 1;
-    min-width:15em;
-}
-
-nav ul ul a {
-    padding: 0.8em;
-}
-
-.mainmenu li:hover .submenu {
-    display: inline-block;
-    position: absolute;
-}

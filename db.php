@@ -3,16 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <title>Query the corpus - WoPoss</title>
-        <meta charset="UTF-8" />
-        <meta name="description"
-            content="Website of the  project A world of possibilities. Modal pathways on the extra-long period of time: the diachrony of modality in the Latin language (SNSF n° PP00P1_176778)" />
-        <meta name="keywords" content="latin modality snfs woposs possibilities" />
-        <meta name="author" content="Francesca Dell’Oro, Paola Marongiu, Helena Bermúdez-Sabel" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link type="text/css" rel="stylesheet" href="css/main.css" />
-        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
-        <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
-        <link type="text/css" rel="stylesheet" href="css/mono.css" />
+        <?php include("ssi/head.html"); ?>
         
         
     </head>
