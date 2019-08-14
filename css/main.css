@@ -136,6 +136,7 @@ hr { display: block; height: 1px;
 .address {
     background-color: #1B2E3D;
     color: #9cc4f4;
+    padding-left:2em;
 }
 
 address a {
@@ -181,4 +182,7 @@ address img {
     width: 50px;
 }
 
+address {
+    padding-right:1em;
+}
 

@@ -41,15 +41,15 @@
     .submenu {
         font-size: 11pt;
     }
-    
+
     nav ul {
-        padding-right:1%;
+        padding-right: 1%;
     }
-    
+
     footer {
         font-size: 11pt;
     }
-    
+
     .logos p {
         font-size: 11pt;
     }
@@ -60,9 +60,9 @@
     nav a {
         padding: 0.6em;
     }
-    
+
     .ip {
-        width:90%
+        width: 90%
     }
 
     .members {
@@ -95,9 +95,9 @@
         background-color: inherit;
         padding-left: 4%;
     }
-    
+
     nav {
-        position:static;
+        position: static;
     }
 
     nav > ul {
@@ -121,8 +121,22 @@
     }
 
     main {
-        padding: 1%;
         margin-top: 2em;
     }
 
+    address img {
+        width: 20px;
+    }
+
+    footer {
+        font-size: 9pt;
+    }
+
+    .logos p {
+        font-size: 9pt;
+    }
+    
+    .hidden {
+        display:none;
+    }
 }
