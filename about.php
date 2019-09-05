@@ -50,7 +50,7 @@
                 domain</strong> (<a href="#oxfordmanual">Nuyts 2016</a>). Our <strong>original annotation schemas</strong> are derived by the combination
                 of those elaborated by <a href="https://modal.msh-vdl.fr/?lang=en" target="_blank">Paola Pietrandrea and her team for the annotation of
                 epistemic modality in oral corpora</a> with the
-                parameters used by Jan Nuyts in his project on the diachrony of the Dutch modal
+                parameters used by Jan Nuyts in his projects on the diachrony of the Dutch modal
                 verbs. The goal of the annotation is not to label the different types and subtypes
                 of modality, but to annotate a series of parameters which will allow us to
                 understand both why we recognise a certain type of modality and what the
@@ -64,15 +64,15 @@
                 <li id="bybee1994">Bybee, J. – Perkins, R. – Pagliuca, W. (1994), <em>The evolution
                         of grammar: tense, aspect and modality in the languages of the world</em>,
                     Chicago, University of Chicago Press.</li>
-                <li id="delloro2015">Dell’Oro, F. (2015), “What Role for Inscriptions in the Study
-                    of Syntax and Syntactic Change in the Old Indo-European Languages? The Pros and
-                    Cons of an Integration of Epigraphic Corpora”, in Viti, C., ed.,
+                <li id="delloro2015">Dell’Oro, F. (2015), “What role for inscriptions in the study
+                    of syntax and syntactic change in the old Indo-European languages? The pros and
+                    cons of an integration of epigraphic corpora”, in Viti, C., ed.,
                         <em>Perspectives on Historical Syntax</em>, Amsterdam, Benjamins: 271–290. </li>
                 <li id="nuyts2001">Nuyts, J. (2001), <em>Epistemic modality, language and
                         conceptualization: a cognitive–pragmatic perspective</em>, Amsterdam,
                     Benjamins.</li>
-                <li id="oxfordmanual">Nuyts, J. – van der Auwera, J. (2016), eds, The Oxford handbook of modality and mood,
-                    Oxford, Oxford University Press.</li>
+                <li id="oxfordmanual">Nuyts, J. – van der Auwera, J. (2016), eds, <em>The Oxford handbook of modality and mood,
+                    Oxford</em>, Oxford University Press.</li>
                 <li id="vanlinden2012">Van Linden, A. (2012), <em>Modal adjectives: English deontic
                         and evaluative constructions in synchrony and diachrony</em>, Berlin –
                     Boston, de Gruyter.</li>
