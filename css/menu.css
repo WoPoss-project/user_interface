@@ -3,14 +3,14 @@ nav {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    width: 100vw;
     margin: 0;
     padding: 0;
     font-size: 17pt;
     align-items: center;
     background-color: #1A76BD;
-    
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
+    position: fixed; 
+    top: 0; 
 
 }
 
@@ -59,8 +59,6 @@ nav ul ul a {
     padding: 0.8em;
 }
 
-
-/* Main content */
 main {
-  margin-top: 5em; /* Add a top margin to avoid content overlay */
+  margin-top: 5em; 
 }
