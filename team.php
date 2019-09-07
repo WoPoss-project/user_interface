@@ -88,6 +88,11 @@
             <h2>Assistants</h2>
             <div class="members">
             <div>
+            <figure>
+            <figcaption>Kelvin Bruggmann</figcaption>
+            </figure>
+            </div>
+            <div>
              <figure>
                         <img src="images/team/mael.jpg" alt="Maël Graa" />
                         <figcaption>Maël Graa (BA 2018)</figcaption>
@@ -95,6 +100,11 @@
                     
                    <p>Maël Graa obtained a Bachelor of Arts in History and Latin and he decided to deepen his knowledge in these two fields during his post-graduate training.
                    He is currently pursuing a Master degree at the Université de Lausanne, with an additional specialization in Discourse and Public Communication Analysis. His Master Thesis concerns the Latin poetry by Théodore de Bèze</p>
+            </div>
+                        <div>
+            <figure>
+            <figcaption>Séverine Reymond</figcaption>
+            </figure>
             </div>
             </div>
         </main>
