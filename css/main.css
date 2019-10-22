@@ -45,10 +45,11 @@ a {
     color: #5897C8;
 }
 
-p {
+p, ul, ol, li {
     text-align: justify;
-    line-height: 115%;
+    line-height: 125%;
 }
+
 
 .keywords {
     text-align:center;
@@ -79,6 +80,38 @@ main li {
     text-align:center;
 }
 
+/*News*/
+
+.news {
+    display:flex;
+}
+
+article {
+    margin: 1%;
+    margin-bottom: 2%;
+}
+
+article img {
+    width: 30em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+}
+
+.cloud {
+    width: 40em;
+}
+
+.news h2 {
+    text-align: center;
+}
+
+.news aside {
+    margin-top: 10%;
+    width: 40em;
+    margin-left: 3%;
+}
 
 /*Team members*/
 
@@ -89,7 +122,7 @@ main li {
 }
 
 .team-pic {
-    width: 25em;
+    width: 30em;
 }
 
 .ip {
@@ -98,17 +131,21 @@ main li {
 }
 
 
-.ip img, .members img {
+.ip img, .members img, .members_et img {
     width: 70%
 }
 
-.members {
+.members, .members_et {
     display:flex;
     justify-content: space-between;
 }
 
 .members div {
     width: 45%
+}
+
+.members_et div {
+    width: 32%;
 }
 
 
@@ -180,7 +217,7 @@ address {
 }
 
 address img {
-    width: 50px;
+    height: 50px;
 }
 
 address {
