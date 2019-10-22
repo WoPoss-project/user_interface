@@ -15,7 +15,7 @@
                     the Latin language</h2>
             </div>
             <p>The <a href="http://p3.snf.ch/project-176778" target="_blank">SNSF-funded project</a>
-                <em>A world of possibilities. Modal pathways on the extra-long period of time: the
+                <em>A world of possibilities. Modal pathways over an extra-long period of time: the
                     diachrony of modality in the Latin language</em> (WoPoss) aims at reconstructing
                 the evolution of modal meanings from the prehistory of the Latin language up to the
                 7th century CE. The WoPoss team is working on the linguistic annotation of a
