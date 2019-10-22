@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
@@ -86,11 +85,15 @@
 
             </div>
             <h2>Assistants</h2>
-            <div class="members">
+            <div class="members_et">
             <div>
             <figure>
+            <img src="images/team/kelvin.jpg" alt="Kelvin Bruggmann"/>
             <figcaption>Kelvin Bruggmann</figcaption>
             </figure>
+            <p>Kelvin Bruggmann is a Bachelor (BA) student at the University of Lausanne. His interests are multiple but centered on Latin language and literature and (historical) linguistics.
+             He wants to develop and acquire new abilities and skills in the fields he is studying. His main goal is to better understand ancient cultures, including their languages, in order to better
+              understand our current world. For all those reasons, he is taking part and contributing to this project.</p>
             </div>
             <div>
              <figure>
@@ -99,7 +102,7 @@
                     </figure>
                     
                    <p>Maël Graa obtained a Bachelor of Arts in History and Latin and he decided to deepen his knowledge in these two fields during his post-graduate training.
-                   He is currently pursuing a Master degree at the Université de Lausanne, with an additional specialization in Discourse and Public Communication Analysis. His Master Thesis concerns the Latin poetry by Théodore de Bèze</p>
+                   He is currently pursuing a Master degree at the Université de Lausanne, with an additional specialization in Discourse and Public Communication Analysis. His Master Thesis concerns the Latin poetry by Théodore de Bèze.</p>
             </div>
                         <div>
             <figure>
