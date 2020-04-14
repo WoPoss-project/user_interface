@@ -1,0 +1,26 @@
+rect[class] {
+    cursor: pointer;
+    fill: white;
+}
+
+
+title {
+    visibility: hidden;
+    width: 100px;
+    background-color: #8512d5;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 1;
+}
+
+rect:hover > title {
+    visibility: visible;
+}
+
+text.sense{
+    text-decoration: underline;
+    cursor: pointer;
+}
