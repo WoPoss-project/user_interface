@@ -93,18 +93,6 @@
     <div class="members_et">
         <div>
             <figure>
-                <img src="images/team/kelvin.jpg" alt="Kelvin Bruggmann"/>
-                <figcaption>Kelvin Bruggmann</figcaption>
-            </figure>
-            <p>Kelvin Bruggmann is a Bachelor (BA) student at the University of Lausanne. His interests are multiple but
-                centered on Latin language and literature and (historical) linguistics.
-                He wants to develop and acquire new abilities and skills in the fields he is studying. His main goal is
-                to better understand ancient cultures, including their languages, in order to better
-                understand our current world. For all those reasons, he is taking part and contributing to this
-                project.</p>
-        </div>
-        <div>
-            <figure>
                 <img src="images/team/mael.jpg" alt="Maël Graa"/>
                 <figcaption>Maël Graa (BA 2018)</figcaption>
             </figure>
@@ -127,6 +115,32 @@
                 project. She focuses her readings on Christian texts, thereby deepening her knowledge of
                 the history and theology of ancient Christianity.</p>
         </div>
+
+        <div>
+            <figure>
+<!--                <img src="" alt="Thomas von Kaenel">-->
+                <figcaption>Thomas von Kaenel</figcaption>
+            </figure>
+            <p></p>
+        </div>
+
+    </div>
+    <h2>Past collaborators</h2>
+    <div class="members_et">
+        <div></div>
+        <div>
+            <figure>
+                <img src="images/team/kelvin.jpg" alt="Kelvin Bruggmann"/>
+                <figcaption>Kelvin Bruggmann</figcaption>
+            </figure>
+            <p>Kelvin Bruggmann is a Bachelor (BA) student at the University of Lausanne. His interests are multiple but
+                centered on Latin language and literature and (historical) linguistics.
+                He wants to develop and acquire new abilities and skills in the fields he is studying. His main goal is
+                to better understand ancient cultures, including their languages, in order to better
+                understand our current world. For all those reasons, he is taking part and contributing to this
+                project.</p>
+        </div>
+        <div></div>
     </div>
 </main>
 <?php include("ssi/footer.html"); ?>
