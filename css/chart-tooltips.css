@@ -20,7 +20,6 @@ rect:hover > title {
     visibility: visible;
 }
 
-text.sense{
-    text-decoration: underline;
+text[class]{
     cursor: pointer;
 }

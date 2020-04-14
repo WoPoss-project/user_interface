@@ -11,7 +11,7 @@ function highlight() {
     clearHighlights();
     targets = document.getElementsByClassName(this.id);
     for (var i = 0; i < targets.length; i++) {
-        targets[i].style.fill = '#F6D55C';
+        targets[i].style.fill = '#E3B817';
     }
 }
 
