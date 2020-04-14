@@ -12,6 +12,35 @@
     <h1>News and Outreach</h1>
     <div class="news">
     <div>
+        <article id="dh2020">
+            <h2>Thrilling news for the WoPoss team: three abstracts accepted for DH2020 in Ottawa!</h2>
+            <img src="images/news/dh2020.png" alt="DH2020 carrefours/intersections" class="cloud"/>
+
+            <p>The members of the WoPoss team have three abstracts accepted in the <a href="https://dh2020.adho.org/" target="_blank">annual conference</a> of the Alliance of
+                Digital Humanities Organizations (ADHO) that is planned to take place in Ottawa from the 22nd to the
+                24th of July.</p>
+
+            <p>Francesca Dell’Oro will give an overview of our SNF-project in the short paper
+                “<a href="other/OpenAccessDiachronyModality.pdf" target="_blank">WoPoss - A World of Possibilities. An open access annotated corpus to study the diachrony of
+                    modality
+                    in the Latin language</a>”. Paola Marongiu will do a lighting talk presenting her PhD project which is
+                being developed in the framework of the project: “<a target="_blank" href="other/co-occurrences.pdf">Co-occurrence of modal markers: a network analysis
+                    approach</a>”. Last but not least the complete team (H. Bermúdez Sabel, F. Dell’Oro &amp; P. Marongiu) will discuss the visualization of semantic maps and its
+                application to modality in Latin with the poster “<a target="_blank" href="other/semantic_maps.pdf">Visualization of semantic shifts: the case of modal
+                    markers</a>”.</p>
+
+            <p>The current situation is putting on hold many scientific events, but also showing the important of working with Open Data. Our team deeply believe in Open Science! On May 1<sup>st</sup>, ADHO and the DH2020
+                organizers will provide an update regarding the conference. We hope that the event can take place: the
+                lively and in-depth discussions of previous editions have shown its importance for the development of
+                the DH field and the reinforcement and expansion of its community.</p>
+
+            <p>Looking forward to seeing you in Ottawa!</p>
+        </article>
+    <article id="semeval">
+    <h2>SemEval-2020</h2>
+    <img src="images/news/semeval.png" alt="semeval 2020 logo" class="cloud"/>
+    <p>WoPoss is glad to announce the collaboration with Barbara McGillivray and her team on SemEval2020! The team is currently working on the manual annotation for Task 1, and our contribution will mainly concern Latin - surprised uh?! The workshop will take place in Barcelona on September 13th-14th. Find out more about <a href="http://alt.qcri.org/semeval2020/" target="_blank">SemEval the International Workshop on Semantic Evaluation</a>; and about <a href="https://coling2020.org/">the 28th International Conference on Computational Linguistics</a> that will be hosting the workshop.</p>
+    </article>
             <article id="survey">
                 <h2>Survey about words of fear</h2>
 <img src="images/news/word-cloud.png" alt="word cloud multilingual words of fear" class="cloud">
