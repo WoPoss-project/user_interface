@@ -1,9 +1,9 @@
 var targets = document.getElementsByClassName('sense')
 
 window.addEventListener('DOMContentLoaded', function () {
-    var rects = document.querySelectorAll('rect,path,text');
-    for (var i = 0; i < rects.length; i++) {
-        rects[i].addEventListener('click', hide, false);
+    var senses = document.querySelectorAll('.sense');
+    for (var i = 0; i < senses.length; i++) {
+        senses[i].addEventListener('click', hide, false);
     }
 }, false);
 
@@ -15,6 +15,3 @@ targets = document.querySelectorAll('.sense:not(.'+ CSS.escape(this.id) + ')')
 
     }
 }
-
-
-//window.onunload=function(){return true;};

@@ -50,6 +50,12 @@ p, ul, ol, li {
     line-height: 125%;
 }
 
+.video{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
 
 .keywords {
     text-align:center;
