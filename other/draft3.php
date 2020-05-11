@@ -198,7 +198,7 @@
                 id="proven"
                 style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#333333;stroke-width:0.72929138;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
             <rect
-                class="sure to-happen possession sure_txt to-happen_txt possession_txt"
+                class="sure to-happen possession sure_txt to-happen_txt possession_txt trustworty trustworthy-text"
                 y="51.038376"
                 x="79.264915"
                 height="6.7225595"
@@ -321,7 +321,7 @@
                 id="possession"
                 style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#333333;stroke-width:0.76034558;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
             <rect
-                class="sure safe trustworthy sure_txt safe_txt trustworthy_txt"
+                class="sure safe trustworthy sure_txt safe_txt trustworthy_txt to-happen to-happen_txt"
                 y="24.354027"
                 x="-27.246632"
                 height="6.9073176"
@@ -621,7 +621,7 @@
                 x="153.27365"
                 y="64.041992" />
             <path
-                class="sure to-happen possession sure_txt to-happen_txt possession_txt"
+                class="sure to-happen possession sure_txt to-happen_txt possession_txt trustworthy_txt trustworthy"
                 id="path_to-happen"
                 d="m 145.78529,50.904669 5.51277,3.478352 -5.51276,3.439499"
                 style="fill:none;stroke:#e65902;stroke-width:1.01541162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -702,7 +702,7 @@
                     id="tspan913">trustworthy</tspan></text>
             <path
                 id="path_trustworthy"
-                class="sure safe trustworthy sure_txt safe_txt trustworthy_txt"
+                class="sure safe trustworthy sure_txt safe_txt trustworthy_txt  to-happen to-happen_txt"
                 d="m 145.92939,24.230122 5.46053,3.587679 -5.46052,3.547599"
                 style="fill:none;stroke:#333333;stroke-width:0.77581978;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
                 inkscape:connector-curvature="0"

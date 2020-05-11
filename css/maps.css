@@ -1,0 +1,20 @@
+.sense{
+    cursor: pointer;
+}
+
+.sense:not(.show) {
+    display: none;
+}
+
+rect[data-attest]{
+    cursor: pointer;
+}
+
+.attestation:not(.show) {
+    display: none;
+}
+
+.map {
+    display: flex;
+    flex-direction: column;
+}

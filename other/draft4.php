@@ -154,14 +154,36 @@
         <g
                 transform="translate(121.08275,53.462591)"
                 id="layer1">
-            <rect
-                    class="sense show suitable suitable_txt"
-                    y="147.16899"
-                    x="73.105392"
-                    height="6.8485131"
-                    width="74.895592"
-                    id="suitable"
-                    style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#333333;stroke-width:0.82275975;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+            <g data-title="prova atributo">
+                <title>Prova elemento</title>
+                <rect
+                        class="sense show suitable suitable_txt"
+                        y="147.16899"
+                        x="73.105392"
+                        height="6.8485131"
+                        width="74.895592"
+                        id="suitable"
+                        style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#333333;stroke-width:0.82275975;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+                <text
+                        class="sense show suitable suitable_txt"
+                        id="suitable_txt"
+                        y="151.90887"
+                        x="81.322937"
+                        style="font-style:normal;font-weight:normal;font-size:3.77395558px;line-height:0;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.23587222"
+                        xml:space="preserve"
+                        inkscape:label="#text996"><tspan
+                            style="stroke-width:0.23587222"
+                            y="151.90887"
+                            x="81.322937"
+                            id="tspan994">suitable</tspan></text>
+                <path
+                        class="sense show suitable suitable_txt"
+                        id="path_suitable"
+                        d="m 145.92158,147.00167 5.46053,3.58766 -5.46052,3.54761"
+                        style="fill:none;stroke:#333333;stroke-width:0.77581984;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                        inkscape:connector-curvature="0"
+                        inkscape:label="#path2917-3-20" />
+            </g>
             <rect
                     class="sense show reliable reliable_txt"
                     y="139.13303"
@@ -429,18 +451,7 @@
                         y="94.980728"
                         x="81.823349"
                         id="tspan990">relevant</tspan></text>
-            <text
-                    class="sense show suitable suitable_txt"
-                    id="suitable_txt"
-                    y="151.90887"
-                    x="81.322937"
-                    style="font-style:normal;font-weight:normal;font-size:3.77395558px;line-height:0;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.23587222"
-                    xml:space="preserve"
-                    inkscape:label="#text996"><tspan
-                        style="stroke-width:0.23587222"
-                        y="151.90887"
-                        x="81.322937"
-                        id="tspan994">suitable</tspan></text>
+
             <text
                     class="sense show certain_txt certain"
                     id="certain_txt"
@@ -712,13 +723,7 @@
                     style="fill:none;stroke:#333333;stroke-width:0.77581984;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
                     inkscape:connector-curvature="0"
                     inkscape:label="#path2917-3-79" />
-            <path
-                    class="sense show suitable suitable_txt"
-                    id="path_suitable"
-                    d="m 145.92158,147.00167 5.46053,3.58766 -5.46052,3.54761"
-                    style="fill:none;stroke:#333333;stroke-width:0.77581984;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-                    inkscape:connector-curvature="0"
-                    inkscape:label="#path2917-3-20" />
+
             <rect
                     style="opacity:0.97000002;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.01699281;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
                     id="rect930"
@@ -1019,6 +1024,7 @@
             </g>
         </g>
     </svg>
+
 
 
 </main>
