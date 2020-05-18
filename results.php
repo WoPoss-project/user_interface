@@ -33,8 +33,8 @@
                 </li>
             </ul>
             <h2>Datasets</h2>
-            <li>
-                <li>Reymond, Séverine; Dell’Oro Francesca (2020). “Annotation of <em>De spectaculis</em> (Tertullian)”. [<a target="_blank" href="db.php">Instructions
+            <ul>
+                <li>Reymond, Séverine; Dell’Oro, Francesca (2020). “Tertullian’s <em>De spectaculis</em> annotated according to the WoPoss guidelines”. [<a target="_blank" href="db.php">Instructions
                     and dataset</a>]
                 [<a href="other/copy_of_WoPoss_project_2020-05-14_0929.zip">download file</a>].</li>
             </ul>
