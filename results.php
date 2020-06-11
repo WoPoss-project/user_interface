@@ -32,7 +32,7 @@
 
                 </li>
             </ul>
-            <h2>Datasets</h2>
+            <h2>Datasets (sample)</h2>
             <ul>
                 <li>Reymond, Séverine; Dell’Oro, Francesca (2020). “Tertullian’s <em>De spectaculis</em> annotated according to the WoPoss guidelines”. [<a target="_blank" href="db.php">Instructions
                     and dataset</a>]
