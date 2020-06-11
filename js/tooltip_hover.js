@@ -9,7 +9,7 @@ function tooltipHover() {
 function popUp(event) {
     if (!this.dataset.identifier) {
         var overlay = document.createElement("div");
-        var x = event.pageX;
+        var x = event.pageX + 2;
         var y = event.pageY;
         var random = "n" + Math.random();
 
@@ -29,7 +29,7 @@ function popUp(event) {
         overlay.style.margin = "0";
         overlay.style.padding = ".5em";
         overlay.dataset.pointer = random;
-        overlay.addEventListener('mouseleave', eliminate, false);
+        overlay.addEventListener('mouseout', eliminate, false);
         document.body.appendChild(overlay);
     }
 }
