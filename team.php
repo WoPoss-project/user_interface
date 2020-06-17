@@ -118,14 +118,14 @@
 
         <div>
             <figure>
-<!--                <img src="" alt="Thomas von Kaenel">-->
+                <!--                <img src="" alt="Thomas von Kaenel">-->
                 <figcaption>Thomas von Kaenel</figcaption>
             </figure>
             <p></p>
         </div>
 
     </div>
-    <h2>Past collaborators</h2>
+    <h2 id="past-collaborators">Past collaborators</h2>
     <div class="members_et">
         <div></div>
         <div>
@@ -139,6 +139,15 @@
                 to better understand ancient cultures, including their languages, in order to better
                 understand our current world. For all those reasons, he is taking part and contributing to this
                 project.</p>
+            <div class="review">
+                <h3>In his words:</h3>
+                <p>During my time working with the WoPoss team, I had the opportunity to learn more about the (complex)
+                    latin syntactic functions and about a whole new field of knowledge that is really underestimated. It
+                    forced me to try to think like an ancient author, more so since I worked with Plautus which already
+                    is a
+                    really complex "character" on its own. I learned a lot, and with this message I thank the WoPoss
+                    team
+                    for their help and for their kindness, welcoming me in this adventure.</p></div>
         </div>
         <div></div>
     </div>

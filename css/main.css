@@ -146,11 +146,11 @@ article img {
     justify-content: space-between;
 }
 
-.members div {
+.members > div {
     width: 45%
 }
 
-.members_et div {
+.members_et > div {
     width: 32%;
 }
 
@@ -164,6 +164,10 @@ figure {
 figcaption {
     margin-top: 1em;
     font-weight: bold;
+}
+
+.review p {
+    font-style: italic;
 }
 
 /*Footer*/
