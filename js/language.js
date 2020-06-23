@@ -47,10 +47,10 @@ function language () {
 
 
 function changeLang() {
-    if (typeof this.id === 'undefined') {
+    if (typeof this.dataset.idno === 'undefined') {
         var id = readCookie('lg')
     } else {
-        var id = this.id;
+        var id = this.dataset.idno;
     }
     createCookie('lg', id, 30);
     var ens = document.getElementsByClassName('en');
@@ -60,8 +60,8 @@ function changeLang() {
     var initialSiglas = document.querySelectorAll('.languages > a > span');
     var initialSiglasLength = initialSiglas.length;
     for (i = 0; i < initialSiglasLength; i++) {
-        if (initialSiglas[i].id == id) {
-            initialSiglas[i].style.textShadow = '1px 2px 3px';
+        if (initialSiglas[i].dataset.idno == id) {
+            initialSiglas[i].style.textShadow = '1px 2px 1px';
         } else {
             initialSiglas[i].style.textShadow = 'none';
         }

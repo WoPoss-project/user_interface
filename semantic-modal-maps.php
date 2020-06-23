@@ -7,7 +7,7 @@
       xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
 >
 <head>
-    <title>Draft - WoPoss</title>
+    <title>Semantic maps - WoPoss</title>
     <script src="js/paths-collapse.js" type="text/javascript">/**/</script>
     <script src="js/language.js" type="text/javascript">/**/</script>
     <link type="text/css" rel="stylesheet" href="css/maps.css" />
@@ -21,26 +21,36 @@
 <main>
     <h1>Semantic modal maps</h1>
     <p class="warning">This is a work in progress.</p>
+
+    <h3>Instructions</h3>
     <ul>
-        <li>Click on a sense to see its semantic evolution.
-        <li>To reset the visualization, double click in any of the visible senses.</li>
+        <li><strong>Click</strong> on a sense to see its semantic evolution. To reset the visualization, <strong>double click</strong> in any of the visible senses.</li>
         <li>The modal semantics are color-coded: please refer to the legend available above each semantic modal map.</li>
-        <li>Mouse over a sense to get its first attestation.</li>
+        <li>Mouse over a sense to read its first attestation.</li>
+        <li>Senses between square brackets are our interpretation of the meaning based on the attestations. Senses preceded by “~” are an approximate translation.</li>
     </ul>
 
+    <h3>Available maps</h3>
+    <ul>
+        <li><a href="#certus">certus</a></li>
+        <li><a href="#potestas">potestas</a></li>
+    </ul>
+
+
+    <h2 id="certus">CERTUS</h2>
+<div class="map">
     <div class="languages">
-        Select the language:
+        Select language:
         <a title="English version">
-            <span id="en" class="language">EN</span>
+            <span data-idno="en" class="language">EN</span>
         </a>
         <a title="Latin version">
-            <span id="la" class="language">LA</span>
+            <span data-idno="la" class="language">LA</span>
         </a>
         </a>
     </div>
 
-    <h2>CERTUS</h2>
-<div class="map">
+
     <svg
             xmlns:svg="http://www.w3.org/2000/svg"
             xmlns="http://www.w3.org/2000/svg"
@@ -651,7 +661,8 @@
     </svg>
 
     <svg
-
+            xmlns:svg="http://www.w3.org/2000/svg"
+            xmlns="http://www.w3.org/2000/svg"
             inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
             sodipodi:docname="certus_def_2020-06-17.svg"
             width="430.42197mm"
@@ -667,17 +678,17 @@
                 fit-margin-top="10"
                 inkscape:guide-bbox="true"
                 showguides="true"
-                inkscape:current-layer="svg8"
-                inkscape:window-maximized="0"
+                inkscape:current-layer="performed"
+                inkscape:window-maximized="1"
                 inkscape:window-y="54"
-                inkscape:window-x="1992"
-                inkscape:cy="987.69821"
-                inkscape:cx="1489.2983"
+                inkscape:window-x="144"
+                inkscape:cy="163.14824"
+                inkscape:cx="1522.0775"
                 inkscape:zoom="2.95919"
                 showgrid="false"
                 id="namedview1029"
                 inkscape:window-height="2032"
-                inkscape:window-width="1848"
+                inkscape:window-width="3696"
                 inkscape:pageshadow="2"
                 inkscape:pageopacity="0"
                 guidetolerance="10"
@@ -855,7 +866,7 @@
                     <dc:format>image/svg+xml</dc:format>
                     <dc:type
                             rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-                    <dc:title></dc:title>
+                    <dc:title />
                 </cc:Work>
             </rdf:RDF>
         </metadata>
@@ -934,7 +945,6 @@
                     id="tspan1023-2">I BCE</tspan></text>
         <g
                 style="stroke-width:0.918369;stroke-miterlimit:4;stroke-dasharray:none"
-                data-attest="TER. Andr. 368 “‘opinor’ narras? ... certa res est”"
                 class="show sense proven known true sure authentic"
                 id="proven"
                 inkscape:label="proven"
@@ -964,10 +974,13 @@
                         y="29.296246"
                         x="-17.964251"
                         id="tspan3126"
-                        sodipodi:role="line" class="en">that has been proven right, correct, true</tspan><tspan class="la"
-                                                                                                                style="font-size:3.88055992px;stroke-width:0.242985"
-                                                                                                                y="29.296246"
-                                                                                                                x="-17.964251">probatus, quod putes verum esse vel re vera existere</tspan></text>
+                        sodipodi:role="line"
+                        class="en">that has been proven right, correct, true</tspan><tspan
+                        class="la"
+                        style="font-size:3.88055992px;stroke-width:0.242985"
+                        y="29.296246"
+                        x="-17.964251"
+                        id="tspan856">probatus, quod putes verum esse vel re vera existere</tspan></text>
         </g>
         <g
                 inkscape:label="etymology"
@@ -1285,10 +1298,13 @@
                         y="37.880882"
                         x="-17.689596"
                         id="tspan3111"
-                        sodipodi:role="line" class="en">evident</tspan><tspan class="la"  style="font-size:3.88055992px;stroke-width:0.242985"
-                                                                              y="37.880882"
-                                                                              x="-17.689596"
-                >manifestus</tspan></text>
+                        sodipodi:role="line"
+                        class="en">evident</tspan><tspan
+                        class="la"
+                        style="font-size:3.88055992px;stroke-width:0.242985"
+                        y="37.880882"
+                        x="-17.689596"
+                        id="tspan920">manifestus</tspan></text>
         </g>
         <text
                 id="text1025-1-5"
@@ -1350,17 +1366,18 @@
                     style="fill:none;stroke:#333333;stroke-width:0.918369;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
                     d="m 369.50772,32.816641 8.07819,3.398943 -8.07818,3.360978"
                     id="proven_path-6" />
-            <text
-                    xml:space="preserve"
-                    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88055992px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299"
-                    x="120.39043"
-                    y="37.655907"
-                    id="text8358"><tspan
+            <text class="en"
+                  xml:space="preserve"
+                  style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88055992px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299"
+                  x="120.39043"
+                  y="37.655907"
+                  id="text8358"><tspan
                         sodipodi:role="line"
                         id="tspan8356"
                         x="120.39043"
                         y="37.655907"
-                        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88055992px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458299">nothing defined</tspan></text>
+                        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88055992px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458299"
+                        class="en">nothing defined</tspan></text>
             <text
                     xml:space="preserve"
                     style="font-style:normal;font-weight:normal;font-size:4.58611012px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299"
@@ -1376,7 +1393,7 @@
         <g
                 inkscape:label="certum-est"
                 id="certum-est"
-                class="sense show certum-est decided want it-is-sure"
+                class="sense show certum-est decided want it-is-sure certain"
                 transform="translate(21.166584,-1.5352102e-6)">
             <text
                     xml:space="preserve"
@@ -1434,9 +1451,13 @@
                         y="54.167675"
                         x="-17.882195"
                         id="tspan1332"
-                        sodipodi:role="line" class="en">trustworthy</tspan><tspan class="la" style="font-size:3.88055992px;stroke-width:0.918369;stroke-miterlimit:4;stroke-dasharray:none"
-                                                                                  y="54.167675"
-                                                                                  x="-17.882195">fidus</tspan></text>
+                        sodipodi:role="line"
+                        class="en">trustworthy</tspan><tspan
+                        class="la"
+                        style="font-size:3.88055992px;stroke-width:0.918369;stroke-miterlimit:4;stroke-dasharray:none"
+                        y="54.167675"
+                        x="-17.882195"
+                        id="tspan949">fidus</tspan></text>
         </g>
         <g
                 style="stroke-width:0.763735;stroke-miterlimit:4;stroke-dasharray:none"
@@ -1470,9 +1491,13 @@
                         y="50.851158"
                         x="-25.79903"
                         id="tspan1340"
-                        sodipodi:role="line" class="en">established, decided, fixed</tspan><tspan style="font-size:3.22714996px;stroke-width:0.763735;stroke-miterlimit:4;stroke-dasharray:none"
-                                                                                                  y="50.851158"
-                                                                                                  x="-25.79903" class="la">statutus, animo propositus</tspan></text>
+                        sodipodi:role="line"
+                        class="en">established, decided, fixed</tspan><tspan
+                        style="font-size:3.22714996px;stroke-width:0.763735;stroke-miterlimit:4;stroke-dasharray:none"
+                        y="50.851158"
+                        x="-25.79903"
+                        class="la"
+                        id="tspan957">statutus, animo propositus</tspan></text>
         </g>
         <g
                 style="stroke-width:0.918369;stroke-miterlimit:4;stroke-dasharray:none"
@@ -1505,9 +1530,13 @@
                         y="70.466507"
                         x="-17.940453"
                         id="tspan10065"
-                        sodipodi:role="line" class="en">someone or something that can be trusted</tspan><tspan style="font-size:3.88055992px;stroke-width:0.918369;stroke-miterlimit:4;stroke-dasharray:none"
-                                                                                                               y="70.466507"
-                                                                                                               x="-17.940453" class="la">cui credere licet</tspan></text>
+                        sodipodi:role="line"
+                        class="en">someone or something that can be trusted</tspan><tspan
+                        style="font-size:3.88055992px;stroke-width:0.918369;stroke-miterlimit:4;stroke-dasharray:none"
+                        y="70.466507"
+                        x="-17.940453"
+                        class="la"
+                        id="tspan965">cui credere licet</tspan></text>
         </g>
         <g
                 style="stroke-width:1.00012004;stroke-miterlimit:4;stroke-dasharray:none"
@@ -1547,7 +1576,8 @@
                         style="font-size:3.88055992px;stroke-width:1.00012004;stroke-miterlimit:4;stroke-dasharray:none"
                         y="78.749588"
                         x="-17.925762"
-                        sodipodi:role="line">definitus</tspan></text>
+                        sodipodi:role="line"
+                        id="tspan973">definitus</tspan></text>
         </g>
         <g
                 style="stroke-width:0.916013;stroke-miterlimit:4;stroke-dasharray:none"
@@ -1555,6 +1585,8 @@
                 inkscape:label="decided"
                 class="sense show decided established certum-est"
                 transform="matrix(1.0051507,0,0,1,43.652855,-86.235245)">
+            <title
+                    id="title1299">ENN. ann. 200 eorundem libertati me parcere certumst.</title>
             <path
                     sodipodi:insensitive="true"
                     style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#333333;stroke-width:0.93626201;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -1575,12 +1607,14 @@
                     y="147.50795"
                     x="97.639763"
                     style="font-style:normal;font-weight:normal;font-size:4.92621994px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.916013;stroke-miterlimit:4;stroke-dasharray:none"
+                    class="en"
                     xml:space="preserve"><tspan
                         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.87059999px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.916013;stroke-miterlimit:4;stroke-dasharray:none"
                         y="147.50795"
                         x="97.639763"
                         id="tspan8386"
-                        sodipodi:role="line">it was decided</tspan></text>
+                        sodipodi:role="line"
+                        class="en">it was decided</tspan></text>
         </g>
         <g
                 inkscape:label="want"
@@ -1588,7 +1622,7 @@
                 class="show sense certum-est want"
                 transform="translate(21.166584,-1.5352102e-6)">
             <title
-                    id="title4689">PLAUT. 63&lt;sup&gt;ies&lt;/sup&gt;, ex. gr. Amph. 265 quando imago est huius in me, certum est hominem eludere.</title>
+                    id="title4689">PLAUT. 63ⁱᵉˢ, ex. gr. Amph. 265 quando imago est huius in me, certum est hominem eludere.</title>
             <path
                     style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#c40233;stroke-width:0.943317;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
                     d="M 369.50616,72.277488 H 111.09535 v -6.663454 h 258.41081"
@@ -1612,10 +1646,14 @@
                         y="70.145081"
                         x="120.37717"
                         id="tspan8386-5"
-                        sodipodi:role="line" class="en">~ I want</tspan><tspan class="la"  style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88055992px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458299"
-                                                                               y="70.145081"
-                                                                               x="120.37717"
-                >volo</tspan></text>
+                        sodipodi:role="line"
+                        class="en">~ I want</tspan>
+                <tspan
+                   class="la"
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88055992px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458299"
+                   y="70.145081"
+                   x="120.37717"
+                   id="tspan986">volo</tspan></text>
         </g>
         <g
                 inkscape:label="have"
@@ -1653,17 +1691,14 @@
                     y="103.49358"
                     x="120.3251"
                     style="font-style:normal;font-weight:normal;font-size:4.93888998px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.918369;stroke-miterlimit:4;stroke-dasharray:none"
+                    class="en"
                     xml:space="preserve"><tspan
                         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88055992px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.918369;stroke-miterlimit:4;stroke-dasharray:none"
                         y="103.49358"
                         x="120.3251"
                         id="tspan8386-4"
-                        sodipodi:role="line">I have secured</tspan><tspan
-                        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88055992px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.918369;stroke-miterlimit:4;stroke-dasharray:none"
-                        y="109.6672"
-                        x="120.3251"
                         sodipodi:role="line"
-                        id="tspan4791" /></text>
+                        class="en">I have secured</tspan></text>
         </g>
         <g
                 inkscape:label="for-sure"
@@ -1698,6 +1733,7 @@
                     id="certain_path-0_-8" />
             <text
                     xml:space="preserve"
+                    class="en"
                     style="font-style:normal;font-weight:normal;font-size:4.93888998px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.918369;stroke-miterlimit:4;stroke-dasharray:none"
                     x="120.3251"
                     y="111.45738"
@@ -1706,7 +1742,8 @@
                         id="tspan8386-47"
                         x="120.3251"
                         y="111.45738"
-                        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88055992px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.918369;stroke-miterlimit:4;stroke-dasharray:none">I know for sure</tspan></text>
+                        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88055992px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.918369;stroke-miterlimit:4;stroke-dasharray:none"
+                        class="en">I know for sure</tspan></text>
         </g>
         <g
                 inkscape:label="hear"
@@ -1744,18 +1781,23 @@
                     style="font-style:normal;font-weight:normal;font-size:4.93888998px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299"
                     x="120.3251"
                     y="119.4212"
+                    class="en"
                     id="text8388-62-2"><tspan
                         sodipodi:role="line"
                         id="tspan8386-47-8"
                         x="120.3251"
                         y="119.4212"
-                        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88055992px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458299">to hear/say something sure</tspan></text>
+                        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88055992px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458299"
+                        class="en">to hear/say something sure</tspan></text>
         </g>
         <g
                 inkscape:label="undoubtedly"
                 id="undoubtedly"
                 class="show sense undoubtedly it-is-sure certum-est"
                 transform="translate(21.166584,-1.5352102e-6)">
+            <title
+                    id="title1303">- PLAUT. Merc. 655 si id fore ita sat animo acceptumst, certum id, pro certo si habes.
+- CIC. Att. 10, 6, 3 Pompeium pro certo habemus ... proficisci al.</title>
             <text
                     xml:space="preserve"
                     style="font-style:normal;font-weight:normal;font-size:4.58611012px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299"
@@ -1785,12 +1827,14 @@
                     y="127.38507"
                     x="120.32511"
                     style="font-style:normal;font-weight:normal;font-size:4.93888998px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.918369;stroke-miterlimit:4;stroke-dasharray:none"
+                    class="en"
                     xml:space="preserve"><tspan
                         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88055992px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.918369;stroke-miterlimit:4;stroke-dasharray:none"
                         y="127.38507"
                         x="120.32511"
                         id="tspan8386-47-89"
-                        sodipodi:role="line">for sure, undoubtedly</tspan></text>
+                        sodipodi:role="line"
+                        class="en">for sure, undoubtedly</tspan></text>
         </g>
         <g
                 inkscape:label="be-informed"
@@ -1833,1403 +1877,3145 @@
                         y="151.79933"
                         x="120.27009"
                         id="tspan8386-4-9"
-                        sodipodi:role="line">to be informed</tspan></text>
+                        sodipodi:role="line"
+                        class="en">to be informed</tspan></text>
         </g>
         <g
-                inkscape:label="certain"
                 id="certain"
-                class="sense show it-is-sure certain performed certum-est"
-                transform="translate(21.166584,-1.5352102e-6)">
+                inkscape:label="certain"
+                class="sense certain show it-is-sure performed"
+                transform="translate(21.16666,-0.08941073)">
+            <title
+                    id="title1533">- PLAUT. Merc. 129 lubet scire (me), ex hoc metu ut sim certus*
+- CIC. Att. 2, 19, 5 hoc opinor: certi sumus periisse omnia.</title>
             <path
                     style="fill:#ffffff;fill-opacity:1;stroke:#00a368;stroke-width:0.94367802;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-                    d="M 369.39907,162.13591 H 110.9903 v -6.67001 h 258.40877"
-                    id="certain_rect-9-4-9-8"
+                    d="M 369.39899,162.13591 H 182.60038 m -0.17882,-6.67001 h 186.97743"
+                    id="certus-sum_modal"
                     inkscape:connector-curvature="0"
                     sodipodi:nodetypes="cccc"
-                    inkscape:label="" />
+                    inkscape:label="certus-sum_modal" />
+            <path
+                    inkscape:label="certus-sum_premodal"
+                    sodipodi:nodetypes="cccc"
+                    inkscape:connector-curvature="0"
+                    id="certus-sum_premodal"
+                    d="m 184.26442,162.13591 h -73.2742 v -6.67001 h 73.09122"
+                    style="fill:#ffffff;fill-opacity:1;stroke:#333333;stroke-width:0.95457935;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+            <text
+                    id="text8362-1-4-7-36"
+                    y="160.59659"
+                    x="79.548615"
+                    style="font-style:normal;font-weight:normal;font-size:4.58611012px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299"
+                    xml:space="preserve"><tspan
+                        style="font-size:4.58611012px;stroke-width:0.26458299"
+                        y="160.59659"
+                        x="79.548615"
+                        id="tspan8360-5-9-6-7"
+                        sodipodi:role="line">CERTUS SUM</tspan></text>
             <path
                     id="certain_path-0_-1-4-2"
-                    d="m 369.39907,155.4659 8.13455,3.35618 -8.13454,3.31868"
+                    d="m 369.39899,155.4659 8.13455,3.35618 -8.13454,3.31868"
                     style="fill:none;stroke:#00a368;stroke-width:0.918369;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
                     inkscape:connector-curvature="0"
                     inkscape:label="#path2917-3-93" />
             <text
-                    id="text8388-0-5-9"
+                    id="certain_txt"
                     y="159.99716"
-                    x="120.27108"
+                    x="120.271"
                     style="font-style:normal;font-weight:normal;font-size:4.93888998px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.918369;stroke-miterlimit:4;stroke-dasharray:none"
-                    xml:space="preserve"><tspan
+                    xml:space="preserve"
+                    inkscape:label="certain_txt"><tspan
                         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88055992px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.918369;stroke-miterlimit:4;stroke-dasharray:none"
                         y="159.99716"
-                        x="120.27108"
+                        x="120.271"
                         id="tspan8386-4-9-9"
-                        sodipodi:role="line" class="en">I am certain</tspan><tspan class="la"   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88055992px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.918369;stroke-miterlimit:4;stroke-dasharray:none"
-                                                                                   y="159.99716"
-                                                                                   x="120.27108">persuasus sum(?)</tspan></text>
-            <text
-                    id="text8362-1-4-7-1"
-                    y="160.80315"
-                    x="79.540474"
-                    style="font-style:normal;font-weight:normal;font-size:4.58611012px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299"
-                    xml:space="preserve"><tspan
-                        style="font-size:4.58611012px;stroke-width:0.26458299"
-                        y="160.80315"
-                        x="79.540474"
-                        id="tspan8360-5-9-6-3"
-                        sodipodi:role="line">CERTUS SUM</tspan></text>
+                        sodipodi:role="line"
+                        class="en">I am certain</tspan>  <!--<tspan--><!--         class="la"--><!--         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88055992px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.918369;stroke-miterlimit:4;stroke-dasharray:none"--><!--         y="159.99716"--><!--         x="120.27108"--><!--         id="tspan1033">[persuasus sum]</tspan></text>--></text>
         </g>
         <g
-                inkscape:label="it-is-sure"
-                id="it-is-sure"
+                transform="translate(21.1665,-3.0704204e-6)"
                 class="sense show it-is-sure certum-est have for-sure hear undoubtedly certain say know performed"
-                transform="translate(21.166584,-1.5352102e-6)">
+                id="it-is-sure"
+                inkscape:label="it-is-sure">
+            <title
+                    id="title1301">PLAUT. Capt. 732 certumne est tibi istuc? :: non moriri certius.</title>
             <path
-                    style="fill:#ffffff;fill-opacity:1;stroke:#00a368;stroke-width:0.93866998;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-                    d="M 369.50517,80.703316 H 111.09389 v -6.59934 h 258.41128"
-                    id="certain_rect-9-3-6"
-                    inkscape:connector-curvature="0"
+                    inkscape:label="it-is-sure-rect"
                     sodipodi:nodetypes="cccc"
-                    inkscape:label="it-is-sure-rect" />
-            <path
-                    id="certain_path-0_-2-5"
-                    d="m 369.50517,74.103976 8.13455,3.35618 -8.13452,3.31868"
-                    style="fill:none;stroke:#00a368;stroke-width:0.918369;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
                     inkscape:connector-curvature="0"
-                    inkscape:label="it-is-sure-arrow" />
+                    id="certain_rect-9-3-6"
+                    d="M 369.50517,80.703316 H 111.09389 v -6.59934 h 258.41128"
+                    style="fill:#ffffff;fill-opacity:1;stroke:#00a368;stroke-width:0.93866998;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+            <path
+                    inkscape:label="it-is-sure-arrow"
+                    inkscape:connector-curvature="0"
+                    style="fill:none;stroke:#00a368;stroke-width:0.918369;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                    d="m 369.50517,74.103976 8.13455,3.35618 -8.13452,3.31868"
+                    id="certain_path-0_-2-5" />
             <text
-                    id="text1453"
-                    y="78.406273"
-                    x="120.24931"
-                    style="font-style:normal;font-weight:normal;font-size:3.88055992px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.24236199;stroke-miterlimit:4;stroke-dasharray:none"
+                    inkscape:label="it-is-sure-text"
                     xml:space="preserve"
-                    inkscape:label="it-is-sure-text"><tspan
-                        style="font-size:3.88055992px;stroke-width:0.24236199"
-                        y="78.406273"
-                        x="120.24931"
+                    style="font-style:normal;font-weight:normal;font-size:3.88055992px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.24236199;stroke-miterlimit:4;stroke-dasharray:none"
+                    x="120.24931"
+                    y="78.406273"
+                    id="text1453"><tspan
+                        class="en"
+                        sodipodi:role="line"
                         id="tspan1451"
-                        sodipodi:role="line">it is sure</tspan></text>
+                        x="120.24931"
+                        y="78.406273"
+                        style="font-size:3.88055992px;stroke-width:0.24236199">it is sure</tspan></text>
         </g>
         <g
-                inkscape:label="sure"
-                id="sure"
+                transform="translate(21.1665,-3.0704204e-6)"
                 class="sense show sure happen trustworthy trusty-words proven safe"
-                transform="translate(21.166584,-1.5352102e-6)">
+                id="sure"
+                inkscape:label="sure">
             <title
                     id="title4737">VERG. Aen. 9, 95 certusque (suppl. velut: boni eventus) incerta pericula lustret Aeneas? </title>
             <path
-                    style="fill:#ffffff;fill-opacity:1;stroke:#00a368;stroke-width:0.918369;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-                    d="m 369.50839,307.72292 h -185.2439 v -6.70594 h 185.2439"
-                    id="relevant_rect-08"
-                    inkscape:connector-curvature="0"
+                    inkscape:label="#relevant"
                     sodipodi:nodetypes="cccc"
-                    inkscape:label="#relevant" />
-            <path
-                    id="relevant_path-7"
-                    d="m 369.50839,301.0235 8.20528,3.35242 -8.20526,3.31497"
-                    style="fill:none;stroke:#00a368;stroke-width:0.918369;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
                     inkscape:connector-curvature="0"
-                    inkscape:label="#path2917-3-93" />
+                    id="relevant_rect-08"
+                    d="m 369.50839,307.72292 h -185.2439 v -6.70594 h 185.2439"
+                    style="fill:#ffffff;fill-opacity:1;stroke:#00a368;stroke-width:0.918369;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+            <path
+                    inkscape:label="#path2917-3-93"
+                    inkscape:connector-curvature="0"
+                    style="fill:none;stroke:#00a368;stroke-width:0.918369;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                    d="m 369.50839,301.0235 8.20528,3.35242 -8.20526,3.31497"
+                    id="relevant_path-7" />
             <text
-                    xml:space="preserve"
-                    style="font-style:normal;font-weight:normal;font-size:3.88056993px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299;stroke-miterlimit:4;stroke-dasharray:none"
-                    x="193.57748"
-                    y="305.54456"
+                    inkscape:label="#text1470-63"
                     id="text1470-63"
-                    inkscape:label="#text1470-63"><tspan
-                        sodipodi:role="line"
-                        id="tspan1468-50"
-                        x="193.57748"
+                    y="305.54456"
+                    x="193.57748"
+                    style="font-style:normal;font-weight:normal;font-size:3.88056993px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299;stroke-miterlimit:4;stroke-dasharray:none"
+                    xml:space="preserve"><tspan
+                        class="en"
+                        style="font-size:3.88056993px;stroke-width:0.26458299"
                         y="305.54456"
-                        style="font-size:3.88056993px;stroke-width:0.26458299" class="en">sure</tspan><tspan class="la"   x="193.57748"
-                                                                                                             y="305.54456"
-                                                                                                             style="font-size:3.88056993px;stroke-width:0.26458299">securus</tspan></text>
+                        x="193.57748"
+                        id="tspan1468-50"
+                        sodipodi:role="line">sure</tspan><tspan
+                        id="tspan1048"
+                        style="font-size:3.88056993px;stroke-width:0.26458299"
+                        y="305.54456"
+                        x="193.57748"
+                        class="la">securus</tspan></text>
         </g>
         <g
-                inkscape:label="urge"
-                id="urge"
+                transform="translate(21.1665,-3.0704204e-6)"
                 class="sense show urge inform"
-                transform="translate(21.166584,-1.5352102e-6)">
+                id="urge"
+                inkscape:label="urge">
             <title
                     id="title4735">CIC. Att. 2, 24, 2 Bibulus Pompeium fecerat certiorem, ut caveret insidias.</title>
             <path
-                    style="fill:#ffffff;fill-opacity:1;stroke:#333333;stroke-width:0.918369;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-                    d="m 369.50839,315.72758 h -185.2439 v -6.70594 h 185.2439"
+                    inkscape:label="#relevant"
+                    sodipodi:nodetypes="cccc"
+                    inkscape:connector-curvature="0"
                     id="relevant_rect-8"
-                    inkscape:connector-curvature="0"
-                    sodipodi:nodetypes="cccc"
-                    inkscape:label="#relevant" />
+                    d="m 369.50839,315.72758 h -185.2439 v -6.70594 h 185.2439"
+                    style="fill:#ffffff;fill-opacity:1;stroke:#333333;stroke-width:0.918369;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
             <path
-                    id="relevant_path-0"
+                    inkscape:label="#path2917-3-93"
+                    inkscape:connector-curvature="0"
+                    style="fill:none;stroke:#333333;stroke-width:0.918369;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
                     d="m 369.50839,309.02816 8.20528,3.35242 -8.20526,3.31497"
-                    style="fill:none;stroke:#333333;stroke-width:0.918369;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-                    inkscape:connector-curvature="0"
-                    inkscape:label="#path2917-3-93" />
+                    id="relevant_path-0" />
             <text
-                    inkscape:label="#text1470-41"
-                    xml:space="preserve"
-                    style="font-style:normal;font-weight:normal;font-size:3.88056993px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299;stroke-miterlimit:4;stroke-dasharray:none"
-                    x="193.57748"
+                    id="text1470-41"
                     y="313.54916"
-                    id="text1470-41"><tspan
-                        sodipodi:role="line"
-                        id="tspan1468-13"
-                        x="193.57748"
-                        y="313.54916"
-                        style="font-size:3.88056993px;stroke-width:0.26458299" class="en">urge, exhort</tspan><tspan class="la"    x="193.57748"
-                                                                                                                     y="313.54916"
-                                                                                                                     style="font-size:3.88056993px;stroke-width:0.26458299">seq. adhortatio sim.(?)</tspan></text>
-        </g>
-        <g
-                inkscape:label="make"
-                id="make"
-                class="sense show make reassure sui"
-                transform="translate(21.166584,-1.5352102e-6)">
-            <path
-                    style="fill:#ffffff;fill-opacity:1;stroke:#333333;stroke-width:0.918369;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-                    d="M 369.50838,323.77993 H 184.26449 v -6.70594 h 185.24389"
-                    id="relevant_rect-59"
-                    inkscape:connector-curvature="0"
-                    sodipodi:nodetypes="cccc"
-                    inkscape:label="#relevant" />
-            <text
-                    xml:space="preserve"
-                    style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-                    x="139.74811"
-                    y="321.98441"
-                    id="text947-7"
-                    inkscape:label="CERTUM"><tspan
-                        sodipodi:role="line"
-                        id="tspan945-5"
-                        x="139.74811"
-                        y="321.98441"
-                        style="stroke-width:0.26458332">CERTUM FACERE</tspan></text>
-            <path
-                    id="relevant_path-341"
-                    d="m 369.50838,317.08051 8.20528,3.35242 -8.20526,3.31497"
-                    style="fill:none;stroke:#333333;stroke-width:0.918369;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-                    inkscape:connector-curvature="0"
-                    inkscape:label="#path2917-3-93" />
-            <text
-                    inkscape:label="#text1470-50"
-                    xml:space="preserve"
-                    style="font-style:normal;font-weight:normal;font-size:3.88056993px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299;stroke-miterlimit:4;stroke-dasharray:none"
                     x="193.57748"
-                    y="321.6015"
-                    id="text1470-50"><tspan
-                        sodipodi:role="line"
-                        id="tspan1468-83"
+                    style="font-style:normal;font-weight:normal;font-size:3.88056993px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299;stroke-miterlimit:4;stroke-dasharray:none"
+                    xml:space="preserve"
+                    inkscape:label="#text1470-41"><tspan
+                        class="en"
+                        style="font-size:3.88056993px;stroke-width:0.26458299"
+                        y="313.54916"
                         x="193.57748"
-                        y="321.6015"
-                        style="font-size:3.88056993px;stroke-width:0.26458299">to make certain</tspan></text>
+                        id="tspan1468-13"
+                        sodipodi:role="line">urge, exhort</tspan><tspan
+                        id="tspan1056"
+                        style="font-size:3.88056993px;stroke-width:0.26458299"
+                        y="313.54916"
+                        x="193.57748"
+                        class="la">[seq. adhortatio sim.]</tspan></text>
         </g>
         <g
-                inkscape:label="safe"
-                id="safe"
+                transform="translate(21.1665,-3.0704204e-6)"
+                class="sense show make reassure sui"
+                id="make"
+                inkscape:label="make">
+            <title
+                    id="title1331">OV. met. 6, 268 fama mali populique dolor ... matrem certam fecere ruinae.</title>
+            <path
+                    inkscape:label="#relevant"
+                    sodipodi:nodetypes="cccc"
+                    inkscape:connector-curvature="0"
+                    id="relevant_rect-59"
+                    d="M 369.50838,323.77993 H 184.26449 v -6.70594 h 185.24389"
+                    style="fill:#ffffff;fill-opacity:1;stroke:#333333;stroke-width:0.918369;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+            <text
+                    inkscape:label="CERTUM"
+                    id="text947-7"
+                    y="321.98441"
+                    x="139.74811"
+                    style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+                    xml:space="preserve"><tspan
+                        style="stroke-width:0.26458332"
+                        y="321.98441"
+                        x="139.74811"
+                        id="tspan945-5"
+                        sodipodi:role="line">CERTUM FACERE</tspan></text>
+            <path
+                    inkscape:label="#path2917-3-93"
+                    inkscape:connector-curvature="0"
+                    style="fill:none;stroke:#333333;stroke-width:0.918369;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                    d="m 369.50838,317.08051 8.20528,3.35242 -8.20526,3.31497"
+                    id="relevant_path-341" />
+            <text
+                    id="text1470-50"
+                    y="321.6015"
+                    x="193.57748"
+                    style="font-style:normal;font-weight:normal;font-size:3.88056993px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299;stroke-miterlimit:4;stroke-dasharray:none"
+                    xml:space="preserve"
+                    inkscape:label="#text1470-50"><tspan
+                        class="en"
+                        style="font-size:3.88056993px;stroke-width:0.26458299"
+                        y="321.6015"
+                        x="193.57748"
+                        id="tspan1468-83"
+                        sodipodi:role="line">to make certain</tspan></text>
+        </g>
+        <g
+                transform="translate(21.1665,-3.0704204e-6)"
                 class="show sense safe sure"
-                transform="translate(21.166584,-1.5352102e-6)">
+                id="safe"
+                inkscape:label="safe">
             <title
                     id="title4729">CIC. nat. deor. 2, 131 ab ventis Etesiis etiam maritimi cursus celeres et certi deriguntur.</title>
             <path
-                    style="fill:#ffffff;fill-opacity:1;stroke:#333333;stroke-width:0.918369;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-                    d="m 369.50839,331.7488 h -185.2439 v -6.70594 h 185.2439"
-                    id="relevant_rect-56"
-                    inkscape:connector-curvature="0"
-                    sodipodi:nodetypes="cccc"
-                    inkscape:label="#safe" />
-            <path
-                    id="relevant_path-5"
-                    d="m 369.50839,325.04938 8.20528,3.35242 -8.20526,3.31497"
-                    style="fill:none;stroke:#333333;stroke-width:0.918369;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-                    inkscape:connector-curvature="0"
-                    inkscape:label="#path2917-3-93" />
-            <text
                     inkscape:label="#safe"
-                    xml:space="preserve"
-                    style="font-style:normal;font-weight:normal;font-size:3.88056993px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299;stroke-miterlimit:4;stroke-dasharray:none"
-                    x="193.57748"
+                    sodipodi:nodetypes="cccc"
+                    inkscape:connector-curvature="0"
+                    id="relevant_rect-56"
+                    d="m 369.50839,331.7488 h -185.2439 v -6.70594 h 185.2439"
+                    style="fill:#ffffff;fill-opacity:1;stroke:#333333;stroke-width:0.918369;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+            <path
+                    inkscape:label="#path2917-3-93"
+                    inkscape:connector-curvature="0"
+                    style="fill:none;stroke:#333333;stroke-width:0.918369;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                    d="m 369.50839,325.04938 8.20528,3.35242 -8.20526,3.31497"
+                    id="relevant_path-5" />
+            <text
+                    id="text1470-99"
                     y="329.5704"
-                    id="text1470-99"><tspan
-                        sodipodi:role="line"
-                        id="tspan1468-0"
-                        x="193.57748"
+                    x="193.57748"
+                    style="font-style:normal;font-weight:normal;font-size:3.88056993px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299;stroke-miterlimit:4;stroke-dasharray:none"
+                    xml:space="preserve"
+                    inkscape:label="#safe"><tspan
+                        class="en"
+                        style="font-size:3.88056993px;stroke-width:0.26458299"
                         y="329.5704"
-                        style="font-size:3.88056993px;stroke-width:0.26458299" class="en">safe, secure</tspan><tspan class="la"  x="193.57748"
-                                                                                                                     y="329.5704"
-                                                                                                                     style="font-size:3.88056993px;stroke-width:0.26458299" >tutus</tspan></text>
+                        x="193.57748"
+                        id="tspan1468-0"
+                        sodipodi:role="line">safe, secure</tspan><tspan
+                        id="tspan1071"
+                        style="font-size:3.88056993px;stroke-width:0.26458299"
+                        y="329.5704"
+                        x="193.57748"
+                        class="la">tutus</tspan></text>
         </g>
         <g
-                inkscape:label="right"
-                id="right"
+                transform="translate(21.1665,-3.0704204e-6)"
                 class="sense show right true proven"
-                transform="translate(21.166584,-1.5352102e-6)">
+                id="right"
+                inkscape:label="right">
             <title
                     id="title4727">Rhet. Her.. 1, 2, 3 ars est praeceptio, qua dat certam viam rationemque dicendi.</title>
             <path
-                    style="fill:#ffffff;fill-opacity:1;stroke:#333333;stroke-width:0.918369;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-                    d="M 369.50838,339.59109 H 184.26449 v -6.70594 h 185.24389"
-                    id="relevant_rect-76"
-                    inkscape:connector-curvature="0"
+                    inkscape:label="right-rect"
                     sodipodi:nodetypes="cccc"
-                    inkscape:label="right-rect" />
-            <path
-                    id="relevant_path-37"
-                    d="m 369.50838,332.89167 8.20528,3.35242 -8.20526,3.31497"
-                    style="fill:none;stroke:#333333;stroke-width:0.918369;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
                     inkscape:connector-curvature="0"
-                    inkscape:label="right-arrow" />
+                    id="relevant_rect-76"
+                    d="M 369.50838,339.59109 H 184.26449 v -6.70594 h 185.24389"
+                    style="fill:#ffffff;fill-opacity:1;stroke:#333333;stroke-width:0.918369;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+            <path
+                    inkscape:label="right-arrow"
+                    inkscape:connector-curvature="0"
+                    style="fill:none;stroke:#333333;stroke-width:0.918369;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                    d="m 369.50838,332.89167 8.20528,3.35242 -8.20526,3.31497"
+                    id="relevant_path-37" />
             <text
-                    xml:space="preserve"
-                    style="font-style:normal;font-weight:normal;font-size:3.88056993px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299;stroke-miterlimit:4;stroke-dasharray:none"
-                    x="193.57747"
-                    y="337.41269"
+                    inkscape:label="right-text"
                     id="text1470-61"
-                    inkscape:label="right-text"><tspan
-                        sodipodi:role="line"
-                        id="tspan1468-506"
-                        x="193.57747"
+                    y="337.41269"
+                    x="193.57747"
+                    style="font-style:normal;font-weight:normal;font-size:3.88056993px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299;stroke-miterlimit:4;stroke-dasharray:none"
+                    xml:space="preserve"><tspan
+                        class="en"
+                        style="font-size:3.88056993px;stroke-width:0.26458299"
                         y="337.41269"
-                        style="font-size:3.88056993px;stroke-width:0.26458299" class="en">right, proper</tspan><tspan  x="193.57747"
-                                                                                                                       y="337.41269"
-                                                                                                                       style="font-size:3.88056993px;stroke-width:0.26458299" class="la">rectus</tspan></text>
+                        x="193.57747"
+                        id="tspan1468-506"
+                        sodipodi:role="line">right, proper</tspan><tspan
+                        id="tspan1079"
+                        class="la"
+                        style="font-size:3.88056993px;stroke-width:0.26458299"
+                        y="337.41269"
+                        x="193.57747">rectus</tspan></text>
         </g>
         <g
-                inkscape:label="happen"
-                id="happen"
+                transform="translate(21.1665,-3.0704204e-6)"
                 class="show sense happen sure trusty-words proven trustworthy"
-                transform="translate(21.166584,-1.5352102e-6)">
+                id="happen"
+                inkscape:label="happen">
             <title
                     id="title4725">CIC. Verr. 2, 141 tutores ..., quod actum erat cum Habonio, putant id esse certissimum.</title>
             <path
-                    style="fill:#ffffff;fill-opacity:1;stroke:#333333;stroke-width:0.918369;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-                    d="M 369.50838,347.51484 H 184.26449 v -6.70594 h 185.24389"
-                    id="relevant_rect-50"
-                    inkscape:connector-curvature="0"
+                    inkscape:label="happen-rect"
                     sodipodi:nodetypes="cccc"
-                    inkscape:label="happen-rect" />
-            <path
-                    id="relevant_path-81"
-                    d="m 369.50838,340.81542 8.20528,3.35242 -8.20526,3.31497"
-                    style="fill:none;stroke:#333333;stroke-width:0.918369;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
                     inkscape:connector-curvature="0"
-                    inkscape:label="happen-arrow" />
+                    id="relevant_rect-50"
+                    d="M 369.50838,347.51484 H 184.26449 v -6.70594 h 185.24389"
+                    style="fill:#ffffff;fill-opacity:1;stroke:#333333;stroke-width:0.918369;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+            <path
+                    inkscape:label="happen-arrow"
+                    inkscape:connector-curvature="0"
+                    style="fill:none;stroke:#333333;stroke-width:0.918369;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                    d="m 369.50838,340.81542 8.20528,3.35242 -8.20526,3.31497"
+                    id="relevant_path-81" />
             <text
-                    xml:space="preserve"
-                    style="font-style:normal;font-weight:normal;font-size:3.88056993px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299;stroke-miterlimit:4;stroke-dasharray:none"
-                    x="193.57748"
-                    y="345.33646"
+                    inkscape:label="happen-text"
                     id="text1470-22"
-                    inkscape:label="happen-text"><tspan
-                        sodipodi:role="line"
-                        id="tspan1468-6"
-                        x="193.57748"
+                    y="345.33646"
+                    x="193.57748"
+                    style="font-style:normal;font-weight:normal;font-size:3.88056993px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299;stroke-miterlimit:4;stroke-dasharray:none"
+                    xml:space="preserve"><tspan
+                        class="en"
+                        style="font-size:3.88056993px;stroke-width:0.26458299"
                         y="345.33646"
-                        style="font-size:3.88056993px;stroke-width:0.26458299" class="en">that is undoubtedly going to happen</tspan><tspan  x="193.57748"
-                                                                                                                                             y="345.33646"
-                                                                                                                                             style="font-size:3.88056993px;stroke-width:0.26458299" class="la">sine dubio eventurus</tspan></text>
+                        x="193.57748"
+                        id="tspan1468-6"
+                        sodipodi:role="line">that is undoubtedly going to happen</tspan><tspan
+                        id="tspan1087"
+                        class="la"
+                        style="font-size:3.88056993px;stroke-width:0.26458299"
+                        y="345.33646"
+                        x="193.57748">sine dubio eventurus</tspan></text>
         </g>
         <g
-                inkscape:label="sui"
-                id="sui"
+                transform="translate(21.1665,-3.0704204e-6)"
                 class="sense show sui make reassure"
-                transform="translate(21.166584,-1.5352102e-6)">
+                id="sui"
+                inkscape:label="sui">
             <title
                     id="title4723">SEN. epist. 91, 16 nemo altero fragilior est, nemo in crastinum sui certior.</title>
             <path
-                    inkscape:label="sui-rect"
-                    sodipodi:nodetypes="cccc"
-                    inkscape:connector-curvature="0"
-                    id="relevant_rect-50-9"
+                    style="fill:#ffffff;fill-opacity:1;stroke:#333333;stroke-width:0.81914902;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
                     d="m 369.70295,355.47766 h -147.3362 v -6.70594 h 147.3362"
-                    style="fill:#ffffff;fill-opacity:1;stroke:#333333;stroke-width:0.81914902;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-            <path
-                    inkscape:label="sui-arrow"
-                    inkscape:connector-curvature="0"
-                    style="fill:none;stroke:#333333;stroke-width:0.918369;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-                    d="m 369.70295,348.77824 8.20527,3.35242 -8.20525,3.31497"
-                    id="relevant_path-81-1" />
-            <text
-                    id="text1470-22-0"
-                    y="353.28992"
-                    x="231.76065"
-                    style="font-style:normal;font-weight:normal;font-size:3.88056993px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299;stroke-miterlimit:4;stroke-dasharray:none"
-                    xml:space="preserve"
-                    inkscape:label="sui-text"><tspan
-                        style="font-size:3.88056993px;stroke-width:0.26458299"
-                        y="353.28992"
-                        x="231.76065"
-                        id="tspan1468-6-4"
-                        sodipodi:role="line" class="en">confident with good reasons</tspan><tspan  style="font-size:3.88056993px;stroke-width:0.26458299"
-                                                                                                   y="353.28992"
-                                                                                                   x="231.76065" class="la">cum iusta causa confidens</tspan></text>
-            <text
-                    id="text1716"
-                    y="354.21179"
-                    x="193.75948"
-                    style="font-style:normal;font-weight:normal;font-size:4.58612013px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.24236199;stroke-miterlimit:4;stroke-dasharray:none"
-                    xml:space="preserve"
-                    inkscape:label="sui-label"><tspan
-                        style="font-size:4.58612013px;stroke-width:0.24236199"
-                        y="354.21179"
-                        x="193.75948"
-                        id="tspan1714"
-                        sodipodi:role="line">CERTUS SUI</tspan></text>
-        </g>
-        <g
-                inkscape:label="performed"
-                id="performed"
-                class="sense show performed defined certain it-is-sure certum-est"
-                transform="translate(21.166584,-1.5352102e-6)">
-            <title>VULG. Sirach. 19, 22 et non est sapientia nequitiae disciplina et non est cogitatus peccatorum prudentia / est nequitia
-                et ipsa execratio et est insipiens qui minuitur sapientia / melior est homo qui deficit sapientia et deficiens sensu in timore quam
-                qui abundat sensu et transgreditur legem Altissimi / est sollertia certa et ipsa iniqua / et est qui emittit verbum certum enarrans
-                veritatem est qui nequiter humiliat se et interiora eius plena sunt dolo.</title>
-            <path
-                    style="fill:#ffffff;fill-opacity:1;stroke:#333333;stroke-width:0.76170802;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-                    d="M 369.43724,374.84488 H 334.48726 V 356.5431 h 34.94998"
-                    id="relevant_rect-50-9-2"
+                    id="relevant_rect-50-9"
                     inkscape:connector-curvature="0"
                     sodipodi:nodetypes="cccc"
-                    inkscape:label="performed-rect" />
+                    inkscape:label="sui-rect" />
             <path
-                    id="relevant_path-81-1-7"
-                    d="m 369.52285,356.55196 7.89684,9.13834 -7.89684,9.03625"
-                    style="fill:none;stroke:#333333;stroke-width:0.77145499;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                    id="relevant_path-81-1"
+                    d="m 369.70295,348.77824 8.20527,3.35242 -8.20525,3.31497"
+                    style="fill:none;stroke:#333333;stroke-width:0.918369;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
                     inkscape:connector-curvature="0"
-                    inkscape:label="performed-arrow" />
+                    inkscape:label="sui-arrow" />
             <text
+                    inkscape:label="sui-text"
                     xml:space="preserve"
-                    style="font-style:normal;font-weight:normal;font-size:3.88056993px;line-height:1;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299;stroke-miterlimit:4;stroke-dasharray:none"
-                    x="338.50793"
-                    y="361.29529"
-                    id="text1470-22-0-4"
-                    inkscape:label="performed-text"><tspan
-                        dx="0"
+                    style="font-style:normal;font-weight:normal;font-size:3.88056993px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299;stroke-miterlimit:4;stroke-dasharray:none"
+                    x="231.76065"
+                    y="353.28992"
+                    id="text1470-22-0"><tspan
+                        class="en"
                         sodipodi:role="line"
-                        id="tspan1468-6-4-0"
-                        x="338.50793"
-                        y="361.29529"
-                        style="font-size:3.88056993px;stroke-width:0.26458299" class="en">carefully </tspan><tspan
-                        id="tspan1746"
+                        id="tspan1468-6-4"
+                        x="231.76065"
+                        y="353.28992"
+                        style="font-size:3.88056993px;stroke-width:0.26458299">confident with good reasons</tspan><tspan
+         style="font-size:3.88056993px;stroke-width:0.26458299"
+         y="353.28992"
+         x="231.76065"
+         class="la"
+         id="tspan1095">cum iusta causa confidens</tspan></text>
+            <text
+                    inkscape:label="sui-label"
+                    xml:space="preserve"
+                    style="font-style:normal;font-weight:normal;font-size:4.58612013px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.24236199;stroke-miterlimit:4;stroke-dasharray:none"
+                    x="193.75948"
+                    y="354.21179"
+                    id="text1716"><tspan
                         sodipodi:role="line"
-                        x="338.50793"
-                        y="365.17587"
-                        style="font-size:3.88056993px;stroke-width:0.26458299" class="en">performed,</tspan>
-                <tspan
-                        id="tspan1746"
-                        sodipodi:role="line"
-                        x="338.50793"
-                        y="365.17587"
-                        style="font-size:3.88056993px;stroke-width:0.26458299" class="la">accuratus</tspan><tspan
-                        id="tspan1752"
-                        sodipodi:role="line"
-                        x="338.50793"
-                        y="369.05643"
-                        style="font-size:3.88056993px;word-spacing:-0.99218702px;stroke-width:0.26458299" class="en">prepared, studied</tspan><tspan
-                        id="tspan1750"
-                        sodipodi:role="line"
-                        x="338.50793"
-                        y="372.93701"
-                        style="font-size:3.88056993px;stroke-width:0.26458299" class="en">meticulous</tspan></text>
+                        id="tspan1714"
+                        x="193.75948"
+                        y="354.21179"
+                        style="font-size:4.58612013px;stroke-width:0.24236199">CERTUS SUI</tspan></text>
         </g>
         <g
-                inkscape:label="inform"
-                id="inform"
+                transform="translate(21.1665,-3.0704204e-6)"
+                class="sense show performed defined certain it-is-sure certum-est"
+                id="performed"
+                inkscape:label="performed">
+            <title
+                    id="title1101">VULG. Sirach. 19, 22 et non est sapientia nequitiae disciplina et non est cogitatus peccatorum prudentia / est nequitia
+et ipsa execratio et est insipiens qui minuitur sapientia / melior est homo qui deficit sapientia et deficiens sensu in timore quam
+qui abundat sensu et transgreditur legem Altissimi / est sollertia certa et ipsa iniqua / et est qui emittit verbum certum enarrans
+veritatem est qui nequiter humiliat se et interiora eius plena sunt dolo.</title>
+            <path
+                    inkscape:label="performed-rect"
+                    sodipodi:nodetypes="cccc"
+                    inkscape:connector-curvature="0"
+                    id="relevant_rect-50-9-2"
+                    d="M 369.43724,374.84488 H 334.48726 V 356.5431 h 34.94998"
+                    style="fill:#ffffff;fill-opacity:1;stroke:#333333;stroke-width:0.76170802;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+            <path
+                    inkscape:label="performed-arrow"
+                    inkscape:connector-curvature="0"
+                    style="fill:none;stroke:#333333;stroke-width:0.77145499;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                    d="m 369.52285,356.55196 7.89684,9.13834 -7.89684,9.03625"
+                    id="relevant_path-81-1-7" />
+            <text class="la"
+                  xml:space="preserve"
+                  style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+                  x="341.28073"
+                  y="366.71768"
+                  id="performed_la"
+                  inkscape:label="performed_la"><tspan
+                        sodipodi:role="line"
+                        id="tspan470"
+                        x="341.28073"
+                        y="366.71768"
+                        style="font-size:3.88055563px;stroke-width:0.26458332">accuratus</tspan></text>
+            <text
+                    class="en"
+                    inkscape:label="performed-text"
+                    id="text1470-22-0-4"
+                    y="361.29529"
+                    x="338.50793"
+                    style="font-style:normal;font-weight:normal;font-size:3.88056993px;line-height:1;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299;stroke-miterlimit:4;stroke-dasharray:none"
+                    xml:space="preserve"><tspan
+                        class="en"
+                        style="font-size:3.88056993px;stroke-width:0.26458299"
+                        y="361.29529"
+                        x="338.50793"
+                        sodipodi:role="line"
+                        id="tspan1107">carefully</tspan><tspan
+                        class="en"
+                        style="font-size:3.88056993px;stroke-width:0.26458299"
+                        y="365.17587"
+                        x="338.50793"
+                        sodipodi:role="line"
+                        id="tspan474">performed,</tspan><tspan
+                        class="en"
+                        style="font-size:3.88056993px;word-spacing:-0.99218702px;stroke-width:0.26458299"
+                        y="369.05643"
+                        x="338.50793"
+                        sodipodi:role="line"
+                        id="tspan1752">prepared,  studied</tspan><tspan
+                        class="en"
+                        style="font-size:3.88056993px;stroke-width:0.26458299"
+                        y="372.93701"
+                        x="338.50793"
+                        sodipodi:role="line"
+                        id="tspan1750">meticulous</tspan></text>
+        </g>
+        <g
+                transform="translate(21.1665,-3.0704204e-6)"
                 class="show sense inform urge be-informed reassure"
-                transform="translate(21.166584,-1.5352102e-6)">
+                id="inform"
+                inkscape:label="inform">
             <title
                     id="title4733">PLAUT. Aul. 245 abiit neque me certiorem fecit.</title>
             <path
-                    style="fill:#ffffff;fill-opacity:1;stroke:#333333;stroke-width:0.90737802;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-                    d="M 369.53435,170.22337 H 110.77621 v -6.84169 h 258.75814"
+                    inkscape:label="inform-rect"
+                    sodipodi:nodetypes="cccc"
+                    inkscape:connector-curvature="0"
                     id="defined_rect-4"
-                    inkscape:connector-curvature="0"
-                    sodipodi:nodetypes="cccc"
-                    inkscape:label="inform-rect" />
+                    d="M 369.53435,170.22337 H 110.77621 v -6.84169 h 258.75814"
+                    style="fill:#ffffff;fill-opacity:1;stroke:#333333;stroke-width:0.90737802;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
             <text
-                    id="text8362-1-4-7-3"
-                    y="168.34015"
-                    x="63.038326"
+                    xml:space="preserve"
                     style="font-style:normal;font-weight:normal;font-size:4.58611012px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299"
-                    xml:space="preserve"><tspan
-                        style="font-size:4.58611012px;stroke-width:0.26458299"
-                        y="168.34015"
-                        x="63.038326"
+                    x="63.038326"
+                    y="168.34015"
+                    id="text8362-1-4-7-3"><tspan
+                        sodipodi:role="line"
                         id="tspan8360-5-9-6-6"
-                        sodipodi:role="line">CERTIOREM FACERE</tspan></text>
+                        x="63.038326"
+                        y="168.34015"
+                        style="font-size:4.58611012px;stroke-width:0.26458299">CERTIOREM FACERE</tspan></text>
             <path
-                    id="defined_path-0"
+                    inkscape:label="inform-arrow"
+                    inkscape:connector-curvature="0"
+                    style="fill:none;stroke:#333333;stroke-width:0.918369;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
                     d="m 369.52707,163.39155 8.08606,3.44804 -8.08604,3.40954"
-                    style="fill:none;stroke:#333333;stroke-width:0.918369;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-                    inkscape:connector-curvature="0"
-                    inkscape:label="inform-arrow" />
+                    id="defined_path-0" />
             <text
-                    id="text10520"
-                    y="167.73524"
+                    inkscape:label="inform-text"
+                    xml:space="preserve"
+                    style="font-style:normal;font-weight:normal;font-size:3.88055992px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299"
                     x="120.01971"
-                    style="font-style:normal;font-weight:normal;font-size:3.88055992px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299"
-                    xml:space="preserve"
-                    inkscape:label="inform-text"><tspan
-                        style="font-size:3.88055992px;stroke-width:0.26458299"
-                        y="167.73524"
-                        x="120.01971"
+                    y="167.73524"
+                    id="text10520"><tspan
+                        class="en"
+                        sodipodi:role="line"
                         id="tspan10518"
-                        sodipodi:role="line">to inform</tspan></text>
+                        x="120.01971"
+                        y="167.73524"
+                        style="font-size:3.88055992px;stroke-width:0.26458299">to inform</tspan></text>
         </g>
         <g
-                inkscape:label="reassure"
-                id="reassure"
+                transform="translate(21.1665,-3.0704204e-6)"
                 class="sense show reassure make inform be-informed"
-                transform="translate(21.166584,-1.5352102e-6)">
-            <path
-                    style="fill:#ffffff;fill-opacity:1;stroke:#333333;stroke-width:0.90737802;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-                    d="M 369.50869,178.54663 H 110.75054 v -6.84168 h 258.75815"
-                    id="defined_rect-4-4"
-                    inkscape:connector-curvature="0"
-                    sodipodi:nodetypes="cccc"
-                    inkscape:label="reassure-rect" />
-            <path
-                    id="defined_path-0-2"
-                    d="m 369.50869,171.70495 8.08604,3.44804 -8.08602,3.40953"
-                    style="fill:none;stroke:#333333;stroke-width:0.918369;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-                    inkscape:connector-curvature="0"
-                    inkscape:label="reassure-arrow" />
-            <text
-                    xml:space="preserve"
-                    style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-                    x="67.603065"
-                    y="177.5106"
-                    id="text947"
-                    inkscape:label="CERTUM"><tspan
-                        sodipodi:role="line"
-                        id="tspan945"
-                        x="67.603065"
-                        y="177.5106"
-                        style="stroke-width:0.26458332">CERTUM FACERE</tspan></text>
-            <text
-                    id="text10520-9"
-                    y="176.48895"
-                    x="119.99405"
-                    style="font-style:normal;font-weight:normal;font-size:3.88055992px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299"
-                    xml:space="preserve"
-                    inkscape:label="reassure-text"><tspan
-                        style="font-size:3.88055992px;stroke-width:0.26458299"
-                        y="176.48895"
-                        x="119.99405"
-                        id="tspan10518-6"
-                        sodipodi:role="line">to reassure</tspan></text>
-        </g>
-        <g
-                inkscape:label="certainly"
-                id="certainly"
-                class="show sense certainly"
-                transform="translate(21.166584,-1.5352102e-6)">
+                id="reassure"
+                inkscape:label="reassure">
             <title
-                    id="title4799">PLAUT. Capt. 644 Qui&lt;n&gt; nihil, inquam, invenies magis hoc certo certius.</title>
+                    id="title1329">PLAUT. Pseud. 1097 epistula atque imago me certum facit.</title>
             <path
-                    style="fill:#ffffff;fill-opacity:1;stroke:#00a368;stroke-width:0.90737802;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-                    d="M 369.50869,186.83357 H 110.75054 v -6.84169 h 258.75815"
-                    id="defined_rect-4-4-4"
-                    inkscape:connector-curvature="0"
+                    inkscape:label="reassure-rect"
                     sodipodi:nodetypes="cccc"
-                    inkscape:label="certainly-rect" />
-            <text
-                    xml:space="preserve"
-                    style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-                    x="72.36338"
-                    y="185.12781"
-                    id="text941"
-                    inkscape:label="CERTO"><tspan
-                        sodipodi:role="line"
-                        id="tspan939"
-                        x="72.36338"
-                        y="185.12781"
-                        style="font-size:4.58611107px;stroke-width:0.26458332">CERTO CERTIUS</tspan></text>
-            <path
-                    id="defined_path-0-2-2"
-                    d="m 369.50869,179.99188 8.08603,3.44805 -8.08601,3.40953"
-                    style="fill:none;stroke:#00a368;stroke-width:0.918369;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
                     inkscape:connector-curvature="0"
-                    inkscape:label="certainly-arrow" />
+                    id="defined_rect-4-4"
+                    d="M 369.50869,178.54663 H 110.75054 v -6.84168 h 258.75815"
+                    style="fill:#ffffff;fill-opacity:1;stroke:#333333;stroke-width:0.90737802;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+            <path
+                    inkscape:label="reassure-arrow"
+                    inkscape:connector-curvature="0"
+                    style="fill:none;stroke:#333333;stroke-width:0.918369;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                    d="m 369.50869,171.70495 8.08604,3.44804 -8.08602,3.40953"
+                    id="defined_path-0-2" />
             <text
-                    id="text10520-9-2"
-                    y="184.77588"
-                    x="119.99403"
-                    style="font-style:normal;font-weight:normal;font-size:3.88055992px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299"
+                    inkscape:label="CERTUM"
+                    id="text947"
+                    y="177.5106"
+                    x="67.603065"
+                    style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+                    xml:space="preserve"><tspan
+                        style="stroke-width:0.26458332"
+                        y="177.5106"
+                        x="67.603065"
+                        id="tspan945"
+                        sodipodi:role="line">CERTUM FACERE</tspan></text>
+            <text
+                    inkscape:label="reassure-text"
                     xml:space="preserve"
-                    inkscape:label="certainly-text"><tspan
-                        style="font-size:3.88055992px;stroke-width:0.26458299"
-                        y="184.77588"
-                        x="119.99403"
-                        id="tspan10518-6-2"
-                        sodipodi:role="line">certainly</tspan></text>
+                    style="font-style:normal;font-weight:normal;font-size:3.88055992px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299"
+                    x="119.99405"
+                    y="176.48895"
+                    id="text10520-9"><tspan
+                        class="en"
+                        sodipodi:role="line"
+                        id="tspan10518-6"
+                        x="119.99405"
+                        y="176.48895"
+                        style="font-size:3.88055992px;stroke-width:0.26458299">to reassure</tspan></text>
         </g>
         <g
-                inkscape:label="resolute"
-                id="resolute"
+                transform="translate(21.1665,-3.0704204e-6)"
+                class="show sense certainly"
+                id="certainly"
+                inkscape:label="certainly">
+            <title
+                    id="title4799">PLAUT. Capt. 644 Quin nihil, inquam, invenies magis hoc certo certius.</title>
+            <path
+                    inkscape:label="certainly-rect"
+                    sodipodi:nodetypes="cccc"
+                    inkscape:connector-curvature="0"
+                    id="defined_rect-4-4-4"
+                    d="M 369.50869,186.83357 H 110.75054 v -6.84169 h 258.75815"
+                    style="fill:#ffffff;fill-opacity:1;stroke:#00a368;stroke-width:0.90737802;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+            <text
+                    inkscape:label="CERTO"
+                    id="text941"
+                    y="185.12781"
+                    x="72.36338"
+                    style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+                    xml:space="preserve"><tspan
+                        style="font-size:4.58611107px;stroke-width:0.26458332"
+                        y="185.12781"
+                        x="72.36338"
+                        id="tspan939"
+                        sodipodi:role="line">CERTO CERTIUS</tspan></text>
+            <path
+                    inkscape:label="certainly-arrow"
+                    inkscape:connector-curvature="0"
+                    style="fill:none;stroke:#00a368;stroke-width:0.918369;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                    d="m 369.50869,179.99188 8.08603,3.44805 -8.08601,3.40953"
+                    id="defined_path-0-2-2" />
+            <text
+                    inkscape:label="certainly-text"
+                    xml:space="preserve"
+                    style="font-style:normal;font-weight:normal;font-size:3.88055992px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299"
+                    x="119.99403"
+                    y="184.77588"
+                    id="text10520-9-2"><tspan
+                        class="en"
+                        sodipodi:role="line"
+                        id="tspan10518-6-2"
+                        x="119.99403"
+                        y="184.77588"
+                        style="font-size:3.88055992px;stroke-width:0.26458299">certainly</tspan></text>
+        </g>
+        <g
+                transform="translate(21.1665,-3.0704204e-6)"
                 class="sense show resolute"
-                transform="translate(21.166584,-1.5352102e-6)">
+                id="resolute"
+                inkscape:label="resolute">
             <title
                     id="title4701">ENN. scaen. 143 quos ego (Apollo) ... ex incertis certos compotesque consili dimitto. </title>
             <path
-                    inkscape:label="#resolute"
-                    sodipodi:nodetypes="cccc"
-                    inkscape:connector-curvature="0"
-                    id="resolute_rect"
+                    style="fill:#ffffff;fill-opacity:1;stroke:#333333;stroke-width:0.91002297;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
                     d="M 369.47323,89.021244 H 110.79249 v -6.696747 h 258.68074"
-                    style="fill:#ffffff;fill-opacity:1;stroke:#333333;stroke-width:0.91002297;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-            <text
-                    id="text3048"
-                    y="86.997879"
-                    x="120.12743"
-                    style="font-style:normal;font-weight:normal;font-size:3.88055992px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.242985;stroke-miterlimit:4;stroke-dasharray:none"
-                    xml:space="preserve"><tspan
-                        id="tspan3050"
-                        style="font-size:3.88055992px;stroke-width:0.242985"
-                        y="86.997879"
-                        x="120.12743"
-                        sodipodi:role="line" class="en">resolute, obstinate</tspan><tspan class="la"  style="font-size:3.88055992px;stroke-width:0.242985"
-                                                                                          y="86.997879"
-                                                                                          x="120.12743">obstinatus, firmus (de homine qui consilium cepit)</tspan></text>
-            <path
-                    inkscape:label="resolute-arrow"
+                    id="resolute_rect"
                     inkscape:connector-curvature="0"
-                    style="fill:none;stroke:#333333;stroke-width:0.918369;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                    sodipodi:nodetypes="cccc"
+                    inkscape:label="#resolute" />
+            <text
+                    xml:space="preserve"
+                    style="font-style:normal;font-weight:normal;font-size:3.88055992px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.242985;stroke-miterlimit:4;stroke-dasharray:none"
+                    x="120.12743"
+                    y="86.997879"
+                    id="text3048"><tspan
+                        class="en"
+                        sodipodi:role="line"
+                        x="120.12743"
+                        y="86.997879"
+                        style="font-size:3.88055992px;stroke-width:0.242985"
+                        id="tspan3050">resolute, obstinate</tspan><tspan
+                        id="tspan1139"
+                        x="120.12743"
+                        y="86.997879"
+                        style="font-size:3.88055992px;stroke-width:0.242985"
+                        class="la">obstinatus, firmus (de homine qui consilium cepit)</tspan></text>
+            <path
+                    id="certain_path-0_-2-9"
                     d="m 369.47323,82.322229 8.3817,3.363984 -8.38169,3.326404"
-                    id="certain_path-0_-2-9" />
+                    style="fill:none;stroke:#333333;stroke-width:0.918369;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                    inkscape:connector-curvature="0"
+                    inkscape:label="resolute-arrow" />
         </g>
         <g
-                inkscape:label="relevant"
-                id="relevant"
+                transform="translate(21.1665,-3.0704204e-6)"
                 class="show relevant sense"
-                transform="translate(21.166584,-1.5352102e-6)">
+                id="relevant"
+                inkscape:label="relevant">
             <title
                     id="title4691">CIC. Manil. 43 homines opinione non minus et fama quam aliqua ratione certa commoveri.</title>
             <path
-                    style="fill:#ffffff;fill-opacity:1;stroke:#333333;stroke-width:0.918369;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-                    d="M 369.50186,203.27835 H 184.25797 v -6.70594 h 185.24389"
-                    id="relevant_rect"
-                    inkscape:connector-curvature="0"
+                    inkscape:label="#relevant"
                     sodipodi:nodetypes="cccc"
-                    inkscape:label="#relevant" />
-            <path
-                    id="relevant_path"
-                    d="m 369.50186,196.57893 8.20528,3.35242 -8.20526,3.31497"
-                    style="fill:none;stroke:#333333;stroke-width:0.918369;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
                     inkscape:connector-curvature="0"
-                    inkscape:label="#path2917-3-93" />
+                    id="relevant_rect"
+                    d="M 369.50186,203.27835 H 184.25797 v -6.70594 h 185.24389"
+                    style="fill:#ffffff;fill-opacity:1;stroke:#333333;stroke-width:0.918369;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+            <path
+                    inkscape:label="#path2917-3-93"
+                    inkscape:connector-curvature="0"
+                    style="fill:none;stroke:#333333;stroke-width:0.918369;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                    d="m 369.50186,196.57893 8.20528,3.35242 -8.20526,3.31497"
+                    id="relevant_path" />
             <text
-                    xml:space="preserve"
-                    style="font-style:normal;font-weight:normal;font-size:3.88055992px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299"
-                    x="193.57097"
-                    y="201.09987"
+                    inkscape:label="relevant-text"
                     id="text1470"
-                    inkscape:label="relevant-text"><tspan
-                        sodipodi:role="line"
-                        id="tspan1468"
-                        x="193.57097"
+                    y="201.09987"
+                    x="193.57097"
+                    style="font-style:normal;font-weight:normal;font-size:3.88055992px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299"
+                    xml:space="preserve"><tspan
+                        class="en"
+                        style="font-size:3.88055992px;stroke-width:0.26458299"
                         y="201.09987"
-                        style="font-size:3.88055992px;stroke-width:0.26458299" class="en">quite important, relevant</tspan><tspan class="la"   x="193.57097"
-                                                                                                                                  y="201.09987"
-                                                                                                                                  style="font-size:3.88055992px;stroke-width:0.26458299" >satis gravis</tspan></text>
+                        x="193.57097"
+                        id="tspan1468"
+                        sodipodi:role="line">quite important, relevant</tspan><tspan
+                        id="tspan1148"
+                        style="font-size:3.88055992px;stroke-width:0.26458299"
+                        y="201.09987"
+                        x="193.57097"
+                        class="la">satis gravis</tspan></text>
         </g>
         <g
-                inkscape:label="single"
-                id="single"
+                transform="translate(21.1665,-3.0704204e-6)"
                 class="show sense single defined"
-                transform="translate(21.166584,-1.5352102e-6)">
+                id="single"
+                inkscape:label="single">
             <title
                     id="title4693">CIC. de orat. 1, 138 de re certis in personis ac temporibus locata.</title>
             <path
-                    inkscape:label="single-rect"
-                    sodipodi:nodetypes="cccc"
-                    inkscape:connector-curvature="0"
-                    id="relevant_rect-7"
+                    style="fill:#ffffff;fill-opacity:1;stroke:#333333;stroke-width:0.918369;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
                     d="M 369.50838,211.38249 H 184.26449 v -6.70594 h 185.24389"
-                    style="fill:#ffffff;fill-opacity:1;stroke:#333333;stroke-width:0.918369;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-            <path
-                    inkscape:label="single-arrow"
+                    id="relevant_rect-7"
                     inkscape:connector-curvature="0"
-                    style="fill:none;stroke:#333333;stroke-width:0.918369;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                    sodipodi:nodetypes="cccc"
+                    inkscape:label="single-rect" />
+            <path
+                    id="relevant_path-4"
                     d="m 369.50838,204.68307 8.20528,3.35242 -8.20526,3.31497"
-                    id="relevant_path-4" />
+                    style="fill:none;stroke:#333333;stroke-width:0.918369;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                    inkscape:connector-curvature="0"
+                    inkscape:label="single-arrow" />
             <text
-                    id="text1470-9"
-                    y="209.20401"
-                    x="193.5775"
-                    style="font-style:normal;font-weight:normal;font-size:3.88055992px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299"
+                    inkscape:label="single-text"
                     xml:space="preserve"
-                    inkscape:label="single-text"><tspan
-                        style="font-size:3.88055992px;stroke-width:0.26458299"
-                        y="209.20401"
-                        x="193.5775"
+                    style="font-style:normal;font-weight:normal;font-size:3.88055992px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299"
+                    x="193.5775"
+                    y="209.20401"
+                    id="text1470-9"><tspan
+                        class="en"
+                        sodipodi:role="line"
                         id="tspan1468-1"
-                        sodipodi:role="line" class="en">a single one, single, individual</tspan><tspan class="la"  style="font-size:3.88055992px;stroke-width:0.26458299"
-                                                                                                       y="209.20401"
-                                                                                                       x="193.5775">singularis, separatus</tspan></text>
+                        x="193.5775"
+                        y="209.20401"
+                        style="font-size:3.88055992px;stroke-width:0.26458299">a single one, single, individual</tspan><tspan
+                        id="tspan1156"
+                        x="193.5775"
+                        y="209.20401"
+                        style="font-size:3.88055992px;stroke-width:0.26458299"
+                        class="la">singularis, separatus</tspan></text>
         </g>
         <g
-                inkscape:label="suitable"
-                id="suitable"
+                transform="translate(21.1665,-3.0704204e-6)"
                 class="show sense suitable established"
-                transform="translate(21.166584,-1.5352102e-6)">
+                id="suitable"
+                inkscape:label="suitable">
             <title
                     id="title4695">CIC. orat. 55 utcunque orator ... animum audientis moveri volet, ita certum vocis admovebit sonum.</title>
             <path
-                    inkscape:label="suitable-rect"
-                    sodipodi:nodetypes="cccc"
-                    inkscape:connector-curvature="0"
-                    id="relevant_rect-70"
+                    style="fill:#ffffff;fill-opacity:1;stroke:#333333;stroke-width:0.918369;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
                     d="M 369.50838,219.44982 H 184.26449 v -6.70594 h 185.24389"
-                    style="fill:#ffffff;fill-opacity:1;stroke:#333333;stroke-width:0.918369;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-            <path
-                    inkscape:label="suitable-arrow"
+                    id="relevant_rect-70"
                     inkscape:connector-curvature="0"
-                    style="fill:none;stroke:#333333;stroke-width:0.918369;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                    sodipodi:nodetypes="cccc"
+                    inkscape:label="suitable-rect" />
+            <path
+                    id="relevant_path-6"
                     d="m 369.50838,212.7504 8.20528,3.35242 -8.20526,3.31497"
-                    id="relevant_path-6" />
+                    style="fill:none;stroke:#333333;stroke-width:0.918369;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                    inkscape:connector-curvature="0"
+                    inkscape:label="suitable-arrow" />
             <text
-                    id="text1470-0"
-                    y="217.27133"
-                    x="193.57748"
-                    style="font-style:normal;font-weight:normal;font-size:3.88055992px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299"
+                    inkscape:label="suitable-text"
                     xml:space="preserve"
-                    inkscape:label="suitable-text"><tspan
-                        style="font-size:3.88055992px;stroke-width:0.26458299"
-                        y="217.27133"
-                        x="193.57748"
+                    style="font-style:normal;font-weight:normal;font-size:3.88055992px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299"
+                    x="193.57748"
+                    y="217.27133"
+                    id="text1470-0"><tspan
+                        class="en"
+                        sodipodi:role="line"
                         id="tspan1468-8"
-                        sodipodi:role="line" class="en">suitable: disposed, set up</tspan><tspan class="la"    style="font-size:3.88055992px;stroke-width:0.26458299"
-                                                                                                 y="217.27133"
-                                                                                                 x="193.57748">ita constitutus, ut rationi alicuius rei conveniat</tspan></text>
+                        x="193.57748"
+                        y="217.27133"
+                        style="font-size:3.88055992px;stroke-width:0.26458299">suitable: disposed, set up</tspan><tspan
+                        id="tspan1164"
+                        x="193.57748"
+                        y="217.27133"
+                        style="font-size:3.88055992px;stroke-width:0.26458299"
+                        class="la">ita constitutus, ut rationi alicuius rei conveniat</tspan></text>
         </g>
         <g
-                inkscape:label="number"
-                id="number"
+                transform="translate(21.1665,-3.0704204e-6)"
                 class="show sense number quantity"
-                transform="translate(21.166584,-1.5352102e-6)">
+                id="number"
+                inkscape:label="number">
             <title
                     id="title4697">CIC. div. in Caec. 24 certos esse in consilio, quibus ostendi tabellas velit.</title>
             <path
-                    inkscape:label="number-rect"
-                    sodipodi:nodetypes="cccc"
-                    inkscape:connector-curvature="0"
-                    id="relevant_rect-5"
+                    style="fill:#ffffff;fill-opacity:1;stroke:#333333;stroke-width:0.918369;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
                     d="M 369.50837,227.49173 H 184.26449 v -6.70594 h 185.24388"
-                    style="fill:#ffffff;fill-opacity:1;stroke:#333333;stroke-width:0.918369;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-            <path
-                    inkscape:label="number-path"
+                    id="relevant_rect-5"
                     inkscape:connector-curvature="0"
-                    style="fill:none;stroke:#333333;stroke-width:0.918369;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                    sodipodi:nodetypes="cccc"
+                    inkscape:label="number-rect" />
+            <path
+                    id="relevant_path-3"
                     d="m 369.50837,220.79231 8.20528,3.35242 -8.20526,3.31497"
-                    id="relevant_path-3" />
+                    style="fill:none;stroke:#333333;stroke-width:0.918369;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                    inkscape:connector-curvature="0"
+                    inkscape:label="number-path" />
             <text
-                    id="text1470-94"
-                    y="225.31323"
-                    x="193.5775"
-                    style="font-style:normal;font-weight:normal;font-size:3.88055992px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299"
+                    inkscape:label="number-text"
                     xml:space="preserve"
-                    inkscape:label="number-text"><tspan
-                        style="font-size:3.88055992px;stroke-width:0.26458299"
-                        y="225.31323"
-                        x="193.5775"
+                    style="font-style:normal;font-weight:normal;font-size:3.88055992px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299"
+                    x="193.5775"
+                    y="225.31323"
+                    id="text1470-94"><tspan
+                        class="en"
+                        sodipodi:role="line"
                         id="tspan1468-15"
-                        sodipodi:role="line" class="en">a number of, some</tspan><tspan class="la"   style="font-size:3.88055992px;stroke-width:0.26458299"
-                                                                                        y="225.31323"
-                                                                                        x="193.5775">nonnulli</tspan></text>
+                        x="193.5775"
+                        y="225.31323"
+                        style="font-size:3.88055992px;stroke-width:0.26458299">a number of, some</tspan><tspan
+                        id="tspan1172"
+                        x="193.5775"
+                        y="225.31323"
+                        style="font-size:3.88055992px;stroke-width:0.26458299"
+                        class="la">nonnulli</tspan></text>
         </g>
         <g
-                inkscape:label="nature"
-                id="nature"
+                transform="translate(21.1665,-3.0704204e-6)"
                 class="show sense nature established"
-                transform="translate(21.166584,-1.5352102e-6)">
+                id="nature"
+                inkscape:label="nature">
             <title
                     id="title4699">Rhet. Her. 3, 3, 5 certo naturae termino definiemus.</title>
             <path
-                    inkscape:label="nature-rect"
-                    sodipodi:nodetypes="cccc"
-                    inkscape:connector-curvature="0"
-                    id="relevant_rect-4"
+                    style="fill:#ffffff;fill-opacity:1;stroke:#333333;stroke-width:0.918369;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
                     d="M 369.50838,235.44553 H 184.26449 v -6.70594 h 185.24389"
-                    style="fill:#ffffff;fill-opacity:1;stroke:#333333;stroke-width:0.918369;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-            <path
-                    inkscape:label="nature-arrow"
+                    id="relevant_rect-4"
                     inkscape:connector-curvature="0"
-                    style="fill:none;stroke:#333333;stroke-width:0.918369;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                    sodipodi:nodetypes="cccc"
+                    inkscape:label="nature-rect" />
+            <path
+                    id="relevant_path-1"
                     d="m 369.50838,228.74611 8.20528,3.35242 -8.20526,3.31497"
-                    id="relevant_path-1" />
+                    style="fill:none;stroke:#333333;stroke-width:0.918369;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                    inkscape:connector-curvature="0"
+                    inkscape:label="nature-arrow" />
             <text
-                    id="text1470-5"
-                    y="233.26704"
-                    x="193.57748"
-                    style="font-style:normal;font-weight:normal;font-size:3.88055992px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299"
+                    inkscape:label="nature-text"
                     xml:space="preserve"
-                    inkscape:label="nature-text"><tspan
-                        style="font-size:3.88055992px;stroke-width:0.26458299"
-                        y="233.26704"
-                        x="193.57748"
+                    style="font-style:normal;font-weight:normal;font-size:3.88055992px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299"
+                    x="193.57748"
+                    y="233.26704"
+                    id="text1470-5"><tspan
+                        class="en"
+                        sodipodi:role="line"
                         id="tspan1468-5"
-                        sodipodi:role="line" class="en">disposed, set up by nature, gods and/or citizens</tspan><tspan class="la"  style="font-size:3.88055992px;stroke-width:0.26458299"
-                                                                                                                       y="233.26704"
-                                                                                                                       x="193.57748">legibus vel usu naturae, deorum cultus, civitatum al. constitutus</tspan></text>
+                        x="193.57748"
+                        y="233.26704"
+                        style="font-size:3.88055992px;stroke-width:0.26458299">disposed, set up by nature, gods and/or citizens</tspan><tspan
+                        id="tspan1180"
+                        x="193.57748"
+                        y="233.26704"
+                        style="font-size:3.88055992px;stroke-width:0.26458299"
+                        class="la">legibus vel usu naturae, deorum cultus, civitatum al. constitutus</tspan></text>
         </g>
         <g
-                inkscape:label="known"
-                id="known"
+                transform="translate(21.1665,-3.0704204e-6)"
                 class="show sense known proven defined"
-                transform="translate(21.166584,-1.5352102e-6)">
+                id="known"
+                inkscape:label="known">
             <title
                     id="title4705">CIC. Verr. 4, 109 ratio certa est Aetnensium et publicis et privatis litteris consignata</title>
             <path
-                    inkscape:label="know-rect"
-                    sodipodi:nodetypes="cccc"
-                    inkscape:connector-curvature="0"
-                    id="relevant_rect-49"
+                    style="fill:#ffffff;fill-opacity:1;stroke:#333333;stroke-width:0.918369;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
                     d="M 369.50837,243.32955 H 184.26449 v -6.70594 h 185.24388"
-                    style="fill:#ffffff;fill-opacity:1;stroke:#333333;stroke-width:0.918369;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-            <path
-                    inkscape:label="known-arrow"
+                    id="relevant_rect-49"
                     inkscape:connector-curvature="0"
-                    style="fill:none;stroke:#333333;stroke-width:0.918369;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                    sodipodi:nodetypes="cccc"
+                    inkscape:label="know-rect" />
+            <path
+                    id="relevant_path-8"
                     d="m 369.50837,236.63013 8.20528,3.35242 -8.20526,3.31497"
-                    id="relevant_path-8" />
+                    style="fill:none;stroke:#333333;stroke-width:0.918369;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                    inkscape:connector-curvature="0"
+                    inkscape:label="known-arrow" />
             <text
-                    id="text1470-3"
-                    y="241.15108"
-                    x="193.57748"
-                    style="font-style:normal;font-weight:normal;font-size:3.88055992px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299"
+                    inkscape:label="known-text"
                     xml:space="preserve"
-                    inkscape:label="known-text"><tspan
-                        style="font-size:3.88055992px;stroke-width:0.26458299"
-                        y="241.15108"
-                        x="193.57748"
+                    style="font-style:normal;font-weight:normal;font-size:3.88055992px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299"
+                    x="193.57748"
+                    y="241.15108"
+                    id="text1470-3"><tspan
+                        class="en"
+                        sodipodi:role="line"
                         id="tspan1468-85"
-                        sodipodi:role="line" class="en">known</tspan><tspan class="la"    style="font-size:3.88055992px;stroke-width:0.26458299"
-                                                                            y="241.15108"
-                                                                            x="193.57748">notus</tspan></text>
+                        x="193.57748"
+                        y="241.15108"
+                        style="font-size:3.88055992px;stroke-width:0.26458299">known</tspan><tspan
+                        id="tspan1188"
+                        x="193.57748"
+                        y="241.15108"
+                        style="font-size:3.88055992px;stroke-width:0.26458299"
+                        class="la">notus</tspan></text>
         </g>
         <g
-                inkscape:label="know"
-                id="know"
+                transform="translate(21.1665,-3.0704204e-6)"
                 class="sense show know have it-is-sure certum-est"
-                transform="translate(21.166584,-1.5352102e-6)">
+                id="know"
+                inkscape:label="know">
             <title
                     id="title4801"> CIC. Att. 12, 34, 1 te certum diem (certitudinem M pr. m. ) illius profectionis non habere.</title>
             <text
+                    id="text8362-1-3"
+                    y="248.90668"
+                    x="143.26366"
+                    style="font-style:normal;font-weight:normal;font-size:4.58611012px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299"
+                    xml:space="preserve"><tspan
+                        style="font-size:4.58611012px;stroke-width:0.26458299"
+                        y="248.90668"
+                        x="143.26366"
+                        id="tspan8360-5-6"
+                        sodipodi:role="line">CERTUM HABEO</tspan></text>
+            <path
+                    style="fill:#ffffff;fill-opacity:1;stroke:#333333;stroke-width:0.918369;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                    d="M 369.50837,251.18463 H 184.26449 v -6.70594 h 185.24388"
+                    id="know-rect"
+                    inkscape:connector-curvature="0"
+                    sodipodi:nodetypes="cccc"
+                    inkscape:label="know-rect" />
+            <path
+                    id="know-arrow"
+                    d="m 369.50837,244.48521 8.20528,3.35242 -8.20526,3.31497"
+                    style="fill:none;stroke:#333333;stroke-width:0.918369;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                    inkscape:connector-curvature="0"
+                    inkscape:label="know-arrow" />
+            <text
+                    inkscape:label="know-text"
+                    xml:space="preserve"
+                    style="font-style:normal;font-weight:normal;font-size:3.88055992px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299"
+                    x="193.57748"
+                    y="249.00615"
+                    id="know-text"><tspan
+                        class="en"
+                        sodipodi:role="line"
+                        id="tspan1468-7"
+                        x="193.57748"
+                        y="249.00615"
+                        style="font-size:3.88055992px;stroke-width:0.26458299">I know</tspan><tspan
+         class="la"
+         style="font-size:3.88055992px;stroke-width:0.26458299"
+         y="249.00615"
+         x="193.57748"
+         id="tspan1198">novisse*</tspan></text>
+        </g>
+        <g
+                transform="translate(21.1665,-3.0704204e-6)"
+                class="sense show say hear it-is-sure certum-est"
+                id="say"
+                inkscape:label="say">
+            <title
+                    id="title1307">
+                CIC. ac. 2, 92 interrogati ... certum respondeamus, [non] habemus (sc. quid respondeamus).
+            </title>
+            <path
+                    style="fill:#ffffff;fill-opacity:1;stroke:#00a368;stroke-width:0.918369;stroke-miterlimit:4;stroke-dasharray:0.918369, 0.918369;stroke-dashoffset:0;stroke-opacity:1"
+                    d="M 369.50838,259.16905 H 184.26449 v -6.70594 h 185.24389"
+                    id="relevant_rect-0"
+                    inkscape:connector-curvature="0"
+                    sodipodi:nodetypes="cccc"
+                    inkscape:label="say-rect" />
+            <text
                     xml:space="preserve"
                     style="font-style:normal;font-weight:normal;font-size:4.58611012px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299"
-                    x="143.26366"
-                    y="248.90668"
-                    id="text8362-1-3"><tspan
+                    x="96.209663"
+                    y="257.55667"
+                    id="text8362-1-4-2-3"><tspan
                         sodipodi:role="line"
-                        id="tspan8360-5-6"
-                        x="143.26366"
-                        y="248.90668"
-                        style="font-size:4.58611012px;stroke-width:0.26458299">CERTUM HABEO</tspan></text>
+                        id="tspan8360-5-9-5-6"
+                        x="96.209663"
+                        y="257.55667"
+                        style="font-size:4.58611012px;stroke-width:0.26458299">CERTUM + verbum dicendi/sentiendi</tspan></text>
             <path
-                    inkscape:label="know-rect"
-                    sodipodi:nodetypes="cccc"
-                    inkscape:connector-curvature="0"
-                    id="know-rect"
-                    d="M 369.50837,251.18463 H 184.26449 v -6.70594 h 185.24388"
-                    style="fill:#ffffff;fill-opacity:1;stroke:#333333;stroke-width:0.918369;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-            <path
-                    inkscape:label="know-arrow"
-                    inkscape:connector-curvature="0"
-                    style="fill:none;stroke:#333333;stroke-width:0.918369;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-                    d="m 369.50837,244.48521 8.20528,3.35242 -8.20526,3.31497"
-                    id="know-arrow" />
-            <text
-                    id="know-text"
-                    y="249.00615"
-                    x="193.57748"
-                    style="font-style:normal;font-weight:normal;font-size:3.88055992px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299"
-                    xml:space="preserve"
-                    inkscape:label="know-text"><tspan
-                        style="font-size:3.88055992px;stroke-width:0.26458299"
-                        y="249.00615"
-                        x="193.57748"
-                        id="tspan1468-7"
-                        sodipodi:role="line" class="en">I know</tspan><tspan class="la"  style="font-size:3.88055992px;stroke-width:0.26458299"
-                                                                             y="249.00615"
-                                                                             x="193.57748">novisse*</tspan></text>
-        </g>
-        <g
-                inkscape:label="say"
-                id="say"
-                class="sense show say hear it-is-sure certum-est"
-                transform="translate(21.166584,-1.5352102e-6)">
-            <path
-                    inkscape:label="say-rect"
-                    sodipodi:nodetypes="cccc"
-                    inkscape:connector-curvature="0"
-                    id="relevant_rect-0"
-                    d="M 369.50838,259.16905 H 184.26449 v -6.70594 h 185.24389"
-                    style="fill:#ffffff;fill-opacity:1;stroke:#00a368;stroke-width:0.918369;stroke-miterlimit:4;stroke-dasharray:0.918369, 0.918369;stroke-dashoffset:0;stroke-opacity:1" />
-            <path
-                    inkscape:label="say-arrow"
-                    inkscape:connector-curvature="0"
-                    style="fill:none;stroke:#00a368;stroke-width:0.918369;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.918369, 0.918369;stroke-dashoffset:0;stroke-opacity:1"
+                    id="relevant_path-34"
                     d="m 369.50838,252.46963 8.20528,3.35242 -8.20526,3.31497"
-                    id="relevant_path-34" />
-            <text
-                    id="text1470-6"
-                    y="256.99057"
-                    x="193.5775"
-                    style="font-style:normal;font-weight:normal;font-size:3.88055992px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299"
+                    style="fill:none;stroke:#00a368;stroke-width:0.918369;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.918369, 0.918369;stroke-dashoffset:0;stroke-opacity:1"
+                    inkscape:connector-curvature="0"
+                    inkscape:label="say-arrow" />
+            <text class="en"
+                    inkscape:label="say-text"
                     xml:space="preserve"
-                    inkscape:label="say-text"><tspan
-                        style="font-size:3.88055992px;stroke-width:0.26458299"
-                        y="256.99057"
-                        x="193.5775"
-                        id="tspan1468-3"
-                        sodipodi:role="line">to hear/say something for sure</tspan></text>
+                    style="font-style:normal;font-weight:normal;font-size:3.88055992px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299"
+                    x="193.5775"
+                    y="256.99057"
+                    id="text1470-6"><tspan class="en"
+                                           sodipodi:role="line"
+                                           id="tspan1468-3"
+                                           x="193.5775"
+                                           y="256.99057"
+                                           style="font-size:3.88055992px;stroke-width:0.26458299">to hear/say something for sure</tspan></text>
         </g>
         <g
-                inkscape:label="true"
-                id="true"
+                transform="translate(21.1665,-3.0704204e-6)"
                 class="sense show true proven right"
-                transform="translate(21.166584,-1.5352102e-6)">
+                id="true"
+                inkscape:label="true">
             <title
                     id="title4709">LUCR. 5, 582 quandoquidem luna claram speciem certamque figuram praebet.</title>
             <path
-                    inkscape:label="true-rect"
-                    sodipodi:nodetypes="cccc"
-                    inkscape:connector-curvature="0"
-                    id="relevant_rect-6"
+                    style="fill:#ffffff;fill-opacity:1;stroke:#333333;stroke-width:0.918369;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
                     d="M 369.50837,267.43994 H 184.26449 V 260.734 h 185.24388"
-                    style="fill:#ffffff;fill-opacity:1;stroke:#333333;stroke-width:0.918369;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-            <path
-                    inkscape:label="true-arrow"
+                    id="relevant_rect-6"
                     inkscape:connector-curvature="0"
-                    style="fill:none;stroke:#333333;stroke-width:0.918369;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                    sodipodi:nodetypes="cccc"
+                    inkscape:label="true-rect" />
+            <path
+                    id="relevant_path-33"
                     d="m 369.50837,260.74052 8.20528,3.35242 -8.20526,3.31497"
-                    id="relevant_path-33" />
+                    style="fill:none;stroke:#333333;stroke-width:0.918369;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                    inkscape:connector-curvature="0"
+                    inkscape:label="true-arrow" />
             <text
-                    id="text1470-4"
-                    y="265.26151"
-                    x="193.57748"
-                    style="font-style:normal;font-weight:normal;font-size:3.88055992px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299"
+                    inkscape:label="true-text"
                     xml:space="preserve"
-                    inkscape:label="true-text"><tspan
-                        style="font-size:3.88055992px;stroke-width:0.26458299"
-                        y="265.26151"
-                        x="193.57748"
+                    style="font-style:normal;font-weight:normal;font-size:3.88055992px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299"
+                    x="193.57748"
+                    y="265.26151"
+                    id="text1470-4"><tspan
+                        class="en"
+                        sodipodi:role="line"
                         id="tspan1468-4"
-                        sodipodi:role="line" class="en">true, real, right</tspan><tspan class="la"
-                                                                                        style="font-size:3.88055992px;stroke-width:0.26458299"
-                                                                                        y="265.26151"
-                                                                                        x="193.57748">verus, rectus</tspan></text>
+                        x="193.57748"
+                        y="265.26151"
+                        style="font-size:3.88055992px;stroke-width:0.26458299">true, real, right</tspan><tspan
+                        id="tspan1211"
+                        x="193.57748"
+                        y="265.26151"
+                        style="font-size:3.88055992px;stroke-width:0.26458299"
+                        class="la">verus, rectus</tspan></text>
         </g>
         <g
-                inkscape:label="precise"
-                id="precise"
+                transform="translate(21.1665,-3.0704204e-6)"
                 class="sense show precise evident defined"
-                transform="translate(21.166584,-1.5352102e-6)">
+                id="precise"
+                inkscape:label="precise">
             <title
                     id="title4711">CAES. Gall. 5, 13, 4 certis mensuris ... videbamus.</title>
             <path
-                    inkscape:label="precise-rect"
-                    sodipodi:nodetypes="cccc"
-                    inkscape:connector-curvature="0"
-                    id="relevant_rect-3"
+                    style="fill:#ffffff;fill-opacity:1;stroke:#333333;stroke-width:0.918369;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
                     d="M 369.50837,275.33855 H 184.26449 v -6.70594 h 185.24388"
-                    style="fill:#ffffff;fill-opacity:1;stroke:#333333;stroke-width:0.918369;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-            <path
-                    inkscape:label="precise-arrow"
+                    id="relevant_rect-3"
                     inkscape:connector-curvature="0"
-                    style="fill:none;stroke:#333333;stroke-width:0.918369;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                    sodipodi:nodetypes="cccc"
+                    inkscape:label="precise-rect" />
+            <path
+                    id="relevant_path-9"
                     d="m 369.50837,268.63913 8.20528,3.35242 -8.20526,3.31497"
-                    id="relevant_path-9" />
+                    style="fill:none;stroke:#333333;stroke-width:0.918369;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                    inkscape:connector-curvature="0"
+                    inkscape:label="precise-arrow" />
             <text
-                    id="text1470-7"
-                    y="273.16006"
-                    x="193.57747"
-                    style="font-style:normal;font-weight:normal;font-size:3.88055992px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299"
+                    inkscape:label="precise-text"
                     xml:space="preserve"
-                    inkscape:label="precise-text"><tspan
-                        style="font-size:3.88055992px;stroke-width:0.26458299"
-                        y="273.16006"
-                        x="193.57747"
+                    style="font-style:normal;font-weight:normal;font-size:3.88055992px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299"
+                    x="193.57747"
+                    y="273.16006"
+                    id="text1470-7"><tspan
+                        sodipodi:role="line"
                         id="tspan1468-2"
-                        sodipodi:role="line">precise</tspan></text>
+                        x="193.57747"
+                        y="273.16006"
+                        style="font-size:3.88055992px;stroke-width:0.26458299">precise</tspan></text>
         </g>
         <g
-                inkscape:label="clear"
-                id="clear"
+                transform="translate(21.1665,-3.0704204e-6)"
                 class="sense show clear evident defined"
-                transform="translate(21.166584,-1.5352102e-6)">
+                id="clear"
+                inkscape:label="clear">
             <title
                     id="title4713">VITR. 1, 1, 8 nisi sonitus ad artificis aures certos et aequales fecerint.</title>
             <path
-                    inkscape:label="clear-rect"
-                    sodipodi:nodetypes="cccc"
-                    inkscape:connector-curvature="0"
-                    id="relevant_rect-58"
+                    style="fill:#ffffff;fill-opacity:1;stroke:#333333;stroke-width:0.918369;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
                     d="M 369.50838,283.30825 H 184.26449 v -6.70594 h 185.24389"
-                    style="fill:#ffffff;fill-opacity:1;stroke:#333333;stroke-width:0.918369;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-            <path
-                    inkscape:label="clear-arrow"
+                    id="relevant_rect-58"
                     inkscape:connector-curvature="0"
-                    style="fill:none;stroke:#333333;stroke-width:0.918369;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                    sodipodi:nodetypes="cccc"
+                    inkscape:label="clear-rect" />
+            <path
+                    id="relevant_path-90"
                     d="m 369.50838,276.60883 8.20528,3.35242 -8.20526,3.31497"
-                    id="relevant_path-90" />
+                    style="fill:none;stroke:#333333;stroke-width:0.918369;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                    inkscape:connector-curvature="0"
+                    inkscape:label="clear-arrow" />
             <text
-                    id="text1470-24"
-                    y="281.12979"
-                    x="193.57748"
-                    style="font-style:normal;font-weight:normal;font-size:3.88055992px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299"
+                    inkscape:label="clear-text"
                     xml:space="preserve"
-                    inkscape:label="clear-text"><tspan
-                        style="font-size:3.88055992px;stroke-width:0.26458299"
-                        y="281.12979"
-                        x="193.57748"
+                    style="font-style:normal;font-weight:normal;font-size:3.88055992px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299"
+                    x="193.57748"
+                    y="281.12979"
+                    id="text1470-24"><tspan
+                        class="en"
+                        sodipodi:role="line"
                         id="tspan1468-76"
-                        sodipodi:role="line" class="en">clear, well defined, that can be discerned</tspan><tspan class="la"
-                                                                                                                 style="font-size:3.88055992px;stroke-width:0.26458299"
-                                                                                                                 y="281.12979"
-                                                                                                                 x="193.57748">clarus, quod certo cognosci potest</tspan></text>
+                        x="193.57748"
+                        y="281.12979"
+                        style="font-size:3.88055992px;stroke-width:0.26458299">clear, well defined, that can be discerned</tspan><tspan
+                        id="tspan1225"
+                        x="193.57748"
+                        y="281.12979"
+                        style="font-size:3.88055992px;stroke-width:0.26458299"
+                        class="la">clarus, quod certo cognosci potest</tspan></text>
         </g>
         <g
-                sodipodi:insensitive="true"
-                inkscape:label="authentic"
-                id="authentic"
+                transform="translate(21.1665,-3.0704204e-6)"
                 class="show sense authentic proven"
-                transform="translate(21.166584,-1.5352102e-6)">
+                id="authentic"
+                inkscape:label="authentic"
+                sodipodi:insensitive="true">
             <title
                     id="title4715">CIC. Verr. 4, 175 quae dicimus rationibus populorum non interpositis ... sed certis ... relata atque confecta sunt.</title>
             <path
-                    inkscape:label="authentic-rect"
-                    sodipodi:nodetypes="cccc"
-                    inkscape:connector-curvature="0"
-                    id="relevant_rect-57"
+                    style="fill:#ffffff;fill-opacity:1;stroke:#333333;stroke-width:0.918369;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
                     d="M 369.50837,291.36084 H 184.26449 v -6.70594 h 185.24388"
-                    style="fill:#ffffff;fill-opacity:1;stroke:#333333;stroke-width:0.918369;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-            <path
-                    inkscape:label="authentic-arrow"
+                    id="relevant_rect-57"
                     inkscape:connector-curvature="0"
-                    style="fill:none;stroke:#333333;stroke-width:0.918369;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                    sodipodi:nodetypes="cccc"
+                    inkscape:label="authentic-rect" />
+            <path
+                    id="relevant_path-13"
                     d="m 369.50837,284.66142 8.20528,3.35242 -8.20526,3.31497"
-                    id="relevant_path-13" />
+                    style="fill:none;stroke:#333333;stroke-width:0.918369;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                    inkscape:connector-curvature="0"
+                    inkscape:label="authentic-arrow" />
             <text
-                    id="text1470-33"
-                    y="289.18234"
-                    x="193.57748"
-                    style="font-style:normal;font-weight:normal;font-size:3.88055992px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299"
+                    inkscape:label="authentic-text"
                     xml:space="preserve"
-                    inkscape:label="authentic-text"><tspan
-                        style="font-size:3.88055992px;stroke-width:0.26458299"
-                        y="289.18234"
-                        x="193.57748"
+                    style="font-style:normal;font-weight:normal;font-size:3.88055992px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299"
+                    x="193.57748"
+                    y="289.18234"
+                    id="text1470-33"><tspan
+                        class="en"
+                        sodipodi:role="line"
                         id="tspan1468-851"
-                        sodipodi:role="line" class="en">authentic, genuine</tspan><tspan class="la"    style="font-size:3.88055992px;stroke-width:0.26458299"
-                                                                                         y="289.18234"
-                                                                                         x="193.57748">genuinus</tspan></text>
+                        x="193.57748"
+                        y="289.18234"
+                        style="font-size:3.88055992px;stroke-width:0.26458299">authentic, genuine</tspan><tspan
+                        id="tspan1233"
+                        x="193.57748"
+                        y="289.18234"
+                        style="font-size:3.88055992px;stroke-width:0.26458299"
+                        class="la">genuinus</tspan></text>
         </g>
         <g
-                inkscape:label="reliable"
-                id="reliable"
+                transform="translate(21.1665,-3.0704204e-6)"
                 class="show sense reliable trusty-words"
-                transform="translate(21.166584,-1.5352102e-6)">
+                id="reliable"
+                inkscape:label="reliable">
             <title
                     id="title4719">CIC. div. 1, 78 fiunt certae divinationum coniecturae.</title>
             <path
-                    inkscape:label="reliable-rect"
-                    sodipodi:nodetypes="cccc"
-                    inkscape:connector-curvature="0"
-                    id="relevant_rect-08-3"
+                    style="fill:#ffffff;fill-opacity:1;stroke:#333333;stroke-width:0.918369;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
                     d="m 369.50839,299.65429 h -185.2439 v -6.70594 h 185.2439"
-                    style="fill:#ffffff;fill-opacity:1;stroke:#333333;stroke-width:0.918369;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-            <path
-                    inkscape:label="reliable-arrow"
+                    id="relevant_rect-08-3"
                     inkscape:connector-curvature="0"
-                    style="fill:none;stroke:#333333;stroke-width:0.918369;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                    sodipodi:nodetypes="cccc"
+                    inkscape:label="reliable-rect" />
+            <path
+                    id="relevant_path-7-2"
                     d="m 369.50839,292.95487 8.20528,3.35242 -8.20526,3.31497"
-                    id="relevant_path-7-2" />
+                    style="fill:none;stroke:#333333;stroke-width:0.918369;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                    inkscape:connector-curvature="0"
+                    inkscape:label="reliable-arrow" />
             <text
-                    id="text1470-63-8"
-                    y="297.47598"
-                    x="193.57748"
-                    style="font-style:normal;font-weight:normal;font-size:3.88055992px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299;stroke-miterlimit:4;stroke-dasharray:none"
+                    inkscape:label="reliable-text"
                     xml:space="preserve"
-                    inkscape:label="reliable-text"><tspan
-                        style="font-size:3.88055992px;stroke-width:0.26458299"
-                        y="297.47598"
-                        x="193.57748"
+                    style="font-style:normal;font-weight:normal;font-size:3.88055992px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299;stroke-miterlimit:4;stroke-dasharray:none"
+                    x="193.57748"
+                    y="297.47598"
+                    id="text1470-63-8"><tspan
+                        class="en"
+                        sodipodi:role="line"
                         id="tspan1468-50-0"
-                        sodipodi:role="line" class="en">reliable</tspan><tspan class="la"   style="font-size:3.88055992px;stroke-width:0.26458299"
-                                                                               y="297.47598"
-                                                                               x="193.57748">speciatim fere i.q. vera explorans(?)</tspan></text>
+                        x="193.57748"
+                        y="297.47598"
+                        style="font-size:3.88055992px;stroke-width:0.26458299">reliable</tspan><tspan
+                        id="tspan1241"
+                        x="193.57748"
+                        y="297.47598"
+                        style="font-size:3.88055992px;stroke-width:0.26458299"
+                        class="la">[speciatim fere i.q. vera explorans]</tspan></text>
         </g>
         <g
-                id="defined_links"
+                transform="translate(21.1665,-3.0704204e-6)"
                 inkscape:label="defined_links"
-                transform="translate(21.166584,-1.5352102e-6)">
+                id="defined_links">
             <path
-                    class="links defined single"
-                    sodipodi:nodetypes="cccc"
-                    d="m 377.61307,28.029533 h 3.63432 V 208.14028 h -3.63432"
-                    style="display:none;opacity:0.97000002;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.05767;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+                    inkscape:connector-curvature="0"
                     id="defined_single"
-                    inkscape:connector-curvature="0" />
-            <path
-                    id="defined_known"
-                    class="defined known links"
-                    style="display:none;opacity:0.97000002;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.01629388;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
-                    d="m 377.64721,27.972152 h 5.82392 V 239.96888 h -5.82392"
+                    style="display:none;opacity:0.97000002;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.05767;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+                    d="m 377.61307,28.029533 h 3.63432 V 208.14028 h -3.63432"
                     sodipodi:nodetypes="cccc"
+                    class="links defined single" />
+            <path
+                    inkscape:connector-curvature="0"
                     inkscape:label="defined_known"
-                    inkscape:connector-curvature="0" />
-            <path
-                    inkscape:label="defined_clear"
-                    class="defined links clear"
                     sodipodi:nodetypes="cccc"
-                    d="m 377.56364,27.920651 h 10.14607 V 280.01075 h -10.14607"
-                    style="display:none;opacity:0.97000002;fill:none;fill-opacity:1;stroke:#333333;stroke-width:0.86788702;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+                    d="m 377.64721,27.972152 h 5.82392 V 239.96888 h -5.82392"
+                    style="display:none;opacity:0.97000002;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.01629388;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+                    class="defined known links"
+                    id="defined_known" />
+            <path
+                    inkscape:connector-curvature="0"
                     id="defined_clear"
-                    inkscape:connector-curvature="0" />
-            <path
-                    id="defined_precise"
-                    class="defined links precise"
-                    style="display:none;opacity:0.97000002;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.04165006;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
-                    d="m 377.40717,28.209596 h 8.17905 V 271.89012 h -8.17905"
+                    style="display:none;opacity:0.97000002;fill:none;fill-opacity:1;stroke:#333333;stroke-width:0.86788702;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+                    d="m 377.56364,27.920651 h 10.14607 V 280.01075 h -10.14607"
                     sodipodi:nodetypes="cccc"
+                    class="defined links clear"
+                    inkscape:label="defined_clear" />
+            <path
+                    inkscape:connector-curvature="0"
                     inkscape:label="defined_precise"
-                    inkscape:connector-curvature="0" />
-            <path
-                    id="defined_performed"
-                    class="links defined performed"
-                    style="display:none;opacity:0.97000002;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.05833006;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
-                    d="m 377.56382,27.920974 h 12.23653 V 365.56105 h -12.23653"
                     sodipodi:nodetypes="cccc"
+                    d="m 377.40717,28.209596 h 8.17905 V 271.89012 h -8.17905"
+                    style="display:none;opacity:0.97000002;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.04165006;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+                    class="defined links precise"
+                    id="defined_precise" />
+            <path
+                    inkscape:connector-curvature="0"
                     inkscape:label="defined_performed"
-                    inkscape:connector-curvature="0" />
+                    sodipodi:nodetypes="cccc"
+                    d="m 377.56382,27.920974 h 12.23653 V 365.56105 h -12.23653"
+                    style="display:none;opacity:0.97000002;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.05833006;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+                    class="links defined performed"
+                    id="defined_performed" />
         </g>
         <g
-                id="certain_links"
-                inkscape:label="certain_links"
-                style="display:none"
+                transform="matrix(1.8005045,0,0,0.99888759,-280.91532,0.29151639)"
                 class="links performed certain it-is-sure certum-est"
-                transform="matrix(1.8005045,0,0,0.99888759,-280.91524,0.29151793)">
-            <path
-                    sodipodi:nodetypes="cccc"
-                    d="m 377.18748,159.07403 h 9.02932 V 365.0484 h -9.02932"
-                    style="display:inline;opacity:0.97000002;fill:none;fill-opacity:1;stroke:#333333;stroke-width:0.78916365;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:0.78916362, 0.78916362;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
-                    id="certain_performed"
-                    inkscape:connector-curvature="0"
-                    inkscape:label="certain_performed" />
-        </g>
-        <g
-                id="quantity_links"
-                inkscape:label="quantity_links"
                 style="display:none"
-                class="links quantity number"
-                transform="translate(21.166584,-1.5352102e-6)">
+                inkscape:label="certain_links"
+                id="certain_links">
             <path
-                    sodipodi:nodetypes="cccc"
-                    d="m 377.79896,44.536083 h 3.63538 V 224.11377 h -3.63538"
-                    style="opacity:0.97000002;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.05625808;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
-                    id="quantity_number"
+                    inkscape:label="certain_performed"
                     inkscape:connector-curvature="0"
-                    inkscape:label="quantity_number" />
+                    id="certain_performed"
+                    style="display:inline;opacity:0.97000002;fill:none;fill-opacity:1;stroke:#333333;stroke-width:0.78916365;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:0.78916362, 0.78916362;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+                    d="m 377.18748,159.07403 h 9.02932 V 365.0484 h -9.02932"
+                    sodipodi:nodetypes="cccc" />
         </g>
         <g
-                inkscape:label="quantity"
-                id="quantity"
+                transform="translate(21.1665,-3.0704204e-6)"
+                class="links quantity number"
+                style="display:none"
+                inkscape:label="quantity_links"
+                id="quantity_links">
+            <path
+                    inkscape:label="quantity_number"
+                    inkscape:connector-curvature="0"
+                    id="quantity_number"
+                    style="opacity:0.97000002;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.05625808;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+                    d="m 377.79896,44.536083 h 3.63538 V 224.11377 h -3.63538"
+                    sodipodi:nodetypes="cccc" />
+        </g>
+        <g
+                style="display:inline"
+                transform="translate(21.1665,-3.0704204e-6)"
                 class="sense show quantity number"
-                transform="translate(21.166584,-1.5352102e-6)"
-                style="display:inline">
+                id="quantity"
+                inkscape:label="quantity">
             <title
                     id="title382">PLAUT. Pseud. 566 certum quod sciam, quo id sim facturus pacto nil etiam scio, nisi quia futurum est.</title>
             <path
-                    id="proven_path-6-5"
-                    d="m 369.72138,41.138099 8.07819,3.398942 -8.07818,3.360978"
+                    inkscape:label="quantity-arrow"
+                    inkscape:connector-curvature="0"
                     style="fill:none;stroke:#333333;stroke-width:0.918369;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-                    inkscape:connector-curvature="0"
-                    inkscape:label="quantity-arrow" />
+                    d="m 369.72138,41.138099 8.07819,3.398942 -8.07818,3.360978"
+                    id="proven_path-6-5" />
             <path
-                    style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#333333;stroke-width:0.94698602;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-                    d="M 369.72138,47.859003 H 111.09265 v -6.720904 h 258.62873"
+                    inkscape:label="quantity-rect"
+                    sodipodi:nodetypes="cccc"
+                    inkscape:connector-curvature="0"
                     id="certain_rect"
-                    inkscape:connector-curvature="0"
-                    sodipodi:nodetypes="cccc"
-                    inkscape:label="quantity-rect" />
+                    d="M 369.72138,47.859003 H 111.09265 v -6.720904 h 258.62873"
+                    style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#333333;stroke-width:0.94698602;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
             <text
-                    xml:space="preserve"
-                    style="font-style:normal;font-weight:normal;font-size:3.88055992px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299"
-                    x="120.24673"
+                    id="text3016"
                     y="45.768749"
-                    id="text3016"><tspan class="en"
-                                         sodipodi:role="line"
-                                         id="tspan3014"
-                                         x="120.24673"
-                                         y="45.768749"
-                                         style="font-size:3.88055992px;stroke-width:0.26458299">a certain, not specified quantity</tspan><tspan class="la"  x="120.24673"
-                                                                                                                                                y="45.768749"
-                                                                                                                                                style="font-size:3.88055992px;stroke-width:0.26458299">quidam</tspan></text>
+                    x="120.24673"
+                    style="font-style:normal;font-weight:normal;font-size:3.88055992px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299"
+                    xml:space="preserve"><tspan
+                        style="font-size:3.88055992px;stroke-width:0.26458299"
+                        y="45.768749"
+                        x="120.24673"
+                        id="tspan3014"
+                        sodipodi:role="line"
+                        class="en">a certain, not specified quantity</tspan><tspan
+                        id="tspan1259"
+                        style="font-size:3.88055992px;stroke-width:0.26458299"
+                        y="45.768749"
+                        x="120.24673"
+                        class="la">quidam</tspan></text>
         </g>
         <g
-                id="established_links"
+                transform="translate(21.1665,-3.0704204e-6)"
                 inkscape:label="established_links"
-                transform="translate(21.166584,-1.5352102e-6)">
+                id="established_links">
             <path
-                    sodipodi:nodetypes="cccc"
-                    d="m 377.94809,52.27442 h 2.72804 v 8.097339 h -2.72804"
-                    style="display:none;opacity:0.97000002;fill:none;fill-opacity:1;stroke:#333333;stroke-width:0.81824785;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
-                    id="established_decided"
-                    inkscape:connector-curvature="0"
+                    inkscape:label="established_decided"
                     class="links decided established certum-est"
-                    inkscape:label="established_decided" />
-            <path
-                    inkscape:label="established_nature"
                     inkscape:connector-curvature="0"
-                    id="established_nature"
-                    class="links established nature"
-                    style="display:none;opacity:0.97000002;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.05833328;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+                    id="established_decided"
+                    style="display:none;opacity:0.97000002;fill:none;fill-opacity:1;stroke:#333333;stroke-width:0.81824785;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+                    d="m 377.94809,52.27442 h 2.72804 v 8.097339 h -2.72804"
+                    sodipodi:nodetypes="cccc" />
+            <path
+                    sodipodi:nodetypes="cccc"
                     d="m 377.85736,52.384047 h 8.02755 V 232.05329 h -8.02755"
-                    sodipodi:nodetypes="cccc" />
-            <path
-                    inkscape:label="established_suitable"
+                    style="display:none;opacity:0.97000002;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.05833328;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+                    class="links established nature"
+                    id="established_nature"
                     inkscape:connector-curvature="0"
-                    id="established_suitable"
-                    class="links established suitable"
-                    style="display:none;opacity:0.97000002;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.01016879;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+                    inkscape:label="established_nature" />
+            <path
+                    sodipodi:nodetypes="cccc"
                     d="m 377.88991,52.374244 h 5.23023 V 215.8149 h -5.23023"
-                    sodipodi:nodetypes="cccc" />
+                    style="display:none;opacity:0.97000002;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.01016879;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+                    class="links established suitable"
+                    id="established_suitable"
+                    inkscape:connector-curvature="0"
+                    inkscape:label="established_suitable" />
         </g>
         <g
-                id="it-is-sure_links"
+                transform="translate(21.11878,-0.17154308)"
                 inkscape:label="it-is-sure_links"
-                transform="translate(21.118864,-0.17154154)"
-                style="display:none">
+                id="it-is-sure_links">
             <path
-                    id="it-is-sure_have"
-                    style="display:none;opacity:0.97000002;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.05833328;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
-                    d="m 377.35892,77.630158 h 6.21518 v 24.670402 h -6.21518"
-                    sodipodi:nodetypes="cccc"
-                    class="links have it-is-sure know certum-est"
+                    inkscape:connector-curvature="0"
                     inkscape:label="it-is-sure_have"
-                    inkscape:connector-curvature="0" />
-            <path
-                    class="it-is-sure certain links performed certum-est"
-                    inkscape:connector-curvature="0"
-                    inkscape:label="it-is-sure_certain"
+                    class="links have it-is-sure know certum-est"
                     sodipodi:nodetypes="cccc"
+                    d="m 377.35892,77.630158 h 6.21518 v 24.670402 h -6.21518"
+                    style="display:none;opacity:0.97000002;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.05833328;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+                    id="it-is-sure_have" />
+            <path
+                    id="it-is-sure_certain"
+                    style="display:none;opacity:0.97000002;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.05833328;stroke-linecap:butt;stroke-miterlimit:4.9000001;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
                     d="m 377.57844,77.406543 h 18.32108 v 81.740047 h -18.32108"
-                    style="display:none;opacity:0.97000002;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.05833328;stroke-linecap:butt;stroke-miterlimit:4.9000001;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
-                    id="it-is-sure_certain" />
-            <path
-                    class="it-is-sure undoubtedly links certum-est"
+                    sodipodi:nodetypes="cccc"
+                    inkscape:label="it-is-sure_certain"
                     inkscape:connector-curvature="0"
-                    inkscape:label="it-is-sure_undoubtedly"
-                    sodipodi:nodetypes="cccc"
-                    d="m 377.56087,77.419301 h 15.118 v 48.899549 h -15.118"
+                    class="it-is-sure certain links performed certum-est" />
+            <path
+                    id="it-is-sure_undoubtedly"
                     style="display:none;opacity:0.97000002;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.05833328;stroke-linecap:butt;stroke-miterlimit:4.9000001;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
-                    id="it-is-sure_undoubtedly" />
-            <path
-                    id="it-is-sure_for-sure"
-                    style="display:none;opacity:0.97000002;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.05833328;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
-                    d="m 377.44064,77.613743 h 9.17546 v 32.558977 h -9.17546"
+                    d="m 377.56087,77.419301 h 15.118 v 48.899549 h -15.118"
                     sodipodi:nodetypes="cccc"
-                    class="links for-sure it-is-sure certum-est"
+                    inkscape:label="it-is-sure_undoubtedly"
+                    inkscape:connector-curvature="0"
+                    class="it-is-sure undoubtedly links certum-est" />
+            <path
+                    inkscape:connector-curvature="0"
                     inkscape:label="it-is-sure_for-sure"
-                    inkscape:connector-curvature="0" />
-            <path
-                    id="it-is-sure_hear"
-                    style="display:inline;opacity:0.97000002;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.05833328;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
-                    d="m 377.53175,77.5421 h 12.01834 v 40.57378 h -12.01834"
+                    class="links for-sure it-is-sure certum-est"
                     sodipodi:nodetypes="cccc"
-                    class="links hear it-is-sure say certum-est"
-                    inkscape:label="it-is-sure_hear"
-                    inkscape:connector-curvature="0" />
-        </g>
-        <g
-                id="g5826"
-                inkscape:label="proven_links"
-                style="opacity:0.93000034;stroke-width:0.84684587;stroke-miterlimit:4;stroke-dasharray:none"
-                transform="matrix(1.5618387,0,0,1,-224.01275,0)">
-            <path
-                    id="proven_known"
-                    style="display:none;opacity:0.97000002;fill:none;fill-opacity:1;stroke:#333333;stroke-width:0.84684587;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
-                    d="m 398.69948,93.994423 h 2.91437 V 240.02983 h -2.91437"
-                    class="links proven known"
-                    sodipodi:nodetypes="cccc"
-                    inkscape:label="proven_known"
-                    inkscape:connector-curvature="0" />
-            <path
-                    id="proven_true"
-                    style="display:none;opacity:1;fill:none;fill-opacity:1;stroke:#333333;stroke-width:0.84684587;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
-                    d="m 398.73077,94.047495 h 5.77137 V 264.09787 h -5.77137"
-                    sodipodi:nodetypes="cccc"
-                    inkscape:label="proven_true"
-                    class="links proven true"
-                    inkscape:connector-curvature="0" />
-            <path
-                    id="proven_authentic"
-                    style="display:none;opacity:1;fill:none;fill-opacity:1;stroke:#333333;stroke-width:0.84684587;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
-                    d="m 398.69948,93.994423 h 8.4978 V 287.68571 h -8.4978"
-                    sodipodi:nodetypes="cccc"
-                    inkscape:label="proven_authentic"
-                    class="links proven authentic"
-                    inkscape:connector-curvature="0" />
-            <path
-                    id="proven_sure"
-                    style="display:none;opacity:0.97000002;fill:none;fill-opacity:1;stroke:#333333;stroke-width:0.84684587;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
-                    d="m 398.71366,93.97974 h 10.94267 v 210.35744 h -10.94267"
-                    sodipodi:nodetypes="cccc"
-                    inkscape:label="proven_sure"
-                    class="links proven sure"
-                    inkscape:connector-curvature="0" />
-        </g>
-        <path
-                inkscape:connector-curvature="0"
-                inkscape:label="have_know"
-                sodipodi:nodetypes="cccc"
-                class="links have know it-is-sure certum-est"
-                d="m 398.67359,102.19075 h 2.91485 v 145.80423 h -2.91485"
-                style="display:none;opacity:0.97000002;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.05833328;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
-                id="have_know" />
-        <path
-                inkscape:connector-curvature="0"
-                inkscape:label="hear_say"
-                class="links hear say it-is-sure certum-est"
-                sodipodi:nodetypes="cccc"
-                d="m 398.65137,117.94564 h 8.97636 v 137.69031 h -8.97636"
-                style="display:none;opacity:0.97000002;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.06030655;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
-                id="hear_say" />
-        <path
-                inkscape:connector-curvature="0"
-                inkscape:label="evident_precise"
-                sodipodi:nodetypes="cccc"
-                class="links evident precise"
-                d="m 398.67009,133.81809 h 2.93146 v 137.94505 h -2.93146"
-                style="display:none;opacity:0.97000002;fill:none;fill-opacity:1;stroke:#333333;stroke-width:0.86016238;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
-                id="evident_precise" />
-        <g
-                id="evident_links"
-                inkscape:label="evident_links">
-            <path
-                    id="evident_clear"
-                    class="links evident clear"
-                    style="display:none;opacity:0.97000002;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.05833328;stroke-linecap:butt;stroke-miterlimit:4.5;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
-                    d="m 398.51957,133.95753 h 5.62024 v 146.01579 h -5.62024"
-                    sodipodi:nodetypes="cccc"
-                    inkscape:label="evident_clear"
-                    inkscape:connector-curvature="0" />
-        </g>
-        <path
-                id="reassure_make"
-                class="links reassure make"
-                style="display:none;opacity:0.97000002;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.05656981;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
-                d="m 398.76131,175.15299 h 5.39519 V 320.4311 h -5.39519"
-                sodipodi:nodetypes="cccc"
-                inkscape:label="reassure_make"
-                inkscape:connector-curvature="0" />
-        <g
-                id="g925"
-                transform="matrix(0.58963248,0,0,0.16992433,19.922085,50.551454)"
-                inkscape:groupmode="layer"
-                style="display:inline" />
-        <g
-                id="group_links"
-                inkscape:label="group_links"
-                class="links inform be-informed reassure"
-                style="display:none">
-            <path
-                    id="be-informed_inform"
-                    style="opacity:0.97000002;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.04573381;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
-                    d="m 398.94179,150.62369 h 3.22028 v 16.36804 h -3.22028"
-                    sodipodi:nodetypes="cccc"
-                    inkscape:label="be-informed_inform"
-                    inkscape:connector-curvature="0" />
-            <path
-                    id="be-informed_reassure"
-                    style="opacity:0.97000002;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.02491832;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
-                    d="m 398.82909,166.80298 h 3.21306 v 8.16399 h -3.21306"
-                    sodipodi:nodetypes="cccc"
-                    inkscape:label="be-informed_reassure"
-                    inkscape:connector-curvature="0" />
-        </g>
-        <path
-                id="inform_urge"
-                class="links inform urge"
-                style="display:none;opacity:0.97000002;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.05833328;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
-                d="m 398.68661,166.84329 h 5.44584 v 146.05494 h -5.44584"
-                sodipodi:nodetypes="cccc"
-                inkscape:label="inform_urge"
-                inkscape:connector-curvature="0" />
-        <path
-                id="make_sui"
-                class="links make sui reassure"
-                style="display:none;opacity:0.97000002;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.05833328;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
-                d="m 398.76131,320.4311 h 9.81684 v 31.89072 h -9.81684"
-                sodipodi:nodetypes="cccc"
-                inkscape:label="make_sui"
-                inkscape:connector-curvature="0" />
-        <path
-                inkscape:connector-curvature="0"
-                inkscape:label="true_right"
-                sodipodi:nodetypes="cccc"
-                class="links true right proven"
-                d="m 398.68972,263.84158 h 3.09943 v 72.53966 h -3.09943"
-                style="display:none;opacity:0.97000002;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.05833328;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
-                id="true_right" />
-        <g
-                id="sure_links"
-                inkscape:label="sure_links"
-                style="display:inline;stroke-width:1.05833328;stroke-miterlimit:4;stroke-dasharray:none">
-            <path
-                    id="sure_to-happen"
-                    style="display:none;opacity:1;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.06593478;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
-                    d="m 398.31317,304.03701 h 21.661 v 39.83812 h -21.661"
-                    class="links sure happen trusty-words proven trustworthy"
-                    sodipodi:nodetypes="cccc"
-                    inkscape:label="sure_to-happen"
-                    inkscape:connector-curvature="0" />
-            <path
-                    id="sure_safe"
-                    class="links sure safe"
+                    d="m 377.44064,77.613743 h 9.17546 v 32.558977 h -9.17546"
                     style="display:none;opacity:0.97000002;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.05833328;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
-                    d="m 398.31039,304.03205 h 6.53989 v 24.1021 h -6.53989"
-                    sodipodi:nodetypes="cccc"
-                    inkscape:label="sure_safe"
-                    inkscape:connector-curvature="0" />
+                    id="it-is-sure_for-sure" />
             <path
-                    id="sure_trustworthy"
-                    style="display:none;opacity:0.97000002;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.05586708;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
-                    d="m 398.36967,191.75117 h 3.64289 v 112.27547 h -3.64289"
-                    class="links sure trustworthy trusty-words"
+                    inkscape:connector-curvature="0"
+                    inkscape:label="it-is-sure_hear"
+                    class="links hear it-is-sure say certum-est"
                     sodipodi:nodetypes="cccc"
-                    inkscape:label="sure_trustworthy"
-                    inkscape:connector-curvature="0" />
+                    d="m 377.53175,77.5421 h 12.01834 v 40.57378 h -12.01834"
+                    style="display:none;opacity:0.97000002;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.05833328;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+                    id="it-is-sure_hear" />
+        </g>
+        <g
+                transform="matrix(1.5618387,0,0,1,-224.01283,-1.5352102e-6)"
+                style="opacity:0.93000034;stroke-width:0.84684587;stroke-miterlimit:4;stroke-dasharray:none"
+                inkscape:label="proven_links"
+                id="g5826">
+            <path
+                    inkscape:connector-curvature="0"
+                    inkscape:label="proven_known"
+                    sodipodi:nodetypes="cccc"
+                    class="links proven known"
+                    d="m 398.69948,93.994423 h 2.91437 V 240.02983 h -2.91437"
+                    style="display:none;opacity:0.97000002;fill:none;fill-opacity:1;stroke:#333333;stroke-width:0.84684587;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+                    id="proven_known" />
+            <path
+                    inkscape:connector-curvature="0"
+                    class="links proven true"
+                    inkscape:label="proven_true"
+                    sodipodi:nodetypes="cccc"
+                    d="m 398.73077,94.047495 h 5.77137 V 264.09787 h -5.77137"
+                    style="display:none;opacity:1;fill:none;fill-opacity:1;stroke:#333333;stroke-width:0.84684587;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+                    id="proven_true" />
+            <path
+                    inkscape:connector-curvature="0"
+                    class="links proven authentic"
+                    inkscape:label="proven_authentic"
+                    sodipodi:nodetypes="cccc"
+                    d="m 398.69948,93.994423 h 8.4978 V 287.68571 h -8.4978"
+                    style="display:none;opacity:1;fill:none;fill-opacity:1;stroke:#333333;stroke-width:0.84684587;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+                    id="proven_authentic" />
+            <path
+                    inkscape:connector-curvature="0"
+                    class="links proven sure"
+                    inkscape:label="proven_sure"
+                    sodipodi:nodetypes="cccc"
+                    d="m 398.71366,93.97974 h 10.94267 v 210.35744 h -10.94267"
+                    style="display:none;opacity:0.97000002;fill:none;fill-opacity:1;stroke:#333333;stroke-width:0.84684587;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+                    id="proven_sure" />
         </g>
         <path
-                id="trusty-words_trustworthy"
-                class="links trusty-words trustworthy sure safe happen"
+                id="have_know"
                 style="display:none;opacity:0.97000002;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.05833328;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
-                d="m 398.55122,142.08214 h 6.29959 v 49.58026 h -6.29959"
+                d="m 398.67351,102.19075 h 2.91485 v 145.80423 h -2.91485"
+                class="links have know it-is-sure certum-est"
                 sodipodi:nodetypes="cccc"
+                inkscape:label="have_know"
+                inkscape:connector-curvature="0" />
+        <path
+                id="hear_say"
+                style="display:none;opacity:0.97000002;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.06030655;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+                d="m 398.65129,117.94564 h 8.97636 v 137.69031 h -8.97636"
+                sodipodi:nodetypes="cccc"
+                class="links hear say it-is-sure certum-est"
+                inkscape:label="hear_say"
+                inkscape:connector-curvature="0" />
+        <path
+                id="evident_precise"
+                style="display:none;opacity:0.97000002;fill:none;fill-opacity:1;stroke:#333333;stroke-width:0.86016238;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+                d="m 398.67001,133.81809 h 2.93146 v 137.94505 h -2.93146"
+                class="links evident precise"
+                sodipodi:nodetypes="cccc"
+                inkscape:label="evident_precise"
+                inkscape:connector-curvature="0" />
+        <g
+                inkscape:label="evident_links"
+                id="evident_links"
+                transform="translate(-8.3524559e-5,-1.5352102e-6)">
+            <path
+                    inkscape:connector-curvature="0"
+                    inkscape:label="evident_clear"
+                    sodipodi:nodetypes="cccc"
+                    d="m 398.51957,133.95753 h 5.62024 v 146.01579 h -5.62024"
+                    style="display:none;opacity:0.97000002;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.05833328;stroke-linecap:butt;stroke-miterlimit:4.5;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+                    class="links evident clear"
+                    id="evident_clear" />
+        </g>
+        <path
+                inkscape:connector-curvature="0"
+                inkscape:label="reassure_make"
+                sodipodi:nodetypes="cccc"
+                d="m 398.76123,175.15299 h 5.39519 V 320.4311 h -5.39519"
+                style="display:none;opacity:0.97000002;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.05656981;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+                class="links reassure make"
+                id="reassure_make" />
+        <g
+                style="display:inline"
+                inkscape:groupmode="layer"
+                transform="matrix(0.58963248,0,0,0.16992433,19.922001,50.551452)"
+                id="g925" />
+        <g
+                style="display:none"
+                class="links inform be-informed reassure"
+                inkscape:label="group_links"
+                id="group_links"
+                transform="translate(-8.3524559e-5,-1.5352102e-6)">
+            <path
+                    inkscape:connector-curvature="0"
+                    inkscape:label="be-informed_inform"
+                    sodipodi:nodetypes="cccc"
+                    d="m 398.94179,150.62369 h 3.22028 v 16.36804 h -3.22028"
+                    style="opacity:0.97000002;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.04573381;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+                    id="be-informed_inform" />
+            <path
+                    inkscape:connector-curvature="0"
+                    inkscape:label="be-informed_reassure"
+                    sodipodi:nodetypes="cccc"
+                    d="m 398.82909,166.80298 h 3.21306 v 8.16399 h -3.21306"
+                    style="opacity:0.97000002;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.02491832;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+                    id="be-informed_reassure" />
+        </g>
+        <path
+                inkscape:connector-curvature="0"
+                inkscape:label="inform_urge"
+                sodipodi:nodetypes="cccc"
+                d="m 398.68653,166.84329 h 5.44584 v 146.05494 h -5.44584"
+                style="display:none;opacity:0.97000002;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.05833328;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+                class="links inform urge"
+                id="inform_urge" />
+        <path
+                inkscape:connector-curvature="0"
+                inkscape:label="make_sui"
+                sodipodi:nodetypes="cccc"
+                d="m 398.76123,320.4311 h 9.81684 v 31.89072 h -9.81684"
+                style="display:none;opacity:0.97000002;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.05833328;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+                class="links make sui reassure"
+                id="make_sui" />
+        <path
+                id="true_right"
+                style="display:none;opacity:0.97000002;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.05833328;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+                d="m 398.68964,263.84158 h 3.09943 v 72.53966 h -3.09943"
+                class="links true right proven"
+                sodipodi:nodetypes="cccc"
+                inkscape:label="true_right"
+                inkscape:connector-curvature="0" />
+        <g
+                style="display:inline;stroke-width:1.05833328;stroke-miterlimit:4;stroke-dasharray:none"
+                inkscape:label="sure_links"
+                id="sure_links"
+                transform="translate(-8.3524559e-5,-1.5352102e-6)">
+            <path
+                    inkscape:connector-curvature="0"
+                    inkscape:label="sure_to-happen"
+                    sodipodi:nodetypes="cccc"
+                    class="links sure happen trusty-words proven trustworthy"
+                    d="m 398.31317,304.03701 h 21.661 v 39.83812 h -21.661"
+                    style="display:none;opacity:1;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.06593478;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+                    id="sure_to-happen" />
+            <path
+                    inkscape:connector-curvature="0"
+                    inkscape:label="sure_safe"
+                    sodipodi:nodetypes="cccc"
+                    d="m 398.31039,304.03205 h 6.53989 v 24.1021 h -6.53989"
+                    style="display:none;opacity:0.97000002;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.05833328;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+                    class="links sure safe"
+                    id="sure_safe" />
+            <path
+                    inkscape:connector-curvature="0"
+                    inkscape:label="sure_trustworthy"
+                    sodipodi:nodetypes="cccc"
+                    class="links sure trustworthy trusty-words"
+                    d="m 398.36967,191.75117 h 3.64289 v 112.27547 h -3.64289"
+                    style="display:none;opacity:0.97000002;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.05586708;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+                    id="sure_trustworthy" />
+        </g>
+        <path
+                inkscape:connector-curvature="0"
                 inkscape:label="trusty-words_trustworthy"
-                inkscape:connector-curvature="0" />
-        <path
-                id="trusty-words_reliable"
-                class="links trusty-words reliable"
+                sodipodi:nodetypes="cccc"
+                d="m 398.55114,142.08214 h 6.29959 v 49.58026 h -6.29959"
                 style="display:none;opacity:0.97000002;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.05833328;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
-                d="m 398.64339,142.03706 h 9.8603 v 154.00397 h -9.8603"
-                sodipodi:nodetypes="cccc"
-                inkscape:label="trusty-words_reliable"
-                inkscape:connector-curvature="0" />
+                class="links trusty-words trustworthy sure safe happen"
+                id="trusty-words_trustworthy" />
         <path
-                id="trusty-words_sure"
-                class="links trusty-words sure"
-                style="display:none;opacity:1;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.05740738;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
-                d="m 398.55596,142.14569 h 13.5825 v 161.99238 h -13.5825"
+                inkscape:connector-curvature="0"
+                inkscape:label="trusty-words_reliable"
                 sodipodi:nodetypes="cccc"
+                d="m 398.64331,142.03706 h 9.8603 v 154.00397 h -9.8603"
+                style="display:none;opacity:0.97000002;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.05833328;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+                class="links trusty-words reliable"
+                id="trusty-words_reliable" />
+        <path
+                inkscape:connector-curvature="0"
                 inkscape:label="trusty-words_sure"
-                inkscape:connector-curvature="0" />
+                sodipodi:nodetypes="cccc"
+                d="m 398.55588,142.14569 h 13.5825 v 161.99238 h -13.5825"
+                style="display:none;opacity:1;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.05740738;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+                class="links trusty-words sure"
+                id="trusty-words_sure" />
     </svg>
+
 
 </div>
 
+    <h2 id="potestas">POTESTAS</h2>
+
+    <div class="map">
+
+
+        <div class="languages">
+            Select language:
+            <a title="English version">
+                <span data-idno="en" class="language">EN</span>
+            </a>
+            <a title="Latin version">
+                <span data-idno="la" class="language">LA</span>
+            </a>
+            </a>
+        </div>
+
+        <svg
+                xmlns:svg="http://www.w3.org/2000/svg"
+                xmlns="http://www.w3.org/2000/svg"
+                width="249.57205mm"
+                height="35.051979mm"
+                viewBox="0 0 249.57205 35.051979"
+                version="1.1"
+                id="leyend"
+                inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+                sodipodi:docname="leyend.svg">
+            <defs
+                    id="defs4885">
+                <inkscape:path-effect
+                        effect="bspline"
+                        id="path-effect3315"
+                        is_visible="true"
+                        weight="33.333333"
+                        steps="2"
+                        helper_size="0"
+                        apply_no_weight="true"
+                        apply_with_weight="true"
+                        only_selected="false" />
+                <inkscape:path-effect
+                        effect="bspline"
+                        id="path-effect3311"
+                        is_visible="true"
+                        weight="33.333333"
+                        steps="2"
+                        helper_size="0"
+                        apply_no_weight="true"
+                        apply_with_weight="true"
+                        only_selected="false" />
+                <inkscape:path-effect
+                        effect="bspline"
+                        id="path-effect1040"
+                        is_visible="true"
+                        weight="33.333333"
+                        steps="2"
+                        helper_size="0"
+                        apply_no_weight="true"
+                        apply_with_weight="true"
+                        only_selected="false" />
+                <inkscape:path-effect
+                        effect="bspline"
+                        id="path-effect1032"
+                        is_visible="true"
+                        weight="33.333333"
+                        steps="2"
+                        helper_size="0"
+                        apply_no_weight="true"
+                        apply_with_weight="true"
+                        only_selected="false" />
+                <inkscape:path-effect
+                        effect="bspline"
+                        id="path-effect1028"
+                        is_visible="true"
+                        weight="33.333333"
+                        steps="2"
+                        helper_size="0"
+                        apply_no_weight="true"
+                        apply_with_weight="true"
+                        only_selected="false" />
+                <inkscape:path-effect
+                        effect="bspline"
+                        id="path-effect3311-7"
+                        is_visible="true"
+                        weight="33.333333"
+                        steps="2"
+                        helper_size="0"
+                        apply_no_weight="true"
+                        apply_with_weight="true"
+                        only_selected="false" />
+            </defs>
+            <sodipodi:namedview
+                    id="base"
+                    pagecolor="#ffffff"
+                    bordercolor="#666666"
+                    borderopacity="1.0"
+                    inkscape:pageopacity="0.0"
+                    inkscape:pageshadow="2"
+                    inkscape:zoom="2.1141564"
+                    inkscape:cx="511.25529"
+                    inkscape:cy="50.402239"
+                    inkscape:document-units="mm"
+                    inkscape:current-layer="layer1"
+                    showgrid="false"
+                    inkscape:window-width="3696"
+                    inkscape:window-height="2032"
+                    inkscape:window-x="144"
+                    inkscape:window-y="54"
+                    inkscape:window-maximized="1"
+                    showguides="true"
+                    inkscape:guide-bbox="true"
+                    fit-margin-top="10"
+                    fit-margin-left="10"
+                    fit-margin-bottom="10"
+                    fit-margin-right="10">
+                <sodipodi:guide
+                        position="-48.176715,9.4426169"
+                        orientation="1,0"
+                        id="guide5485"
+                        inkscape:locked="false" />
+                <sodipodi:guide
+                        position="-40.930779,11.665797"
+                        orientation="1,0"
+                        id="guide5487"
+                        inkscape:locked="false" />
+                <sodipodi:guide
+                        position="112.2087,3.8401448"
+                        orientation="0,1"
+                        id="guide1565"
+                        inkscape:locked="false" />
+                <sodipodi:guide
+                        position="1.55501,64.754859"
+                        orientation="0,1"
+                        id="guide3307"
+                        inkscape:locked="false" />
+                <sodipodi:guide
+                        position="100.38958,18.944713"
+                        orientation="0,1"
+                        id="guide3354"
+                        inkscape:locked="false" />
+            </sodipodi:namedview>
+            <metadata
+                    id="metadata4888">
+                <rdf:RDF>
+                    <cc:Work
+                            rdf:about="">
+                        <dc:format>image/svg+xml</dc:format>
+                        <dc:type
+                                rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+                        <dc:title></dc:title>
+                    </cc:Work>
+                </rdf:RDF>
+            </metadata>
+            <g
+                    inkscape:label="Layer 1"
+                    inkscape:groupmode="layer"
+                    id="layer1"
+                    transform="translate(-117.34248,-120.37873)">
+                <rect
+                        style="opacity:0.97000002;fill:#00a368;fill-opacity:1;stroke:#00a368;stroke-width:0.45965612;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
+                        id="rect1379"
+                        width="2.5888956"
+                        height="2.3163805"
+                        x="127.5723"
+                        y="142.12054" />
+                <g
+                        aria-label="Modal: epistemic"
+                        style="font-style:normal;font-weight:normal;font-size:6.3499999px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+                        id="text1383"
+                        transform="matrix(0.64923175,0,0,0.64923175,49.074167,51.012475)">
+                    <path
+                            d="m 127.91147,139.48069 h 0.93328 l 1.18132,3.15019 1.18753,-3.15019 h 0.93327 v 4.62917 h -0.61081 V 140.045 l -1.19373,3.175 h -0.62942 l -1.19372,-3.175 v 4.06486 h -0.60772 z"
+                            style="font-size:6.3499999px;stroke-width:0.26458332"
+                            id="path1183"
+                            inkscape:connector-curvature="0" />
+                    <path
+                            d="m 134.71416,141.03718 q -0.45889,0 -0.72554,0.35967 -0.26665,0.35657 -0.26665,0.97979 0,0.62321 0.26355,0.98288 0.26665,0.35657 0.72864,0.35657 0.45578,0 0.72243,-0.35967 0.26665,-0.35967 0.26665,-0.97978 0,-0.61702 -0.26665,-0.97669 -0.26665,-0.36277 -0.72243,-0.36277 z m 0,-0.48369 q 0.74414,0 1.16892,0.48369 0.42478,0.48369 0.42478,1.33946 0,0.85266 -0.42478,1.33945 -0.42478,0.48369 -1.16892,0.48369 -0.74724,0 -1.17202,-0.48369 -0.42168,-0.48679 -0.42168,-1.33945 0,-0.85577 0.42168,-1.33946 0.42478,-0.48369 1.17202,-0.48369 z"
+                            style="font-size:6.3499999px;stroke-width:0.26458332"
+                            id="path1185"
+                            inkscape:connector-curvature="0" />
+                    <path
+                            d="m 139.53557,141.16431 v -1.87896 h 0.57051 v 4.82451 h -0.57051 v -0.5209 q -0.17984,0.31006 -0.45579,0.46199 -0.27285,0.14883 -0.65732,0.14883 -0.62942,0 -1.0263,-0.50229 -0.39377,-0.5023 -0.39377,-1.32085 0,-0.81856 0.39377,-1.32085 0.39688,-0.5023 1.0263,-0.5023 0.38447,0 0.65732,0.15193 0.27595,0.14883 0.45579,0.45889 z m -1.94407,1.21233 q 0,0.62941 0.25735,0.98908 0.26045,0.35657 0.71313,0.35657 0.45269,0 0.71314,-0.35657 0.26045,-0.35967 0.26045,-0.98908 0,-0.62942 -0.26045,-0.98599 -0.26045,-0.35967 -0.71314,-0.35967 -0.45268,0 -0.71313,0.35967 -0.25735,0.35657 -0.25735,0.98599 z"
+                            style="font-size:6.3499999px;stroke-width:0.26458332"
+                            id="path1187"
+                            inkscape:connector-curvature="0" />
+                    <path
+                            d="m 142.8594,142.36423 q -0.69143,0 -0.95808,0.15813 -0.26666,0.15813 -0.26666,0.53951 0,0.30385 0.19844,0.48369 0.20154,0.17673 0.54571,0.17673 0.47439,0 0.75964,-0.33486 0.28835,-0.33797 0.28835,-0.89607 v -0.12713 z m 1.13791,-0.23564 v 1.98127 h -0.57051 v -0.5271 q -0.19533,0.31626 -0.48679,0.46819 -0.29145,0.14883 -0.71313,0.14883 -0.5333,0 -0.84956,-0.29766 -0.31316,-0.30075 -0.31316,-0.80305 0,-0.58601 0.39067,-0.88366 0.39378,-0.29766 1.17202,-0.29766 h 0.79995 v -0.0558 q 0,-0.39378 -0.26045,-0.60772 -0.25734,-0.21704 -0.72553,-0.21704 -0.29766,0 -0.57981,0.0713 -0.28216,0.0713 -0.5426,0.21394 v -0.5271 q 0.31315,-0.12093 0.60771,-0.17984 0.29456,-0.062 0.57361,-0.062 0.75344,0 1.12551,0.39068 0.37207,0.39067 0.37207,1.18442 z"
+                            style="font-size:6.3499999px;stroke-width:0.26458332"
+                            id="path1189"
+                            inkscape:connector-curvature="0" />
+                    <path
+                            d="m 145.17553,139.28535 h 0.57051 v 4.82451 h -0.57051 z"
+                            style="font-size:6.3499999px;stroke-width:0.26458332"
+                            id="path1191"
+                            inkscape:connector-curvature="0" />
+                    <path
+                            d="m 147.08239,143.32231 h 0.65423 v 0.78755 h -0.65423 z m 0,-2.49597 h 0.65423 v 0.78755 h -0.65423 z"
+                            style="font-size:6.3499999px;stroke-width:0.26458332"
+                            id="path1193"
+                            inkscape:connector-curvature="0" />
+                    <path
+                            d="m 154.07422,142.23091 v 0.27905 h -2.6231 q 0.0372,0.58911 0.35347,0.89917 0.31936,0.30696 0.88676,0.30696 0.32867,0 0.63562,-0.0806 0.31006,-0.0806 0.61392,-0.24184 v 0.5395 q -0.30696,0.13022 -0.62942,0.19844 -0.32246,0.0682 -0.65422,0.0682 -0.83096,0 -1.31775,-0.48369 -0.48369,-0.48369 -0.48369,-1.30845 0,-0.85266 0.45888,-1.35185 0.46199,-0.5023 1.24334,-0.5023 0.70073,0 1.10691,0.45269 0.40928,0.44958 0.40928,1.22473 z m -0.57051,-0.16743 q -0.006,-0.46819 -0.26355,-0.74724 -0.25425,-0.27906 -0.67593,-0.27906 -0.47749,0 -0.76584,0.26975 -0.28526,0.26975 -0.32867,0.75965 z"
+                            style="font-size:6.3499999px;stroke-width:0.26458332"
+                            id="path1195"
+                            inkscape:connector-curvature="0" />
+                    <path
+                            d="m 155.5625,143.58896 v 1.84175 h -0.57361 v -4.7935 h 0.57361 v 0.5271 q 0.17983,-0.31006 0.45268,-0.45889 0.27595,-0.15193 0.65733,-0.15193 0.63252,0 1.02629,0.5023 0.39688,0.50229 0.39688,1.32085 0,0.81855 -0.39688,1.32085 -0.39377,0.50229 -1.02629,0.50229 -0.38138,0 -0.65733,-0.14883 -0.27285,-0.15193 -0.45268,-0.46199 z m 1.94096,-1.21232 q 0,-0.62942 -0.26045,-0.98599 -0.25734,-0.35967 -0.71003,-0.35967 -0.45268,0 -0.71313,0.35967 -0.25735,0.35657 -0.25735,0.98599 0,0.62941 0.25735,0.98908 0.26045,0.35657 0.71313,0.35657 0.45269,0 0.71003,-0.35657 0.26045,-0.35967 0.26045,-0.98908 z"
+                            style="font-size:6.3499999px;stroke-width:0.26458332"
+                            id="path1197"
+                            inkscape:connector-curvature="0" />
+                    <path
+                            d="m 159.04135,140.63721 h 0.57051 v 3.47265 h -0.57051 z m 0,-1.35186 h 0.57051 v 0.72244 h -0.57051 z"
+                            style="font-size:6.3499999px;stroke-width:0.26458332"
+                            id="path1199"
+                            inkscape:connector-curvature="0" />
+                    <path
+                            d="m 163.01631,140.73953 v 0.5395 q -0.24185,-0.12403 -0.5023,-0.18604 -0.26045,-0.062 -0.5395,-0.062 -0.42478,0 -0.63872,0.13023 -0.21084,0.13022 -0.21084,0.39067 0,0.19844 0.15193,0.31316 0.15193,0.11162 0.61081,0.21394 l 0.19534,0.0434 q 0.60771,0.13022 0.86196,0.36897 0.25735,0.23564 0.25735,0.66042 0,0.48369 -0.38447,0.76585 -0.38137,0.28215 -1.0511,0.28215 -0.27905,0 -0.58291,-0.0558 -0.30076,-0.0527 -0.63562,-0.16123 v -0.58911 q 0.31626,0.16433 0.62322,0.24804 0.30696,0.0806 0.60771,0.0806 0.40308,0 0.62012,-0.13643 0.21704,-0.13952 0.21704,-0.39067 0,-0.23254 -0.15813,-0.35657 -0.15503,-0.12402 -0.68523,-0.23874 l -0.19844,-0.0465 q -0.5302,-0.11162 -0.76584,-0.34107 -0.23565,-0.23254 -0.23565,-0.63562 0,-0.48989 0.34727,-0.75654 0.34727,-0.26665 0.98599,-0.26665 0.31626,0 0.59531,0.0465 0.27905,0.0465 0.5147,0.13953 z"
+                            style="font-size:6.3499999px;stroke-width:0.26458332"
+                            id="path1201"
+                            inkscape:connector-curvature="0" />
+                    <path
+                            d="m 164.67822,139.65122 v 0.98599 h 1.17512 v 0.44338 h -1.17512 v 1.88516 q 0,0.42478 0.11472,0.5457 0.11782,0.12092 0.47439,0.12092 h 0.58601 v 0.47749 h -0.58601 q -0.66042,0 -0.91157,-0.24494 -0.25115,-0.24805 -0.25115,-0.89917 v -1.88516 h -0.41858 v -0.44338 h 0.41858 v -0.98599 z"
+                            style="font-size:6.3499999px;stroke-width:0.26458332"
+                            id="path1203"
+                            inkscape:connector-curvature="0" />
+                    <path
+                            d="m 169.57714,142.23091 v 0.27905 h -2.62309 q 0.0372,0.58911 0.35346,0.89917 0.31937,0.30696 0.88677,0.30696 0.32866,0 0.63562,-0.0806 0.31006,-0.0806 0.61392,-0.24184 v 0.5395 q -0.30696,0.13022 -0.62942,0.19844 -0.32246,0.0682 -0.65422,0.0682 -0.83096,0 -1.31775,-0.48369 -0.48369,-0.48369 -0.48369,-1.30845 0,-0.85266 0.45888,-1.35185 0.46199,-0.5023 1.24334,-0.5023 0.70073,0 1.10691,0.45269 0.40927,0.44958 0.40927,1.22473 z m -0.5705,-0.16743 q -0.006,-0.46819 -0.26355,-0.74724 -0.25425,-0.27906 -0.67593,-0.27906 -0.47749,0 -0.76585,0.26975 -0.28525,0.26975 -0.32866,0.75965 z"
+                            style="font-size:6.3499999px;stroke-width:0.26458332"
+                            id="path1205"
+                            inkscape:connector-curvature="0" />
+                    <path
+                            d="m 173.21723,141.30383 q 0.21394,-0.38447 0.5116,-0.5674 0.29765,-0.18294 0.70073,-0.18294 0.5426,0 0.83716,0.38137 0.29455,0.37827 0.29455,1.07901 v 2.09599 h -0.5736 v -2.07739 q 0,-0.49919 -0.17674,-0.74104 -0.17673,-0.24184 -0.5395,-0.24184 -0.44338,0 -0.70073,0.29455 -0.25735,0.29456 -0.25735,0.80305 v 1.96267 h -0.57361 v -2.07739 q 0,-0.50229 -0.17673,-0.74104 -0.17674,-0.24184 -0.54571,-0.24184 -0.43718,0 -0.69453,0.29765 -0.25734,0.29456 -0.25734,0.79995 v 1.96267 h -0.57361 v -3.47265 h 0.57361 v 0.5395 q 0.19533,-0.31936 0.46818,-0.47129 0.27286,-0.15193 0.64803,-0.15193 0.37827,0 0.64182,0.19224 0.26665,0.19223 0.39377,0.5581 z"
+                            style="font-size:6.3499999px;stroke-width:0.26458332"
+                            id="path1207"
+                            inkscape:connector-curvature="0" />
+                    <path
+                            d="m 176.70229,140.63721 h 0.57051 v 3.47265 h -0.57051 z m 0,-1.35186 h 0.57051 v 0.72244 h -0.57051 z"
+                            style="font-size:6.3499999px;stroke-width:0.26458332"
+                            id="path1209"
+                            inkscape:connector-curvature="0" />
+                    <path
+                            d="m 180.96249,140.77053 v 0.5333 q -0.24184,-0.13332 -0.48679,-0.19843 -0.24184,-0.0682 -0.48989,-0.0682 -0.555,0 -0.86196,0.35347 -0.30696,0.35037 -0.30696,0.98599 0,0.63562 0.30696,0.98908 0.30696,0.35037 0.86196,0.35037 0.24805,0 0.48989,-0.0651 0.24495,-0.0682 0.48679,-0.20154 v 0.5271 q -0.23874,0.11162 -0.49609,0.16743 -0.25425,0.0558 -0.5426,0.0558 -0.78445,0 -1.24644,-0.49299 -0.46198,-0.493 -0.46198,-1.33015 0,-0.84956 0.46508,-1.33636 0.46819,-0.48679 1.28055,-0.48679 0.26355,0 0.51469,0.0558 0.25115,0.0527 0.48679,0.16123 z"
+                            style="font-size:6.3499999px;stroke-width:0.26458332"
+                            id="path1211"
+                            inkscape:connector-curvature="0" />
+                </g>
+                <rect
+                        style="opacity:0.97000002;fill:#ff7f00;fill-opacity:1;stroke:#ff7f00;stroke-width:0.45965612;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.94117647;paint-order:stroke markers fill"
+                        id="rect1379-3"
+                        width="2.588896"
+                        height="2.3163805"
+                        x="177.11171"
+                        y="140.28426" />
+                <g
+                        aria-label="Postmodal: futurity"
+                        style="font-style:normal;font-weight:normal;font-size:6.3499999px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+                        id="text1383-7"
+                        transform="matrix(0.64923175,0,0,0.64923175,49.074167,54.716644)">
+                    <path
+                            d="m 205.02006,131.55251 v 1.73943 h 0.78755 q 0.43718,0 0.67593,-0.22634 0.23874,-0.22634 0.23874,-0.64492 0,-0.41548 -0.23874,-0.64182 -0.23875,-0.22635 -0.67593,-0.22635 z m -0.62632,-0.51469 h 1.41387 q 0.77825,0 1.17512,0.35346 0.39998,0.35037 0.39998,1.0294 0,0.68523 -0.39998,1.03559 -0.39687,0.35037 -1.17512,0.35037 h -0.78755 v 1.86035 h -0.62632 z"
+                            style="font-size:6.3499999px;stroke-width:0.26458332"
+                            id="path1214"
+                            inkscape:connector-curvature="0" />
+                    <path
+                            d="m 209.32367,132.59431 q -0.45888,0 -0.72553,0.35967 -0.26666,0.35657 -0.26666,0.97978 0,0.62322 0.26355,0.98289 0.26666,0.35657 0.72864,0.35657 0.45579,0 0.72244,-0.35967 0.26665,-0.35967 0.26665,-0.97979 0,-0.61701 -0.26665,-0.97668 -0.26665,-0.36277 -0.72244,-0.36277 z m 0,-0.48369 q 0.74414,0 1.16892,0.48369 0.42478,0.48369 0.42478,1.33945 0,0.85267 -0.42478,1.33946 -0.42478,0.48369 -1.16892,0.48369 -0.74724,0 -1.17202,-0.48369 -0.42168,-0.48679 -0.42168,-1.33946 0,-0.85576 0.42168,-1.33945 0.42478,-0.48369 1.17202,-0.48369 z"
+                            style="font-size:6.3499999px;stroke-width:0.26458332"
+                            id="path1216"
+                            inkscape:connector-curvature="0" />
+                    <path
+                            d="m 214.07377,132.29666 v 0.5395 q -0.24185,-0.12403 -0.5023,-0.18604 -0.26044,-0.062 -0.5395,-0.062 -0.42478,0 -0.63872,0.13023 -0.21084,0.13022 -0.21084,0.39067 0,0.19844 0.15193,0.31316 0.15193,0.11162 0.61082,0.21394 l 0.19533,0.0434 q 0.60772,0.13022 0.86197,0.36897 0.25735,0.23564 0.25735,0.66042 0,0.48369 -0.38448,0.76585 -0.38137,0.28215 -1.0511,0.28215 -0.27905,0 -0.58291,-0.0558 -0.30075,-0.0527 -0.63562,-0.16123 v -0.58911 q 0.31626,0.16433 0.62322,0.24804 0.30696,0.0806 0.60772,0.0806 0.40307,0 0.62011,-0.13643 0.21704,-0.13952 0.21704,-0.39067 0,-0.23254 -0.15813,-0.35657 -0.15502,-0.12402 -0.68523,-0.23874 l -0.19843,-0.0465 q -0.5302,-0.11162 -0.76585,-0.34107 -0.23564,-0.23254 -0.23564,-0.63562 0,-0.48989 0.34726,-0.75654 0.34727,-0.26665 0.98599,-0.26665 0.31626,0 0.59531,0.0465 0.27906,0.0465 0.5147,0.13953 z"
+                            style="font-size:6.3499999px;stroke-width:0.26458332"
+                            id="path1218"
+                            inkscape:connector-curvature="0" />
+                    <path
+                            d="m 215.73568,131.20835 v 0.98599 h 1.17513 v 0.44338 h -1.17513 v 1.88516 q 0,0.42478 0.11473,0.5457 0.11782,0.12092 0.47438,0.12092 h 0.58602 v 0.47749 h -0.58602 q -0.66042,0 -0.91157,-0.24494 -0.25114,-0.24805 -0.25114,-0.89917 v -1.88516 h -0.41858 v -0.44338 h 0.41858 v -0.98599 z"
+                            style="font-size:6.3499999px;stroke-width:0.26458332"
+                            id="path1220"
+                            inkscape:connector-curvature="0" />
+                    <path
+                            d="m 220.36796,132.86096 q 0.21394,-0.38447 0.5116,-0.56741 0.29765,-0.18293 0.70073,-0.18293 0.5426,0 0.83716,0.38137 0.29455,0.37827 0.29455,1.07901 v 2.09599 h -0.57361 v -2.07739 q 0,-0.49919 -0.17673,-0.74104 -0.17673,-0.24185 -0.5395,-0.24185 -0.44339,0 -0.70073,0.29456 -0.25735,0.29456 -0.25735,0.80305 v 1.96267 h -0.57361 v -2.07739 q 0,-0.5023 -0.17673,-0.74104 -0.17674,-0.24185 -0.54571,-0.24185 -0.43718,0 -0.69453,0.29766 -0.25735,0.29456 -0.25735,0.79995 v 1.96267 h -0.57361 v -3.47265 h 0.57361 v 0.5395 q 0.19534,-0.31936 0.46819,-0.47129 0.27285,-0.15193 0.64802,-0.15193 0.37827,0 0.64182,0.19224 0.26665,0.19223 0.39378,0.5581 z"
+                            style="font-size:6.3499999px;stroke-width:0.26458332"
+                            id="path1222"
+                            inkscape:connector-curvature="0" />
+                    <path
+                            d="m 225.19867,132.59431 q -0.45889,0 -0.72554,0.35967 -0.26665,0.35657 -0.26665,0.97978 0,0.62322 0.26355,0.98289 0.26665,0.35657 0.72864,0.35657 0.45579,0 0.72244,-0.35967 0.26665,-0.35967 0.26665,-0.97979 0,-0.61701 -0.26665,-0.97668 -0.26665,-0.36277 -0.72244,-0.36277 z m 0,-0.48369 q 0.74414,0 1.16892,0.48369 0.42478,0.48369 0.42478,1.33945 0,0.85267 -0.42478,1.33946 -0.42478,0.48369 -1.16892,0.48369 -0.74724,0 -1.17202,-0.48369 -0.42168,-0.48679 -0.42168,-1.33946 0,-0.85576 0.42168,-1.33945 0.42478,-0.48369 1.17202,-0.48369 z"
+                            style="font-size:6.3499999px;stroke-width:0.26458332"
+                            id="path1224"
+                            inkscape:connector-curvature="0" />
+                    <path
+                            d="m 230.02008,132.72144 v -1.87896 h 0.57051 v 4.82451 h -0.57051 v -0.5209 q -0.17983,0.31006 -0.45578,0.46199 -0.27286,0.14883 -0.65733,0.14883 -0.62942,0 -1.02629,-0.5023 -0.39378,-0.50229 -0.39378,-1.32085 0,-0.81855 0.39378,-1.32084 0.39687,-0.5023 1.02629,-0.5023 0.38447,0 0.65733,0.15193 0.27595,0.14883 0.45578,0.45889 z m -1.94406,1.21232 q 0,0.62942 0.25734,0.98909 0.26045,0.35657 0.71314,0.35657 0.45268,0 0.71313,-0.35657 0.26045,-0.35967 0.26045,-0.98909 0,-0.62941 -0.26045,-0.98598 -0.26045,-0.35967 -0.71313,-0.35967 -0.45269,0 -0.71314,0.35967 -0.25734,0.35657 -0.25734,0.98598 z"
+                            style="font-size:6.3499999px;stroke-width:0.26458332"
+                            id="path1226"
+                            inkscape:connector-curvature="0" />
+                    <path
+                            d="m 233.34391,133.92136 q -0.69143,0 -0.95808,0.15813 -0.26665,0.15813 -0.26665,0.5395 0,0.30386 0.19844,0.4837 0.20153,0.17673 0.5457,0.17673 0.47439,0 0.75964,-0.33486 0.28836,-0.33797 0.28836,-0.89607 v -0.12713 z m 1.13792,-0.23564 v 1.98127 h -0.57051 v -0.5271 q -0.19534,0.31626 -0.48679,0.46819 -0.29146,0.14883 -0.71314,0.14883 -0.5333,0 -0.84956,-0.29766 -0.31316,-0.30075 -0.31316,-0.80305 0,-0.58601 0.39068,-0.88367 0.39377,-0.29765 1.17202,-0.29765 h 0.79995 v -0.0558 q 0,-0.39378 -0.26045,-0.60772 -0.25735,-0.21704 -0.72554,-0.21704 -0.29765,0 -0.57981,0.0713 -0.28215,0.0713 -0.5426,0.21394 v -0.5271 q 0.31316,-0.12093 0.60771,-0.17984 0.29456,-0.062 0.57361,-0.062 0.75344,0 1.12552,0.39067 0.37207,0.39068 0.37207,1.18443 z"
+                            style="font-size:6.3499999px;stroke-width:0.26458332"
+                            id="path1228"
+                            inkscape:connector-curvature="0" />
+                    <path
+                            d="m 235.66005,130.84248 h 0.57051 v 4.82451 h -0.57051 z"
+                            style="font-size:6.3499999px;stroke-width:0.26458332"
+                            id="path1230"
+                            inkscape:connector-curvature="0" />
+                    <path
+                            d="m 237.56691,134.87944 h 0.65422 v 0.78755 h -0.65422 z m 0,-2.49597 h 0.65422 v 0.78755 h -0.65422 z"
+                            style="font-size:6.3499999px;stroke-width:0.26458332"
+                            id="path1232"
+                            inkscape:connector-curvature="0" />
+                    <path
+                            d="m 243.3464,130.84248 v 0.47439 h -0.5457 q -0.30696,0 -0.42788,0.12402 -0.11783,0.12403 -0.11783,0.44649 v 0.30696 h 0.93948 v 0.44338 h -0.93948 v 3.02927 h -0.5736 v -3.02927 h -0.54571 v -0.44338 h 0.54571 v -0.24185 q 0,-0.57981 0.26975,-0.84336 0.26975,-0.26665 0.85576,-0.26665 z"
+                            style="font-size:6.3499999px;stroke-width:0.26458332"
+                            id="path1234"
+                            inkscape:connector-curvature="0" />
+                    <path
+                            d="m 243.76188,134.29653 v -2.10219 h 0.57051 v 2.08049 q 0,0.49299 0.19223,0.74104 0.19224,0.24495 0.57671,0.24495 0.46199,0 0.72864,-0.29456 0.26975,-0.29456 0.26975,-0.80305 v -1.96887 h 0.57051 v 3.47265 h -0.57051 v -0.5333 q -0.20774,0.31626 -0.48369,0.47129 -0.27285,0.15193 -0.63562,0.15193 -0.59841,0 -0.90847,-0.37207 -0.31006,-0.37207 -0.31006,-1.08831 z m 1.43557,-2.18591 z"
+                            style="font-size:6.3499999px;stroke-width:0.26458332"
+                            id="path1236"
+                            inkscape:connector-curvature="0" />
+                    <path
+                            d="m 248.41586,131.20835 v 0.98599 h 1.17512 v 0.44338 h -1.17512 v 1.88516 q 0,0.42478 0.11472,0.5457 0.11782,0.12092 0.47439,0.12092 h 0.58601 v 0.47749 h -0.58601 q -0.66042,0 -0.91157,-0.24494 -0.25115,-0.24805 -0.25115,-0.89917 v -1.88516 h -0.41858 v -0.44338 h 0.41858 v -0.98599 z"
+                            style="font-size:6.3499999px;stroke-width:0.26458332"
+                            id="path1238"
+                            inkscape:connector-curvature="0" />
+                    <path
+                            d="m 250.28551,134.29653 v -2.10219 h 0.57051 v 2.08049 q 0,0.49299 0.19224,0.74104 0.19223,0.24495 0.5767,0.24495 0.46199,0 0.72864,-0.29456 0.26975,-0.29456 0.26975,-0.80305 v -1.96887 h 0.57051 v 3.47265 h -0.57051 v -0.5333 q -0.20774,0.31626 -0.48369,0.47129 -0.27285,0.15193 -0.63562,0.15193 -0.59841,0 -0.90847,-0.37207 -0.31006,-0.37207 -0.31006,-1.08831 z m 1.43557,-2.18591 z"
+                            style="font-size:6.3499999px;stroke-width:0.26458332"
+                            id="path1240"
+                            inkscape:connector-curvature="0" />
+                    <path
+                            d="m 256.38746,132.72764 q -0.0961,-0.0558 -0.21083,-0.0806 -0.11163,-0.0279 -0.24805,-0.0279 -0.48369,0 -0.74414,0.31626 -0.25735,0.31316 -0.25735,0.90227 v 1.82934 h -0.57361 v -3.47265 h 0.57361 v 0.5395 q 0.17983,-0.31626 0.46819,-0.46819 0.28835,-0.15503 0.70073,-0.15503 0.0589,0 0.13022,0.009 0.0713,0.006 0.15813,0.0217 z"
+                            style="font-size:6.3499999px;stroke-width:0.26458332"
+                            id="path1242"
+                            inkscape:connector-curvature="0" />
+                    <path
+                            d="m 256.99208,132.19434 h 0.57051 v 3.47265 h -0.57051 z m 0,-1.35186 h 0.57051 v 0.72244 h -0.57051 z"
+                            style="font-size:6.3499999px;stroke-width:0.26458332"
+                            id="path1244"
+                            inkscape:connector-curvature="0" />
+                    <path
+                            d="m 259.31752,131.20835 v 0.98599 h 1.17512 v 0.44338 h -1.17512 v 1.88516 q 0,0.42478 0.11472,0.5457 0.11782,0.12092 0.47439,0.12092 h 0.58601 v 0.47749 h -0.58601 q -0.66042,0 -0.91157,-0.24494 -0.25115,-0.24805 -0.25115,-0.89917 v -1.88516 h -0.41858 v -0.44338 h 0.41858 v -0.98599 z"
+                            style="font-size:6.3499999px;stroke-width:0.26458332"
+                            id="path1246"
+                            inkscape:connector-curvature="0" />
+                    <path
+                            d="m 262.69096,135.98945 q -0.24185,0.62012 -0.47129,0.80926 -0.22945,0.18913 -0.61392,0.18913 h -0.45578 v -0.47749 h 0.33486 q 0.23564,0 0.36587,-0.11162 0.13022,-0.11162 0.28835,-0.5271 l 0.10232,-0.26045 -1.40456,-3.41684 h 0.60461 l 1.08521,2.71611 1.0852,-2.71611 h 0.60462 z"
+                            style="font-size:6.3499999px;stroke-width:0.26458332"
+                            id="path1248"
+                            inkscape:connector-curvature="0" />
+                </g>
+                <rect
+                        style="opacity:0.97000002;fill:#c40233;fill-opacity:1;stroke:#c40233;stroke-width:0.45965612;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
+                        id="rect1379-1"
+                        width="2.5888958"
+                        height="2.3163805"
+                        x="127.5723"
+                        y="131.05833" />
+                <g
+                        aria-label="Modal: deontic"
+                        style="font-style:normal;font-weight:normal;font-size:6.3499999px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+                        id="text1383-2"
+                        transform="matrix(0.64923175,0,0,0.64923175,49.074167,51.012475)">
+                    <path
+                            d="m 127.91147,122.44176 h 0.93328 l 1.18132,3.15019 1.18753,-3.15019 h 0.93327 v 4.62917 h -0.61081 v -4.06487 l -1.19373,3.175 h -0.62942 l -1.19372,-3.175 v 4.06487 h -0.60772 z"
+                            style="font-size:6.3499999px;stroke-width:0.26458332"
+                            id="path1129"
+                            inkscape:connector-curvature="0" />
+                    <path
+                            d="m 134.71416,123.99825 q -0.45889,0 -0.72554,0.35967 -0.26665,0.35657 -0.26665,0.97978 0,0.62322 0.26355,0.98289 0.26665,0.35657 0.72864,0.35657 0.45578,0 0.72243,-0.35967 0.26665,-0.35967 0.26665,-0.97979 0,-0.61701 -0.26665,-0.97668 -0.26665,-0.36277 -0.72243,-0.36277 z m 0,-0.48369 q 0.74414,0 1.16892,0.48369 0.42478,0.48369 0.42478,1.33945 0,0.85266 -0.42478,1.33946 -0.42478,0.48369 -1.16892,0.48369 -0.74724,0 -1.17202,-0.48369 -0.42168,-0.4868 -0.42168,-1.33946 0,-0.85576 0.42168,-1.33945 0.42478,-0.48369 1.17202,-0.48369 z"
+                            style="font-size:6.3499999px;stroke-width:0.26458332"
+                            id="path1131"
+                            inkscape:connector-curvature="0" />
+                    <path
+                            d="m 139.53557,124.12537 v -1.87895 h 0.57051 v 4.82451 h -0.57051 v -0.5209 q -0.17984,0.31006 -0.45579,0.46199 -0.27285,0.14883 -0.65732,0.14883 -0.62942,0 -1.0263,-0.5023 -0.39377,-0.50229 -0.39377,-1.32085 0,-0.81855 0.39377,-1.32085 0.39688,-0.50229 1.0263,-0.50229 0.38447,0 0.65732,0.15193 0.27595,0.14883 0.45579,0.45888 z m -1.94407,1.21233 q 0,0.62942 0.25735,0.98909 0.26045,0.35657 0.71313,0.35657 0.45269,0 0.71314,-0.35657 0.26045,-0.35967 0.26045,-0.98909 0,-0.62942 -0.26045,-0.98598 -0.26045,-0.35967 -0.71314,-0.35967 -0.45268,0 -0.71313,0.35967 -0.25735,0.35656 -0.25735,0.98598 z"
+                            style="font-size:6.3499999px;stroke-width:0.26458332"
+                            id="path1133"
+                            inkscape:connector-curvature="0" />
+                    <path
+                            d="m 142.8594,125.3253 q -0.69143,0 -0.95808,0.15813 -0.26666,0.15813 -0.26666,0.5395 0,0.30386 0.19844,0.48369 0.20154,0.17674 0.54571,0.17674 0.47439,0 0.75964,-0.33487 0.28835,-0.33796 0.28835,-0.89607 v -0.12712 z m 1.13791,-0.23564 v 1.98127 h -0.57051 v -0.5271 q -0.19533,0.31626 -0.48679,0.46819 -0.29145,0.14883 -0.71313,0.14883 -0.5333,0 -0.84956,-0.29766 -0.31316,-0.30076 -0.31316,-0.80305 0,-0.58601 0.39067,-0.88367 0.39378,-0.29765 1.17202,-0.29765 h 0.79995 v -0.0558 q 0,-0.39378 -0.26045,-0.60772 -0.25734,-0.21704 -0.72553,-0.21704 -0.29766,0 -0.57981,0.0713 -0.28216,0.0713 -0.5426,0.21394 v -0.5271 q 0.31315,-0.12092 0.60771,-0.17983 0.29456,-0.062 0.57361,-0.062 0.75344,0 1.12551,0.39067 0.37207,0.39068 0.37207,1.18443 z"
+                            style="font-size:6.3499999px;stroke-width:0.26458332"
+                            id="path1135"
+                            inkscape:connector-curvature="0" />
+                    <path
+                            d="m 145.17553,122.24642 h 0.57051 v 4.82451 h -0.57051 z"
+                            style="font-size:6.3499999px;stroke-width:0.26458332"
+                            id="path1137"
+                            inkscape:connector-curvature="0" />
+                    <path
+                            d="m 147.08239,126.28338 h 0.65423 v 0.78755 h -0.65423 z m 0,-2.49597 h 0.65423 v 0.78755 h -0.65423 z"
+                            style="font-size:6.3499999px;stroke-width:0.26458332"
+                            id="path1139"
+                            inkscape:connector-curvature="0" />
+                    <path
+                            d="m 153.38899,124.12537 v -1.87895 h 0.5705 v 4.82451 h -0.5705 v -0.5209 q -0.17984,0.31006 -0.45579,0.46199 -0.27285,0.14883 -0.65732,0.14883 -0.62942,0 -1.0263,-0.5023 -0.39377,-0.50229 -0.39377,-1.32085 0,-0.81855 0.39377,-1.32085 0.39688,-0.50229 1.0263,-0.50229 0.38447,0 0.65732,0.15193 0.27595,0.14883 0.45579,0.45888 z m -1.94407,1.21233 q 0,0.62942 0.25735,0.98909 0.26045,0.35657 0.71313,0.35657 0.45269,0 0.71314,-0.35657 0.26045,-0.35967 0.26045,-0.98909 0,-0.62942 -0.26045,-0.98598 -0.26045,-0.35967 -0.71314,-0.35967 -0.45268,0 -0.71313,0.35967 -0.25735,0.35656 -0.25735,0.98598 z"
+                            style="font-size:6.3499999px;stroke-width:0.26458332"
+                            id="path1141"
+                            inkscape:connector-curvature="0" />
+                    <path
+                            d="m 158.10498,125.19198 v 0.27905 h -2.6231 q 0.0372,0.58911 0.35347,0.89917 0.31936,0.30696 0.88677,0.30696 0.32866,0 0.63562,-0.0806 0.31006,-0.0806 0.61391,-0.24184 v 0.5395 q -0.30696,0.13022 -0.62942,0.19843 -0.32246,0.0682 -0.65422,0.0682 -0.83096,0 -1.31775,-0.48369 -0.48369,-0.4837 -0.48369,-1.30845 0,-0.85266 0.45889,-1.35186 0.46198,-0.50229 1.24333,-0.50229 0.70073,0 1.10691,0.45268 0.40928,0.44959 0.40928,1.22474 z m -0.57051,-0.16744 q -0.006,-0.46818 -0.26355,-0.74724 -0.25425,-0.27905 -0.67593,-0.27905 -0.47749,0 -0.76584,0.26975 -0.28526,0.26975 -0.32866,0.75964 z"
+                            style="font-size:6.3499999px;stroke-width:0.26458332"
+                            id="path1143"
+                            inkscape:connector-curvature="0" />
+                    <path
+                            d="m 160.38701,123.99825 q -0.45889,0 -0.72554,0.35967 -0.26665,0.35657 -0.26665,0.97978 0,0.62322 0.26355,0.98289 0.26665,0.35657 0.72864,0.35657 0.45579,0 0.72244,-0.35967 0.26665,-0.35967 0.26665,-0.97979 0,-0.61701 -0.26665,-0.97668 -0.26665,-0.36277 -0.72244,-0.36277 z m 0,-0.48369 q 0.74414,0 1.16892,0.48369 0.42478,0.48369 0.42478,1.33945 0,0.85266 -0.42478,1.33946 -0.42478,0.48369 -1.16892,0.48369 -0.74724,0 -1.17202,-0.48369 -0.42168,-0.4868 -0.42168,-1.33946 0,-0.85576 0.42168,-1.33945 0.42478,-0.48369 1.17202,-0.48369 z"
+                            style="font-size:6.3499999px;stroke-width:0.26458332"
+                            id="path1145"
+                            inkscape:connector-curvature="0" />
+                    <path
+                            d="m 165.80993,124.97493 v 2.096 h -0.5705 v -2.07739 q 0,-0.493 -0.19224,-0.73794 -0.19224,-0.24495 -0.57671,-0.24495 -0.46199,0 -0.72864,0.29456 -0.26665,0.29455 -0.26665,0.80305 v 1.96267 h -0.57361 v -3.47266 h 0.57361 v 0.53951 q 0.20464,-0.31316 0.48059,-0.46819 0.27906,-0.15503 0.64182,-0.15503 0.59842,0 0.90538,0.37207 0.30695,0.36897 0.30695,1.0883 z"
+                            style="font-size:6.3499999px;stroke-width:0.26458332"
+                            id="path1147"
+                            inkscape:connector-curvature="0" />
+                    <path
+                            d="m 167.51836,122.61229 v 0.98598 h 1.17512 v 0.44339 h -1.17512 v 1.88515 q 0,0.42478 0.11472,0.54571 0.11782,0.12092 0.47439,0.12092 h 0.58601 v 0.47749 h -0.58601 q -0.66043,0 -0.91157,-0.24495 -0.25115,-0.24804 -0.25115,-0.89917 v -1.88515 h -0.41858 v -0.44339 h 0.41858 v -0.98598 z"
+                            style="font-size:6.3499999px;stroke-width:0.26458332"
+                            id="path1149"
+                            inkscape:connector-curvature="0" />
+                    <path
+                            d="m 169.44692,123.59827 h 0.57051 v 3.47266 h -0.57051 z m 0,-1.35185 h 0.57051 v 0.72244 h -0.57051 z"
+                            style="font-size:6.3499999px;stroke-width:0.26458332"
+                            id="path1151"
+                            inkscape:connector-curvature="0" />
+                    <path
+                            d="m 173.70712,123.7316 v 0.5333 q -0.24184,-0.13332 -0.48679,-0.19844 -0.24184,-0.0682 -0.48989,-0.0682 -0.55501,0 -0.86196,0.35347 -0.30696,0.35036 -0.30696,0.98598 0,0.63562 0.30696,0.98909 0.30695,0.35037 0.86196,0.35037 0.24805,0 0.48989,-0.0651 0.24495,-0.0682 0.48679,-0.20153 v 0.5271 q -0.23874,0.11162 -0.49609,0.16743 -0.25425,0.0558 -0.5426,0.0558 -0.78445,0 -1.24644,-0.493 -0.46199,-0.49299 -0.46199,-1.33015 0,-0.84956 0.46509,-1.33635 0.46819,-0.48679 1.28054,-0.48679 0.26355,0 0.5147,0.0558 0.25115,0.0527 0.48679,0.16123 z"
+                            style="font-size:6.3499999px;stroke-width:0.26458332"
+                            id="path1153"
+                            inkscape:connector-curvature="0" />
+                </g>
+                <rect
+                        style="opacity:0.97000002;fill:#6a0dad;fill-opacity:1;stroke:#6a0dad;stroke-width:0.45965612;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
+                        id="rect1379-1-3"
+                        width="2.588896"
+                        height="2.3163805"
+                        x="127.5723"
+                        y="136.58014" />
+                <g
+                        aria-label="Modal: dynamic"
+                        style="font-style:normal;font-weight:normal;font-size:6.3499999px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+                        id="text1383-2-0"
+                        transform="matrix(0.64923175,0,0,0.64923175,49.074167,51.012475)">
+                    <path
+                            d="m 127.91147,130.94689 h 0.93328 l 1.18132,3.1502 1.18753,-3.1502 h 0.93327 v 4.62918 h -0.61081 v -4.06487 l -1.19373,3.175 h -0.62942 l -1.19372,-3.175 v 4.06487 h -0.60772 z"
+                            style="font-size:6.3499999px;stroke-width:0.26458332"
+                            id="path1156"
+                            inkscape:connector-curvature="0" />
+                    <path
+                            d="m 134.71416,132.50338 q -0.45889,0 -0.72554,0.35967 -0.26665,0.35657 -0.26665,0.97979 0,0.62322 0.26355,0.98288 0.26665,0.35657 0.72864,0.35657 0.45578,0 0.72243,-0.35967 0.26665,-0.35967 0.26665,-0.97978 0,-0.61702 -0.26665,-0.97669 -0.26665,-0.36277 -0.72243,-0.36277 z m 0,-0.48369 q 0.74414,0 1.16892,0.48369 0.42478,0.4837 0.42478,1.33946 0,0.85266 -0.42478,1.33945 -0.42478,0.48369 -1.16892,0.48369 -0.74724,0 -1.17202,-0.48369 -0.42168,-0.48679 -0.42168,-1.33945 0,-0.85576 0.42168,-1.33946 0.42478,-0.48369 1.17202,-0.48369 z"
+                            style="font-size:6.3499999px;stroke-width:0.26458332"
+                            id="path1158"
+                            inkscape:connector-curvature="0" />
+                    <path
+                            d="m 139.53557,132.63051 v -1.87896 h 0.57051 v 4.82452 h -0.57051 v -0.5209 q -0.17984,0.31006 -0.45579,0.46198 -0.27285,0.14883 -0.65732,0.14883 -0.62942,0 -1.0263,-0.50229 -0.39377,-0.5023 -0.39377,-1.32085 0,-0.81856 0.39377,-1.32085 0.39688,-0.5023 1.0263,-0.5023 0.38447,0 0.65732,0.15193 0.27595,0.14883 0.45579,0.45889 z m -1.94407,1.21233 q 0,0.62942 0.25735,0.98908 0.26045,0.35657 0.71313,0.35657 0.45269,0 0.71314,-0.35657 0.26045,-0.35966 0.26045,-0.98908 0,-0.62942 -0.26045,-0.98599 -0.26045,-0.35967 -0.71314,-0.35967 -0.45268,0 -0.71313,0.35967 -0.25735,0.35657 -0.25735,0.98599 z"
+                            style="font-size:6.3499999px;stroke-width:0.26458332"
+                            id="path1160"
+                            inkscape:connector-curvature="0" />
+                    <path
+                            d="m 142.8594,133.83044 q -0.69143,0 -0.95808,0.15813 -0.26666,0.15812 -0.26666,0.5395 0,0.30385 0.19844,0.48369 0.20154,0.17673 0.54571,0.17673 0.47439,0 0.75964,-0.33486 0.28835,-0.33797 0.28835,-0.89607 v -0.12712 z m 1.13791,-0.23565 v 1.98128 h -0.57051 v -0.5271 q -0.19533,0.31626 -0.48679,0.46818 -0.29145,0.14883 -0.71313,0.14883 -0.5333,0 -0.84956,-0.29765 -0.31316,-0.30076 -0.31316,-0.80306 0,-0.58601 0.39067,-0.88366 0.39378,-0.29766 1.17202,-0.29766 h 0.79995 v -0.0558 q 0,-0.39377 -0.26045,-0.60771 -0.25734,-0.21705 -0.72553,-0.21705 -0.29766,0 -0.57981,0.0713 -0.28216,0.0713 -0.5426,0.21394 v -0.5271 q 0.31315,-0.12092 0.60771,-0.17984 0.29456,-0.062 0.57361,-0.062 0.75344,0 1.12551,0.39068 0.37207,0.39067 0.37207,1.18442 z"
+                            style="font-size:6.3499999px;stroke-width:0.26458332"
+                            id="path1162"
+                            inkscape:connector-curvature="0" />
+                    <path
+                            d="m 145.17553,130.75155 h 0.57051 v 4.82452 h -0.57051 z"
+                            style="font-size:6.3499999px;stroke-width:0.26458332"
+                            id="path1164"
+                            inkscape:connector-curvature="0" />
+                    <path
+                            d="m 147.08239,134.78852 h 0.65423 v 0.78755 h -0.65423 z m 0,-2.49598 h 0.65423 v 0.78755 h -0.65423 z"
+                            style="font-size:6.3499999px;stroke-width:0.26458332"
+                            id="path1166"
+                            inkscape:connector-curvature="0" />
+                    <path
+                            d="m 153.38899,132.63051 v -1.87896 h 0.5705 v 4.82452 h -0.5705 v -0.5209 q -0.17984,0.31006 -0.45579,0.46198 -0.27285,0.14883 -0.65732,0.14883 -0.62942,0 -1.0263,-0.50229 -0.39377,-0.5023 -0.39377,-1.32085 0,-0.81856 0.39377,-1.32085 0.39688,-0.5023 1.0263,-0.5023 0.38447,0 0.65732,0.15193 0.27595,0.14883 0.45579,0.45889 z m -1.94407,1.21233 q 0,0.62942 0.25735,0.98908 0.26045,0.35657 0.71313,0.35657 0.45269,0 0.71314,-0.35657 0.26045,-0.35966 0.26045,-0.98908 0,-0.62942 -0.26045,-0.98599 -0.26045,-0.35967 -0.71314,-0.35967 -0.45268,0 -0.71313,0.35967 -0.25735,0.35657 -0.25735,0.98599 z"
+                            style="font-size:6.3499999px;stroke-width:0.26458332"
+                            id="path1168"
+                            inkscape:connector-curvature="0" />
+                    <path
+                            d="m 156.57949,135.89853 q -0.24185,0.62011 -0.47129,0.80925 -0.22944,0.18913 -0.61392,0.18913 h -0.45578 v -0.47749 h 0.33486 q 0.23565,0 0.36587,-0.11162 0.13023,-0.11162 0.28836,-0.5271 l 0.10231,-0.26045 -1.40456,-3.41684 h 0.60461 l 1.08521,2.71611 1.0852,-2.71611 h 0.60462 z"
+                            style="font-size:6.3499999px;stroke-width:0.26458332"
+                            id="path1170"
+                            inkscape:connector-curvature="0" />
+                    <path
+                            d="m 161.77917,133.48007 v 2.096 h -0.57051 v -2.0774 q 0,-0.49299 -0.19223,-0.73794 -0.19224,-0.24494 -0.57671,-0.24494 -0.46199,0 -0.72864,0.29455 -0.26665,0.29456 -0.26665,0.80305 v 1.96268 h -0.57361 v -3.47266 h 0.57361 v 0.5395 q 0.20464,-0.31316 0.48059,-0.46819 0.27905,-0.15503 0.64182,-0.15503 0.59842,0 0.90537,0.37207 0.30696,0.36897 0.30696,1.08831 z"
+                            style="font-size:6.3499999px;stroke-width:0.26458332"
+                            id="path1172"
+                            inkscape:connector-curvature="0" />
+                    <path
+                            d="m 164.50149,133.83044 q -0.69143,0 -0.95808,0.15813 -0.26666,0.15812 -0.26666,0.5395 0,0.30385 0.19844,0.48369 0.20154,0.17673 0.54571,0.17673 0.47439,0 0.75964,-0.33486 0.28835,-0.33797 0.28835,-0.89607 v -0.12712 z m 1.13791,-0.23565 v 1.98128 h -0.57051 v -0.5271 q -0.19533,0.31626 -0.48679,0.46818 -0.29145,0.14883 -0.71313,0.14883 -0.5333,0 -0.84956,-0.29765 -0.31316,-0.30076 -0.31316,-0.80306 0,-0.58601 0.39067,-0.88366 0.39378,-0.29766 1.17202,-0.29766 h 0.79995 v -0.0558 q 0,-0.39377 -0.26045,-0.60771 -0.25734,-0.21705 -0.72553,-0.21705 -0.29766,0 -0.57981,0.0713 -0.28216,0.0713 -0.54261,0.21394 v -0.5271 q 0.31316,-0.12092 0.60772,-0.17984 0.29456,-0.062 0.57361,-0.062 0.75344,0 1.12551,0.39068 0.37207,0.39067 0.37207,1.18442 z"
+                            style="font-size:6.3499999px;stroke-width:0.26458332"
+                            id="path1174"
+                            inkscape:connector-curvature="0" />
+                    <path
+                            d="m 169.52134,132.77003 q 0.21394,-0.38447 0.51159,-0.5674 0.29766,-0.18294 0.70073,-0.18294 0.54261,0 0.83716,0.38138 0.29456,0.37827 0.29456,1.079 v 2.096 h -0.57361 v -2.0774 q 0,-0.49919 -0.17673,-0.74104 -0.17674,-0.24184 -0.53951,-0.24184 -0.44338,0 -0.70073,0.29455 -0.25735,0.29456 -0.25735,0.80305 v 1.96268 h -0.5736 v -2.0774 q 0,-0.50229 -0.17674,-0.74104 -0.17673,-0.24184 -0.5457,-0.24184 -0.43718,0 -0.69453,0.29765 -0.25735,0.29456 -0.25735,0.79995 v 1.96268 h -0.57361 v -3.47266 h 0.57361 v 0.5395 q 0.19534,-0.31936 0.46819,-0.47129 0.27285,-0.15193 0.64802,-0.15193 0.37827,0 0.64182,0.19224 0.26665,0.19224 0.39378,0.5581 z"
+                            style="font-size:6.3499999px;stroke-width:0.26458332"
+                            id="path1176"
+                            inkscape:connector-curvature="0" />
+                    <path
+                            d="m 173.00639,132.10341 h 0.57051 v 3.47266 h -0.57051 z m 0,-1.35186 h 0.57051 v 0.72244 h -0.57051 z"
+                            style="font-size:6.3499999px;stroke-width:0.26458332"
+                            id="path1178"
+                            inkscape:connector-curvature="0" />
+                    <path
+                            d="m 177.2666,132.23673 v 0.5333 q -0.24185,-0.13332 -0.48679,-0.19843 -0.24185,-0.0682 -0.4899,-0.0682 -0.555,0 -0.86196,0.35347 -0.30696,0.35037 -0.30696,0.98599 0,0.63562 0.30696,0.98908 0.30696,0.35037 0.86196,0.35037 0.24805,0 0.4899,-0.0651 0.24494,-0.0682 0.48679,-0.20154 v 0.5271 q -0.23875,0.11162 -0.4961,0.16743 -0.25424,0.0558 -0.5426,0.0558 -0.78445,0 -1.24643,-0.49299 -0.46199,-0.49299 -0.46199,-1.33015 0,-0.84956 0.46509,-1.33635 0.46819,-0.4868 1.28054,-0.4868 0.26355,0 0.5147,0.0558 0.25114,0.0527 0.48679,0.16123 z"
+                            style="font-size:6.3499999px;stroke-width:0.26458332"
+                            id="path1180"
+                            inkscape:connector-curvature="0" />
+                </g>
+                <rect
+                        style="opacity:0.97000002;fill:#333333;fill-opacity:1;stroke:#333333;stroke-width:0.45965612;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
+                        id="rect1379-1-5"
+                        width="2.588896"
+                        height="2.3163805"
+                        x="177.05731"
+                        y="133.40518" />
+                <g
+                        aria-label="Premodal"
+                        style="font-style:normal;font-weight:normal;font-size:6.3499999px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+                        id="text1383-2-2"
+                        transform="matrix(0.64923175,0,0,0.64923175,132.15357,47.837473)">
+                    <text
+                            xml:space="preserve"
+                            style="font-style:normal;font-weight:normal;font-size:6.52052736px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.10782642"
+                            x="74.842934"
+                            y="135.80618"
+                            id="text1559"><tspan
+                                sodipodi:role="line"
+                                x="74.842934"
+                                y="135.80618"
+                                style="font-size:6.52052736px;stroke-width:0.10782642"
+                                id="tspan1561">Premodal / not modal</tspan></text>
+                </g>
+                <text
+                        xml:space="preserve"
+                        style="font-style:normal;font-weight:normal;font-size:6.3499999px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+                        x="182.32204"
+                        y="124.96484"
+                        id="text902"><tspan
+                            sodipodi:role="line"
+                            id="tspan900"
+                            x="182.32204"
+                            y="130.5831"
+                            style="stroke-width:0.26458332" /></text>
+                <text
+                        xml:space="preserve"
+                        style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+                        x="99.817169"
+                        y="152.46648"
+                        id="text906"><tspan
+                            sodipodi:role="line"
+                            id="tspan904"
+                            x="99.817169"
+                            y="156.21199"
+                            style="stroke-width:0.26458332" /></text>
+                <text
+                        xml:space="preserve"
+                        style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+                        x="149.71532"
+                        y="152.46648"
+                        id="text910"><tspan
+                            sodipodi:role="line"
+                            id="tspan908"
+                            x="149.71532"
+                            y="156.21199"
+                            style="stroke-width:0.26458332" /></text>
+                <text
+                        xml:space="preserve"
+                        style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+                        x="312.95029"
+                        y="143.10623"
+                        id="text998"><tspan
+                            sodipodi:role="line"
+                            id="tspan996"
+                            x="312.95029"
+                            y="143.10623"
+                            style="font-size:4.23333311px;stroke-width:0.26458332">Hypothetical relation</tspan></text>
+                <text
+                        xml:space="preserve"
+                        style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+                        x="313.08707"
+                        y="135.99896"
+                        id="text998-3"><tspan
+                            sodipodi:role="line"
+                            id="tspan996-6"
+                            x="313.08707"
+                            y="135.99896"
+                            style="font-size:4.23333311px;stroke-width:0.26458332">Semantic relation</tspan></text>
+                <path
+                        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                        d="m 117.38323,86.009205 c 0,0 2.83578,0 2.83578,0"
+                        id="path3309"
+                        inkscape:connector-curvature="0"
+                        inkscape:path-effect="#path-effect3311"
+                        inkscape:original-d="m 117.38323,86.009205 h 2.83578"
+                        inkscape:transform-center-x="490.53032"
+                        inkscape:transform-center-y="-47.90538"
+                        transform="matrix(4.1941728,0,0,1,-194.79938,48.585973)" />
+                <path
+                        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.00000003, 1.00000003;stroke-dashoffset:0;stroke-opacity:1"
+                        d="m 117.38323,86.009205 c 0,0 2.83578,0 2.83578,0"
+                        id="path3309-5"
+                        inkscape:connector-curvature="0"
+                        inkscape:path-effect="#path-effect3311-7"
+                        inkscape:original-d="m 117.38323,86.009205 h 2.83578"
+                        inkscape:transform-center-x="490.53032"
+                        inkscape:transform-center-y="-47.90538"
+                        transform="matrix(4.1941729,0,0,1,-194.79904,55.736517)" />
+                <rect
+                        style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.46580383;stroke-miterlimit:4;stroke-dasharray:0.46580387, 0.46580387;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+                        id="rect3352"
+                        width="3.4281895"
+                        height="3.5870652"
+                        x="233.69958"
+                        y="136.43695" />
+                <text
+                        xml:space="preserve"
+                        style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+                        x="238.35762"
+                        y="139.49937"
+                        id="text3358"><tspan
+                            sodipodi:role="line"
+                            id="tspan3356"
+                            x="238.35762"
+                            y="139.49937"
+                            style="font-size:4.23333311px;stroke-width:0.26458332">Likely modal <tspan
+                                style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic'"
+                                id="tspan917">(see color)</tspan></tspan></text>
+            </g>
+        </svg>
+
+        <svg
+                xmlns:svg="http://www.w3.org/2000/svg"
+                xmlns="http://www.w3.org/2000/svg"
+                width="1332.4766"
+                height="732.49347"
+                viewBox="0 0 352.55108 193.80557"
+                version="1.1"
+                id="svg1283"
+                sodipodi:docname="potestas.svg"
+                inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+            <defs
+                    id="defs1277">
+                <filter
+                        inkscape:collect="always"
+                        style="color-interpolation-filters:sRGB"
+                        id="filter8724"
+                        x="-0.027333332"
+                        width="1.0546668"
+                        y="-0.0076875002"
+                        height="1.015375">
+                    <feGaussianBlur
+                            inkscape:collect="always"
+                            stdDeviation="0.0050121103"
+                            id="feGaussianBlur8726" />
+                </filter>
+                <filter
+                        inkscape:collect="always"
+                        style="color-interpolation-filters:sRGB"
+                        id="filter8724-9"
+                        x="-0.027333332"
+                        width="1.0546668"
+                        y="-0.0076875002"
+                        height="1.015375">
+                    <feGaussianBlur
+                            inkscape:collect="always"
+                            stdDeviation="0.0050121103"
+                            id="feGaussianBlur8726-2" />
+                </filter>
+            </defs>
+            <sodipodi:namedview
+                    id="base"
+                    pagecolor="#ffffff"
+                    bordercolor="#666666"
+                    borderopacity="1.0"
+                    inkscape:pageopacity="0.0"
+                    inkscape:pageshadow="2"
+                    inkscape:zoom="1.8019818"
+                    inkscape:cx="283.54982"
+                    inkscape:cy="675.28698"
+                    inkscape:document-units="mm"
+                    inkscape:current-layer="layer1"
+                    showgrid="false"
+                    inkscape:window-width="1976"
+                    inkscape:window-height="1088"
+                    inkscape:window-x="1992"
+                    inkscape:window-y="27"
+                    inkscape:window-maximized="1"
+                    showguides="true"
+                    inkscape:guide-bbox="true"
+                    fit-margin-top="10"
+                    fit-margin-left="10"
+                    fit-margin-bottom="10"
+                    fit-margin-right="10"
+                    units="px">
+                <sodipodi:guide
+                        position="349.14362,81.957149"
+                        orientation="1,0"
+                        inkscape:locked="false"
+                        id="guide2294" />
+                <sodipodi:guide
+                        position="-33.450913,209.31467"
+                        orientation="1,0"
+                        inkscape:locked="false"
+                        id="guide2324" />
+                <sodipodi:guide
+                        position="279.54061,153.81858"
+                        orientation="1,0"
+                        inkscape:locked="false"
+                        id="guide2392" />
+                <sodipodi:guide
+                        position="48.496347,187.65346"
+                        orientation="0,1"
+                        inkscape:locked="false"
+                        id="guide4948" />
+                <sodipodi:guide
+                        position="24.226798,178.54417"
+                        orientation="0,1"
+                        id="guide992"
+                        inkscape:locked="false" />
+            </sodipodi:namedview>
+            <metadata
+                    id="metadata1280">
+                <rdf:RDF>
+                    <cc:Work
+                            rdf:about="">
+                        <dc:format>image/svg+xml</dc:format>
+                        <dc:type
+                                rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+                        <dc:title></dc:title>
+                    </cc:Work>
+                </rdf:RDF>
+            </metadata>
+            <g
+                    inkscape:label="Layer 1"
+                    inkscape:groupmode="layer"
+                    id="layer1"
+                    transform="translate(164.6318,25.45811)">
+                <g
+                        inkscape:label="etymology"
+                        id="g4857"
+                        transform="translate(-0.11065023,-39.832318)">
+                    <path
+                            sodipodi:nodetypes="ccccc"
+                            inkscape:connector-curvature="0"
+                            id="path5065-8-0"
+                            d="m -82.189655,17.745089 25.848247,-0.06266 6.840732,11.869028 -6.329537,11.50791 -26.302772,0.06376"
+                            style="opacity:0.97000002;fill:#ffffff;fill-opacity:1;stroke:#33333f;stroke-width:1.32291996;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.94117599;paint-order:stroke markers fill" />
+                    <path
+                            sodipodi:nodetypes="ccccc"
+                            inkscape:connector-curvature="0"
+                            id="path5065-8"
+                            d="m -108.406,17.842822 25.848267,-0.06266 6.840732,11.869028 -6.329537,11.50791 -26.302792,0.06376"
+                            style="opacity:0.97000002;fill:#ffffff;fill-opacity:1;stroke:#33333f;stroke-width:1.32291996;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.94117599;paint-order:stroke markers fill" />
+                    <path
+                            sodipodi:nodetypes="cccc"
+                            inkscape:connector-curvature="0"
+                            id="path5065-8-1"
+                            d="m -133.8833,17.53465 25.86769,-0.06239 m 0.5116,24.098409 -26.32259,0.0637"
+                            style="opacity:0.97000002;fill:#ffffff;fill-opacity:1;stroke:#33333f;stroke-width:0.63789308;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.94117599;paint-order:stroke markers fill" />
+                    <path
+                            inkscape:connector-curvature="0"
+                            id="path5065-8-8"
+                            d="m -160.05768,41.313308 -0.0567,-23.378039 25.84824,-0.06266 6.84076,11.869027 -6.32957,11.507911 z"
+                            style="opacity:0.97000002;fill:#ffffff;fill-opacity:1;stroke:#33333f;stroke-width:1.32291663;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.94117599;paint-order:stroke markers fill" />
+                    <text
+                            xml:space="preserve"
+                            style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+                            x="-71.881561"
+                            y="29.868986"
+                            id="text4983"><tspan
+                                sodipodi:role="line"
+                                x="-71.881561"
+                                y="29.868986"
+                                id="tspan4981"
+                                style="font-size:3.88055563px;stroke-width:0.26458332">potestas</tspan></text>
+                    <g
+                            id="g8752"
+                            transform="translate(-0.39023241,-10.742413)">
+                        <path
+                                style="opacity:0.97000002;fill:#ffffff;fill-opacity:1;stroke:#33333f;stroke-width:1.32299995;stroke-miterlimit:4;stroke-dasharray:1.323, 1.323;stroke-dashoffset:0;stroke-opacity:0.94117599;paint-order:stroke markers fill"
+                                d="m -107.52317,-13.926368 6.84077,11.8690286 -6.32957,11.507907"
+                                id="path5065-8-1-8"
+                                inkscape:connector-curvature="0"
+                                sodipodi:nodetypes="ccc" />
+                        <rect
+                                transform="matrix(1.4337521,0,0,0.99699277,46.913047,-0.5677851)"
+                                y="-13.624228"
+                                x="-108.15094"
+                                height="1.5647564"
+                                width="0.44008774"
+                                id="rect8722"
+                                style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.58208334;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;filter:url(#filter8724)" />
+                        <rect
+                                transform="matrix(1.4337521,0,0,0.99699278,47.418693,20.92717)"
+                                y="-13.624228"
+                                x="-108.15094"
+                                height="1.5647564"
+                                width="0.44008774"
+                                id="rect8722-1"
+                                style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.58208334;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;filter:url(#filter8724-9)" />
+                    </g>
+                </g>
+                <rect
+                        ry="0"
+                        y="14.528843"
+                        x="176.13153"
+                        height="12.317111"
+                        width="8.6490183"
+                        id="ibce-3"
+                        style="opacity:1;fill:#9bbfe1;fill-opacity:1;stroke:none;stroke-width:0.16330335" />
+                <path
+                        style="opacity:1;fill:#86b5e2;fill-opacity:1;stroke:none;stroke-width:0.30722573"
+                        d="m 145.52017,14.52886 v 12.317077 h 30.60536 0.006 v -0.01707 l 2.38816,-6.115389 -2.38816,-6.184635 z"
+                        id="ibce-6-1-3"
+                        inkscape:connector-curvature="0" />
+                <path
+                        style="opacity:1;fill:#79afe3;fill-opacity:1;stroke:none;stroke-width:0.30722573"
+                        d="m 114.90881,14.528877 v 12.317077 h 30.60536 0.006 v -0.01707 l 2.38816,-6.115389 -2.38816,-6.184635 z"
+                        id="ibce-6-1"
+                        inkscape:connector-curvature="0" />
+                <path
+                        style="opacity:1;fill:#62a5e6;fill-opacity:1;stroke:none;stroke-width:0.30722672"
+                        d="m 84.297282,14.545947 v 12.317077 h 30.605528 0.006 v -0.01707 l 2.38799,-6.115388 -2.38816,-6.184634 z"
+                        id="iibce-3-7"
+                        inkscape:connector-curvature="0" />
+                <path
+                        style="opacity:1;fill:#509be4;fill-opacity:1;stroke:none;stroke-width:0.30722573"
+                        d="m 53.68542,14.545964 v 12.317077 h 30.605354 0.0065 v -0.01707 l 2.388167,-6.115388 -2.388159,-6.184636 z"
+                        id="ibce-6"
+                        inkscape:connector-curvature="0" />
+                <path
+                        style="opacity:1;fill:#3f91e1;fill-opacity:1;stroke:none;stroke-width:0.30722675"
+                        d="m 23.073565,14.54598 v 12.317077 h 30.605533 0.0065 v -0.01707 l 2.387988,-6.115389 -2.388166,-6.184634 z"
+                        id="iibce-3"
+                        inkscape:connector-curvature="0" />
+                <path
+                        style="opacity:1;fill:#2c83d8;fill-opacity:1;stroke:none;stroke-width:0.30722612"
+                        d="m -7.538306,14.545996 v 12.317077 h 30.605363 0.0065 v -0.01707 l 2.388158,-6.115388 -2.38815,-6.184635 z"
+                        id="ibce"
+                        inkscape:connector-curvature="0" />
+                <path
+                        style="opacity:1;fill:#2d6faf;fill-opacity:1;stroke:none;stroke-width:0.30722573"
+                        d="m -38.150173,14.546009 v 12.317077 h 30.60536 0.0065 v -0.01707 l 2.388161,-6.115385 -2.388154,-6.184635 z"
+                        id="iibce"
+                        inkscape:connector-curvature="0" />
+                <text
+                        id="text1025"
+                        y="23.53611"
+                        x="-33.854233"
+                        style="font-style:normal;font-weight:normal;font-size:9.43488979px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.235872"
+                        xml:space="preserve"><tspan
+                            style="font-size:8.46666622px;fill:#ffffff;fill-opacity:1;stroke-width:0.235872"
+                            y="23.53611"
+                            x="-33.854233"
+                            id="tspan1023">II BCE</tspan></text>
+                <text
+                        id="text1025-1"
+                        y="23.53611"
+                        x="-2.8961673"
+                        style="font-style:normal;font-weight:normal;font-size:9.43488979px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:0.94117599;stroke:none;stroke-width:0.235872"
+                        xml:space="preserve"><tspan
+                            style="font-size:8.46666622px;fill:#ffffff;fill-opacity:0.94117599;stroke-width:0.235872"
+                            y="23.53611"
+                            x="-2.8961673"
+                            id="tspan1023-2">I BCE</tspan></text>
+                <path
+                        style="opacity:1;fill:#2565a3;fill-opacity:1;stroke:none;stroke-width:0.30722597"
+                        d="m -68.761988,14.546022 v 12.317077 h 30.605407 0.0064 v -0.01707 l 2.388164,-6.115385 -2.388156,-6.184635 z"
+                        id="iibce-5"
+                        inkscape:connector-curvature="0" />
+                <path
+                        style="opacity:1;fill:#225484;fill-opacity:1;stroke:none;stroke-width:0.30722573"
+                        d="m -99.373358,14.546035 v 12.317077 h 30.60536 0.006 v -0.01707 l 2.38816,-6.115384 -2.38815,-6.184636 z"
+                        id="iibce-5-3"
+                        inkscape:connector-curvature="0" />
+                <path
+                        style="opacity:1;fill:#1f3f5d;fill-opacity:1;stroke:none;stroke-width:0.30722529"
+                        d="m -129.98471,14.546023 v 12.317075 h 30.605362 0.006 v -0.01704 l 2.38816,-6.115391 -2.38817,-6.184632 z"
+                        id="iiibce"
+                        inkscape:connector-curvature="0" />
+                <path
+                        d="m -129.98471,26.863098 0.012,-12.317108 4.26768,6.184451 z"
+                        id="path945-7"
+                        style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.2771959;stroke-opacity:1"
+                        inkscape:connector-curvature="0" />
+                <text
+                        id="text1025-1-5"
+                        y="23.53611"
+                        x="30.225986"
+                        style="font-style:normal;font-weight:normal;font-size:9.43488979px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:0.94117599;stroke:none;stroke-width:0.235872"
+                        xml:space="preserve"><tspan
+                            style="font-size:8.46666622px;fill:#ffffff;fill-opacity:0.94117599;stroke-width:0.235872"
+                            y="23.53611"
+                            x="30.225986"
+                            id="tspan1023-2-3">I CE</tspan></text>
+                <text
+                        id="text1025-1-5-5"
+                        y="23.53611"
+                        x="60.769268"
+                        style="font-style:normal;font-weight:normal;font-size:9.43488979px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:0.94117599;stroke:none;stroke-width:0.235872"
+                        xml:space="preserve"><tspan
+                            style="font-size:8.46666622px;fill:#ffffff;fill-opacity:0.94117599;stroke-width:0.235872"
+                            y="23.53611"
+                            x="60.769268"
+                            id="tspan1023-2-3-6">II CE</tspan></text>
+                <text
+                        id="text1025-1-5-5-2"
+                        y="23.53611"
+                        x="89.930939"
+                        style="font-style:normal;font-weight:normal;font-size:9.43488979px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:0.94117599;stroke:none;stroke-width:0.235872"
+                        xml:space="preserve"><tspan
+                            style="font-size:8.46666622px;fill:#ffffff;fill-opacity:0.94117599;stroke-width:0.235872"
+                            y="23.53611"
+                            x="89.930939"
+                            id="tspan1023-2-3-6-9">III CE</tspan></text>
+                <text
+                        id="text1025-1-5-5-2-2"
+                        y="23.53611"
+                        x="120.26663"
+                        style="font-style:normal;font-weight:normal;font-size:9.43488979px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:0.94117599;stroke:none;stroke-width:0.235872"
+                        xml:space="preserve"><tspan
+                            style="font-size:8.46666622px;fill:#ffffff;fill-opacity:0.94117599;stroke-width:0.235872"
+                            y="23.53611"
+                            x="120.26663"
+                            id="tspan1023-2-3-6-9-7">IV CE</tspan></text>
+                <g
+                        class="sense show power"
+                        id="power"
+                        inkscape:label="power">
+                    <title
+                            id="title3622">LEX XII tab. 5, 7 adgnatum gentiliumque in eo furioso pecuniaque eius potestas esto</title>
+                    <path
+                            inkscape:label="power-rect"
+                            sodipodi:nodetypes="cccc"
+                            inkscape:connector-curvature="0"
+                            id="power-rect"
+                            d="M 175.1019,41.18437 H -126.02138 V 29.70896 H 175.1019"
+                            style="fill:#ffffff;fill-opacity:1;stroke:#6a0dad;stroke-width:0.79435217;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+                    <path
+                            inkscape:label="potestas-est-arrow"
+                            inkscape:connector-curvature="0"
+                            style="fill:none;stroke:#6a0dad;stroke-width:0.79435217;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                            d="m 175.1019,29.70896 9.40992,5.78333 -9.4099,5.71873"
+                            id="defined_path-0-2-7" />
+                    <text
+                            inkscape:label="power-sense"
+                            xml:space="preserve"
+                            style="font-style:normal;font-weight:normal;font-size:3.88055992px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299"
+                            x="-116.77779"
+                            y="34.492985"
+                            id="power-sense"><tspan
+                                class="en"
+                                sodipodi:role="line"
+                                id="tspan10518-6-9"
+                                x="-116.77779"
+                                y="34.492985"
+                                style="font-size:3.88055992px;stroke-width:0.26458299">Power, control, by which someone (or something) is in control, can impel a particular line of thought or action, or by the means of which s/he can </tspan><tspan
+                                class="en"
+                                sodipodi:role="line"
+                                x="-116.77779"
+                                y="39.343685"
+                                style="font-size:3.88055992px;stroke-width:0.26458299"
+                                id="tspan2263">obtain something</tspan></text>
+                </g>
+                <text
+                        id="text1025-1-5-5-2-2-6"
+                        y="23.536196"
+                        x="151.98274"
+                        style="font-style:normal;font-weight:normal;font-size:9.43488979px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:0.94117599;stroke:none;stroke-width:0.235872"
+                        xml:space="preserve"><tspan
+                            style="font-size:8.46666622px;fill:#ffffff;fill-opacity:0.94117599;stroke-width:0.235872"
+                            y="23.536196"
+                            x="151.98274"
+                            id="tspan1023-2-3-6-9-7-7">V CE</tspan></text>
+                <text
+                        id="text1025-5"
+                        y="23.53611"
+                        x="-64.730331"
+                        style="font-style:normal;font-weight:normal;font-size:9.43488979px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.41010416px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.235872"
+                        xml:space="preserve"><tspan
+                            style="font-size:8.46666622px;letter-spacing:-0.41010416px;word-spacing:-0.6746875px;fill:#ffffff;fill-opacity:1;stroke-width:0.235872"
+                            y="23.53611"
+                            x="-64.730331"
+                            id="tspan1023-6">III BCE</tspan></text>
+                <text
+                        id="text1025-29"
+                        y="23.53611"
+                        x="-95.94149"
+                        style="font-style:normal;font-weight:normal;font-size:9.43488979px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.41010416px;word-spacing:-0.6746875px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.235872"
+                        xml:space="preserve"><tspan
+                            style="font-size:8.46666622px;letter-spacing:-0.41010416px;word-spacing:-0.6746875px;fill:#ffffff;fill-opacity:1;stroke-width:0.235872"
+                            y="23.53611"
+                            x="-95.94149"
+                            id="tspan1023-1">IV BCE</tspan></text>
+                <text
+                        id="text1025-2"
+                        y="23.53611"
+                        x="-124.01795"
+                        style="font-style:normal;font-weight:normal;font-size:8.46666622px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:0.94117599;stroke:none;stroke-width:0.235872"
+                        xml:space="preserve"><tspan
+                            style="font-size:8.46666622px;letter-spacing:-0.41010416px;word-spacing:-0.66145831px;fill:#ffffff;fill-opacity:0.94117599;stroke-width:0.235872"
+                            y="23.53611"
+                            x="-124.01795"
+                            id="tspan1023-9">V BCE</tspan></text>
+                <g
+                        class="sense show chance"
+                        id="chance"
+                        inkscape:label="chance">
+                    <title
+                            id="title3692">PLAUT. Amph. 638 dum viri mei mihi potestas videndi fuit.</title>
+                    <path
+                            inkscape:label="potestas-est-rect"
+                            sodipodi:nodetypes="cccc"
+                            inkscape:connector-curvature="0"
+                            id="potestas-est-rect-3"
+                            d="M 175.10192,66.487801 H -68.076856 V 59.64612 H 175.10192"
+                            style="fill:#ffffff;fill-opacity:1;stroke:#6a0dad;stroke-width:0.87963784;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+                    <path
+                            inkscape:label="potestas-est-arrow"
+                            inkscape:connector-curvature="0"
+                            style="fill:none;stroke:#6a0dad;stroke-width:0.89029282;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                            d="m 175.10192,59.64612 7.59919,3.448041 -7.59917,3.40953"
+                            id="defined_path-0-2-6" />
+                    <text
+                            id="text2298"
+                            y="64.117783"
+                            x="-57.164524"
+                            style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+                            xml:space="preserve"><tspan
+                                style="font-size:3.88055563px;stroke-width:0.26458332"
+                                y="64.117783"
+                                x="-57.164524"
+                                id="tspan2296"
+                                class="en"
+                                sodipodi:role="line">chance, opportunity</tspan></text>
+                </g>
+                <g
+                        class="sense show potestas-est"
+                        id="potestas-est"
+                        inkscape:label="potestas-est">
+                    <title
+                            id="title3613">LEX XII tab. 5, 7 adgnatum gentiliumque in eo furioso pecuniaque eius potestas esto.</title>
+                    <path
+                            inkscape:label="potestas-est-rect"
+                            sodipodi:nodetypes="cccc"
+                            inkscape:connector-curvature="0"
+                            id="potestas-est-rect"
+                            d="m 175.10189,49.613551 h -301.12327 v -6.84168 h 301.12327"
+                            style="fill:#ffffff;fill-opacity:1;stroke:#6a0dad;stroke-width:0.79374999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+                    <text
+                            inkscape:label="potestas-est-label"
+                            id="potestas-est-label"
+                            y="47.924732"
+                            x="-162.47069"
+                            style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.13229167px;word-spacing:-0.06614583px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+                            xml:space="preserve"><tspan
+                                style="letter-spacing:-0.13229167px;word-spacing:-0.06614583px;stroke-width:0.26458332"
+                                y="47.924732"
+                                x="-162.47069"
+                                id="tspan945"
+                                sodipodi:role="line">POTESTAS EST</tspan></text>
+                    <text
+                            inkscape:label="potestast-est-sense"
+                            xml:space="preserve"
+                            style="font-style:normal;font-weight:normal;font-size:3.88055992px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299"
+                            x="-116.77787"
+                            y="47.555531"
+                            id="potestast-est-sense"><tspan
+                                class="en"
+                                sodipodi:role="line"
+                                id="tspan10518-6"
+                                x="-116.77787"
+                                y="47.555531"
+                                style="font-size:3.88055992px;stroke-width:0.26458299">it is the power; in the power (of someone)</tspan></text>
+                    <path
+                            inkscape:label="potestas-est-arrow"
+                            inkscape:connector-curvature="0"
+                            style="fill:none;stroke:#6a0dad;stroke-width:0.89029282;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                            d="m 175.10193,42.712781 7.59919,3.448045 -7.59917,3.409522"
+                            id="defined_path-0-2-6-6" />
+                </g>
+                <g
+                        class="potestatem-dare sense show"
+                        id="potestatem-dare"
+                        inkscape:label="potestatem-dare">
+                    <title
+                            id="title3642">PLAUT. Asin. 847 quoniam tibi potestatem dedi cum hac annum ut esses || PLAUT. Capt. 374 cum copiam istam mihi et potestatem facis ut ...remittam nuntium</title>
+                    <path
+                            inkscape:label="potestas-est-rect"
+                            sodipodi:nodetypes="cccc"
+                            inkscape:connector-curvature="0"
+                            id="potestas-est-rect-3-0-1"
+                            d="M 175.10193,74.916979 H -68.076856 V 68.075302 H 175.10193"
+                            style="fill:#ffffff;fill-opacity:1;stroke:#c40233;stroke-width:0.87963784;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+                    <path
+                            inkscape:label="potestas-est-arrow"
+                            inkscape:connector-curvature="0"
+                            style="fill:none;stroke:#c40233;stroke-width:0.89029282;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                            d="m 175.10193,68.075302 7.59919,3.448045 -7.59917,3.409523"
+                            id="defined_path-0-2-6-6-8" />
+                    <text
+                            id="text2298-2-7"
+                            y="72.546974"
+                            x="-57.16452"
+                            style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+                            xml:space="preserve"><tspan
+                                style="font-size:3.88055563px;stroke-width:0.26458332"
+                                class="en"
+                                y="72.546974"
+                                x="-57.16452"
+                                id="tspan2296-6-9"
+                                sodipodi:role="line">to give permission</tspan></text>
+                    <text
+                            inkscape:label="potestas-est-label"
+                            id="potestas-est-label-2"
+                            y="73.051384"
+                            x="-141.23433"
+                            style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+                            xml:space="preserve"><tspan
+                                style="stroke-width:0.26458332"
+                                y="73.051384"
+                                x="-141.23433"
+                                id="tspan945-0"
+                                sodipodi:role="line">POTESTATEM FACERE, DARE</tspan></text>
+                </g>
+                <g
+                        class="sense show senses"
+                        id="senses"
+                        inkscape:label="senses">
+                    <title
+                            id="title3716">CATO orig. 95 a dum ex tanto gaudio in potestatem nostram redeamus.</title>
+                    <path
+                            inkscape:label="potestas-est-rect"
+                            sodipodi:nodetypes="cccc"
+                            inkscape:connector-curvature="0"
+                            id="potestas-est-rect-3-0-2"
+                            d="M 175.08341,83.363675 H -36.015038 V 76.486963 H 175.08341"
+                            style="fill:#ffffff;fill-opacity:1;stroke:#333333;stroke-width:0.821661;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+                    <path
+                            inkscape:label="potestas-est-arrow"
+                            inkscape:connector-curvature="0"
+                            style="fill:none;stroke:#333333;stroke-width:0.89029282;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                            d="m 175.10193,76.50448 7.59919,3.448045 -7.59917,3.409523"
+                            id="defined_path-0-2-6-6-3" />
+                    <text
+                            id="text2298-2-75"
+                            y="80.976151"
+                            x="-23.826981"
+                            style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+                            xml:space="preserve"><tspan
+                                style="font-size:3.88055563px;stroke-width:0.26458332"
+                                y="80.976151"
+                                x="-23.826981"
+                                id="tspan2296-6-92"
+                                class="en"
+                                sodipodi:role="line">one’s senses</tspan></text>
+                </g>
+                <g
+                        id="means"
+                        class="sense show means"
+                        inkscape:label="means"
+                        transform="translate(1e-5,-8.4642169)">
+                    <title
+                            id="title3708">RHET. HER. 4, 25, 35 definitio est, quae rei alicuius proprias amplectitur potestates breviter.</title>
+                    <path
+                            inkscape:label="potestas-est-rect"
+                            sodipodi:nodetypes="cccc"
+                            inkscape:connector-curvature="0"
+                            id="potestas-est-rect-3-0-2-3"
+                            d="M 175.08343,100.27296 H -5.7415279 V 93.396245 H 175.08343"
+                            style="fill:#ffffff;fill-opacity:1;stroke:#333333;stroke-width:0.7604652;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+                    <path
+                            inkscape:label="potestas-est-arrow"
+                            inkscape:connector-curvature="0"
+                            style="fill:none;stroke:#333333;stroke-width:0.79374999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                            d="m 175.10194,93.413765 7.5992,3.44805 -7.59918,3.409515"
+                            id="defined_path-0-2-6-6-3-6" />
+                    <text
+                            id="text2298-2-75-1"
+                            y="97.885429"
+                            x="6.3355317"
+                            style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+                            xml:space="preserve"><tspan
+                                style="font-size:3.88055563px;stroke-width:0.26458332"
+                                y="97.885429"
+                                x="6.3355317"
+                                id="tspan2296-6-92-2"
+                                class="en"
+                                sodipodi:role="line">referred to what indicates, means something</tspan></text>
+                </g>
+                <g
+                        class="sense show capacity"
+                        id="capacity"
+                        inkscape:label="capacity"
+                        transform="translate(1e-5,-8.4642169)">
+                    <title
+                            id="title3658">LUCR. 2, 286 unde haec est nobis innata potestas?</title>
+                    <path
+                            inkscape:label="potestas-est-rect"
+                            sodipodi:nodetypes="cccc"
+                            inkscape:connector-curvature="0"
+                            id="potestas-est-rect-3-0-2-3-4"
+                            d="M 175.10196,108.73555 H -5.722999 v -6.87671 H 175.10196"
+                            style="fill:#ffffff;fill-opacity:1;stroke:#6a0dad;stroke-width:0.7604652;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+                    <path
+                            inkscape:label="potestas-est-arrow"
+                            inkscape:connector-curvature="0"
+                            style="fill:none;stroke:#6a0dad;stroke-width:0.79374999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                            d="m 175.12047,101.87636 7.5992,3.44805 -7.59918,3.40951"
+                            id="defined_path-0-2-6-6-3-6-7" />
+                    <text
+                            id="text2298-2-75-1-8"
+                            y="106.34801"
+                            x="6.3540564"
+                            style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+                            xml:space="preserve"><tspan
+                                style="font-size:3.88055563px;stroke-width:0.26458332"
+                                y="106.34801"
+                                x="6.3540564"
+                                class="en"
+                                id="tspan2296-6-92-2-4"
+                                sodipodi:role="line">capacity, abilities</tspan></text>
+                </g>
+                <g
+                        class="sense show metonymic"
+                        id="metonymic"
+                        inkscape:label="metonymic"
+                        transform="translate(1e-5,-8.4642169)">
+                    <title
+                            id="title3675">CIC. leg. 2, 31 a summis imperiis et summis potestatibus .. concilia ... instituta.</title>
+                    <path
+                            inkscape:label="potestas-est-rect"
+                            sodipodi:nodetypes="cccc"
+                            inkscape:connector-curvature="0"
+                            id="potestas-est-rect-3-0-2-3-5"
+                            d="M 175.12049,117.19815 H -5.704467 v -6.87672 H 175.12049"
+                            style="fill:#ffffff;fill-opacity:1;stroke:#333333;stroke-width:0.7604652;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+                    <path
+                            inkscape:label="potestas-est-arrow"
+                            inkscape:connector-curvature="0"
+                            style="fill:none;stroke:#333333;stroke-width:0.79374999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                            d="m 175.139,110.33895 7.5992,3.44805 -7.59918,3.40952"
+                            id="defined_path-0-2-6-6-3-6-0" />
+                    <text
+                            id="text2298-2-75-1-3"
+                            y="114.81061"
+                            x="6.3725896"
+                            style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+                            xml:space="preserve"><tspan
+                                style="font-size:3.88055563px;stroke-width:0.26458332"
+                                y="114.81061"
+                                x="6.3725896"
+                                class="en"
+                                id="tspan2296-6-92-2-6"
+                                sodipodi:role="line">metonymic: that has some power</tspan></text>
+                </g>
+                <g
+                        class="in-potestatem sense show"
+                        id="in-potestatem"
+                        inkscape:label="in-potestatem"
+                        transform="translate(1e-5,-8.4642169)">
+                    <title
+                            id="title3632">CIC. Tusc. 3, 66 Ergo in potestate est abicere dolorem, cum velis, tempori servientem.</title>
+                    <path
+                            inkscape:label="potestas-est-rect"
+                            sodipodi:nodetypes="cccc"
+                            inkscape:connector-curvature="0"
+                            id="potestas-est-rect-3-0-2-3-1"
+                            d="M 175.12049,125.66238 H -5.7044694 v -6.87672 H 175.12049"
+                            style="fill:#ffffff;fill-opacity:1;stroke:#6a0dad;stroke-width:0.7604652;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+                    <path
+                            inkscape:label="potestas-est-arrow"
+                            inkscape:connector-curvature="0"
+                            style="fill:none;stroke:#6a0dad;stroke-width:0.79374999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                            d="m 175.139,118.80318 7.5992,3.44805 -7.59918,3.40952"
+                            id="defined_path-0-2-6-6-3-6-06" />
+                    <text
+                            id="text2298-2-75-1-32"
+                            y="123.27483"
+                            x="6.3725905"
+                            style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+                            xml:space="preserve"><tspan
+                                style="font-size:3.88055563px;stroke-width:0.26458332"
+                                y="123.27483"
+                                x="6.3725905"
+                                class="en"
+                                id="tspan2296-6-92-2-0"
+                                sodipodi:role="line">it is possible</tspan></text>
+                    <text
+                            inkscape:label="potestas-est-label"
+                            id="potestas-est-label-2-6"
+                            y="124.21936"
+                            x="-66.151222"
+                            style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+                            xml:space="preserve"><tspan
+                                style="stroke-width:0.26458332"
+                                y="124.21936"
+                                x="-66.151222"
+                                id="tspan945-0-1"
+                                sodipodi:role="line">IN POTESTATE(M) ESSE</tspan></text>
+                </g>
+                <g
+                        id="permission"
+                        class="permission sense show"
+                        inkscape:label="permission">
+                    <title
+                            id="title3650">PLAUT. Capt. 374 cum copiam istam mihi et potestatem facis ut ...remittam nuntium</title>
+                    <path
+                            inkscape:label="potestas-est-rect"
+                            sodipodi:nodetypes="cccc"
+                            inkscape:connector-curvature="0"
+                            id="potestas-est-rect-3-0"
+                            d="M 175.10192,58.058619 H -68.076866 V 51.216942 H 175.10192"
+                            style="fill:#ffffff;fill-opacity:1;stroke:#c40233;stroke-width:0.87963784;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+                    <text
+                            id="text2298-2"
+                            y="55.68861"
+                            x="-57.164528"
+                            style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+                            xml:space="preserve"><tspan
+                                style="font-size:3.88055563px;stroke-width:0.26458332"
+                                y="55.68861"
+                                x="-57.164528"
+                                class="en"
+                                id="tspan2296-6"
+                                sodipodi:role="line">permission, freedom</tspan></text>
+                    <path
+                            inkscape:label="potestas-est-arrow"
+                            inkscape:connector-curvature="0"
+                            style="fill:none;stroke:#c40233;stroke-width:0.89029282;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                            d="m 175.10186,51.260141 7.59919,3.448041 -7.59917,3.40953"
+                            id="defined_path-0-2-6-65" />
+                </g>
+                <g
+                        id="possibility"
+                        class="sense show possibility"
+                        inkscape:label="possibility"
+                        transform="translate(1e-5,-8.4642169)">
+                    <title
+                            id="title3667">PS. QUINT. decl. 7, 4 p. 136, 28 (before: lex ... liberum hominem torqueri vetat) omnium beneficiorum ista natura est, ut non sit necessitas, sed potestas.</title>
+                    <path
+                            inkscape:label="potestas-est-rect"
+                            sodipodi:nodetypes="cccc"
+                            inkscape:connector-curvature="0"
+                            id="potestas-est-rect-3-0-2-3-5-5"
+                            d="M 174.91993,147.504 H 55.082016 V 135.94893 H 174.91993"
+                            style="fill:#ffffff;fill-opacity:1;stroke:#6a0dad;stroke-width:0.74693;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+                    <path
+                            inkscape:label="potestas-est-arrow"
+                            inkscape:connector-curvature="0"
+                            style="fill:none;stroke:#6a0dad;stroke-width:0.74693;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                            d="m 174.94947,135.99564 7.60275,5.77641 -7.60273,5.71187"
+                            id="defined_path-0-2-6-6-3-6-0-5" />
+                    <text
+                            inkscape:label="power-sense"
+                            xml:space="preserve"
+                            style="font-style:normal;font-weight:normal;font-size:3.88055992px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299"
+                            x="66.310822"
+                            y="140.51649"
+                            id="power-sense-8"><tspan
+                                id="tspan2610"
+                                class="en"
+                                sodipodi:role="line"
+                                x="66.310822"
+                                y="140.51649"
+                                style="font-size:3.88055992px;stroke-width:0.26458299">by which something can exist or happen (transl. </tspan><tspan
+                                id="tspan2641"
+                                class="en"
+                                sodipodi:role="line"
+                                x="66.310822"
+                                y="145.36719"
+                                style="font-size:3.88055992px;stroke-width:0.26458299">possibility, potentiality)</tspan></text>
+                </g>
+                <g
+                        id="proof"
+                        class="sense show proof"
+                        inkscape:label="proof">
+                    <title
+                            id="title3725">ITALA psalm. 113, 2 in exitu Israhel ex Aegypto ... facta est Iudaea sanctitas eius dei, Israhel potetas eius; mare vidit et fugit eqs.</title>
+                    <path
+                            inkscape:label="potestas-est-rect"
+                            sodipodi:nodetypes="cccc"
+                            inkscape:connector-curvature="0"
+                            id="potestas-est-rect-3-0-2-3-5-5-3"
+                            d="M 174.91994,152.18232 H 76.98868 v -11.55507 h 97.93126"
+                            style="fill:#ffffff;fill-opacity:1;stroke:#333333;stroke-width:0.67521715;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+                    <path
+                            inkscape:label="potestas-est-arrow"
+                            inkscape:connector-curvature="0"
+                            style="fill:none;stroke:#333333;stroke-width:0.74693;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                            d="m 174.91992,140.69404 7.60275,5.77641 -7.60273,5.71187"
+                            id="defined_path-0-2-6-6-3-6-0-5-3" />
+                    <text
+                            inkscape:label="power-sense"
+                            xml:space="preserve"
+                            style="font-style:normal;font-weight:normal;font-size:3.88055992px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299"
+                            x="86.918777"
+                            y="145.21533"
+                            id="power-sense-8-8"><tspan
+                                class="en"
+                                sodipodi:role="line"
+                                x="86.918777"
+                                y="145.21533"
+                                style="font-size:3.88055992px;stroke-width:0.26458299"
+                                id="tspan2263-8-0">something that has been done powerfully </tspan><tspan
+                                id="tspan2610-4"
+                                class="en"
+                                sodipodi:role="line"
+                                x="86.918777"
+                                y="150.06602"
+                                style="font-size:3.88055992px;stroke-width:0.26458299">or is proof of power</tspan></text>
+                </g>
+                <g
+                        id="value"
+                        class="sense show value"
+                        inkscape:label="value"
+                        transform="translate(1e-5,-8.4642169)">
+                    <title
+                            id="title3700">GAIUS dig. 13, 4, 3 pecuniarum ... licet videatur una et eadem potestas ubique esse, tamen aliis locis facilius et levibus usuris inveniuntur.</title>
+                    <path
+                            inkscape:label="potestas-est-rect"
+                            sodipodi:nodetypes="cccc"
+                            inkscape:connector-curvature="0"
+                            id="potestas-est-rect-3-0-2-3-5-5-7"
+                            d="M 175.12049,134.36142 H 55.082016 v -7.11153 H 175.12049"
+                            style="fill:#ffffff;fill-opacity:1;stroke:#333333;stroke-width:0.58646023;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+                    <path
+                            inkscape:label="potestas-est-arrow"
+                            inkscape:connector-curvature="0"
+                            style="fill:none;stroke:#333333;stroke-width:0.58646023;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                            d="m 175.12049,127.24989 7.61546,3.55508 -7.61544,3.51536"
+                            id="defined_path-0-2-6-6-3-6-0-5-6" />
+                    <text
+                            inkscape:label="power-sense"
+                            xml:space="preserve"
+                            style="font-style:normal;font-weight:normal;font-size:3.88055992px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299"
+                            x="66.718414"
+                            y="131.77103"
+                            id="power-sense-8-89"><tspan
+                                id="tspan2641-6"
+                                class="en"
+                                sodipodi:role="line"
+                                x="66.718414"
+                                y="131.77103"
+                                style="font-size:3.88055992px;stroke-width:0.26458299">value of something</tspan></text>
+                </g>
+                <g
+                        id="domains"
+                        class="sense show domains"
+                        inkscape:label="domains"
+                        transform="translate(1e-5,-8.4642169)">
+                    <title
+                            id="title3684">VULG. IV reg. 20, 13 rex monstravit legatis omnes thesauros suos in domo sua et in omni potestate sua.</title>
+                    <path
+                            inkscape:label="potestas-est-rect"
+                            sodipodi:nodetypes="cccc"
+                            inkscape:connector-curvature="0"
+                            id="potestas-est-rect-3-0-2-3-5-5-3-8"
+                            d="m 174.91993,173.78916 h -60.01112 v -11.55507 h 60.01112"
+                            style="fill:#ffffff;fill-opacity:1;stroke:#333333;stroke-width:0.52856535;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+                    <path
+                            inkscape:label="potestas-est-arrow"
+                            inkscape:connector-curvature="0"
+                            style="fill:none;stroke:#333333;stroke-width:0.74693;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                            d="m 174.91991,162.30088 7.60275,5.77641 -7.60273,5.71187"
+                            id="defined_path-0-2-6-6-3-6-0-5-3-7" />
+                    <text
+                            inkscape:label="power-sense"
+                            xml:space="preserve"
+                            style="font-style:normal;font-weight:normal;font-size:3.88055992px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299"
+                            x="122.90213"
+                            y="166.82199"
+                            id="power-sense-8-8-9"><tspan
+                                id="tspan2705"
+                                class="en"
+                                sodipodi:role="line"
+                                x="122.90213"
+                                y="166.82199"
+                                style="font-size:3.88055992px;letter-spacing:-0.12964582px;word-spacing:-0.02116667px;stroke-width:0.26458299">possessions, borders under</tspan><tspan
+                                id="tspan2707"
+                                class="en"
+                                sodipodi:role="line"
+                                x="122.90213"
+                                y="171.67268"
+                                style="font-size:3.88055992px;letter-spacing:-0.12964582px;word-spacing:-0.02116667px;stroke-width:0.26458299">someone’s power, domains</tspan></text>
+                </g>
+                <text
+                        xml:space="preserve"
+                        style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+                        x="-147.20274"
+                        y="-16.413597"
+                        id="text4833"><tspan
+                            sodipodi:role="line"
+                            id="tspan4831"
+                            x="-147.20274"
+                            y="-16.413597"
+                            style="font-size:3.88055563px;text-align:center;text-anchor:middle;stroke-width:0.26458332">PIE</tspan><tspan
+                            sodipodi:role="line"
+                            x="-147.20274"
+                            y="-10.239986"
+                            style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88055563px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';text-align:center;text-anchor:middle;stroke-width:0.26458332"
+                            id="tspan4835">*pót-i</tspan><tspan
+                            sodipodi:role="line"
+                            x="-147.20274"
+                            y="-4.0663757"
+                            style="font-size:3.88055563px;text-align:center;text-anchor:middle;stroke-width:0.26458332"
+                            id="tspan4843">‘master’</tspan><tspan
+                            sodipodi:role="line"
+                            x="-147.20274"
+                            y="2.107235"
+                            style="font-size:3.88055563px;text-align:center;text-anchor:middle;stroke-width:0.26458332"
+                            id="tspan4839" /></text>
+                <text
+                        xml:space="preserve"
+                        style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+                        x="-117.80979"
+                        y="-20.668123"
+                        id="text4833-6"><tspan
+                            sodipodi:role="line"
+                            id="tspan4831-5"
+                            x="-117.80979"
+                            y="-16.298365"
+                            style="font-size:3.88055563px;text-align:center;text-anchor:middle;stroke-width:0.26458332" /><tspan
+                            sodipodi:role="line"
+                            x="-117.80979"
+                            y="-10.124754"
+                            style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88055563px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';text-align:center;text-anchor:middle;stroke-width:0.26458332"
+                            id="tspan4881">*poti-</tspan><tspan
+                            sodipodi:role="line"
+                            x="-117.80979"
+                            y="-3.951143"
+                            style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88055563px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';text-align:center;text-anchor:middle;stroke-width:0.26458332"
+                            id="tspan4897" /><tspan
+                            sodipodi:role="line"
+                            x="-117.80979"
+                            y="2.2224677"
+                            style="font-size:3.88055563px;text-align:center;text-anchor:middle;stroke-width:0.26458332"
+                            id="tspan4839-9" /></text>
+                <text
+                        xml:space="preserve"
+                        style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+                        x="-117.34094"
+                        y="-15.913276"
+                        id="text4891"><tspan
+                            sodipodi:role="line"
+                            id="tspan4889"
+                            x="-117.34094"
+                            y="-11.543517"
+                            style="stroke-width:0.26458332" /><tspan
+                            sodipodi:role="line"
+                            x="-116.78025"
+                            y="-5.3699064"
+                            style="font-size:3.52777767px;line-height:0;text-align:center;text-anchor:middle;stroke-width:0.26458332"
+                            id="tspan4895">‘master, </tspan></text>
+                <text
+                        xml:space="preserve"
+                        style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+                        x="-129.44536"
+                        y="-1.2984713"
+                        id="text4903"><tspan
+                            sodipodi:role="line"
+                            id="tspan4901"
+                            x="-129.44536"
+                            y="-1.2984713"
+                            style="font-size:3.52777767px;stroke-width:0.26458332">in control of’</tspan></text>
+                <text
+                        xml:space="preserve"
+                        style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+                        x="-92.005592"
+                        y="-20.706627"
+                        id="text4833-1"><tspan
+                            sodipodi:role="line"
+                            id="tspan4831-6"
+                            x="-92.005592"
+                            y="-16.336868"
+                            style="font-size:3.88055563px;text-align:center;text-anchor:middle;stroke-width:0.26458332" /><tspan
+                            sodipodi:role="line"
+                            x="-92.005592"
+                            y="-10.163258"
+                            style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88055563px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';text-align:center;text-anchor:middle;stroke-width:0.26458332"
+                            id="tspan4843-2">*pot-ē-</tspan><tspan
+                            sodipodi:role="line"
+                            x="-92.005592"
+                            y="-3.9896467"
+                            style="font-size:3.88055563px;text-align:center;text-anchor:middle;stroke-width:0.26458332"
+                            id="tspan4839-1" /></text>
+                <text
+                        xml:space="preserve"
+                        style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+                        x="-100.9915"
+                        y="-1.2984707"
+                        id="text4954"><tspan
+                            sodipodi:role="line"
+                            id="tspan4952"
+                            x="-100.9915"
+                            y="-1.2984707"
+                            style="font-size:3.52777767px;stroke-width:0.26458332">to be able’</tspan></text>
+                <text
+                        xml:space="preserve"
+                        style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+                        x="-102.04983"
+                        y="-4.9521718"
+                        id="text4964"><tspan
+                            sodipodi:role="line"
+                            id="tspan4962"
+                            x="-102.04983"
+                            y="-4.9521718"
+                            style="font-size:3.52777767px;letter-spacing:-0.13229167px;word-spacing:-0.25664583px;stroke-width:0.26458332">‘to be master,</tspan></text>
+                <text
+                        xml:space="preserve"
+                        style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+                        x="-106.34066"
+                        y="-16.363533"
+                        id="text990"><tspan
+                            sodipodi:role="line"
+                            id="tspan988"
+                            x="-106.34066"
+                            y="-16.363533"
+                            style="font-size:3.88055563px;stroke-width:0.26458332">PI</tspan></text>
+            </g>
+        </svg>
+    </div>
 
 </main>
 <?php include("ssi/footer.html"); ?>
