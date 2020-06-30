@@ -25,8 +25,8 @@
                            comparaison entre l’adjectif grec ancien en -<em>ιμος</em>
                            et l’adjectif latin en -<em>bilis</em></a>”.
                     <em>ACME</em> 72 (2) (2019). DOI: <a href="https://doi.org/10.13130/2282-0035/13679 ">10.13130/2282-0035/13679</a></li>
-                <li>Dell’Oro, Francesca; Bermúdez Sabel, Helena; Marongiu, Paola (2020). “Implemented
-                    to Be Shared: the WoPoss Annotation of Semantic Modality in a Latin Diachronic Corpus”. <em>Sharing the Experience: Workflows for the Digital Humanities. Proceedings of the DARIAH-CH Workshop 2019 (Neuchâtel)</em>.
+                <li>Dell’Oro, Francesca; Bermúdez Sabel, Helena; Marongiu, Paola (2020). “<a target="_blank" href="https://campus.dariah.eu/resource/dariah-ch-workshop2019#session-9">Implemented
+                        to Be Shared: the WoPoss Annotation of Semantic Modality in a Latin Diachronic Corpus</a>”. <a href="https://campus.dariah.eu/resource/dariah-ch-workshop2019" target="_blank"><em>Sharing the Experience: Workflows for the Digital Humanities. Proceedings of the DARIAH-CH Workshop 2019 (Neuchâtel)</em></a>.
 <a href="https://doi.org/10.5281/zenodo.3739440"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.3739440.svg" alt="DOI"></a>
 
                 </li>
