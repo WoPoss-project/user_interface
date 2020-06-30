@@ -1,19 +1,11 @@
+/*.modal{*/
+/*    cursor:pointer;*/
+/*}*/
+
 .sense{
     cursor: pointer;
     position: relative;
 }
-/*
-.sense:not(.show) {
-    display: none;
-}
-
-rect[data-attest]{
-    cursor: pointer;
-}
-
-.attestation:not(.show) {
-    display: none;
-}*/
 
 h2 {
     margin-top: 3em;
@@ -59,7 +51,9 @@ h2 {
     visibility: visible;
 }
 
-
+.sense:not(.show) {
+    display: none;
+}
 
 
 

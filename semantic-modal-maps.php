@@ -8,9 +8,6 @@
 >
 <head>
     <title>Semantic maps - WoPoss</title>
-    <script src="js/paths-collapse.js" type="text/javascript">/**/</script>
-    <script src="js/language.js" type="text/javascript">/**/</script>
-    <link type="text/css" rel="stylesheet" href="css/maps.css" />
     <?php include("ssi/head.html"); ?>
 
 
@@ -21,52 +18,12 @@
     <h1>Semantic modal maps</h1>
     <p class="warning">This is a work in progress.</p>
 
-    <h3>Instructions</h3>
-    <ul>
-        <li><strong>Click</strong> on a sense to see its semantic evolution. To reset the visualization, <strong>double click</strong> in any of the visible senses.</li>
-        <li>The modal semantics are color-coded: please refer to the legend available above each semantic modal map.</li>
-        <li>Mouse over a sense to read its first attestation.</li>
-        <li>Senses between square brackets are our interpretation of the meaning based on the attestations. Senses preceded by “~” are an approximate translation.</li>
-    </ul>
-
     <h3>Available maps</h3>
     <ul>
-        <li><a href="#certus">certus</a></li>
-        <li><a href="#potestas">potestas</a></li>
+        <li><a href="certus.php">certus</a></li>
+        <li><a href="potestas.php">potestas</a></li>
     </ul>
 
-
-    <h2 id="certus">CERTUS</h2>
-<div class="map">
-
-    <div class="languages">
-        Select language:
-        <a title="English version" data-idno="en" class="language">EN</a>
-        <a title="Latin version" data-idno="la" class="language">LA</a>
-    </div>
-
-    <?php include("semantic-maps/leyend.svg"); ?>
-
-    <?php include("semantic-maps/certus.svg"); ?>
-
-
-</div>
-
-    <h2 id="potestas">POTESTAS</h2>
-
-    <div class="map">
-
-
-        <div class="languages">
-            Select language:
-            <a title="English version" data-idno="en" class="language">EN</a>
-            <a title="Latin version" data-idno="la" class="language">LA</a>
-        </div>
-
-        <?php include("semantic-maps/leyend.svg"); ?>
-        <?php include("semantic-maps/potestas.svg"); ?>
-
-    </div>
 
 </main>
 <?php include("ssi/footer.html"); ?>
