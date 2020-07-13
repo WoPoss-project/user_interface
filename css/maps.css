@@ -51,9 +51,5 @@ h2 {
     visibility: visible;
 }
 
-.sense:not(.show) {
-    display: none;
-}
-
 
 

@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
@@ -19,6 +18,7 @@
                     Laboratoire UMR 7320</li>
                 <li><a href="https://chs.harvard.edu/CHS/" target="_blank">Center for Hellenic
                         Studies</a>, Harvard University</li>
+                <li><a href="https://centridiricerca.unicatt.it/circse_index.html" target="_blank">CIRCSE Research Centre</a>, Università Cattolica del Sacro Cuore</li>
                 <li><a href="https://www.comphistsem.org/home.html" target="_blank">CompHistSem</a>
                     – Computational Historical Semantics <br /> We thank CompHistSem for access to
                     their computational tools for linguistic analysis.</li>

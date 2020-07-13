@@ -10,6 +10,10 @@
     <title>Semantic maps - WoPoss</title>
     <script src="js/paths-collapse.js" type="text/javascript">/**/</script>
     <script src="js/language.js" type="text/javascript">/**/</script>
+    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript">/**/</script>
+    <script src="http://bigspotteddog.github.io/ScrollToFixed/jquery-scrolltofixed.js"
+            type="text/javascript">/**/</script>
+    <script src="js/timeline.js" type="text/javascript">/**/</script>
     <link type="text/css" rel="stylesheet" href="css/maps.css" />
     <?php include("ssi/head.html"); ?>
 
@@ -18,7 +22,7 @@
 <body>
 <?php include("ssi/menu.html"); ?>
 <main>
-    <h1>Semantic modal maps</h1>
+    <h1>Semantic modal maps: POTESTAS</h1>
     <p class="warning">This is a work in progress.</p>
 
 
@@ -36,6 +40,7 @@
         </div>
 
         <?php include("semantic-maps/legend.svg"); ?>
+        <?php include("semantic-maps/potestas-timeline.svg"); ?>
         <?php include("semantic-maps/potestas.svg"); ?>
 
     </div>
