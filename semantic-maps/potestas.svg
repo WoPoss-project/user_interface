@@ -1040,7 +1040,7 @@
          inkscape:connector-curvature="0"
          inkscape:label="chance_permission"
          sodipodi:nodetypes="cccc"
-         class="links chance permission capacity facio"
+         class="links chance permission facio"
          d="m 158.13184,26.469409 h 7.2625 v 30.140055 h -7.2625"
          style="display:none;opacity:0.97000002;fill:none;fill-opacity:1;stroke:#333333;stroke-width:0.80260324;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
          id="chance_permission" />

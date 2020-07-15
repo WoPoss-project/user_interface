@@ -9,7 +9,7 @@
 <body>
 <?php include("ssi/menu.html"); ?>
 <main>
-    <h1>The interactive visualisation of semantic modal shifts</h1>
+    <h1 id="overview">The interactive visualisation of semantic modal shifts</h1>
     <p>Lexical modal markers are words which can convey non-modal (e.g. <em>certus</em> ‘defined’) as well as modal
         (<em>certum
             scio…</em>
@@ -64,7 +64,7 @@
         </li>
     </ul>
 
-    <h3>References</h3>
+    <h3 id="howTo">References</h3>
     <ul>
         <li>Bermúdez Sabel, Helena, Dell’Oro, Francesca &amp; Paola Marongiu (2020a). “Visualization of semantic shifts:
             the
@@ -72,7 +72,7 @@
         </li>
         <li>Bermúdez Sabel, Helena, Dell’Oro, Francesca &amp; Paola Marongiu (2020b). “Visualisation of semantic shifts:
             the
-            case of modal markers (poster)”. <a href="posterDH2020">Poster DH2020</a>.
+            case of modal markers (poster)”. Poster DH2020. <a href="poster-DH2020">[Online version]</a>.
         </li>
         <li>Marongiu, Paola &amp; Dell’Oro, Francesca (in preparation). <em>Syntheses of the descriptions of modal
                 markers in
@@ -123,6 +123,7 @@
         </li>
 
     </ol>
+    <p id="maps"></p>
     <h2>Available maps</h2>
     <ul>
         <li><a href="certus.php">certus</a></li>

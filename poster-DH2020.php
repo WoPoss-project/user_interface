@@ -197,7 +197,7 @@
                 <li><a href="#anderson86">Anderson (1986)</a>: evidentiality</li>
                 <li><a href="#traugott">Traugott (1985)</a>: conditionals</li>
                 <li><a href="#croft">Croft <em>et al.</em> (1987)</a>: voice</li>
-                <li><a href="#françois">François (2008)</a>: single-language approach together with a cross-linguistic
+                <li><a href="#françois">François (2008)</a>: monolingual approach together with a cross-linguistic
                     one
                 </li>
             </ul>
@@ -223,7 +223,7 @@
                 </figcaption>
             </figure>
 
-            <figure><img src="other/dhposter/fig2.png"/>
+            <figure><img src="other/dhposter/fig1.jpg"/>
                 <figcaption>Fig. 2. “Unifying the possibility and necessity paths”: Example of a semantic map representing the
                     shifts of possibility and necessity <a href="#auwera">(van der Auwera and Plungian 1998: 98)</a>.
                 </figcaption>
@@ -238,17 +238,17 @@
         </div>
         <div class="aside">
             <ol>
-                <li>A scrollable timeline provides the chronological information: the time (here expressed through a
+                <li>A timeline (fixed on scroll) provides the chronological information: the time (here expressed through a
                     segmentation in centuries) works as the x axis.
                 </li>
                 <li>In the y axis the different meanings are displayed and ordered according to the organization of the
                     description
                     of the headword in the dictionary of reference (the <a href="#thll"><em>ThLL</em></a>), i.e. according to semantic groups.
                 </li>
-                <li>Expressions
+                <li>Collocations
                     containing the headword are also registered (they appear on the left outside the arrow).
                 </li>
-                <li>Etymology of the headword is provided on the left side</li>
+                <li>The etymology of the headword is provided on the left side</li>
                 <li>Colors indicate the type of modality.
                 </li>
                 <li>Language selection: besides a bilingual map (English-Latin), a monolingual (Latin) version is
@@ -263,7 +263,7 @@
         </div>
         <div class="aside">
             <ol class="second">
-                <li>By clicking on a sense, semantic relations between meanings are visible (while loosely related
+                <li>When you click on a sense, semantic relations between meanings become visible (while loosely related
                     meanings
                     disappear). The visualization is reset by double-clicking.
                 </li>
@@ -345,7 +345,6 @@
                         src="https://zenodo.org/badge/DOI/10.5281/zenodo.3560951.svg" alt="DOI"></a>
 
         </li>
-        <li id="thll">Deutsche Akademie der Wissenschaften zu Berlin (1900–). ​<em>Thesaurus Linguae Latinae​</em>. <a href="https://www.degruyter.com/view/db/tll​" target="_blank">https://www.degruyter.com/view/db/tll​</a></li>
         <li id="françois">François, Alexandre (2008). ‘Semantic Maps and the Typology of Colexification: Intertwining
             Polysemous
             Networks across Languages’. In <em>From Polysemy to Semantic Change: Towards a Typology of Lexical Semantic
@@ -359,6 +358,7 @@
         </li>
         <li id="marongiu2020">Marongiu, Paola &amp; Dell’Oro, Francesca (in preparation). <em>Syntheses of the descriptions of the modal markers in the</em> ThLL.
         </li>
+        <li id="thll">ThLL: Deutsche Akademie der Wissenschaften zu Berlin (1900–). ​<em>Thesaurus Linguae Latinae​</em>. Berlin: De Gruyter. <a href="https://www.degruyter.com/view/db/tll​" target="_blank">https://www.degruyter.com/view/db/tll​</a></li>
         <li id="traugott">Traugott, Elizabeth Closs (1985). ‘Conditional Markers’. In <em>Iconicity in Syntax</em>. Amsterdam: John Benjamins,
             289–307.
         </li>

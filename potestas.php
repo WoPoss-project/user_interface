@@ -23,12 +23,15 @@
 <?php include("ssi/menu.html"); ?>
 <main>
     <h1>Semantic modal maps: POTESTAS</h1>
-    <p class="warning">This is a work in progress.</p>
+
 
 
     <?php include("ssi/instructions.html"); ?>
 
+    <p class="warning">This is a work in progress: monolingual Latin version not yet available</p>
+
     <h2 id="potestas">POTESTAS</h2>
+
 
     <div class="map">
 

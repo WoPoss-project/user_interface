@@ -33,6 +33,11 @@ nav img {
     padding-left: 1%;
 }
 
+nav a.woposs {
+    padding: 0;
+
+}
+
 nav ul {
     list-style: none;
     padding: 0;

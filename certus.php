@@ -25,7 +25,7 @@
 <?php include("ssi/menu.html"); ?>
 <main>
     <h1>Semantic modal maps: CERTUS</h1>
-    <p class="warning">This is a work in progress.</p>
+
 
     <?php include("ssi/instructions.html"); ?>
 
