@@ -125,6 +125,21 @@
         </div>
 
     </div>
+    <div class="members_et">
+        <div>
+        </div>
+        <div>
+            <figure>
+                <img src="images/team/loris.jpg" alt="Loris Rimaz">
+                <figcaption>Loris Rimaz</figcaption>
+            </figure>
+            <p></p>
+        </div>
+
+        <div
+        </div>
+
+    </div>
     <h2 id="past-collaborators">Past collaborators</h2>
     <div class="members_et">
         <div></div>
@@ -145,7 +160,7 @@
                     latin syntactic functions and about a whole new field of knowledge that is really underestimated. It
                     forced me to try to think like an ancient author, more so since I worked with Plautus which already
                     is a
-                    really complex "character" on its own. I learned a lot, and with this message I thank the WoPoss
+                    really complex “character” on its own. I learned a lot, and with this message I thank the WoPoss
                     team
                     for their help and for their kindness, welcoming me in this adventure.</p></div>
         </div>

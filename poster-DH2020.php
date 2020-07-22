@@ -12,136 +12,11 @@
     <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript">/**/</script>
     <script src="http://bigspotteddog.github.io/ScrollToFixed/jquery-scrolltofixed.js"
             type="text/javascript">/**/</script>
-
     <script src="js/timeline-poster.js" type="text/javascript">/**/</script>
     <script src="js/language.js" type="text/javascript">/**/</script>
     <link type="text/css" rel="stylesheet" href="css/maps.css"/>
+    <link type="text/css" rel="stylesheet" href="css/poster.css"/>
     <?php include("ssi/head.html"); ?>
-    <style>
-
-        body {
-            font-size: 15pt;
-        }
-
-        ol {
-            list-style: none;
-            counter-reset: customized-counter second-counter 6;
-
-        }
-
-        ol li {
-            counter-increment: customized-counter;
-            text-align: left;
-        }
-
-        ol li::before {
-            content: counter(customized-counter) ": ";
-            color: black;
-            font-weight: bold;
-        }
-
-        ol.second li {
-            counter-increment: second-counter;
-            text-align: left;
-        }
-
-        ol.second li::before {
-            content: counter(second-counter) ": ";
-            color: black;
-            font-weight: bold;
-        }
-
-
-        .center {
-            text-align: center;
-        }
-
-        .container {
-            display: flex;
-            justify-content: space-around;
-        }
-
-        .container2 {
-            display: flex;
-            justify-content: space-around;
-        }
-
-        .container2 .imgContainer {
-
-            width: 30%;
-
-        }
-
-        .instructions {
-            width: 65%;
-        }
-
-        .imgContainer img {
-            padding: 4% 2% 0 4%;
-        }
-
-        .container2 img {
-            max-width: 100%;
-            min-width: 100%;
-
-        }
-
-        .art {
-            width: 100%;
-        }
-
-        .overview {
-            display: flex;
-        }
-
-        .overview .img {
-            width: 78%;
-
-        }
-
-
-        .img img {
-            max-width: 100%;
-
-        }
-
-        .aside {
-            margin-top: 5em;
-            width: 20%;
-        }
-
-        .container div {
-            display: flex;
-            flex-direction: column;
-            margin: 1%;
-            padding: 2%;
-            width: 18%;
-            border: 3px solid #13568A;
-        }
-
-        .container img {
-            max-width: 100%;
-            max-height: 100%;
-            min-width: 100%;
-        }
-
-        .container h4 {
-            text-align: center;
-        }
-        figcaption {
-            font-size: smaller;
-        }
-
-        .map h2 {
-            margin-top: 0;
-        }
-
-        #info {
-            width:15em;
-            margin:1% 0 4% 5%;
-            cursor: pointer;
-        }
-    </style>
 
 </head>
 <body>
@@ -182,15 +57,14 @@
     </div>
     <h2 id="stateoftheart">2. State of the art</h2>
     <div class="container2">
-        <div class="art"><p>The semantic map visualisation method was introduced by <a href="#haspelmath">Haspelmath (2003)</a> to
-                describe
-                and illustrate the
-                multifunctionality patterns of linguistic elements. The semantic map appears as a geometric
-                representation
-                of
-                functions connected together in a semantic space. Semantic maps were employed in various ways,
+        <div class="art">
+            <p>The semantic map visualisation method was defined by <a href="#haspelmath">Haspelmath (2003)</a> as the
+                geometric representation of functions connected together in semantic space. The goal of the semantic
+                maps is to describe and illustrate the multifunctionality patterns of linguistic elements <a
+                        href="#haspelmath">(Haspelmath 2003: 213)</a>. Semantic maps were employed in various ways,
                 cross-linguistically or on individual languages, and synchronically or diachronically. To name a few,
                 see:
+
             </p>
             <ul>
                 <li><a href="#anderson82">Anderson (1982)</a>: tense and aspect</li>
@@ -224,7 +98,8 @@
             </figure>
 
             <figure><img src="other/dhposter/fig1.jpg"/>
-                <figcaption>Fig. 2. “Unifying the possibility and necessity paths”: Example of a semantic map representing the
+                <figcaption>Fig. 2. “Unifying the possibility and necessity paths”: Example of a semantic map
+                    representing the
                     shifts of possibility and necessity <a href="#auwera">(van der Auwera and Plungian 1998: 98)</a>.
                 </figcaption>
             </figure>
@@ -234,16 +109,20 @@
     <h2 id="functionalities">3. New functionalities in a nutshell</h2>
     <div class="overview">
         <div class="img">
-            <figure><img src="other/dhposter/potestasa.png"><figcaption>Fig. 3. Screenshot of the semantic map of POTESTAS</figcaption></figure>
+            <figure><img src="other/dhposter/potestasa.png">
+                <figcaption>Fig. 3. Screenshot of the semantic map of POTESTAS</figcaption>
+            </figure>
         </div>
         <div class="aside">
             <ol>
-                <li>A timeline (fixed on scroll) provides the chronological information: the time (here expressed through a
+                <li>A timeline (fixed on scroll) provides the chronological information: the time (here expressed
+                    through a
                     segmentation in centuries) works as the x axis.
                 </li>
                 <li>In the y axis the different meanings are displayed and ordered according to the organization of the
                     description
-                    of the headword in the dictionary of reference (the <a href="#thll"><em>ThLL</em></a>), i.e. according to semantic groups.
+                    of the headword in the dictionary of reference (the <a href="#thll"><em>ThLL</em></a>), i.e.
+                    according to semantic groups.
                 </li>
                 <li>Collocations
                     containing the headword are also registered (they appear on the left outside the arrow).
@@ -259,7 +138,9 @@
     </div>
     <div class="overview">
         <div class="img">
-            <figure><img src="other/dhposter/postestasb.png"><figcaption>Fig. 4. Screenshot of the semantic map of POTESTAS after clicking on a sense</figcaption></figure>
+            <figure><img src="other/dhposter/postestasb.png">
+                <figcaption>Fig. 4. Screenshot of the semantic map of POTESTAS after clicking on a sense</figcaption>
+            </figure>
         </div>
         <div class="aside">
             <ol class="second">
@@ -293,7 +174,6 @@
     </div>
 
 
-
     <div class="map">
         <h2>CERTUS</h2>
         <div class="languages">
@@ -310,7 +190,7 @@
     </div>
 
     <h2 id="more">5. To know more</h2>
-<a href="semantic-modal-maps.php" target="_blank"><img src="other/dhposter/info.png" id="info"></a>
+    <a href="semantic-modal-maps.php" target="_blank"><img src="other/dhposter/info.png" id="info"></a>
     <h2 id="biblio">6. Bibliography</h2>
     <ul>
         <li id="anderson82">Anderson, Lloyd B. (1982). ‘The “Perfect” as a Universal and as a Language-Particular
@@ -337,7 +217,8 @@
         </li>
         <li id="croft">Croft, William, Shyldkrot, Hava Bat-Zeev &amp; Kemmer, Suzanne (1987). ‘Diachronic Semantic
             Processes
-            in the Middle Voice’. In <em>Papers from the 7th International Conference on Historical Linguistics</em>. Amsterdam: John Benjamins, 179–92.
+            in the Middle Voice’. In <em>Papers from the 7th International Conference on Historical Linguistics</em>.
+            Amsterdam: John Benjamins, 179–92.
         </li>
         <li>Dell’Oro, Francesca (2019). <em>WoPoss guidelines for annotation</em>. Zenodo.
 
@@ -348,18 +229,23 @@
         <li id="françois">François, Alexandre (2008). ‘Semantic Maps and the Typology of Colexification: Intertwining
             Polysemous
             Networks across Languages’. In <em>From Polysemy to Semantic Change: Towards a Typology of Lexical Semantic
-                Associations</em>.  Amsterdam: John Benjamins, 163–215.
+                Associations</em>. Amsterdam: John Benjamins, 163–215.
             <a href="https://halshs.archives-ouvertes.fr/halshs-00526845/document" target="_blank">https://halshs.archives-ouvertes.fr/halshs-00526845/document</a>.
         </li>
         <li id="haspelmath">Haspelmath, Martin (2003). ‘The Geometry of Grammatical Meaning: Semantic Maps and
-            Cross-Linguistic Comparison’. In <em>The New Psychology of Language</em>. East Sussex: Psychology press, 217–48.
+            Cross-Linguistic Comparison’. In <em>The New Psychology of Language</em>. East Sussex: Psychology Press,
+            217–48.
             <a href="https://doi.org/10.4324/9781410606921-11"
                target="_blank">https://doi.org/10.4324/9781410606921-11</a>.
         </li>
-        <li id="marongiu2020">Marongiu, Paola &amp; Dell’Oro, Francesca (in preparation). <em>Syntheses of the descriptions of the modal markers in the</em> ThLL.
+        <li id="marongiu2020">Marongiu, Paola &amp; Dell’Oro, Francesca (in preparation). <em>Syntheses of the
+                descriptions of the modal markers in the</em> ThLL.
         </li>
-        <li id="thll">ThLL: Deutsche Akademie der Wissenschaften zu Berlin (1900–). ​<em>Thesaurus Linguae Latinae​</em>. Berlin: De Gruyter. <a href="https://www.degruyter.com/view/db/tll​" target="_blank">https://www.degruyter.com/view/db/tll​</a></li>
-        <li id="traugott">Traugott, Elizabeth Closs (1985). ‘Conditional Markers’. In <em>Iconicity in Syntax</em>. Amsterdam: John Benjamins,
+        <li id="thll">ThLL: Thesaurusbüro München Internationale Thesaurus-Kommission, ed.
+            (1900-). <em>Thesaurus Linguae Latinae</em>. B.G. Teubner, Leipzig. <a href="https://www.degruyter.com/view/db/tll​" target="_blank">https://www.degruyter.com/view/db/tll​</a>
+        </li>
+        <li id="traugott">Traugott, Elizabeth Closs (1985). ‘Conditional Markers’. In <em>Iconicity in Syntax</em>.
+            Amsterdam: John Benjamins,
             289–307.
         </li>
         <li id="auwera">van der Auwera, Johan &amp; Plungian, Vladimir A. (1998). ‘Modality’s Semantic Map’. <em>Linguistic

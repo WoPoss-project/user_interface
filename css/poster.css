@@ -1,0 +1,123 @@
+
+body {
+    font-size: 15pt;
+}
+
+ol {
+    list-style: none;
+    counter-reset: customized-counter second-counter 6;
+
+}
+
+ol li {
+    counter-increment: customized-counter;
+    text-align: left;
+}
+
+ol li::before {
+    content: counter(customized-counter) ": ";
+    color: black;
+    font-weight: bold;
+}
+
+ol.second li {
+    counter-increment: second-counter;
+    text-align: left;
+}
+
+ol.second li::before {
+    content: counter(second-counter) ": ";
+    color: black;
+    font-weight: bold;
+}
+
+
+.center {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container2 .imgContainer {
+
+    width: 30%;
+
+}
+
+.instructions {
+    width: 65%;
+}
+
+.imgContainer img {
+    padding: 4% 2% 0 4%;
+}
+
+.container2 img {
+    max-width: 100%;
+    min-width: 100%;
+
+}
+
+.art {
+    width: 100%;
+}
+
+.overview {
+    display: flex;
+}
+
+.overview .img {
+    width: 78%;
+
+}
+
+
+.img img {
+    max-width: 100%;
+
+}
+
+.aside {
+    margin-top: 5em;
+    width: 20%;
+}
+
+.container div {
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+    padding: 2%;
+    width: 18%;
+    border: 3px solid #13568A;
+}
+
+.container img {
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 100%;
+}
+
+.container h4 {
+    text-align: center;
+}
+figcaption {
+    font-size: smaller;
+}
+
+.map h2 {
+    margin-top: 0;
+}
+
+#info {
+    width:15em;
+    margin:1% 0 4% 5%;
+    cursor: pointer;
+}

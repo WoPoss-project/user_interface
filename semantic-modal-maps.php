@@ -20,7 +20,7 @@
         meaning to another, but also the synchronic presence of other meanings which could potentially have had an
         influence on that shift (e.g. the modal development of <em>certum habeo</em> could have been influenced by the
         modal
-        construction <em>certum est</em> whose modal reading is by far more ancient). With our interactive maps we try
+        construction <em>certum est</em>, whose modal reading is by far more ancient). With our interactive maps we try
         to give a
         clear overview of such interactions between non-modal and modal meanings in synchrony and diachrony.</p>
     <p>The interactive semantic maps are the results of the research as well as of the joint skills and efforts of the
@@ -57,7 +57,7 @@
             Wissenschaftliche
             Buchgesellschaft.
         </li>
-        <li>OLD: ed. by P.G.W. Glare (2012). <em>Oxford Latin Dictionary</em>. Oxford: Oxford University Press.</li>
+        <li>OLD: P.G.W. Glare, ed. (2012). <em>Oxford Latin Dictionary</em>. Oxford: Oxford University Press.</li>
         <li>ThLL: Thesaurusbüro München Internationale Thesaurus-Kommission, ed. (1900-). <em>Thesaurus Linguae
                 Latinae</em>. Berlin:
             De Gruyter.
@@ -72,7 +72,7 @@
         </li>
         <li>Bermúdez Sabel, Helena, Dell’Oro, Francesca &amp; Paola Marongiu (2020b). “Visualisation of semantic shifts:
             the
-            case of modal markers (poster)”. Poster DH2020. <a href="poster-DH2020">[Online version]</a>.
+            case of modal markers (poster)”. Poster DH2020. <a href="poster-DH2020.php" target="_blank">[Online version]</a>.
         </li>
         <li>Marongiu, Paola &amp; Dell’Oro, Francesca (in preparation). <em>Syntheses of the descriptions of modal
                 markers in
@@ -85,44 +85,48 @@
     <h2>How to read the interactive semantic modal maps</h2>
 
     <p>Each map offers a diachronic visualisation of the semantic evolution of a lemma starting with its etymology (on
-        the extreme left). A coloured bar (from dark blue to light blue) indicates the century from which a sense is
-        attested. The map includes, together with the different meanings of the lemma, the constructions in which the
-        lemma appears (e.g. <em>potestas</em> and <em>potestatem facio</em>). The up-down order reflects the semantic groups to which a
-        meaning belongs as delineated in the ThLL (this is the main reason why the constructions are not treated as
-        separated elements after the meanings of the lemma and why an expression can appear more than once). </p>
-    <p>Each map can be visualised in a bilingual version or in a Latin one through the option ‘Select language’. In the
+        the extreme left). A coloured bar (from dark blue to light blue) indicates the century from which a meaning is
+        attested. Along with the different meanings of the lemma, the map includes the constructions in which the lemma
+        appears (e.g. <em>potestas</em> and <em>potestatem facio</em>). The vertical order reflects the semantic groups to which a meaning
+        belongs as delineated in the ThLL (this is the main reason why the constructions are not treated as separate
+        elements after the meanings of the lemma and why an expression can appear more than once).
+    </p><p>Each map can be visualised in a bilingual version or in a Latin one via the option ‘Select language’. In the
         bilingual Latin-English version, the English equivalents of each meaning of the headword appear inside the
-        arrows. In the case of constructions, the wording is indicated on the left outside the arrow and the meaning is
-        specified inside the arrow. In the monolingual version the arrows contain synonyms or an explanation of the
-        meaning.
-    </p>
-    <p>When clicking on a meaning, the meanings with which it has some specific semantic relations appear (while
+        arrows. For constructions, the wording is indicated on the left outside the arrow and the meaning is specified
+        inside the arrow. In the monolingual version the arrows contain synonyms or an explanation of the meaning.
+    </p><p>When you click on a meaning, the meanings with which it has some specific semantic relations appear (while
         only loosely related meanings disappear). Semantic relations can be synchronic (relations between meanings
         attested during the same timespan) or diachronic (relations between meanings attested at different points in
-        time). A double click in any of the visible meanings allows the reader to reset the visualization.
-    </p>
-    <p>The main modal types – dynamic, deontic and epistemic – and the pre-modal and post-modal meanings are
-        distinguished through colour (see the legend above each map).
-    </p>
-    <p>When mousing over a meaning, the first attestation appears (but see also caveat 2).
-    </p>
-    <p>It is important to highlight that the actual version of the map reflects our knowledge of the history of a
+        time). A double click on any of the visible meanings allows the reader to reset the visualization.
+    </p><p>The main modal types – dynamic, deontic and epistemic – and the pre-modal and post-modal meanings are
+        colour-coded (see the legend above each map).
+    </p><p>When you hover over a meaning, the first attestation appears (but see also caveat 2).
+    </p>  <p>It is important to highlight that the actual version of the map reflects our knowledge of the history of a
         lemma as described in the ThLL. Future research and data, as derived e.g. from the annotation of the WoPoss
-        corpus, can bring some changes in the description of the modal evolution.</p>
+        corpus, may bring some changes to the description of the modal evolution.</p>
 
     <h3>Caveat</h3>
     <ol>
-        <li>the actual version of the visualisation relies on syntheses elaborated on the basis of the ThLL. The ThLL
-            does not usually specify whether a sense ceases to be attested. On this point more research is therefore
-            needed.
+        <li>the actual version of the visualisation relies on syntheses which have been worked out on the basis of the
+            ThLL.
+            The ThLL does not usually specify whether a sense ceases to be attested. On this point more research is
+            therefore needed.
         </li>
-        <li>When there is a semantic change from a non-modal (sometimes specifically pre-modal) to a modal reading, the
-            attestations for both the non-modal and the modal reading appear. The change is tracked through colour. As
-            the general meaning remains the same, there is no new translation and all the attestations appear by
-            hovering on the translation.
+        <li>When there is a semantic change from a non-modal (sometimes specifically pre-modal) to a modal reading and
+            the
+            general meaning doesn’t change, the attestations for both the non-modal and the modal reading appear. The
+            change
+            can be tracked by means of the colour-coding for the different readings. As the general meaning remains the
+            same, there is no new translation and all the attestations appear when you hover over the translation.
         </li>
-
+        <li>In our early chronology, we do not take into consideration very ancient passages (before the 3rd c. BCE)
+            attested
+            only as quotations by more recent writers, as there is no certainty that the linguistic material is quoted
+            exactly. This is for example the case for ancient laws.
+        </li>
     </ol>
+
+
     <p id="maps"></p>
     <h2>Available maps</h2>
     <ul>

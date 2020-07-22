@@ -2,18 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db487090-34b1-4abd-9088-e9e00729d9e7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/certus.php" beforeDir="false" afterPath="$PROJECT_DIR$/certus.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/poster.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/menu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/other/dhposter/poster.svg" beforeDir="false" afterPath="$PROJECT_DIR$/other/dhposter/poster.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/other/dhposter/postestas2.png.svg" beforeDir="false" afterPath="$PROJECT_DIR$/other/dhposter/postestas2.png.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/other/dhposter/postestasb.png" beforeDir="false" afterPath="$PROJECT_DIR$/other/dhposter/postestasb.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/other/dhposter/potestas-numbered.png.svg" beforeDir="false" afterPath="$PROJECT_DIR$/other/dhposter/potestas-numbered.png.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/other/dhposter/interaction.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/other/dhposter/interaction.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/other/dhposter/posterDH2020.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/other/dhposter/posterDH2020.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/other/dhposter/posterDH2020.svg" beforeDir="false" afterPath="$PROJECT_DIR$/other/dhposter/posterDH2020.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/other/dhposter/potestas-a.svg" beforeDir="false" afterPath="$PROJECT_DIR$/other/dhposter/potestas-a.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/other/dhposter/potestasa.png" beforeDir="false" afterPath="$PROJECT_DIR$/other/dhposter/potestasa.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/potestas.php" beforeDir="false" afterPath="$PROJECT_DIR$/potestas.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/semantic-maps/legend.svg" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/legend.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poster-DH2020.php" beforeDir="false" afterPath="$PROJECT_DIR$/poster-DH2020.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results.php" beforeDir="false" afterPath="$PROJECT_DIR$/results.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/semantic-maps/potestas.svg" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/potestas.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/semantic-modal-maps.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-modal-maps.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ssi/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/ssi/menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/team.php" beforeDir="false" afterPath="$PROJECT_DIR$/team.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,45 +34,31 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/poster-DH2020.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3975">
-              <caret line="265" column="89" selection-start-line="265" selection-start-column="89" selection-end-line="265" selection-end-column="89" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/semantic-modal-maps.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1110">
-              <caret line="74" column="84" selection-start-line="74" selection-start-column="84" selection-end-line="74" selection-end-column="84" />
+            <state relative-caret-position="754">
+              <caret line="72" column="39" selection-start-line="72" selection-start-column="39" selection-end-line="72" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/potestas.php">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/poster-DH2020.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="98" selection-start-line="30" selection-start-column="98" selection-end-line="30" selection-end-column="98" />
+            <state relative-caret-position="274">
+              <caret line="57" column="51" lean-forward="true" selection-start-line="57" selection-start-column="51" selection-end-line="57" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/certus.php">
+        <entry file="file://$PROJECT_DIR$/css/poster.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="1830">
+              <caret line="122" column="1" selection-start-line="122" selection-start-column="1" selection-end-line="122" selection-end-column="1" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/semantic-maps/potestas-timeline.svg">
-          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -86,15 +74,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/semantic-maps/potestas.svg">
-          <provider selected="true" editor-type-id="images" />
+        <entry file="file://$PROJECT_DIR$/ssi/menu.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssi/menu.html">
+        <entry file="file://$PROJECT_DIR$/index-test.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="52" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
+            <state relative-caret-position="885">
+              <caret line="59" column="11" selection-start-line="59" selection-start-column="11" selection-end-line="59" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssi/head.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/results.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="53" column="96" selection-start-line="53" selection-start-column="96" selection-end-line="53" selection-end-column="96" />
             </state>
           </provider>
         </entry>
@@ -102,8 +112,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/menu.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+            <state relative-caret-position="240">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -120,7 +130,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>explora</find>
       <find>idem q</find>
       <find>not</find>
       <find>proven t</find>
@@ -150,6 +159,7 @@
       <find>&quot;power&quot;</find>
       <find>chance_</find>
       <find>means_val</find>
+      <find>separe</find>
     </findStrings>
     <replaceStrings>
       <replace>epistemic show</replace>
@@ -172,7 +182,6 @@
         <option value="$PROJECT_DIR$/images/semantic-maps/certus_def_2020-06-10.svg" />
         <option value="$PROJECT_DIR$/draft.php" />
         <option value="$PROJECT_DIR$/css/main.css" />
-        <option value="$PROJECT_DIR$/team.php" />
         <option value="$PROJECT_DIR$/../semantic_maps/drawen-maps/css/maps.css" />
         <option value="$PROJECT_DIR$/semantic-modal-maps.html" />
         <option value="$PROJECT_DIR$/../semantic_maps/drawn-maps/js/language.js" />
@@ -185,7 +194,6 @@
         <option value="$PROJECT_DIR$/semantic-modal-maps_test.php" />
         <option value="$PROJECT_DIR$/ssi/footer.html" />
         <option value="$PROJECT_DIR$/images/semantic-maps/test-certus.svg" />
-        <option value="$PROJECT_DIR$/results.php" />
         <option value="$PROJECT_DIR$/instructions.html" />
         <option value="$PROJECT_DIR$/js/timeline.js" />
         <option value="$PROJECT_DIR$/images/semantic-maps/leyend.svg" />
@@ -204,19 +212,22 @@
         <option value="$PROJECT_DIR$/semantic-maps/potestas-timeline.svg" />
         <option value="$PROJECT_DIR$/semantic-maps/potestas.svg" />
         <option value="$PROJECT_DIR$/certus.php" />
-        <option value="$PROJECT_DIR$/css/menu.css" />
-        <option value="$PROJECT_DIR$/ssi/menu.html" />
-        <option value="$PROJECT_DIR$/semantic-modal-maps.php" />
         <option value="$PROJECT_DIR$/potestas.php" />
+        <option value="$PROJECT_DIR$/team.php" />
+        <option value="$PROJECT_DIR$/index-test.php" />
+        <option value="$PROJECT_DIR$/ssi/menu.html" />
+        <option value="$PROJECT_DIR$/css/menu.css" />
+        <option value="$PROJECT_DIR$/semantic-modal-maps.php" />
+        <option value="$PROJECT_DIR$/css/poster.css" />
+        <option value="$PROJECT_DIR$/results.php" />
         <option value="$PROJECT_DIR$/poster-DH2020.php" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1920" />
-    <option name="y" value="27" />
-    <option name="width" value="1890" />
-    <option name="height" value="824" />
+    <option name="x" value="1366" />
+    <option name="width" value="2048" />
+    <option name="height" value="1152" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -273,20 +284,20 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="PHP" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/css/maps.css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/js" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/js" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/js" />
       <recent name="$PROJECT_DIR$/../semantic_maps/drawn-maps/svg" />
       <recent name="$PROJECT_DIR$/../semantic_maps/drawn-maps/js" />
       <recent name="$PROJECT_DIR$/images/semantic-maps" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -341,16 +352,25 @@
       <workItem from="1594571367961" duration="268000" />
       <workItem from="1594625600205" duration="6181000" />
       <workItem from="1594711523305" duration="7012000" />
+      <workItem from="1594821414566" duration="1366000" />
+      <workItem from="1594843601331" duration="2126000" />
+      <workItem from="1594915839491" duration="604000" />
+      <workItem from="1594916752827" duration="12000" />
+      <workItem from="1594931633771" duration="12000" />
+      <workItem from="1594972085530" duration="3417000" />
+      <workItem from="1595320800154" duration="3231000" />
+      <workItem from="1595340300512" duration="682000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="174913000" />
+    <option name="totallyTimeSpent" value="186363000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1992" y="27" width="2488" height="1413" extended-state="6" />
+    <frame x="1438" y="27" width="1976" height="1125" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.0999181" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.0642487" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -396,15 +416,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/draft-hide.php" />
-    <entry file="file://$PROJECT_DIR$/images/semantic-maps/certus_def_2020-06-09.svg" />
-    <entry file="file://$PROJECT_DIR$/js/tooltip_hover.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="42" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/tooltips.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
@@ -488,13 +499,6 @@
     <entry file="file://$PROJECT_DIR$/images/semantic-maps/legend.svg" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/poster-mock-up.php" />
     <entry file="file://$PROJECT_DIR$/poster-mock-up.php" />
-    <entry file="file://$PROJECT_DIR$/results.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="25" column="27" lean-forward="true" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/credits.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
@@ -532,13 +536,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/team.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1995">
-          <caret line="133" column="42" selection-start-line="133" selection-start-column="42" selection-end-line="133" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1192">
@@ -556,6 +553,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/poster-mockup.php" />
+    <entry file="file://$PROJECT_DIR$/potestas.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="98" selection-start-line="30" selection-start-column="98" selection-end-line="30" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/certus.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/semantic-maps/potestas-timeline.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/team.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1882">
+          <caret line="162" column="46" selection-start-line="162" selection-start-column="46" selection-end-line="162" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/semantic-maps/potestas.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssi/instructions.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="149" selection-start-line="7" selection-start-column="149" selection-end-line="7" selection-end-column="149" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/poster.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1830">
+          <caret line="122" column="1" selection-start-line="122" selection-start-column="1" selection-end-line="122" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/timeline.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -566,65 +608,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/semantic-maps/potestas-timeline.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/semantic-maps/potestas.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/certus.php">
+    <entry file="file://$PROJECT_DIR$/ssi/menu.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="285">
+          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index-test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="885">
+          <caret line="59" column="11" selection-start-line="59" selection-start-column="11" selection-end-line="59" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssi/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="62" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/menu.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ssi/menu.html">
+    <entry file="file://$PROJECT_DIR$/results.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="52" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
+        <state relative-caret-position="396">
+          <caret line="53" column="96" selection-start-line="53" selection-start-column="96" selection-end-line="53" selection-end-column="96" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/semantic-modal-maps.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1110">
-          <caret line="74" column="84" selection-start-line="74" selection-start-column="84" selection-end-line="74" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/potestas.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="98" selection-start-line="30" selection-start-column="98" selection-end-line="30" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/poster-mockup.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="859">
-          <caret line="304" column="53" selection-start-line="304" selection-start-column="53" selection-end-line="304" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssi/instructions.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="149" selection-start-line="7" selection-start-column="149" selection-end-line="7" selection-end-column="149" />
+        <state relative-caret-position="754">
+          <caret line="72" column="39" selection-start-line="72" selection-start-column="39" selection-end-line="72" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/poster-DH2020.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3975">
-          <caret line="265" column="89" selection-start-line="265" selection-start-column="89" selection-end-line="265" selection-end-column="89" />
+        <state relative-caret-position="274">
+          <caret line="57" column="51" lean-forward="true" selection-start-line="57" selection-start-column="51" selection-end-line="57" selection-end-column="51" />
         </state>
       </provider>
     </entry>

@@ -51,14 +51,14 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.1356789"
-     inkscape:cx="1455.5773"
+     inkscape:cx="962.48018"
      inkscape:cy="366.42526"
      inkscape:document-units="mm"
-     inkscape:current-layer="sui"
+     inkscape:current-layer="means"
      showgrid="false"
-     inkscape:window-width="1976"
-     inkscape:window-height="1088"
-     inkscape:window-x="72"
+     inkscape:window-width="2488"
+     inkscape:window-height="1376"
+     inkscape:window-x="1992"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
      showguides="true"
@@ -127,7 +127,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -383,7 +383,9 @@
            x="6.3355317"
            id="tspan2296-6-92-2"
            class="en"
-           sodipodi:role="line">referred to what indicates, means something</tspan></text>
+           sodipodi:role="line"><tspan
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic'"
+   id="tspan1010">referred to what indicates,</tspan> means something</tspan></text>
     </g>
     <g
        class="sense capacity power permission control"
