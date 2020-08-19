@@ -131,14 +131,16 @@
         <div>
             <figure>
                 <img src="images/team/loris.jpg" alt="Loris Rimaz">
-                <figcaption>Loris Rimaz</figcaption>
+                <figcaption>Loris Rimaz (MA 2020)</figcaption>
             </figure>
-            <p></p>
+            <p>                Loris Rimaz is pursuing a Master’s degree in Computer Science for the Humanities. He joined the WoPoss team to work on the visualisation of the semantic maps. He had a particular interest in data visualization and wanted to work on something more
+                specific than his class assignments. The task at hand forced him to deepen his knowledge in Data-Driven
+                Documents (D3) as well as web programming in general. Confronting the expectations of years of studying
+                and the reality of an actual development project is likely the most positive takeaway of his whole
+                experience working on this project.</p>
         </div>
-
-        <div
+        <div>
         </div>
-
     </div>
     <h2 id="past-collaborators">Past collaborators</h2>
     <div class="members_et">
