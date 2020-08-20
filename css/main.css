@@ -1,3 +1,13 @@
+@font-face {
+    font-family: "NewSans";
+    src: url("../fonts/NewSans.ttf") format('truetype');
+    src: url('../fonts/NewSans.woff2') format('woff2'),
+    url('../fonts/NewSans.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 
 html,
 body {
@@ -8,6 +18,7 @@ body {
     padding:0;
     min-height: 100%;
     width: 99vw;
+    font-family: 'NewSans', Fallback, sans-serif;
 }
 
 main {
@@ -43,6 +54,7 @@ h3 {
 
 a {
     color: #5897C8;
+    text-decoration: none;
 }
 
 p, ul, ol, li {

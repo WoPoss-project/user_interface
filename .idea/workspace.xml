@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db487090-34b1-4abd-9088-e9e00729d9e7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/map.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/team.php" beforeDir="false" afterPath="$PROJECT_DIR$/team.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/small.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/small.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fig1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssi/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/ssi/footer.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,11 +18,86 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/team.php">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pygmalion.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="55" column="90" selection-start-line="55" selection-start-column="90" selection-end-line="55" selection-end-column="90" />
+            <state relative-caret-position="348">
+              <caret line="12" column="67" selection-start-line="12" selection-start-column="67" selection-end-line="12" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/relations.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/map.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="812">
+              <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/sem_rel_form.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4466">
+              <caret line="154" column="24" selection-start-line="154" selection-start-column="24" selection-end-line="154" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/menu.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-290">
+              <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="580">
+              <caret line="56" column="25" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssi/footer.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/small.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1305">
+              <caret line="45" column="26" lean-forward="true" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/form.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20996">
+              <caret line="724" column="10" selection-start-line="724" selection-start-column="10" selection-end-line="724" selection-end-column="10" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -34,16 +114,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>idem q</find>
-      <find>not</find>
-      <find>proven t</find>
-      <find>urge</find>
-      <find>sure_li</find>
-      <find>established</find>
-      <find>proven</find>
-      <find>&quot;proven&quot;</find>
-      <find>sine du</find>
-      <find>precise</find>
       <find>show</find>
       <find>[mihi</find>
       <find>links</find>
@@ -64,6 +134,16 @@
       <find>chance_</find>
       <find>means_val</find>
       <find>separe</find>
+      <find>submit</find>
+      <find>sem_rel</find>
+      <find>confirm</find>
+      <find>submi</find>
+      <find>confi</find>
+      <find>Swal.fire</find>
+      <find>fire</find>
+      <find>swal2-confirm</find>
+      <find>sub</find>
+      <find>confirmF</find>
     </findStrings>
     <replaceStrings>
       <replace>epistemic show</replace>
@@ -77,15 +157,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/js/tooltip_hover.js" />
-        <option value="$PROJECT_DIR$/draft-hide.php" />
-        <option value="$PROJECT_DIR$/js/paths-hide.js" />
-        <option value="$PROJECT_DIR$/images/semantic-maps/certus_def_2020-06-09.svg" />
         <option value="$PROJECT_DIR$/images/semantic-maps/language.js" />
         <option value="$PROJECT_DIR$/draft-mouseover.php" />
         <option value="$PROJECT_DIR$/images/semantic-maps/certus_def_2020-06-10.svg" />
         <option value="$PROJECT_DIR$/draft.php" />
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/../semantic_maps/drawen-maps/css/maps.css" />
         <option value="$PROJECT_DIR$/semantic-modal-maps.html" />
         <option value="$PROJECT_DIR$/../semantic_maps/drawn-maps/js/language.js" />
@@ -96,7 +171,6 @@
         <option value="$PROJECT_DIR$/images/semantic-maps/potestas.svg" />
         <option value="$PROJECT_DIR$/images/semantic-maps/timeline.svg" />
         <option value="$PROJECT_DIR$/semantic-modal-maps_test.php" />
-        <option value="$PROJECT_DIR$/ssi/footer.html" />
         <option value="$PROJECT_DIR$/images/semantic-maps/test-certus.svg" />
         <option value="$PROJECT_DIR$/instructions.html" />
         <option value="$PROJECT_DIR$/js/timeline.js" />
@@ -119,12 +193,21 @@
         <option value="$PROJECT_DIR$/potestas.php" />
         <option value="$PROJECT_DIR$/index-test.php" />
         <option value="$PROJECT_DIR$/ssi/menu.html" />
-        <option value="$PROJECT_DIR$/css/menu.css" />
         <option value="$PROJECT_DIR$/semantic-modal-maps.php" />
         <option value="$PROJECT_DIR$/css/poster.css" />
         <option value="$PROJECT_DIR$/results.php" />
         <option value="$PROJECT_DIR$/poster-DH2020.php" />
         <option value="$PROJECT_DIR$/team.php" />
+        <option value="$PROJECT_DIR$/pygmalion.php" />
+        <option value="$PROJECT_DIR$/js/buttons.js" />
+        <option value="$PROJECT_DIR$/relations.php" />
+        <option value="$PROJECT_DIR$/js/sem_rel_form.js" />
+        <option value="$PROJECT_DIR$/js/form.js" />
+        <option value="$PROJECT_DIR$/ssi/footer.html" />
+        <option value="$PROJECT_DIR$/map.php" />
+        <option value="$PROJECT_DIR$/css/small.css" />
+        <option value="$PROJECT_DIR$/css/menu.css" />
+        <option value="$PROJECT_DIR$/css/main.css" />
       </list>
     </option>
   </component>
@@ -138,7 +221,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -181,6 +263,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -265,22 +348,23 @@
       <workItem from="1595320800154" duration="3231000" />
       <workItem from="1595340300512" duration="682000" />
       <workItem from="1597755091143" duration="884000" />
-      <workItem from="1597831260183" duration="599000" />
+      <workItem from="1597831260183" duration="11820000" />
+      <workItem from="1597912482026" duration="4421000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="187846000" />
+    <option name="totallyTimeSpent" value="203488000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="72" y="27" width="2488" height="1413" extended-state="7" />
+    <frame x="0" y="-10" width="3840" height="2170" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12817363" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12953092" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32964134" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -322,33 +406,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/tooltips.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="44" column="14" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/paths.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="43" lean-forward="true" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/draft-mouseover.php" />
-    <entry file="file://$PROJECT_DIR$/draft.php" />
-    <entry file="file://$PROJECT_DIR$/images/semantic-maps/certus_def_2020-06-10.svg" />
-    <entry file="file://$PROJECT_DIR$/js/menu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../semantic_maps/drawen-maps/css/maps.css" />
-    <entry file="file://$PROJECT_DIR$/semantic-modal-maps.html" />
-    <entry file="file://$PROJECT_DIR$/certus.svg" />
     <entry file="file://$PROJECT_DIR$/images/semantic-maps/certus_def_2020-06-17.svg" />
     <entry file="file://$PROJECT_DIR$/../semantic_maps/drawn-maps/js/paths-hide.js">
       <provider selected="true" editor-type-id="text-editor" />
@@ -369,13 +426,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/images/semantic-maps/potestas.svg" />
     <entry file="file://$PROJECT_DIR$/images/semantic-maps/test-certus.svg" />
-    <entry file="file://$PROJECT_DIR$/ssi/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/instructions.html" />
     <entry file="file://$PROJECT_DIR$/semantic-modal-maps_test.php" />
     <entry file="file://$PROJECT_DIR$/js/language.js">
@@ -387,13 +437,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/images/semantic-maps/leyend.svg" />
     <entry file="file://$PROJECT_DIR$/images/semantic-maps/timeline.svg" />
-    <entry file="file://$PROJECT_DIR$/js/modals.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="20" column="52" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/paths-hide.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="58">
@@ -439,13 +482,6 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1192">
-          <caret line="152" column="14" selection-start-line="152" selection-start-column="14" selection-end-line="152" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -542,13 +578,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/menu.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ssi/instructions.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -558,8 +587,96 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/team.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
+        <state relative-caret-position="825">
           <caret line="55" column="90" selection-start-line="55" selection-start-column="90" selection-end-line="55" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/buttons.js" />
+    <entry file="file://$PROJECT_DIR$/js/modals.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="52" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/tooltip_hover.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/relations.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20996">
+          <caret line="724" column="10" selection-start-line="724" selection-start-column="10" selection-end-line="724" selection-end-column="10" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fonts/stylesheet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" selection-start-line="4" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssi/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/sem_rel_form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4466">
+          <caret line="154" column="24" selection-start-line="154" selection-start-column="24" selection-end-line="154" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pygmalion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="12" column="67" selection-start-line="12" selection-start-column="67" selection-end-line="12" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="812">
+          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/small.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1305">
+          <caret line="45" column="26" lean-forward="true" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/menu.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-290">
+          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="56" column="25" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
         </state>
       </provider>
     </entry>

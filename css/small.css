@@ -2,13 +2,13 @@
 
 @media all and (max-width : 1610px) {
     nav {
-        font-size: 16pt;
+        font-size: 14pt;
     }
 }
 
 @media all and (max-width : 1550px) {
     nav {
-        font-size: 14pt;
+        font-size: 13pt;
         padding: 0.5em;
     }
 
@@ -25,7 +25,7 @@
 
 @media all and (max-width : 1310px) {
     nav {
-        font-size: 12pt;
+        font-size: 11pt;
     }
 
     .ip {
@@ -39,7 +39,7 @@
     }
 
     .submenu {
-        font-size: 11pt;
+        font-size: 10pt;
     }
 
     nav ul {
@@ -47,11 +47,11 @@
     }
 
     footer {
-        font-size: 11pt;
+        font-size: 10pt;
     }
 
     .logos p {
-        font-size: 11pt;
+        font-size: 10pt;
     }
 }
 
@@ -136,7 +136,7 @@
         font-size: 9pt;
     }
     
-    .hidden {
+    .to-hide {
         display:none;
     }
 }
