@@ -9,7 +9,7 @@ if (localStorage.getItem('map')) {
   newRelationship.addEventListener('click', addRelationship);
   submitForm.addEventListener('click', submit);
 } else {
-   window.location.replace('http://woposs.unil.ch/pygmalion.php');
+  window.location.replace('http://woposs.unil.ch/pygmalion.php');
 }
 
 function addRelationship(event) {
@@ -162,9 +162,9 @@ function submit(event) {
       const values = [];
       for (let j = 0; j < dataCols.length; j++) {
         const value =
-            dataCols[j].firstChild.type === 'checkbox'
-                ? dataCols[j].firstChild.checked
-                : dataCols[j].firstChild.value;
+          dataCols[j].firstChild.type === 'checkbox'
+            ? dataCols[j].firstChild.checked
+            : dataCols[j].firstChild.value;
         values.push(value);
       }
       final.push({
@@ -207,21 +207,16 @@ function submit(event) {
       });
     }
     localStorage.setItem('map', JSON.stringify(data));
-        Swal.fire({
-          icon: 'success',
-          title: 'Success!',
-          text: 'The form was susccessfully submitted',
-          confirmButtonText: 'Continue',
-        }).then((result) => {
-          if (result.value) {
-            window.location.href = 'http://woposs.unil.ch/map.php'
-          }
-        });
-/*    Swal.fire({
+    Swal.fire({
       icon: 'success',
       title: 'Success!',
-      text: 'The form was successfully submitted.',
-    });*/
+      text: 'The form was susccessfully submitted',
+      confirmButtonText: 'Continue',
+    }).then((result) => {
+      if (result.value) {
+        window.location.href = 'http://woposs.unil.ch/map.php'
+      }
+    });
     console.log(JSON.parse(localStorage.getItem('map')));
   }
 }
@@ -240,26 +235,26 @@ function addRelationships(modality) {
 function editModality(modality, final, type) {
   let direction;
   type === 'de'
-      ? final.direction === 'to'
+    ? final.direction === 'to'
       ? (direction = 'origins')
       : final.direction === 'from'
-          ? (direction = 'destinations')
-          : (direction = 'unspecified')
-      : final.direction === 'to'
       ? (direction = 'destinations')
-      : final.direction === 'from'
-          ? (direction = 'origins')
-          : (direction = 'unspecified');
+      : (direction = 'unspecified')
+    : final.direction === 'to'
+    ? (direction = 'destinations')
+    : final.direction === 'from'
+    ? (direction = 'origins')
+    : (direction = 'unspecified');
 
   const arr = modality.relationships[direction];
   const check = arr.some(
-      (el) => el.rel === (type === 'og' ? final.destination : final.origin)
+    (el) => el.rel === (type === 'og' ? final.destination : final.origin)
   );
   !check
-      ? modality.relationships[direction].push({
+    ? modality.relationships[direction].push({
         rel: type === 'og' ? final.destination : final.origin,
         cert: final.certitude,
       })
-      : modality;
+    : modality;
   return modality;
 }

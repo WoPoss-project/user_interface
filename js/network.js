@@ -1,20 +1,29 @@
+let network;
+const saveGraphToPNG = document.getElementById('saveGraphToPNG');
+const saveGraphToSVG = document.getElementById('saveGraphToSVG');
+
+saveGraphToPNG.addEventListener('click', (event) =>
+  exportToCanvas(event, network)
+);
+saveGraphToSVG.addEventListener('click', (event) =>
+  exportToSVG(event, network)
+);
+
 function drawLinks() {
   const networkWidth = getContainerData().width;
-  const networkHeight = 400;
-  const network = d3
+  const networkHeight = 500;
+  network = d3
     .select('#network')
     .append('svg')
+    .attr('id', 'network')
     .attr('width', networkWidth)
     .attr('height', networkHeight)
     .attr('transform', `translate(${margin.left}, 0)`)
     .style('border', '1px black solid')
-    .style('border-radius', '5px');
+    .style('border-radius', '5px')
+    .style('background-color', 'white');
 
-  const visualisationGroup = network
-    .append('g')
-    .style('background-color', '#808080');
-
-  visualisationGroup.append('rect');
+  const visualisationGroup = network.append('g');
 
   network
     .append('defs')
@@ -45,6 +54,18 @@ function drawLinks() {
     .force('center', d3.forceCenter(networkWidth / 2, networkHeight / 2)); // This force attracts nodes to the center of the svg area
 
   const dataset = extractDefinitionData();
+
+  if (data.dataForm != 'cent') {
+    const datasetEmergences = dataset.nodes.map((node) => node.emergence);
+    const singleEmergences = [
+      ...new Set(dataset.nodes.map((node) => node.emergence)),
+    ];
+    const indices = datasetEmergences.map((d) => singleEmergences.indexOf(d));
+    dataset.nodes.forEach((node, i) => {
+      node.emergence = indices[i];
+    });
+  }
+
   //add zoom capabilities
   var zoom_handler = d3.zoom().on('zoom', zoom_actions);
   zoom_handler(network);
@@ -96,7 +117,10 @@ function drawLinks() {
 
   node
     .append('text')
-    .text((d) => d.name)
+    .text((d) => {
+      const w = d.name.split(' ');
+      return w[0] + (w[1] ? ' ' + w[1] : '') + (w[3] ? '...' : '');
+    })
     .attr('dx', 10)
     .attr('dy', -10);
 
@@ -147,6 +171,8 @@ function drawLinks() {
   function zoom_actions() {
     visualisationGroup.attr('transform', d3.event.transform);
   }
+
+  drawLegend(network);
 }
 
 function extractDefinitionData() {
@@ -204,12 +230,29 @@ function extractDefinitionData() {
   return obj;
 }
 
+function drawLegend(network) {
+  const text = network
+    .append('text')
+    .attr('x', 6)
+    .attr('y', 18)
+    .style('font-family', 'Arial, Helvetica, sans-serif')
+    .style('font-size', 12);
+
+  text.append('tspan').text('Use mousewheel to zoom in and out');
+
+  text
+    .append('tspan')
+    .text('Click and drag to explore the network graph')
+    .attr('dx', -getTextWidth('Use mousewheel to zoom in and out'))
+    .attr('dy', 15);
+
+  text
+    .append('tspan')
+    .text('Click and drag any node to move it')
+    .attr('dx', -getTextWidth('Click and drag to explore the network graph'))
+    .attr('dy', 15);
+}
+
 if (data) {
   drawLinks();
 }
-
-window.addEventListener('resize', () => {
-  d3.selectAll('#network').select('svg').remove();
-
-  drawLinks();
-});

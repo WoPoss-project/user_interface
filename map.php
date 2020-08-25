@@ -49,7 +49,10 @@
         >
             Save map as PNG
         </button>
-        <button id="saveToSVG" style="width: 200px; float: left; color: white;">
+        <button
+                id="saveToSVG"
+                style="width: 200px; float: left; color: white; margin-left: 5px;"
+        >
             Save map as SVG
         </button>
     </div>
@@ -57,6 +60,20 @@
     <br />
     <h3 style="margin-left: 100px;">Network graph</h3>
     <div id="network"></div>
+    <div>
+        <button
+                id="saveGraphToPNG"
+                style="margin-left: 100px; width: 200px; float: left; color: white;"
+        >
+            Save graph as PNG
+        </button>
+        <button
+                id="saveGraphToSVG"
+                style="width: 200px; float: left; color: white; margin-left: 5px;"
+        >
+            Save graph as SVG
+        </button>
+    </div>
     <script src="js/map.js"></script>
     <script src="js/network.js"></script>
 </main>

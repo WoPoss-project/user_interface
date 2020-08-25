@@ -33,7 +33,7 @@
                 <div id="etymology"></div>
                 <div>
                     <div class='col-33' style='margin-right: -2px'><button id="noEtymology" style="width: 100%;">Proceed without etymology</button></div>
-                    <div class='col-33' style='margin-right: -2px'><button id="etymologyUnknown" class='etymologyUnknown' style="width: 100%;">Flag etymology as unknow</button></div>
+                    <div class='col-33' style='margin-right: -2px'><button id="etymologyUnknown" class='etymologyUnknown' style="width: 100%;">Flag etymology as unknown</button></div>
                     <div class='col-33' style='margin-right: -2px'><button id="etymologicalStep" style="width: 100%;">Add etymological step</button></div>
                 </div>
             </div>
