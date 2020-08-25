@@ -1,12 +1,20 @@
-const data = JSON.parse(localStorage.getItem('card'));
+const data = JSON.parse(localStorage.getItem('map'));
 const definitions = prepareDefinitions();
 
+// Assign colors to modalites
+const colors = createColors();
+
+// DOM selections
 const saveToPNG = document.getElementById('saveToPNG');
 saveToPNG.addEventListener('click', exportToCanvas);
+
+const saveToSVG = document.getElementById('saveToSVG');
+saveToSVG.addEventListener('click', exportToSVG);
 
 const select = document.getElementById('mode');
 let selectMode = select.value;
 
+// event handler for the select element
 select.addEventListener('change', (event) => {
   const value = event.target.value;
   selectMode = value;
@@ -18,6 +26,11 @@ select.addEventListener('change', (event) => {
   );
 });
 
+/* --------------------------------
+definition of the earliest as well
+as latest date in the dataset.
+-------------------------------- */
+
 const earliest = d3.min(definitions, (d) => d.emergence);
 const emergenceMax = d3.max(definitions, (d) => d.emergence);
 definitions.forEach((d) => (d.disparition = +d.disparition));
@@ -28,7 +41,14 @@ const latest = d3.max(definitions, (d) =>
     : d.disparition
 );
 
+// line generator
 const lineGenerator = d3.line();
+
+/* --------------------------------
+data recoding: prepares emergence
+and disparition data for display
+calculations
+-------------------------------- */
 
 if (data.dataFormat === 'cent') {
   definitions.forEach((def) => {
@@ -47,6 +67,11 @@ if (data.dataFormat === 'cent') {
     findCent(latest) + 100
   );
 
+  // TODO: test if it works
+  if (r.includes(0)) {
+    r.splice(r.indexOf(0), 1);
+  }
+
   definitions.forEach((def) => {
     def.emergence = r.indexOf(def.emergence);
     def.disparition = r.indexOf(def.disparition);
@@ -62,6 +87,7 @@ if (data.dataFormat === 'cent') {
   });
 }
 
+// sizing consts
 const margin = {
   top: 100,
   left: 100,
@@ -69,8 +95,9 @@ const margin = {
   bottom: 0,
 };
 const width = '100%';
-const height = margin.top * 2.5 - 5 + definitions.length * 37;
+const height = margin.top * 2.5 - 5 + definitions.length * 37 + 37;
 
+// Definition of SVG
 const svg = d3
   .select('#map')
   .append('svg')
@@ -81,6 +108,11 @@ const svg = d3
 
 const w = Number(svg.style('width').split('px')[0]);
 const h = Number(svg.style('height').split('px')[0]);
+
+/* --------------------------------
+definition of the D3 markers for
+the relationship arrows
+-------------------------------- */
 
 svg
   .append('svg:defs')
@@ -107,6 +139,10 @@ svg
   .append('path')
   .attr('d', 'M 0 0 4 2 0 4 0.25 2')
   .style('fill', 'black');
+
+/* --------------------------------
+definition of the various D3 groups
+-------------------------------- */
 
 const legend = svg
   .append('g')
@@ -137,64 +173,99 @@ const scale = svg
   .append('g')
   .attr('transform', `translate(${margin.left}, ${margin.top * 2})`);
 
+/* ----------------------------------------
+"basicDisplay" function:
+handles the drawing of the entire page as
+well as the legend.
+---------------------------------------- */
+
 function basicDisplay() {
-  const options = [
-    ['Modal: deontic', 'deontic'],
-    ['Modal: dynamic', 'dynamic'],
-    ['Modal: epistemic', 'epistemic'],
-    ['Not modal', 'notModal'],
-    ['Premodal', 'premodal'],
-    ['Postmodal', 'postmodal'],
-  ];
+  let col = 0;
+  let row = 1;
+  let colsSpace = 0;
+  const colsWidth = [0];
+  if (data.normalForm) {
+    const modalities = [...new Set(definitions.map((def) => def.modal))];
+    const lengths = modalities.map((mod) => getTextWidth(mod));
+    const container = getContainerData();
 
-  for (let i = 0; i < options.length; i++) {
-    const col = i <= 2 ? 1 : 0;
-    const row = i % 3 == 0 ? 1 : i % 3 == 1 ? 2 : 3;
-    const colSpace = 125;
+    const cols = [];
+    for (let i = 0; i < modalities.length; i += 3) {
+      cols.push(range(i, i + 2));
+    }
+    cols.forEach((c) => {
+      let longest = 0;
+      c.forEach(
+        (i) =>
+          (longest =
+            lengths[i] && lengths[i] > longest ? lengths[i] + 26 : longest)
+      );
+      colsWidth.push(longest);
+    });
+    for (let i = 0; i < modalities.length; i++) {
+      if (i % 3 === 0 && i != 0) {
+        col++;
+        colsSpace += colsWidth[col];
+        row = 1;
+      } else if (i % 3 != 0) {
+        row++;
+      }
 
-    legend
-      .append('rect')
-      .style('fill', color(options[i][1]))
-      .attr('x', col * colSpace)
-      .attr('y', row * 25)
-      .attr('width', 12)
-      .attr('height', 12);
+      legend
+        .append('rect')
+        .style('fill', colors[modalities[i]])
+        .attr('x', colsSpace)
+        .attr('y', row * 25)
+        .attr('width', 12)
+        .attr('height', 12);
 
-    legend
-      .append('text')
-      .text(options[i][0])
-      .attr('x', col * colSpace)
-      .attr('y', row * 25)
-      .attr('dx', 15)
-      .attr('dy', 10);
+      legend
+        .append('text')
+        .text(modalities[i])
+        .attr('x', colsSpace)
+        .attr('y', row * 25)
+        .attr('dx', 15)
+        .attr('dy', 10);
+    }
   }
+
+  colsSpace = colsWidth.reduce((a, b) => a + b);
+  const boxX = data.normalForm ? colsSpace : 0;
+  const boxY = data.normalForm ? (col + 1) * 25 : 25;
+
+  colsSpace +=
+    getTextWidth(data.normalForm ? 'Likely modal (see color)' : 'Meaning') + 26;
 
   legend
     .append('rect')
     .attr('width', 10)
     .attr('height', 10)
-    .attr('x', 2 * 125)
-    .attr('y', 2 * 25)
+    .attr('x', boxX)
+    .attr('y', boxY)
     .style('fill', 'none')
-    .style('stroke', 'black')
+    .style('stroke', () => (data.normalForm ? 'black' : 'lightgrey'))
     .style('stroke-width', 2)
-    .style('stroke-dasharray', 4);
+    .style('stroke-dasharray', () => (data.normalForm ? 4 : 0));
 
   legend
     .append('text')
-    .text('Likely modal (see color)')
-    .attr('x', 250)
-    .attr('y', 2 * 25)
+    .text(() => (data.normalForm ? 'Likely modal (see color)' : 'Meaning'))
+    .attr('x', boxX)
+    .attr('y', boxY)
     .attr('dx', 15)
     .attr('dy', 10);
+
+  const pathX1 = data.normalForm ? colsSpace : 0;
+  const pathX2 = data.normalForm ? colsSpace + 20 : 20;
+  const pathY = data.normalForm ? 47 : 50;
 
   legend
     .append('path')
     .attr(
       'd',
       lineGenerator([
-        [420, 45],
-        [440, 45],
+        [pathX1, pathY],
+        [pathX2, pathY],
       ])
     )
     .style('fill', 'none')
@@ -205,18 +276,20 @@ function basicDisplay() {
   legend
     .append('text')
     .text('Semantic relation')
-    .attr('x', 420)
-    .attr('y', 45)
+    .attr('x', pathX1)
+    .attr('y', pathY)
     .attr('dx', 25)
     .attr('dy', 3.5);
+
+  const pathY2 = pathY + 20;
 
   legend
     .append('path')
     .attr(
       'd',
       lineGenerator([
-        [420, 65],
-        [440, 65],
+        [pathX1, pathY2],
+        [pathX2, pathY2],
       ])
     )
     .style('fill', 'none')
@@ -226,9 +299,9 @@ function basicDisplay() {
 
   legend
     .append('text')
-    .text('Hypothetical relation')
-    .attr('x', 420)
-    .attr('y', 65)
+    .text('Hypothetical semantic relation')
+    .attr('x', pathX1)
+    .attr('y', pathY2)
     .attr('dx', 25)
     .attr('dy', 3.5);
 
@@ -236,20 +309,11 @@ function basicDisplay() {
   drawData();
 }
 
-function modalityFormatting(meaning, modalitiy) {
-  return {
-    id: modalitiy.id,
-    meaning: meaning.definition,
-    construct: meaning.construct,
-    group: meaning.group,
-    modal: modalitiy.modal,
-    emergence: modalitiy.emergence,
-    certainty: modalitiy.certainty,
-    attestation: modalitiy.attestation,
-    relationships: modalitiy.relationships,
-    disparition: modalitiy.disparition,
-  };
-}
+/* ----------------------------------------
+"drawEtymology" function:
+draws path and text elements according to
+the etymology data.
+---------------------------------------- */
 
 function drawEtymology() {
   const ety = data.etymology;
@@ -324,7 +388,7 @@ function drawEtymology() {
       totalLength += gw;
     }
   } else if (typeof ety === 'boolean' && ety === false) {
-    gw = getTextWidth(data.headword);
+    gw = getTextWidth(data.headword) + 25;
 
     const g = etymology
       .append('g')
@@ -400,18 +464,12 @@ function drawEtymology() {
   }
 }
 
-function sortElements(elements, mode) {
-  elements.sort((a, b) => {
-    const compareConstruct = (a, b) => (a < b ? -1 : b < a ? 1 : 0);
-    const compareDate = (a, b) => Math.sign(a - b);
-
-    return (
-      compareConstruct(a[mode], b[mode]) ||
-      compareDate(a.emergence, b.emergence)
-    );
-  });
-  return elements;
-}
+/* ----------------------------------------
+"drawData" function:
+handles the drawing of the data according
+to the parameters.
+handles the enter, update and exit calls.
+---------------------------------------- */
 
 function drawData(
   elements = definitions,
@@ -483,72 +541,87 @@ function drawData(
   drawScale(earliest, latest, container.width);
 }
 
+/* ----------------------------------------
+"drawConstructsOrGroups" function:
+draws the path and text elements according
+to the passed data corresponding to either
+the group or construct datapoints.
+---------------------------------------- */
+
 function drawConstructsOrGroups(elements, cW, cP, lines, mode) {
   constructsAndGroups.selectAll('path').remove();
   constructsAndGroups.selectAll('text').remove();
-  const dataList = [...new Set(elements.map((el) => el[mode]))];
-  dataList.forEach((group) => {
-    if (group != 'None') {
-      const indexes = [];
-      elements.forEach((el) =>
-        el[mode] == group ? indexes.push(elements.indexOf(el)) : false
-      );
-      const max = Math.max(...indexes);
-      const min = Math.min(...indexes);
-      const x0 = elements[min].emergence * cP;
-      const x1 = elements[max].emergence * cP;
-      const x2 = Math.min(x0, x1) - 15;
-      const xMiddle = x2 - 10;
-      const y0 = min * 37 + lines[min] * 30;
-      const y1 =
-        max * 37 +
-        lines[max] * 30 +
-        (wrap(elements[max].meaning, cW, cP, elements[max]) + 1) * 30;
-      const pathHeight = y1 - y0;
-      const yMiddle = y1 - pathHeight / 2;
+  if (mode != 'chronology') {
+    const dataList = [...new Set(elements.map((el) => el[mode]))];
+    dataList.forEach((group) => {
+      if (group != 'None') {
+        const indexes = [];
+        elements.forEach((el) =>
+          el[mode] == group ? indexes.push(elements.indexOf(el)) : false
+        );
+        const max = Math.max(...indexes);
+        const min = Math.min(...indexes);
+        const x0 = elements[min].emergence * cP;
+        const x1 = elements[max].emergence * cP;
+        const x2 = Math.min(x0, x1) - 15;
+        const xMiddle = x2 - 10;
+        const y0 = min * 37 + lines[min] * 30;
+        const y1 =
+          max * 37 +
+          lines[max] * 30 +
+          (wrap(elements[max].meaning, cW, cP, elements[max]) + 1) * 30;
+        const pathHeight = y1 - y0;
+        const yMiddle = y1 - pathHeight / 2;
 
-      if (min < max) {
+        if (min < max) {
+          constructsAndGroups
+            .append('path')
+            .attr(
+              'd',
+              lineGenerator([
+                [x0, y0],
+                [x2, y0],
+                [x2, yMiddle],
+                [xMiddle, yMiddle],
+                [x2, yMiddle],
+                [x2, y1],
+                [x0, y1],
+              ])
+            )
+            .attr('fill', 'none')
+            .style('stroke', 'black')
+            .style('stroke-width', 1)
+            .style('opacity', 0)
+            .transition()
+            .duration(500)
+            .style('opacity', 1);
+        }
+
         constructsAndGroups
-          .append('path')
-          .attr(
-            'd',
-            lineGenerator([
-              [x0, y0],
-              [x2, y0],
-              [x2, yMiddle],
-              [xMiddle, yMiddle],
-              [x2, yMiddle],
-              [x2, y1],
-              [x0, y1],
-            ])
-          )
-          .attr('fill', 'none')
-          .style('stroke', 'black')
-          .style('stroke-width', 1)
+          .append('text')
+          .text(group)
+          .attr('x', () => {
+            if (min < max) {
+              return xMiddle - getTextWidth(group) - 5;
+            } else {
+              return x0 - getTextWidth(group) - 5;
+            }
+          })
+          .attr('y', yMiddle + 4)
           .style('opacity', 0)
           .transition()
           .duration(500)
           .style('opacity', 1);
       }
-
-      constructsAndGroups
-        .append('text')
-        .text(group)
-        .attr('x', () => {
-          if (min < max) {
-            return xMiddle - getTextWidth(group) - 5;
-          } else {
-            return x0 - getTextWidth(group) - 5;
-          }
-        })
-        .attr('y', yMiddle + 4)
-        .style('opacity', 0)
-        .transition()
-        .duration(500)
-        .style('opacity', 1);
-    }
-  });
+    });
+  }
 }
+
+/* ----------------------------------------
+"addElems" function:
+draws the path and text elements according
+to the passed data.
+---------------------------------------- */
 
 function addElems(elements, cW, cP, tip) {
   elements
@@ -570,7 +643,7 @@ function addElems(elements, cW, cP, tip) {
     })
     .style('stroke-dasharray', (d) => (!d.certainty ? 4 : 0))
     .style('fill', 'white')
-    .style('stroke', (d) => color(d.modal))
+    .style('stroke', (d) => colors[d.modal])
     .style('stroke-width', 3)
     .on('click', (d) => {
       tip.transition().duration(50).style('opacity', 0);
@@ -649,6 +722,12 @@ function addElems(elements, cW, cP, tip) {
     .call(wrap, cW, cP);
 }
 
+/* ----------------------------------------
+"updateElems" function:
+draws the relationship arrows on the right-
+hand side of the data elements.
+---------------------------------------- */
+
 function updateElems(elements, cW, cP, elementsData, displayRels, lines) {
   //elements.selectAll('text').call(wrap, cW, cP, 'update');
 
@@ -717,59 +796,11 @@ function updateElems(elements, cW, cP, elementsData, displayRels, lines) {
   }
 }
 
-function newDisplay(event) {
-  if (event.relationships) {
-    const keptIds = [
-      event.id,
-      ...Object.values(event.relationships)
-        .reduce((a, b) => a.concat(b))
-        .map((r) => r.rel),
-    ];
-    const keptElements = [];
-    keptIds.forEach((id) => {
-      definitions.forEach((def) => {
-        if (Object.values(def).includes(id)) {
-          keptElements.push(def);
-        }
-      });
-    });
-    console.log(keptElements);
-    drawData(
-      addRelationshipInfo(event.relationships, keptElements),
-      true,
-      selectMode
-    );
-  } else {
-    Swal.fire({
-      icon: 'error',
-      title: 'No relationship data',
-      text:
-        'Please make sure you have specified relationships between the meanings.',
-    });
-  }
-}
-
-function addRelationshipInfo(relationships, elements) {
-  definitions.forEach((def) => {
-    delete def.rel;
-    delete def.relCert;
-  });
-  for (const direction in relationships) {
-    relationships[direction].forEach((rel) => {
-      elements.forEach((el) => {
-        if (!('rel' in el) && !('relCert' in el)) {
-          el['rel'] = 'origin';
-          el['relCert'] = true;
-        }
-        if (rel.rel === el.id) {
-          el['rel'] = direction;
-          el['relCert'] = rel.cert;
-        }
-      });
-    });
-  }
-  return elements;
-}
+/* ----------------------------------------
+"drawScale" function:
+draws the scale displayed on top of the 
+data elements.
+---------------------------------------- */
 
 function drawScale(earliest, latest, cW) {
   const dates = [];
@@ -867,20 +898,165 @@ function drawScale(earliest, latest, cW) {
     .style('fill', 'white');
 }
 
+/* ----------------------------------------
+"newDisplay" function:
+selects elements to be kept depending on 
+the relationship data.
+call the "drawData" function with the kept
+elements.
+---------------------------------------- */
+
+function newDisplay(event) {
+  if (event.relationships) {
+    const keptIds = [
+      event.id,
+      ...Object.values(event.relationships)
+        .reduce((a, b) => a.concat(b))
+        .map((r) => r.rel),
+    ];
+    const keptElements = [];
+    keptIds.forEach((id) => {
+      definitions.forEach((def) => {
+        if (Object.values(def).includes(id)) {
+          keptElements.push(def);
+        }
+      });
+    });
+    console.log(keptElements);
+    drawData(
+      addRelationshipInfo(event.relationships, keptElements),
+      true,
+      selectMode
+    );
+  } else {
+    Swal.fire({
+      icon: 'error',
+      title: 'No relationship data',
+      text:
+        'Please make sure you have specified relationships between the meanings.',
+    });
+  }
+}
+
+/* ----------------------------------------
+"addRelationshipInfo" function:
+returns the kept elements with the 
+relationship data inculded into them
+---------------------------------------- */
+
+function addRelationshipInfo(relationships, elements) {
+  definitions.forEach((def) => {
+    delete def.rel;
+    delete def.relCert;
+  });
+  for (const direction in relationships) {
+    relationships[direction].forEach((rel) => {
+      elements.forEach((el) => {
+        if (!('rel' in el) && !('relCert' in el)) {
+          el['rel'] = 'origin';
+          el['relCert'] = true;
+        }
+        if (rel.rel === el.id) {
+          el['rel'] = direction;
+          el['relCert'] = rel.cert;
+        }
+      });
+    });
+  }
+  return elements;
+}
+
+/* ----------------------------------------
+"prepareDefinitions" function:
+returns the data for display
+---------------------------------------- */
+
 function prepareDefinitions() {
   const meanings = data.meanings;
   const definitions = [];
-  meanings.forEach((meaning) => {
-    if (meaning.modalities.length > 1) {
-      meaning.modalities.forEach((modalitiy) => {
-        definitions.push(modalityFormatting(meaning, modalitiy));
-      });
-    } else {
-      definitions.push(modalityFormatting(meaning, meaning.modalities[0]));
-    }
-  });
+  if (data.normalForm) {
+    meanings.forEach((meaning) => {
+      if (meaning.modalities.length > 1) {
+        meaning.modalities.forEach((modalitiy) => {
+          definitions.push(modalityFormatting(meaning, modalitiy));
+        });
+      } else {
+        definitions.push(modalityFormatting(meaning, meaning.modalities[0]));
+      }
+    });
+  } else {
+    meanings.forEach((meaning) =>
+      definitions.push(simpleModalityFormatting(meaning))
+    );
+  }
+
   return definitions;
 }
+
+/* ----------------------------------------
+"modalityFormatting" function:
+returns the formatted data
+---------------------------------------- */
+
+function modalityFormatting(meaning, modalitiy) {
+  return {
+    id: modalitiy.id,
+    meaning: meaning.definition,
+    construct: meaning.construct,
+    group: meaning.group,
+    modal: modalitiy.modal,
+    emergence: modalitiy.emergence,
+    certainty: modalitiy.certainty,
+    attestation: modalitiy.attestation,
+    relationships: modalitiy.relationships,
+    disparition: modalitiy.disparition,
+  };
+}
+
+function simpleModalityFormatting(meaning) {
+  return {
+    id: meaning.id,
+    meaning: meaning.definition,
+    construct: meaning.construct,
+    group: meaning.group,
+    modal: 'Not modal',
+    emergence: meaning.emergence,
+    certainty: true,
+    attestation: meaning.attestation,
+    relationships: meaning.relationships,
+    disparition: meaning.disparition,
+  };
+}
+
+/* ----------------------------------------
+"sortElements" function:
+returns a sorted array depending on the
+sorting parameter
+---------------------------------------- */
+
+function sortElements(elements, mode) {
+  elements.sort((a, b) => {
+    const compareConstruct = (a, b) => (a < b ? -1 : b < a ? 1 : 0);
+    const compareDate = (a, b) => Math.sign(a - b);
+
+    if (mode === 'chronology') {
+      return compareDate(a.emergence, b.emergence);
+    } else {
+      return (
+        compareConstruct(a[mode], b[mode]) ||
+        compareDate(a.emergence, b.emergence)
+      );
+    }
+  });
+  return elements;
+}
+
+/* ----------------------------------------
+"getContainerData" function:
+returns an array containing the width of
+the drawing area and the result of this
+width divided by the scale.
+---------------------------------------- */
 
 function getContainerData() {
   let containerWidth = svg.style('width');
@@ -919,12 +1095,19 @@ function getContainerData() {
   return { width: containerWidth, portion: containerPortion };
 }
 
+/* ----------------------------------------
+"getLines" function:
+returns an array containing the numbers of 
+lines each text needs to be displayed
+inside a path element
+---------------------------------------- */
+
 function getLines(elements, cW, cP) {
   const lines = elements.map((elem) => wrap(elem.meaning, cW, cP, elem));
 
   let total = 0;
   lines.forEach((l) => (total += (l + 1) * 37));
-  const newHeight = margin.top * 2.5 - 5 + total;
+  const newHeight = margin.top * 2.5 - 5 + total + 37;
 
   svg.transition().duration(250).attr('height', newHeight);
 
@@ -940,6 +1123,14 @@ function getLines(elements, cW, cP) {
   }
   return lines;
 }
+
+/* ----------------------------------------
+"wrap" function:
+modifies text and path elements if the text
+is longer than the width of the path.
+returns the number of lines a text needs to
+be kept inside a path.
+---------------------------------------- */
 
 function wrap(text, cW, cP, r = 'add') {
   if (typeof text != 'string') {
@@ -1024,6 +1215,11 @@ function wrap(text, cW, cP, r = 'add') {
   }
 }
 
+/* ----------------------------------------
+"exportToCanvas" function:
+exports SVG to canvas element
+---------------------------------------- */
+
 function exportToCanvas(event) {
   event.preventDefault();
 
@@ -1062,6 +1258,11 @@ function exportToCanvas(event) {
   img.src = url;
 }
 
+/* ----------------------------------------
+"triggerDownload" function:
+forces the browser to download the canvas
+---------------------------------------- */
+
 function triggerDownload(imgURI) {
   const evt = new MouseEvent('click', {
     view: window,
@@ -1077,17 +1278,79 @@ function triggerDownload(imgURI) {
   a.dispatchEvent(evt);
 }
 
-function color(modal) {
-  const conversion = {
-    notModal: 'lightgrey',
-    deontic: 'crimson',
-    dynamic: 'blueviolet',
-    epistemic: 'forestgreen',
-    premodal: 'black',
-    postmodal: 'gold',
-  };
-  return conversion[modal];
+/* ----------------------------------------
+"exportToCanvas" function:
+exports SVG element to .svg file
+---------------------------------------- */
+
+function exportToSVG(event) {
+  event.preventDefault();
+
+  let svgWidth = svg.style('width');
+  svgWidth = Number(svgWidth.substring(0, svgWidth.length - 2));
+  svg.attr('width', svgWidth);
+
+  const svgNode = svg.node();
+  var data = new XMLSerializer().serializeToString(svgNode);
+
+  var svgBlob = new Blob([data], { type: 'image/svg+xml;' });
+  var svgUrl = URL.createObjectURL(svgBlob);
+  console.log(svgUrl);
+  var downloadLink = document.createElement('a');
+  downloadLink.href = svgUrl;
+  downloadLink.download = 'semantic_map.svg';
+  downloadLink.click();
 }
+
+/* ----------------------------------------
+"color" function:
+returns a color depending on the modality
+---------------------------------------- */
+
+function createColors() {
+  const modals = [...new Set(definitions.map((def) => def.modal))];
+  const basicColors = {
+    'Not modal': 'lightgrey',
+    'Modal: deontic': 'crimson',
+    'Modal: dynamic': 'blueviolet',
+    'Modal: epistemic': 'forestgreen',
+    Premodal: 'black',
+    Postmodal: 'gold',
+  };
+  const modalsColors = {};
+  const colorChoice = [
+    'cornflowerblue',
+    'aqua',
+    'purple',
+    'burlywood',
+    'coral',
+    'aquamarine',
+    'olivegreen',
+    'darkmagenta',
+    'darksalmon',
+    'darkorange',
+    'darkslateblue',
+    'deepskyblue',
+    'fuchsia',
+    'khaki',
+    'lightcyan',
+  ];
+  modals.forEach((modal, i) => {
+    if (!(modal in modalsColors)) {
+      if (modal in basicColors) {
+        modalsColors[modal] = basicColors[modal];
+      } else {
+        modalsColors[modal] = colorChoice[i];
+      }
+    }
+  });
+  return modalsColors;
+}
+
+/* ----------------------------------------
+"romanize" function:
+returns a roman number from an arabic one
+---------------------------------------- */
 
 function romanize(num) {
   if (isNaN(num)) return NaN;
@@ -1130,6 +1393,14 @@ function romanize(num) {
   return Array(+digits.join('') + 1).join('M') + roman;
 }
 
+/* ----------------------------------------
+"range" and "range10" functions:
+return an array of numbers between and
+including the parameter numbers.
+"range" adds 1 to each number. 
+"range10" adds 10 to each number.
+---------------------------------------- */
+
 function range(start, end) {
   return Array(end - start + 1)
     .fill()
@@ -1141,6 +1412,11 @@ function range10(start, end) {
     .fill()
     .map((_, idx) => start + idx * 10);
 }
+
+/* ----------------------------------------
+"getTextWidth" function:
+returns the width of a text
+---------------------------------------- */
 
 function getTextWidth(text) {
   // create a dummy element
@@ -1158,14 +1434,10 @@ function getTextWidth(text) {
   return dummyWidth;
 }
 
-function getCoords(path) {
-  path = d3.select(path);
-  d = path.attr('d').split(/(?=[LMC])/);
-  return d.map((coord) => {
-    coord = coord.substring(1);
-    return coord.split(',');
-  });
-}
+/* ----------------------------------------
+"centuryFromYear" function:
+returns the century based on a given year
+---------------------------------------- */
 
 function centuryFromYear(year) {
   const century = Math.floor((Math.abs(year) - 1) / 100) + 1;
@@ -1175,6 +1447,12 @@ function centuryFromYear(year) {
     return -1 * century;
   }
 }
+
+/* ----------------------------------------
+"findCent" function:
+returns the century based on a given year
+or decade
+---------------------------------------- */
 
 function findCent(dec) {
   if (dec % 10 == 0) {
@@ -1208,3 +1486,12 @@ function findCent(dec) {
 if (data) {
   basicDisplay();
 }
+
+window.addEventListener('resize', () => {
+  relationshipGroup.selectAll('path').remove();
+  meaningsGroup.selectAll('g').remove();
+  scale.selectAll('path').remove();
+  scale.selectAll('text').remove();
+
+  drawData();
+});

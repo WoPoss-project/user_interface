@@ -10,6 +10,7 @@
 <?php include("ssi/menu.html"); ?>
 <main>
     <h1>Pygmalion</h1>
+
     <form id="cardForm">
         <div class="row">
             <div class="col-100">
@@ -64,7 +65,8 @@
             </div>
         </div>
     </form>
-    <script src="js/form.js"></script>
+    <script src="js/form_simplified.js"></script>
+
 </main>
 <?php include("ssi/footer.html"); ?>
 </body>

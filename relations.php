@@ -4,13 +4,13 @@
     <title>Pygmalion - WoPoss</title>
     <?php include("ssi/head.html"); ?>
     <link rel="stylesheet" href="css/form.css" />
-
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
 </head>
 <body>
 <?php include("ssi/menu.html"); ?>
 <main>
     <h1>Pygmalion</h1>
-    <form id="semRelForm" action="http://woposs.unil.ch/map.php">
+    <form id="semRelForm">
         <div class="row">
             <div class="col-100">
                 <h3>Semantic relationships</h3>

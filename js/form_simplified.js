@@ -245,11 +245,49 @@ function createSense(event) {
   xDiv.appendChild(x);
   xRow.appendChild(xDiv);
 
+  const descriptionRow = document.createElement('div');
+  descriptionRow.className = 'row';
+  const descriptionLabelDiv = document.createElement('div');
+  descriptionLabelDiv.className = 'col-25';
+  const descriptionLabel = document.createElement('label');
+  descriptionLabel.innerHTML = 'Description';
+  descriptionLabelDiv.appendChild(descriptionLabel);
+
+  const descriptionCol = document.createElement('div');
+  descriptionCol.className = 'col-75';
+
+  const firstAttestation = document.createElement('input');
+  firstAttestation.type = 'text';
+  firstAttestation.className = 'attest';
+  firstAttestation.placeholder = 'First attestation(s)';
+
+  const smalls = [
+    'Date of meaning emergence',
+    'Date of meaning disappearance',
+    'First attestation',
+  ];
+
+  smalls.forEach((el) => {
+    const small = document.createElement('small');
+    small.innerHTML = el;
+    smalls[smalls.indexOf(el)] = small;
+  });
+
+  const description = createDescription(
+    descriptionCol,
+    smalls,
+    firstAttestation
+  );
+
+  descriptionRow.appendChild(descriptionLabelDiv);
+  descriptionRow.appendChild(description);
+
   definition.appendChild(xRow);
   definition.appendChild(definitionRow);
   definition.appendChild(constructRow);
   definition.appendChild(groupRow);
-  definition.appendChild(createModality());
+  definition.appendChild(descriptionRow);
+  //definition.appendChild(createModality());
 
   newSenses.appendChild(definition);
 }
@@ -271,125 +309,18 @@ function modalDatePicker(spec) {
   return dateElement;
 }
 
-// Allows us to create the modality part of the form
-function createModality(event) {
-  // Definition of the global elements
-  let div = document.createElement('div');
-  div.className = 'modal';
-
-  const modalityLabel = document.createElement('label');
-  modalityLabel.innerHTML = 'Description';
-
-  const deleteModalLabel = document.createElement('label');
-  deleteModalLabel.innerHTML = 'Delete description';
-  deleteModalLabel.className = 'delete';
-  deleteModalLabel.addEventListener('click', deleteEntry);
-
-  const modalAttestation = document.createElement('input');
-  modalAttestation.type = 'text';
-  modalAttestation.className = 'attest';
-  modalAttestation.placeholder = 'First attestation(s)';
-
-  const smalls = [
-    'Modality type',
-    'Date of meaning emergence',
-    'Date of meaning disappearance',
-    'First attestation',
-  ];
-
-  smalls.forEach((el) => {
-    const small = document.createElement('small');
-    small.innerHTML = el;
-    smalls[smalls.indexOf(el)] = small;
-  });
-
-  const confidenceCheckbox = document.createElement('input');
-  confidenceCheckbox.type = 'checkbox';
-  confidenceCheckbox.name = 'certitude';
-  confidenceCheckbox.className = 'certitude';
-  confidenceCheckbox.checked = true;
-
-  const confidenceLabel = document.createElement('label');
-  confidenceLabel.innerHTML = '(Modal) meaning is certain';
-
-  // If the function was called by an event...
-  if (event) {
-    // ... this means that we need to add a modality to the modality list
-    event.preventDefault();
-
-    const newModalArea = event.target.parentNode.querySelector('.modals');
-
-    div = mainModal(
-      div,
-      modalityLabel,
-      deleteModalLabel,
-      smalls,
-      modalAttestation,
-      confidenceCheckbox,
-      confidenceLabel
-    );
-
-    newModalArea.appendChild(div);
-  } else {
-    // ... or else we need to create a new modality list as well as a modality
-    const row = document.createElement('div');
-    row.className = 'row';
-
-    const modalLabelDiv = document.createElement('div');
-    modalLabelDiv.className = 'col-25';
-    const modalLabel = document.createElement('label');
-    modalLabel.innerHTML = '&nbsp;';
-    modalLabel.className = 'modalLabel';
-    modalLabelDiv.appendChild(modalLabel);
-
-    const modalitiesRowDiv = document.createElement('div');
-    modalitiesRowDiv.className = 'col-75';
-    const modalitiesDiv = document.createElement('div');
-    modalitiesDiv.className = 'modals';
-
-    div = mainModal(
-      div,
-      modalityLabel,
-      deleteModalLabel,
-      smalls,
-      modalAttestation,
-      confidenceCheckbox,
-      confidenceLabel
-    );
-
-    modalitiesDiv.appendChild(div);
-    modalitiesRowDiv.appendChild(modalitiesDiv);
-
-    const newModalButton = document.createElement('button');
-    newModalButton.innerHTML = 'Add new (modal) description';
-    newModalButton.style.width = '100%';
-    newModalButton.addEventListener('click', createModality);
-    modalitiesRowDiv.appendChild(newModalButton);
-
-    row.appendChild(modalLabelDiv);
-    row.appendChild(modalitiesRowDiv);
-    return row;
-  }
-}
-
 // General function for main modality elements
-function mainModal(div, lab, del, smalls, test, check, conf) {
-  div.appendChild(lab);
-  div.appendChild(del);
-  div.appendChild(createModalSelect());
-  div.appendChild(smalls[0]);
+function createDescription(div, smalls, test) {
   let date = modalDatePicker(dateSpec.value);
   date.className = 'date';
   div.appendChild(date);
-  div.appendChild(smalls[1]);
+  div.appendChild(smalls[0]);
   let disp = modalDatePicker(dateSpec.value);
   disp.className = 'disp';
   div.appendChild(disp);
-  div.appendChild(smalls[2]);
+  div.appendChild(smalls[1]);
   div.appendChild(test);
-  div.appendChild(smalls[3]);
-  div.appendChild(check);
-  div.appendChild(conf);
+  div.appendChild(smalls[2]);
   return div;
 }
 
@@ -422,7 +353,11 @@ function selectRow(lab, cla, opt) {
     select.appendChild(option);
   });
 
-  select.addEventListener('change', change);
+  if (cla === 'group') {
+    select.addEventListener('change', change);
+  } else {
+    select.addEventListener('change', change);
+  }
 
   selectDiv.appendChild(select);
 
@@ -430,42 +365,6 @@ function selectRow(lab, cla, opt) {
   row.appendChild(selectDiv);
 
   return row;
-}
-
-// General function to generate a select-type input with the modal types
-function createModalSelect() {
-  const modalSelect = document.createElement('select');
-
-  const existingSelects = document.querySelector(`.modality`);
-  const options = [];
-  if (!existingSelects) {
-    options.push(
-      'Not modal',
-      'Modal: deontic',
-      'Modal: dynamic',
-      'Modal: epistemic',
-      'Premodal',
-      'Postmodal',
-      'Add a type of modality...'
-    );
-  } else {
-    existingSelects.childNodes.forEach((el) => options.push(el.innerHTML));
-  }
-
-  for (optionIndex in options) {
-    const option = document.createElement('option');
-    option.innerHTML = options[optionIndex];
-    option.value =
-      options[optionIndex] === 'Add a type of modality...'
-        ? 'Add a modality...'
-        : options[optionIndex];
-    modalSelect.appendChild(option);
-  }
-
-  modalSelect.className = 'modality';
-  modalSelect.addEventListener('change', change);
-
-  return modalSelect;
 }
 
 // Function to delete a modality
@@ -532,15 +431,12 @@ function change(event) {
 
   if (
     selectedValue === 'Add a group...' ||
-    selectedValue === 'Add a collocation...' ||
-    selectedValue === 'Add a modality...'
+    selectedValue === 'Add a collocation...'
   ) {
     selectedValue = selectedValue.split(' ');
     const newElement = selectedValue[selectedValue.length - 1].split('.')[0];
     Swal.fire({
-      title: `Please specify a name for the new ${
-        newElement === 'modality' ? ' type of ' + newElement : newElement
-      }`,
+      title: `Please type a name for the new ${newElement}`,
       input: 'text',
       inputAttributes: {
         autocapitalize: 'off',
@@ -563,7 +459,7 @@ function change(event) {
       },
     }).then((result) => {
       if (result.dismiss === Swal.DismissReason.cancel) {
-        event.target.value = newElement === 'modality' ? 'Not modal' : 'None';
+        event.target.value = 'None';
       }
     });
   }
@@ -632,7 +528,7 @@ function confirmForm(event) {
       let missingField = false;
       const definitions = [];
       definitionTexts.forEach((definition) => {
-        const v = [];
+        const extractedValues = [];
         const rows = definition.childNodes;
         rows.forEach((row) => {
           const cols = row.childNodes;
@@ -640,95 +536,60 @@ function confirmForm(event) {
             if (col.className == 'col-75') {
               const values = col.childNodes;
               values.forEach((value) => {
-                if (value.value || value.value === '') {
+                if (value.nodeName != 'SMALL') {
                   if (
-                    (value.value === '' && value.nodeName != 'BUTTON') ||
-                    value.value === 'Add a group...' ||
-                    value.value === 'Add a collocation...'
+                    value.value === '' &&
+                    value.className != 'disp' &&
+                    value.className != 'attest'
                   ) {
                     mandatory(value);
                     missingField = true;
-                  }
-                  v.push(value.value);
-                } else {
-                  const modalities = value.childNodes;
-                  let modalityValues = [];
-                  modalities.forEach((modality) => {
-                    const modalityElements = modality.childNodes;
-                    modalityElements.forEach((modEl) => {
-                      if (modEl.value || modEl.value === '') {
-                        if (
-                          modEl.value === '' &&
-                          modEl.className != 'disp' &&
-                          modEl.nodeName != 'BUTTON' &&
-                          modEl.className != 'attest'
-                        ) {
-                          mandatory(modEl);
-                          missingField = true;
-                        } else if (modEl.type === 'checkbox') {
-                          modalityValues.push(modEl.checked);
-                        } else if (
-                          modEl.className === 'date' ||
-                          modEl.className === 'disp'
-                        ) {
-                          if (
-                            modEl.className === 'disp' &&
-                            modEl.value === ''
-                          ) {
-                            modalityValues.push('None');
-                          } else {
-                            let conversion = dateConversion(
-                              dateSpec.value,
-                              modEl
-                            );
-                            if (conversion) {
-                              modalityValues.push(conversion);
-                            } else {
-                              missingField = true;
-                            }
-                          }
-                        } else {
-                          modalityValues.push(modEl.value);
-                        }
-                      }
-                    });
-                    const modalityObject = {
-                      id: randomId(),
-                      modal: modalityValues[0],
-                      emergence: modalityValues[1],
-                      disparition: modalityValues[2],
-                      attestation: modalityValues[3],
-                      certainty: modalityValues[4],
-                    };
-                    if (v.length == 4) {
-                      v[3].push(modalityObject);
+                  } else if (value.className === 'date') {
+                    const conversion = dateConversion(dateSpec.value, value);
+                    if (conversion) {
+                      extractedValues.push(conversion);
                     } else {
-                      v.push([modalityObject]);
+                      missingField = true;
                     }
-                    modalityValues = [];
-                  });
+                  } else if (value.className === 'disp') {
+                    if (value.value === '') {
+                      extractedValues.push('None');
+                    } else {
+                      const conversion = dateConversion(dateSpec.value, value);
+                      if (conversion) {
+                        extractedValues.push(conversion);
+                      } else {
+                        missingField = true;
+                      }
+                    }
+                  } else {
+                    extractedValues.push(value.value);
+                  }
                 }
               });
             }
           });
         });
         definitions.push({
-          definition: v[0],
-          construct: v[1],
-          group: v[2],
-          modalities: v[3],
+          id: randomId(),
+          definition: extractedValues[0],
+          construct: extractedValues[1],
+          group: extractedValues[2],
+          emergence: extractedValues[3],
+          disparition: extractedValues[4],
+          attestation: extractedValues[5],
         });
       });
       const data = {
-        normalForm: true,
+        normalForm: false,
         headword: headwordInput.value,
         etymology: etymologicalData,
         dataFormat: dateSpec.value,
         meanings: definitions,
       };
       if (!missingField) {
-        localStorage.setItem('map', JSON.stringify(data));
-        console.log(JSON.parse(localStorage.getItem('map')));
+        localStorage.setItem('card', JSON.stringify(data));
+        console.log(JSON.parse(localStorage.getItem('card')));
         Swal.fire({
           icon: 'success',
           title: 'Success!',
@@ -739,7 +600,8 @@ function confirmForm(event) {
             window.location.href = 'http://woposs.unil.ch/relations.php'
           }
         });
-/*      if (!missingField) {
+        /*
+      if (!missingField) {
         localStorage.setItem('map', JSON.stringify(data));
         console.log(JSON.parse(localStorage.getItem('map')));
         Swal.fire({

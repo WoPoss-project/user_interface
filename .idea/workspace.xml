@@ -2,107 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db487090-34b1-4abd-9088-e9e00729d9e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/map.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygmalion-simple.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/menu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/small.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/small.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fig1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssi/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/ssi/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/map.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/map.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/sem_rel_form.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/sem_rel_form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/map.php" beforeDir="false" afterPath="$PROJECT_DIR$/map.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pygmalion.php" beforeDir="false" afterPath="$PROJECT_DIR$/pygmalion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/relations.php" beforeDir="false" afterPath="$PROJECT_DIR$/relations.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/timeline.svg" beforeDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pygmalion.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="12" column="67" selection-start-line="12" selection-start-column="67" selection-end-line="12" selection-end-column="67" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/relations.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/map.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="812">
-              <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/sem_rel_form.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4466">
-              <caret line="154" column="24" selection-start-line="154" selection-start-column="24" selection-end-line="154" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/menu.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-290">
-              <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
-              <caret line="56" column="25" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssi/footer.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/small.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1305">
-              <caret line="45" column="26" lean-forward="true" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/form.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20996">
-              <caret line="724" column="10" selection-start-line="724" selection-start-column="10" selection-end-line="724" selection-end-column="10" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -112,166 +28,20 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>show</find>
-      <find>[mihi</find>
-      <find>links</find>
-      <find>control</find>
-      <find>possi</find>
-      <find>&quot;do</find>
-      <find>chance</find>
-      <find>permission</find>
-      <find>&quot;poss</find>
-      <find>disposed</find>
-      <find>Norwo</find>
-      <find>_</find>
-      <find>capacity_</find>
-      <find>_capacity</find>
-      <find>sui</find>
-      <find>&quot;power</find>
-      <find>&quot;power&quot;</find>
-      <find>chance_</find>
-      <find>means_val</find>
-      <find>separe</find>
-      <find>submit</find>
-      <find>sem_rel</find>
-      <find>confirm</find>
-      <find>submi</find>
-      <find>confi</find>
-      <find>Swal.fire</find>
-      <find>fire</find>
-      <find>swal2-confirm</find>
-      <find>sub</find>
-      <find>confirmF</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>epistemic show</replace>
-      <replace>show sense</replace>
-      <replace>sense</replace>
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/images/semantic-maps/language.js" />
-        <option value="$PROJECT_DIR$/draft-mouseover.php" />
-        <option value="$PROJECT_DIR$/images/semantic-maps/certus_def_2020-06-10.svg" />
-        <option value="$PROJECT_DIR$/draft.php" />
-        <option value="$PROJECT_DIR$/../semantic_maps/drawen-maps/css/maps.css" />
-        <option value="$PROJECT_DIR$/semantic-modal-maps.html" />
-        <option value="$PROJECT_DIR$/../semantic_maps/drawn-maps/js/language.js" />
-        <option value="$PROJECT_DIR$/images/semantic-maps/certus_def_2020-06-17.svg" />
-        <option value="$PROJECT_DIR$/certus.svg" />
-        <option value="$PROJECT_DIR$/js/paths-collapse.js" />
-        <option value="$PROJECT_DIR$/js/language.js" />
-        <option value="$PROJECT_DIR$/images/semantic-maps/potestas.svg" />
-        <option value="$PROJECT_DIR$/images/semantic-maps/timeline.svg" />
-        <option value="$PROJECT_DIR$/semantic-modal-maps_test.php" />
-        <option value="$PROJECT_DIR$/images/semantic-maps/test-certus.svg" />
-        <option value="$PROJECT_DIR$/instructions.html" />
-        <option value="$PROJECT_DIR$/js/timeline.js" />
-        <option value="$PROJECT_DIR$/images/semantic-maps/leyend.svg" />
-        <option value="$PROJECT_DIR$/js/modals.js" />
-        <option value="$PROJECT_DIR$/images/semantic-maps/certus.svg" />
-        <option value="$PROJECT_DIR$/credits.php" />
-        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.php" />
-        <option value="$APPLICATION_CONFIG_DIR$/scratches/poster-mock-up.php" />
-        <option value="$PROJECT_DIR$/poster-mock-up.php" />
-        <option value="$PROJECT_DIR$/css/maps.css" />
-        <option value="$PROJECT_DIR$/semantic-maps/certus.svg" />
-        <option value="$PROJECT_DIR$/js/scroll.js" />
-        <option value="$PROJECT_DIR$/js/timeline-poster.js" />
-        <option value="$PROJECT_DIR$/ssi/instructions.html" />
-        <option value="$PROJECT_DIR$/poster-mockup.php" />
-        <option value="$PROJECT_DIR$/semantic-maps/potestas-timeline.svg" />
-        <option value="$PROJECT_DIR$/semantic-maps/potestas.svg" />
-        <option value="$PROJECT_DIR$/certus.php" />
-        <option value="$PROJECT_DIR$/potestas.php" />
-        <option value="$PROJECT_DIR$/index-test.php" />
-        <option value="$PROJECT_DIR$/ssi/menu.html" />
-        <option value="$PROJECT_DIR$/semantic-modal-maps.php" />
-        <option value="$PROJECT_DIR$/css/poster.css" />
-        <option value="$PROJECT_DIR$/results.php" />
-        <option value="$PROJECT_DIR$/poster-DH2020.php" />
-        <option value="$PROJECT_DIR$/team.php" />
-        <option value="$PROJECT_DIR$/pygmalion.php" />
-        <option value="$PROJECT_DIR$/js/buttons.js" />
-        <option value="$PROJECT_DIR$/relations.php" />
-        <option value="$PROJECT_DIR$/js/sem_rel_form.js" />
-        <option value="$PROJECT_DIR$/js/form.js" />
-        <option value="$PROJECT_DIR$/ssi/footer.html" />
-        <option value="$PROJECT_DIR$/map.php" />
-        <option value="$PROJECT_DIR$/css/small.css" />
-        <option value="$PROJECT_DIR$/css/menu.css" />
-        <option value="$PROJECT_DIR$/css/main.css" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="1366" />
-    <option name="width" value="2048" />
-    <option name="height" value="1152" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="user_interface" type="b2602c69:ProjectViewProjectNode" />
-              <item name="user_interface" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="user_interface" type="b2602c69:ProjectViewProjectNode" />
-              <item name="user_interface" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="user_interface" type="b2602c69:ProjectViewProjectNode" />
-              <item name="user_interface" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="user_interface" type="b2602c69:ProjectViewProjectNode" />
-              <item name="user_interface" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="logos" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="user_interface" type="b2602c69:ProjectViewProjectNode" />
-              <item name="user_interface" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="user_interface" type="b2602c69:ProjectViewProjectNode" />
-              <item name="user_interface" type="462c0819:PsiDirectoryNode" />
-              <item name="semantic-maps" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="user_interface" type="b2602c69:ProjectViewProjectNode" />
-              <item name="user_interface" type="462c0819:PsiDirectoryNode" />
-              <item name="ssi" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectId" id="1ga85w3oBoKZNJjIMiIdPIYVTIm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="PHP" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../semantic_maps/generated-maps/sem_rel_form.html" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -287,18 +57,7 @@
       <recent name="$PROJECT_DIR$/js" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -350,335 +109,33 @@
       <workItem from="1597755091143" duration="884000" />
       <workItem from="1597831260183" duration="11820000" />
       <workItem from="1597912482026" duration="4421000" />
+      <workItem from="1598341165569" duration="4460000" />
     </task>
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="203488000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="-10" width="3840" height="2170" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12953092" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32964134" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14766839" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
-    </layout-to-restore>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/images/semantic-maps/certus_def_2020-06-17.svg" />
-    <entry file="file://$PROJECT_DIR$/../semantic_maps/drawn-maps/js/paths-hide.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../semantic_maps/drawn-maps/semantic-modal-maps.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../semantic_maps/drawn-maps/js/language.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="70" column="31" lean-forward="true" selection-start-line="70" selection-start-column="31" selection-end-line="70" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/semantic-maps/potestas.svg" />
-    <entry file="file://$PROJECT_DIR$/images/semantic-maps/test-certus.svg" />
-    <entry file="file://$PROJECT_DIR$/instructions.html" />
-    <entry file="file://$PROJECT_DIR$/semantic-modal-maps_test.php" />
-    <entry file="file://$PROJECT_DIR$/js/language.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1563">
-          <caret line="106" column="14" selection-start-line="106" selection-end-line="106" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/semantic-maps/leyend.svg" />
-    <entry file="file://$PROJECT_DIR$/images/semantic-maps/timeline.svg" />
-    <entry file="file://$PROJECT_DIR$/js/paths-hide.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" column="56" selection-start-line="2" selection-start-column="56" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/semantic-maps/certus.svg" />
-    <entry file="file://$PROJECT_DIR$/images/semantic-maps/legend.svg" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/poster-mock-up.php" />
-    <entry file="file://$PROJECT_DIR$/poster-mock-up.php" />
-    <entry file="file://$PROJECT_DIR$/credits.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/paths-collapse.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/maps.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1476">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-          <folding>
-            <marker date="1594032010589" expanded="true" signature="2:97" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/semantic-maps/certus.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/scroll.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="60" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/timeline-poster.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/poster-mockup.php" />
-    <entry file="file://$PROJECT_DIR$/potestas.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="98" selection-start-line="30" selection-start-column="98" selection-end-line="30" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/certus.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/semantic-maps/potestas-timeline.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/semantic-maps/potestas.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssi/menu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/poster-DH2020.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-398">
-          <caret line="57" column="51" selection-start-line="57" selection-start-column="51" selection-end-line="57" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/semantic-modal-maps.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="754">
-          <caret line="72" column="39" selection-start-line="72" selection-start-column="39" selection-end-line="72" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/timeline.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/poster.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1192">
-          <caret line="122" column="1" selection-start-line="122" selection-start-column="1" selection-end-line="122" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index-test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="885">
-          <caret line="59" column="11" selection-start-line="59" selection-start-column="11" selection-end-line="59" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssi/head.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/results.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="53" column="96" selection-start-line="53" selection-start-column="96" selection-end-line="53" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssi/instructions.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="149" selection-start-line="7" selection-start-column="149" selection-end-line="7" selection-end-column="149" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/team.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="55" column="90" selection-start-line="55" selection-start-column="90" selection-end-line="55" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/buttons.js" />
-    <entry file="file://$PROJECT_DIR$/js/modals.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="52" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/tooltip_hover.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/relations.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/form.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20996">
-          <caret line="724" column="10" selection-start-line="724" selection-start-column="10" selection-end-line="724" selection-end-column="10" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fonts/stylesheet.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" selection-start-line="4" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssi/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/sem_rel_form.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4466">
-          <caret line="154" column="24" selection-start-line="154" selection-start-column="24" selection-end-line="154" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pygmalion.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="12" column="67" selection-start-line="12" selection-start-column="67" selection-end-line="12" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/map.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="812">
-          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/small.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1305">
-          <caret line="45" column="26" lean-forward="true" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/menu.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-290">
-          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="56" column="25" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1598345699479">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1598345699479" />
+    <state x="789" y="478" width="399" height="149" key="NewPhpFileDialog" timestamp="1598341210429">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="789" y="478" width="399" height="149" key="NewPhpFileDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1598341210429" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/form.js</url>
+          <line>733</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
