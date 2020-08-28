@@ -1,3 +1,16 @@
+/* 
+form_simplified.js:
+This code handles the entire first form in a simplified way. It allows the user to:
+  - Add any number of new definitions/meanings
+  - Add any number of etymological data to the form
+  - Specify and add any number of coloocations/groups
+  - Specify how etymology should be considered in the final data
+  - Delete any number of elements added through interactions
+  - Submit the form and go through to the second form
+
+Code written by Loris Rimaz
+*/
+
 /* DOM constants definition */
 const headwordInput = document.getElementById('headwordInput');
 const dateSpec = document.getElementById('dateSpec');
@@ -15,31 +28,37 @@ let etymologyIsKnown = true;
 // Event on the "Add a meaning" button
 addSense.addEventListener('click', createSense);
 
-// Event on the select-type input for the date format
+// Event on the select element for the date format
 dateSpec.addEventListener('change', function () {
   const dates = [...document.querySelectorAll('.date')];
   [...document.querySelectorAll('.disp')].forEach((e) => dates.push(e));
   const change = event.target;
+  // For each .date element...
   dates.forEach((el) => {
+    // ...create a new select that matches the picked date format...
     const value = el.value;
     const parent = el.parentNode;
     const newChild = modalDatePicker(change.value);
     newChild.value = value;
     newChild.className = el.className;
+    // ...and replace each .date element with it
     parent.replaceChild(newChild, el);
   });
 });
 
+// Events on etymology buttons
 etymologicalStep.addEventListener('click', addEtymologicalStep);
 noEtymology.addEventListener('click', proceedWithNoEtymology);
 etymologyUnknown.addEventListener('click', etymologyIsUnknown);
 
+// Events on the "Submit form" button
 submitForm.addEventListener('click', confirmForm);
 
 // Function to add an etymological step
 function addEtymologicalStep(event) {
-  event.preventDefault();
+  if (event) event.preventDefault();
 
+  // Flag etymology as known if it had been flagged as unknown
   if (!etymologyIsKnown) {
     Swal.fire({
       icon: 'info',
@@ -51,9 +70,10 @@ function addEtymologicalStep(event) {
     etymologyUnknown.className = 'etymologyUnknown';
     etymologyIsKnown = true;
   }
-
   noEtymology.style.visibility = 'hidden';
 
+  // Create the necessary elements for the etymological step
+  // 1. Top row: 'Etymological step' and 'Delete entry' labels
   const div = document.createElement('div');
   div.className = 'etymologyStep';
 
@@ -71,6 +91,7 @@ function addEtymologicalStep(event) {
 
   const br = document.createElement('br');
 
+  // 2. Bottom row: all the required inputs
   const dataRow = document.createElement('div');
   dataRow.className = 'row';
 
@@ -117,6 +138,7 @@ function addEtymologicalStep(event) {
     smalls[smalls.indexOf(el)] = small;
   });
 
+  // Append children to parent
   labelRow.appendChild(label);
   labelRow.appendChild(etymologyDelete);
   labelRow.appendChild(br);
@@ -144,14 +166,18 @@ function addEtymologicalStep(event) {
   etymologyArea.appendChild(div);
 }
 
+// Function handling the 'no etymology' behavior
 function proceedWithNoEtymology(event) {
   event.preventDefault();
+
+  // Alert user that they will proceed without etymology
   Swal.fire({
     icon: 'info',
     title: 'No etymology',
     text:
       'We have registered your choice to not include an etymology. If you change your mind, simply click "Proceed with etymology"',
   });
+  // Modify the necessary elements
   etymologicalStep.style.visibility = 'hidden';
   noEtymology.innerHTML = 'Proceed with etymology';
   noEtymology.removeEventListener('click', proceedWithNoEtymology);
@@ -159,8 +185,10 @@ function proceedWithNoEtymology(event) {
   withEtymology = false;
 }
 
+// Function handling a press on 'Proceed with etymology' button
 function proceedWithEtymology(event) {
   event.preventDefault();
+  // Revert changes made with 'proceedWithNoEtymology' function
   etymologicalStep.style.visibility = 'visible';
   noEtymology.innerHTML = 'Proceed without etymology';
   noEtymology.removeEventListener('click', proceedWithEtymology);
@@ -168,14 +196,18 @@ function proceedWithEtymology(event) {
   withEtymology = true;
 }
 
+// Function to flag etymology as unknown
 function etymologyIsUnknown(event) {
   event.preventDefault();
+
+  // Alert the user that they will proceed with an unknown etymology
   Swal.fire({
     icon: 'info',
     title: 'Etymology flagged as unknown',
     text:
       'We have taken note that the etymology is unkown. If you change your mind, simply click "Add etymological step"',
   });
+  // Modify display accordingly
   noEtymology.style.visibility = 'hidden';
   if (etymologicalStep.style.visibility === 'hidden') {
     etymologicalStep.style.visibility = 'visible';
@@ -184,11 +216,14 @@ function etymologyIsUnknown(event) {
   etymologyUnknown.className = 'etymologyUnknownDisabled';
   etymologyIsKnown = false;
   withEtymology = true;
+  // If the use specified etymological steps already...
   if (etymologyArea.childNodes.length > 0) {
+    // ...delete all of them
     deleteAllEtymology();
   }
 }
 
+// Function deleting all etymology entries
 function deleteAllEtymology() {
   const parent = etymologyArea;
   while (parent.firstChild) {
@@ -196,13 +231,29 @@ function deleteAllEtymology() {
   }
 }
 
-// Add a sense/definition to the form
+// Add a sense/definition/meaning to the form
 function createSense(event) {
-  event.preventDefault();
+  if (event) event.preventDefault();
 
+  // Create the necessary elements for the sense/definition/meaning
+  // 1. Main div: holds all the following elements
   const definition = document.createElement('div');
   definition.className = 'definition';
 
+  // 1. Top row: holds the 'x' button to delete sense/definition/meaning
+  const xRow = document.createElement('div');
+  xRow.className = 'row';
+  const xDiv = document.createElement('div');
+  xDiv.className = 'col-100';
+  const x = document.createElement('span');
+  x.innerHTML = 'x';
+  x.className = 'deleteDefinition';
+  x.addEventListener('click', deleteDefinition);
+
+  xDiv.appendChild(x);
+  xRow.appendChild(xDiv);
+
+  // 3. Definition div: holds the 'Meaning / function / use' label and a text input
   const definitionRow = document.createElement('div');
   definitionRow.className = 'row';
 
@@ -226,25 +277,21 @@ function createSense(event) {
   definitionRow.appendChild(senseLabelDiv);
   definitionRow.appendChild(senseInputDiv);
 
-  groupRow = selectRow('Semantic group', 'group', 'Add a group...');
+  // 4. Group row: select element for groups
+  groupRow = selectRow(
+    'Semantic group (or other kind of groups)',
+    'group',
+    'Add a group...'
+  );
+
+  // 5. Construct/Collocation row: select element for collocations
   constructRow = selectRow(
     'Collocation',
     'collocation',
     'Add a collocation...'
   );
 
-  const xRow = document.createElement('div');
-  xRow.className = 'row';
-  const xDiv = document.createElement('div');
-  xDiv.className = 'col-100';
-  const x = document.createElement('span');
-  x.innerHTML = 'x';
-  x.className = 'deleteDefinition';
-  x.addEventListener('click', deleteDefinition);
-
-  xDiv.appendChild(x);
-  xRow.appendChild(xDiv);
-
+  // 5. Description row: holds all the last elements
   const descriptionRow = document.createElement('div');
   descriptionRow.className = 'row';
   const descriptionLabelDiv = document.createElement('div');
@@ -256,11 +303,13 @@ function createSense(event) {
   const descriptionCol = document.createElement('div');
   descriptionCol.className = 'col-75';
 
+  // 6. Second-to-last row: text input for first attestation(s)
   const firstAttestation = document.createElement('input');
   firstAttestation.type = 'text';
   firstAttestation.className = 'attest';
   firstAttestation.placeholder = 'First attestation(s)';
 
+  // 7. List used to create small elements
   const smalls = [
     'Date of meaning emergence',
     'Date of meaning disappearance',
@@ -273,6 +322,7 @@ function createSense(event) {
     smalls[smalls.indexOf(el)] = small;
   });
 
+  // Create description with the created elements
   const description = createDescription(
     descriptionCol,
     smalls,
@@ -287,7 +337,6 @@ function createSense(event) {
   definition.appendChild(constructRow);
   definition.appendChild(groupRow);
   definition.appendChild(descriptionRow);
-  //definition.appendChild(createModality());
 
   newSenses.appendChild(definition);
 }
@@ -309,7 +358,7 @@ function modalDatePicker(spec) {
   return dateElement;
 }
 
-// General function for main modality elements
+// General function for main description elements
 function createDescription(div, smalls, test) {
   let date = modalDatePicker(dateSpec.value);
   date.className = 'date';
@@ -324,6 +373,7 @@ function createDescription(div, smalls, test) {
   return div;
 }
 
+// Function to create select elements for groups and collocations
 function selectRow(lab, cla, opt) {
   const row = document.createElement('div');
   row.className = 'row';
@@ -339,6 +389,9 @@ function selectRow(lab, cla, opt) {
   selectDiv.className = 'col-75';
   const select = document.createElement('select');
   select.className = cla;
+
+  // Ensures to copy all the pre-existing options if previous
+  // selects of the same class exist
   const existingSelects = document.querySelector(`.${cla}`);
   const groups = [];
   if (!existingSelects) {
@@ -353,11 +406,7 @@ function selectRow(lab, cla, opt) {
     select.appendChild(option);
   });
 
-  if (cla === 'group') {
-    select.addEventListener('change', change);
-  } else {
-    select.addEventListener('change', change);
-  }
+  select.addEventListener('change', change);
 
   selectDiv.appendChild(select);
 
@@ -400,6 +449,7 @@ function deleteEntry(event) {
   }
 }
 
+// Function handling event on the 'x' button
 function deleteDefinition(event) {
   event.preventDefault();
 
@@ -465,7 +515,7 @@ function change(event) {
   }
 }
 
-// Adds the new group to every select element for group selection
+// Adds the new element to every select element for group/collocation/modal selections
 function addGroup(opt, elem, select) {
   const selects = document.getElementsByClassName(elem);
 
@@ -479,15 +529,22 @@ function addGroup(opt, elem, select) {
   select.value = opt;
 }
 
+// Submit function that ensures that every mandatory elements are filled,
+// that ensures the conversion of all the data to fit the needs of the visualization,
+// and that data is correctly formatted overall
 function confirmForm(event) {
   event.preventDefault();
 
+  // Simpler data
   const headwordInput = document.getElementById('headwordInput');
   const dateSpec = document.getElementById('dateSpec');
   const definitionTexts = document.querySelectorAll('.definition');
 
+  // The form will not submit without a headword
   if (headwordInput.value != '') {
+    // The form will not submit if there are no definitions
     if (definitionTexts.length > 0) {
+      // Starting with the etymological data
       let etymologicalData;
       if (withEtymology && etymologyIsKnown) {
         let etymology = [[], [], [], []];
@@ -502,6 +559,8 @@ function confirmForm(event) {
         etymologyDefinitions.forEach((el) => etymology[2].push(el.value));
         etymologyConfidence.forEach((el) => etymology[3].push(el.checked));
 
+        // Convert the [[...periods], [...forms], [...definitions], [...certitudes]]
+        // data structure into a [period, form, definition, certitude] one
         etymologicalData = [];
         for (let c = 0; c < etymology[0].length; c++) {
           const data = [];
@@ -525,6 +584,7 @@ function confirmForm(event) {
         etymologicalData = 'unknown';
       }
 
+      // Handles the definitions
       let missingField = false;
       const definitions = [];
       definitionTexts.forEach((definition) => {
@@ -587,6 +647,7 @@ function confirmForm(event) {
         dataFormat: dateSpec.value,
         meanings: definitions,
       };
+      // If no fields are missing, the submit can go through
       if (!missingField) {
         localStorage.setItem('map', JSON.stringify(data));
         console.log(JSON.parse(localStorage.getItem('map')));
@@ -600,6 +661,15 @@ function confirmForm(event) {
             window.location.href = 'http://woposs.unil.ch/relations.php'
           }
         });
+
+      /*if (!missingField) {
+        localStorage.setItem('map', JSON.stringify(data));
+        console.log(JSON.parse(localStorage.getItem('map')));
+        Swal.fire({
+          icon: 'success',
+          title: 'Success!',
+          text: 'The form was submitted without errors!',
+        });*/
       } else {
         swal.fire({
           icon: 'error',
@@ -626,6 +696,7 @@ function confirmForm(event) {
   }
 }
 
+// Function handling styling of mandatroy fields
 function mandatory(element) {
   element.style.border = '1px solid rgb(226, 70, 70)';
   element.addEventListener('change', function (event) {
@@ -633,6 +704,7 @@ function mandatory(element) {
   });
 }
 
+// Function handling date conversion
 function dateConversion(format, element) {
   let date;
   if (format === 'cent') {
@@ -685,7 +757,7 @@ function dateConversion(format, element) {
   } else if (format === 'dec') {
     let decade;
     if (Number(element.value)) {
-      decade = decadeFromYear(element.value) + 's';
+      decade = decadeFromYear(element.value);
     } else {
       const input = element.value.split(' ');
       if (input.length == 1 || input.length == 2) {
@@ -704,8 +776,8 @@ function dateConversion(format, element) {
         mandatory(element);
         return false;
       }
+      decade = Number(decade.slice(0, -1));
     }
-    decade = Number(decade.slice(0, -1));
     if (
       decade >= -5000 &&
       decade <= 2020 &&
@@ -730,6 +802,7 @@ function dateConversion(format, element) {
   return date;
 }
 
+// Function returning century for a given year
 function centuryFromYear(year) {
   const century = Math.floor((Math.abs(year) - 1) / 100) + 1;
   if (year > 0) {
@@ -739,6 +812,7 @@ function centuryFromYear(year) {
   }
 }
 
+// Function returning decade for a given year
 function decadeFromYear(year) {
   let decade = Number(year);
   while (decade % 10 != 0) {
@@ -751,9 +825,180 @@ function decadeFromYear(year) {
   return decade;
 }
 
+// Function returning a random ID
 function randomId() {
   return Math.random()
     .toString(36)
     .replace(/[^a-z]+/g, '')
     .substr(2, 10);
+}
+
+// This last section handles the generation of the form according to
+// already present localStorage data
+const localData = JSON.parse(localStorage.getItem('map'));
+if (localData && !localData.normalForm) {
+  // Simpler data
+  document.getElementById('headwordInput').value = localData.headword;
+  document.getElementById('dateSpec').value = localData.dataFormat;
+
+  // Add etymology
+  if (localData.etymology === false) {
+    etymologicalStep.style.visibility = 'hidden';
+    noEtymology.innerHTML = 'Proceed with etymology';
+    noEtymology.removeEventListener('click', proceedWithNoEtymology);
+    noEtymology.addEventListener('click', proceedWithEtymology);
+    withEtymology = false;
+  } else if (localData.etymology === 'unknown') {
+    noEtymology.style.visibility = 'hidden';
+    if (etymologicalStep.style.visibility === 'hidden') {
+      etymologicalStep.style.visibility = 'visible';
+    }
+    etymologyUnknown.disabled = true;
+    etymologyUnknown.className = 'etymologyUnknownDisabled';
+    etymologyIsKnown = false;
+    withEtymology = true;
+  } else {
+    localData.etymology.forEach((ety) => {
+      addEtymologicalStep();
+      const etymologies = [...document.querySelectorAll('.etymologyStep')];
+      const etymology = etymologies[etymologies.length - 1];
+      const rows = etymology.childNodes;
+      rows.forEach((row) => {
+        const cols = row.childNodes;
+        if (cols.length > 3) {
+          cols.forEach((col) => {
+            const element = [...col.childNodes][0];
+            if (element.className === 'period') {
+              element.value = ety.period;
+            } else if (element.className === 'etymologicalForm') {
+              element.value = ety.form;
+            } else if (element.className === 'shortDefinition') {
+              element.value = ety.def;
+            } else {
+              element.checked = ety.certitude;
+            }
+          });
+        }
+      });
+    });
+  }
+
+  // Add meanings elements
+  localData.meanings.forEach((meaning) => {
+    createSense();
+    const definitions = [...document.querySelectorAll('.definition')];
+    const definition = definitions[definitions.length - 1];
+    const rows = definition.childNodes;
+    rows.forEach((row) => {
+      const cols = row.childNodes;
+      if (cols.length > 1) {
+        const col = cols[1];
+        const elements = col.childNodes;
+        if (elements.length > 1) {
+          elements.forEach((element) => {
+            if (element.nodeName === 'INPUT') {
+              if (element.className === 'date') {
+                if (localData.dataFormat === 'cent') {
+                  if (meaning.emergence < 0) {
+                    element.value = romanize(meaning.emergence) + ' BC';
+                  } else {
+                    element.value = romanize(meaning.emergence);
+                  }
+                } else if (localData.dataFormat === 'dec') {
+                  if (meaning.emergence < 0) {
+                    element.value = Math.abs(meaning.emergence) + 's BC';
+                  } else {
+                    element.value = meaning.emergence + 's';
+                  }
+                } else {
+                  element.value = meaning.emergence;
+                }
+              } else if (element.className === 'disp') {
+                if (meaning.disparition != 'None') {
+                  if (localData.dataFormat === 'cent') {
+                    if (meaning.disparition < 0) {
+                      element.value = romanize(meaning.disparition) + ' BC';
+                    } else {
+                      element.value = romanize(meaning.disparition);
+                    }
+                  } else if (localData.dataFormat === 'dec') {
+                    if (meaning.disparition < 0) {
+                      element.value = Math.abs(meaning.disparition) + 's BC';
+                    } else {
+                      element.value = meaning.disparition + 's';
+                    }
+                  } else {
+                    element.value = meaning.disparition;
+                  }
+                }
+              } else if (element.className === 'attest') {
+                element.value = meaning.attestation;
+              }
+            }
+          });
+        } else {
+          const element = elements[0];
+          if (element.className === 'definitionText') {
+            element.value = meaning.definition;
+          } else if (element.className === 'collocation') {
+            const options = [...element.childNodes];
+            const optionsValues = options.map((opt) => opt.innerHTML);
+            if (!optionsValues.includes(meaning.construct)) {
+              addGroup(meaning.construct, 'collocation', element);
+            }
+            element.value = meaning.construct;
+          } else if (element.className === 'group') {
+            const options = [...element.childNodes];
+            const optionsValues = options.map((opt) => opt.innerHTML);
+            if (!optionsValues.includes(meaning.group)) {
+              addGroup(meaning.group, 'group', element);
+            }
+            element.value = meaning.group;
+          }
+        }
+      }
+    });
+  });
+}
+
+// Returns roman numbers from arabic numbers
+function romanize(num) {
+  if (isNaN(num)) return NaN;
+  let digits = String(+num).split(''),
+    key = [
+      '',
+      'C',
+      'CC',
+      'CCC',
+      'CD',
+      'D',
+      'DC',
+      'DCC',
+      'DCCC',
+      'CM',
+      '',
+      'X',
+      'XX',
+      'XXX',
+      'XL',
+      'L',
+      'LX',
+      'LXX',
+      'LXXX',
+      'XC',
+      '',
+      'I',
+      'II',
+      'III',
+      'IV',
+      'V',
+      'VI',
+      'VII',
+      'VIII',
+      'IX',
+    ],
+    roman = '',
+    i = 3;
+  while (i--) roman = (key[+digits.pop() + i * 10] || '') + roman;
+  return Array(+digits.join('') + 1).join('M') + roman;
 }

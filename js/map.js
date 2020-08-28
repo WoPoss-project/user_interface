@@ -1,8 +1,18 @@
-const data = JSON.parse(localStorage.getItem('map'));
-const definitions = prepareDefinitions();
+/* 
+map.js:
+This code handles the drawing of the semantic map. It allows the user to:
+  - Interact with any meaning and thus display the meanings it has relationships with
+    as well as the relationships themselves (arrows on the right)
+  - Sort the meanings 3 different ways: by collocation, by group, or chronologically
+  - Download the visualization in PNG or SVG format
+  - Import other semantic maps' data
+  - Export this semantic map's data
 
-// Assign colors to modalites
-const colors = createColors();
+Code written by Loris Rimaz
+*/
+
+let data = JSON.parse(localStorage.getItem('map'));
+let definitions, colors, earliest, latest;
 
 // DOM selections
 const saveToPNG = document.getElementById('saveToPNG');
@@ -10,6 +20,79 @@ saveToPNG.addEventListener('click', (event) => exportToCanvas(event, svg));
 
 const saveToSVG = document.getElementById('saveToSVG');
 saveToSVG.addEventListener('click', (event) => exportToSVG(event, svg));
+
+const importData = document.getElementById('importData');
+importData.addEventListener('click', importJSONData);
+
+const exportData = document.getElementById('exportData');
+exportData.addEventListener('click', exportJSONData);
+
+/* ------------------------------------
+"importJSONData" function: prompts the
+user for a JSON file, reads it, loads
+it into the localStorage and reloads
+the page
+------------------------------------ */
+
+function importJSONData(event) {
+  event.preventDefault();
+  Swal.fire({
+    title: 'Please select a file',
+    input: 'file',
+    showCancelButton: true,
+    confirmButtonText: 'Import',
+    showLoaderOnConfirm: true,
+    preConfirm: (file) => {
+      if (typeof window.FileReader !== 'function') {
+        Swal.fire({
+          icon: 'error',
+          title: 'API error',
+          text: 'Your browser does not support the file API yet.',
+        });
+        return;
+      }
+      if (file) {
+        const fr = new FileReader();
+        fr.onload = recievedText;
+        fr.readAsText(file);
+      } else {
+        Swal.fire({
+          icon: 'error',
+          title: 'File error',
+          text: 'Please ensure that you have selected a file.',
+          preConfirm: () => {
+            importJSONData(event);
+          },
+        });
+      }
+
+      function recievedText(e) {
+        let lines = e.target.result;
+        localStorage.setItem('map', lines);
+        location.reload();
+      }
+    },
+  });
+}
+
+/* ------------------------------------
+"exportJSONData" function: allows the 
+user to export the JSON data and 
+download it
+------------------------------------ */
+
+function exportJSONData(event) {
+  event.preventDefault();
+  const dataString = JSON.stringify(data);
+  const dataURI =
+    'data:text/json;charset=utf-8,' + encodeURIComponent(dataString);
+  const exportFileName = 'semantic_map.json';
+
+  const linkElement = document.createElement('a');
+  linkElement.setAttribute('href', dataURI);
+  linkElement.setAttribute('download', exportFileName);
+  linkElement.click();
+}
 
 const select = document.getElementById('mode');
 let selectMode = select.value;
@@ -26,66 +109,8 @@ select.addEventListener('change', (event) => {
   );
 });
 
-/* --------------------------------
-definition of the earliest as well
-as latest date in the dataset.
--------------------------------- */
-
-const earliest = d3.min(definitions, (d) => d.emergence);
-const emergenceMax = d3.max(definitions, (d) => d.emergence);
-definitions.forEach((d) => (d.disparition = +d.disparition));
-const disparitionMax = d3.max(definitions, (d) => d.disparition);
-const latest = d3.max(definitions, (d) =>
-  typeof disparitionMax == 'undefined' || emergenceMax > disparitionMax
-    ? d.emergence
-    : d.disparition
-);
-
 // line generator
 const lineGenerator = d3.line();
-
-/* --------------------------------
-data recoding: prepares emergence
-and disparition data for display
-calculations
--------------------------------- */
-
-if (data.dataFormat === 'cent') {
-  definitions.forEach((def) => {
-    if (def.emergence > 0) {
-      def.emergence -= 1;
-      def.disparition -= 1;
-    }
-    if (earliest < 0) {
-      def.emergence += Math.abs(earliest);
-      def.disparition += Math.abs(earliest);
-    }
-  });
-} else if (data.dataFormat === 'dec') {
-  const r = range10(
-    earliest > 0 && latest > 0 ? findCent(earliest) - 100 : findCent(earliest),
-    findCent(latest) + 100
-  );
-
-  // TODO: test if it works
-  /*if (r.includes(0)) {
-    r.splice(r.indexOf(0), 1);
-  }*/
-
-  definitions.forEach((def) => {
-    def.emergence = r.indexOf(def.emergence);
-    def.disparition = r.indexOf(def.disparition);
-  });
-} else {
-  const r = range(
-    earliest > 0 && latest > 0 ? findCent(earliest) - 99 : findCent(earliest),
-    findCent(latest) + 100
-  );
-  definitions.forEach((def) => {
-    def.emergence = r.indexOf(def.emergence);
-    def.disparition = r.indexOf(def.disparition);
-  });
-}
 
 // sizing consts
 const margin = {
@@ -95,7 +120,9 @@ const margin = {
   bottom: 0,
 };
 const width = '100%';
-const height = margin.top * 2.5 - 5 + definitions.length * 37 + 37;
+const height = definitions
+  ? margin.top * 2.5 - 5 + definitions.length * 37 + 37
+  : 0;
 
 // Definition of SVG
 const svg = d3
@@ -169,6 +196,8 @@ const meaningsGroup = svg
   .append('g')
   .attr('class', 'meanings')
   .attr('transform', `translate(${margin.left}, ${margin.top * 2.5})`);
+
+const watermarkGroup = svg.append('g').attr('class', 'watermark');
 
 const scale = svg
   .append('g')
@@ -331,11 +360,15 @@ function drawEtymology() {
 
     for (let i = 0; i < newEty.length + 1; i++) {
       gw = newEty[i]
-        ? getTextWidth(newEty[i][2]) > getTextWidth(newEty[i][1])
+        ? getTextWidth(newEty[i][2]) > getTextWidth(newEty[i][1]) &&
+          getTextWidth(newEty[i][2]) > getTextWidth(newEty[i][0])
           ? getTextWidth(newEty[i][2])
-          : getTextWidth(newEty[i][1])
+          : getTextWidth(newEty[i][1]) > getTextWidth(newEty[i][2]) &&
+            getTextWidth(newEty[i][1]) > getTextWidth(newEty[i][0])
+          ? getTextWidth(newEty[i][1])
+          : getTextWidth(newEty[i][0])
         : getTextWidth(data.headword);
-      gw += i === 0 ? 25 : 45;
+      gw += 50;
 
       const g = etymology
         .append('g')
@@ -542,6 +575,23 @@ function drawData(
   drawScale(earliest, latest, container.width);
 }
 
+function drawWatermark(wmHeight) {
+  const container = getContainerData();
+  watermarkGroup.attr(
+    'transform',
+    `translate(${container.width}, ${wmHeight})`
+  );
+  watermarkGroup
+    .append('text')
+    .text('by WoPoss')
+    .style('fill', '#87aac9')
+    .style('font-style', 'italic')
+    .attr('x', 0)
+    .attr('y', 0)
+    .attr('dx', 45)
+    .attr('dy', -15);
+}
+
 /* ----------------------------------------
 "drawConstructsOrGroups" function:
 draws the path and text elements according
@@ -560,6 +610,7 @@ function drawConstructsOrGroups(elements, cW, cP, lines, mode) {
         elements.forEach((el) =>
           el[mode] == group ? indexes.push(elements.indexOf(el)) : false
         );
+        // Coordinates calculations
         const max = Math.max(...indexes);
         const min = Math.min(...indexes);
         const x0 = elements[min].emergence * cP;
@@ -574,6 +625,7 @@ function drawConstructsOrGroups(elements, cW, cP, lines, mode) {
         const pathHeight = y1 - y0;
         const yMiddle = y1 - pathHeight / 2;
 
+        // Add paths and texts to 'constructsAndGroups' group
         if (min < max) {
           constructsAndGroups
             .append('path')
@@ -598,7 +650,13 @@ function drawConstructsOrGroups(elements, cW, cP, lines, mode) {
             .style('opacity', 1);
         }
 
-        group = formatText(group);
+        group = formatText(
+          group,
+          min < max
+            ? xMiddle - getTextWidth(group) - 5
+            : x0 - getTextWidth(group) - 5
+        );
+
         constructsAndGroups
           .append('text')
           .text(() => group)
@@ -660,6 +718,7 @@ function addElems(elements, cW, cP, tip) {
       tip.transition().duration(50).style('opacity', 1);
       tip
         .html(() => {
+          // Display year depending on date format
           const r =
             data.dataFormat != 'cent'
               ? data.dataFormat === 'dec'
@@ -676,10 +735,7 @@ function addElems(elements, cW, cP, tip) {
                     findCent(latest) + 100
                   )
               : 0;
-          // TODO: test if it works
-          /*if (r.includes(0) && data.dataFormat === 'dec') {
-            r.splice(r.indexOf(0), 1);
-          }*/
+          // Text formatting depending on date format and 'r'
           if (data.dataFormat === 'cent') {
             const em = d.emergence - Math.abs(earliest);
             const dis = d.disparition - Math.abs(earliest);
@@ -687,7 +743,7 @@ function addElems(elements, cW, cP, tip) {
               (em < 0 ? `${romanize(em)} BC` : romanize(em)) +
               ' to ' +
               (isNaN(d.disparition)
-                ? 'present'
+                ? 'undefined date'
                 : dis < 0
                 ? `${romanize(dis)} BC`
                 : romanize(dis)) +
@@ -698,7 +754,7 @@ function addElems(elements, cW, cP, tip) {
             return (
               r[d.emergence] +
               (data.dataFormat === 'dec' ? 's to ' : ' to ') +
-              (d.disparition != -1 ? r[d.disparition] : 'present') +
+              (d.disparition != -1 ? r[d.disparition] : 'undefined date') +
               (data.dataFormat === 'dec'
                 ? d.disparition != -1
                   ? 's: '
@@ -733,9 +789,7 @@ draws the relationship arrows on the right-
 hand side of the data elements.
 ---------------------------------------- */
 
-function updateElems(elements, cW, cP, elementsData, displayRels, lines) {
-  //elements.selectAll('text').call(wrap, cW, cP, 'update');
-
+function updateElems(_, cW, cP, elementsData, displayRels, lines) {
   if (displayRels) {
     const element = elementsData.reduce((acc, curr) =>
       curr.rel === 'origin' ? (acc = curr) : acc
@@ -746,6 +800,12 @@ function updateElems(elements, cW, cP, elementsData, displayRels, lines) {
       elementsData.length - 1 - elementIndex
     );
 
+    // Calculations for relationships arrows' coordinates:
+
+    /* offset: 'lines' is an array of offsets used for elements' translations.
+    Since each element is 30 tall, 'lines' * 30 places the point at the top
+    of the element. 'wrap' returns the number of lines for each elements,
+    which is then multiplied by 15, thus giving the middle of the element's height */
     const offset =
       lines[elementIndex] * 30 + wrap(element.meaning, cW, cP, element) * 15;
     const x0 =
@@ -776,6 +836,7 @@ function updateElems(elements, cW, cP, elementsData, displayRels, lines) {
       .attr('d', (d, i) => {
         const modifier = indexes[i];
         const lineHeight = wrap(d.meaning, cW, cP, d);
+        // Same calculation as 'offset'
         const off = lines[i] * 30 + lineHeight * 15;
         const x1 =
           cW + 10 + (Math.abs(modifier) * margin.right) / 1.5 / indexes.length;
@@ -822,7 +883,6 @@ function drawScale(earliest, latest, cW) {
         : findCent(earliest),
       findCent(latest) + 100
     );
-    // decadesForScale.splice(decadesForScale.indexOf(0), 1);
     centuries = [
       ...new Set(decadesForScale.map((dec) => centuryFromYear(dec))),
     ];
@@ -831,7 +891,6 @@ function drawScale(earliest, latest, cW) {
       earliest > 0 && latest > 0 ? findCent(earliest) - 99 : findCent(earliest),
       findCent(latest) + 100
     );
-    // decadesForScale.splice(decadesForScale.indexOf(0), 1);
     centuries = [...new Set(yearsForScale.map((dec) => centuryFromYear(dec)))];
   }
 
@@ -1039,13 +1098,19 @@ returns a string formatted to be used as a
 group or construct element
 ---------------------------------------- */
 
-function formatText(text) {
+function formatText(text, x) {
+  const offset = x + getTextWidth(text);
+  const to100 = 100 + offset - 27;
   let length = getTextWidth(text);
-  while (length > 60) {
-    text = text.substring(1);
-    length = getTextWidth(text);
+  if (length > to100) {
+    while (length > to100) {
+      text = text.substring(1);
+      length = getTextWidth(text);
+    }
+    return '...' + text;
+  } else {
+    return text;
   }
-  return '...' + text;
 }
 
 /* ----------------------------------------
@@ -1056,15 +1121,14 @@ sorting parameter
 
 function sortElements(elements, mode) {
   elements.sort((a, b) => {
-    const compareConstruct = (a, b) => (a < b ? -1 : b < a ? 1 : 0);
+    const compareMode = (a, b) => (a < b ? -1 : b < a ? 1 : 0);
     const compareDate = (a, b) => Math.sign(a - b);
 
     if (mode === 'chronology') {
       return compareDate(a.emergence, b.emergence);
     } else {
       return (
-        compareConstruct(a[mode], b[mode]) ||
-        compareDate(a.emergence, b.emergence)
+        compareMode(a[mode], b[mode]) || compareDate(a.emergence, b.emergence)
       );
     }
   });
@@ -1130,6 +1194,8 @@ function getLines(elements, cW, cP) {
   const newHeight = margin.top * 2.5 - 5 + total + 37;
 
   svg.transition().duration(250).attr('height', newHeight);
+
+  drawWatermark(newHeight);
 
   const linesOriginal = [...lines];
   for (let i = 0; i < lines.length; i++) {
@@ -1245,7 +1311,6 @@ function exportToCanvas(event, SVG) {
 
   let svgWidth = SVG.style('width');
   svgWidth = Number(svgWidth.substring(0, svgWidth.length - 2));
-
   let svgHeight = SVG.style('height');
   svgHeight = Number(svgHeight.substring(0, svgHeight.length - 2));
 
@@ -1264,7 +1329,6 @@ function exportToCanvas(event, SVG) {
   }
 
   var ctx = canvas.getContext('2d');
-
   var data = new XMLSerializer().serializeToString(svgNode);
 
   if (SVG.attr('id') === 'network') {
@@ -1520,7 +1584,78 @@ function findCent(dec) {
   return dec;
 }
 
+// If there is data present in the localStorage
 if (data) {
+  // Reformat data
+  definitions = prepareDefinitions();
+
+  // Assign colors to modalites
+  colors = createColors();
+
+  /* --------------------------------
+  definition of the earliest as well
+  as latest date in the dataset.
+  -------------------------------- */
+  earliest = d3.min(definitions, (d) => d.emergence);
+  const emergenceMax = d3.max(definitions, (d) => d.emergence);
+  definitions.forEach((d) => (d.disparition = +d.disparition));
+  const disparitionMax = d3.max(definitions, (d) => d.disparition);
+  latest = d3.max(definitions, (d) =>
+    typeof disparitionMax == 'undefined' || emergenceMax > disparitionMax
+      ? d.emergence
+      : d.disparition
+  );
+
+  /* --------------------------------
+  data recoding: prepares emergence
+  and disparition data for display
+  calculations
+  -------------------------------- */
+  if (data.dataFormat === 'cent') {
+    definitions.forEach((def) => {
+      if (def.emergence > 0) {
+        def.emergence -= 1;
+        def.disparition -= 1;
+      }
+      if (earliest < 0) {
+        def.emergence += Math.abs(earliest);
+        def.disparition += Math.abs(earliest);
+      }
+    });
+  } else if (data.dataFormat === 'dec') {
+    const r = range10(
+      earliest > 0 && latest > 0
+        ? findCent(earliest) - 100
+        : findCent(earliest),
+      findCent(latest) + 100
+    );
+
+    definitions.forEach((def) => {
+      def.emergence = r.indexOf(def.emergence);
+      def.disparition = r.indexOf(def.disparition);
+    });
+  } else {
+    const r = range(
+      earliest > 0 && latest > 0 ? findCent(earliest) - 99 : findCent(earliest),
+      findCent(latest) + 100
+    );
+    definitions.forEach((def) => {
+      def.emergence = r.indexOf(def.emergence);
+      def.disparition = r.indexOf(def.disparition);
+    });
+  }
+
+  definitions.forEach((def) => {
+    def.meaning = def.meaning.charAt(0).toUpperCase() + def.meaning.slice(1);
+    def.construct =
+      def.construct.charAt(0).toUpperCase() + def.construct.slice(1);
+    def.group = def.group.charAt(0).toUpperCase() + def.group.slice(1);
+  });
+
+  document
+    .querySelectorAll('.invisibleWhenNoData')
+    .forEach((elem) => (elem.style.visibility = 'visible'));
+
   basicDisplay();
 }
 
@@ -1531,6 +1666,7 @@ $(window).on('resize', function () {
 
     relationshipGroup.selectAll('path').remove();
     meaningsGroup.selectAll('g').remove();
+    watermarkGroup.select('text').remove();
     scale.selectAll('path').remove();
     scale.selectAll('text').remove();
 
@@ -1538,6 +1674,6 @@ $(window).on('resize', function () {
 
     d3.selectAll('#network').select('svg').remove();
 
-    drawLinks();
+    drawGraph();
   }
 });

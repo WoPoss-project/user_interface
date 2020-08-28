@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>Pygmalion - WoPoss</title>
+    <title>Pygmalion-Form - WoPoss</title>
     <?php include("ssi/head.html"); ?>
     <link rel="stylesheet" href="css/form.css" />
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
