@@ -210,6 +210,7 @@ well as the legend.
 ---------------------------------------- */
 
 function basicDisplay() {
+  // Draw legend
   let col = 0;
   let row = 1;
   let colsSpace = 0;
@@ -217,7 +218,6 @@ function basicDisplay() {
   if (data.normalForm) {
     const modalities = [...new Set(definitions.map((def) => def.modal))];
     const lengths = modalities.map((mod) => getTextWidth(mod));
-    const container = getContainerData();
 
     const cols = [];
     for (let i = 0; i < modalities.length; i += 3) {
@@ -227,10 +227,9 @@ function basicDisplay() {
       let longest = 0;
       c.forEach(
         (i) =>
-          (longest =
-            lengths[i] && lengths[i] > longest ? lengths[i] + 26 : longest)
+          (longest = lengths[i] && lengths[i] > longest ? lengths[i] : longest)
       );
-      colsWidth.push(longest);
+      colsWidth.push(longest + 30);
     });
     for (let i = 0; i < modalities.length; i++) {
       if (i % 3 === 0 && i != 0) {
@@ -943,8 +942,6 @@ function drawScale(earliest, latest, cW) {
     .attr('x', (_, i) => i * (cP + 0.5))
     .attr('y', 0)
     .style('fill', (_, i) => `rgb(45, ${100 + 8 * i}, ${160 + 9 * i})`);
-  // .style('stroke', (_, i) => `rgb(45, ${100 + 8 * i}, ${160 + 9 * i})`)
-  // .style('stroke-width', 2);
 
   scale
     .selectAll('text')
@@ -1053,7 +1050,6 @@ function prepareDefinitions() {
       definitions.push(simpleModalityFormatting(meaning))
     );
   }
-
   return definitions;
 }
 
@@ -1100,14 +1096,14 @@ group or construct element
 
 function formatText(text, x) {
   const offset = x + getTextWidth(text);
-  const to100 = 100 + offset - 27;
+  const to100 = 100 + offset - 10;
   let length = getTextWidth(text);
   if (length > to100) {
     while (length > to100) {
-      text = text.substring(1);
+      text = text.substring(0, text.length - 1);
       length = getTextWidth(text);
     }
-    return '...' + text;
+    return text + '...';
   } else {
     return text;
   }
@@ -1195,6 +1191,7 @@ function getLines(elements, cW, cP) {
 
   svg.transition().duration(250).attr('height', newHeight);
 
+  watermarkGroup.select('text').remove();
   drawWatermark(newHeight);
 
   const linesOriginal = [...lines];
@@ -1239,7 +1236,7 @@ function wrap(text, cW, cP, r = 'add') {
         emergence = text.data()[0].emergence,
         disparition = text.data()[0].disparition;
 
-      let width = cW - emergence * cP;
+      let width = cW - emergence * cP - 15;
       if (disparition != -1 && !isNaN(disparition)) {
         const end = cW - disparition * cP;
         width = width - end;
@@ -1248,7 +1245,7 @@ function wrap(text, cW, cP, r = 'add') {
       while ((word = words.pop())) {
         line.push(word);
         tspan.text(line.join(' '));
-        if (tspan.text().length * 6 > width) {
+        if (getTextWidth(tspan.text()) >= width) {
           line.pop();
           tspan.text(line.join(' ') + ' ');
           line = [word];
@@ -1263,13 +1260,14 @@ function wrap(text, cW, cP, r = 'add') {
           // Modify destination path
           let node = text.node().parentNode.firstChild;
           const yModifier = lineNumber + 1;
+          const pathWidth = width + 15;
           d3.select(node).attr(
             'd',
             lineGenerator([
               [0, 0],
-              [width, 0],
-              [width + 10, 15 * yModifier],
-              [width, 30 * yModifier],
+              [pathWidth, 0],
+              [pathWidth + 10, 15 * yModifier],
+              [pathWidth, 30 * yModifier],
               [0, 30 * yModifier],
               [0, 0],
             ])
@@ -1284,11 +1282,13 @@ function wrap(text, cW, cP, r = 'add') {
       lineNumber = 0,
       emergence = r.emergence,
       disparition = r.disparition;
-    let width = cW - emergence * cP;
+
+    let width = cW - emergence * cP - 15;
     if (disparition != -1 && !isNaN(disparition)) {
       const end = cW - disparition * cP;
       width = width - end;
     }
+
     while ((word = words.pop())) {
       line.push(word);
       if (line.join(' ').length * 6 > width) {

@@ -18,6 +18,14 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
+<!--    JQuery - timeline -->
+
+    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript">/**/</script>
+    <script src="http://bigspotteddog.github.io/ScrollToFixed/jquery-scrolltofixed.js"
+            type="text/javascript">/**/</script>
+
+    <script src="js/timeline.js" type="text/javascript">/**/</script>
+
     <!-- Sweetalert 2 -->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
 
