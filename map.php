@@ -37,6 +37,7 @@
 <?php include("ssi/menu.html"); ?>
 <main>
     <h1>Pygmalion</h1>
+
     <div class="invisibleWhenNoData" id="map" style="visibility: hidden"></div>
     <div>
         <select
@@ -63,7 +64,13 @@
         <br />
         <button
                 id="importData"
-                style="width: 175px; float: left; color: white; margin-left: 100px"
+                style="
+          width: 175px;
+          float: left;
+          color: white;
+          margin-left: 100px;
+          font-size: 14px;
+        "
         >
             Import map data
         </button>
@@ -76,6 +83,7 @@
           color: white;
           margin-left: 5px;
           visibility: hidden;
+          font-size: 14px;
         "
         >
             Export map data
@@ -89,6 +97,7 @@
           float: right;
           color: white;
           visibility: hidden;
+          font-size: 14px;
         "
         >
             Save map as PNG
@@ -102,6 +111,7 @@
           color: white;
           margin-right: 5px;
           visibility: hidden;
+          font-size: 14px;
         "
         >
             Save map as SVG
@@ -130,6 +140,7 @@
           float: left;
           color: white;
           visibility: hidden;
+          font-size: 14px;
         "
         >
             Save graph as PNG
@@ -143,6 +154,7 @@
           color: white;
           margin-left: 5px;
           visibility: hidden;
+          font-size: 14px;
         "
         >
             Save graph as SVG

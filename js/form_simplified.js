@@ -661,15 +661,6 @@ function confirmForm(event) {
             window.location.href = 'http://woposs.unil.ch/relations.php'
           }
         });
-
-      /*if (!missingField) {
-        localStorage.setItem('map', JSON.stringify(data));
-        console.log(JSON.parse(localStorage.getItem('map')));
-        Swal.fire({
-          icon: 'success',
-          title: 'Success!',
-          text: 'The form was submitted without errors!',
-        });*/
       } else {
         swal.fire({
           icon: 'error',

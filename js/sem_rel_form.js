@@ -339,7 +339,7 @@ function submit(event) {
       title: 'Proceed with no data',
       text: 'You are about to preceed without relationship data',
       preConfirm: () => {
-        window.location.href = 'http://woposs.unil.ch/map.php'
+        // TODO: redirect to map
       },
     });
   }
