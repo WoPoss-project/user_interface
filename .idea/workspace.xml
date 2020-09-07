@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db487090-34b1-4abd-9088-e9e00729d9e7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/js/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/form_simplified.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/form_simplified.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/map.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/map.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/sem_rel_form.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/sem_rel_form.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/map.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="665" column="50" selection-start-line="665" selection-start-column="50" selection-end-line="665" selection-end-column="50" />
+            <state relative-caret-position="291">
+              <caret line="606" column="21" selection-start-line="606" selection-start-column="21" selection-end-line="606" selection-end-column="21" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -57,8 +60,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/sem_rel_form.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
-              <caret line="318" column="9" lean-forward="true" selection-start-line="318" selection-start-column="9" selection-end-line="318" selection-end-column="9" />
+            <state relative-caret-position="-2049">
+              <caret line="204" column="31" selection-start-line="204" selection-start-column="31" selection-end-line="204" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/form_simplified.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="291">
+              <caret line="511" column="34" selection-start-line="511" selection-start-column="30" selection-end-line="511" selection-end-column="34" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -93,8 +108,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/form.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2011">
-              <caret line="524" column="16" selection-start-line="524" selection-start-column="10" selection-end-line="524" selection-end-column="16" />
+            <state relative-caret-position="201">
+              <caret line="494" column="1" lean-forward="true" selection-start-line="494" selection-start-column="1" selection-end-line="494" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -124,7 +139,6 @@
       <find>&quot;group&quot;: &quot;None&quot;</find>
       <find>&quot;Zzz&quot;,</find>
       <find>sortE</find>
-      <find>'None'</find>
       <find>Zzz</find>
       <find>&quot;construct&quot;: &quot;-&quot;</find>
       <find>option</find>
@@ -140,6 +154,8 @@
       <find>to2</find>
       <find>...</find>
       <find>- 5</find>
+      <find>'None'</find>
+      <find>None</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -167,16 +183,16 @@
         <option value="$PROJECT_DIR$/pygmalion-simple.php" />
         <option value="$PROJECT_DIR$/relations.php" />
         <option value="$PROJECT_DIR$/map.php" />
-        <option value="$PROJECT_DIR$/js/form_simplified.js" />
-        <option value="$PROJECT_DIR$/js/sem_rel_form.js" />
         <option value="$PROJECT_DIR$/pygmalion.php" />
-        <option value="$PROJECT_DIR$/js/form.js" />
         <option value="$PROJECT_DIR$/map-certus.php" />
         <option value="$PROJECT_DIR$/map-certus-test.php" />
         <option value="$PROJECT_DIR$/js/map-certus-test.js" />
         <option value="$PROJECT_DIR$/js/map-certus.js" />
         <option value="$PROJECT_DIR$/semantic-modal-maps_copie.php" />
         <option value="$PROJECT_DIR$/js/map.js" />
+        <option value="$PROJECT_DIR$/js/form.js" />
+        <option value="$PROJECT_DIR$/js/sem_rel_form.js" />
+        <option value="$PROJECT_DIR$/js/form_simplified.js" />
       </list>
     </option>
   </component>
@@ -335,12 +351,12 @@
       <workItem from="1598604718802" duration="6605000" />
       <workItem from="1598871177156" duration="4517000" />
       <workItem from="1599391134526" duration="599000" />
-      <workItem from="1599460185867" duration="21023000" />
+      <workItem from="1599460185867" duration="21278000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50767000" />
+    <option name="totallyTimeSpent" value="51022000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1992" y="27" width="1976" height="1125" extended-state="6" />
@@ -563,27 +579,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/form_simplified.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="662" column="11" selection-start-line="662" selection-start-column="11" selection-end-line="662" selection-end-column="11" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pygmalion-form.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4">
           <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/form.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2011">
-          <caret line="524" column="16" selection-start-line="524" selection-start-column="10" selection-end-line="524" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -598,13 +597,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/sem_rel_form.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="318" column="9" lean-forward="true" selection-start-line="318" selection-start-column="9" selection-end-line="318" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -657,8 +649,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/map.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="665" column="50" selection-start-line="665" selection-start-column="50" selection-end-line="665" selection-end-column="50" />
+        <state relative-caret-position="291">
+          <caret line="606" column="21" selection-start-line="606" selection-start-column="21" selection-end-line="606" selection-end-column="21" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="494" column="1" lean-forward="true" selection-start-line="494" selection-start-column="1" selection-end-line="494" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/sem_rel_form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2049">
+          <caret line="204" column="31" selection-start-line="204" selection-start-column="31" selection-end-line="204" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/form_simplified.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="511" column="34" selection-start-line="511" selection-start-column="30" selection-end-line="511" selection-end-column="34" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
