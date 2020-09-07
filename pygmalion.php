@@ -10,6 +10,7 @@
 <?php include("ssi/menu.html"); ?>
 <main>
     <h1>Pygmalion</h1>
+    <p>Go to the <a href="pygmalion-form.php">modal form</a> or the <a href="pygmalion-simple.php">simplied one</a>.</p>
     <h2>Instructions</h2>
 </main>
 <?php include("ssi/footer.html"); ?>

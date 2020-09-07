@@ -21,9 +21,9 @@
         influence on that shift (e.g. the modal development of <em>certum habeo</em> could have been influenced by the
         modal
         construction <em>certum est</em>, whose modal reading is by far more ancient). We think that this complexity can be represented
-    in interactive maps so as to give a
-        clear overview of such interactions between non-modal and modal meanings in synchrony and diachrony. Thus, we are creating
-    semantic modal maps for different Latin markers, but we are also providing an open tool for any researcher to easily create a semantic (modal) map, <a href="pygmalion.php">Pygmalion</a>.</p>
+    in interactive semantic maps so as to give a
+        clear overview of such interactions between non-modal and modal meanings in synchrony and diachrony. Besides presenting our work
+    concerning Latin modal markers, we also offer to the community an open tool so any user can easily design a semantic (modal) map, <a href="pygmalion.php">Pygmalion</a>.</p>
     <p>The interactive semantic maps are the results of the research as well as of the joint skills and efforts of the
         WoPoss team (cf. in particular Bermúdez Sabel, Dell’Oro &amp; Marongiu 2020b). Our goal is to plot a semantic
         map
@@ -88,8 +88,8 @@
 
     <p>Each map offers a diachronic visualisation of the semantic evolution of a lemma starting with its etymology (on
         the extreme left). A coloured bar (from dark blue to light blue) indicates the century from which a meaning is
-        attested. Along with the different meanings of the lemma, the map includes the constructions in which the lemma
-        appears (e.g. <em>potestas</em> and <em>potestatem facio</em>). The meanings can be reordered according to different criteria, thus the user can select an organisation by the semantic group or by chronology.
+        attested. Along with the different meanings of the lemma, the map includes the collocations in which the lemma
+        appears (e.g. <em>potestas</em> and <em>potestatem facio</em>). The meanings can be reordered according to different criteria, thus the user can select an organisation by the semantic group, by collocation or by chronology.
     </p><p>For each map, we present a bilingual version and a Latin one. In the
         bilingual Latin-English version, the English equivalents of each meaning of the headword appear inside the
         arrows. For constructions, the wording is indicated on the left outside the arrow and the meaning is specified

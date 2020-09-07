@@ -46,117 +46,129 @@
 <main>
     <h1>Pygmalion</h1>
     <h2>Modal semantic map of CERTUS</h2>
-    <div class="invisibleWhenNoData" id="map" style="visibility: hidden"></div>
-    <div>
-        <select
-                class="invisibleWhenNoData"
-                id="mode"
-                style="
+
+        <div class="invisibleWhenNoData" id="map" style="visibility: hidden"></div>
+        <div>
+            <select
+                    class="invisibleWhenNoData"
+                    id="mode"
+                    style="
           margin-right: 100px;
           width: auto;
           float: right;
           visibility: hidden;
         "
-        >
-            <option value="construct">Collocations</option>
-            <option value="group">Groups</option>
-            <option value="chronology">Chronological</option>
-        </select>
-        <label
-                class="invisibleWhenNoData"
-                style="float: right; visibility: hidden"
-        >Select sort method:
-        </label>
-        <br />
-        <br />
-        <br />
-        <button
-                id="importData"
-                style="width: 175px; float: left; color: white; margin-left: 100px"
-        >
-            Import map data
-        </button>
-        <button
-                class="invisibleWhenNoData"
-                id="exportData"
-                style="
+            >
+                <option value="construct">Collocations</option>
+                <option value="group">Groups</option>
+                <option value="chronology">Chronological</option>
+            </select>
+            <label
+                    class="invisibleWhenNoData"
+                    style="float: right; visibility: hidden"
+            >Select sort method:
+            </label>
+            <br />
+            <br />
+            <br />
+            <button
+                    id="importData"
+                    style="
+          width: 175px;
+          float: left;
+          color: white;
+          margin-left: 100px;
+          font-size: 14px;
+        "
+            >
+                Import map data
+            </button>
+            <button
+                    class="invisibleWhenNoData"
+                    id="exportData"
+                    style="
           width: 175px;
           float: left;
           color: white;
           margin-left: 5px;
           visibility: hidden;
+          font-size: 14px;
         "
-        >
-            Export map data
-        </button>
-        <button
-                class="invisibleWhenNoData"
-                id="saveToPNG"
-                style="
+            >
+                Export map data
+            </button>
+            <button
+                    class="invisibleWhenNoData"
+                    id="saveToPNG"
+                    style="
           margin-right: 100px;
           width: 175px;
           float: right;
           color: white;
           visibility: hidden;
+          font-size: 14px;
         "
-        >
-            Save map as PNG
-        </button>
-        <button
-                class="invisibleWhenNoData"
-                id="saveToSVG"
-                style="
+            >
+                Save map as PNG
+            </button>
+            <button
+                    class="invisibleWhenNoData"
+                    id="saveToSVG"
+                    style="
           width: 175px;
           float: right;
           color: white;
           margin-right: 5px;
           visibility: hidden;
+          font-size: 14px;
         "
-        >
-            Save map as SVG
-        </button>
-    </div>
-    <br />
-    <br />
-    <h3
-            class="invisibleWhenNoData"
-            style="margin-left: 100px; visibility: hidden"
-    >
-        Network graph
-    </h3>
-    <div
-            class="invisibleWhenNoData"
-            id="network"
-            style="visibility: hidden"
-    ></div>
-    <div>
-        <button
+            >
+                Save map as SVG
+            </button>
+        </div>
+        <br />
+        <br />
+        <h3
                 class="invisibleWhenNoData"
-                id="saveGraphToPNG"
-                style="
+                style="margin-left: 100px; visibility: hidden"
+        >
+            Network graph
+        </h3>
+        <div
+                class="invisibleWhenNoData"
+                id="network"
+                style="visibility: hidden"
+        ></div>
+        <div>
+            <button
+                    class="invisibleWhenNoData"
+                    id="saveGraphToPNG"
+                    style="
           margin-left: 100px;
           width: 175px;
           float: left;
           color: white;
           visibility: hidden;
+          font-size: 14px;
         "
-        >
-            Save graph as PNG
-        </button>
-        <button
-                class="invisibleWhenNoData"
-                id="saveGraphToSVG"
-                style="
+            >
+                Save graph as PNG
+            </button>
+            <button
+                    class="invisibleWhenNoData"
+                    id="saveGraphToSVG"
+                    style="
           width: 175px;
           float: left;
           color: white;
           margin-left: 5px;
           visibility: hidden;
+          font-size: 14px;
         "
-        >
-            Save graph as SVG
-        </button>
-    </div>
+            >
+                Save graph as SVG
+            </button>
+        </div>
     <script src="js/map-certus.js"></script>
     <script src="js/network.js"></script>
 </main>
