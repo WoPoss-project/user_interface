@@ -115,7 +115,7 @@ const lineGenerator = d3.line();
 // sizing consts
 const margin = {
   top: 100,
-  left: 100,
+  left: 200,
   right: 100,
   bottom: 0,
 };
@@ -652,8 +652,8 @@ function drawConstructsOrGroups(elements, cW, cP, lines, mode) {
         group = formatText(
           group,
           min < max
-            ? xMiddle - getTextWidth(group) - 5
-            : x0 - getTextWidth(group) - 5
+            ? xMiddle - getTextWidth(group) - 10
+            : x0 - getTextWidth(group) - 10
         );
 
         constructsAndGroups
@@ -661,9 +661,9 @@ function drawConstructsOrGroups(elements, cW, cP, lines, mode) {
           .text(() => group)
           .attr('x', () => {
             if (min < max) {
-              return xMiddle - getTextWidth(group) - 5;
+              return xMiddle - getTextWidth(group) - 10;
             } else {
-              return x0 - getTextWidth(group) - 5;
+              return x0 - getTextWidth(group) - 10;
             }
           })
           .attr('y', yMiddle + 4)
@@ -1096,14 +1096,14 @@ group or construct element
 
 function formatText(text, x) {
   const offset = x + getTextWidth(text);
-  const to100 = 100 + offset - 10;
+  const to200 = 200 + offset - 10;
   let length = getTextWidth(text);
-  if (length > to100) {
-    while (length > to100) {
+  if (length > to200) {
+    while (length > to200) {
       text = text.substring(0, text.length - 1);
       length = getTextWidth(text);
     }
-    return text + '...';
+    return text + '…';
   } else {
     return text;
   }
