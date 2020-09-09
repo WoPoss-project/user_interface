@@ -652,8 +652,8 @@ function drawConstructsOrGroups(elements, cW, cP, lines, mode) {
         group = formatText(
           group,
           min < max
-            ? xMiddle - getTextWidth(group) - 10
-            : x0 - getTextWidth(group) - 10
+            ? xMiddle - getTextWidth(group) - 15
+            : x0 - getTextWidth(group) - 15
         );
 
         constructsAndGroups
@@ -661,13 +661,15 @@ function drawConstructsOrGroups(elements, cW, cP, lines, mode) {
           .text(() => group)
           .attr('x', () => {
             if (min < max) {
-              return xMiddle - getTextWidth(group) - 10;
+              return xMiddle - getTextWidth(group) - 15;
             } else {
-              return x0 - getTextWidth(group) - 10;
+              return x0 - getTextWidth(group) - 15;
             }
           })
           .attr('y', yMiddle + 4)
           .style('opacity', 0)
+            .style('font-size', '10pt')
+            .style('font-family', 'Arial, Helvetica, sans-serif')
           .transition()
           .duration(500)
           .style('opacity', 1);
@@ -1095,8 +1097,8 @@ group or construct element
 ---------------------------------------- */
 
 function formatText(text, x) {
-  const offset = x + getTextWidth(text);
-  const to200 = 200 + offset - 10;
+  const offset = getTextWidth(text) + x ;
+  const to200 = 200 + offset - 14;
   let length = getTextWidth(text);
   if (length > to200) {
     while (length > to200) {
@@ -1527,7 +1529,7 @@ function getTextWidth(text) {
   dummy.style.visibility = 'hidden';
   dummy.style.whiteSpace = 'nowrap';
   dummy.style.fontFamily = 'Arial, Helvetica, sans-serif';
-  dummy.style.fontSize = '12px';
+  dummy.style.fontSize = '10pt';
   document.body.appendChild(dummy);
 
   const dummyWidth = $('#ruler').width();
