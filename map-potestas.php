@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>Semantic Map: CERTUS - WoPoss</title>
+    <title>Semantic Map: POTESTAS - WoPoss</title>
 
     <link rel="stylesheet" href="css/form.css" />
 
@@ -15,7 +15,8 @@
     />
 
 
-    <script src="js/certus.js">/**/</script>
+    <script src="js/potestas.js">/**/</script>
+
 
     <!-- jQuery & Bootstrap -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -48,7 +49,7 @@
 <?php include("ssi/menu.html"); ?>
 <main>
     <h1>Pygmalion</h1>
-    <h2>Modal semantic map of CERTUS</h2>
+    <h2>Modal semantic map of POTESTAS</h2>
 
         <div class="invisibleWhenNoData" id="map" style="visibility: hidden"></div>
         <div>
@@ -74,18 +75,18 @@
             <br />
             <br />
             <br />
-            <!--<button
-                    id="importData"
-                    style="
-          width: 175px;
-          float: left;
-          color: white;
-          margin-left: 100px;
-          font-size: 14px;
-        "
-            >
-                Import map data
-            </button>-->
+<!--            <button-->
+<!--                    id="importData"-->
+<!--                    style="-->
+<!--          width: 175px;-->
+<!--          float: left;-->
+<!--          color: white;-->
+<!--          margin-left: 100px;-->
+<!--          font-size: 14px;-->
+<!--        "-->
+<!--            >-->
+<!--                Import map data-->
+<!--            </button>-->
             <button
                     class="invisibleWhenNoData"
                     id="exportData"

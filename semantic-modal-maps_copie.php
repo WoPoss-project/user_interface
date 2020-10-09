@@ -23,7 +23,7 @@
         construction <em>certum est</em>, whose modal reading is by far more ancient). We think that this complexity can be represented
     in interactive semantic maps so as to give a
         clear overview of such interactions between non-modal and modal meanings in synchrony and diachrony. Besides presenting our work
-    concerning Latin modal markers, we also offer to the community an open tool so any user can easily design a semantic (modal) map, <a href="pygmalion.php">Pygmalion</a>.</p>
+    concerning Latin modal markers, we also offer the community an open tool so any user can easily design a semantic (modal) map, <a href="pygmalion.php">Pygmalion</a>.</p>
     <p>The interactive semantic maps are the results of the research as well as of the joint skills and efforts of the
         WoPoss team (cf. in particular Bermúdez Sabel, Dell’Oro &amp; Marongiu 2020b). Our goal is to plot a semantic
         map
@@ -33,7 +33,7 @@
         of a lemma as offered by the <a href="http://www.thesaurus.badw-muenchen.de/das-projekt.html"
                                         target="_blank"><em>Thesaurus
                 Linguae Latinae</em></a> (ThLL) (Marongiu & Dell’Oro, in preparation). If the ThLL has not
-        yet compiled a lemma, the synthesis is provisionally based on the description offered by the <em>Oxford Latin
+        yet compiled a lemma, the synthesis is provisionally based on the description supplied by the <em>Oxford Latin
             Dictionary</em> (OLD). In our syntheses information about the etymology of each lemma mainly relies on the
         <em>Etymological Dictionary of Latin</em> (EDL), the <em>Dictionnaire étymologique de la langue latine</em>
         (Ernout &amp; Meillet
@@ -132,7 +132,8 @@
     <h2>Available maps</h2>
     <ul>
         <li><a href="map-certus.php">certus</a> (bilingual)</li>
-<!--        <li><a href="potestas.php">potestas</a></li>-->
+        <li><a href="map-certus-la.php">certus</a> (monolingual)</li>
+       <li><a href="map-potestas.php">potestas</a> (bilingual)</li>
     </ul>
 
 

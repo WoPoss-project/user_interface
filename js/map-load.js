@@ -1,4 +1,5 @@
-/* 
+
+/*
 map.js:
 This code handles the drawing of the semantic map. It allows the user to:
   - Interact with any meaning and thus display the meanings it has relationships with
@@ -11,7 +12,7 @@ This code handles the drawing of the semantic map. It allows the user to:
 Code written by Loris Rimaz
 */
 
-let data = JSON.parse(localStorage.getItem('map'));
+let data = map_data;
 let definitions, colors, earliest, latest;
 
 // DOM selections
@@ -76,8 +77,8 @@ function importJSONData(event) {
 }
 
 /* ------------------------------------
-"exportJSONData" function: allows the 
-user to export the JSON data and 
+"exportJSONData" function: allows the
+user to export the JSON data and
 download it
 ------------------------------------ */
 
@@ -85,7 +86,7 @@ function exportJSONData(event) {
   event.preventDefault();
   const dataString = JSON.stringify(data);
   const dataURI =
-    'data:text/json;charset=utf-8,' + encodeURIComponent(dataString);
+      'data:text/json;charset=utf-8,' + encodeURIComponent(dataString);
   const exportFileName = 'semantic_map.json';
 
   const linkElement = document.createElement('a');
@@ -103,9 +104,9 @@ select.addEventListener('change', (event) => {
   selectMode = value;
   const elements = meaningsGroup.selectAll('g').data();
   drawData(
-    elements,
-    elements.length < definitions.length ? true : false,
-    value
+      elements,
+      elements.length < definitions.length ? true : false,
+      value
   );
 });
 
@@ -121,18 +122,18 @@ const margin = {
 };
 const width = '100%';
 const height = definitions
-  ? margin.top * 2.5 - 5 + definitions.length * 37 + 37
-  : 0;
+    ? margin.top * 2.5 - 5 + definitions.length * 37 + 37
+    : 0;
 
 // Definition of SVG
 const svg = d3
-  .select('#map')
-  .append('svg')
-  .attr('id', 'map')
-  .attr('width', width)
-  .attr('height', height)
-  .attr('style', 'font: 12px sans-serif')
-  .style('background-color', 'white');
+    .select('#map')
+    .append('svg')
+    .attr('id', 'map')
+    .attr('width', width)
+    .attr('height', height)
+    .attr('style', 'font: 12px sans-serif')
+    .style('background-color', 'white');
 
 const w = Number(svg.style('width').split('px')[0]);
 const h = Number(svg.style('height').split('px')[0]);
@@ -143,65 +144,65 @@ the relationship arrows
 -------------------------------- */
 
 svg
-  .append('svg:defs')
-  .append('svg:marker')
-  .attr('id', 'arrow1')
-  .attr('refX', 4.25)
-  .attr('refY', 2)
-  .attr('markerWidth', 30)
-  .attr('markerHeight', 30)
-  .attr('orient', 'auto-start-reverse')
-  .append('path')
-  .attr('d', 'M 0 0 4 2 0 4 0.25 2')
-  .style('fill', 'black');
+    .append('svg:defs')
+    .append('svg:marker')
+    .attr('id', 'arrow1')
+    .attr('refX', 4.25)
+    .attr('refY', 2)
+    .attr('markerWidth', 30)
+    .attr('markerHeight', 30)
+    .attr('orient', 'auto-start-reverse')
+    .append('path')
+    .attr('d', 'M 0 0 4 2 0 4 0.25 2')
+    .style('fill', 'black');
 
 svg
-  .append('svg:defs')
-  .append('svg:marker')
-  .attr('id', 'arrow2')
-  .attr('refX', -1)
-  .attr('refY', 2)
-  .attr('markerWidth', 30)
-  .attr('markerHeight', 30)
-  .attr('orient', '0deg')
-  .append('path')
-  .attr('d', 'M 0 0 4 2 0 4 0.25 2')
-  .style('fill', 'black');
+    .append('svg:defs')
+    .append('svg:marker')
+    .attr('id', 'arrow2')
+    .attr('refX', -1)
+    .attr('refY', 2)
+    .attr('markerWidth', 30)
+    .attr('markerHeight', 30)
+    .attr('orient', '0deg')
+    .append('path')
+    .attr('d', 'M 0 0 4 2 0 4 0.25 2')
+    .style('fill', 'black');
 
 /* --------------------------------
 definition of the various D3 groups
 -------------------------------- */
 
 const legend = svg
-  .append('g')
-  .attr('class', 'legend')
-  .attr('transform', `translate(${margin.left}, 0)`);
+    .append('g')
+    .attr('class', 'legend')
+    .attr('transform', `translate(${margin.left}, 0)`);
 
 const etymology = svg
-  .append('g')
-  .attr('class', 'etymology')
-  .attr('transform', `translate(${margin.left}, ${margin.top + 5})`);
+    .append('g')
+    .attr('class', 'etymology')
+    .attr('transform', `translate(${margin.left}, ${margin.top + 5})`);
 
 const relationshipGroup = svg
-  .append('g')
-  .attr('class', 'relationship')
-  .attr('transform', `translate(${margin.left}, ${margin.top * 2.5 + 15})`);
+    .append('g')
+    .attr('class', 'relationship')
+    .attr('transform', `translate(${margin.left}, ${margin.top * 2.5 + 15})`);
 
 const constructsAndGroups = svg
-  .append('g')
-  .attr('class', 'relationship')
-  .attr('transform', `translate(${margin.left}, ${margin.top * 2.5})`);
+    .append('g')
+    .attr('class', 'relationship')
+    .attr('transform', `translate(${margin.left}, ${margin.top * 2.5})`);
 
 const meaningsGroup = svg
-  .append('g')
-  .attr('class', 'meanings')
-  .attr('transform', `translate(${margin.left}, ${margin.top * 2.5})`);
+    .append('g')
+    .attr('class', 'meanings')
+    .attr('transform', `translate(${margin.left}, ${margin.top * 2.5})`);
 
 const watermarkGroup = svg.append('g').attr('class', 'watermark');
 
 const scale = svg
-  .append('g')
-  .attr('transform', `translate(${margin.left}, ${margin.top * 2})`);
+    .append('g')
+    .attr('transform', `translate(${margin.left}, ${margin.top * 2})`);
 
 /* ----------------------------------------
 "basicDisplay" function:
@@ -226,8 +227,8 @@ function basicDisplay() {
     cols.forEach((c) => {
       let longest = 0;
       c.forEach(
-        (i) =>
-          (longest = lengths[i] && lengths[i] > longest ? lengths[i] : longest)
+          (i) =>
+              (longest = lengths[i] && lengths[i] > longest ? lengths[i] : longest)
       );
       colsWidth.push(longest + 30);
     });
@@ -241,20 +242,20 @@ function basicDisplay() {
       }
 
       legend
-        .append('rect')
-        .style('fill', colors[modalities[i]])
-        .attr('x', colsSpace)
-        .attr('y', row * 25)
-        .attr('width', 12)
-        .attr('height', 12);
+          .append('rect')
+          .style('fill', colors[modalities[i]])
+          .attr('x', colsSpace)
+          .attr('y', row * 25)
+          .attr('width', 12)
+          .attr('height', 12);
 
       legend
-        .append('text')
-        .text(modalities[i])
-        .attr('x', colsSpace)
-        .attr('y', row * 25)
-        .attr('dx', 15)
-        .attr('dy', 10);
+          .append('text')
+          .text(modalities[i])
+          .attr('x', colsSpace)
+          .attr('y', row * 25)
+          .attr('dx', 15)
+          .attr('dy', 10);
     }
   }
 
@@ -263,76 +264,76 @@ function basicDisplay() {
   const boxY = data.normalForm ? (col + 1) * 25 : 25;
 
   colsSpace +=
-    getTextWidth(data.normalForm ? 'Likely modal (see color)' : 'Meaning') + 26;
+      getTextWidth(data.normalForm ? 'Likely modal (see color)' : 'Meaning') + 26;
 
   legend
-    .append('rect')
-    .attr('width', 10)
-    .attr('height', 10)
-    .attr('x', boxX)
-    .attr('y', boxY)
-    .style('fill', 'none')
-    .style('stroke', () => (data.normalForm ? 'black' : 'lightgrey'))
-    .style('stroke-width', 2)
-    .style('stroke-dasharray', () => (data.normalForm ? 4 : 0));
+      .append('rect')
+      .attr('width', 10)
+      .attr('height', 10)
+      .attr('x', boxX)
+      .attr('y', boxY)
+      .style('fill', 'none')
+      .style('stroke', () => (data.normalForm ? 'black' : 'lightgrey'))
+      .style('stroke-width', 2)
+      .style('stroke-dasharray', () => (data.normalForm ? 4 : 0));
 
   legend
-    .append('text')
-    .text(() => (data.normalForm ? 'Likely modal (see color)' : 'Meaning'))
-    .attr('x', boxX)
-    .attr('y', boxY)
-    .attr('dx', 15)
-    .attr('dy', 10);
+      .append('text')
+      .text(() => (data.normalForm ? 'Likely modal (see color)' : 'Meaning'))
+      .attr('x', boxX)
+      .attr('y', boxY)
+      .attr('dx', 15)
+      .attr('dy', 10);
 
   const pathX1 = data.normalForm ? colsSpace : 0;
   const pathX2 = data.normalForm ? colsSpace + 20 : 20;
   const pathY = data.normalForm ? 47 : 50;
 
   legend
-    .append('path')
-    .attr(
-      'd',
-      lineGenerator([
-        [pathX1, pathY],
-        [pathX2, pathY],
-      ])
-    )
-    .style('fill', 'none')
-    .style('stroke', 'black')
-    .style('stroke-width', 2)
-    .style('stroke-dasharray', 0);
+      .append('path')
+      .attr(
+          'd',
+          lineGenerator([
+            [pathX1, pathY],
+            [pathX2, pathY],
+          ])
+      )
+      .style('fill', 'none')
+      .style('stroke', 'black')
+      .style('stroke-width', 2)
+      .style('stroke-dasharray', 0);
 
   legend
-    .append('text')
-    .text('Semantic relation')
-    .attr('x', pathX1)
-    .attr('y', pathY)
-    .attr('dx', 25)
-    .attr('dy', 3.5);
+      .append('text')
+      .text('Semantic relation')
+      .attr('x', pathX1)
+      .attr('y', pathY)
+      .attr('dx', 25)
+      .attr('dy', 3.5);
 
   const pathY2 = pathY + 20;
 
   legend
-    .append('path')
-    .attr(
-      'd',
-      lineGenerator([
-        [pathX1, pathY2],
-        [pathX2, pathY2],
-      ])
-    )
-    .style('fill', 'none')
-    .style('stroke', 'black')
-    .style('stroke-width', 2)
-    .style('stroke-dasharray', 4);
+      .append('path')
+      .attr(
+          'd',
+          lineGenerator([
+            [pathX1, pathY2],
+            [pathX2, pathY2],
+          ])
+      )
+      .style('fill', 'none')
+      .style('stroke', 'black')
+      .style('stroke-width', 2)
+      .style('stroke-dasharray', 4);
 
   legend
-    .append('text')
-    .text('Hypothetical semantic relation')
-    .attr('x', pathX1)
-    .attr('y', pathY2)
-    .attr('dx', 25)
-    .attr('dy', 3.5);
+      .append('text')
+      .text('Hypothetical semantic relation')
+      .attr('x', pathX1)
+      .attr('y', pathY2)
+      .attr('dx', 25)
+      .attr('dy', 3.5);
 
   drawEtymology();
   drawData();
@@ -359,64 +360,64 @@ function drawEtymology() {
 
     for (let i = 0; i < newEty.length + 1; i++) {
       gw = newEty[i]
-        ? getTextWidth(newEty[i][2]) > getTextWidth(newEty[i][1]) &&
+          ? getTextWidth(newEty[i][2]) > getTextWidth(newEty[i][1]) &&
           getTextWidth(newEty[i][2]) > getTextWidth(newEty[i][0])
-          ? getTextWidth(newEty[i][2])
-          : getTextWidth(newEty[i][1]) > getTextWidth(newEty[i][2]) &&
-            getTextWidth(newEty[i][1]) > getTextWidth(newEty[i][0])
-          ? getTextWidth(newEty[i][1])
-          : getTextWidth(newEty[i][0])
-        : getTextWidth(data.headword);
+              ? getTextWidth(newEty[i][2])
+              : getTextWidth(newEty[i][1]) > getTextWidth(newEty[i][2]) &&
+              getTextWidth(newEty[i][1]) > getTextWidth(newEty[i][0])
+                  ? getTextWidth(newEty[i][1])
+                  : getTextWidth(newEty[i][0])
+          : getTextWidth(data.headword);
       gw += 50;
 
       const g = etymology
-        .append('g')
-        .attr('transform', `translate(${totalLength}, 0)`);
+          .append('g')
+          .attr('transform', `translate(${totalLength}, 0)`);
 
       g.append('path')
-        .attr('d', () => {
-          if (i == 0) {
-            return lineGenerator([
-              [0, 0],
-              [gw, 0],
-              [gw + 25, gh / 2],
-              [gw, gh],
-              [0, gh],
-              [0, 0],
-            ]);
-          } else {
-            return lineGenerator([
-              [0, 0],
-              [gw, 0],
-              [gw + 25, gh / 2],
-              [gw, gh],
-              [0, gh],
-              [25, gh / 2],
-              [0, 0],
-            ]);
-          }
-        })
-        .style('fill', 'none')
-        .style('stroke', 'black')
-        .style('stroke-width', 3)
-        .style('stroke-dasharray', () =>
-          newEty[i] ? (newEty[i][3] ? 0 : 4) : 0
-        );
+          .attr('d', () => {
+            if (i == 0) {
+              return lineGenerator([
+                [0, 0],
+                [gw, 0],
+                [gw + 25, gh / 2],
+                [gw, gh],
+                [0, gh],
+                [0, 0],
+              ]);
+            } else {
+              return lineGenerator([
+                [0, 0],
+                [gw, 0],
+                [gw + 25, gh / 2],
+                [gw, gh],
+                [0, gh],
+                [25, gh / 2],
+                [0, 0],
+              ]);
+            }
+          })
+          .style('fill', 'none')
+          .style('stroke', 'black')
+          .style('stroke-width', 3)
+          .style('stroke-dasharray', () =>
+              newEty[i] ? (newEty[i][3] ? 0 : 4) : 0
+          );
       if (newEty[i]) {
         for (let j = 0; j < newEty[i].length - 1; j++) {
           g.append('text')
-            .text(newEty[i][j])
-            .attr('x', i === 0 ? 18 : 25)
-            .attr('y', j * 25)
-            .attr('dx', 12)
-            .attr('dy', 20);
+              .text(newEty[i][j])
+              .attr('x', i === 0 ? 18 : 25)
+              .attr('y', j * 25)
+              .attr('dx', 12)
+              .attr('dy', 20);
         }
       } else {
         g.append('text')
-          .text(data.headword)
-          .attr('x', 20)
-          .attr('y', gh / 2 + 3)
-          .attr('dx', i == 0 ? 0 : 20);
+            .text(data.headword)
+            .attr('x', 20)
+            .attr('y', gh / 2 + 3)
+            .attr('dx', i == 0 ? 0 : 20);
       }
       totalLength += gw;
     }
@@ -424,73 +425,73 @@ function drawEtymology() {
     gw = getTextWidth(data.headword) + 25;
 
     const g = etymology
-      .append('g')
-      .attr('transform', `translate(${totalLength}, 0)`);
-
-    g.append('path')
-      .attr(
-        'd',
-        lineGenerator([
-          [0, 0],
-          [25, 0],
-          [gw, 0],
-          [gw + 25, gh / 2],
-          [gw, gh],
-          [25, gh],
-          [0, gh],
-          [0, 0],
-        ])
-      )
-      .style('fill', 'none')
-      .style('stroke', 'black')
-      .style('stroke-width', 3);
-
-    g.append('text')
-      .text(data.headword)
-      .attr('x', 20)
-      .attr('y', gh / 2 + 3);
-  } else {
-    for (let i = 0; i < 2; i++) {
-      gw =
-        i === 0
-          ? getTextWidth('Etymology unknown')
-          : getTextWidth(data.headword);
-      gw += i === 0 ? 25 : 45;
-      const g = etymology
         .append('g')
         .attr('transform', `translate(${totalLength}, 0)`);
 
-      g.append('path')
-        .attr('d', () => {
-          if (i == 0) {
-            return lineGenerator([
+    g.append('path')
+        .attr(
+            'd',
+            lineGenerator([
               [0, 0],
+              [25, 0],
               [gw, 0],
               [gw + 25, gh / 2],
               [gw, gh],
+              [25, gh],
               [0, gh],
               [0, 0],
-            ]);
-          } else {
-            return lineGenerator([
-              [0, 0],
-              [gw, 0],
-              [gw + 25, gh / 2],
-              [gw, gh],
-              [0, gh],
-              [25, gh / 2],
-              [0, 0],
-            ]);
-          }
-        })
+            ])
+        )
         .style('fill', 'none')
         .style('stroke', 'black')
         .style('stroke-width', 3);
 
-      g.append('text')
-        .text(i === 0 ? 'Etymology unknown' : data.headword)
-        .attr('x', i === 0 ? 20 : 40)
+    g.append('text')
+        .text(data.headword)
+        .attr('x', 20)
         .attr('y', gh / 2 + 3);
+  } else {
+    for (let i = 0; i < 2; i++) {
+      gw =
+          i === 0
+              ? getTextWidth('Etymology unknown')
+              : getTextWidth(data.headword);
+      gw += i === 0 ? 25 : 45;
+      const g = etymology
+          .append('g')
+          .attr('transform', `translate(${totalLength}, 0)`);
+
+      g.append('path')
+          .attr('d', () => {
+            if (i == 0) {
+              return lineGenerator([
+                [0, 0],
+                [gw, 0],
+                [gw + 25, gh / 2],
+                [gw, gh],
+                [0, gh],
+                [0, 0],
+              ]);
+            } else {
+              return lineGenerator([
+                [0, 0],
+                [gw, 0],
+                [gw + 25, gh / 2],
+                [gw, gh],
+                [0, gh],
+                [25, gh / 2],
+                [0, 0],
+              ]);
+            }
+          })
+          .style('fill', 'none')
+          .style('stroke', 'black')
+          .style('stroke-width', 3);
+
+      g.append('text')
+          .text(i === 0 ? 'Etymology unknown' : data.headword)
+          .attr('x', i === 0 ? 20 : 40)
+          .attr('y', gh / 2 + 3);
 
       totalLength += gw;
     }
@@ -505,71 +506,71 @@ handles the enter, update and exit calls.
 ---------------------------------------- */
 
 function drawData(
-  elements = definitions,
-  allowUpdate = false,
-  mode = selectMode
+    elements = definitions,
+    allowUpdate = false,
+    mode = selectMode
 ) {
   meaningsGroup.style('width', (w / 100) * 80);
   const container = getContainerData();
 
   let tip = d3
-    .select('body')
-    .append('div')
-    .attr('class', 'tooltip-donut')
-    .style('opacity', 0);
+      .select('body')
+      .append('div')
+      .attr('class', 'tooltip-donut')
+      .style('opacity', 0);
 
   elements = sortElements(elements, mode);
 
   const lines = getLines(elements, container.width, container.portion);
 
   drawConstructsOrGroups(
-    elements,
-    container.width,
-    container.portion,
-    lines,
-    mode
+      elements,
+      container.width,
+      container.portion,
+      lines,
+      mode
   );
 
   meaningsGroup
-    .selectAll('g')
-    .data(elements, (d) => d.id)
+      .selectAll('g')
+      .data(elements, (d) => d.id)
 
-    .join(
-      (enter) =>
-        enter
-          .append('g')
-          .attr('class', 'data')
-          .attr('transform', (d, i) => {
-            return `translate(${d.emergence * container.portion}, ${
-              i * 37 + lines[i] * 30
-            })`;
-          })
-          .style('opacity', 0)
-          .call(addElems, container.width, container.portion, tip)
-          .call((enter) =>
-            enter.transition().duration(250).style('opacity', 1)
-          ),
-      (update) =>
-        update
-          .call(
-            updateElems,
-            container.width,
-            container.portion,
-            elements,
-            allowUpdate,
-            lines
-          )
-          .transition()
-          .duration(250)
-          .attr(
-            'transform',
-            (d, i) =>
-              `translate(${d.emergence * container.portion}, ${
-                i * 37 + lines[i] * 30
-              })`
-          ),
-      (exit) => exit.transition().duration(250).style('opacity', 0).remove()
-    );
+      .join(
+          (enter) =>
+              enter
+                  .append('g')
+                  .attr('class', 'data')
+                  .attr('transform', (d, i) => {
+                    return `translate(${d.emergence * container.portion}, ${
+                    i * 37 + lines[i] * 30
+                        })`;
+                  })
+                  .style('opacity', 0)
+                  .call(addElems, container.width, container.portion, tip)
+                  .call((enter) =>
+                      enter.transition().duration(250).style('opacity', 1)
+                  ),
+          (update) =>
+              update
+                  .call(
+                      updateElems,
+                      container.width,
+                      container.portion,
+                      elements,
+                      allowUpdate,
+                      lines
+                  )
+                  .transition()
+                  .duration(250)
+                  .attr(
+                      'transform',
+                      (d, i) =>
+                          `translate(${d.emergence * container.portion}, ${
+                          i * 37 + lines[i] * 30
+                              })`
+                  ),
+          (exit) => exit.transition().duration(250).style('opacity', 0).remove()
+      );
 
   drawScale(earliest, latest, container.width);
 }
@@ -577,18 +578,18 @@ function drawData(
 function drawWatermark(wmHeight) {
   const container = getContainerData();
   watermarkGroup.attr(
-    'transform',
-    `translate(${container.width}, ${wmHeight})`
+      'transform',
+      `translate(${container.width}, ${wmHeight})`
   );
   watermarkGroup
-    .append('text')
-    .text('by WoPoss')
-    .style('fill', '#87aac9')
-    .style('font-style', 'italic')
-    .attr('x', 0)
-    .attr('y', 0)
-    .attr('dx', 45)
-    .attr('dy', -15);
+      .append('text')
+      .text('by WoPoss')
+      .style('fill', '#87aac9')
+      .style('font-style', 'italic')
+      .attr('x', 0)
+      .attr('y', 0)
+      .attr('dx', 45)
+      .attr('dy', -15);
 }
 
 /* ----------------------------------------
@@ -607,7 +608,7 @@ function drawConstructsOrGroups(elements, cW, cP, lines, mode) {
       if (group != '_') {
         const indexes = [];
         elements.forEach((el) =>
-          el[mode] == group ? indexes.push(elements.indexOf(el)) : false
+            el[mode] == group ? indexes.push(elements.indexOf(el)) : false
         );
         // Coordinates calculations
         const max = Math.max(...indexes);
@@ -618,61 +619,61 @@ function drawConstructsOrGroups(elements, cW, cP, lines, mode) {
         const xMiddle = x2 - 10;
         const y0 = min * 37 + lines[min] * 30;
         const y1 =
-          max * 37 +
-          lines[max] * 30 +
-          (wrap(elements[max].meaning, cW, cP, elements[max]) + 1) * 30;
+            max * 37 +
+            lines[max] * 30 +
+            (wrap(elements[max].meaning, cW, cP, elements[max]) + 1) * 30;
         const pathHeight = y1 - y0;
         const yMiddle = y1 - pathHeight / 2;
 
         // Add paths and texts to 'constructsAndGroups' group
         if (min < max) {
           constructsAndGroups
-            .append('path')
-            .attr(
-              'd',
-              lineGenerator([
-                [x0, y0],
-                [x2, y0],
-                [x2, yMiddle],
-                [xMiddle, yMiddle],
-                [x2, yMiddle],
-                [x2, y1],
-                [x0, y1],
-              ])
-            )
-            .attr('fill', 'none')
-            .style('stroke', 'black')
-            .style('stroke-width', 1)
-            .style('opacity', 0)
-            .transition()
-            .duration(500)
-            .style('opacity', 1);
+              .append('path')
+              .attr(
+                  'd',
+                  lineGenerator([
+                    [x0, y0],
+                    [x2, y0],
+                    [x2, yMiddle],
+                    [xMiddle, yMiddle],
+                    [x2, yMiddle],
+                    [x2, y1],
+                    [x0, y1],
+                  ])
+              )
+              .attr('fill', 'none')
+              .style('stroke', 'black')
+              .style('stroke-width', 1)
+              .style('opacity', 0)
+              .transition()
+              .duration(500)
+              .style('opacity', 1);
         }
 
         group = formatText(
-          group,
-          min < max
-            ? xMiddle - getTextWidth(group) - 15
-            : x0 - getTextWidth(group) - 15
+            group,
+            min < max
+                ? xMiddle - getTextWidth(group) - 15
+                : x0 - getTextWidth(group) - 15
         );
 
         constructsAndGroups
-          .append('text')
-          .text(() => group)
-          .attr('x', () => {
-            if (min < max) {
-              return xMiddle - getTextWidth(group) - 15;
-            } else {
-              return x0 - getTextWidth(group) - 15;
-            }
-          })
-          .attr('y', yMiddle + 4)
-          .style('opacity', 0)
+            .append('text')
+            .text(() => group)
+            .attr('x', () => {
+              if (min < max) {
+                return xMiddle - getTextWidth(group) - 15;
+              } else {
+                return x0 - getTextWidth(group) - 15;
+              }
+            })
+            .attr('y', yMiddle + 4)
+            .style('opacity', 0)
             .style('font-size', '10pt')
             .style('font-family', 'Arial, Helvetica, sans-serif')
-          .transition()
-          .duration(500)
-          .style('opacity', 1);
+            .transition()
+            .duration(500)
+            .style('opacity', 1);
       }
     });
   }
@@ -686,104 +687,103 @@ to the passed data.
 
 function addElems(elements, cW, cP, tip) {
   elements
-    .append('path')
-    .attr('d', (d) => {
-      let width = cW - d.emergence * cP;
-      if (d.disparition != -1 && !isNaN(d.disparition)) {
-        const end = cW - d.disparition * cP;
-        width = width - end;
-      }
-      return lineGenerator([
-        [0, 0],
-        [0 + width, 0],
-        [0 + width + 10, 15],
-        [0 + width, 30],
-        [0, 30],
-        [0, 0],
-      ]);
-    })
-    .style('stroke-dasharray', (d) => (!d.certainty ? 4 : 0))
-    .style('fill', 'white')
-    .style('stroke', (d) => colors[d.modal])
-    .style('stroke-width', 3)
-    .on('click', (d) => {
-      tip.transition().duration(50).style('opacity', 0);
-      newDisplay(d);
-    })
-    .on('dblclick', () => {
-      d3.event.preventDefault();
-      relationshipGroup.selectAll('.rel').remove();
-      drawData();
-    })
-    .on('mouseover', (d) => {
-      tip.transition().duration(50).style('opacity', 1);
-      tip
-        .html(() => {
-          // Display year depending on date format
-          const r =
-            data.dataFormat != 'cent'
-              ? data.dataFormat === 'dec'
-                ? range10(
-                    earliest > 0 && latest > 0
-                      ? findCent(earliest) - 100
-                      : findCent(earliest),
-                    findCent(latest) + 100
-                  )
-                : range(
-                    earliest > 0 && latest > 0
-                      ? findCent(earliest) - 99
-                      : findCent(earliest),
-                    findCent(latest) + 100
-                  )
-              : 0;
-          // Text formatting depending on date format and 'r'
-          if (data.dataFormat === 'cent') {
-            const em = (earliest <= 0) ? d.emergence - Math.abs(earliest) : d.emergence + earliest - 1;
-            const dis =  (earliest <= 0) ? d.disparition - Math.abs(earliest) : d.disparition + earliest;
-            const corrected_em = em + 1;
-            const corrected_dis = dis + 1;
-            return (
-                (em < 0 ? `${romanize(em)} BC` : romanize(corrected_em)) +
-              ' to ' +
-              (isNaN(d.disparition)
-                ? 'undefined date'
-                : dis < 0
-                ? `${romanize(dis)} BC`
-                : romanize(corrected_dis)) +
-              ': ' +
-              d.attestation
-            );
-          } else {
-            return (
-              r[d.emergence] +
-              (data.dataFormat === 'dec' ? 's to ' : ' to ') +
-              (d.disparition != -1 ? r[d.disparition] : 'undefined date') +
-              (data.dataFormat === 'dec'
-                ? d.disparition != -1
-                  ? 's: '
-                  : ': '
-                : ': ') +
-              d.attestation
-            );
-          }
-        })
-        .style('left', d3.event.pageX + 10 + 'px')
-        .style('top', d3.event.pageY - 15 + 'px');
-    })
-    .on('mouseout', () => {
-      tip.transition().duration(50).style('opacity', 0);
-    });
+      .append('path')
+      .attr('d', (d) => {
+        let width = cW - d.emergence * cP;
+        if (d.disparition != -1 && !isNaN(d.disparition)) {
+          const end = cW - d.disparition * cP;
+          width = width - end;
+        }
+        return lineGenerator([
+          [0, 0],
+          [0 + width, 0],
+          [0 + width + 10, 15],
+          [0 + width, 30],
+          [0, 30],
+          [0, 0],
+        ]);
+      })
+      .style('stroke-dasharray', (d) => (!d.certainty ? 4 : 0))
+      .style('fill', 'white')
+      .style('stroke', (d) => colors[d.modal])
+      .style('stroke-width', 3)
+      .on('click', (d) => {
+        tip.transition().duration(50).style('opacity', 0);
+        newDisplay(d);
+      })
+      .on('dblclick', () => {
+        d3.event.preventDefault();
+        relationshipGroup.selectAll('.rel').remove();
+        drawData();
+      })
+      .on('mouseover', (d) => {
+        tip.transition().duration(50).style('opacity', 1);
+        tip
+            .html(() => {
+              // Display year depending on date format
+              const r =
+                  data.dataFormat != 'cent'
+                      ? data.dataFormat === 'dec'
+                      ? range10(
+                          earliest > 0 && latest > 0
+                              ? findCent(earliest) - 100
+                              : findCent(earliest),
+                          findCent(latest) + 100
+                      )
+                      : range(
+                          earliest > 0 && latest > 0
+                              ? findCent(earliest) - 99
+                              : findCent(earliest),
+                          findCent(latest) + 100
+                      )
+                      : 0;
+              // Text formatting depending on date format and 'r'
+              if (data.dataFormat === 'cent') {
+                const em = d.emergence - Math.abs(earliest);
+                const dis = d.disparition - Math.abs(earliest);
+                const corrected_date = em + 1;
+                return (
+                    (em < 0 ? `${romanize(em)} BC` : romanize(corrected_date)) +
+                    ' to ' +
+                    (isNaN(d.disparition)
+                        ? 'undefined date'
+                        : dis < 0
+                            ? `${romanize(dis)} BC`
+                            : romanize(dis)) +
+                    ': ' +
+                    d.attestation
+                );
+              } else {
+                return (
+                    r[d.emergence] +
+                    (data.dataFormat === 'dec' ? 's to ' : ' to ') +
+                    (d.disparition != -1 ? r[d.disparition] : 'undefined date') +
+                    (data.dataFormat === 'dec'
+                        ? d.disparition != -1
+                            ? 's: '
+                            : ': '
+                        : ': ') +
+                    d.attestation
+                );
+              }
+            })
+            .style('left', d3.event.pageX + 10 + 'px')
+            .style('top', d3.event.pageY - 15 + 'px');
+      })
+      .on('mouseout', () => {
+        tip.transition().duration(50).style('opacity', 0);
+      });
 
   elements
-    .insert('text')
-    .style('fill', 'black')
-    .attr('dy', '1.66em')
-    .attr('dx', '1.1em')
-    .attr('text-anchor', 'start')
-    .text((d) => d.meaning)
-    .attr('y', 0)
-    .attr('x', 0)
-    .call(wrap, cW, cP);
+      .insert('text')
+      .style('fill', 'black')
+      .attr('dy', '1.66em')
+      .attr('dx', '1.1em')
+      .attr('text-anchor', 'start')
+      .text((d) => d.meaning)
+      .attr('y', 0)
+      .attr('x', 0)
+      .call(wrap, cW, cP);
 }
 
 /* ----------------------------------------
@@ -795,12 +795,12 @@ hand side of the data elements.
 function updateElems(_, cW, cP, elementsData, displayRels, lines) {
   if (displayRels) {
     const element = elementsData.reduce((acc, curr) =>
-      curr.rel === 'origin' ? (acc = curr) : acc
+        curr.rel === 'origin' ? (acc = curr) : acc
     );
     const elementIndex = elementsData.indexOf(element);
     const indexes = range(
-      0 - elementIndex,
-      elementsData.length - 1 - elementIndex
+        0 - elementIndex,
+        elementsData.length - 1 - elementIndex
     );
 
     // Calculations for relationships arrows' coordinates:
@@ -810,64 +810,64 @@ function updateElems(_, cW, cP, elementsData, displayRels, lines) {
     of the element. 'wrap' returns the number of lines for each elements,
     which is then multiplied by 15, thus giving the middle of the element's height */
     const offset =
-      lines[elementIndex] * 30 + wrap(element.meaning, cW, cP, element) * 15;
+        lines[elementIndex] * 30 + wrap(element.meaning, cW, cP, element) * 15;
     const x0 =
-      element.disparition != -1 && !isNaN(element.disparition)
-        ? element.disparition * cP + 10
-        : cW + 10;
+        element.disparition != -1 && !isNaN(element.disparition)
+            ? element.disparition * cP + 10
+            : cW + 10;
     const y0 = elementIndex * 37 + offset;
 
     relationshipGroup.selectAll('.rel').remove();
     relationshipGroup
-      .selectAll('.rel')
-      .data(elementsData, (d) => d.id)
-      .enter()
-      .append('path')
-      .attr('class', 'rel')
-      .attr('fill', 'none')
-      .attr('stroke', 'black')
-      .attr('stroke-width', 3)
-      .attr('marker-end', (d) =>
-        d.rel === 'destinations'
-          ? 'url(#arrow1)'
-          : d.rel === 'origins'
-          ? 'url(#arrow2)'
-          : false
-      )
-      .style('stroke-dasharray', (d) => (!d.relCert ? 4 : 0))
-      .style('opacity', 0)
-      .attr('d', (d, i) => {
-        const modifier = indexes[i];
-        const lineHeight = wrap(d.meaning, cW, cP, d);
-        // Same calculation as 'offset'
-        const off = lines[i] * 30 + lineHeight * 15;
-        const x1 =
-          cW + 10 + (Math.abs(modifier) * margin.right) / 1.5 / indexes.length;
-        const x2 =
-          d.disparition != -1 && !isNaN(d.disparition)
-            ? d.disparition * cP + 10
-            : cW + 10;
-        const y1 = y0 - offset + modifier * 37 + off;
-        const points =
-          i != elementIndex
-            ? [
-                [x0, y0],
-                [x1, y0],
-                [x1, y1],
-                [x2, y1],
-              ]
-            : [[x0, y0]];
-        return lineGenerator(points);
-      })
-      .transition()
-      .duration(500)
-      .style('opacity', 1);
+        .selectAll('.rel')
+        .data(elementsData, (d) => d.id)
+        .enter()
+        .append('path')
+        .attr('class', 'rel')
+        .attr('fill', 'none')
+        .attr('stroke', 'black')
+        .attr('stroke-width', 3)
+        .attr('marker-end', (d) =>
+            d.rel === 'destinations'
+                ? 'url(#arrow1)'
+                : d.rel === 'origins'
+                ? 'url(#arrow2)'
+                : false
+        )
+        .style('stroke-dasharray', (d) => (!d.relCert ? 4 : 0))
+        .style('opacity', 0)
+        .attr('d', (d, i) => {
+          const modifier = indexes[i];
+          const lineHeight = wrap(d.meaning, cW, cP, d);
+          // Same calculation as 'offset'
+          const off = lines[i] * 30 + lineHeight * 15;
+          const x1 =
+              cW + 10 + (Math.abs(modifier) * margin.right) / 1.5 / indexes.length;
+          const x2 =
+              d.disparition != -1 && !isNaN(d.disparition)
+                  ? d.disparition * cP + 10
+                  : cW + 10;
+          const y1 = y0 - offset + modifier * 37 + off;
+          const points =
+              i != elementIndex
+                  ? [
+                    [x0, y0],
+                    [x1, y0],
+                    [x1, y1],
+                    [x2, y1],
+                  ]
+                  : [[x0, y0]];
+          return lineGenerator(points);
+        })
+        .transition()
+        .duration(500)
+        .style('opacity', 1);
   }
 }
 
 /* ----------------------------------------
 "drawScale" function:
-draws the scale displayed on top of the 
+draws the scale displayed on top of the
 data elements.
 ---------------------------------------- */
 
@@ -881,24 +881,24 @@ function drawScale(earliest, latest, cW) {
   } else if (data.dataFormat == 'dec') {
     // recode data for decades
     const decadesForScale = range10(
-      earliest > 0 && latest > 0
-        ? findCent(earliest) - 100
-        : findCent(earliest),
-      findCent(latest) + 100
+        earliest > 0 && latest > 0
+            ? findCent(earliest) - 100
+            : findCent(earliest),
+        findCent(latest) + 100
     );
     centuries = [
       ...new Set(decadesForScale.map((dec) => centuryFromYear(dec))),
     ];
   } else {
     const yearsForScale = range(
-      earliest > 0 && latest > 0 ? findCent(earliest) - 99 : findCent(earliest),
-      findCent(latest) + 100
+        earliest > 0 && latest > 0 ? findCent(earliest) - 99 : findCent(earliest),
+        findCent(latest) + 100
     );
     centuries = [...new Set(yearsForScale.map((dec) => centuryFromYear(dec)))];
   }
 
   const cP =
-    cW / (centuries.includes(0) ? centuries.length - 1 : centuries.length);
+      cW / (centuries.includes(0) ? centuries.length - 1 : centuries.length);
 
   centuries.forEach((cent) => {
     let number = '';
@@ -913,59 +913,59 @@ function drawScale(earliest, latest, cW) {
   });
 
   scale
-    .selectAll('path')
-    .data(dates)
-    .enter()
-    .append('path')
-    .attr('class', 'scale')
-    .attr('d', (d, i) => {
-      let x = i * cP;
-      if (i === 0) {
-        return lineGenerator([
-          [x, 0],
-          [x + cP, 0],
-          [x + cP + 10, 15],
-          [x + cP, 30],
-          [x, 30],
-          [x, 0],
-        ]);
-      } else {
-        return lineGenerator([
-          [x, 0],
-          [x + cP, 0],
-          [x + cP + 10, 15],
-          [x + cP, 30],
-          [x + 10, 30],
-          [x, 30],
-          [x + 10, 15],
-          [x, 0],
-        ]);
-      }
-    })
-    .attr('height', 30)
-    .attr('x', (_, i) => i * (cP + 0.5))
-    .attr('y', 0)
-    .style('fill', (_, i) => `rgb(45, ${100 + 8 * i}, ${160 + 9 * i})`);
+      .selectAll('path')
+      .data(dates)
+      .enter()
+      .append('path')
+      .attr('class', 'scale')
+      .attr('d', (d, i) => {
+        let x = i * cP;
+        if (i === 0) {
+          return lineGenerator([
+            [x, 0],
+            [x + cP, 0],
+            [x + cP + 10, 15],
+            [x + cP, 30],
+            [x, 30],
+            [x, 0],
+          ]);
+        } else {
+          return lineGenerator([
+            [x, 0],
+            [x + cP, 0],
+            [x + cP + 10, 15],
+            [x + cP, 30],
+            [x + 10, 30],
+            [x, 30],
+            [x + 10, 15],
+            [x, 0],
+          ]);
+        }
+      })
+      .attr('height', 30)
+      .attr('x', (_, i) => i * (cP + 0.5))
+      .attr('y', 0)
+      .style('fill', (_, i) => `rgb(45, ${100 + 8 * i}, ${160 + 9 * i})`);
 
   scale
-    .selectAll('text')
-    .data(dates)
-    .enter()
-    .append('text')
-    .attr('class', 'scale')
-    .text((d) => d)
-    .attr('x', (_, i) => i * cP)
-    .attr('y', 0)
-    .attr('dx', (_, i) => (i === 0 ? 6 : 12))
-    .attr('dy', 22)
-    .attr('font-size', 20)
-    .attr('style', 'font-weight: bold')
-    .style('fill', 'white');
+      .selectAll('text')
+      .data(dates)
+      .enter()
+      .append('text')
+      .attr('class', 'scale')
+      .text((d) => d)
+      .attr('x', (_, i) => i * cP)
+      .attr('y', 0)
+      .attr('dx', (_, i) => (i === 0 ? 6 : 12))
+      .attr('dy', 22)
+      .attr('font-size', 20)
+      .attr('style', 'font-weight: bold')
+      .style('fill', 'white');
 }
 
 /* ----------------------------------------
 "newDisplay" function:
-selects elements to be kept depending on 
+selects elements to be kept depending on
 the relationship data.
 call the "drawData" function with the kept
 elements.
@@ -976,8 +976,8 @@ function newDisplay(event) {
     const keptIds = [
       event.id,
       ...Object.values(event.relationships)
-        .reduce((a, b) => a.concat(b))
-        .map((r) => r.rel),
+          .reduce((a, b) => a.concat(b))
+          .map((r) => r.rel),
     ];
     const keptElements = [];
     keptIds.forEach((id) => {
@@ -989,23 +989,23 @@ function newDisplay(event) {
     });
     console.log(keptElements);
     drawData(
-      addRelationshipInfo(event.relationships, keptElements),
-      true,
-      selectMode
+        addRelationshipInfo(event.relationships, keptElements),
+        true,
+        selectMode
     );
   } else {
     Swal.fire({
       icon: 'error',
       title: 'No relationship data',
       text:
-        'Please make sure you have specified relationships between the meanings.',
+          'Please make sure you have specified relationships between the meanings.',
     });
   }
 }
 
 /* ----------------------------------------
 "addRelationshipInfo" function:
-returns the kept elements with the 
+returns the kept elements with the
 relationship data inculded into them
 ---------------------------------------- */
 
@@ -1051,7 +1051,7 @@ function prepareDefinitions() {
     });
   } else {
     meanings.forEach((meaning) =>
-      definitions.push(simpleModalityFormatting(meaning))
+        definitions.push(simpleModalityFormatting(meaning))
     );
   }
   return definitions;
@@ -1128,7 +1128,7 @@ function sortElements(elements, mode) {
       return compareDate(a.emergence, b.emergence);
     } else {
       return (
-        compareMode(a[mode], b[mode]) || compareDate(a.emergence, b.emergence)
+          compareMode(a[mode], b[mode]) || compareDate(a.emergence, b.emergence)
       );
     }
   });
@@ -1145,43 +1145,43 @@ width divided by the scale.
 function getContainerData() {
   let containerWidth = svg.style('width');
   containerWidth =
-    Math.floor(
-      Number(containerWidth.substring(0, containerWidth.length - 2)) -
-        margin.right
-    ) - margin.left;
+      Math.floor(
+          Number(containerWidth.substring(0, containerWidth.length - 2)) -
+          margin.right
+      ) - margin.left;
 
   let containerPortion =
-    data.dataFormat === 'cent'
-      ? containerWidth /
-        (range(earliest, latest).includes(0)
-          ? range(earliest, latest + 1).length - 1
-          : range(earliest, latest + (earliest > 0 && latest > 0 ? 1 : 0))
-              .length)
-      : data.dataFormat === 'dec'
-      ? containerWidth /
-        (range10(findCent(earliest), findCent(latest) + 100).includes(0)
-          ? range10(findCent(earliest), findCent(latest) + 100).length - 1
-          : range10(
-              earliest > 0 && latest > 0
-                ? findCent(earliest) - 100
-                : findCent(earliest),
-              findCent(latest) + 100
-            ).length)
-      : containerWidth /
-        (range(findCent(earliest), findCent(latest) + 100).includes(0)
-          ? range(findCent(earliest), findCent(latest) + 100).length - 1
-          : range(
-              earliest > 0 && latest > 0
-                ? findCent(earliest) - 99
-                : findCent(earliest),
-              findCent(latest) + 100
-            ).length);
+      data.dataFormat === 'cent'
+          ? containerWidth /
+          (range(earliest, latest).includes(0)
+              ? range(earliest, latest + 1).length - 1
+              : range(earliest, latest + (earliest > 0 && latest > 0 ? 1 : 0))
+                  .length)
+          : data.dataFormat === 'dec'
+          ? containerWidth /
+          (range10(findCent(earliest), findCent(latest) + 100).includes(0)
+              ? range10(findCent(earliest), findCent(latest) + 100).length - 1
+              : range10(
+                  earliest > 0 && latest > 0
+                      ? findCent(earliest) - 100
+                      : findCent(earliest),
+                  findCent(latest) + 100
+              ).length)
+          : containerWidth /
+          (range(findCent(earliest), findCent(latest) + 100).includes(0)
+              ? range(findCent(earliest), findCent(latest) + 100).length - 1
+              : range(
+                  earliest > 0 && latest > 0
+                      ? findCent(earliest) - 99
+                      : findCent(earliest),
+                  findCent(latest) + 100
+              ).length);
   return { width: containerWidth, portion: containerPortion };
 }
 
 /* ----------------------------------------
 "getLines" function:
-returns an array containing the numbers of 
+returns an array containing the numbers of
 lines each text needs to be displayed
 inside a path element
 ---------------------------------------- */
@@ -1223,22 +1223,22 @@ function wrap(text, cW, cP, r = 'add') {
   if (typeof text != 'string') {
     text.each(function () {
       let text = d3.select(this),
-        words = text.text().split(/\s+/).reverse(),
-        word,
-        line = [],
-        lineNumber = 0,
-        lineHeight = 1.5, // ems
-        x = text.attr('x'),
-        y = text.attr('y'),
-        dy = parseFloat(text.attr('dy')),
-        tspan = text
-          .text(null)
-          .append('tspan')
-          .attr('x', x)
-          .attr('y', y)
-          .attr('dy', dy + 'em'),
-        emergence = text.data()[0].emergence,
-        disparition = text.data()[0].disparition;
+          words = text.text().split(/\s+/).reverse(),
+          word,
+          line = [],
+          lineNumber = 0,
+          lineHeight = 1.5, // ems
+          x = text.attr('x'),
+          y = text.attr('y'),
+          dy = parseFloat(text.attr('dy')),
+          tspan = text
+              .text(null)
+              .append('tspan')
+              .attr('x', x)
+              .attr('y', y)
+              .attr('dy', dy + 'em'),
+          emergence = text.data()[0].emergence,
+          disparition = text.data()[0].disparition;
 
       let width = cW - emergence * cP - 15;
       if (disparition != -1 && !isNaN(disparition)) {
@@ -1254,38 +1254,38 @@ function wrap(text, cW, cP, r = 'add') {
           tspan.text(line.join(' ') + ' ');
           line = [word];
           tspan = text
-            .append('tspan')
-            .attr('x', x)
-            .attr('y', y)
-            .attr('dy', ++lineNumber * lineHeight + dy + 'em')
-            .attr('dx', '1.1em')
-            .text(word);
+              .append('tspan')
+              .attr('x', x)
+              .attr('y', y)
+              .attr('dy', ++lineNumber * lineHeight + dy + 'em')
+              .attr('dx', '1.1em')
+              .text(word);
 
           // Modify destination path
           let node = text.node().parentNode.firstChild;
           const yModifier = lineNumber + 1;
           const pathWidth = width + 15;
           d3.select(node).attr(
-            'd',
-            lineGenerator([
-              [0, 0],
-              [pathWidth, 0],
-              [pathWidth + 10, 15 * yModifier],
-              [pathWidth, 30 * yModifier],
-              [0, 30 * yModifier],
-              [0, 0],
-            ])
+              'd',
+              lineGenerator([
+                [0, 0],
+                [pathWidth, 0],
+                [pathWidth + 10, 15 * yModifier],
+                [pathWidth, 30 * yModifier],
+                [0, 30 * yModifier],
+                [0, 0],
+              ])
           );
         }
       }
     });
   } else {
     let words = text.split(/\s+/).reverse(),
-      word,
-      line = [],
-      lineNumber = 0,
-      emergence = r.emergence,
-      disparition = r.disparition;
+        word,
+        line = [],
+        lineNumber = 0,
+        emergence = r.emergence,
+        disparition = r.disparition;
 
     let width = cW - emergence * cP - 15;
     if (disparition != -1 && !isNaN(disparition)) {
@@ -1350,8 +1350,8 @@ function exportToCanvas(event, SVG) {
     DOMURL.revokeObjectURL(url);
 
     var imgURI = canvas
-      .toDataURL('image/png')
-      .replace('image/png', 'image/octet-stream');
+        .toDataURL('image/png')
+        .replace('image/png', 'image/octet-stream');
 
     triggerDownload(imgURI, SVG);
   };
@@ -1373,8 +1373,8 @@ function triggerDownload(imgURI, SVG) {
 
   const a = document.createElement('a');
   a.setAttribute(
-    'download',
-    SVG.attr('id') === 'map' ? 'semantic_map.png' : 'relationships_graph.png'
+      'download',
+      SVG.attr('id') === 'map' ? 'semantic_map.png' : 'relationships_graph.png'
   );
   a.setAttribute('href', imgURI);
   a.setAttribute('target', '_blank');
@@ -1403,7 +1403,7 @@ function exportToSVG(event, SVG) {
   var downloadLink = document.createElement('a');
   downloadLink.href = svgUrl;
   downloadLink.download =
-    SVG.attr('id') === 'map' ? 'semantic_map.svg' : 'relationships_graph.svg';
+      SVG.attr('id') === 'map' ? 'semantic_map.svg' : 'relationships_graph.svg';
   downloadLink.click();
 }
 
@@ -1460,40 +1460,40 @@ returns a roman number from an arabic one
 function romanize(num) {
   if (isNaN(num)) return NaN;
   let digits = String(+num).split(''),
-    key = [
-      '',
-      'C',
-      'CC',
-      'CCC',
-      'CD',
-      'D',
-      'DC',
-      'DCC',
-      'DCCC',
-      'CM',
-      '',
-      'X',
-      'XX',
-      'XXX',
-      'XL',
-      'L',
-      'LX',
-      'LXX',
-      'LXXX',
-      'XC',
-      '',
-      'I',
-      'II',
-      'III',
-      'IV',
-      'V',
-      'VI',
-      'VII',
-      'VIII',
-      'IX',
-    ],
-    roman = '',
-    i = 3;
+      key = [
+        '',
+        'C',
+        'CC',
+        'CCC',
+        'CD',
+        'D',
+        'DC',
+        'DCC',
+        'DCCC',
+        'CM',
+        '',
+        'X',
+        'XX',
+        'XXX',
+        'XL',
+        'L',
+        'LX',
+        'LXX',
+        'LXXX',
+        'XC',
+        '',
+        'I',
+        'II',
+        'III',
+        'IV',
+        'V',
+        'VI',
+        'VII',
+        'VIII',
+        'IX',
+      ],
+      roman = '',
+      i = 3;
   while (i--) roman = (key[+digits.pop() + i * 10] || '') + roman;
   return Array(+digits.join('') + 1).join('M') + roman;
 }
@@ -1502,20 +1502,20 @@ function romanize(num) {
 "range" and "range10" functions:
 return an array of numbers between and
 including the parameter numbers.
-"range" adds 1 to each number. 
+"range" adds 1 to each number.
 "range10" adds 10 to each number.
 ---------------------------------------- */
 
 function range(start, end) {
   return Array(end - start + 1)
-    .fill()
-    .map((_, idx) => start + idx);
+      .fill()
+      .map((_, idx) => start + idx);
 }
 
 function range10(start, end) {
   return Array((end - start + 10) / 10)
-    .fill()
-    .map((_, idx) => start + idx * 10);
+      .fill()
+      .map((_, idx) => start + idx * 10);
 }
 
 /* ----------------------------------------
@@ -1605,9 +1605,9 @@ if (data) {
   definitions.forEach((d) => (d.disparition = +d.disparition));
   const disparitionMax = d3.max(definitions, (d) => d.disparition);
   latest = d3.max(definitions, (d) =>
-    typeof disparitionMax == 'undefined' || emergenceMax > disparitionMax
-      ? d.emergence
-      : d.disparition
+      typeof disparitionMax == 'undefined' || emergenceMax > disparitionMax
+          ? d.emergence
+          : d.disparition
   );
 
   /* --------------------------------
@@ -1633,10 +1633,10 @@ if (data) {
     });
   } else if (data.dataFormat === 'dec') {
     const r = range10(
-      earliest > 0 && latest > 0
-        ? findCent(earliest) - 100
-        : findCent(earliest),
-      findCent(latest) + 100
+        earliest > 0 && latest > 0
+            ? findCent(earliest) - 100
+            : findCent(earliest),
+        findCent(latest) + 100
     );
 
     definitions.forEach((def) => {
@@ -1645,8 +1645,8 @@ if (data) {
     });
   } else {
     const r = range(
-      earliest > 0 && latest > 0 ? findCent(earliest) - 99 : findCent(earliest),
-      findCent(latest) + 100
+        earliest > 0 && latest > 0 ? findCent(earliest) - 99 : findCent(earliest),
+        findCent(latest) + 100
     );
     definitions.forEach((def) => {
       def.emergence = r.indexOf(def.emergence);
@@ -1657,13 +1657,13 @@ if (data) {
   definitions.forEach((def) => {
     def.meaning = def.meaning.charAt(0).toUpperCase() + def.meaning.slice(1);
     def.construct =
-      def.construct.charAt(0).toUpperCase() + def.construct.slice(1);
+        def.construct.charAt(0).toUpperCase() + def.construct.slice(1);
     def.group = def.group.charAt(0).toUpperCase() + def.group.slice(1);
   });
 
   document
-    .querySelectorAll('.invisibleWhenNoData')
-    .forEach((elem) => (elem.style.visibility = 'visible'));
+      .querySelectorAll('.invisibleWhenNoData')
+      .forEach((elem) => (elem.style.visibility = 'visible'));
 
   basicDisplay();
 }

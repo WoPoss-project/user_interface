@@ -14,8 +14,8 @@
             href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
     />
 
+    <script src="js/certus_la.js">/**/</script>
 
-    <script src="js/certus.js">/**/</script>
 
     <!-- jQuery & Bootstrap -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -74,7 +74,7 @@
             <br />
             <br />
             <br />
-            <!--<button
+           <!-- <button
                     id="importData"
                     style="
           width: 175px;

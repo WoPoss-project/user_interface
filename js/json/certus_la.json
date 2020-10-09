@@ -18,9 +18,9 @@
   "dataFormat": "cent",
   "meanings": [
     {
-      "definition": "defined",
-      "construct": "None",
-      "group": "None",
+      "definition": "definitus",
+      "construct": "_",
+      "group": "_",
       "modalities": [
         {
           "id": "tkoga",
@@ -63,9 +63,9 @@
       ]
     },
     {
-      "definition": "nothing defined",
+      "definition": "[nihil comperti]",
       "construct": "NIHIL CERTI",
-      "group": "None",
+      "group": "_",
       "modalities": [
         {
           "id": "dpjnobmo",
@@ -88,9 +88,9 @@
       ]
     },
     {
-      "definition": "a certain, not specified quantity",
-      "construct": "None",
-      "group": "None",
+      "definition": "quidam",
+      "construct": "_",
+      "group": "_",
       "modalities": [
         {
           "id": "mxjorgq",
@@ -113,9 +113,9 @@
       ]
     },
     {
-      "definition": "established, decided, fixed",
-      "construct": "None",
-      "group": "None",
+      "definition": "statutus, animo propositus",
+      "construct": "_",
+      "group": "_",
       "modalities": [
         {
           "id": "ntxyze",
@@ -146,9 +146,9 @@
       ]
     },
     {
-      "definition": "it is decided",
+      "definition": "[statutum est]",
       "construct": "CERTUM EST",
-      "group": "None",
+      "group": "_",
       "modalities": [
         {
           "id": "naocqo",
@@ -171,9 +171,9 @@
       ]
     },
     {
-      "definition": "~I want",
+      "definition": "(fere) volo",
       "construct": "CERTUM EST",
-      "group": "None",
+      "group": "_",
       "modalities": [
         {
           "id": "zbjdfgrf",
@@ -191,9 +191,9 @@
       ]
     },
     {
-      "definition": "it is certain",
+      "definition": "[constat]",
       "construct": "CERTUM EST",
-      "group": "None",
+      "group": "_",
       "modalities": [
         {
           "id": "syjwi",
@@ -232,9 +232,9 @@
       ]
     },
     {
-      "definition": "resolute, obstinate",
-      "construct": "None",
-      "group": "None",
+      "definition": "obstinatus, firmus (de homine qui consilium cepit)",
+      "construct": "_",
+      "group": "_",
       "modalities": [
         {
           "id": "wowsac",
@@ -252,9 +252,9 @@
       ]
     },
     {
-      "definition": "that has been proved right, correct, true",
-      "construct": "None",
-      "group": "None",
+      "definition": "probatus, quod putes verum esse vel re vera existere",
+      "construct": "_",
+      "group": "_",
       "modalities": [
         {
           "id": "ovzzcn",
@@ -289,9 +289,9 @@
       ]
     },
     {
-      "definition": "I consider it certain",
+      "definition": "[mihi exploratum est]",
       "construct": "CERTUM HABEO",
-      "group": "None",
+      "group": "_",
       "modalities": [
         {
           "id": "pfuvgxkc",
@@ -342,9 +342,9 @@
       ]
     },
     {
-      "definition": "I know for sure",
+      "definition": "[mihi exploratissimum est]",
       "construct": "CERTUM SCIO",
-      "group": "None",
+      "group": "_",
       "modalities": [
         {
           "id": "xyuwukf",
@@ -367,9 +367,9 @@
       ]
     },
     {
-      "definition": "to hear/say something accurate",
+      "definition": "[dico/audio aliquid minime dubium]",
       "construct": "CERTUM + verbum dicendi/sentiendi",
-      "group": "None",
+      "group": "_",
       "modalities": [
         {
           "id": "jlrgavyy",
@@ -397,9 +397,9 @@
       ]
     },
     {
-      "definition": "for sure, undoubtedly",
+      "definition": "[minime dubie, comperte]",
       "construct": "prepos. + CERTUM",
-      "group": "None",
+      "group": "_",
       "modalities": [
         {
           "id": "luojwp",
@@ -422,9 +422,9 @@
       ]
     },
     {
-      "definition": "evident",
-      "construct": "None",
-      "group": "None",
+      "definition": "manifestus",
+      "construct": "_",
+      "group": "_",
       "modalities": [
         {
           "id": "ylctv",
@@ -451,9 +451,9 @@
       ]
     },
     {
-      "definition": "someone or something that can be trusted",
-      "construct": "None",
-      "group": "None",
+      "definition": "cui credere licet",
+      "construct": "_",
+      "group": "_",
       "modalities": [
         {
           "id": "gokfxi",
@@ -484,9 +484,9 @@
       ]
     },
     {
-      "definition": "to be informed",
+      "definition": "[qui aliquam rem cognitam habet]",
       "construct": "CERTIOR SUM",
-      "group": "None",
+      "group": "_",
       "modalities": [
         {
           "id": "amgr",
@@ -513,9 +513,9 @@
       ]
     },
     {
-      "definition": "I am certain",
+      "definition": "[compertum habeo]",
       "construct": "CERTUS SUM",
-      "group": "None",
+      "group": "_",
       "modalities": [
         {
           "id": "necxdtcj",
@@ -556,9 +556,9 @@
       ]
     },
     {
-      "definition": "to inform",
+      "definition": "[facio ut aliquis aliquam rem cognitam habeat]",
       "construct": "CERTIOREM FACIO",
-      "group": "None",
+      "group": "_",
       "modalities": [
         {
           "id": "opusq",
@@ -589,9 +589,9 @@
       ]
     },
     {
-      "definition": "to inform, (sometimes) to make certain",
+      "definition": "[certiorem facere, (aliquando) confirmo]",
       "construct": "CERTUM FACIO",
-      "group": "None",
+      "group": "_",
       "modalities": [
         {
           "id": "dusypvb",
@@ -622,9 +622,9 @@
       ]
     },
     {
-      "definition": "certainly",
+      "definition": "[sine dubio]",
       "construct": "CERTO CERTIUS",
-      "group": "None",
+      "group": "_",
       "modalities": [
         {
           "id": "aegb",
@@ -642,9 +642,9 @@
       ]
     },
     {
-      "definition": "trustworthy",
-      "construct": "None",
-      "group": "None",
+      "definition": "fidus",
+      "construct": "_",
+      "group": "_",
       "modalities": [
         {
           "id": "wcmiru",
@@ -671,9 +671,9 @@
       ]
     },
     {
-      "definition": "quite important, relevant",
-      "construct": "None",
-      "group": "None",
+      "definition": "satis gravis",
+      "construct": "_",
+      "group": "_",
       "modalities": [
         {
           "id": "btqwayqw",
@@ -691,9 +691,9 @@
       ]
     },
     {
-      "definition": "a single one, single, individual",
-      "construct": "None",
-      "group": "None",
+      "definition": "singularis, separatus",
+      "construct": "_",
+      "group": "_",
       "modalities": [
         {
           "id": "hciksus",
@@ -716,9 +716,9 @@
       ]
     },
     {
-      "definition": "~suitable",
-      "construct": "None",
-      "group": "None",
+      "definition": "ita constitutus, ut rationi alicuius rei conveniat",
+      "construct": "_",
+      "group": "_",
       "modalities": [
         {
           "id": "dbajwke",
@@ -741,9 +741,9 @@
       ]
     },
     {
-      "definition": "a number of, some",
-      "construct": "None",
-      "group": "None",
+      "definition": "nonnulli",
+      "construct": "_",
+      "group": "_",
       "modalities": [
         {
           "id": "xqiyhj",
@@ -766,9 +766,9 @@
       ]
     },
     {
-      "definition": "set up by nature, gods and/or citizens",
-      "construct": "None",
-      "group": "None",
+      "definition": "legibus vel usu naturae, deorum cultus, civitatum al. constitutus",
+      "construct": "_",
+      "group": "_",
       "modalities": [
         {
           "id": "suqobc",
@@ -791,9 +791,9 @@
       ]
     },
     {
-      "definition": "known",
-      "construct": "None",
-      "group": "None",
+      "definition": "notus",
+      "construct": "_",
+      "group": "_",
       "modalities": [
         {
           "id": "zcecuihai",
@@ -820,9 +820,9 @@
       ]
     },
     {
-      "definition": "I know",
+      "definition": "novi",
       "construct": "CERTUM HABEO",
-      "group": "None",
+      "group": "_",
       "modalities": [
         {
           "id": "wccrjith",
@@ -845,9 +845,9 @@
       ]
     },
     {
-      "definition": "to hear/say something for sure",
+      "definition": "[profecto dico/audio aliquid]",
       "construct": "CERTUM + verbum dicendi/sentiendi",
-      "group": "None",
+      "group": "_",
       "modalities": [
         {
           "id": "zdfnrqfo",
@@ -870,9 +870,9 @@
       ]
     },
     {
-      "definition": "true, real, right",
-      "construct": "None",
-      "group": "None",
+      "definition": "verus, rectus",
+      "construct": "_",
+      "group": "_",
       "modalities": [
         {
           "id": "zhbkkp",
@@ -899,9 +899,9 @@
       ]
     },
     {
-      "definition": "precise",
-      "construct": "None",
-      "group": "None",
+      "definition": "[exactus]",
+      "construct": "_",
+      "group": "_",
       "modalities": [
         {
           "id": "gabcdkyp",
@@ -928,9 +928,9 @@
       ]
     },
     {
-      "definition": "clear, well defined, that can be discerned",
-      "construct": "None",
-      "group": "None",
+      "definition": "clarus, quod certo cognosci potest",
+      "construct": "_",
+      "group": "_",
       "modalities": [
         {
           "id": "zcxmvhrq",
@@ -957,9 +957,9 @@
       ]
     },
     {
-      "definition": "authentic, genuine",
-      "construct": "None",
-      "group": "None",
+      "definition": "genuinus",
+      "construct": "_",
+      "group": "_",
       "modalities": [
         {
           "id": "emcsjhcm",
@@ -982,9 +982,9 @@
       ]
     },
     {
-      "definition": "reliable",
-      "construct": "None",
-      "group": "None",
+      "definition": "(speciatim fere idem quod) vera explorans",
+      "construct": "_",
+      "group": "_",
       "modalities": [
         {
           "id": "cfglbtmt",
@@ -1007,9 +1007,9 @@
       ]
     },
     {
-      "definition": "sure",
-      "construct": "None",
-      "group": "None",
+      "definition": "securus",
+      "construct": "_",
+      "group": "_",
       "modalities": [
         {
           "id": "msgrdkm",
@@ -1048,9 +1048,9 @@
       ]
     },
     {
-      "definition": "(an exhortation or similar follows)",
-      "construct": "None",
-      "group": "None",
+      "definition": "(sequitur adhortatio similiter)",
+      "construct": "_",
+      "group": "_",
       "modalities": [
         {
           "id": "qqml",
@@ -1073,9 +1073,9 @@
       ]
     },
     {
-      "definition": "safe, secure",
-      "construct": "None",
-      "group": "None",
+      "definition": "tutus",
+      "construct": "_",
+      "group": "_",
       "modalities": [
         {
           "id": "occukqg",
@@ -1098,9 +1098,9 @@
       ]
     },
     {
-      "definition": "right, proper",
-      "construct": "None",
-      "group": "None",
+      "definition": "rectus",
+      "construct": "_",
+      "group": "_",
       "modalities": [
         {
           "id": "wwejdo",
@@ -1123,9 +1123,9 @@
       ]
     },
     {
-      "definition": "that is undoubtedly going to happen",
-      "construct": "None",
-      "group": "None",
+      "definition": "sine dubio eventurus",
+      "construct": "_",
+      "group": "_",
       "modalities": [
         {
           "id": "yuwlt",
@@ -1148,9 +1148,9 @@
       ]
     },
     {
-      "definition": "confident with good reasons",
+      "definition": "[animum firmum habens]",
       "construct": "CERTUS SUI",
-      "group": "None",
+      "group": "_",
       "modalities": [
         {
           "id": "ghpqid",
@@ -1173,9 +1173,9 @@
       ]
     },
     {
-      "definition": "carefully performed, prepared, studied, meticulous",
-      "construct": "None",
-      "group": "None",
+      "definition": "accuratus",
+      "construct": "_",
+      "group": "_",
       "modalities": [
         {
           "id": "ouwhgoag",
