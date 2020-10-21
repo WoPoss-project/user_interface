@@ -43,7 +43,11 @@
 <?php include("ssi/menu.html"); ?>
 <main>
     <h1>Query the corpus</h1>
-    <h2>Search by modal marker</h2>
+    <ul>
+        <li><a href="#search-marker">Search by modal marker</a></li>
+        <li><a href="#search-relation">Search by modal relation</a></li>
+    </ul>
+    <h2 id="search-marker">Search by modal marker</h2>
     <form>
         <fieldset>
             <label for="marker">Choose a modal marker (required)</label>
@@ -419,6 +423,11 @@
             </div>
             <input type="checkbox" value="no-soa" id="no-soa" name="no-soa"/> <label for="no-soa">No state of affairs</label>
         </fieldset>
+        <input type="submit" value="Submit">
+    </form>
+    <h2 id="search-relation">Search by modal relation</h2>
+    <form>
+
         <input type="submit" value="Submit">
     </form>
 </main>

@@ -1,4 +1,3 @@
-
 /*
 map.js:
 This code handles the drawing of the semantic map. It allows the user to:
@@ -22,8 +21,8 @@ saveToPNG.addEventListener('click', (event) => exportToCanvas(event, svg));
 const saveToSVG = document.getElementById('saveToSVG');
 saveToSVG.addEventListener('click', (event) => exportToSVG(event, svg));
 
-const importData = document.getElementById('importData');
-importData.addEventListener('click', importJSONData);
+/*const importData = document.getElementById('importData');
+importData.addEventListener('click', importJSONData);*/
 
 const exportData = document.getElementById('exportData');
 exportData.addEventListener('click', exportJSONData);
@@ -739,17 +738,18 @@ function addElems(elements, cW, cP, tip) {
                       : 0;
               // Text formatting depending on date format and 'r'
               if (data.dataFormat === 'cent') {
-                const em = d.emergence - Math.abs(earliest);
-                const dis = d.disparition - Math.abs(earliest);
-                const corrected_date = em + 1;
+                const em = (earliest <= 0) ? d.emergence - Math.abs(earliest) : d.emergence + earliest - 1;
+                const dis =  (earliest <= 0) ? d.disparition - Math.abs(earliest) : d.disparition + earliest;
+                const corrected_em = em + 1;
+                const corrected_dis = dis + 1;
                 return (
-                    (em < 0 ? `${romanize(em)} BC` : romanize(corrected_date)) +
+                    (em < 0 ? `${romanize(em)} BC` : romanize(corrected_em)) +
                     ' to ' +
                     (isNaN(d.disparition)
                         ? 'undefined date'
                         : dis < 0
                             ? `${romanize(dis)} BC`
-                            : romanize(dis)) +
+                            : romanize(corrected_dis)) +
                     ': ' +
                     d.attestation
                 );
@@ -1295,7 +1295,7 @@ function wrap(text, cW, cP, r = 'add') {
 
     while ((word = words.pop())) {
       line.push(word);
-      if (line.join(' ').length * 6 > width) {
+      if (getTextWidth(line.join(' ')) >= width) {
         line.pop();
         line = [word];
         ++lineNumber;

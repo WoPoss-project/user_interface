@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db487090-34b1-4abd-9088-e9e00729d9e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/db-mockup.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/show.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db-mockup.php" beforeDir="false" afterPath="$PROJECT_DIR$/db-mockup.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/map-load.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/map-load.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pygmalion.php" beforeDir="false" afterPath="$PROJECT_DIR$/pygmalion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results.php" beforeDir="false" afterPath="$PROJECT_DIR$/results.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results_copie.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-modal-maps.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-modal-maps.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-modal-maps_copie.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssi/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/ssi/menu.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,7 +19,108 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db-mockup.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1672">
+              <caret line="414" column="41" selection-start-line="414" selection-start-column="41" selection-end-line="414" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pygmalion.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+              <folding>
+                <element signature="e#2356#2361#0#HTML" expanded="true" />
+                <element signature="e#2783#2788#0#HTML" expanded="true" />
+                <element signature="n#style#0;n#ol#1;n#li#3;n#ul#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/map-load.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3654">
+              <caret line="126" column="20" selection-start-line="126" selection-start-column="17" selection-end-line="126" selection-end-column="20" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/map-potestas.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/potestas.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="268" column="11" lean-forward="true" selection-start-line="268" selection-start-column="11" selection-end-line="268" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/map.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="554">
+              <caret line="606" column="22" selection-end-line="1688" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/semantic-modal-maps.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1160">
+              <caret line="40" column="119" selection-start-line="40" selection-start-column="119" selection-end-line="40" selection-end-column="119" />
+              <folding>
+                <element signature="e#1749#1754#0#HTML" expanded="true" />
+                <element signature="e#2711#2716#0#HTML" expanded="true" />
+                <element signature="e#3361#3366#0#HTML" expanded="true" />
+                <element signature="e#4132#4137#0#HTML" expanded="true" />
+                <element signature="e#4365#4370#0#HTML" expanded="true" />
+                <element signature="e#4653#4658#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssi/menu.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="696">
+              <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/results.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1856">
+              <caret line="64" column="89" selection-start-line="64" selection-start-column="89" selection-end-line="64" selection-end-column="89" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -25,13 +132,7 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>constr</find>
-      <find>construct</find>
-      <find>to100</find>
-      <find>- 5</find>
-      <find>to2</find>
       <find>'None'</find>
-      <find>None</find>
       <find>&quot;group&quot;: &quot;None&quot;</find>
       <find>...</find>
       <find>+ 10</find>
@@ -55,6 +156,12 @@
       <find>emergence</find>
       <find>feme</find>
       <find>most</find>
+      <find>title</find>
+      <find>words.pop</find>
+      <find>'_'</find>
+      <find>None</find>
+      <find>_</find>
+      <find>Accord</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -83,7 +190,6 @@
         <option value="$PROJECT_DIR$/pygmalion-simple.php" />
         <option value="$PROJECT_DIR$/relations.php" />
         <option value="$PROJECT_DIR$/map.php" />
-        <option value="$PROJECT_DIR$/pygmalion.php" />
         <option value="$PROJECT_DIR$/map-certus-test.php" />
         <option value="$PROJECT_DIR$/js/map-certus-test.js" />
         <option value="$PROJECT_DIR$/js/map-certus.js" />
@@ -95,24 +201,32 @@
         <option value="$PROJECT_DIR$/js/potestas.json" />
         <option value="$PROJECT_DIR$/js/potestas.js" />
         <option value="$PROJECT_DIR$/js/certus_la.js" />
-        <option value="$PROJECT_DIR$/semantic-modal-maps_copie.php" />
         <option value="$PROJECT_DIR$/js/certus.js" />
-        <option value="$PROJECT_DIR$/js/map-load.js" />
         <option value="$PROJECT_DIR$/map-certus.php" />
         <option value="$PROJECT_DIR$/map-potestas.php" />
         <option value="$PROJECT_DIR$/map-certus-la.php" />
-        <option value="$PROJECT_DIR$/js/map.js" />
         <option value="$PROJECT_DIR$/js/show.js" />
         <option value="$PROJECT_DIR$/db.php" />
         <option value="$PROJECT_DIR$/db-mockup.php" />
+        <option value="$PROJECT_DIR$/results.php" />
+        <option value="$PROJECT_DIR$/semantic-modal-maps_copie.php" />
+        <option value="$PROJECT_DIR$/semantic-modal-maps.php" />
+        <option value="$PROJECT_DIR$/js/map.js" />
+        <option value="$PROJECT_DIR$/../semantic_maps/map.js" />
+        <option value="$PROJECT_DIR$/../semantic_maps/form.js" />
+        <option value="$PROJECT_DIR$/../semantic_maps/form_simplified.js" />
+        <option value="$PROJECT_DIR$/../semantic_maps/sem_rel_form.js" />
+        <option value="$PROJECT_DIR$/ssi/menu.html" />
+        <option value="$PROJECT_DIR$/pygmalion.php" />
+        <option value="$PROJECT_DIR$/js/map-load.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="5015" />
-    <option name="y" value="44" />
-    <option name="width" value="2038" />
-    <option name="height" value="1206" />
+    <option name="x" value="1920" />
+    <option name="y" value="27" />
+    <option name="width" value="2048" />
+    <option name="height" value="1125" />
   </component>
   <component name="ProjectId" id="1ga85w3oBoKZNJjIMiIdPIYVTIm" />
   <component name="ProjectView">
@@ -174,7 +288,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="PHP" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../semantic_maps/sem_rel_form.js" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -273,16 +387,20 @@
       <workItem from="1602247887363" duration="7307000" />
       <workItem from="1602494417864" duration="10711000" />
       <workItem from="1602573221974" duration="19203000" />
+      <workItem from="1602664435046" duration="1011000" />
+      <workItem from="1602745484597" duration="814000" />
+      <workItem from="1603203737538" duration="678000" />
+      <workItem from="1603270419052" duration="10359000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107673000" />
+    <option name="totallyTimeSpent" value="120535000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="3984" y="44" width="3696" height="2116" extended-state="6" />
+    <frame x="0" y="-10" width="3840" height="2170" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13802661" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14392324" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -296,18 +414,18 @@
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" visible="true" weight="0.03257329" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.032172997" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14766839" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14392324" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32962587" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -317,7 +435,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" visible="true" weight="0.032172997" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -338,61 +456,6 @@
     <state x="789" y="478" width="399" height="149" key="NewPhpFileDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1598341210429" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/menu.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1192">
-          <caret line="239" lean-forward="true" selection-start-line="239" selection-end-line="239" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssi/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/small.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="26" lean-forward="true" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../semantic_maps/generated-maps/network.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../semantic_maps/generated-maps/map.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="55" lean-forward="true" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../semantic_maps/generated-maps/sem_rel_form.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1192">
-          <caret line="214" column="5" selection-start-line="214" selection-start-column="5" selection-end-line="214" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../semantic_maps/generated-maps/form.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="728" selection-start-line="728" selection-end-line="740" selection-end-column="13" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../semantic_maps/generated-maps/form_simplified.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="547">
@@ -427,9 +490,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/results.php">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/../semantic_maps/generated-maps/map.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -487,13 +547,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pygmalion.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/map-certus-test.php" />
     <entry file="file://$PROJECT_DIR$/js/map-certus-test.js" />
     <entry file="file://$PROJECT_DIR$/js/sem_rel_form.js">
@@ -503,38 +556,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/form_simplified.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2721">
-          <caret line="511" column="34" selection-start-line="511" selection-start-column="30" selection-end-line="511" selection-end-column="34" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/certus_la.json" />
     <entry file="file://$PROJECT_DIR$/js/map-certus-la.js" />
-    <entry file="file://$PROJECT_DIR$/results_copie.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/map-certus.js" />
     <entry file="file://$PROJECT_DIR$/js/potestas.json" />
     <entry file="file://$PROJECT_DIR$/js/certus.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17640">
           <caret line="1176" column="6" selection-start-line="1176" selection-start-column="6" selection-end-line="1176" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/potestas.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="563" column="1" selection-start-line="563" selection-start-column="1" selection-end-line="563" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -545,30 +574,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/semantic-modal-maps_copie.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="694">
-          <caret line="135" column="29" selection-start-line="135" selection-start-column="29" selection-end-line="135" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/map.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21431">
-          <caret line="739" column="43" selection-start-line="739" selection-start-column="43" selection-end-line="739" selection-end-column="43" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/map-load.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="711">
-          <caret line="745" column="80" selection-start-line="743" selection-start-column="15" selection-end-line="745" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/map-certus.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="334">
@@ -576,24 +581,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/map-potestas.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="88" column="25" lean-forward="true" selection-start-line="77" selection-start-column="13" selection-end-line="88" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/map-certus-la.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="303">
           <caret line="87" column="24" lean-forward="true" selection-start-line="76" selection-start-column="11" selection-end-line="87" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/form.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="494" column="1" selection-start-line="494" selection-start-column="1" selection-end-line="494" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -621,10 +612,166 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/results_copie.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-429">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1856">
+          <caret line="64" column="89" selection-start-line="64" selection-start-column="89" selection-end-line="64" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/semantic-modal-maps_copie.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1160">
+          <caret line="40" column="109" selection-start-line="40" selection-start-column="109" selection-end-line="40" selection-end-column="109" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/db-mockup.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="797">
-          <caret line="404" column="43" lean-forward="true" selection-start-line="404" selection-start-column="43" selection-end-line="404" selection-end-column="43" />
+        <state relative-caret-position="1672">
+          <caret line="414" column="41" selection-start-line="414" selection-start-column="41" selection-end-line="414" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/semantic-modal-maps.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1160">
+          <caret line="40" column="119" selection-start-line="40" selection-start-column="119" selection-end-line="40" selection-end-column="119" />
+          <folding>
+            <element signature="e#1749#1754#0#HTML" expanded="true" />
+            <element signature="e#2711#2716#0#HTML" expanded="true" />
+            <element signature="e#3361#3366#0#HTML" expanded="true" />
+            <element signature="e#4132#4137#0#HTML" expanded="true" />
+            <element signature="e#4365#4370#0#HTML" expanded="true" />
+            <element signature="e#4653#4658#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../semantic_maps/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1015">
+          <caret line="35" column="14" lean-forward="true" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../semantic_maps/form_simplified.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="1110" column="41" selection-start-line="1110" selection-start-column="37" selection-end-line="1110" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../semantic_maps/map.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="822" column="25" selection-start-line="822" selection-start-column="21" selection-end-line="822" selection-end-column="25" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../semantic_maps/form_simplified.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="574">
+          <caret line="902" column="48" selection-start-line="902" selection-start-column="44" selection-end-line="902" selection-end-column="48" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../semantic_maps/form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="574">
+          <caret line="475" column="18" selection-start-line="475" selection-start-column="17" selection-end-line="475" selection-end-column="18" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../semantic_maps/sem_rel_form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1473">
+          <caret line="268" column="21" lean-forward="true" selection-start-line="268" selection-start-column="21" selection-end-line="268" selection-end-column="21" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/form_simplified.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="17" column="55" lean-forward="true" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/map.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="606" column="22" selection-end-line="1688" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssi/menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pygmalion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <folding>
+            <element signature="e#2356#2361#0#HTML" expanded="true" />
+            <element signature="e#2783#2788#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#ol#1;n#li#3;n#ul#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map-potestas.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/potestas.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="268" column="11" lean-forward="true" selection-start-line="268" selection-start-column="11" selection-end-line="268" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/map-load.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3654">
+          <caret line="126" column="20" selection-start-line="126" selection-start-column="17" selection-end-line="126" selection-end-column="20" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

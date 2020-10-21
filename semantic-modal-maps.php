@@ -20,9 +20,10 @@
         meaning to another, but also the synchronic presence of other meanings which could potentially have had an
         influence on that shift (e.g. the modal development of <em>certum habeo</em> could have been influenced by the
         modal
-        construction <em>certum est</em>, whose modal reading is by far more ancient). With our interactive maps we try
-        to give a
-        clear overview of such interactions between non-modal and modal meanings in synchrony and diachrony.</p>
+        construction <em>certum est</em>, whose modal reading is by far more ancient). We think that this complexity can be represented
+    in interactive semantic maps so as to give a
+        clear overview of such interactions between non-modal and modal meanings in synchrony and diachrony. Besides presenting our work
+    concerning Latin modal markers, we also offer the community an open tool so any user can easily design a semantic (modal) map, <a href="pygmalion.php">Pygmalion</a>.</p>
     <p>The interactive semantic maps are the results of the research as well as of the joint skills and efforts of the
         WoPoss team (cf. in particular Bermúdez Sabel, Dell’Oro &amp; Marongiu 2020b). Our goal is to plot a semantic
         map
@@ -32,19 +33,20 @@
         of a lemma as offered by the <a href="http://www.thesaurus.badw-muenchen.de/das-projekt.html"
                                         target="_blank"><em>Thesaurus
                 Linguae Latinae</em></a> (ThLL) (Marongiu & Dell’Oro, in preparation). If the ThLL has not
-        yet compiled a lemma, the synthesis is provisionally based on the description offered by the <em>Oxford Latin
+        yet compiled a lemma, the synthesis is provisionally based on the description supplied by the <em>Oxford Latin
             Dictionary</em> (OLD). In our syntheses information about the etymology of each lemma mainly relies on the
         <em>Etymological Dictionary of Latin</em> (EDL), the <em>Dictionnaire étymologique de la langue latine</em>
         (Ernout &amp; Meillet
         1932) and in some cases the <em>Historische Laut- und Formenlehre der lateinischen Sprache</em> (Meiser 1998).
-        The design
-        and functionalities of the maps have been developed by Helena Bermúdez Sabel.
+        The design and functionalities of the maps have been developed by Helena Bermúdez Sabel and Francesca Dell’Oro and the tool Pygmalion has been developed by Loris Rimaz.
     </p>
     <h3>Framework</h3>
     <ul>
-        <li>SVG generated with <a href="https://inkscape.org/" target="_blank">Inkscape</a></li>
-        <li>JavaScript</li>
-        <li>CSS3</li>
+        <li>JavaScript
+        <ul>
+            <li><a href="https://d3js.org/" target="_blank">D3.js</a></li>
+        </ul></li>
+        <li>SVG</li>
     </ul>
     <h3>Sources</h3>
     <ul>
@@ -72,7 +74,7 @@
         </li>
         <li>Bermúdez Sabel, Helena, Dell’Oro, Francesca &amp; Paola Marongiu (2020b). “Visualisation of semantic shifts:
             the
-            case of modal markers (poster)”. Poster DH2020. <a href="poster-DH2020.php" target="_blank">[Online version]</a>.
+            case of modal markers (poster)”. Poster DH2020. <a href="http://dx.doi.org/10.17613/scy4-br70" target="_blank">http://dx.doi.org/10.17613/scy4-br70</a>.
         </li>
         <li>Marongiu, Paola &amp; Dell’Oro, Francesca (in preparation). <em>Syntheses of the descriptions of modal
                 markers in
@@ -86,18 +88,17 @@
 
     <p>Each map offers a diachronic visualisation of the semantic evolution of a lemma starting with its etymology (on
         the extreme left). A coloured bar (from dark blue to light blue) indicates the century from which a meaning is
-        attested. Along with the different meanings of the lemma, the map includes the constructions in which the lemma
-        appears (e.g. <em>potestas</em> and <em>potestatem facio</em>). The vertical order reflects the semantic groups to which a meaning
-        belongs as delineated in the ThLL (this is the main reason why the constructions are not treated as separate
-        elements after the meanings of the lemma and why an expression can appear more than once).
-    </p><p>Each map can be visualised in a bilingual version or in a Latin one via the option ‘Select language’. In the
+        attested. Along with the different meanings of the lemma, the map includes the collocations in which the lemma
+        appears (e.g. <em>potestas</em> and <em>potestatem facio</em>). The meanings can be reordered according to different criteria, thus the user can select an organisation by the semantic group, by collocation or by chronology.
+    </p><p>For each map, we present a bilingual version and a Latin one. In the
         bilingual Latin-English version, the English equivalents of each meaning of the headword appear inside the
         arrows. For constructions, the wording is indicated on the left outside the arrow and the meaning is specified
         inside the arrow. In the monolingual version the arrows contain synonyms or an explanation of the meaning.
     </p><p>When you click on a meaning, the meanings with which it has some specific semantic relations appear (while
         only loosely related meanings disappear). Semantic relations can be synchronic (relations between meanings
         attested during the same timespan) or diachronic (relations between meanings attested at different points in
-        time). A double click on any of the visible meanings allows the reader to reset the visualization.
+        time). The type of arrow provides information about the type of relation between the meanings, that is, the direction of the relation.
+        A double click on any of the visible meanings allows the reader to reset the visualization.
     </p><p>The main modal types – dynamic, deontic and epistemic – and the pre-modal and post-modal meanings are
         colour-coded (see the legend above each map).
     </p><p>When you hover over a meaning, the first attestation appears (but see also caveat 2).
@@ -130,8 +131,9 @@
     <p id="maps"></p>
     <h2>Available maps</h2>
     <ul>
-        <li><a href="certus.php">certus</a></li>
-        <li><a href="potestas.php">potestas</a></li>
+        <li><a href="map-certus.php">certus</a> (bilingual)</li>
+        <li><a href="map-certus-la.php">certus</a> (monolingual)</li>
+       <li><a href="map-potestas.php">potestas</a> (bilingual)</li>
     </ul>
 
 

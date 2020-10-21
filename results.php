@@ -69,6 +69,28 @@
             [<a href="http://dx.doi.org/10.17613/scy4-br70" target="_blank">Poster</a>].
         </li>
     </ul>
+    <h2>Software</h2>
+
+    <ul>
+        <li>Dell’Oro, Francesca; Rimaz, Loris; Bermúdez Sabel, Helena; Marongiu, Paola (2020). <a href="http://woposs.unil.ch/pygmalion-simple.php"><em>Pygmalion-simple
+                    1.0.
+                    A
+                    tool to draw interactive and diachronic semantic maps</em></a>. WoPoss. A World of Possibilities. Swiss
+            National
+            Science
+            Foundation.
+        </li>
+
+        <li>Dell’Oro, Francesca; Rimaz, Loris; Bermúdez Sabel, Helena; Marongiu, Paola (2020). <a href="http://woposs.unil.ch/pygmalion-form.php" target="_blank"><em>Pygmalion-modal
+                    1.0. A
+                    tool
+                    to draw interactive and diachronic semantic maps of modality</em></a>. WoPoss. A World of Possibilities.
+            Swiss
+            National
+            Science Foundation
+        </li>
+    </ul>
+
     <h2>Datasets (sample)</h2>
     <ul>
         <li>Reymond, Séverine; Dell’Oro, Francesca (2020). “Tertullian’s <em>De spectaculis</em> annotated according to
