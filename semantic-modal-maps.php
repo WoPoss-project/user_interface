@@ -23,7 +23,8 @@
         construction <em>certum est</em>, whose modal reading is by far more ancient). We think that this complexity can be represented
     in interactive semantic maps so as to give a
         clear overview of such interactions between non-modal and modal meanings in synchrony and diachrony. Besides presenting our work
-    concerning Latin modal markers, we also offer the community an open tool so any user can easily design a semantic (modal) map, <a href="pygmalion.php">Pygmalion</a>.</p>
+    concerning Latin modal markers, we also offer the community an open tool so any user can easily design a semantic (modal) map, <a href="pygmalion.php">Pygmalion</a> (Dell’Oro
+        <em>et al</em>. 2020).</p>
     <p>The interactive semantic maps are the results of the research as well as of the joint skills and efforts of the
         WoPoss team (cf. in particular Bermúdez Sabel, Dell’Oro &amp; Marongiu 2020b). Our goal is to plot a semantic
         map
@@ -38,7 +39,6 @@
         <em>Etymological Dictionary of Latin</em> (EDL), the <em>Dictionnaire étymologique de la langue latine</em>
         (Ernout &amp; Meillet
         1932) and in some cases the <em>Historische Laut- und Formenlehre der lateinischen Sprache</em> (Meiser 1998).
-        The design and functionalities of the maps have been developed by Helena Bermúdez Sabel and Francesca Dell’Oro and the tool Pygmalion has been developed by Loris Rimaz.
     </p>
     <h3>Framework</h3>
     <ul>
@@ -76,7 +76,11 @@
             the
             case of modal markers (poster)”. Poster DH2020. <a href="http://dx.doi.org/10.17613/scy4-br70" target="_blank">http://dx.doi.org/10.17613/scy4-br70</a>.
         </li>
-        <li>Marongiu, Paola &amp; Dell’Oro, Francesca (in preparation). <em>Syntheses of the descriptions of modal
+        <li>
+            Dell’Oro, Francesca, Rimaz, Loris, Bermúdez Sabel, Helena &amp; Paola Marongiu (2020). <em>Pygmalion-modal
+                1.0. A tool to draw interactive and diachronic semantic maps of modality</em>. WoPoss. A World of Possibilities. Swiss National Science Foundation
+        </li>
+        <li>Marongiu, Paola &amp; Francesca Dell’Oro (in preparation). <em>Syntheses of the descriptions of modal
                 markers in
                 the</em>
             ThLL (internal document).
@@ -85,41 +89,47 @@
     </ul>
 
     <h2>How to read the interactive semantic modal maps</h2>
-
+    <p>We provide two visualisations that highlight different types of information. In the first visualisation, we can access a very detailed representation of each meaning with very rich information like the date of emergence and
+        disappearance or its first attestation(s).
+   On the other hand, the second visualisation entails a network graph, which is suitable to have a quick overview of all the meanings and their relationships.</p>
+    <h3>Visualisation 1</h3>
     <p>Each map offers a diachronic visualisation of the semantic evolution of a lemma starting with its etymology (on
-        the extreme left). A coloured bar (from dark blue to light blue) indicates the century from which a meaning is
-        attested. Along with the different meanings of the lemma, the map includes the collocations in which the lemma
-        appears (e.g. <em>potestas</em> and <em>potestatem facio</em>). The meanings can be reordered according to different criteria, thus the user can select an organisation by the semantic group, by collocation or by chronology.
+        top). A coloured bar (from dark blue to light blue) indicates the century from which a meaning is
+        attested. Each meaning appears in a arrow whose length depends on the first (and, if pertinent, the last) attestations of that meaning.
+        Along with the different meanings of the lemma, the map includes the collocations in which the lemma
+        appears (e.g. <em>potestas</em> and <em>potestatem facio</em>). The meanings can be reordered according
+        to different criteria, thus the user can select an organisation by semantic group, by collocation or by chronology
+        (please be aware that collocations won’t appear explicitly if you choose the ‘chronological’ or the ‘group’ option).
     </p><p>For each map, we present a bilingual version and a Latin one. In the
         bilingual Latin-English version, the English equivalents of each meaning of the headword appear inside the
-        arrows. For constructions, the wording is indicated on the left outside the arrow and the meaning is specified
-        inside the arrow. In the monolingual version the arrows contain synonyms or an explanation of the meaning.
+        arrow. For collocations, the wording is indicated on the left outside the arrow and the meaning is specified
+        inside.
+        In the monolingual version the arrows contain synonyms or an explanation of the meaning.
     </p><p>When you click on a meaning, the meanings with which it has some specific semantic relations appear (while
         only loosely related meanings disappear). Semantic relations can be synchronic (relations between meanings
         attested during the same timespan) or diachronic (relations between meanings attested at different points in
-        time). The type of arrow provides information about the type of relation between the meanings, that is, the direction of the relation.
-        A double click on any of the visible meanings allows the reader to reset the visualization.
+        time). The type of line connecting the meanings provides information about the type of relation between them, that is, the direction of the relation.
+        A double click on any of the visible meanings allows the reader to reset the visualisation.
     </p><p>The main modal types – dynamic, deontic and epistemic – and the pre-modal and post-modal meanings are
-        colour-coded (see the legend above each map).
-    </p><p>When you hover over a meaning, the first attestation appears (but see also caveat 2).
-    </p>  <p>It is important to highlight that the actual version of the map reflects our knowledge of the history of a
-        lemma as described in the ThLL. Future research and data, as derived e.g. from the annotation of the WoPoss
-        corpus, may bring some changes to the description of the modal evolution.</p>
+        colour-coded (see the legend above each map). If a meaning has two (or more) modal readings, an individual arrow with its specific dating will be present for each modal reading.
+    </p><p>When you hover over a meaning, the first attestation appears.</p>
+
+        <h3>Visualisation 2</h3>
+    <p>The network graph conveys both the diachronic and the modal information using colours. The background colour of each node tells us the time a meaning first appears (the darker the blue, the most ancient the meaning is).
+    The border of the node discloses the modal meaning.</p>
+    <p>Similarly to the first visualisation, the network graph presents different type of arrows between the meanings to reveal the direction of the relation.</p>
 
     <h3>Caveat</h3>
     <ol>
-        <li>the actual version of the visualisation relies on syntheses which have been worked out on the basis of the
+        <li>It is important to highlight that the actual version of the map reflects our knowledge of the history of a
+            lemma as described in the ThLL. Future research and data, as derived e.g. from the annotation of the WoPoss
+            corpus, may bring some changes to the description of the modal evolution.</li>
+        <li>The actual version of the visualisation relies on syntheses which have been worked out on the basis of the
             ThLL.
             The ThLL does not usually specify whether a sense ceases to be attested. On this point more research is
             therefore needed.
         </li>
-        <li>When there is a semantic change from a non-modal (sometimes specifically pre-modal) to a modal reading and
-            the
-            general meaning doesn’t change, the attestations for both the non-modal and the modal reading appear. The
-            change
-            can be tracked by means of the colour-coding for the different readings. As the general meaning remains the
-            same, there is no new translation and all the attestations appear when you hover over the translation.
-        </li>
+
         <li>In our early chronology, we do not take into consideration very ancient passages (before the 3rd c. BCE)
             attested
             only as quotations by more recent writers, as there is no certainty that the linguistic material is quoted
@@ -129,6 +139,7 @@
 
 
     <p id="maps"></p>
+    <br/>
     <h2>Available maps</h2>
     <ul>
         <li><a href="map-certus.php">certus</a> (bilingual)</li>

@@ -47,8 +47,7 @@
 <body>
 <?php include("ssi/menu.html"); ?>
 <main>
-    <h1>Pygmalion</h1>
-    <h2>Modal semantic map of CERTUS</h2>
+    <h1>Modal semantic map of CERTUS</h1>
 
         <div class="invisibleWhenNoData" id="map" style="visibility: hidden"></div>
         <div>

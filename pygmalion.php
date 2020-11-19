@@ -63,7 +63,9 @@
         </li>
     </ul>
 
-    <p>We wish to express our gratitude to Adam Gitner (TLL project) for his feedback on Pygmalion-simple.</p>
+    <p>We wish to express our gratitude to Adam Gitner (TLL project) for his valuable feedback on Pygmalion-simple.</p>
+    <p>Loris Rimaz was engaged to create the code of Pygmalion thanks to the financial contribution of the Rectorate of the University of Lausanne.
+    </p>
 
 
     <h2 id="howTo">How to use Pygmalion-simple</h2>
@@ -76,7 +78,7 @@
 
     <ul>
         <li><strong>Headword</strong>. This is the word or concept to be described (e.g. French ‘carte’, the Romance
-            derivative of Latin
+            derivatives of Latin
             ‘filia’). This field is mandatory.
         </li>
 
@@ -99,7 +101,7 @@
         <li><strong>Date format</strong>. The user chooses the format of the date: centuries, decades or specific years.
             While the chronological line in the semantic map indicates only the centuries, whatever the choice of the
             user, each arrow corresponding to a certain meaning will be positioned inside the space of a century
-            according to the specific (and relative) decade or year of emergence.
+            according to the specific (and relative) decade or year of emergence. Please notice that once you have chosen a format, all entries must be in that format.
         </li>
 
         <li><strong>Meaning(s)</strong>. This field is composed of four sub-fields:
@@ -128,7 +130,7 @@
             <img src="images/image1.png" alt="meanings" class="block">
             <p>On the other hand, the meaning ‘restaurant menu’ belongs to the general meaning ‘piece of paper,
                 paperboard’:</p>
-            <img src="images/image3.png" class="block"><p>
+            <img src="images/image3.png" class="block" alt="carte"><p>
                 According to his/her own interest, the user can create any kind of group (e.g. syntactic).</p>
             <p>In the sub-field ‘description’ the user must indicate the ‘date of meaning emergence’ according to the
                 previously chosen format (see under ‘date format’). Inside ‘first attestation’ the user can indicate the
@@ -157,10 +159,10 @@
     <h2>The interactive maps</h2>
     <p>Pygmalion generates two interactive maps, both chronological. The upper one contains all information entered by
         the user. The lower one is a graph which allows to better see the relationships between the meanings (or
-        collocations). The depth of the colour indicates the diachrony: the darker the colour the more ancient the
+        collocations). The depth of the colour indicates the diachrony: the darker the colour, the more ancient the
         meaning.</p>
     <p>The user has three options for the visualisation: the meanings can appear 1) in chronological order, 2) gathered
-        according to the entered groups or 3) gathered according to the entered collocations.</p>
+        according to the entered groups or 3) gathered according to the entered collocations. Please be aware that collocations won’t appear explicitly if you choose the ‘chronological’ or the ‘group’ option.</p>
     <p>In the upper map the relations can be visualised only in relation to an input or output meaning. E.g. The general
         meaning ‘playing card’ is at the base of the meaning ‘small, not very solid house’ in the collocation ‘un
         château de cartes’, from which in turn the meaning ‘vain things’ derives.</p>

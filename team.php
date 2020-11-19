@@ -127,8 +127,6 @@
     </div>
     <div class="members_et">
         <div>
-        </div>
-        <div>
             <figure>
                 <img src="images/team/loris.jpg" alt="Loris Rimaz">
                 <figcaption>Loris Rimaz (MA 2020)</figcaption>
@@ -139,6 +137,15 @@
                 and the reality of an actual development project is likely the most positive takeaway of his whole
                 experience working on this project.</p>
         </div>
+        <div>
+            <figure>
+                <img src="images/team/kevin.png" alt="Kevin Duc"/>
+                <figcaption>Kevin Duc (BA 2019)</figcaption>
+            </figure>
+            <p>Kevin read Classics at University of Neuchâtel (BA 2019). He is currently pursuing a Master’s degree in Ancient Greek and Digital Humanities at University of Lausanne. Kevin's main interests within the Classics lie in Philology. His interest in Ancient Greek and the Latin language as well as their literature is the main reason why he decided to join the project
+                <em>Planude traducteur d’Ovide</em> which gives him the opportunity to read a parallel corpus in Greek and Latin.</p>
+        </div>
+
         <div>
         </div>
     </div>

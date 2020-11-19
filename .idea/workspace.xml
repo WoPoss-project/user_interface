@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db487090-34b1-4abd-9088-e9e00729d9e7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/journees-linguistique-woposs.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db-mockup.php" beforeDir="false" afterPath="$PROJECT_DIR$/db-mockup.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/map-load.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/map-load.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/map-certus-la.php" beforeDir="false" afterPath="$PROJECT_DIR$/map-certus-la.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/map-certus.php" beforeDir="false" afterPath="$PROJECT_DIR$/map-certus.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/map-potestas.php" beforeDir="false" afterPath="$PROJECT_DIR$/map-potestas.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pygmalion.php" beforeDir="false" afterPath="$PROJECT_DIR$/pygmalion.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results.php" beforeDir="false" afterPath="$PROJECT_DIR$/results.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results_copie.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/semantic-modal-maps.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-modal-maps.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/semantic-modal-maps_copie.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssi/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/ssi/menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/team.php" beforeDir="false" afterPath="$PROJECT_DIR$/team.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,102 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db-mockup.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1672">
-              <caret line="414" column="41" selection-start-line="414" selection-start-column="41" selection-end-line="414" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pygmalion.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-              <folding>
-                <element signature="e#2356#2361#0#HTML" expanded="true" />
-                <element signature="e#2783#2788#0#HTML" expanded="true" />
-                <element signature="n#style#0;n#ol#1;n#li#3;n#ul#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/map-load.js">
+        <entry file="file://$PROJECT_DIR$/journees-linguistique-pygmalion.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3654">
-              <caret line="126" column="20" selection-start-line="126" selection-start-column="17" selection-end-line="126" selection-end-column="20" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/map-potestas.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/potestas.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="268" column="11" lean-forward="true" selection-start-line="268" selection-start-column="11" selection-end-line="268" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/map.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="554">
-              <caret line="606" column="22" selection-end-line="1688" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/semantic-modal-maps.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1160">
-              <caret line="40" column="119" selection-start-line="40" selection-start-column="119" selection-end-line="40" selection-end-column="119" />
-              <folding>
-                <element signature="e#1749#1754#0#HTML" expanded="true" />
-                <element signature="e#2711#2716#0#HTML" expanded="true" />
-                <element signature="e#3361#3366#0#HTML" expanded="true" />
-                <element signature="e#4132#4137#0#HTML" expanded="true" />
-                <element signature="e#4365#4370#0#HTML" expanded="true" />
-                <element signature="e#4653#4658#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssi/menu.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="696">
-              <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/results.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1856">
-              <caret line="64" column="89" selection-start-line="64" selection-start-column="89" selection-end-line="64" selection-end-column="89" />
+            <state relative-caret-position="315">
+              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -132,17 +41,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>'None'</find>
-      <find>&quot;group&quot;: &quot;None&quot;</find>
-      <find>...</find>
-      <find>+ 10</find>
-      <find>x =</find>
-      <find>getTex</find>
-      <find>to200</find>
-      <find>getT</find>
-      <find>arial</find>
-      <find>text</find>
-      <find>.style</find>
       <find>font-size</find>
       <find>Arial</find>
       <find>offer</find>
@@ -162,6 +60,17 @@
       <find>None</find>
       <find>_</find>
       <find>Accord</find>
+      <find>The Mar</find>
+      <find>the dar</find>
+      <find>please be</find>
+      <find>constr</find>
+      <find>pol</find>
+      <find>h5</find>
+      <find>h4</find>
+      <find>uttera</find>
+      <find>Direc</find>
+      <find>fors</find>
+      <find>fo</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -202,31 +111,35 @@
         <option value="$PROJECT_DIR$/js/potestas.js" />
         <option value="$PROJECT_DIR$/js/certus_la.js" />
         <option value="$PROJECT_DIR$/js/certus.js" />
-        <option value="$PROJECT_DIR$/map-certus.php" />
-        <option value="$PROJECT_DIR$/map-potestas.php" />
-        <option value="$PROJECT_DIR$/map-certus-la.php" />
         <option value="$PROJECT_DIR$/js/show.js" />
         <option value="$PROJECT_DIR$/db.php" />
-        <option value="$PROJECT_DIR$/db-mockup.php" />
         <option value="$PROJECT_DIR$/results.php" />
         <option value="$PROJECT_DIR$/semantic-modal-maps_copie.php" />
-        <option value="$PROJECT_DIR$/semantic-modal-maps.php" />
         <option value="$PROJECT_DIR$/js/map.js" />
         <option value="$PROJECT_DIR$/../semantic_maps/map.js" />
         <option value="$PROJECT_DIR$/../semantic_maps/form.js" />
         <option value="$PROJECT_DIR$/../semantic_maps/form_simplified.js" />
         <option value="$PROJECT_DIR$/../semantic_maps/sem_rel_form.js" />
         <option value="$PROJECT_DIR$/ssi/menu.html" />
-        <option value="$PROJECT_DIR$/pygmalion.php" />
         <option value="$PROJECT_DIR$/js/map-load.js" />
+        <option value="$PROJECT_DIR$/map-certus.php" />
+        <option value="$PROJECT_DIR$/map-certus-la.php" />
+        <option value="$PROJECT_DIR$/map-potestas.php" />
+        <option value="$PROJECT_DIR$/semantic-modal-maps.php" />
+        <option value="$PROJECT_DIR$/db-mockup.php" />
+        <option value="$PROJECT_DIR$/pygmalion.php" />
+        <option value="$PROJECT_DIR$/team.php" />
+        <option value="$PROJECT_DIR$/journees-linguistique.php" />
+        <option value="$PROJECT_DIR$/journees-linguistique-woposs.php" />
+        <option value="$PROJECT_DIR$/journees-linguistique-pygmalion.php" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1920" />
+    <option name="x" value="2211" />
     <option name="y" value="27" />
-    <option name="width" value="2048" />
-    <option name="height" value="1125" />
+    <option name="width" value="1482" />
+    <option name="height" value="843" />
   </component>
   <component name="ProjectId" id="1ga85w3oBoKZNJjIMiIdPIYVTIm" />
   <component name="ProjectView">
@@ -288,20 +201,20 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="PHP" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../semantic_maps/sem_rel_form.js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/js" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/js" />
       <recent name="$PROJECT_DIR$/../semantic_maps/drawn-maps/svg" />
       <recent name="$PROJECT_DIR$/../semantic_maps/drawn-maps/js" />
       <recent name="$PROJECT_DIR$/images/semantic-maps" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -391,16 +304,27 @@
       <workItem from="1602745484597" duration="814000" />
       <workItem from="1603203737538" duration="678000" />
       <workItem from="1603270419052" duration="10359000" />
+      <workItem from="1603361839546" duration="22000" />
+      <workItem from="1603366240326" duration="15978000" />
+      <workItem from="1603437591097" duration="17533000" />
+      <workItem from="1604302986183" duration="8782000" />
+      <workItem from="1604390355075" duration="4172000" />
+      <workItem from="1604475644743" duration="771000" />
+      <workItem from="1604505065028" duration="87000" />
+      <workItem from="1604515366448" duration="812000" />
+      <workItem from="1604524832743" duration="685000" />
+      <workItem from="1604590928435" duration="726000" />
+      <workItem from="1604601576595" duration="2000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120535000" />
+    <option name="totallyTimeSpent" value="170105000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-10" width="3840" height="2170" extended-state="6" />
+    <frame x="1992" y="27" width="1976" height="1125" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14392324" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16010363" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -456,62 +380,12 @@
     <state x="789" y="478" width="399" height="149" key="NewPhpFileDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1598341210429" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../semantic_maps/generated-maps/form_simplified.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="597" column="13" lean-forward="true" selection-start-line="597" selection-start-column="13" selection-end-line="597" selection-end-column="13" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/map-test.js" />
-    <entry file="file://$PROJECT_DIR$/../semantic_map_bonitas.json" />
-    <entry file="file://$PROJECT_DIR$/semantic-maps/cc-by-woposs.svg" />
     <entry file="file://$PROJECT_DIR$/js/semantic_map.json" />
     <entry file="file://$PROJECT_DIR$/js/network-test.js" />
-    <entry file="file://$PROJECT_DIR$/../semantic_maps/generated-maps/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="63" column="11" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="63" selection-end-column="11" />
-          <folding>
-            <element signature="n#form#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../semantic_maps/generated-maps/form_simplified.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="63" column="11" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="63" selection-end-column="11" />
-          <folding>
-            <element signature="n#form#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../semantic_maps/generated-maps/map.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" selection-start-line="27" selection-end-line="137" selection-end-column="10" />
-          <folding>
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#h3#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#h3#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../semantic_maps/generated-maps/sem_rel_form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="11" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="23" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../semantic_maps/generated-maps/index.html" />
+    <entry file="file://$PROJECT_DIR$/../semantic_maps/generated-maps/form_simplified.html" />
+    <entry file="file://$PROJECT_DIR$/../semantic_maps/generated-maps/map.html" />
+    <entry file="file://$PROJECT_DIR$/../semantic_maps/generated-maps/sem_rel_form.html" />
     <entry file="file://$PROJECT_DIR$/map-test.php" />
     <entry file="file://$PROJECT_DIR$/js/certus.json" />
     <entry file="file://$PROJECT_DIR$/js/map (copie).js" />
@@ -574,20 +448,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/map-certus.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="85" column="13" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/map-certus-la.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="87" column="24" lean-forward="true" selection-start-line="76" selection-start-column="11" selection-end-line="87" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/map.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="464">
@@ -612,49 +472,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/results_copie.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-429">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/results.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1856">
-          <caret line="64" column="89" selection-start-line="64" selection-start-column="89" selection-end-line="64" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/semantic-modal-maps_copie.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1160">
-          <caret line="40" column="109" selection-start-line="40" selection-start-column="109" selection-end-line="40" selection-end-column="109" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db-mockup.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1672">
-          <caret line="414" column="41" selection-start-line="414" selection-start-column="41" selection-end-line="414" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/semantic-modal-maps.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1160">
-          <caret line="40" column="119" selection-start-line="40" selection-start-column="119" selection-end-line="40" selection-end-column="119" />
-          <folding>
-            <element signature="e#1749#1754#0#HTML" expanded="true" />
-            <element signature="e#2711#2716#0#HTML" expanded="true" />
-            <element signature="e#3361#3366#0#HTML" expanded="true" />
-            <element signature="e#4132#4137#0#HTML" expanded="true" />
-            <element signature="e#4365#4370#0#HTML" expanded="true" />
-            <element signature="e#4653#4658#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/results_copie.php" />
+    <entry file="file://$PROJECT_DIR$/semantic-modal-maps_copie.php" />
     <entry file="file://$PROJECT_DIR$/../semantic_maps/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1015">
@@ -722,9 +541,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/map-load.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="906">
+          <caret line="126" column="20" selection-start-line="126" selection-start-column="17" selection-end-line="126" selection-end-column="20" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/potestas.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="904">
+          <caret line="268" column="11" selection-start-line="268" selection-start-column="11" selection-end-line="268" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/map.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
+        <state relative-caret-position="904">
           <caret line="606" column="22" selection-end-line="1688" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -734,44 +570,79 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ssi/menu.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
+        <state relative-caret-position="360">
           <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pygmalion.php">
+    <entry file="file://$PROJECT_DIR$/results.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-          <folding>
-            <element signature="e#2356#2361#0#HTML" expanded="true" />
-            <element signature="e#2783#2788#0#HTML" expanded="true" />
-            <element signature="n#style#0;n#ol#1;n#li#3;n#ul#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="904">
+          <caret line="64" column="89" selection-start-line="64" selection-start-column="89" selection-end-line="64" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map-certus.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="49" column="7" selection-start-line="49" selection-start-column="7" selection-end-line="49" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/map-potestas.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+        <state relative-caret-position="750">
+          <caret line="50" column="7" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/potestas.js">
+    <entry file="file://$PROJECT_DIR$/map-certus-la.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="268" column="11" lean-forward="true" selection-start-line="268" selection-start-column="11" selection-end-line="268" selection-end-column="11" />
+        <state relative-caret-position="375">
+          <caret line="49" column="7" selection-start-line="49" selection-start-column="7" selection-end-line="49" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/map-load.js">
+    <entry file="file://$PROJECT_DIR$/semantic-modal-maps.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3654">
-          <caret line="126" column="20" selection-start-line="126" selection-start-column="17" selection-end-line="126" selection-end-column="20" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="286">
+          <caret line="109" column="71" selection-start-line="109" selection-start-column="71" selection-end-line="109" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/journees-linguistique.php" />
+    <entry file="file://$PROJECT_DIR$/journees-linguistique-woposs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="108" selection-start-line="22" selection-start-column="108" selection-end-line="22" selection-end-column="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/team.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pygmalion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="904">
+          <caret line="66" column="147" selection-start-line="66" selection-start-column="147" selection-end-line="66" selection-end-column="147" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db-mockup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="904">
+          <caret line="146" column="55" selection-start-line="146" selection-start-column="55" selection-end-line="146" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/journees-linguistique-pygmalion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
         </state>
       </provider>
     </entry>
