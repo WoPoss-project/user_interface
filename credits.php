@@ -53,12 +53,14 @@
 
                 <li><a href="http://www.perseus.tufts.edu" target="_blank">Perseus Digital
                         Library</a></li>
-                <li>Project <a
-                    href="https://www.unine.ch/islc/home/recherche/linguistique-francaise/la-representation-du-sens-modal.html"
-                    target="_blank">La représentation du sens modal et de ses tendances
-                    évolutives dans deux langues romanes : le français et l’italien</a>,
-                    FNS-project led by <a href="https://www.unine.ch/islc/corinne.rossari">Corinne
-                        Rossari</a>.</li>
+
+                <li>Projects on modality led by <a href="https://www.unine.ch/islc/corinne.rossari" target="_blank">Corinne Rossari</a>
+                <ul>
+                    <li><a href="https://www.unine.ch/islc/home/recherche/linguistique-francaise/la-representation-du-sens-modal.html"
+                                target="_blank">La représentation du sens modal et de ses tendances
+                            évolutives dans deux langues romanes : le français et l’italien</a></li>
+                </ul>
+                </li>
                 <li>Projects on modality led by <a
                         href="http://uahost.uantwerpen.be/nuyts/default.html" target="_blank">Jan
                         Nuyts</a>

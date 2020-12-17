@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db487090-34b1-4abd-9088-e9e00729d9e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/journees-linguistique-woposs.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db-mockup.php" beforeDir="false" afterPath="$PROJECT_DIR$/db-mockup.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/map-certus-la.php" beforeDir="false" afterPath="$PROJECT_DIR$/map-certus-la.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/map-certus.php" beforeDir="false" afterPath="$PROJECT_DIR$/map-certus.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/map-potestas.php" beforeDir="false" afterPath="$PROJECT_DIR$/map-potestas.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pygmalion.php" beforeDir="false" afterPath="$PROJECT_DIR$/pygmalion.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/semantic-modal-maps.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-modal-maps.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/credits.php" beforeDir="false" afterPath="$PROJECT_DIR$/credits.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results.php" beforeDir="false" afterPath="$PROJECT_DIR$/results.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/team.php" beforeDir="false" afterPath="$PROJECT_DIR$/team.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,13 +15,45 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/journees-linguistique-pygmalion.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
               <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/results.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1290">
+              <caret line="86" column="9" selection-start-line="86" selection-start-column="9" selection-end-line="86" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/team.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/credits.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="43" column="98" lean-forward="true" selection-start-line="43" selection-start-column="98" selection-end-line="43" selection-end-column="98" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssi/head.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -41,7 +68,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>font-size</find>
       <find>Arial</find>
       <find>offer</find>
       <find>12px</find>
@@ -71,6 +97,7 @@
       <find>Direc</find>
       <find>fors</find>
       <find>fo</find>
+      <find>corinne</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -113,7 +140,6 @@
         <option value="$PROJECT_DIR$/js/certus.js" />
         <option value="$PROJECT_DIR$/js/show.js" />
         <option value="$PROJECT_DIR$/db.php" />
-        <option value="$PROJECT_DIR$/results.php" />
         <option value="$PROJECT_DIR$/semantic-modal-maps_copie.php" />
         <option value="$PROJECT_DIR$/js/map.js" />
         <option value="$PROJECT_DIR$/../semantic_maps/map.js" />
@@ -128,18 +154,20 @@
         <option value="$PROJECT_DIR$/semantic-modal-maps.php" />
         <option value="$PROJECT_DIR$/db-mockup.php" />
         <option value="$PROJECT_DIR$/pygmalion.php" />
-        <option value="$PROJECT_DIR$/team.php" />
         <option value="$PROJECT_DIR$/journees-linguistique.php" />
         <option value="$PROJECT_DIR$/journees-linguistique-woposs.php" />
         <option value="$PROJECT_DIR$/journees-linguistique-pygmalion.php" />
+        <option value="$PROJECT_DIR$/results.php" />
+        <option value="$PROJECT_DIR$/team.php" />
+        <option value="$PROJECT_DIR$/credits.php" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2211" />
-    <option name="y" value="27" />
+    <option name="x" value="2239" />
+    <option name="y" value="167" />
     <option name="width" value="1482" />
-    <option name="height" value="843" />
+    <option name="height" value="845" />
   </component>
   <component name="ProjectId" id="1ga85w3oBoKZNJjIMiIdPIYVTIm" />
   <component name="ProjectView">
@@ -157,11 +185,6 @@
             <path>
               <item name="user_interface" type="b2602c69:ProjectViewProjectNode" />
               <item name="user_interface" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="user_interface" type="b2602c69:ProjectViewProjectNode" />
-              <item name="user_interface" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -169,11 +192,6 @@
               <item name="user_interface" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
               <item name="logos" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="user_interface" type="b2602c69:ProjectViewProjectNode" />
-              <item name="user_interface" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="user_interface" type="b2602c69:ProjectViewProjectNode" />
@@ -228,6 +246,16 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="results.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/user_interface/results.php" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.results.php" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
@@ -315,16 +343,27 @@
       <workItem from="1604524832743" duration="685000" />
       <workItem from="1604590928435" duration="726000" />
       <workItem from="1604601576595" duration="2000" />
+      <workItem from="1605875993955" duration="3242000" />
+      <workItem from="1605890306175" duration="599000" />
+      <workItem from="1606122129876" duration="2015000" />
+      <workItem from="1606815694547" duration="3645000" />
+      <workItem from="1606847411628" duration="1199000" />
+      <workItem from="1607072096440" duration="4684000" />
+      <workItem from="1607082283725" duration="37000" />
+      <workItem from="1607354907142" duration="237000" />
+      <workItem from="1607355474232" duration="24000" />
+      <workItem from="1607785626521" duration="8000" />
+      <workItem from="1607937015722" duration="1455000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="170105000" />
+    <option name="totallyTimeSpent" value="187250000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1992" y="27" width="1976" height="1125" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16010363" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13367875" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -380,8 +419,6 @@
     <state x="789" y="478" width="399" height="149" key="NewPhpFileDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1598341210429" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/semantic_map.json" />
-    <entry file="file://$PROJECT_DIR$/js/network-test.js" />
     <entry file="file://$PROJECT_DIR$/../semantic_maps/generated-maps/index.html" />
     <entry file="file://$PROJECT_DIR$/../semantic_maps/generated-maps/form_simplified.html" />
     <entry file="file://$PROJECT_DIR$/../semantic_maps/generated-maps/map.html" />
@@ -575,13 +612,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/results.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="904">
-          <caret line="64" column="89" selection-start-line="64" selection-start-column="89" selection-end-line="64" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/map-certus.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -618,13 +648,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/team.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pygmalion.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="904">
@@ -643,6 +666,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1290">
+          <caret line="86" column="9" selection-start-line="86" selection-start-column="9" selection-end-line="86" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssi/head.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/team.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/credits.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="43" column="98" lean-forward="true" selection-start-line="43" selection-start-column="98" selection-end-line="43" selection-end-column="98" />
         </state>
       </provider>
     </entry>

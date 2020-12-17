@@ -50,6 +50,9 @@
     </ul>
     <h3>Refereed conference talks</h3>
     <ul>
+        <li>Dell’Oro, Francesca; Bermúdez Sabel, Helena (2020). “L’étude de la modalité dans un corpus diachronique en latin :
+            théorie de la modalité, annotation linguistique et partage des données”. <em>11<sup>e</sup> Journée de Linguistique Suisse</em>. Université de Fribourg.
+            [<a href="https://sagw.ch/fileadmin/redaktion_ssg/dokumente/2020-10-09_DSL11_Abstracts.pdf" target="_blank">Abstract</a>, p. 21] [<a href="http://woposs.unil.ch/images/presentation-journees.mp4">Presentation</a>].</li>
         <li>Dell’Oro, Francesca (2020). “WoPoss – A <em>Wo</em>rld of <em>Poss</em>ibilities. An open access annotated
             corpus to study the diachrony of modality in the Latin language”. <em>DH2020</em>. [<a
                     href="https://dh2020.adho.org/wp-content/uploads/2020/07/406_WoPossAWorldofPossibilitiesAnopenaccessannotatedcorpustostudythediachronyofmodalityintheLatinlanguage.html"
@@ -62,12 +65,25 @@
     </ul>
     <h3>Posters</h3>
     <ul>
-        <li>Bermúdez Sabel, Helena; Dell’Oro, Francesca; Paola Marongiu (2020). “Visualisation of semantic shifts:
+        <li>Dell’Oro, Francesca; Rimaz, Loris; Bermúdez Sabel, Helena (2020). “Create your own interactive diachronic semantic maps:
+            a flexible and user-friendly open-source tool for historical linguistics”. <em>11<sup>e</sup> Journée de Linguistique Suisse</em>. Université de Fribourg.
+            [<a target="_blank" href="http://woposs.unil.ch/other/poster-journees.pdf">PDF</a>] [Presentation: <a href="http://woposs.unil.ch/images/poster-journees.mp4" target="_blank">Firefox</a>,
+            <a target="_blank" href="http://woposs.unil.ch/images/poster-journees.mp4">Chrome</a>,
+            <a href="http://woposs.unil.ch/images/poster-journees-safari.mp4" target="_blank">Safari</a>].</li>
+        <li>Bermúdez Sabel, Helena; Dell’Oro, Francesca; Marongiu, Paola (2020). “Visualisation of semantic shifts:
             the
             case of modal markers”. <em>DH2020</em>. [<a target="_blank"
                                                         href="https://dh2020.adho.org/wp-content/uploads/2020/07/165_Visualisationofsemanticshiftsthecaseofmodalmarkers.html">Abstract</a>]
             [<a href="http://dx.doi.org/10.17613/scy4-br70" target="_blank">Poster</a>].
         </li>
+    </ul>
+    <h3>Invited talks</h3>
+    <ul>
+        <li>Dell’Oro, Francesca (2020). “Automatic annotation of Latin and Greek texts: lemmatisation, morphological analysis and dependency parsing”.
+            <a href="https://github.com/SunoikisisDC/SunoikisisDC-2020-2021/wiki/7-Using-Treebanks" target="_blank"><em>Sunoikisis Digital Classics, Fall 2020
+                    Session 7. Using Treebanks</em></a>.
+            [<a href="https://raw.githubusercontent.com/SunoikisisDC/SunoikisisDC-2020-2021/master/Fall-2020-slides/TreebanksAutomaticAnnotation.pdf" target="_blank">Slides</a>]
+            [<a href="https://youtu.be/EfHnR0nl9tE" target="_blank">Presentation</a>, 1:04:20].</li>
     </ul>
     <h2>Software</h2>
 
@@ -87,7 +103,7 @@
                     to draw interactive and diachronic semantic maps of modality</em></a>. WoPoss. A World of Possibilities.
             Swiss
             National
-            Science Foundation
+            Science Foundation.
         </li>
     </ul>
 
@@ -98,6 +114,22 @@
                 and dataset</a>]
             [<a href="other/copy_of_WoPoss_project_2020-05-14_0929.zip">download file</a>].
         </li>
+    </ul>
+
+    <h2>Pedagogical materials</h2>
+    <ul>
+        <li>Bermúdez Sabel, Helena; Dell’Oro, Francesca (2020). “<a href="https://github.com/WoPoss-project/automatic_annotation" target="_blank">Automatic annotation of Latin and Greek texts</a>”. GitHub.</li>
+    </ul>
+    <h2>Organisation of scientific events</h2>
+    <ul>
+        <li><em>TheorLing: Theoretical linguistics in the light of the interaction of qualitative and quantitative approaches</em>.
+            International Symposium. Upcoming. University of Neuchâtel. [<a href="images/call.pdf">Call for papers</a>].</li>
+
+        <li>Dell’Oro, Francesca; Rossari, Corinne: <em>Workshop on modality and written corpora</em>. December 17th 2019. University of Neuchâtel. [<a href="images/flyer_workshop2.pdf" target="_blank">Program</a>].</li>
+
+        <li>Dell’Oro, Francesca; Picca, Davide: <em>La modalité: de la théorie à l’encodage</em>. May 6th 2019. University of Lausanne. [<a href="images/flyer_workshop.pdf" target="_blank">Program</a>].</li>
+
+
     </ul>
 </main>
 <?php include("ssi/footer.html"); ?>
