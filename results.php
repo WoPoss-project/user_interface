@@ -4,7 +4,12 @@
     <title>Outputs - WoPoss</title>
     <?php include("ssi/head.html"); ?>
 
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/show.js"></script>
+    <link type="text/css"
+            rel="stylesheet"
+            href="css/show.css"
+    />
 </head>
 <body>
 <?php include("ssi/menu.html"); ?>
@@ -12,14 +17,35 @@
     <h1>Outputs</h1>
 
     <h2>Project milestones</h2>
-    <ul>
-        <li>Dell’Oro, Francesca (2019). <em>WoPoss guidelines for annotation</em>. Zenodo.
+    <ul style="list-style:none">
+        <li><h3>Annotation guidelines</h3>
+        <ul>
+            <li>Dell’Oro, Francesca (2019). <em>WoPoss guidelines for annotation</em>. Zenodo.
 
-            <a href="https://doi.org/10.5281/zenodo.3560951"><img
-                        src="https://zenodo.org/badge/DOI/10.5281/zenodo.3560951.svg" alt="DOI"></a>
+                <a href="https://doi.org/10.5281/zenodo.3560951"><img
+                            src="https://zenodo.org/badge/DOI/10.5281/zenodo.3560951.svg" alt="DOI"></a>
 
-        </li>
+            </li>
+        </ul></li>
+        <li><h3 class="title">Diachronic modal semantic maps</h3>
+            <div class="wrapper">
+                <div class="content">
+                    <ul>
+                        <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-aequus.php" target="_blank">aequus</a>”. v.1.0. WoPoss.</li>
+                        <li>Marongiu, Paola; Bermúdez Sabel, Helena; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-certus.php" target="_blank">certus</a> (bilingual)”. v.1.0. WoPoss.</li>
+                        <li>Marongiu, Paola; Bermúdez Sabel, Helena; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-certus-la.php" target="_blank">certus</a> (monolingual)”. v.1.0. WoPoss.</li>
+                        <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-facultas.php" target="_blank">facultas</a>”. v.1.0. WoPoss.</li>
+                        <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-nequeo.php" target="_blank">nequeo</a>”. v.1.0. WoPoss.</li>
+                        <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-potestas.php" target="_blank">potestas</a>”. v.1.0. WoPoss.</li>
+                        <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-queo.php" target="_blank">queo</a>”. v.1.0. WoPoss.</li>
+                        <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-valeo.php" target="_blank">valeo</a>”. v.1.0. WoPoss.</li>
+                        <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-voluntas.php" target="_blank">voluntas</a>”. v.1.0. WoPoss.</li>
+                    </ul>
+                </div>
+            </div></li>
+
     </ul>
+
     <h2>Journal articles</h2>
     <ul>
         <li>Dell’Oro, Francesca (2020). “<a href="https://riviste.unimi.it/index.php/ACME/article/view/13679/12819"

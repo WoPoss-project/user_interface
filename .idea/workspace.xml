@@ -2,61 +2,66 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db487090-34b1-4abd-9088-e9e00729d9e7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/css/show.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/semantic-maps/map-aequus.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/semantic-maps/map-facultas.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/semantic-maps/map-nequeo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/semantic-maps/map-queo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/semantic-maps/map-valeo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/semantic-maps/map-voluntas.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/user_interface.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/credits.php" beforeDir="false" afterPath="$PROJECT_DIR$/credits.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/certus.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/certus_la.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/certus.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/certus_la.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/potestas.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/potestas.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/map-certus-la.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/map-certus.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/map-potestas.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/results.php" beforeDir="false" afterPath="$PROJECT_DIR$/results.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/certus-timeline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/certus.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/certus.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/legend.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/old/certus_2020-04-14.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/old/certus_2020-04-15.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/old/certus_chron_2020-04-15.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/old/certus_chron_2020-04-16.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/old/certus_chron_2020-04-17.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/old/certus_chrontags_2020-04-15.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/old/certus_def_2020-04-20.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/old/certus_def_2020-04-21.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/old/certus_def_2020-04-22.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/old/certus_def_2020-05-25.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/old/certus_def_2020-06-08.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/old/certus_def_2020-06-09.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/old/certus_def_2020-06-10.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/old/certus_def_2020-06-17.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/old/certus_sem_2020-04-15.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/old/certus_semtags_2020-04-15.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/old/certus_tooltips_2020-04-22.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/old/legend_premodal.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/potestas-timeline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/potestas.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/potestas.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-modal-maps.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-modal-maps.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-modal-maps_old.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssi/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/ssi/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssi/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/ssi/head.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssi/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/ssi/menu.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/team.php" beforeDir="false" afterPath="$PROJECT_DIR$/team.php" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/journees-linguistique-pygmalion.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/results.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1290">
-              <caret line="86" column="9" selection-start-line="86" selection-start-column="9" selection-end-line="86" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/team.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/credits.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="43" column="98" lean-forward="true" selection-start-line="43" selection-start-column="98" selection-end-line="43" selection-end-column="98" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssi/head.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -216,36 +221,27 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="PHP" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/semantic-maps" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/semantic-maps" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/js" />
       <recent name="$PROJECT_DIR$/../semantic_maps/drawn-maps/svg" />
       <recent name="$PROJECT_DIR$/../semantic_maps/drawn-maps/js" />
-      <recent name="$PROJECT_DIR$/images/semantic-maps" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/js" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="results.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/user_interface/results.php" useBuiltInWebServerPort="true">
@@ -257,7 +253,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -354,6 +350,10 @@
       <workItem from="1607355474232" duration="24000" />
       <workItem from="1607785626521" duration="8000" />
       <workItem from="1607937015722" duration="1455000" />
+      <workItem from="1609943564946" duration="8000" />
+      <workItem from="1609945025787" duration="603000" />
+      <workItem from="1609948842549" duration="599000" />
+      <workItem from="1610351075654" duration="13235000" />
     </task>
     <servers />
   </component>
@@ -406,17 +406,7 @@
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1598345699479">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1598345699479" />
-    <state x="789" y="478" width="399" height="149" key="NewPhpFileDialog" timestamp="1598341210429">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state x="789" y="478" width="399" height="149" key="NewPhpFileDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1598341210429" />
+    <option name="version" value="3" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../semantic_maps/generated-maps/index.html" />

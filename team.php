@@ -210,18 +210,7 @@
     </div>
     <h2>Assistants</h2>
     <div class="members_et">
-        <div>
-            <figure>
-                <img src="images/team/mael.jpg" alt="Maël Graa"/>
-                <figcaption>Maël Graa (BA 2018)</figcaption>
-            </figure>
 
-            <p>Maël Graa obtained a Bachelor of Arts in History and Latin and he decided to deepen his knowledge in
-                these two fields during his post-graduate training.
-                He is currently pursuing a Master degree at the Université de Lausanne, with an additional
-                specialization in Discourse and Public Communication Analysis. His Master Thesis concerns the Latin
-                poetry by Théodore de Bèze.</p>
-        </div>
         <div>
             <figure>
                 <img src="images/team/severine.jpg" alt="Séverine Reymond">
@@ -243,8 +232,35 @@
             <p></p>
         </div>
 
+        <div>
+            <figure>
+                <img src="images/team/kevin.png" alt="Kevin Duc"/>
+                <figcaption>Kevin Duc (BA 2019)</figcaption>
+            </figure>
+            <p>Kevin read Classics at University of Neuchâtel (BA 2019). He is currently pursuing a Master’s degree in Ancient Greek and Digital Humanities at University of Lausanne. Kevin's main interests within the Classics lie in Philology. His interest in Ancient Greek and the Latin language as well as their literature is the main reason why he decided to join the project
+                <em>Planude traducteur d’Ovide</em> which gives him the opportunity to read a parallel corpus in Greek and Latin.</p>
+        </div>
     </div>
+
+    <h2 id="past-collaborators">Past collaborators</h2>
     <div class="members_et">
+        <div>
+            <figure>
+                <img src="images/team/mael.jpg" alt="Maël Graa"/>
+                <figcaption>Maël Graa (BA 2018)</figcaption>
+            </figure>
+
+            <p>Maël Graa obtained a Bachelor of Arts in History and Latin and he decided to deepen his knowledge in
+                these two fields during his post-graduate training.
+                He is currently pursuing a Master degree at the Université de Lausanne, with an additional
+                specialization in Discourse and Public Communication Analysis. His Master Thesis concerns the Latin
+                poetry by Théodore de Bèze.</p>
+
+            <div class="review">
+                <h3>In his words:</h3>
+                <p>Being a member of the remarkable WoPoss team made me aware of the issues of Latin modality as well as the methodological possibilities provided by the digital humanities.
+                    I am grateful and proud to have been part of such an outstanding project, whose results, whatever they may be, will certainly be of capital importance for the field of historical linguistics and ancient languages. </p></div>
+        </div>
         <div>
             <figure>
                 <img src="images/team/loris.jpg" alt="Loris Rimaz">
@@ -256,21 +272,6 @@
                 and the reality of an actual development project is likely the most positive takeaway of his whole
                 experience working on this project.</p>
         </div>
-        <div>
-            <figure>
-                <img src="images/team/kevin.png" alt="Kevin Duc"/>
-                <figcaption>Kevin Duc (BA 2019)</figcaption>
-            </figure>
-            <p>Kevin read Classics at University of Neuchâtel (BA 2019). He is currently pursuing a Master’s degree in Ancient Greek and Digital Humanities at University of Lausanne. Kevin's main interests within the Classics lie in Philology. His interest in Ancient Greek and the Latin language as well as their literature is the main reason why he decided to join the project
-                <em>Planude traducteur d’Ovide</em> which gives him the opportunity to read a parallel corpus in Greek and Latin.</p>
-        </div>
-
-        <div>
-        </div>
-    </div>
-    <h2 id="past-collaborators">Past collaborators</h2>
-    <div class="members_et">
-        <div></div>
         <div>
             <figure>
                 <img src="images/team/kelvin.jpg" alt="Kelvin Bruggmann"/>
@@ -292,8 +293,9 @@
                     team
                     for their help and for their kindness, welcoming me in this adventure.</p></div>
         </div>
-        <div></div>
-    </div>
+        </div>
+
+
 </main>
 <?php include("ssi/footer.html"); ?>
 </body>

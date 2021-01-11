@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>Semantic Map: POTESTAS - WoPoss</title>
+    <title>Semantic Map: AEQUUS - WoPoss</title>
 
-    <link rel="stylesheet" href="css/form.css" />
+    <link rel="stylesheet" href="../css/form.css" />
 
     <link
             rel="stylesheet"
@@ -15,7 +15,7 @@
     />
 
 
-    <script src="js/potestas.js">/**/</script>
+    <script src="../js/json/aequus.js">/**/</script>
 
 
     <!-- jQuery & Bootstrap -->
@@ -28,7 +28,7 @@
     <script src="http://bigspotteddog.github.io/ScrollToFixed/jquery-scrolltofixed.js"
             type="text/javascript">/**/</script>
 
-    <script src="js/timeline.js" type="text/javascript">/**/</script>
+    <script src="../js/timeline.js" type="text/javascript">/**/</script>
 
     <!-- Sweetalert 2 -->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
@@ -37,7 +37,7 @@
     <script src="https://d3js.org/d3.v5.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.min.js"></script>
 
-    <?php include("ssi/head.html"); ?>
+    <?php include("../ssi/head.html"); ?>
 
     <style>
         nav, main, footer {
@@ -46,9 +46,9 @@
     </style>
 </head>
 <body>
-<?php include("ssi/menu.html"); ?>
+<?php include("../ssi/menu.html"); ?>
 <main>
-    <h1>Modal semantic map of POTESTAS</h1>
+    <h1>Diachronic modal semantic map of AEQUUS</h1>
 
         <div class="invisibleWhenNoData" id="map" style="visibility: hidden"></div>
         <div>
@@ -172,8 +172,8 @@
                 Save graph as SVG
             </button>
         </div>
-    <script src="js/map-load.js"></script>
-    <script src="js/network.js"></script>
+    <script src="../js/map-load.js"></script>
+    <script src="../js/network.js"></script>
 </main>
 <?php include("ssi/footer.html"); ?>
 </body>
