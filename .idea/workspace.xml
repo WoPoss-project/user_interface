@@ -2,58 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db487090-34b1-4abd-9088-e9e00729d9e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/show.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semantic-maps/map-aequus.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semantic-maps/map-facultas.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semantic-maps/map-nequeo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semantic-maps/map-queo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semantic-maps/map-valeo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semantic-maps/map-voluntas.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/user_interface.iml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/semantic-maps/map-probabilitas.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/certus.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/certus_la.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/json/certus.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/json/certus_la.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/json/potestas.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/potestas.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/map-certus-la.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/map-certus.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/map-potestas.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/results.php" beforeDir="false" afterPath="$PROJECT_DIR$/results.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/semantic-maps/certus-timeline.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semantic-maps/certus.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semantic-maps/certus.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semantic-maps/legend.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semantic-maps/old/certus_2020-04-14.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semantic-maps/old/certus_2020-04-15.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semantic-maps/old/certus_chron_2020-04-15.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semantic-maps/old/certus_chron_2020-04-16.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semantic-maps/old/certus_chron_2020-04-17.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semantic-maps/old/certus_chrontags_2020-04-15.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semantic-maps/old/certus_def_2020-04-20.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semantic-maps/old/certus_def_2020-04-21.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semantic-maps/old/certus_def_2020-04-22.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semantic-maps/old/certus_def_2020-05-25.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semantic-maps/old/certus_def_2020-06-08.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semantic-maps/old/certus_def_2020-06-09.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semantic-maps/old/certus_def_2020-06-10.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semantic-maps/old/certus_def_2020-06-17.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semantic-maps/old/certus_sem_2020-04-15.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semantic-maps/old/certus_semtags_2020-04-15.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semantic-maps/old/certus_tooltips_2020-04-22.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semantic-maps/old/legend_premodal.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semantic-maps/potestas-timeline.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semantic-maps/potestas.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semantic-maps/potestas.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-nequeo.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-nequeo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-queo.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-queo.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/semantic-modal-maps.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-modal-maps.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/semantic-modal-maps_old.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssi/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/ssi/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssi/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/ssi/head.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssi/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/ssi/menu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/team.php" beforeDir="false" afterPath="$PROJECT_DIR$/team.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -354,6 +308,8 @@
       <workItem from="1609945025787" duration="603000" />
       <workItem from="1609948842549" duration="599000" />
       <workItem from="1610351075654" duration="13235000" />
+      <workItem from="1610455640877" duration="358000" />
+      <workItem from="1610457843282" duration="669000" />
     </task>
     <servers />
   </component>

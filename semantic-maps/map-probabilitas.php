@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>Semantic Map: NEQUEO - WoPoss</title>
+    <title>Semantic Map: PROBABILITAS - WoPoss</title>
 
     <link rel="stylesheet" href="../css/form.css" />
 
@@ -15,7 +15,7 @@
     />
 
 
-    <script src="../js/json/nequeo.js">/**/</script>
+    <script src="../js/json/probabilitas.js">/**/</script>
 
 
     <!-- jQuery & Bootstrap -->
@@ -48,7 +48,7 @@
 <body>
 <?php include("../ssi/menu.html"); ?>
 <main>
-    <h1>Diachronic modal semantic map of NEQUEO</h1>
+    <h1>Diachronic semantic map of PROBABILITAS</h1>
 
         <div class="invisibleWhenNoData" id="map" style="visibility: hidden"></div>
         <div>
@@ -175,6 +175,6 @@
     <script src="../js/map-load.js"></script>
     <script src="../js/network.js"></script>
 </main>
-<?php include("ssi/footer.html"); ?>
+<?php include("../ssi/footer.html"); ?>
 </body>
 </html>

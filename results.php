@@ -37,6 +37,7 @@
                         <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-facultas.php" target="_blank">facultas</a>”. v.1.0. WoPoss.</li>
                         <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-nequeo.php" target="_blank">nequeo</a>”. v.1.0. WoPoss.</li>
                         <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-potestas.php" target="_blank">potestas</a>”. v.1.0. WoPoss.</li>
+                        <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-probabilitas.php" target="_blank">probabilitas</a>”. v.1.0. WoPoss.</li>
                         <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-queo.php" target="_blank">queo</a>”. v.1.0. WoPoss.</li>
                         <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-valeo.php" target="_blank">valeo</a>”. v.1.0. WoPoss.</li>
                         <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-voluntas.php" target="_blank">voluntas</a>”. v.1.0. WoPoss.</li>

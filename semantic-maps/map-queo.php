@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>Semantic Map: VOLUNTAS - WoPoss</title>
+    <title>Semantic Map: QUEO - WoPoss</title>
 
     <link rel="stylesheet" href="../css/form.css" />
 

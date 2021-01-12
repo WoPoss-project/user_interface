@@ -187,6 +187,10 @@
                     href="semantic-maps/map-potestas.php" target="_blank">potestas</a>”. v.1.0. WoPoss.  <a
                     href="http://woposs.unil.ch/semantic-maps/map-postestas.php">http://woposs.unil.ch/semantic-maps/map-potestas.php</a>)
         </li>
+        <li><a href="semantic-maps/map-probabilitas.php">PROBABILITAS</a> (How to cite: Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
+                    href="semantic-maps/map-queo.php" target="_blank">probabilitas</a>”. v.1.0. WoPoss.  <a
+                    href="http://woposs.unil.ch/semantic-maps/map-probabilitas.php">http://woposs.unil.ch/semantic-maps/map-probabilitas.php</a>)
+        </li>
         <li><a href="semantic-maps/map-queo.php">QUEO</a> (How to cite: Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
                     href="semantic-maps/map-queo.php" target="_blank">queo</a>”. v.1.0. WoPoss.  <a
                     href="http://woposs.unil.ch/semantic-maps/map-queo.php">http://woposs.unil.ch/semantic-maps/map-queo.php</a>)
