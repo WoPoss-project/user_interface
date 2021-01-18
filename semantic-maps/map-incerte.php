@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>Semantic Map: CERTUS - WoPoss</title>
+    <title>Semantic Map: INCERTE - WoPoss</title>
 
-    <link rel="stylesheet" href="http://woposs.unil.ch/css/form.css" />
+    <link rel="stylesheet" href="../css/form.css" />
 
     <link
             rel="stylesheet"
@@ -15,7 +15,8 @@
     />
 
 
-    <script src="../js/json/certus.js">/**/</script>
+    <script src="../js/json/incertim.js">/**/</script>
+
 
     <!-- jQuery & Bootstrap -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -27,7 +28,7 @@
     <script src="http://bigspotteddog.github.io/ScrollToFixed/jquery-scrolltofixed.js"
             type="text/javascript">/**/</script>
 
-    <script src="http://woposs.unil.ch/js/timeline.js" type="text/javascript">/**/</script>
+    <script src="../js/timeline.js" type="text/javascript">/**/</script>
 
     <!-- Sweetalert 2 -->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
@@ -47,8 +48,14 @@
 <body>
 <?php include("../ssi/menu.html"); ?>
 <main>
-    <h1>Diachronic modal semantic map of CERTUS</h1>
+    <h1>Diachronic modal semantic map of INCERTE</h1>
 
+    <p>See related diachronic semantic maps:</p>
+    <ul><li><a href="map-incerta.php" target="_blank">INCERTA</a></li>
+        <li><a href="map-incertim.php" target="_blank">INCERTIM</a></li>
+        <li><a href="map-incertus.php" target="_blank">INCERTUM</a> (noun)</li>
+        <li><a href="map-incertus.php" target="_blank">INCERTUS</a> (adjective)</li>
+    </ul>
         <div class="invisibleWhenNoData" id="map" style="visibility: hidden"></div>
         <div>
             <select
@@ -73,18 +80,18 @@
             <br />
             <br />
             <br />
-            <!--<button
-                    id="importData"
-                    style="
-          width: 175px;
-          float: left;
-          color: white;
-          margin-left: 100px;
-          font-size: 14px;
-        "
-            >
-                Import map data
-            </button>-->
+<!--            <button-->
+<!--                    id="importData"-->
+<!--                    style="-->
+<!--          width: 175px;-->
+<!--          float: left;-->
+<!--          color: white;-->
+<!--          margin-left: 100px;-->
+<!--          font-size: 14px;-->
+<!--        "-->
+<!--            >-->
+<!--                Import map data-->
+<!--            </button>-->
             <button
                     class="invisibleWhenNoData"
                     id="exportData"
@@ -174,6 +181,6 @@
     <script src="../js/map-load.js"></script>
     <script src="../js/network.js"></script>
 </main>
-<?php include("http://woposs.unil.ch/ssi/footer.html"); ?>
+<?php include("ssi/footer.html"); ?>
 </body>
 </html>
