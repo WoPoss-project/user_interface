@@ -22,7 +22,7 @@
             <p>Instructions:
             </p>
             <ol>
-                <li>Download the <a href="other/copy_of_WoPoss_project_2020-05-14_0929.zip" target="_blank">file</a>.</li>
+                <li>Download the <a href="outputs/copy_of_WoPoss_project_2020-05-14_0929.zip" target="_blank">file</a>.</li>
                 <li>Go to the <a href="https://morbo.ukp.informatik.tu-darmstadt.de/demo" target="_blank">INCEpTION demo</a> website.</li>
                 <li>After logging in, go to the right upper corner and, in “Import project files”, select the file you downloaded in step 1 (it must be a zip file: if your browser/operating system decompresses the folder by default, compress it as a .zip file). Then click on “Upload selected files”.</li>
                 <li>Once the project was correctly imported, pay attention to green pop-up at the left bottom corner stating

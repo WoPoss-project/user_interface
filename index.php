@@ -1,31 +1,17 @@
 <!DOCTYPE html>
-<html version="HTML+RDFa 1.1" lang="en" xmlns="http://www.w3.org/1999/xhtml"
+<html  lang="en" xmlns="http://www.w3.org/1999/xhtml"
       xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
       xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
       xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
       xmlns:cc="http://creativecommons.org/ns#"
       xmlns:dc="http://purl.org/dc/elements/1.1/"
       xmlns:foaf="http://xmlns.com/foaf/0.1/">
-    <head profile="http://www.w3.org/1999/xhtml/vocab">
+    <head>
         <title property="dc:title">WoPoss</title>
-        <meta property="dc:date dc:created" content="2019-06-01T13:00:00" />
-        <meta rel="dc:subject" href="http://dbpedia.org/resource/Latin_language" />
-        <meta rel="dc:subject" href="http://dbpedia.org/resource/Computational_Semantics" />
-        <meta rel="dc:subject" href="http://dbpedia.org/resource/Category:Modality" />
-        <meta rel="dc:subject" href="http://dbpedia.org/resource/Linguistic_modality" />
-        <meta rel="dc:subject" href="http://dbpedia.org/resource/Digital_Humanities" />
-        <meta rel="dc:subject" href="http://dbpedia.org/resource/Historical_Linguistics" />
         <meta property="dc:description" content="Website of the  project A world of possibilities. Modal pathways on the extra-long period of time: the diachrony of modality in the Latin language"/>
-        <meta rel="dc:creator"
-              href="www.unil.ch/unisciences/helenabermudezsabel" />
-        <meta property="dc:creator" content="Helena Bermúdez Sabel">
-        <meta rel="dc:creator" href="http://www.unil.ch/unisciences/francescadelloro"/>
-        <meta property="dc:creator" content="Francesca Dell’Oro">
-        <meta rel="dc:creator" href="http://www.unil.ch/unisciences/paolamarongiu"/>
-        <meta property="dc:creator" content="Paola Marongiu">
+
+
         <?php include("ssi/head.html"); ?>
-        <link rel="prefetch" href="http://www.w3.org/2007/08/pyRdfa/extract?uri=http://www.3kbo.com/examples/rdfa/simple.html" />
-        <link rel="prefetch" href="http://www.sparql.org/sparql?query=PREFIX+dc%3A+%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Felements%2F1.1%2F%3E%0D%0APREFIX+foaf%3A+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F%3E%0D%0Aselect+%3FContent+%3FAuthor%0D%0AFROM+%3Chttp%3A%2F%2Fwww.w3.org%2F2007%2F08%2FpyRdfa%2Fextract%3Furi%3Dhttp%3A%2F%2Fwww.3kbo.com%2Fexamples%2Frdfa%2Fsimple.html%3E%0D%0Awhere+{+%3Fs+dc%3Acreator+%3Fo+.%0D%0A%3Fs+dc%3Atitle+%3FContent+.%0D%0A%3Fo+foaf%3Aname+%3FAuthor+.%0D%0A}%0D%0Aorder+by+%3FContent&default-graph-uri=&stylesheet=%2Fxml-to-html.xsl&output=text" />
 
 
     </head>

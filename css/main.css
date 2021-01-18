@@ -213,7 +213,9 @@ address a {
 .snf {
     width: 20em;
 }
-
+.unine {
+    width: 10em;
+}
 
 .address,
 .logos div {

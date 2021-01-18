@@ -35,6 +35,21 @@
                         <li>Marongiu, Paola; Bermúdez Sabel, Helena; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-certus.php" target="_blank">certus</a> (bilingual)”. v.1.0. WoPoss.</li>
                         <li>Marongiu, Paola; Bermúdez Sabel, Helena; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-certus-la.php" target="_blank">certus</a> (monolingual)”. v.1.0. WoPoss.</li>
                         <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-facultas.php" target="_blank">facultas</a>”. v.1.0. WoPoss.</li>
+                        <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-incertus.php" target="_blank">incertus</a> (adjective)”. v.1.0. WoPoss.<br/>
+                            <span style="padding-top: 0.5em; display: inline-block">Related maps:</span>
+                            <ul>
+                                <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
+                                            href="semantic-maps/map-incertum.php" target="_blank">incertum</a> (noun)”. v.1.0. WoPoss.</li>
+                                <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
+                                            href="semantic-maps/map-incertim.php" target="_blank">incertim</a>”. v.1.0. WoPoss.</li>
+
+                                <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
+                                            href="semantic-maps/map-incerte.php" target="_blank">incerte</a>”. v.1.0. WoPoss.</li>
+
+                                <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
+                                            href="semantic-maps/map-incerta.php" target="_blank">incerta</a>”. v.1.0. WoPoss. </li>
+                            </ul>
+                        </li>
                         <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-nequeo.php" target="_blank">nequeo</a>”. v.1.0. WoPoss.</li>
                         <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-potestas.php" target="_blank">potestas</a>”. v.1.0. WoPoss.</li>
                         <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-probabilitas.php" target="_blank">probabilitas</a>”. v.1.0. WoPoss.</li>
@@ -79,7 +94,7 @@
     <ul>
         <li>Dell’Oro, Francesca; Bermúdez Sabel, Helena (2020). “L’étude de la modalité dans un corpus diachronique en latin :
             théorie de la modalité, annotation linguistique et partage des données”. <em>11<sup>e</sup> Journée de Linguistique Suisse</em>. Université de Fribourg.
-            [<a href="https://sagw.ch/fileadmin/redaktion_ssg/dokumente/2020-10-09_DSL11_Abstracts.pdf" target="_blank">Abstract</a>, p. 21] [<a href="http://woposs.unil.ch/images/presentation-journees.mp4">Presentation</a>].</li>
+            [<a href="https://sagw.ch/fileadmin/redaktion_ssg/dokumente/2020-10-09_DSL11_Abstracts.pdf" target="_blank">Abstract</a>, p. 21] [<a href="http://woposs.unine.ch/outputs/presentation-journees.mp4">Presentation</a>].</li>
         <li>Dell’Oro, Francesca (2020). “WoPoss – A <em>Wo</em>rld of <em>Poss</em>ibilities. An open access annotated
             corpus to study the diachrony of modality in the Latin language”. <em>DH2020</em>. [<a
                     href="https://dh2020.adho.org/wp-content/uploads/2020/07/406_WoPossAWorldofPossibilitiesAnopenaccessannotatedcorpustostudythediachronyofmodalityintheLatinlanguage.html"
@@ -94,9 +109,9 @@
     <ul>
         <li>Dell’Oro, Francesca; Rimaz, Loris; Bermúdez Sabel, Helena (2020). “Create your own interactive diachronic semantic maps:
             a flexible and user-friendly open-source tool for historical linguistics”. <em>11<sup>e</sup> Journée de Linguistique Suisse</em>. Université de Fribourg.
-            [<a target="_blank" href="http://woposs.unil.ch/other/poster-journees.pdf">PDF</a>] [Presentation: <a href="http://woposs.unil.ch/images/poster-journees.mp4" target="_blank">Firefox</a>,
-            <a target="_blank" href="http://woposs.unil.ch/images/poster-journees.mp4">Chrome</a>,
-            <a href="http://woposs.unil.ch/images/poster-journees-safari.mp4" target="_blank">Safari</a>].</li>
+            [<a target="_blank" href="http://woposs.unine.ch/outputs/poster-journees.pdf">PDF</a>] [Presentation: <a href="http://woposs.unine.ch/outputs/poster-journees.mp4" target="_blank">Firefox</a>,
+            <a target="_blank" href="http://woposs.unine.ch/outputs/poster-journees.mp4">Chrome</a>,
+            <a href="http://woposs.unine.ch/outputs/poster-journees-safari.mp4" target="_blank">Safari</a>].</li>
         <li>Bermúdez Sabel, Helena; Dell’Oro, Francesca; Marongiu, Paola (2020). “Visualisation of semantic shifts:
             the
             case of modal markers”. <em>DH2020</em>. [<a target="_blank"
@@ -115,7 +130,7 @@
     <h2>Software</h2>
 
     <ul>
-        <li>Dell’Oro, Francesca; Rimaz, Loris; Bermúdez Sabel, Helena; Marongiu, Paola (2020). <a href="http://woposs.unil.ch/pygmalion-simple.php"><em>Pygmalion-simple
+        <li>Dell’Oro, Francesca; Rimaz, Loris; Bermúdez Sabel, Helena; Marongiu, Paola (2020). <a href="http://woposs.unine.ch/pygmalion-simple.php"><em>Pygmalion-simple
                     1.0.
                     A
                     tool to draw interactive and diachronic semantic maps</em></a>. WoPoss. A World of Possibilities. Swiss
@@ -124,7 +139,7 @@
             Foundation.
         </li>
 
-        <li>Dell’Oro, Francesca; Rimaz, Loris; Bermúdez Sabel, Helena; Marongiu, Paola (2020). <a href="http://woposs.unil.ch/pygmalion-form.php" target="_blank"><em>Pygmalion-modal
+        <li>Dell’Oro, Francesca; Rimaz, Loris; Bermúdez Sabel, Helena; Marongiu, Paola (2020). <a href="http://woposs.unine.ch/pygmalion-form.php" target="_blank"><em>Pygmalion-modal
                     1.0. A
                     tool
                     to draw interactive and diachronic semantic maps of modality</em></a>. WoPoss. A World of Possibilities.
@@ -139,7 +154,7 @@
         <li>Reymond, Séverine; Dell’Oro, Francesca (2020). “Tertullian’s <em>De spectaculis</em> annotated according to
             the WoPoss guidelines”. [<a target="_blank" href="db.php">Instructions
                 and dataset</a>]
-            [<a href="other/copy_of_WoPoss_project_2020-05-14_0929.zip">download file</a>].
+            [<a href="outputs/copy_of_WoPoss_project_2020-05-14_0929.zip">download file</a>].
         </li>
     </ul>
 
@@ -150,11 +165,11 @@
     <h2>Organisation of scientific events</h2>
     <ul>
         <li><em>TheorLing: Theoretical linguistics in the light of the interaction of qualitative and quantitative approaches</em>.
-            International Symposium. Upcoming. University of Neuchâtel. [<a href="images/call.pdf">Call for papers</a>].</li>
+            International Symposium. Upcoming. University of Neuchâtel. [<a href="outputs/call.pdf">Call for papers</a>].</li>
 
-        <li>Dell’Oro, Francesca; Rossari, Corinne: <em>Workshop on modality and written corpora</em>. December 17th 2019. University of Neuchâtel. [<a href="images/flyer_workshop2.pdf" target="_blank">Program</a>].</li>
+        <li>Dell’Oro, Francesca; Rossari, Corinne: <em>Workshop on modality and written corpora</em>. December 17th 2019. University of Neuchâtel. [<a href="outputs/flyer_workshop2.pdf" target="_blank">Program</a>].</li>
 
-        <li>Dell’Oro, Francesca; Picca, Davide: <em>La modalité: de la théorie à l’encodage</em>. May 6th 2019. University of Lausanne. [<a href="images/flyer_workshop.pdf" target="_blank">Program</a>].</li>
+        <li>Dell’Oro, Francesca; Picca, Davide: <em>La modalité: de la théorie à l’encodage</em>. May 6th 2019. University of Lausanne. [<a href="outputs/flyer_workshop.pdf" target="_blank">Program</a>].</li>
 
 
     </ul>

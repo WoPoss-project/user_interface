@@ -21,12 +21,12 @@
                 24th of July.</p>
 
             <p>Francesca Dell’Oro will give an overview of our SNF-project in the short paper
-                “<a href="other/OpenAccessDiachronyModality.pdf" target="_blank">WoPoss - A World of Possibilities. An open access annotated corpus to study the diachrony of
+                “<a href="outputs/OpenAccessDiachronyModality.pdf" target="_blank">WoPoss - A World of Possibilities. An open access annotated corpus to study the diachrony of
                     modality
                     in the Latin language</a>”. Paola Marongiu will do a lighting talk presenting her PhD project which is
-                being developed in the framework of the project: “<a target="_blank" href="other/co-occurrences.pdf">Co-occurrence of modal markers: a network analysis
+                being developed in the framework of the project: “<a target="_blank" href="outputs/co-occurrences.pdf">Co-occurrence of modal markers: a network analysis
                     approach</a>”. Last but not least the complete team (H. Bermúdez Sabel, F. Dell’Oro &amp; P. Marongiu) will discuss the visualization of semantic maps and its
-                application to modality in Latin with the poster “<a target="_blank" href="other/semantic_maps.pdf">Visualization of semantic shifts: the case of modal
+                application to modality in Latin with the poster “<a target="_blank" href="outputs/semantic_maps.pdf">Visualization of semantic shifts: the case of modal
                     markers</a>”.</p>
 
             <p>The current situation is putting on hold many scientific events, but also showing the important of working with Open Data. Our team deeply believe in Open Science! On May 1<sup>st</sup>, ADHO and the DH2020
@@ -66,7 +66,7 @@
 
                 <p>We would like to enlarge the list as much as possible with words matching these three categories
                 and coming from as many languages as possible. Do you happen to have any ideas and feel like you
-                would like to contribute to our list? If so, please feel free to contact us: <a href="mailto:woposs@unil.ch">woposs@unil.ch</a>
+                would like to contribute to our list? If so, please feel free to contact us: <a href="mailto:woposs@unine.ch">woposs@unine.ch</a>
                 </p>
             </article>
             <article id="workshop"><h2>WoPoss will participate on the second DARIAH-CH workshop</h2>

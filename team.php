@@ -8,7 +8,7 @@
         {
             "@context": "http://www.schema.org",
             "@type": "Person",
-            "@id": "http://woposs.unil.ch/team.php/#paolamarongiu",
+            "@id": "http://woposs.unine.ch/team.php/#paolamarongiu",
             "name": "Paola Marongiu",
             "nationality": "Italian",
             "birthPlace" : {
@@ -39,7 +39,7 @@
                     "name": "Università di Bologna"
                 }
             ],
-            "image": "http://woposs.unil.ch/images/team/paola.jpg",
+            "image": "http://woposs.unine.ch/images/team/paola.jpg",
             "gender": "Female",
             "Description": "Linguist",
             "disambiguatingDescription": "PhD student in Historical Linguistics and Digital Humanities",
@@ -49,7 +49,7 @@
                     "@type": "Organization",
                     "name": "WoPoss",
                     "sameAs": [
-                        "http://woposs.unil.ch/",
+                        "http://woposs.unine.ch/",
                         "A World of Possibilities"
                     ]
                 }
@@ -97,7 +97,7 @@
 ]
                 }
             ],
-            "image": "http://woposs.unil.ch/images/team/helena.jpg",
+            "image": "http://woposs.unine.ch/images/team/helena.jpg",
             "gender": "Female",
             "Description": "Digital Humanist",
             "disambiguatingDescription": "Researcher in Historical Linguistics and Digital Humanities",
@@ -107,7 +107,7 @@
                     "@type": "Organization",
                     "name": "WoPoss",
                     "sameAs": [
-                        "http://woposs.unil.ch/",
+                        "http://woposs.unine.ch/",
                         "A World of Possibilities"
                     ]
                 }
@@ -168,7 +168,7 @@
                 de Santiago de Compostela. Her doctoral research involved the development of
                 a digital edition model that enables the quantitative study of linguistic
                 variation through the automatic comparison of witnesses. An
-                implementation of the model was illustrated with a <a href="www.gl-pt.obdurodon.org" target="_blank">Galician-Portuguese
+                implementation of the model was illustrated with a <a href="http://gl-pt.obdurodon.org/" target="_blank">Galician-Portuguese
                     secular poetry corpus</a>.</p>
             <p>Before UNIL, she worked at the Laboratorio de Innovación en Humanidades
                 Digitales (Madrid, Spain). She was a researcher at an ERC-funded project

@@ -48,7 +48,7 @@
                     <br /> MODAL’s PI, Paola Pietrandrea, is one of the official scientific partners
                     of the WoPoss project. The WoPoss annotation schemas are partially based on
                     those developed in the MODAL project. </li>
-                <li><a href="http://www.mgh.de/home/aktuelles/" target="_blank">Monumenta Germaniae
+                <li><a href="https://www.mgh.de/" target="_blank">Monumenta Germaniae
                         Historica</a></li>
 
                 <li><a href="http://www.perseus.tufts.edu" target="_blank">Perseus Digital
@@ -62,7 +62,7 @@
                 </ul>
                 </li>
                 <li>Projects on modality led by <a
-                        href="http://uahost.uantwerpen.be/nuyts/default.html" target="_blank">Jan
+                        href="https://www.uantwerpen.be/en/staff/jan-nuyts/" target="_blank">Jan
                         Nuyts</a>
                     <ul>
                         <li>Research project on <em>The diachrony of Dutch modal expressions,
