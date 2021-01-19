@@ -2,31 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db487090-34b1-4abd-9088-e9e00729d9e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/semantic-maps/map-incerta.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semantic-maps/map-incerte.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semantic-maps/map-incertim.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semantic-maps/map-incertum.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semantic-maps/map-incertus.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/credits.php" beforeDir="false" afterPath="$PROJECT_DIR$/credits.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/db.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/journees-linguistique-pygmalion.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/journees-linguistique-woposs.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/news.php" beforeDir="false" afterPath="$PROJECT_DIR$/news.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/other/copy_of_WoPoss_project_2020-05-14_0929.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pygmalion.php" beforeDir="false" afterPath="$PROJECT_DIR$/pygmalion.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results.php" beforeDir="false" afterPath="$PROJECT_DIR$/results.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/semantic-maps/map-certus.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-certus.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/semantic-maps/poster-DH2020.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semantic-modal-maps.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-modal-maps.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ssi/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/ssi/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssi/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/ssi/head.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssi/instructions.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssi/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/ssi/menu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/team.php" beforeDir="false" afterPath="$PROJECT_DIR$/team.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorial.php" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -331,6 +308,7 @@
       <workItem from="1610457843282" duration="669000" />
       <workItem from="1610525120537" duration="4471000" />
       <workItem from="1610961894648" duration="10044000" />
+      <workItem from="1611062180066" duration="4275000" />
     </task>
     <servers />
   </component>
