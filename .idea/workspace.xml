@@ -2,8 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db487090-34b1-4abd-9088-e9e00729d9e7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/semantic-maps/map-illicite.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/semantic-maps/map-illicito.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/semantic-maps/map-illicitus.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/semantic-maps/map-ius.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/semantic-maps/map-licite.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/semantic-maps/map-licito.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/semantic-maps/map-licitus.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/semantic-maps/map-meus.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/semantic-maps/map-oportet.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/semantic-maps/map-probabilis.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/semantic-maps/map-probabiliter.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssi/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/ssi/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results.php" beforeDir="false" afterPath="$PROJECT_DIR$/results.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-modal-maps.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-modal-maps.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,6 +137,9 @@
     <option name="height" value="845" />
   </component>
   <component name="ProjectId" id="1ga85w3oBoKZNJjIMiIdPIYVTIm" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -309,6 +324,9 @@
       <workItem from="1610525120537" duration="4471000" />
       <workItem from="1610961894648" duration="10044000" />
       <workItem from="1611062180066" duration="4275000" />
+      <workItem from="1611161913315" duration="2866000" />
+      <workItem from="1611165382248" duration="179000" />
+      <workItem from="1611219041283" duration="2725000" />
     </task>
     <servers />
   </component>
