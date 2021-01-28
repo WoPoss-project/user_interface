@@ -2,18 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db487090-34b1-4abd-9088-e9e00729d9e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/semantic-maps/map-illicite.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semantic-maps/map-illicito.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semantic-maps/map-illicitus.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semantic-maps/map-ius.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semantic-maps/map-licite.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semantic-maps/map-licito.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semantic-maps/map-licitus.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semantic-maps/map-meus.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semantic-maps/map-oportet.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semantic-maps/map-probabilis.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semantic-maps/map-probabiliter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/semantic-maps/map-indubitanter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/semantic-maps/map-indubitatans.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/semantic-maps/map-indubitate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/semantic-maps/map-indubitato.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/semantic-maps/map-possibilis.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/semantic-maps/map-possibilitas.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/semantic-maps/map-possibiliter.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pygmalion.php" beforeDir="false" afterPath="$PROJECT_DIR$/pygmalion.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results.php" beforeDir="false" afterPath="$PROJECT_DIR$/results.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/semantic-modal-maps.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-modal-maps.php" afterDir="false" />
     </list>
@@ -77,6 +74,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -327,6 +332,12 @@
       <workItem from="1611161913315" duration="2866000" />
       <workItem from="1611165382248" duration="179000" />
       <workItem from="1611219041283" duration="2725000" />
+      <workItem from="1611396042481" duration="1913000" />
+      <workItem from="1611565147692" duration="1507000" />
+      <workItem from="1611746506963" duration="689000" />
+      <workItem from="1611763502205" duration="423000" />
+      <workItem from="1611776069165" duration="999000" />
+      <workItem from="1611821844278" duration="994000" />
     </task>
     <servers />
   </component>
