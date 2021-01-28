@@ -195,6 +195,10 @@
         and/or save the map as an SVG file or as a PNG file through the dedicated buttons. Data can be shared and
         re-used according to the above-specified licence. Once a user receives a map data, s/he can import it through
         the ‘Import map data’ button. Map data can be imported from <a href="http://woposs.unine.ch/map.php" target="_blank">this address</a>.</p>
+    <h2>Troubleshoting</h2>
+    <ul>
+        <li>If the import button does not work, please clean the browser cache before trying again.</li>
+    </ul>
 </main>
 <?php include("ssi/footer.html"); ?>
 </body>
