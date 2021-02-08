@@ -2,8 +2,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>Semantic maps - WoPoss</title>
+    <script src="js/how-to-cite.js"></script>
     <?php include("ssi/head.html"); ?>
-
+<style>.reference {display: none}
+    .cite {
+        cursor: pointer;
+    }
+    .cite img {width: 1em}
+div[data-identifier] .reference {display: inline-block}</style>
 
 </head>
 <body>
@@ -150,179 +156,200 @@
             therefore needed.
         </li>
 
-        <li>In our early chronology, we do not take into consideration very ancient passages (before the 3rd c. BCE)
+        <li id="maps">In our early chronology, we do not take into consideration very ancient passages (before the 3rd c. BCE)
             attested
             only as quotations by more recent writers, as there is no certainty that the linguistic material is quoted
             exactly. This is for example the case for ancient laws.
         </li>
     </ol>
 
-
-    <p id="maps"></p>
-    <br/>
-    <h2>Available diachronic modal semantic maps</h2>
+    <h2>Diachronic modal semantic maps</h2>
+    <h3>Corpus-based maps</h3>
+    <p>Forthcoming</p>
+    <h3>Dictionary-based maps</h3>
     <ul>
-        <li><a href="semantic-maps/map-aequus.php">AEQUUS</a> (How to cite: Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-aequus.php"
+        <li><a href="semantic-maps/map-aequus.php">AEQUUS</a> <span class="cite"><span>(How to cite <img src="images/book.png" alt="book icon"/>)</span> <span class="reference">Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-aequus.php"
                                                                                   target="_blank">aequus</a>”. v.1.0.
             WoPoss.  <a
-                    href="http://woposs.unine.ch/semantic-maps/map-aequus.php">http://woposs.unine.ch/semantic-maps/map-aequus.php</a>)
-        </li>
-        <li><a href="semantic-maps/map-certus.php">CERTUS</a>, bilingual (How to cite: Marongiu, Paola; Bermúdez Sabel, Helena; Dell‘Oro, Francesca (2021). “<a
+                            href="http://woposs.unine.ch/semantic-maps/map-aequus.php">http://woposs.unine.ch/semantic-maps/map-aequus.php</a></span>
+        </span></li>
+        <li><a href="semantic-maps/map-certus.php">CERTUS</a>, bilingual <span class="cite"><span>(How to cite <img src="images/book.png" alt="book icon"/>)</span> <span class="reference">Marongiu, Paola; Bermúdez Sabel, Helena; Dell‘Oro, Francesca (2021). “<a
                     href="semantic-maps/map-certus.php" target="_blank">certus</a> (bilingual)”. v.1.0. WoPoss.  <a
-                    href="http://woposs.unine.ch/semantic-maps/map-certus.php">http://woposs.unine.ch/semantic-maps/map-certus.php</a>)
-        </li>
-        <li><a href="semantic-maps/map-certus-la.php">CERTUS</a>, monolingual (How to cite: Marongiu, Paola; Bermúdez Sabel, Helena; Dell‘Oro, Francesca (2021). “<a
+                            href="http://woposs.unine.ch/semantic-maps/map-certus.php">http://woposs.unine.ch/semantic-maps/map-certus.php</a></span>
+        </span></li>
+        <li><a href="semantic-maps/map-certus-la.php">CERTUS</a>, monolingual <span class="cite"><span>(How to cite <img src="images/book.png" alt="book icon"/>)</span> <span class="reference">Marongiu, Paola; Bermúdez Sabel, Helena; Dell‘Oro, Francesca (2021). “<a
                     href="semantic-maps/map-certus-la.php" target="_blank">certus</a> (monolingual)”. v.1.0. WoPoss.  <a
-                    href="http://woposs.unine.ch/semantic-maps/map-certus-la.php">http://woposs.unine.ch/semantic-maps/map-certus-la.php</a>)
-        </li>
-        <li><a href="semantic-maps/map-facultas.php">FACULTAS</a> (How to cite: Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
+                            href="http://woposs.unine.ch/semantic-maps/map-certus-la.php">http://woposs.unine.ch/semantic-maps/map-certus-la.php</a></span>
+        </span></li>
+        <li><a href="semantic-maps/map-facultas.php">FACULTAS</a> <span class="cite"><span>(How to cite <img src="images/book.png" alt="book icon"/>)</span> <span class="reference">Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
                     href="semantic-maps/map-facultas.php" target="_blank">facultas</a>”. v.1.0. WoPoss.  <a
-                    href="http://woposs.unine.ch/semantic-maps/map-facultas.php">http://woposs.unine.ch/semantic-maps/map-facultas.php</a>)
-        </li>
-        <li><a href="semantic-maps/map-illicitus.php">ILLICITUS</a> (How to cite: Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
+                            href="http://woposs.unine.ch/semantic-maps/map-facultas.php">http://woposs.unine.ch/semantic-maps/map-facultas.php</a></span>
+        </span></li>
+        <li><a href="semantic-maps/map-forsitan.php">FORSITAN</a> <span class="cite"><span>(How to cite <img src="images/book.png" alt="book icon"/>)</span> <span class="reference">Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
+                    href="semantic-maps/map-forsitan.php" target="_blank">forsitan</a>”. v.1.0. WoPoss.  <a
+                            href="http://woposs.unine.ch/semantic-maps/map-forsitan.php">http://woposs.unine.ch/semantic-maps/map-forsitan.php</a></span>
+        </span></li> <li><a href="semantic-maps/map-fortasse.php">FORTASSE</a> <span class="cite"><span>(How to cite <img src="images/book.png" alt="book icon"/>)</span> <span class="reference">Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
+                    href="semantic-maps/map-fortasse.php" target="_blank">fortasse</a>”. v.1.0. WoPoss.  <a
+                            href="http://woposs.unine.ch/semantic-maps/map-fortasse.php">http://woposs.unine.ch/semantic-maps/map-fortasse.php</a></span>
+        </span></li>
+        <li><a href="semantic-maps/map-illicitus.php">ILLICITUS</a> <span class="cite"><span>(How to cite <img src="images/book.png" alt="book icon"/>)</span> <span class="reference">Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
                     href="semantic-maps/map-illicitus.php" target="_blank">illicitus</a>”. v.1.0. WoPoss.  <a
-                    href="http://woposs.unine.ch/semantic-maps/map-illicitus.php">http://woposs.unine.ch/semantic-maps/map-illicitus.php</a>)<br/>
-            Related maps:
+                            href="http://woposs.unine.ch/semantic-maps/map-illicitus.php">http://woposs.unine.ch/semantic-maps/map-illicitus.php</a></span></span> Related maps:
             <ul>
-                    <li><a href="semantic-maps/map-illicito.php">ILLICITO</a> (How to cite: Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
+                    <li><a href="semantic-maps/map-illicito.php">ILLICITO</a> <span class="cite"><span>(How to cite <img src="images/book.png" alt="book icon"/>)</span> <span class="reference">Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
                             href="semantic-maps/map-illicito.php" target="_blank">illicito</a>”. v.1.0. WoPoss.  <a
-                            href="http://woposs.unine.ch/semantic-maps/map-illicito.php">http://woposs.unine.ch/semantic-maps/map-illicito.php</a>)</li>
-                <li><a href="semantic-maps/map-illicite.php">ILLICITE</a> (How to cite: Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
+                                        href="http://woposs.unine.ch/semantic-maps/map-illicito.php">http://woposs.unine.ch/semantic-maps/map-illicito.php</a></span></span></li>
+                <li><a href="semantic-maps/map-illicite.php">ILLICITE</a> <span class="cite"><span>(How to cite <img src="images/book.png" alt="book icon"/>)</span> <span class="reference">Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
                             href="semantic-maps/map-illicite.php" target="_blank">illicite</a>”. v.1.0. WoPoss.  <a
-                            href="http://woposs.unine.ch/semantic-maps/map-illicite.php">http://woposs.unine.ch/semantic-maps/map-illicite.php</a>)</li>
+                                    href="http://woposs.unine.ch/semantic-maps/map-illicite.php">http://woposs.unine.ch/semantic-maps/map-illicite.php</a></span></span></li>
 
             </ul>
         </li>
 
-        <li><a href="semantic-maps/map-incertus.php">INCERTUS</a> (adjective) (How to cite: Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
+        <li><a href="semantic-maps/map-incertus.php">INCERTUS</a> (adjective) <span class="cite"><span>(How to cite <img src="images/book.png" alt="book icon"/>)</span> <span class="reference">Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
                     href="semantic-maps/map-incertus.php" target="_blank">incertus</a> (adjective)”. v.1.0. WoPoss.  <a
-                    href="http://woposs.unine.ch/semantic-maps/map-incertus.php">http://woposs.unine.ch/semantic-maps/map-incertus.php</a>)<br/>
-            Related maps:
+                            href="http://woposs.unine.ch/semantic-maps/map-incertus.php">http://woposs.unine.ch/semantic-maps/map-incertus.php</a></span></span> Related maps:
             <ul>
-                <li><a href="semantic-maps/map-incertum.php">INCERTUM</a> (noun) (How to cite: Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
+                <li><a href="semantic-maps/map-incertum.php">INCERTUM</a> (noun) <span class="cite"><span>(How to cite <img src="images/book.png" alt="book icon"/>)</span> <span class="reference">Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
                             href="semantic-maps/map-incertum.php" target="_blank">incertum</a> (noun)”. v.1.0. WoPoss.  <a
-                            href="http://woposs.unine.ch/semantic-maps/map-incertum.php">http://woposs.unine.ch/semantic-maps/map-incertum.php</a>)</li>
-                <li><a href="semantic-maps/map-incertim.php">INCERTIM</a> (How to cite: Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
+                                    href="http://woposs.unine.ch/semantic-maps/map-incertum.php">http://woposs.unine.ch/semantic-maps/map-incertum.php</a></span></span></li>
+                <li><a href="semantic-maps/map-incertim.php">INCERTIM</a> <span class="cite"><span>(How to cite <img src="images/book.png" alt="book icon"/>)</span> <span class="reference">Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
                             href="semantic-maps/map-incertim.php" target="_blank">incertim</a>”. v.1.0. WoPoss.  <a
-                            href="http://woposs.unine.ch/semantic-maps/map-incertim.php">http://woposs.unine.ch/semantic-maps/map-incertim.php</a>)</li>
-                <li><a href="semantic-maps/map-incerte.php">INCERTE</a> (How to cite: Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
+                                    href="http://woposs.unine.ch/semantic-maps/map-incertim.php">http://woposs.unine.ch/semantic-maps/map-incertim.php</a></span></span></li>
+                <li><a href="semantic-maps/map-incerte.php">INCERTE</a> <span class="cite"><span>(How to cite <img src="images/book.png" alt="book icon"/>)</span> <span class="reference">Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
                             href="semantic-maps/map-incerte.php" target="_blank">incerte</a>”. v.1.0. WoPoss.  <a
-                            href="http://woposs.unine.ch/semantic-maps/map-incerte.php">http://woposs.unine.ch/semantic-maps/map-incerte.php</a>)</li>
-                <li><a href="semantic-maps/map-incerta.php">INCERTA</a> (How to cite: Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
+                                    href="http://woposs.unine.ch/semantic-maps/map-incerte.php">http://woposs.unine.ch/semantic-maps/map-incerte.php</a></span></span></li>
+                <li><a href="semantic-maps/map-incerta.php">INCERTA</a> <span class="cite"><span>(How to cite <img src="images/book.png" alt="book icon"/>)</span> <span class="reference">Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
                             href="semantic-maps/map-incerta.php" target="_blank">incerta</a>”. v.1.0. WoPoss.  <a
-                            href="http://woposs.unine.ch/semantic-maps/map-incerta.php">http://woposs.unine.ch/semantic-maps/map-incerta.php</a>)</li>
+                                    href="http://woposs.unine.ch/semantic-maps/map-incerta.php">http://woposs.unine.ch/semantic-maps/map-incerta.php</a></span</span>></li>
 
 
             </ul>
         </li>
 
-        <li><a href="semantic-maps/map-indubitans.php">INDUBITANS</a> (How to cite: Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
+        <li><a href="semantic-maps/map-indubitans.php">INDUBITANS</a> <span class="cite"><span>(How to cite <img src="images/book.png" alt="book icon"/>)</span> <span class="reference">Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
                     href="semantic-maps/map-indubitans.php" target="_blank">indubitans</a>”. v.1.0. WoPoss.  <a
-                    href="http://woposs.unine.ch/semantic-maps/map-indubitans.php">http://woposs.unine.ch/semantic-maps/map-indubitans.php</a>)<br/>
+                            href="http://woposs.unine.ch/semantic-maps/map-indubitans.php">http://woposs.unine.ch/semantic-maps/map-indubitans.php</a></span></span>
             Related maps:
             <ul>
 
-                <li><a href="semantic-maps/map-indubitanter.php">INDUBITANTER</a> (How to cite: Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
+                <li><a href="semantic-maps/map-indubitanter.php">INDUBITANTER</a> <span class="cite"><span>(How to cite <img src="images/book.png" alt="book icon"/>)</span> <span class="reference">Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
                             href="semantic-maps/map-indubitanter.php" target="_blank">indubitanter</a>”. v.1.0. WoPoss.  <a
-                            href="http://woposs.unine.ch/semantic-maps/map-indubitanter.php">http://woposs.unine.ch/semantic-maps/map-indubitanter.php</a>)</li>
+                            href="http://woposs.unine.ch/semantic-maps/map-indubitanter.php">http://woposs.unine.ch/semantic-maps/map-indubitanter.php</a></span></span></li>
             </ul>
         </li>
-        <li><a href="semantic-maps/map-indubitatus.php">INDUBITATUS</a> (How to cite: Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
+        <li><a href="semantic-maps/map-indubitatus.php">INDUBITATUS</a> <span class="cite"><span>(How to cite <img src="images/book.png" alt="book icon"/>)</span> <span class="reference">Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
                     href="semantic-maps/map-indubitatus.php" target="_blank">indubitatus</a>”. v.1.0. WoPoss.  <a
-                    href="http://woposs.unine.ch/semantic-maps/map-indubitatus.php">http://woposs.unine.ch/semantic-maps/map-indubitatus.php</a>)<br/>
+                            href="http://woposs.unine.ch/semantic-maps/map-indubitatus.php">http://woposs.unine.ch/semantic-maps/map-indubitatus.php</a></span></span>
             Related maps:
             <ul>
-                <li><a href="semantic-maps/map-indubitato.php">INDUBITATO</a> (How to cite: Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
+                <li><a href="semantic-maps/map-indubitato.php">INDUBITATO</a> <span class="cite"><span>(How to cite <img src="images/book.png" alt="book icon"/>)</span> <span class="reference">Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
                             href="semantic-maps/map-indubitato.php" target="_blank">indubitato</a>”. v.1.0. WoPoss.  <a
-                            href="http://woposs.unine.ch/semantic-maps/map-indubitato.php">http://woposs.unine.ch/semantic-maps/map-indubitato.php</a>)</li>
+                                    href="http://woposs.unine.ch/semantic-maps/map-indubitato.php">http://woposs.unine.ch/semantic-maps/map-indubitato.php</a></span></span></li>
 
-                <li><a href="semantic-maps/map-indubitate.php">INDUBITATE</a> (How to cite: Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
+                <li><a href="semantic-maps/map-indubitate.php">INDUBITATE</a> <span class="cite"><span>(How to cite <img src="images/book.png" alt="book icon"/>)</span> <span class="reference">Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
                             href="semantic-maps/map-indubitate.php" target="_blank">indubitate</a>”. v.1.0. WoPoss.  <a
-                            href="http://woposs.unine.ch/semantic-maps/map-indubitate.php">http://woposs.unine.ch/semantic-maps/map-indubitate.php</a>)</li>
+                                    href="http://woposs.unine.ch/semantic-maps/map-indubitate.php">http://woposs.unine.ch/semantic-maps/map-indubitate.php</a></span></span></li>
             </ul>
         </li>
-        <li><a href="semantic-maps/map-ius.php">IUS</a> (How to cite: Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-ius.php"
+        <li><a href="semantic-maps/map-ius.php">IUS</a> <span class="cite"><span>(How to cite <img src="images/book.png" alt="book icon"/>)</span> <span class="reference">Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-ius.php"
                                                                                                                              target="_blank">ius</a>”. v.1.0.
             WoPoss.  <a
-                    href="http://woposs.unine.ch/semantic-maps/map-ius.php">http://woposs.unine.ch/semantic-maps/map-ius.php</a>)
-        </li>
+                    href="http://woposs.unine.ch/semantic-maps/map-ius.php">http://woposs.unine.ch/semantic-maps/map-ius.php</a>
+        </span></li>
 
-        <li><a href="semantic-maps/map-licitus.php">LICITUS</a> (How to cite: Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
+        <li><a href="semantic-maps/map-licitus.php">LICITUS</a> <span class="cite"><span>(How to cite <img src="images/book.png" alt="book icon"/>)</span> <span class="reference">Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
                     href="semantic-maps/map-licitus.php" target="_blank">licitus</a>”. v.1.0. WoPoss.  <a
-                    href="http://woposs.unine.ch/semantic-maps/map-licitus.php">http://woposs.unine.ch/semantic-maps/map-licitus.php</a>)<br/>
+                            href="http://woposs.unine.ch/semantic-maps/map-licitus.php">http://woposs.unine.ch/semantic-maps/map-licitus.php</a></span></span>
             Related maps:
             <ul>
-                <li><a href="semantic-maps/map-licito.php">LICITO</a> (How to cite: Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
+                <li><a href="semantic-maps/map-licito.php">LICITO</a> <span class="cite"><span>(How to cite <img src="images/book.png" alt="book icon"/>)</span> <span class="reference">Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
                             href="semantic-maps/map-licito.php" target="_blank">licito</a>”. v.1.0. WoPoss.  <a
-                            href="http://woposs.unine.ch/semantic-maps/map-licito.php">http://woposs.unine.ch/semantic-maps/map-licito.php</a>)</li>
-                <li><a href="semantic-maps/map-licite.php">LICITE</a> (How to cite: Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
+                                    href="http://woposs.unine.ch/semantic-maps/map-licito.php">http://woposs.unine.ch/semantic-maps/map-licito.php</a></span></span></li>
+                <li><a href="semantic-maps/map-licite.php">LICITE</a> <span class="cite"><span>(How to cite <img src="images/book.png" alt="book icon"/>)</span> <span class="reference">Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
                             href="semantic-maps/map-licite.php" target="_blank">licite</a>”. v.1.0. WoPoss.  <a
-                            href="http://woposs.unine.ch/semantic-maps/map-licite.php">http://woposs.unine.ch/semantic-maps/map-licite.php</a>)</li>
+                                    href="http://woposs.unine.ch/semantic-maps/map-licite.php">http://woposs.unine.ch/semantic-maps/map-licite.php</a></span></span></li>
 
             </ul>
         </li>
 
-        <li><a href="semantic-maps/map-meus.php">MEUS</a> (How to cite: Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
+        <li><a href="semantic-maps/map-malo.php">MALO</a> <span class="cite"><span>(How to cite <img src="images/book.png" alt="book icon"/>)</span> <span class="reference">Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
+                    href="semantic-maps/map-malo.php" target="_blank">malo</a>”. v.1.0. WoPoss.  <a
+                            href="http://woposs.unine.ch/semantic-maps/map-malo.php">http://woposs.unine.ch/semantic-maps/map-malo.php</a></span>
+        </span></li>
+        <li><a href="semantic-maps/map-meus.php">MEUS</a> <span class="cite"><span>(How to cite <img src="images/book.png" alt="book icon"/>)</span> <span class="reference">Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
                     href="semantic-maps/map-meus.php" target="_blank">meus</a>”. v.1.0. WoPoss.  <a
-                    href="http://woposs.unine.ch/semantic-maps/map-meus.php">http://woposs.unine.ch/semantic-maps/map-meus.php</a>)
-        </li>
-        <li><a href="semantic-maps/map-nequeo.php">NEQUEO</a> (How to cite: Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
+                            href="http://woposs.unine.ch/semantic-maps/map-meus.php">http://woposs.unine.ch/semantic-maps/map-meus.php</a></span>
+        </span></li>
+        <li><a href="semantic-maps/map-necesse.php">NECESSE</a> <span class="cite"><span>(How to cite <img src="images/book.png" alt="book icon"/>)</span> <span class="reference">Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
+                    href="semantic-maps/map-necesse.php" target="_blank">necesse</a>”. v.1.0. WoPoss.  <a
+                            href="http://woposs.unine.ch/semantic-maps/map-necesse.php">http://woposs.unine.ch/semantic-maps/map-necesse.php</a></span>
+        </span></li>
+        <li><a href="semantic-maps/map-necessitudo.php">NECESSITUDO</a> <span class="cite"><span>(How to cite <img src="images/book.png" alt="book icon"/>)</span> <span class="reference">Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
+                    href="semantic-maps/map-necessitudo.php" target="_blank">necessitudo</a>”. v.1.0. WoPoss.  <a
+                            href="http://woposs.unine.ch/semantic-maps/map-necessitudo.php">http://woposs.unine.ch/semantic-maps/map-necessitudo.php</a></span>
+        </span></li>
+        <li><a href="semantic-maps/map-nequeo.php">NEQUEO</a> <span class="cite"><span>(How to cite <img src="images/book.png" alt="book icon"/>)</span> <span class="reference">Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
                     href="semantic-maps/map-nequeo.php" target="_blank">nequeo</a>”. v.1.0. WoPoss.  <a
-                    href="http://woposs.unine.ch/semantic-maps/map-nequeo.php">http://woposs.unine.ch/semantic-maps/map-nequeo.php</a>)
-        </li>
-        <li><a href="semantic-maps/map-oportet.php">OPORTET</a> (How to cite: Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
+                            href="http://woposs.unine.ch/semantic-maps/map-nequeo.php">http://woposs.unine.ch/semantic-maps/map-nequeo.php</a></span>
+        </span></li>
+        <li><a href="semantic-maps/map-oportet.php">OPORTET</a> <span class="cite"><span>(How to cite <img src="images/book.png" alt="book icon"/>)</span> <span class="reference">Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
                     href="semantic-maps/map-oportet.php" target="_blank">oportet</a>”. v.1.0. WoPoss.  <a
-                    href="http://woposs.unine.ch/semantic-maps/map-oportet.php">http://woposs.unine.ch/semantic-maps/map-oportet.php</a>)
-        </li>
-        <li><a href="semantic-maps/map-probabilis.php">POSSIBILIS</a> (How to cite: Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
+                            href="http://woposs.unine.ch/semantic-maps/map-oportet.php">http://woposs.unine.ch/semantic-maps/map-oportet.php</a></span>
+        </span></li>
+        <li><a href="semantic-maps/map-probabilis.php">POSSIBILIS</a> <span class="cite"><span>(How to cite <img src="images/book.png" alt="book icon"/>)</span> <span class="reference">Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
                     href="semantic-maps/map-possibilis.php" target="_blank">possibilis</a>”. v.1.0. WoPoss.  <a
-                    href="http://woposs.unine.ch/semantic-maps/map-possibilis.php">http://woposs.unine.ch/semantic-maps/map-possibilis.php</a>)<br/>
+                            href="http://woposs.unine.ch/semantic-maps/map-possibilis.php">http://woposs.unine.ch/semantic-maps/map-possibilis.php</a></span></span>
             Related map:
             <ul>
-                <li><a href="semantic-maps/map-possibiliter.php">POSSIBILITER</a> (How to cite: Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
+                <li><a href="semantic-maps/map-possibiliter.php">POSSIBILITER</a> <span class="cite"><span>(How to cite <img src="images/book.png" alt="book icon"/>)</span> <span class="reference">Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
                             href="semantic-maps/map-possibiliter.php" target="_blank">possibiliter</a>”. v.1.0. WoPoss.  <a
-                            href="http://woposs.unine.ch/semantic-maps/map-possibiliter.php">http://woposs.unine.ch/semantic-maps/map-possibiliter.php</a>)
-                </li>
+                                    href="http://woposs.unine.ch/semantic-maps/map-possibiliter.php">http://woposs.unine.ch/semantic-maps/map-possibiliter.php</a></span>
+                </span></li>
             </ul>
         </li>
-        <li><a href="semantic-maps/map-possibilitas.php">POSSIBILITAS</a> (How to cite: Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
+        <li><a href="semantic-maps/map-possibilitas.php">POSSIBILITAS</a> <span class="cite"><span>(How to cite <img src="images/book.png" alt="book icon"/>)</span> <span class="reference">Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
                     href="semantic-maps/map-possibilitas.php" target="_blank">possibilitas</a>”. v.1.0. WoPoss.  <a
-                    href="http://woposs.unine.ch/semantic-maps/map-possibilitas.php">http://woposs.unine.ch/semantic-maps/map-possibilitas.php</a>)
-        </li>
-        <li><a href="semantic-maps/map-potestas.php">POTESTAS</a> (How to cite: Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
+                            href="http://woposs.unine.ch/semantic-maps/map-possibilitas.php">http://woposs.unine.ch/semantic-maps/map-possibilitas.php</a></span>
+        </span></li>
+        <li><a href="semantic-maps/map-potestas.php">POTESTAS</a> <span class="cite"><span>(How to cite <img src="images/book.png" alt="book icon"/>)</span> <span class="reference">Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
                     href="semantic-maps/map-potestas.php" target="_blank">potestas</a>”. v.1.0. WoPoss.  <a
-                    href="http://woposs.unine.ch/semantic-maps/map-potestas.php">http://woposs.unine.ch/semantic-maps/map-potestas.php</a>)
-        </li>
+                            href="http://woposs.unine.ch/semantic-maps/map-potestas.php">http://woposs.unine.ch/semantic-maps/map-potestas.php</a></span>
+        </span></li>
 
-        <li><a href="semantic-maps/map-probabilis.php">PROBABILIS</a> (How to cite: Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
+        <li><a href="semantic-maps/map-probabilis.php">PROBABILIS</a> <span class="cite"><span>(How to cite <img src="images/book.png" alt="book icon"/>)</span> <span class="reference">Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
                     href="semantic-maps/map-probabilis.php" target="_blank">probabilis</a>”. v.1.0. WoPoss.  <a
-                    href="http://woposs.unine.ch/semantic-maps/map-probabilis.php">http://woposs.unine.ch/semantic-maps/map-probabilis.php</a>)<br/>
+                            href="http://woposs.unine.ch/semantic-maps/map-probabilis.php">http://woposs.unine.ch/semantic-maps/map-probabilis.php</a></span></span>
             Related map:
             <ul>
-                <li><a href="semantic-maps/map-probabiliter.php">PROBABILITER</a> (How to cite: Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
+                <li><a href="semantic-maps/map-probabiliter.php">PROBABILITER</a> <span class="cite"><span>(How to cite <img src="images/book.png" alt="book icon"/>)</span> <span class="reference">Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
                             href="semantic-maps/map-probabiliter.php" target="_blank">probabiliter</a>”. v.1.0. WoPoss.  <a
-                            href="http://woposs.unine.ch/semantic-maps/map-probabiliter.php">http://woposs.unine.ch/semantic-maps/map-probabiliter.php</a>)
-                </li>
+                                    href="http://woposs.unine.ch/semantic-maps/map-probabiliter.php">http://woposs.unine.ch/semantic-maps/map-probabiliter.php</a></span>
+                </span></li>
             </ul>
         </li>
-        <li><a href="semantic-maps/map-probabilitas.php">PROBABILITAS</a> (How to cite: Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
+        <li><a href="semantic-maps/map-probabilitas.php">PROBABILITAS</a> <span class="cite"><span>(How to cite <img src="images/book.png" alt="book icon"/>)</span> <span class="reference">Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
                     href="semantic-maps/map-probabilitas.php" target="_blank">probabilitas</a>”. v.1.0. WoPoss.  <a
-                    href="http://woposs.unine.ch/semantic-maps/map-probabilitas.php">http://woposs.unine.ch/semantic-maps/map-probabilitas.php</a>)
-        </li>
-        <li><a href="semantic-maps/map-queo.php">QUEO</a> (How to cite: Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
+                            href="http://woposs.unine.ch/semantic-maps/map-probabilitas.php">http://woposs.unine.ch/semantic-maps/map-probabilitas.php</a></span>
+        </span></li>
+        <li><a href="semantic-maps/map-queo.php">QUEO</a> <span class="cite"><span>(How to cite <img src="images/book.png" alt="book icon"/>)</span> <span class="reference">Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
                     href="semantic-maps/map-queo.php" target="_blank">queo</a>”. v.1.0. WoPoss.  <a
-                    href="http://woposs.unine.ch/semantic-maps/map-queo.php">http://woposs.unine.ch/semantic-maps/map-queo.php</a>)
-        </li>
-        <li><a href="semantic-maps/map-valeo.php">VALEO</a> (How to cite: Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-valeo.php"
+                            href="http://woposs.unine.ch/semantic-maps/map-queo.php">http://woposs.unine.ch/semantic-maps/map-queo.php</a></span>
+        </span></li>
+
+        <li><a href="semantic-maps/map-meus.php">USUS</a> <span class="cite"><span>(How to cite <img src="images/book.png" alt="book icon"/>)</span> <span class="reference">Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
+                    href="semantic-maps/map-usus.php" target="_blank">usus</a>”. v.1.0. WoPoss.  <a
+                            href="http://woposs.unine.ch/semantic-maps/map-usus.php">http://woposs.unine.ch/semantic-maps/map-usus.php</a></span>
+        </span></li>
+        <li><a href="semantic-maps/map-valeo.php">VALEO</a> <span class="cite"><span>(How to cite <img src="images/book.png" alt="book icon"/>)</span> <span class="reference">Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-valeo.php"
                                                                                  target="_blank">valeo</a>”. v.1.0.
             WoPoss.  <a
-                    href="http://woposs.unine.ch/semantic-maps/map-valeo.php">http://woposs.unine.ch/semantic-maps/map-valeo.php</a>)
-        </li>
-        <li><a href="semantic-maps/map-voluntas.php">VOLUNTAS</a> (How to cite: Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
+                            href="http://woposs.unine.ch/semantic-maps/map-valeo.php">http://woposs.unine.ch/semantic-maps/map-valeo.php</a></span>
+        </span></li>
+        <li><a href="semantic-maps/map-voluntas.php">VOLUNTAS</a> <span class="cite"><span>(How to cite <img src="images/book.png" alt="book icon"/>)</span> <span class="reference">Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
                     href="semantic-maps/map-voluntas.php" target="_blank">voluntas</a>”. v.1.0. WoPoss. <a
-                    href="http://woposs.unine.ch/semantic-maps/map-voluntas.php">http://woposs.unine.ch/semantic-maps/map-voluntas.php</a>
-            )
-        </li>
+                            href="http://woposs.unine.ch/semantic-maps/map-voluntas.php">http://woposs.unine.ch/semantic-maps/map-voluntas.php</a></span>
+        </span></li>
     </ul>
 
 
