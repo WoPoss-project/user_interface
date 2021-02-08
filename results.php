@@ -23,8 +23,7 @@
     <h1>Outputs</h1>
 
     <h2>Project milestones</h2>
-    <ul style="list-style:none">
-        <li><h3>Annotation guidelines</h3>
+   <h3>Annotation guidelines</h3>
             <ul>
                 <li>Dell’Oro, Francesca (2019). <em>WoPoss guidelines for annotation</em>. Zenodo.
 
@@ -33,8 +32,7 @@
 
                 </li>
             </ul>
-        </li>
-        <li><h3 class="title">Diachronic modal semantic maps</h3>
+       <h3 class="title">Diachronic modal semantic maps (dictionary-based)</h3>
             <div class="wrapper">
                 <div class="content">
                     <ul>
@@ -51,6 +49,14 @@
                         </li>
                         <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-facultas.php"
                                                                              target="_blank">facultas</a>”. v.1.0.
+                            WoPoss.
+                        </li>
+                        <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-forsitan.php"
+                                                                             target="_blank">forsitan</a>”. v.1.0.
+                            WoPoss.
+                        </li>
+                        <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-fortasse.php"
+                                                                             target="_blank">fortasse</a>”. v.1.0.
                             WoPoss.
                         </li>
                         <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
@@ -100,9 +106,11 @@
                             v.1.0. WoPoss.<br/>
                             <span class="newline"">Related maps:</span>
                             <ul>
-                                <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-indubitanter.php"
-                                                                                     target="_blank">indubitanter</a>”.
-                                    v.1.0. WoPoss.</li>
+                                <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
+                                            href="semantic-maps/map-indubitanter.php"
+                                            target="_blank">indubitanter</a>”.
+                                    v.1.0. WoPoss.
+                                </li>
                             </ul>
                         </li>
                         <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-indubitatus.php"
@@ -110,13 +118,17 @@
                             v.1.0. WoPoss.<br/>
                             <span class="newline"">Related maps:</span>
                             <ul>
-                                <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-indubitato.php"
-                                                                                     target="_blank">indubitato</a>”.
-                                    v.1.0. WoPoss.</li>
+                                <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
+                                            href="semantic-maps/map-indubitato.php"
+                                            target="_blank">indubitato</a>”.
+                                    v.1.0. WoPoss.
+                                </li>
 
-                                <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-indubitate.php"
-                                                                                     target="_blank">indubitate</a>”.
-                                    v.1.0. WoPoss.</li>
+                                <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
+                                            href="semantic-maps/map-indubitate.php"
+                                            target="_blank">indubitate</a>”.
+                                    v.1.0. WoPoss.
+                                </li>
                             </ul>
                         </li>
                         <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-ius.php"
@@ -142,7 +154,18 @@
                         </li>
 
                         <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
+                                    href="semantic-maps/map-malo.php" target="_blank">malo</a>”. v.1.0. WoPoss.
+                        </li>
+                        <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
                                     href="semantic-maps/map-meus.php" target="_blank">meus</a>”. v.1.0. WoPoss.
+                        </li>
+                        <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-necesse.php"
+                                                                             target="_blank">necesse</a>”. v.1.0.
+                            WoPoss.
+                        </li>
+                        <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-necessitudo.php"
+                                                                             target="_blank">necessitudo</a>”. v.1.0.
+                            WoPoss.
                         </li>
                         <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-nequeo.php"
                                                                              target="_blank">nequeo</a>”. v.1.0. WoPoss.
@@ -188,6 +211,9 @@
                         <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-queo.php"
                                                                              target="_blank">queo</a>”. v.1.0. WoPoss.
                         </li>
+                        <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
+                                    href="semantic-maps/map-usus.php" target="_blank">usus</a>”. v.1.0. WoPoss.
+                        </li>
                         <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-valeo.php"
                                                                              target="_blank">valeo</a>”. v.1.0. WoPoss.
                         </li>
@@ -198,9 +224,8 @@
                     </ul>
                 </div>
             </div>
-        </li>
 
-    </ul>
+
 
     <h2>Journal articles</h2>
     <ul>
@@ -268,7 +293,9 @@
             [<a href="http://dx.doi.org/10.17613/scy4-br70" target="_blank">Poster</a>].
         </li>
     </ul>
-    <h3>Invited talks</h3>
+
+    <h2>Lectures and talks</h2>
+        <h3>Invited talks</h3>
     <ul>
         <li>Dell’Oro, Francesca (2020). “Automatic annotation of Latin and Greek texts: lemmatisation, morphological
             analysis and dependency parsing”.
@@ -279,7 +306,43 @@
                 target="_blank">Slides</a>]
             [<a href="https://youtu.be/EfHnR0nl9tE" target="_blank">Presentation</a>, 1:04:20].
         </li>
+
+      <li>Dell’Oro, Francesca (2019). “Due suffissi derivazionali modali: greco antico -ιμος e latino -bilis”. <em>I
+                processi di derivazione tra linguistica
+                indoeuropea e linguistica generale</em>. Giornata di studio e approfondimento. Università degli Studi di
+            Milano. Milan. Italy. [<a href="http://www.studilefili.unimi.it/extfiles/unimidire/56101/attachment/locandina-processi-derivazione-2.pdf" target="_blank">Program</a>]
+        </li>
+      
     </ul>
+    <h3>Other presentations</h3>
+    <ul>
+        <li>Dell’Oro, Francesca (2019). “Polisemy and modality across time”. <em>Workshop on modality and written
+                corpora</em>. December 17th
+            2019. University of Neuchâtel.
+        </li>
+        <li>Dell’Oro, Francesca (2019). “The WoPoss annotation of modal markers in Latin”. <em>Workshop on modality and written
+                corpora</em>. December 17th
+            2019. University of Neuchâtel.
+        </li>
+        <li>Marongiu, Paola (2019). “Co-occurrence of modal markers in Latin: a quantitative and qualitative analysis”.
+            <em>Workshop on modality and written corpora</em>. December 17th
+            2019. University of Neuchâtel.
+        </li>
+        <li>Dell’Oro, Francesca (2019). “Comment les sens modaux émergent-ils ? Une étude de cas : italien <em>occorrere</em> « arriver, se passer » et « falloir, être nécessaire »”
+        <em>Séminaire de recherche de la Section des sciences du langage et de l'information</em>.
+        May 28th 2019.
+            University of Lausanne.
+        </li>
+        <li>Dell’Oro, Francesca (2019). “The modal domain from the perspective of Latin adjectives in <em>-bilis</em> in synchrony
+            and diachrony: from a theoretical model to
+            annotation”. <em>La modalité: de la théorie à l’encodage. Modality: from theory to encoding</em>. May 6th 2019.
+            University of Lausanne.
+        </li>
+        <li>Marongiu, Paola (2019). “Le verbe italien <em>contare</em> dans une approche corpus-driven: aspects syntaxiques, sémantiques et pragmatiques”.
+            <em>Journée des doctorant.e.s en sémantique</em>. April 11th
+            2019. University of Neuchâtel.
+        </li></ul>
+    
     <h2>Software</h2>
 
     <ul>
@@ -330,13 +393,13 @@
         </li>
 
         <li>Dell’Oro, Francesca; Rossari, Corinne: <em>Workshop on modality and written corpora</em>. December 17th
-            2019. University of Neuchâtel. [<a href="outputs/flyer_workshop2.pdf" target="_blank">Program</a>].
+            2019. University of Neuchâtel. [<a href="outputs/flyer_workshop.pdf" target="_blank">Program</a>].
         </li>
 
-        <li>Dell’Oro, Francesca; Picca, Davide: <em>La modalité: de la théorie à l’encodage</em>. May 6th 2019.
-            University of Lausanne. [<a href="outputs/flyer_workshop.pdf" target="_blank">Program</a>].
+        <li>Dell’Oro, Francesca; Picca, Davide: <em>La modalité: de la théorie à l’encodage. Modality: from theory to encoding</em>. May 6th 2019.
+            University of Lausanne. [<a href="outputs/flyer_modality.pdf" target="_blank">Program</a>].
         </li>
-
+<li>Rossari, Corinne; Dell’Oro, Francesca: <em>Journée des doctorant.e.s en sémantique</em>. April 11th 2019. University of Neuchâtel.</li>
 
     </ul>
 </main>

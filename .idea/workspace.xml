@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db487090-34b1-4abd-9088-e9e00729d9e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/semantic-maps/map-indubitanter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semantic-maps/map-indubitatans.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semantic-maps/map-indubitate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semantic-maps/map-indubitato.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semantic-maps/map-possibilis.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semantic-maps/map-possibilitas.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semantic-maps/map-possibiliter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/how-to-cite.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/semantic-maps/map-forsitan.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/semantic-maps/map-fortasse.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/semantic-maps/map-malo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/semantic-maps/map-necesse.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/semantic-maps/map-necessitudo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/semantic-maps/map-usus.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pygmalion.php" beforeDir="false" afterPath="$PROJECT_DIR$/pygmalion.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results.php" beforeDir="false" afterPath="$PROJECT_DIR$/results.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/semantic-modal-maps.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-modal-maps.php" afterDir="false" />
     </list>
@@ -196,16 +195,16 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="PHP" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/semantic-maps" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js" />
       <recent name="$PROJECT_DIR$/semantic-maps" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/js" />
       <recent name="$PROJECT_DIR$/../semantic_maps/drawn-maps/svg" />
       <recent name="$PROJECT_DIR$/../semantic_maps/drawn-maps/js" />
     </key>
@@ -337,7 +336,13 @@
       <workItem from="1611746506963" duration="689000" />
       <workItem from="1611763502205" duration="423000" />
       <workItem from="1611776069165" duration="999000" />
-      <workItem from="1611821844278" duration="994000" />
+      <workItem from="1611821844278" duration="3827000" />
+      <workItem from="1611910829409" duration="3379000" />
+      <workItem from="1612178060083" duration="1131000" />
+      <workItem from="1612192012324" duration="4041000" />
+      <workItem from="1612264337579" duration="1708000" />
+      <workItem from="1612360153558" duration="4974000" />
+      <workItem from="1612425770799" duration="1613000" />
     </task>
     <servers />
   </component>
