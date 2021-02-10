@@ -131,6 +131,25 @@
                                 </li>
                             </ul>
                         </li>
+
+                        <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
+                                    href="semantic-maps/map-iniquus.php" target="_blank">iniquus</a>”. v.1.0.
+                            WoPoss.<br/>
+                            <span class="newline"">Related maps:</span>
+
+                            <ul>
+                                <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
+                                            href="semantic-maps/map-inique.php" target="_blank">inique</a>”. v.1.0.
+                                    WoPoss.
+                                </li>
+                                <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
+                                            href="semantic-maps/map-iniquiter.php" target="_blank">iniquiter</a>”. v.1.0.
+                                    WoPoss.
+                                </li>
+
+                            </ul>
+                        </li>
+
                         <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-ius.php"
                                                                              target="_blank">ius</a>”. v.1.0.
                             WoPoss.
@@ -169,6 +188,10 @@
                         </li>
                         <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-nequeo.php"
                                                                              target="_blank">nequeo</a>”. v.1.0. WoPoss.
+                        </li>
+
+                        <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-nolo.php"
+                                                                             target="_blank">nolo</a>”. v.1.0. WoPoss.
                         </li>
                         <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
                                     href="semantic-maps/map-oportet.php" target="_blank">oportet</a>”. v.1.0. WoPoss.

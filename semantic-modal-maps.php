@@ -252,6 +252,24 @@ div[data-identifier] .reference {display: inline-block}</style>
                                     href="http://woposs.unine.ch/semantic-maps/map-indubitate.php">http://woposs.unine.ch/semantic-maps/map-indubitate.php</a></span></span></li>
             </ul>
         </li>
+
+
+        <li><a href="semantic-maps/map-iniquus.php">INIQUUS</a> <span class="cite"><span>(How to cite <img src="images/book.png" alt="book icon"/>)</span> <span class="reference">Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
+                            href="semantic-maps/map-iniquus.php" target="_blank">iniquus</a>”. v.1.0. WoPoss.  <a
+                            href="http://woposs.unine.ch/semantic-maps/map-iniquus.php">http://woposs.unine.ch/semantic-maps/map-iniquus.php</a></span></span> Related maps:
+            <ul>
+                <li><a href="semantic-maps/map-inique.php">INIQUE</a> <span class="cite"><span>(How to cite <img src="images/book.png" alt="book icon"/>)</span> <span class="reference">Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
+                                    href="semantic-maps/map-inique.php" target="_blank">inique</a>”. v.1.0. WoPoss.  <a
+                                    href="http://woposs.unine.ch/semantic-maps/map-inique.php">http://woposs.unine.ch/semantic-maps/map-inique.php</a></span></span></li>
+                <li><a href="semantic-maps/map-iniquiter.php">INIQUITER</a> <span class="cite"><span>(How to cite <img src="images/book.png" alt="book icon"/>)</span> <span class="reference">Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
+                                    href="semantic-maps/map-iniquiter.php" target="_blank">iniquiter</a>”. v.1.0. WoPoss.  <a
+                                    href="http://woposs.unine.ch/semantic-maps/map-iniquiter.php">http://woposs.unine.ch/semantic-maps/map-iniquiter.php</a></span></span></li>
+
+            </ul>
+        </li>
+
+
+
         <li><a href="semantic-maps/map-ius.php">IUS</a> <span class="cite"><span>(How to cite <img src="images/book.png" alt="book icon"/>)</span> <span class="reference">Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-ius.php"
                                                                                                                              target="_blank">ius</a>”. v.1.0.
             WoPoss.  <a
@@ -290,8 +308,11 @@ div[data-identifier] .reference {display: inline-block}</style>
                             href="http://woposs.unine.ch/semantic-maps/map-necessitudo.php">http://woposs.unine.ch/semantic-maps/map-necessitudo.php</a></span>
         </span></li>
         <li><a href="semantic-maps/map-nequeo.php">NEQUEO</a> <span class="cite"><span>(How to cite <img src="images/book.png" alt="book icon"/>)</span> <span class="reference">Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
-                    href="semantic-maps/map-nequeo.php" target="_blank">nequeo</a>”. v.1.0. WoPoss.  <a
+                            href="semantic-maps/map-nequeo.php" target="_blank">nequeo</a>”. v.1.0. WoPoss.  <a
                             href="http://woposs.unine.ch/semantic-maps/map-nequeo.php">http://woposs.unine.ch/semantic-maps/map-nequeo.php</a></span>
+        </span></li><li><a href="semantic-maps/map-nolo.php">NOLO</a> <span class="cite"><span>(How to cite <img src="images/book.png" alt="book icon"/>)</span> <span class="reference">Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
+                            href="semantic-maps/map-nolo.php" target="_blank">nolo</a>”. v.1.0. WoPoss.  <a
+                            href="http://woposs.unine.ch/semantic-maps/map-nolo.php">http://woposs.unine.ch/semantic-maps/map-nolo.php</a></span>
         </span></li>
         <li><a href="semantic-maps/map-oportet.php">OPORTET</a> <span class="cite"><span>(How to cite <img src="images/book.png" alt="book icon"/>)</span> <span class="reference">Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
                     href="semantic-maps/map-oportet.php" target="_blank">oportet</a>”. v.1.0. WoPoss.  <a

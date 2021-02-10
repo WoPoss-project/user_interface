@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db487090-34b1-4abd-9088-e9e00729d9e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/js/how-to-cite.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semantic-maps/map-forsitan.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semantic-maps/map-fortasse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semantic-maps/map-malo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semantic-maps/map-necesse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semantic-maps/map-necessitudo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semantic-maps/map-usus.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/semantic-maps/map-inique.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/semantic-maps/map-iniquiter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/semantic-maps/map-iniquus.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/semantic-maps/map-nolo.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results.php" beforeDir="false" afterPath="$PROJECT_DIR$/results.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/semantic-modal-maps.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-modal-maps.php" afterDir="false" />
@@ -195,15 +192,15 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="PHP" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/semantic-maps" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/js" />
       <recent name="$PROJECT_DIR$/semantic-maps" />
+      <recent name="$PROJECT_DIR$/js" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/../semantic_maps/drawn-maps/svg" />
       <recent name="$PROJECT_DIR$/../semantic_maps/drawn-maps/js" />
@@ -343,6 +340,8 @@
       <workItem from="1612264337579" duration="1708000" />
       <workItem from="1612360153558" duration="4974000" />
       <workItem from="1612425770799" duration="1613000" />
+      <workItem from="1612775708551" duration="2940000" />
+      <workItem from="1612944915585" duration="256000" />
     </task>
     <servers />
   </component>
