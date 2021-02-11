@@ -131,7 +131,10 @@
                                 </li>
                             </ul>
                         </li>
-
+                        <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-ineptus.php"
+                                                                             target="_blank">ineptus</a>”. v.1.0.
+                            WoPoss.
+                        </li>
                         <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
                                     href="semantic-maps/map-iniquus.php" target="_blank">iniquus</a>”. v.1.0.
                             WoPoss.<br/>

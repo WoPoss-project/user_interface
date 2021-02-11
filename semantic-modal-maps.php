@@ -252,6 +252,11 @@ div[data-identifier] .reference {display: inline-block}</style>
                                     href="http://woposs.unine.ch/semantic-maps/map-indubitate.php">http://woposs.unine.ch/semantic-maps/map-indubitate.php</a></span></span></li>
             </ul>
         </li>
+        <li><a href="semantic-maps/map-ineptus.php">INEPTUS</a> <span class="cite"><span>(How to cite <img src="images/book.png" alt="book icon"/>)</span> <span class="reference">Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-ineptus.php"
+                                                                                                                                                                                                                            target="_blank">ineptus</a>”. v.1.0.
+            WoPoss.  <a
+                            href="http://woposs.unine.ch/semantic-maps/map-ineptus.php">http://woposs.unine.ch/semantic-maps/map-ineptus.php</a>
+        </span></li>
 
 
         <li><a href="semantic-maps/map-iniquus.php">INIQUUS</a> <span class="cite"><span>(How to cite <img src="images/book.png" alt="book icon"/>)</span> <span class="reference">Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
