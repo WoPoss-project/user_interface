@@ -157,6 +157,28 @@
                                                                              target="_blank">ius</a>”. v.1.0.
                             WoPoss.
                         </li>
+
+                        <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
+                                    href="semantic-maps/map-licet.php" target="_blank">licet</a>”. v.1.0.
+                            WoPoss.<br/>
+                            <span class="newline"">Related maps:</span>
+
+                            <ul>
+                                <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
+                                            href="semantic-maps/map-licito-licet.php" target="_blank">licito</a>”. v.1.0.
+                                    WoPoss.
+                                </li>
+                                <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
+                                            href="semantic-maps/map-licite-licet.php" target="_blank">licite</a>”. v.1.0.
+                                    WoPoss.
+                                </li>
+                                <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
+                                            href="semantic-maps/map-licenter.php" target="_blank">licenter</a>”. v.1.0.
+                                    WoPoss.
+                                </li>
+                            </ul>
+                        </li>
+
                         <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
                                     href="semantic-maps/map-licitus.php" target="_blank">licitus</a>”. v.1.0.
                             WoPoss.<br/>
