@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db487090-34b1-4abd-9088-e9e00729d9e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/semantic-maps/map-licenter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semantic-maps/map-licet.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semantic-maps/map-licite-licet.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semantic-maps/map-licito-licet.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/db.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results.php" beforeDir="false" afterPath="$PROJECT_DIR$/results.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/semantic-modal-maps.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-modal-maps.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/team.php" beforeDir="false" afterPath="$PROJECT_DIR$/team.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -344,6 +341,7 @@
       <workItem from="1612944915585" duration="256000" />
       <workItem from="1613045656908" duration="744000" />
       <workItem from="1613480803954" duration="1577000" />
+      <workItem from="1614780876723" duration="882000" />
     </task>
     <servers />
   </component>

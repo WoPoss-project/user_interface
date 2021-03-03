@@ -422,7 +422,7 @@
         <li>Reymond, Séverine; Dell’Oro, Francesca (2020). “Tertullian’s <em>De spectaculis</em> annotated according to
             the WoPoss guidelines”. [<a target="_blank" href="db.php">Instructions
                 and dataset</a>]
-            [<a href="outputs/copy_of_WoPoss_project_2020-05-14_0929.zip">download file</a>].
+            [<a href="outputs/copy_of_WoPoss.zip">download file</a>].
         </li>
     </ul>
 

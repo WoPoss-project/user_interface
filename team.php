@@ -241,7 +241,22 @@
                 <em>Planude traducteur d’Ovide</em> which gives him the opportunity to read a parallel corpus in Greek and Latin.</p>
         </div>
     </div>
+    <div class="members_et">
 
+        <div>
+                   </div>
+
+        <div>
+            <figure>
+                <!--                <img src="" alt="Vera Duerrschnabel">-->
+                <figcaption>Vera Duerrschnabel</figcaption>
+            </figure>
+            <p></p>
+        </div>
+
+        <div>
+             </div>
+    </div>
     <h2 id="past-collaborators">Past collaborators</h2>
     <div class="members_et">
         <div>
