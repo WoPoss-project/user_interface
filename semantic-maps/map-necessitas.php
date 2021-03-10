@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head>
-    <title>Semantic Map: NEQUEO - WoPoss</title>
-
+    <title>Semantic Map: NECESSITAS - WoPoss</title>
     <?php include("../ssi/head.html"); ?>
+
     <link rel="stylesheet" href="../css/form.css" />
 
     <link
@@ -16,7 +16,7 @@
     />
 
 
-    <script src="../js/json/nequeo.js">/**/</script>
+    <script src="../js/json/necessitas.js">/**/</script>
 
 
     <!-- jQuery & Bootstrap -->
@@ -39,6 +39,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.min.js"></script>
 
 
+
     <style>
         nav, main, footer {
             font-family: 'NewSans', Fallback, sans-serif;;
@@ -48,7 +49,7 @@
 <body>
 <?php include("../ssi/menu.html"); ?>
 <main>
-    <h1>Diachronic modal semantic map of NEQUEO</h1>
+    <h1>Diachronic modal semantic map of NECESSITAS</h1>
 
         <div class="invisibleWhenNoData" id="map" style="visibility: hidden"></div>
         <div>

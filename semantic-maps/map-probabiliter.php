@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head>
     <title>Semantic Map: PROBABILITER - WoPoss</title>
 
@@ -37,7 +37,6 @@
     <script src="https://d3js.org/d3.v5.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.min.js"></script>
 
-    <?php include("../ssi/head.html"); ?>
 
     <style>
         nav, main, footer {
@@ -50,7 +49,7 @@
 <main>
     <h1>Diachronic modal semantic map of PROBABILITER</h1>
 
-    <p>See related diachronic semantic maps:</p>
+    <p>See related diachronic semantic map:</p>
     <ul><li><a href="map-probabilis.php" target="_blank">PROBABILIS</a></li>
     </ul>
         <div class="invisibleWhenNoData" id="map" style="visibility: hidden"></div>

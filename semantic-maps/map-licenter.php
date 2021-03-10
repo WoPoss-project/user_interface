@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head>
         <title>Semantic Map: LICENTER - WoPoss</title>
 
+    <?php include("../ssi/head.html"); ?>
     <link rel="stylesheet" href="../css/form.css" />
 
     <link
@@ -35,7 +36,6 @@
     <script src="https://d3js.org/d3.v5.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.min.js"></script>
 
-    <?php include("../ssi/head.html"); ?>
 
     <style>
         nav, main, footer {
@@ -50,8 +50,9 @@
 
     <p>See related diachronic semantic maps:</p>
     <ul><li><a href="map-licet.php" target="_blank">LICECT</a>
-        <li><a href="map-licito-licet.php" target="_blank">LICITO</a></li>
+
         <li><a href="map-licite-licet.php" target="_blank">LICITE</a></li>
+        <li><a href="map-licito-licet.php" target="_blank">LICITO</a></li>
     </ul>
         <div class="invisibleWhenNoData" id="map" style="visibility: hidden"></div>
         <div>

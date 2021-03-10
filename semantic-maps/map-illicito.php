@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head>
     <title>Semantic Map: ILLICITO - WoPoss</title>
 
@@ -49,8 +49,10 @@
     <h1>Diachronic modal semantic map of ILLICITO</h1>
 
     <p>See related diachronic semantic maps:</p>
-    <ul><li><a href="map-illicitus.php" target="_blank">ILLICITUS</a></li>
+    <ul>
         <li><a href="map-illicite.php" target="_blank">ILLICITE</a></li>
+        <li><a href="map-illicitus.php" target="_blank">ILLICITUS</a></li>
+
     </ul>
         <div class="invisibleWhenNoData" id="map" style="visibility: hidden"></div>
         <div>

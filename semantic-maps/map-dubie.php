@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head>
-    <title>Semantic Map: NEQUEO - WoPoss</title>
-
+    <title>Semantic Map: DUBIE - WoPoss</title>
     <?php include("../ssi/head.html"); ?>
     <link rel="stylesheet" href="../css/form.css" />
 
@@ -16,7 +15,7 @@
     />
 
 
-    <script src="../js/json/nequeo.js">/**/</script>
+    <script src="../js/json/dubie.js">/**/</script>
 
 
     <!-- jQuery & Bootstrap -->
@@ -48,8 +47,15 @@
 <body>
 <?php include("../ssi/menu.html"); ?>
 <main>
-    <h1>Diachronic modal semantic map of NEQUEO</h1>
+    <h1>Diachronic modal semantic map of DUBIE</h1>
 
+    <p>See related diachronic semantic maps:</p>
+    <ul>
+        <li><a href="map-dubio.php" target="_blank">DUBIO</a></li>
+        <li><a href="map-dubium-adv.php" target="_blank">DUBIUM</a> (adverb)</li>
+        <li><a href="map-dubium-noun.php" target="_blank">DUBIUM</a> (noun)</li>
+        <li><a href="map-dubius.php" target="_blank">DUBIUS</a></li>
+    </ul>
         <div class="invisibleWhenNoData" id="map" style="visibility: hidden"></div>
         <div>
             <select

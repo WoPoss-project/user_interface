@@ -3,6 +3,7 @@
 <head>
     <title>Semantic Map: MEUS - WoPoss</title>
 
+    <?php include("../ssi/head.html"); ?>
     <link rel="stylesheet" href="../css/form.css" />
 
     <link
@@ -36,7 +37,6 @@
     <script src="https://d3js.org/d3.v5.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.min.js"></script>
 
-    <?php include("../ssi/head.html"); ?>
 
     <style>
         nav, main, footer {

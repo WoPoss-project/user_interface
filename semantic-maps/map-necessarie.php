@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head>
-    <title>Semantic Map: NEQUEO - WoPoss</title>
+    <title>Semantic Map: NECESSARIE - WoPoss</title>
 
     <?php include("../ssi/head.html"); ?>
     <link rel="stylesheet" href="../css/form.css" />
@@ -16,7 +16,7 @@
     />
 
 
-    <script src="../js/json/nequeo.js">/**/</script>
+    <script src="../js/json/necessarie.js">/**/</script>
 
 
     <!-- jQuery & Bootstrap -->
@@ -28,8 +28,6 @@
     <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript">/**/</script>
     <script src="http://bigspotteddog.github.io/ScrollToFixed/jquery-scrolltofixed.js"
             type="text/javascript">/**/</script>
-
-    <script src="../js/timeline.js" type="text/javascript">/**/</script>
 
     <!-- Sweetalert 2 -->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
@@ -48,8 +46,15 @@
 <body>
 <?php include("../ssi/menu.html"); ?>
 <main>
-    <h1>Diachronic modal semantic map of NEQUEO</h1>
+    <h1>Diachronic modal semantic map of NECESSARIE</h1>
 
+    <p>See related diachronic semantic maps:</p>
+    <ul>
+
+        <li><a href="map-necessario.php" target="_blank">NECESSARIO</a></li>
+        <li><a href="map-necessarium.php" target="_blank">NECESSARIUM</a></li>
+        <li><a href="map-necessarius.php" target="_blank">NECESSARIUS</a></li>
+    </ul>
         <div class="invisibleWhenNoData" id="map" style="visibility: hidden"></div>
         <div>
             <select
