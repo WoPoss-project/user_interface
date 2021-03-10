@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head>
     <title>Outputs - WoPoss</title>
     <?php include("ssi/head.html"); ?>
@@ -62,7 +62,7 @@
                         <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
                                     href="semantic-maps/map-illicitus.php" target="_blank">illicitus</a>”. v.1.0.
                             WoPoss.<br/>
-                            <span class="newline"">Related maps:</span>
+                            <span class="newline">Related maps:</span>
 
                             <ul>
                                 <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
@@ -79,7 +79,7 @@
                         <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-incertus.php"
                                                                              target="_blank">incertus</a> (adjective)”.
                             v.1.0. WoPoss.<br/>
-                            <span class="newline"">Related maps:</span>
+                            <span class="newline">Related maps:</span>
                             <ul>
                                 <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
                                             href="semantic-maps/map-incertum.php" target="_blank">incertum</a> (noun)”.
@@ -104,7 +104,7 @@
                         <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-indubitans.php"
                                                                              target="_blank">indubitans</a>”.
                             v.1.0. WoPoss.<br/>
-                            <span class="newline"">Related maps:</span>
+                            <span class="newline">Related maps:</span>
                             <ul>
                                 <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
                                             href="semantic-maps/map-indubitanter.php"
@@ -116,7 +116,7 @@
                         <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-indubitatus.php"
                                                                              target="_blank">indubitatus</a>”.
                             v.1.0. WoPoss.<br/>
-                            <span class="newline"">Related maps:</span>
+                            <span class="newline">Related maps:</span>
                             <ul>
                                 <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
                                             href="semantic-maps/map-indubitato.php"
@@ -138,7 +138,7 @@
                         <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
                                     href="semantic-maps/map-iniquus.php" target="_blank">iniquus</a>”. v.1.0.
                             WoPoss.<br/>
-                            <span class="newline"">Related maps:</span>
+                            <span class="newline">Related maps:</span>
 
                             <ul>
                                 <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
@@ -161,7 +161,7 @@
                         <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
                                     href="semantic-maps/map-licet.php" target="_blank">licet</a>”. v.1.0.
                             WoPoss.<br/>
-                            <span class="newline"">Related maps:</span>
+                            <span class="newline">Related maps:</span>
 
                             <ul>
                                 <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
@@ -182,7 +182,7 @@
                         <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
                                     href="semantic-maps/map-licitus.php" target="_blank">licitus</a>”. v.1.0.
                             WoPoss.<br/>
-                            <span class="newline"">Related maps:</span>
+                            <span class="newline">Related maps:</span>
 
                             <ul>
                                 <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
@@ -229,7 +229,7 @@
                         <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
                                     href="semantic-maps/map-possibilis.php" target="_blank">possibilis</a>”. v.1.0.
                             WoPoss.<br/>
-                            <span class="newline"">Related map:</span>
+                            <span class="newline">Related map:</span>
                             <ul>
                                 <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
                                             href="semantic-maps/map-possibiliter.php" target="_blank">possibiliter</a>”.
@@ -244,7 +244,7 @@
                         <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
                                     href="semantic-maps/map-probabilis.php" target="_blank">probabilis</a>”. v.1.0.
                             WoPoss.<br/>
-                            <span class="newline"">Related map:</span>
+                            <span class="newline">Related map:</span>
                             <ul>
                                 <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
                                             href="semantic-maps/map-probabiliter.php" target="_blank">probabiliter</a>”.

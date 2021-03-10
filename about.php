@@ -1,30 +1,35 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
     <head>
         <title>Theoretical framework - WoPoss</title>
         <?php include("ssi/head.html"); ?>
+        <style>
+            .rationale {
+                display:flex
+            }
+        </style>
     </head>
     <body>
         <?php include("ssi/menu.html"); ?>
         <main>
             <h1>Theoretical framework</h1>
-            <h2>Rationale and mission</h2>
-            <p>There has been a good deal of research into the diachrony of modality since the 1980s
-                (cf. <a href="#ziegeler2016">Ziegeler 2016</a>). Investigations conducted on modal
-                verbs in the Germanic languages, especially English, have shown beyond any doubt
-                that languages with a significant amount of available written history are
-                fundamental in reconstructing the diachronic pathways of modality and support the
-                panchronic approach adopted for less well-documented or less-studied languages (e.g.
-                    <a href="#bybee1994">Bybee–Perkins–Pagliuca 1994</a>). Nevertheless, diachronic
-                research needs to take into account other lexical markers (cf. e.g. <a
-                    href="#nuyts2001">Nuyts 2001</a>, <a href="#vanlinden2012">Van Linden 2012</a>)
-                as well as other possible benchmarks of comparison by taking advantage of
-                well-documented languages. The main aim of WoPoss is to perform the <strong>first
-                    large-scope analysis of modalisation paths</strong> in Latin <strong>by
-                    analysing and annotating a diachronic corpus</strong> which spans over a
-                millennium (3rd century BCE – 7th century CE). This analysis will allow the team to
-                study phenomena of co-occurrence and competition between modal markers over a long
-                period of time.</p>
+            <div class="rationale"><div><h2>Rationale and mission</h2>
+           <p>There has been a good deal of research into the diachrony of modality since the 1980s
+                        (cf. <a href="#ziegeler2016">Ziegeler 2016</a>). Investigations conducted on modal
+                        verbs in the Germanic languages, especially English, have shown beyond any doubt
+                        that languages with a significant amount of available written history are
+                        fundamental in reconstructing the diachronic pathways of modality and support the
+                        panchronic approach adopted for less well-documented or less-studied languages (e.g.
+                        <a href="#bybee1994">Bybee–Perkins–Pagliuca 1994</a>). Nevertheless, diachronic
+                        research needs to take into account other lexical markers (cf. e.g. <a
+                                href="#nuyts2001">Nuyts 2001</a>, <a href="#vanlinden2012">Van Linden 2012</a>)
+                        as well as other possible benchmarks of comparison by taking advantage of
+                        well-documented languages. The main aim of WoPoss is to perform the <strong>first
+                            large-scope analysis of modalisation paths</strong> in Latin <strong>by
+                            analysing and annotating a diachronic corpus</strong> which spans over a
+                        millennium (3rd century BCE – 7th century CE). This analysis will allow the team to
+                        study phenomena of co-occurrence and competition between modal markers over a long
+                        period of time.</p></div><img src="images/logos/wop_light.png" alt="woposs logo"/> </div>
             <h2>Basic information about the WoPoss approach</h2>
             <p>By focusing not only on verbs (e.g. <em>possum</em> ‘have power, be able’) but also
                 on adjectives (e.g. adjectives in <em>-bilis</em>), nouns

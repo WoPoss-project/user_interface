@@ -1,19 +1,8 @@
 <!DOCTYPE html>
-<html  lang="en" xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-      xmlns:cc="http://creativecommons.org/ns#"
-      xmlns:dc="http://purl.org/dc/elements/1.1/"
-      xmlns:foaf="http://xmlns.com/foaf/0.1/">
+<html  lang="en" xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <title property="dc:title">WoPoss</title>
-        <meta property="dc:description" content="Website of the  project A world of possibilities. Modal pathways on the extra-long period of time: the diachrony of modality in the Latin language"/>
-
-
-        <?php include("ssi/head.html"); ?>
-
-
+               <?php include("ssi/head.html"); ?>
     </head>
     <body>
         <?php include("ssi/menu.html"); ?>

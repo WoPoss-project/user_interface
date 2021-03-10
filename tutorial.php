@@ -9,7 +9,7 @@
 <main>
     <h1>Annotation tutorial</h1>
     <div class="video">
-        <video width="1000" height="562.5" controls>
+        <video width="1000" height="563" controls>
             <source src="outputs/woposs-inception.mp4" type="video/mp4"/>
             Your browser does not support the video tag.
         </video>

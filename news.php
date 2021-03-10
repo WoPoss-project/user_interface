@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head>
     <title>News - WoPoss</title>
     <?php include("ssi/head.html"); ?>
@@ -85,7 +85,7 @@
                             href="https://dariah-ch-ws19.sciencesconf.org/program" target="_blank">this link</a>
                     to see the complete program.</p></article>
         </div>
-        <aside><a class="twitter-timeline" href="https://twitter.com/woposs?ref_src=twsrc%5Etfw">Tweets by woposs</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <aside><a class="twitter-timeline" href="https://twitter.com/woposs?ref_src=twsrc%5Etfw">Tweets by woposs</a> <script async src="https://platform.twitter.com/widgets.js"></script>
         </aside>
     </div>
 </main>

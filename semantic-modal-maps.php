@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head>
     <title>Semantic maps - WoPoss</title>
     <script src="js/how-to-cite.js"></script>
@@ -257,7 +257,7 @@
                                     src="images/book.png" alt="book icon"/>)</span> <span class="reference">Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
                                     href="semantic-maps/map-incerta.php"
                                     target="_blank">incerta</a>”. v.1.0. WoPoss.  <a
-                                    href="http://woposs.unine.ch/semantic-maps/map-incerta.php">http://woposs.unine.ch/semantic-maps/map-incerta.php</a></span</span>>
+                                    href="http://woposs.unine.ch/semantic-maps/map-incerta.php">http://woposs.unine.ch/semantic-maps/map-incerta.php</a></span></span>
                 </li>
 
 
@@ -303,7 +303,7 @@
                             href="semantic-maps/map-ineptus.php"
                             target="_blank">ineptus</a>”. v.1.0.
             WoPoss.  <a
-                            href="http://woposs.unine.ch/semantic-maps/map-ineptus.php">http://woposs.unine.ch/semantic-maps/map-ineptus.php</a>
+                            href="http://woposs.unine.ch/semantic-maps/map-ineptus.php">http://woposs.unine.ch/semantic-maps/map-ineptus.php</a></span>
         </span></li>
 
 
@@ -334,7 +334,7 @@
                             href="semantic-maps/map-ius.php"
                             target="_blank">ius</a>”. v.1.0.
             WoPoss.  <a
-                            href="http://woposs.unine.ch/semantic-maps/map-ius.php">http://woposs.unine.ch/semantic-maps/map-ius.php</a>
+                            href="http://woposs.unine.ch/semantic-maps/map-ius.php">http://woposs.unine.ch/semantic-maps/map-ius.php</a></span>
         </span></li>
 
 

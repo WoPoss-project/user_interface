@@ -3,9 +3,29 @@
   <component name="ChangeListManager">
     <list default="true" id="db487090-34b1-4abd-9088-e9e00729d9e7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/about.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/corpus.php" beforeDir="false" afterPath="$PROJECT_DIR$/corpus.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/credits.php" beforeDir="false" afterPath="$PROJECT_DIR$/credits.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db-mockup.php" beforeDir="false" afterPath="$PROJECT_DIR$/db-mockup.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logos/clsl_light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logos/sli_light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/map.php" beforeDir="false" afterPath="$PROJECT_DIR$/map.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news.php" beforeDir="false" afterPath="$PROJECT_DIR$/news.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pygmalion-form.php" beforeDir="false" afterPath="$PROJECT_DIR$/pygmalion-form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pygmalion-simple.php" beforeDir="false" afterPath="$PROJECT_DIR$/pygmalion-simple.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pygmalion.php" beforeDir="false" afterPath="$PROJECT_DIR$/pygmalion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/relations.php" beforeDir="false" afterPath="$PROJECT_DIR$/relations.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results.php" beforeDir="false" afterPath="$PROJECT_DIR$/results.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schemas.php" beforeDir="false" afterPath="$PROJECT_DIR$/schemas.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-indubitanter.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-indubitanter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-modal-maps.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-modal-maps.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssi/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/ssi/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssi/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/ssi/head.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssi/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/ssi/menu.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/team.php" beforeDir="false" afterPath="$PROJECT_DIR$/team.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial.php" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -342,6 +362,7 @@
       <workItem from="1613045656908" duration="744000" />
       <workItem from="1613480803954" duration="1577000" />
       <workItem from="1614780876723" duration="882000" />
+      <workItem from="1615209052342" duration="6139000" />
     </task>
     <servers />
   </component>

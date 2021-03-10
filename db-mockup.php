@@ -152,7 +152,7 @@
             </select><br/>
            <!-- <label for="marker">Choose a second modal marker (optional)</label>
             <select name="marker" id="marker">
-                <option disabled selected value> -- select an option -- </option>
+                <option disabled selected value> - select an option - </option>
                 <optgroup label="Verbs">
                     <option value="debeo">debeo</option>
                     <option value="decet">decet</option>
@@ -375,8 +375,8 @@
                                     <label for="mood" class="title">Mood</label>
                                     <div class="wrapper">
                                         <div class="content" id="mood">
-                                            <input type="checkbox" name="Imp" id="Imp" value="Imp" checked/> <label
-                                                    for="Imp">Imperative</label>
+                                            <input type="checkbox" name="Impt" id="Impt" value="Impt" checked/> <label
+                                                    for="Impt">Imperative</label>
                                             <input type="checkbox" name="Ind" id="Ind" value="Ind" checked/> <label
                                                     for="Ind">Indicative</label>
                                             <input type="checkbox" name="Sub" id="Sub" value="Sub" checked/> <label
@@ -424,7 +424,7 @@
                                     <label for="affirmative">Marker in an affirmative utterance</label>
                                     <input id="negative" checked="checked" name="negative" type="checkbox"
                                            value="negative">
-                                    <label for="negative">Marker in a negative utterance</label</div></div><br/>
+                                    <label for="negative">Marker in a negative utterance</label></div></div><br/>
                             <label class="title">Type of utterance</label>
                             <div class="wrapper"><div class="content"><input id="interrogative" checked="checked" name="interrogative"
                                                            type="checkbox"
@@ -489,8 +489,8 @@
                                             for="appos">appos</label>
                                     <input type="checkbox" name="aux" id="aux" value="aux"/> <label
                                             for="aux">aux</label>
-                                    <input type="checkbox" name="case" id="case" value="case"/> <label
-                                            for="case">case</label>
+                                    <input type="checkbox" name="case" id="case_dep" value="case_dep"/> <label
+                                            for="case_dep">case</label>
                                     <input type="checkbox" name="cc" id="cc" value="cc"/> <label for="cc">cc</label>
                                     <input type="checkbox" name="ccomp" id="ccomp" value="ccomp"/> <label
                                             for="ccomp">ccomp</label>
@@ -783,7 +783,7 @@
                                         for="probable">Probable</label>
                                 <input type="checkbox" value="possible" id="possible"/> <label
                                         for="possible">Possible</label>
-                                <input type="checkbox" value="improbable" id="improbable"/> <label
+                                <input type="checkbox" value=robable" id="improbable"/> <label
                                         for="improbable">Improbable</label>
                                 <input type="checkbox" value="impossible" id="impossible"/> <label
                                         for="impossible">Impossible</label>
