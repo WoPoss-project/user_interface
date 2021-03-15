@@ -522,6 +522,44 @@
                             href="semantic-maps/map-possibilitas.php" target="_blank">possibilitas</a>”. v.1.0. WoPoss.  <a
                             href="https://woposs.unine.ch/semantic-maps/map-possibilitas.php">https://woposs.unine.ch/semantic-maps/map-possibilitas.php</a></span>
         </span></li>
+        <li><a href="semantic-maps/map-potis.php">POTIS</a> <span class="cite"><span>(How to cite <img
+                            src="images/book.png" alt="book icon"/>)</span> <span class="reference">Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
+                            href="semantic-maps/map-potis.php" target="_blank">potis</a>”. v.1.0. WoPoss.  <a
+                            href="https://woposs.unine.ch/semantic-maps/map-potis.php">https://woposs.unine.ch/semantic-maps/map-potis.php</a></span></span>
+            Related maps:
+            <ul>
+                <li><a href="semantic-maps/map-pote.php">POTE</a> <span class="cite"><span>(How to cite <img
+                                    src="images/book.png" alt="book icon"/>)</span> <span class="reference">Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
+                                    href="semantic-maps/map-pote.php" target="_blank">pote</a>”. v.1.0. WoPoss.  <a
+                                    href="https://woposs.unine.ch/semantic-maps/map-pote.php">https://woposs.unine.ch/semantic-maps/map-pote.php</a></span>
+                </span></li>
+                <li><a href="semantic-maps/map-potes.php">POTES</a> <span class="cite"><span>(How to cite <img
+                                    src="images/book.png" alt="book icon"/>)</span> <span class="reference">Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
+                                    href="semantic-maps/map-potes.php" target="_blank">potes</a>”. v.1.0. WoPoss.  <a
+                                    href="https://woposs.unine.ch/semantic-maps/map-potes.php">https://woposs.unine.ch/semantic-maps/map-potes.php</a></span>
+                </span></li>
+                <li><a href="semantic-maps/map-potior.php">POTIOR</a> <span class="cite"><span>(How to cite <img
+                                    src="images/book.png" alt="book icon"/>)</span> <span class="reference">Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
+                                    href="semantic-maps/map-potior.php" target="_blank">potior</a>”. v.1.0. WoPoss.  <a
+                                    href="https://woposs.unine.ch/semantic-maps/map-potior.php">https://woposs.unine.ch/semantic-maps/map-potior.php</a></span>
+                </span></li>
+                <li><a href="semantic-maps/map-potissimum.php">POTISSIMUM</a> <span class="cite"><span>(How to cite <img
+                                    src="images/book.png" alt="book icon"/>)</span> <span class="reference">Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
+                                    href="semantic-maps/map-potissimum.php" target="_blank">potissimum</a>”. v.1.0. WoPoss.  <a
+                                    href="https://woposs.unine.ch/semantic-maps/map-potissimum.php">https://woposs.unine.ch/semantic-maps/map-potissimum.php</a></span>
+                </span></li>
+                <li><a href="semantic-maps/map-potissimus.php">POTISSIMUS</a> <span class="cite"><span>(How to cite <img
+                                    src="images/book.png" alt="book icon"/>)</span> <span class="reference">Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
+                                    href="semantic-maps/map-potissimus.php" target="_blank">potissimus</a>”. v.1.0. WoPoss.  <a
+                                    href="https://woposs.unine.ch/semantic-maps/map-potissimus.php">https://woposs.unine.ch/semantic-maps/map-potissimus.php</a></span>
+                </span></li>
+                <li><a href="semantic-maps/map-potius.php">POTIUS</a> <span class="cite"><span>(How to cite <img
+                                    src="images/book.png" alt="book icon"/>)</span> <span class="reference">Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
+                                    href="semantic-maps/map-potius.php" target="_blank">potius</a>”. v.1.0. WoPoss.  <a
+                                    href="https://woposs.unine.ch/semantic-maps/map-potius.php">https://woposs.unine.ch/semantic-maps/map-potius.php</a></span>
+                </span></li>
+            </ul>
+        </li>
         <li><a href="semantic-maps/map-potestas.php">POTESTAS</a> <span class="cite"><span>(How to cite <img
                             src="images/book.png" alt="book icon"/>)</span> <span class="reference">Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
                             href="semantic-maps/map-potestas.php" target="_blank">potestas</a>”. v.1.0. WoPoss.  <a

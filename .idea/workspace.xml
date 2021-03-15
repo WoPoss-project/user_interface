@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db487090-34b1-4abd-9088-e9e00729d9e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/semantic-maps/map-opus.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/semantic-maps/map-pote.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/semantic-maps/map-potes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/semantic-maps/map-potior.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/semantic-maps/map-potis.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/semantic-maps/map-potissimum.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/semantic-maps/map-potissimus.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/semantic-maps/map-potius.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results.php" beforeDir="false" afterPath="$PROJECT_DIR$/results.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/semantic-modal-maps.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-modal-maps.php" afterDir="false" />
@@ -345,7 +351,7 @@
       <workItem from="1615209052342" duration="6139000" />
       <workItem from="1615363419934" duration="8724000" />
       <workItem from="1615647355604" duration="2530000" />
-      <workItem from="1615795795940" duration="1439000" />
+      <workItem from="1615795795940" duration="7069000" />
     </task>
     <servers />
   </component>
