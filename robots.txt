@@ -1,1 +1,1 @@
- Sitemap: http://woposs.unine.ch/sitemap.xml 
+ Sitemap: https://woposs.unine.ch/sitemap.xml 

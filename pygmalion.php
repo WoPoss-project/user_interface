@@ -22,9 +22,9 @@
     <h1>Pygmalion, a tool to visualise the diachronic description of meaning</h1>
 
     <p>Pygmalion is an intuitive tool conceived to draw and visualise interactive diachronic semantic maps. <a
-                href="http://woposs.unine.ch/pygmalion-simple.php" target="_blank">Pygmalion-simple
+                href="https://woposs.unine.ch/pygmalion-simple.php" target="_blank">Pygmalion-simple
             1.0</a> is thought to draw any type of diachronic semantic map, while <a
-                href="http://woposs.unine.ch/pygmalion-form.php" target="_blank">Pygmalion-modal 1.0</a> is
+                href="https://woposs.unine.ch/pygmalion-form.php" target="_blank">Pygmalion-modal 1.0</a> is
         specifically designed to draw diachronic semantic maps of modal markers or concepts. The working principles of
         Pygmalion-simple and Pygmalion-modal are identical.
         Mainly meant as a tool to represent the diachronic evolution of meaning as attested by philological evidence,
@@ -44,7 +44,7 @@
         cite our work as follows:</p>
 
     <ul>
-        <li>Dell’Oro, Francesca – Rimaz, Loris – Bermúdez Sabel, Helena &amp; Marongiu, Paola (2020). <a href="http://woposs.unine.ch/pygmalion-simple.php"><em>Pygmalion-simple
+        <li>Dell’Oro, Francesca – Rimaz, Loris – Bermúdez Sabel, Helena &amp; Marongiu, Paola (2020). <a href="https://woposs.unine.ch/pygmalion-simple.php"><em>Pygmalion-simple
                     1.0.
                     A
                     tool to draw interactive and diachronic semantic maps</em></a>. WoPoss. A World of Possibilities. Swiss
@@ -53,7 +53,7 @@
             Foundation.
         </li>
 
-        <li>Dell’Oro, Francesca – Rimaz, Loris – Bermúdez Sabel, Helena &amp; Marongiu, Paola (2020). <a href="http://woposs.unine.ch/pygmalion-form.php" target="_blank"><em>Pygmalion-modal
+        <li>Dell’Oro, Francesca – Rimaz, Loris – Bermúdez Sabel, Helena &amp; Marongiu, Paola (2020). <a href="https://woposs.unine.ch/pygmalion-form.php" target="_blank"><em>Pygmalion-modal
                     1.0. A
                     tool
                     to draw interactive and diachronic semantic maps of modality</em></a>. WoPoss. A World of Possibilities.
@@ -194,7 +194,7 @@
     <p>Once a user has created a map, s/he can export the data in JSON format through the ‘Export data map’ button’
         and/or save the map as an SVG file or as a PNG file through the dedicated buttons. Data can be shared and
         re-used according to the above-specified licence. Once a user receives a map data, s/he can import it through
-        the ‘Import map data’ button. Map data can be imported from <a href="http://woposs.unine.ch/map.php" target="_blank">this address</a>.</p>
+        the ‘Import map data’ button. Map data can be imported from <a href="https://woposs.unine.ch/map.php" target="_blank">this address</a>.</p>
     <h2>Troubleshoting</h2>
     <ul>
         <li>If the import button does not work, please clean the browser cache before trying again.</li>

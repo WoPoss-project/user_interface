@@ -371,7 +371,7 @@
             théorie de la modalité, annotation linguistique et partage des données”. <em>11<sup>e</sup> Journée de
                 Linguistique Suisse</em>. Université de Fribourg.
             [<a href="https://sagw.ch/fileadmin/redaktion_ssg/dokumente/2020-10-09_DSL11_Abstracts.pdf" target="_blank">Abstract</a>,
-            p. 21] [<a href="http://woposs.unine.ch/outputs/presentation-journees.mp4">Presentation</a>].
+            p. 21] [<a href="https://woposs.unine.ch/outputs/presentation-journees.mp4">Presentation</a>].
         </li>
         <li>Dell’Oro, Francesca (2020). “WoPoss – A <em>Wo</em>rld of <em>Poss</em>ibilities. An open access annotated
             corpus to study the diachrony of modality in the Latin language”. <em>DH2020</em>. [<a
@@ -390,10 +390,10 @@
             semantic maps:
             a flexible and user-friendly open-source tool for historical linguistics”. <em>11<sup>e</sup> Journée de
                 Linguistique Suisse</em>. Université de Fribourg.
-            [<a target="_blank" href="http://woposs.unine.ch/outputs/poster-journees.pdf">PDF</a>] [Presentation: <a
-                    href="http://woposs.unine.ch/outputs/poster-journees.mp4" target="_blank">Firefox</a>,
-            <a target="_blank" href="http://woposs.unine.ch/outputs/poster-journees.mp4">Chrome</a>,
-            <a href="http://woposs.unine.ch/outputs/poster-journees-safari.mp4" target="_blank">Safari</a>].
+            [<a target="_blank" href="https://woposs.unine.ch/outputs/poster-journees.pdf">PDF</a>] [Presentation: <a
+                    href="https://woposs.unine.ch/outputs/poster-journees.mp4" target="_blank">Firefox</a>,
+            <a target="_blank" href="https://woposs.unine.ch/outputs/poster-journees.mp4">Chrome</a>,
+            <a href="https://woposs.unine.ch/outputs/poster-journees-safari.mp4" target="_blank">Safari</a>].
         </li>
         <li>Bermúdez Sabel, Helena; Dell’Oro, Francesca; Marongiu, Paola (2020). “Visualisation of semantic shifts:
             the
@@ -456,7 +456,7 @@
 
     <ul>
         <li>Dell’Oro, Francesca; Rimaz, Loris; Bermúdez Sabel, Helena; Marongiu, Paola (2020). <a
-                    href="http://woposs.unine.ch/pygmalion-simple.php"><em>Pygmalion-simple
+                    href="https://woposs.unine.ch/pygmalion-simple.php"><em>Pygmalion-simple
                     1.0.
                     A
                     tool to draw interactive and diachronic semantic maps</em></a>. WoPoss. A World of Possibilities.
@@ -467,7 +467,7 @@
         </li>
 
         <li>Dell’Oro, Francesca; Rimaz, Loris; Bermúdez Sabel, Helena; Marongiu, Paola (2020). <a
-                    href="http://woposs.unine.ch/pygmalion-form.php" target="_blank"><em>Pygmalion-modal
+                    href="https://woposs.unine.ch/pygmalion-form.php" target="_blank"><em>Pygmalion-modal
                     1.0. A
                     tool
                     to draw interactive and diachronic semantic maps of modality</em></a>. WoPoss. A World of

@@ -8,7 +8,7 @@
         {
             "@context": "http://www.schema.org",
             "@type": "Person",
-            "@id": "http://woposs.unine.ch/team.php/#paolamarongiu",
+            "@id": "https://woposs.unine.ch/team.php/#paolamarongiu",
             "name": "Paola Marongiu",
             "nationality": "Italian",
             "birthPlace" : {
@@ -39,7 +39,7 @@
                     "name": "Università di Bologna"
                 }
             ],
-            "image": "http://woposs.unine.ch/images/team/paola.jpg",
+            "image": "https://woposs.unine.ch/images/team/paola.jpg",
             "gender": "Female",
             "Description": "Linguist",
             "disambiguatingDescription": "PhD student in Historical Linguistics and Digital Humanities",
@@ -49,7 +49,7 @@
                     "@type": "Organization",
                     "name": "WoPoss",
                     "sameAs": [
-                        "http://woposs.unine.ch/",
+                        "https://woposs.unine.ch/",
                         "A World of Possibilities"
                     ]
                 }
@@ -97,7 +97,7 @@
 ]
                 }
             ],
-            "image": "http://woposs.unine.ch/images/team/helena.jpg",
+            "image": "https://woposs.unine.ch/images/team/helena.jpg",
             "gender": "Female",
             "Description": "Digital Humanist",
             "disambiguatingDescription": "Researcher in Historical Linguistics and Digital Humanities",
@@ -107,7 +107,7 @@
                     "@type": "Organization",
                     "name": "WoPoss",
                     "sameAs": [
-                        "http://woposs.unine.ch/",
+                        "https://woposs.unine.ch/",
                         "A World of Possibilities"
                     ]
                 }

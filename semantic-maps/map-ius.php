@@ -173,6 +173,6 @@
     <script src="../js/map-load.js"></script>
     <script src="../js/network.js"></script>
 </main>
-<?php include("ssi/footer.html"); ?>
+<?php include("../ssi/footer.html"); ?>
 </body>
 </html>

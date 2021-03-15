@@ -10,72 +10,72 @@
     
     <url>
         
-        <loc>http://woposs.unine.ch/</loc>        
+        <loc>https://woposs.unine.ch/</loc>        
         <priority>0.8</priority>
         
     </url>
     
     <url>
         
-        <loc>http://woposs.unine.ch/about.php</loc>
+        <loc>https://woposs.unine.ch/about.php</loc>
         <image:image>
-            <image:loc>http://woposs.unine.ch/images/logos/wop_light.png</image:loc>
+            <image:loc>https://woposs.unine.ch/images/logos/wop_light.png</image:loc>
         </image:image>
     </url>
     
     <url>
         
-        <loc>http://woposs.unine.ch/team.php</loc>
+        <loc>https://woposs.unine.ch/team.php</loc>
         <priority>0.9</priority>
         <image:image>
-            <image:loc>http://woposs.unine.ch/images/team/team.jpg</image:loc>
+            <image:loc>https://woposs.unine.ch/images/team/team.jpg</image:loc>
         </image:image>
         <image:image>
-            <image:loc>http://woposs.unine.ch/images/team/francesca.jpg</image:loc>
+            <image:loc>https://woposs.unine.ch/images/team/francesca.jpg</image:loc>
         </image:image>
         <image:image>
-            <image:loc>http://woposs.unine.ch/images/team/helena.jpg</image:loc>
+            <image:loc>https://woposs.unine.ch/images/team/helena.jpg</image:loc>
         </image:image>
         <image:image>
-            <image:loc>http://woposs.unine.ch/images/team/paola.jpg</image:loc>
+            <image:loc>https://woposs.unine.ch/images/team/paola.jpg</image:loc>
         </image:image>
         <image:image>
-            <image:loc>http://woposs.unine.ch/images/team/severine.jpg</image:loc>
+            <image:loc>https://woposs.unine.ch/images/team/severine.jpg</image:loc>
         </image:image>
         <image:image>
-            <image:loc>http://woposs.unine.ch/images/team/kevin.png</image:loc>
+            <image:loc>https://woposs.unine.ch/images/team/kevin.png</image:loc>
         </image:image>
         <image:image>
-            <image:loc>http://woposs.unine.ch/images/team/mael.jpg</image:loc>
+            <image:loc>https://woposs.unine.ch/images/team/mael.jpg</image:loc>
         </image:image>
         <image:image>
-            <image:loc>http://woposs.unine.ch/images/team/loris.jpg</image:loc>
+            <image:loc>https://woposs.unine.ch/images/team/loris.jpg</image:loc>
         </image:image>
         <image:image>
-            <image:loc>http://woposs.unine.ch/images/team/kelvin.jpg</image:loc>
+            <image:loc>https://woposs.unine.ch/images/team/kelvin.jpg</image:loc>
         </image:image>
     </url>
     
     <url>
         
-        <loc>http://woposs.unine.ch/semantic-modal-maps.php</loc>
+        <loc>https://woposs.unine.ch/semantic-modal-maps.php</loc>
         
     </url>
     
     <url>
-        <loc>http://woposs.unine.ch/db.php</loc>
+        <loc>https://woposs.unine.ch/db.php</loc>
     </url>
     
     <url>
         
-        <loc>http://woposs.unine.ch/pygmalion.php</loc>
+        <loc>https://woposs.unine.ch/pygmalion.php</loc>
         <priority>0.9</priority>
     </url>
     
     
     <url>
         
-        <loc>http://woposs.unine.ch/results.php</loc>
+        <loc>https://woposs.unine.ch/results.php</loc>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
@@ -83,14 +83,14 @@
     
     <url>
         
-        <loc>http://woposs.unine.ch/news.php</loc>
+        <loc>https://woposs.unine.ch/news.php</loc>
         
     </url>
     
     
     <url>
         
-        <loc>http://woposs.unine.ch/credits.php</loc>
+        <loc>https://woposs.unine.ch/credits.php</loc>
         
     </url>
     
