@@ -278,6 +278,9 @@
                         <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
                                     href="semantic-maps/map-oportet.php" target="_blank">oportet</a>”. v.1.0. WoPoss.
                         </li>
+                        <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
+                                    href="semantic-maps/map-opus.php" target="_blank">opus</a>”. v.1.0. WoPoss.
+                        </li>
                         <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-possibilitas.php"
                                                                              target="_blank">possibilitas</a>”. v.1.0.
                             WoPoss.
