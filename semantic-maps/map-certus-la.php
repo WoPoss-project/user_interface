@@ -42,7 +42,7 @@
         nav, main, footer {
             font-family: 'NewSans', Fallback, sans-serif;;
         }
-    </style>
+    nav {display: flex}</style>
 </head>
 <body>
 <?php include("../ssi/menu.html"); ?>
