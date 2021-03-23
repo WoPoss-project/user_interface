@@ -329,7 +329,7 @@ function submit(event) {
       confirmButtonText: 'Continue',
     }).then((result) => {
       if (result.value) {
-        window.location.href = 'http://woposs.unil.ch/map.php'
+        window.location.href = 'https://woposs.unine.ch/map.php'
       }
     });
     console.log(JSON.parse(localStorage.getItem('map')));

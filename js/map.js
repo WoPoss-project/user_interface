@@ -263,7 +263,7 @@ function basicDisplay() {
   const boxY = data.normalForm ? (col + 1) * 25 : 25;
 
   colsSpace +=
-    getTextWidth(data.normalForm ? 'Likely modal (see color)' : 'Meaning') + 26;
+    getTextWidth(data.normalForm ? 'Uncertain (see color)' : 'Meaning') + 26;
 
   legend
     .append('rect')
@@ -278,7 +278,7 @@ function basicDisplay() {
 
   legend
     .append('text')
-    .text(() => (data.normalForm ? 'Likely modal (see color)' : 'Meaning'))
+    .text(() => (data.normalForm ? 'Uncertain (see color)' : 'Meaning'))
     .attr('x', boxX)
     .attr('y', boxY)
     .attr('dx', 15)
@@ -1416,6 +1416,7 @@ function createColors() {
   const modals = [...new Set(definitions.map((def) => def.modal))];
   const basicColors = {
     'Not modal': 'lightgrey',
+    'No additional analysis': 'lightgrey',
     'Modal: deontic': 'crimson',
     'Modal: dynamic': 'blueviolet',
     'Modal: epistemic': 'forestgreen',

@@ -24,7 +24,7 @@
     <p>Pygmalion is an intuitive tool conceived to draw and visualise interactive diachronic semantic maps. <a
                 href="https://woposs.unine.ch/pygmalion-simple.php" target="_blank">Pygmalion-simple
             1.0</a> is thought to draw any type of diachronic semantic map, while <a
-                href="https://woposs.unine.ch/pygmalion-form.php" target="_blank">Pygmalion-modal 1.0</a> is
+                href="https://woposs.unine.ch/pygmalion-modal.php" target="_blank">Pygmalion-modal 1.0</a> is
         specifically designed to draw diachronic semantic maps of modal markers or concepts. The working principles of
         Pygmalion-simple and Pygmalion-modal are identical.
         Mainly meant as a tool to represent the diachronic evolution of meaning as attested by philological evidence,

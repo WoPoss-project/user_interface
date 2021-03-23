@@ -347,11 +347,11 @@ function createModality(event, reconstruction = false) {
   confidenceCheckbox.checked = true;
 
   const confidenceLabel = document.createElement('label');
-  confidenceLabel.innerHTML = '(Modal) meaning is certain';
+  confidenceLabel.innerHTML = 'Analysis is certain';
 
   // 5. List used to create small elements
   const smalls = [
-    'Modality type',
+    'Analysis',
     'Date of meaning emergence',
     'Date of meaning disappearance',
     'First attestation',
@@ -419,7 +419,7 @@ function createModality(event, reconstruction = false) {
 
     // Button to add a new modality to the list
     const newModalButton = document.createElement('button');
-    newModalButton.innerHTML = 'Add new (modal) description';
+    newModalButton.innerHTML = 'Add a new description';
     newModalButton.style.width = '100%';
     newModalButton.addEventListener('click', createModality);
     modalitiesRowDiv.appendChild(newModalButton);
@@ -503,13 +503,8 @@ function createModalSelect() {
   const options = [];
   if (!existingSelects) {
     options.push(
-      'Not modal',
-      'Modal: deontic',
-      'Modal: dynamic',
-      'Modal: epistemic',
-      'Premodal',
-      'Postmodal',
-      'Add a type of modality...'
+      'No additional analysis',
+      'Add a type of analysis...'
     );
   } else {
     // ...else copy the previous options
@@ -520,13 +515,13 @@ function createModalSelect() {
     const option = document.createElement('option');
     option.innerHTML = options[optionIndex];
     option.value =
-      options[optionIndex] === 'Add a type of modality...'
-        ? 'Add a modality...'
+      options[optionIndex] === 'Add a type of analysis...'
+        ? 'Add analysis...'
         : options[optionIndex];
     modalSelect.appendChild(option);
   }
 
-  modalSelect.className = 'modality';
+  modalSelect.className = 'analysis';
   modalSelect.addEventListener('change', change);
 
   return modalSelect;
@@ -600,14 +595,14 @@ function change(event) {
   if (
     selectedValue === 'Add a group...' ||
     selectedValue === 'Add a collocation...' ||
-    selectedValue === 'Add a modality...'
+    selectedValue === 'Add analysis...'
   ) {
     selectedValue = selectedValue.split(' ');
     const newElement = selectedValue[selectedValue.length - 1].split('.')[0];
     // Alerts handling the user interaction
     Swal.fire({
       title: `Please specify a name for the new ${
-        newElement === 'modality' ? ' type of ' + newElement : newElement
+        newElement === 'analysis' ? ' type of ' + newElement : newElement
       }`,
       input: 'text',
       inputAttributes: {
@@ -631,7 +626,7 @@ function change(event) {
       },
     }).then((result) => {
       if (result.dismiss === Swal.DismissReason.cancel) {
-        event.target.value = newElement === 'modality' ? 'Not modal' : 'None';
+        event.target.value = newElement === 'analysis' ? 'No additional analysis' : 'None';
       }
     });
   }
@@ -1127,11 +1122,11 @@ function addModalInfo(modal, modality) {
         }
       } else if (element.className === 'attest') {
         element.value = modality.attestation;
-      } else if (element.className === 'modality') {
+      } else if (element.className === 'analysis') {
         const options = [...element.childNodes];
         const optionsValues = options.map((opt) => opt.innerHTML);
         if (!optionsValues.includes(modality.modal)) {
-          addGroup(modality.modal, 'modality', element);
+          addGroup(modality.modal, 'analysis', element);
         }
         element.value = modality.modal;
       } else if (element.className === 'certitude') {

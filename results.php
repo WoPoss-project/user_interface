@@ -39,6 +39,17 @@
                         <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-aequus.php"
                                                                              target="_blank">aequus</a>”. v.1.0. WoPoss.
                         </li>
+                        <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
+                                    href="semantic-maps/map-aptus.php" target="_blank">aptus</a>”. v.1.0.
+                            WoPoss.<br/>
+                            <span class="newline">Related map:</span>
+                            <ul>
+                                <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
+                                            href="semantic-maps/map-apte.php" target="_blank">apte</a>”.
+                                    v.1.0. WoPoss.
+                                </li>
+                            </ul>
+                        </li>
                         <li>Marongiu, Paola; Bermúdez Sabel, Helena; Dell‘Oro, Francesca (2021). “<a
                                     href="semantic-maps/map-certus.php" target="_blank">certus</a> (bilingual)”. v.1.0.
                             WoPoss.
@@ -51,6 +62,24 @@
                                                                              target="_blank">debeo</a>”. v.1.0.
                             WoPoss.
                         </li>
+
+                        <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
+                                    href="semantic-maps/map-decet.php" target="_blank">decet</a>”. v.1.0.
+                            WoPoss.<br/>
+                            <span class="newline">Related map:</span>
+                            <ul>
+                                <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
+                                            href="semantic-maps/map-decens.php" target="_blank">decens</a>”.
+                                    v.1.0. WoPoss.
+                                </li>
+
+                                <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
+                                            href="semantic-maps/map-decenter.php" target="_blank">decenter</a>”.
+                                    v.1.0. WoPoss.
+                                </li>
+                            </ul>
+                        </li>
+
                         <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
                                     href="semantic-maps/map-dubius.php" target="_blank">dubius</a>”. v.1.0.
                             WoPoss.<br/>
@@ -297,6 +326,10 @@
                                 </li>
                             </ul>
                         </li>
+                        <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
+                                    href="semantic-maps/map-possum.php" target="_blank">possum</a>”. v.1.0.
+                            WoPoss.
+                        </li>
                         <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-potis.php"
                                                                              target="_blank">potis</a>”.
                             v.1.0. WoPoss.<br/>
@@ -508,7 +541,17 @@
         </li>
 
         <li>Dell’Oro, Francesca; Rimaz, Loris; Bermúdez Sabel, Helena; Marongiu, Paola (2020). <a
-                    href="https://woposs.unine.ch/pygmalion-form.php" target="_blank"><em>Pygmalion-modal
+                    href="https://woposs.unine.ch/pygmalion-modal.php" target="_blank"><em>Pygmalion-modal
+                    1.0. A
+                    tool
+                    to draw interactive and diachronic semantic maps of modality</em></a>. WoPoss. A World of
+            Possibilities.
+            Swiss
+            National
+            Science Foundation.
+        </li>
+        <li>Dell’Oro, Francesca; Rimaz, Loris; Bermúdez Sabel, Helena; Marongiu, Paola (2021). <a
+                    href="https://woposs.unine.ch/pygmalion-colour.php" target="_blank"><em>Pygmalion-colour
                     1.0. A
                     tool
                     to draw interactive and diachronic semantic maps of modality</em></a>. WoPoss. A World of
