@@ -21,12 +21,14 @@
 <main>
     <h1>Pygmalion, a tool to visualise the diachronic description of meaning</h1>
 
-    <p>Pygmalion is an intuitive tool conceived to draw and visualise interactive diachronic semantic maps. <a
+    <p>Pygmalion is available in three versions. <a
                 href="https://woposs.unine.ch/pygmalion-simple.php" target="_blank">Pygmalion-simple
-            1.0</a> is thought to draw any type of diachronic semantic map, while <a
-                href="https://woposs.unine.ch/pygmalion-modal.php" target="_blank">Pygmalion-modal 1.0</a> is
-        specifically designed to draw diachronic semantic maps of modal markers or concepts. The working principles of
-        Pygmalion-simple and Pygmalion-modal are identical.
+            1.0</a>, the basic version of the tool, <a
+                href="https://woposs.unine.ch/pygmalion-colour.php" target="_blank">Pygmalion-colour
+            1.0</a> which enables to add colour-coded analytical categories defined by the user and <a
+                href="https://woposs.unine.ch/pygmalion-modal.php" target="_blank">Pygmalion-modal 1.0</a> which is specifically
+        designed for drawing diachronic semantic maps of modal markers or concepts. The working principles of
+        Pygmalion-simple, Pygmalion-colour and Pygmalion-modal are identical.
         Mainly meant as a tool to represent the diachronic evolution of meaning as attested by philological evidence,
         Pygmalion is very flexible and can be easily adapted to
         other approaches, e.g. lexicographic or typological. Moreover, Pygmalion can work with any language and script,
@@ -39,7 +41,7 @@
         improve the tool in the future.</p>
 
     <p>Pygmalion was created by Francesca Dell’Oro (conceptualisation, general supervision, testing), Loris Rimaz
-        (conceptualisation, main development, testing), Helena Bermúdez Sabel (conceptualisation, development, testing)
+        (conceptualisation, main development, testing)<a href="#note1">*</a>, Helena Bermúdez Sabel (conceptualisation, development, testing)
         & Paola Marongiu (testing) in the framework of the WoPoss project. It is released under a GPLv3 licence. Please
         cite our work as follows:</p>
 
@@ -61,11 +63,19 @@
             National
             Science Foundation
         </li>
+        <li>Dell’Oro, Francesca; Rimaz, Loris; Bermúdez Sabel, Helena; Marongiu, Paola (2021). <a
+                    href="https://woposs.unine.ch/pygmalion-colour.php" target="_blank"><em>Pygmalion-colour
+                    1.0. A
+                    tool
+                    to draw interactive and diachronic semantic maps of modality</em></a>. WoPoss. A World of
+            Possibilities.
+            Swiss
+            National
+            Science Foundation.
+        </li>
     </ul>
 
     <p>We wish to express our gratitude to Adam Gitner (TLL project) for his valuable feedback on Pygmalion-simple.</p>
-    <p>Loris Rimaz was engaged to create the code of Pygmalion thanks to the financial contribution of the Rectorate of the University of Lausanne.
-    </p>
 
 
     <h2 id="howTo">How to use Pygmalion-simple</h2>
@@ -171,13 +181,15 @@
         The first attestation of each meaning is visible – as entered in the first form – when hovering the mouse over a
         meaning.
     </p>
-    <h2>How to use Pygmalion-modal</h2>
-    <p>Pygmalion-modal was specifically conceived to draw semantic maps of modality and to adapt to different theories
-        of modality with their various nomenclatures. It works exactly as his ‘brother’, Pygmalion-simple. The only two
+    <h2>How to use Pygmalion-colour and Pygmalion-modal</h2>
+    <p>Pygmalion-colour and Pygmalion-modal were specifically conceived to improve the potential of their 'brother' Pygmalion-simple.
+        Pygmalion-colour allows a better visualisation of complex meaning descriptions through the use of colour, while Pygmalion-modal
+        is specifically conceived to explore modality whatever the theoretical framework, thus adapting to various nomenclatures.
+        Both work exactly as Pygmalion-simple. The only two
         differences consist in the conception of the subfield ‘Description’ and in the presence of the button ‘Add new
         (modal) description’.</p>
 
-    <p>In the subfield ‘Description’, the user finds the sub-subfield ‘modality type’. There s/he can choose between a
+    <p>In Pygmalion-modal, the subfield ‘Description’ contains the field ‘modality type’. There, the user can choose between a
         pre-established list of possibilities – i.e. ‘not modal’, ‘modal: deontic’, ‘modal: dynamic’, ‘modal:
         epistemic’, ‘premodal’ (i.e. the meaning belongs to a cross-linguistic group of meanings from which a modal
         reading developed), ‘postmodal’ (i.e. the meaning belongs to a cross-linguistic group of meanings into which a
@@ -190,15 +202,25 @@
         modal descriptions for each reading of a meaning, e.g. the same meaning ‘must’ can be read as ‘dynamic’,
         ‘deontic’ and ‘epistemic’. Pygmalion being very flexible, the user can also decide to create three different
         ‘meanings’ for each of these readings.</p>
+    <p>In Pygmalion-colour, the subfield ‘Description’ contains the field ‘analysis’ where the user can add any analytical category.
+        In the final maps the different categories are automatically colour-coded. As with the other versions, the user can also indicate
+        whether the analysis is certain or not. Certainty is the default option. In the same meaning/function
+        can be assigned to more than one category, the user can click on 'Add new description' and create a new entry with a different category.
+    </p>
     <h2>Sharing and re-using data with Pygmalion</h2>
     <p>Once a user has created a map, s/he can export the data in JSON format through the ‘Export data map’ button’
         and/or save the map as an SVG file or as a PNG file through the dedicated buttons. Data can be shared and
         re-used according to the above-specified licence. Once a user receives a map data, s/he can import it through
         the ‘Import map data’ button. Map data can be imported from <a href="https://woposs.unine.ch/map.php" target="_blank">this address</a>.</p>
-    <h2>Troubleshoting</h2>
+    <h2>Troubleshooting</h2>
     <ul>
         <li>If the import button does not work, please clean the browser cache before trying again.</li>
     </ul>
+    <br id="note1"/>
+      <br/>
+    <p style="font-size: smaller">[*] Loris Rimaz was engaged to create the code of Pygmalion thanks to the financial
+        contribution of the Rectorate of the University of Lausanne.</p>
+
 </main>
 <?php include("ssi/footer.html"); ?>
 </body>

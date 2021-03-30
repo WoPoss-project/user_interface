@@ -584,15 +584,18 @@
                 approaches</em>.
             International Symposium. Upcoming. University of Neuchâtel. [<a href="outputs/call.pdf">Call for papers</a>].
         </li>
+<li>Dürrschnabel, Vera (2020). <em>An Introduction to Semitic Languages for Classicists</em>. October 20th 2020. University of Lausanne.</li>
 
-        <li>Dell’Oro, Francesca; Rossari, Corinne: <em>Workshop on modality and written corpora</em>. December 17th
+        <li>Dell’Oro, Francesca; Rossari, Corinne. <em>Workshop on modality and written corpora</em>. December 17th
             2019. University of Neuchâtel. [<a href="outputs/flyer_workshop.pdf" target="_blank">Program</a>].
         </li>
 
-        <li>Dell’Oro, Francesca; Picca, Davide: <em>La modalité: de la théorie à l’encodage. Modality: from theory to encoding</em>. May 6th 2019.
+        <li>Dell’Oro, Francesca; Picca, Davide. <em>La modalité: de la théorie à l’encodage. Modality: from theory to encoding</em>. May 6th 2019.
             University of Lausanne. [<a href="outputs/flyer_modality.pdf" target="_blank">Program</a>].
         </li>
-<li>Rossari, Corinne; Dell’Oro, Francesca: <em>Journée des doctorant.e.s en sémantique</em>. April 11th 2019. University of Neuchâtel.</li>
+        <li>Ruiz Fabo, Pablo (2019). <em>Distributional
+                Word Representations</em>. August 30th 2019. University of Lausanne.</li>
+<li>Rossari, Corinne; Dell’Oro, Francesca. <em>Journée des doctorant.e.s en sémantique</em>. April 11th 2019. University of Neuchâtel.</li>
 
     </ul>
 </main>

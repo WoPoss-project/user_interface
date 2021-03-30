@@ -2,23 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db487090-34b1-4abd-9088-e9e00729d9e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/js/form_coloured.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pygmalion-colour.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pygmalion-modal.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semantic-maps/map-apte.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semantic-maps/map-aptus.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semantic-maps/map-decens.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semantic-maps/map-decenter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semantic-maps/map-decet.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semantic-maps/map-possum.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/map.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/map.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/sem_rel_form.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/sem_rel_form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pygmalion-form.php" beforeDir="false" afterPath="$PROJECT_DIR$/pygmalion-form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pygmalion.php" beforeDir="false" afterPath="$PROJECT_DIR$/pygmalion.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results.php" beforeDir="false" afterPath="$PROJECT_DIR$/results.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/semantic-modal-maps.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-modal-maps.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssi/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/ssi/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/team.php" beforeDir="false" afterPath="$PROJECT_DIR$/team.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,12 +188,15 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="PHP" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -362,6 +354,14 @@
       <workItem from="1615908867785" duration="8295000" />
       <workItem from="1615981995989" duration="1705000" />
       <workItem from="1616428581851" duration="596000" />
+      <workItem from="1616504231662" duration="2252000" />
+      <workItem from="1616525467972" duration="599000" />
+      <workItem from="1616526733465" duration="137000" />
+      <workItem from="1616527317896" duration="214000" />
+      <workItem from="1616527970184" duration="85000" />
+      <workItem from="1616528964439" duration="1136000" />
+      <workItem from="1616530697077" duration="431000" />
+      <workItem from="1617104239915" duration="8985000" />
     </task>
     <servers />
   </component>
