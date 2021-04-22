@@ -480,6 +480,9 @@
     <h2>Lectures and talks</h2>
         <h3>Invited talks</h3>
     <ul>
+        <li>Dell’Oro, Francesca (2021). “Les corpora arborés (treebanks): de l’annotation linguistique à l’emploi. Le cas des langues anciennes”. Lecture for
+            the course <em>Littérature grecque et Humanités numériques. La tragédie grecque à l’ère des Humanités numériques.
+                L’exemple de l’Ajax de Sophocle (Printemps 2021)</em> (Prof. M. Romanello). University of Lausanne.</li>
         <li>Dell’Oro, Francesca (2020). “Automatic annotation of Latin and Greek texts: lemmatisation, morphological
             analysis and dependency parsing”.
             <a href="https://github.com/SunoikisisDC/SunoikisisDC-2020-2021/wiki/7-Using-Treebanks" target="_blank"><em>Sunoikisis
@@ -499,9 +502,13 @@
     </ul>
     <h3>Other presentations</h3>
     <ul>
-        <li>Dell’Oro, Francesca (2019). “Polisemy and modality across time”. <em>Workshop on modality and written
-                corpora</em>. December 17th
-            2019. University of Neuchâtel.
+        <li>Dell’Oro, Francesca (2021). “Linguistique de corpus et linguistique historique: Introduction”. Lecture for the MA course
+            <em>Linguistique de corpus</em> (Prof. Corinne Rossari). April 19th
+            2021. University of Neuchâtel.
+        </li>
+        <li>Bermúdez Sabel, Helena (2021). “Comment construire un corpus pour l’analyse en linguistique historique”. Lecture for the MA course
+            <em>Linguistique de corpus</em> (Prof. Corinne Rossari). April 19th
+            2021. University of Neuchâtel.
         </li>
         <li>Dell’Oro, Francesca (2019). “The WoPoss annotation of modal markers in Latin”. <em>Workshop on modality and written
                 corpora</em>. December 17th
@@ -529,6 +536,17 @@
     <h2>Software</h2>
 
     <ul>
+
+        <li>Dell’Oro, Francesca; Rimaz, Loris; Bermúdez Sabel, Helena; Marongiu, Paola (2021). <a
+                    href="https://woposs.unine.ch/pygmalion-colour.php" target="_blank"><em>Pygmalion-colour
+                    1.0. A
+                    tool
+                    to draw interactive and diachronic semantic maps of modality</em></a>. WoPoss. A World of
+            Possibilities.
+            Swiss
+            National
+            Science Foundation.
+        </li>
         <li>Dell’Oro, Francesca; Rimaz, Loris; Bermúdez Sabel, Helena; Marongiu, Paola (2020). <a
                     href="https://woposs.unine.ch/pygmalion-simple.php"><em>Pygmalion-simple
                     1.0.
@@ -542,16 +560,6 @@
 
         <li>Dell’Oro, Francesca; Rimaz, Loris; Bermúdez Sabel, Helena; Marongiu, Paola (2020). <a
                     href="https://woposs.unine.ch/pygmalion-modal.php" target="_blank"><em>Pygmalion-modal
-                    1.0. A
-                    tool
-                    to draw interactive and diachronic semantic maps of modality</em></a>. WoPoss. A World of
-            Possibilities.
-            Swiss
-            National
-            Science Foundation.
-        </li>
-        <li>Dell’Oro, Francesca; Rimaz, Loris; Bermúdez Sabel, Helena; Marongiu, Paola (2021). <a
-                    href="https://woposs.unine.ch/pygmalion-colour.php" target="_blank"><em>Pygmalion-colour
                     1.0. A
                     tool
                     to draw interactive and diachronic semantic maps of modality</em></a>. WoPoss. A World of
@@ -586,16 +594,16 @@
         </li>
 <li>Dürrschnabel, Vera (2020). <em>An Introduction to Semitic Languages for Classicists</em>. October 20th 2020. University of Lausanne.</li>
 
-        <li>Dell’Oro, Francesca; Rossari, Corinne. <em>Workshop on modality and written corpora</em>. December 17th
+        <li>Dell’Oro, Francesca; Rossari, Corinne (org.) (2019). <em>Workshop on modality and written corpora</em>. December 17th
             2019. University of Neuchâtel. [<a href="outputs/flyer_workshop.pdf" target="_blank">Program</a>].
         </li>
 
-        <li>Dell’Oro, Francesca; Picca, Davide. <em>La modalité: de la théorie à l’encodage. Modality: from theory to encoding</em>. May 6th 2019.
+        <li>Dell’Oro, Francesca; Picca, Davide (org.) (2019). <em>La modalité: de la théorie à l’encodage. Modality: from theory to encoding</em>. May 6th 2019.
             University of Lausanne. [<a href="outputs/flyer_modality.pdf" target="_blank">Program</a>].
         </li>
         <li>Ruiz Fabo, Pablo (2019). <em>Distributional
                 Word Representations</em>. August 30th 2019. University of Lausanne.</li>
-<li>Rossari, Corinne; Dell’Oro, Francesca. <em>Journée des doctorant.e.s en sémantique</em>. April 11th 2019. University of Neuchâtel.</li>
+<li>Rossari, Corinne; Dell’Oro, Francesca (org.) (2019). <em>Journée des doctorant.e.s en sémantique</em>. April 11th 2019. University of Neuchâtel.</li>
 
     </ul>
 </main>
