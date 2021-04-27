@@ -206,7 +206,7 @@ function etymologyIsUnknown(event) {
     icon: 'info',
     title: 'Etymology flagged as unknown',
     text:
-      'We have taken note that the etymology is unkown. If you change your mind, simply click "Add etymological step"',
+      'We have taken note that the etymology is unknown. If you change your mind, simply click "Add etymological step"',
   });
   // Modify display accordingly
   noEtymology.style.visibility = 'hidden';
