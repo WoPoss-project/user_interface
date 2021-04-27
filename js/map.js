@@ -216,7 +216,7 @@ function basicDisplay() {
   let colsSpace = 0;
   const colsWidth = [0];
   if (data.normalForm) {
-    const modalities = [...new Set(definitions.map((def) => def.modal))];
+    const modalities = [...new Set(definitions.map((def) => def.category))];
     const lengths = modalities.map((mod) => getTextWidth(mod));
 
     const cols = [];
@@ -704,7 +704,7 @@ function addElems(elements, cW, cP, tip) {
     })
     .style('stroke-dasharray', (d) => (!d.certainty ? 4 : 0))
     .style('fill', 'white')
-    .style('stroke', (d) => colors[d.modal])
+    .style('stroke', (d) => colors[d.category])
     .style('stroke-width', 3)
     .on('click', (d) => {
       tip.transition().duration(50).style('opacity', 0);
@@ -1068,7 +1068,7 @@ function modalityFormatting(meaning, modalitiy) {
     meaning: meaning.definition,
     construct: meaning.construct,
     group: meaning.group,
-    modal: modalitiy.modal,
+    category: modalitiy.category,
     emergence: modalitiy.emergence,
     certainty: modalitiy.certainty,
     attestation: modalitiy.attestation,
@@ -1083,7 +1083,7 @@ function simpleModalityFormatting(meaning) {
     meaning: meaning.definition,
     construct: meaning.construct,
     group: meaning.group,
-    modal: 'Not modal',
+    category: 'Not modal',
     emergence: meaning.emergence,
     certainty: true,
     attestation: meaning.attestation,
@@ -1413,7 +1413,7 @@ returns a color depending on the modality
 ---------------------------------------- */
 
 function createColors() {
-  const modals = [...new Set(definitions.map((def) => def.modal))];
+  const modals = [...new Set(definitions.map((def) => def.category))];
   const basicColors = {
     'Not modal': 'lightgrey',
     'No additional analysis': 'lightgrey',

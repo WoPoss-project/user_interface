@@ -182,7 +182,7 @@ function createSelect(meanings) {
         for (let j = 0; j < meanings[i].modalities.length; j++) {
           const option = document.createElement('option');
           option.innerHTML = `${meanings[i].definition} - ${
-            meanings[i].modalities[j].modal
+            meanings[i].modalities[j].category
           } ${
             meanings[i].group != '_' ? '(' + meanings[i].group + ')' : ''
           }`;

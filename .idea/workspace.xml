@@ -5,6 +5,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/form.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/form_coloured.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/form_coloured.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/map.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/map.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/sem_rel_form.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/sem_rel_form.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -368,7 +370,7 @@
       <workItem from="1617612386497" duration="5000" />
       <workItem from="1618830264310" duration="2291000" />
       <workItem from="1619445264908" duration="2858000" />
-      <workItem from="1619507188305" duration="9500000" />
+      <workItem from="1619507188305" duration="10057000" />
     </task>
     <servers />
   </component>

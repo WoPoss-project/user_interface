@@ -767,7 +767,7 @@ function confirmForm(event) {
                     });
                     const modalityObject = {
                       id: randomId(),
-                      modal: modalityValues[0],
+                      category: modalityValues[0],
                       emergence: modalityValues[1],
                       disparition: modalityValues[2],
                       attestation: modalityValues[3],
@@ -1125,10 +1125,10 @@ function addModalInfo(modal, modality) {
       } else if (element.className === 'analysis') {
         const options = [...element.childNodes];
         const optionsValues = options.map((opt) => opt.innerHTML);
-        if (!optionsValues.includes(modality.modal)) {
-          addGroup(modality.modal, 'analysis', element);
+        if (!optionsValues.includes(modality.category)) {
+          addGroup(modality.category, 'analysis', element);
         }
-        element.value = modality.modal;
+        element.value = modality.category;
       } else if (element.className === 'certitude') {
         element.checked = modality.certainty;
       }
