@@ -21,10 +21,10 @@ map_data = {
       "definition": "Not sure, not known, not evident, not proven to be true",
       "construct": "_",
       "group": "Doubtful",
-      "modalities": [
+      "analysis": [
         {
           "id": "ncw",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Rud. 187 me... in incertas regiones timidam eiectam.",
@@ -63,7 +63,7 @@ map_data = {
         },
         {
           "id": "mytsmum",
-          "modal": "Modal: epistemic",
+          "category": "Modal: epistemic",
           "emergence": -1,
           "disparition": "None",
           "attestation": "VERG. Aen. 2, 740 fatone erepta Creusa substitit...? Incertum.",
@@ -94,10 +94,10 @@ map_data = {
       "definition": "Of illegitimate birth",
       "construct": "_",
       "group": "Doubtful",
-      "modalities": [
+      "analysis": [
         {
           "id": "qvcuye",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "SEN. contr. 2, 4, 5 pater istius (suppositi) incertus est.",
@@ -124,10 +124,10 @@ map_data = {
       "definition": "Unknown, obscure ",
       "construct": "_",
       "group": "Doubtful",
-      "modalities": [
+      "analysis": [
         {
           "id": "hsv",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "    ​ VERG. Aen. 11, 341 genus huic Dranci materna superbum nobilitas dabat, incertum de patre ferebat.",
@@ -149,10 +149,10 @@ map_data = {
       "definition": "Not determined, delimited, defined",
       "construct": "_",
       "group": "Doubtful",
-      "modalities": [
+      "analysis": [
         {
           "id": "rjz",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. Q. Rosc. 10 iudicium est pecuniae certae, arbitrium incertae.",
@@ -199,10 +199,10 @@ map_data = {
       "definition": "Irregular, uneven, perturbed",
       "construct": "_",
       "group": "Doubtful",
-      "modalities": [
+      "analysis": [
         {
           "id": "rmeexj",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. Cluent. 54 (Oppianici) suspensus incertusque vultus, crebra coloris mutatio.",
@@ -224,10 +224,10 @@ map_data = {
       "definition": "Wandering, staggering, tottering",
       "construct": "_",
       "group": "Doubtful",
-      "modalities": [
+      "analysis": [
         {
           "id": "hojxfyvb",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -2,
           "disparition": "None",
           "attestation": "TURPIL. com. 48 (nautae) incerto itinere porti indigentes.",
@@ -259,10 +259,10 @@ map_data = {
       "definition": "Dull, not attentive (blow, impulse)",
       "construct": "_",
       "group": "Doubtful",
-      "modalities": [
+      "analysis": [
         {
           "id": "melxns",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "VERG. Aen. 2, 224 incertam excussit cervice securim (taurus).",
@@ -294,10 +294,10 @@ map_data = {
       "definition": "Produced by, or affected by a hesitant blow, thrust",
       "construct": "_",
       "group": "Doubtful",
-      "modalities": [
+      "analysis": [
         {
           "id": "peovw",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 1,
           "disparition": "None",
           "attestation": "SEN. Ag. 777 cervice taurus vulnus incertum gerens.",
@@ -319,10 +319,10 @@ map_data = {
       "definition": "Changeable or wavering (light, sheen, color and similar)",
       "construct": "_",
       "group": "Doubtful",
-      "modalities": [
+      "analysis": [
         {
           "id": "bplicr",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "SALL. hist. frg. 4, 40 lumine etiamtum incerto.",
@@ -344,10 +344,10 @@ map_data = {
       "definition": "Mangled (body)",
       "construct": "_",
       "group": "Doubtful",
-      "modalities": [
+      "analysis": [
         {
           "id": "fy",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 1,
           "disparition": "None",
           "attestation": "SEN. Ag. 748 incertos geris, Deiphobe, vultus.",
@@ -369,10 +369,10 @@ map_data = {
       "definition": "Confused, undistinguished (sound)",
       "construct": "_",
       "group": "Doubtful",
-      "modalities": [
+      "analysis": [
         {
           "id": "jnxijl",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "OV. epist. 8, 92 blanditias... incerto dictas ore infantis.",
@@ -394,10 +394,10 @@ map_data = {
       "definition": "Not subject to natural law, order",
       "construct": "_",
       "group": "Doubtful",
-      "modalities": [
+      "analysis": [
         {
           "id": "vvayrgcp",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "    ​ CIC. fin. 5, 24 hanc initio institutionem (i. e. appetitum se conservandi) confusam habet et incertam (animal).",
@@ -419,10 +419,10 @@ map_data = {
       "definition": "Subject to change",
       "construct": "_",
       "group": "Doubtful",
-      "modalities": [
+      "analysis": [
         {
           "id": "bmuuxdo",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "SALL. Catil. 6, 1 Troiani profugi sedibus incertis vagabantur.",
@@ -449,10 +449,10 @@ map_data = {
       "definition": "Unsteady, hazardous, untrustworthy",
       "construct": "_",
       "group": "Doubtful",
-      "modalities": [
+      "analysis": [
         {
           "id": "umftgr",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -2,
           "disparition": "None",
           "attestation": "ENN. scaen. 210 amicus certus in re incerta cernitur",
@@ -500,10 +500,10 @@ map_data = {
       "definition": "Suspect",
       "construct": "_",
       "group": "Doubtful",
-      "modalities": [
+      "analysis": [
         {
           "id": "ahh",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 2,
           "disparition": "None",
           "attestation": "PS. QUINT. decl. 17, 15 p. 314, 23 potione tibi incerta.",
@@ -529,10 +529,10 @@ map_data = {
       "definition": "Doubtful",
       "construct": "_",
       "group": "Doubtful",
-      "modalities": [
+      "analysis": [
         {
           "id": "pfzqq",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. Cluent. 157 ‘convenerit’: aeque incertum et infinitum est (left context: quam late pateat).",
@@ -559,10 +559,10 @@ map_data = {
       "definition": "Not safe, dangerous",
       "construct": "_",
       "group": "Doubtful",
-      "modalities": [
+      "analysis": [
         {
           "id": "xessri",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CAES. Gall. 5, 37, 7 incertis itineribus per silvas.",
@@ -584,10 +584,10 @@ map_data = {
       "definition": "Not apt, useless",
       "construct": "_",
       "group": "Doubtful",
-      "modalities": [
+      "analysis": [
         {
           "id": "emari",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -2,
           "disparition": "None",
           "attestation": "    ​ PLAUT. Stich. 500 certumst mustelae posthac numquam credere: nam incertiorem nullam novi bestiam. ",
@@ -609,10 +609,10 @@ map_data = {
       "definition": "False, fictitious",
       "construct": "_",
       "group": "Doubtful",
-      "modalities": [
+      "analysis": [
         {
           "id": "jvwklo",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 4,
           "disparition": "None",
           "attestation": "PRISCILL. tract. 6, 102 p. 76, 18 incertorum deorum.",
@@ -634,10 +634,10 @@ map_data = {
       "definition": "Precarious, changing",
       "construct": "_",
       "group": "Doubtful",
-      "modalities": [
+      "analysis": [
         {
           "id": "gobd",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PACUV. trag. 369 Fortunam insanam… esse aiunt, quia atrox, incerta instabilisque sit.",
@@ -672,10 +672,10 @@ map_data = {
       "definition": "Lacking resolution, weak, hesitant, troubled in mind",
       "construct": "_",
       "group": "Who doubts",
-      "modalities": [
+      "analysis": [
         {
           "id": "scmyokm",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Merc. 345 animi decem in pectore incerti certant nec, quid... consili capere possim, scio.",
@@ -694,7 +694,7 @@ map_data = {
         },
         {
           "id": "ogvwf",
-          "modal": "Modal: epistemic",
+          "category": "Modal: epistemic",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Rud. 213 hac an illac eam, incerta sum consili.",
@@ -716,10 +716,10 @@ map_data = {
       "definition": "Lacking knowledge, unaware",
       "construct": "_",
       "group": "Who doubts",
-      "modalities": [
+      "analysis": [
         {
           "id": "opxdlp",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -2,
           "disparition": "None",
           "attestation": "PLAUT. Epid. 439 incertus tuom cave ad me rettuleris pedem. ",
@@ -742,7 +742,7 @@ map_data = {
         },
         {
           "id": "aycue",
-          "modal": "Modal: epistemic",
+          "category": "Modal: epistemic",
           "emergence": -2,
           "disparition": "None",
           "attestation": "PLAUT. Truc. 785 quid sit negoti, falsus incertusque sum.",
@@ -764,10 +764,10 @@ map_data = {
       "definition": "Unbelieving",
       "construct": "_",
       "group": "Who doubts",
-      "modalities": [
+      "analysis": [
         {
           "id": "ewvxi",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 1,
           "disparition": "None",
           "attestation": "VAL. FL. 7, 214 oculos -a tenet Medea.",
@@ -789,10 +789,10 @@ map_data = {
       "definition": "Who witholds a definite statement (Academici)",
       "construct": "_",
       "group": "Who doubts",
-      "modalities": [
+      "analysis": [
         {
           "id": "ohgwbr",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 4,
           "disparition": "None",
           "attestation": "    ​ PAUL. NOL. Carm. 32, 35 Sunt et sectantes incerti dogma Platonis, quos quaesita diu animae​ substantia turbat.",
@@ -814,10 +814,10 @@ map_data = {
       "definition": "It is not sure",
       "construct": "INCERTUM EST",
       "group": "Who doubts",
-      "modalities": [
+      "analysis": [
         {
           "id": "ueniec",
-          "modal": "Modal: epistemic",
+          "category": "Modal: epistemic",
           "emergence": -2,
           "disparition": "None",
           "attestation": "PLAUT. Aul. 729 nunc mi incertumst,... abeam an maneam eqs.",
@@ -852,10 +852,10 @@ map_data = {
       "definition": "It is not sure",
       "construct": "INCERTUM + verbs other than esse",
       "group": "Who doubts",
-      "modalities": [
+      "analysis": [
         {
           "id": "nnlyp",
-          "modal": "Modal: epistemic",
+          "category": "Modal: epistemic",
           "emergence": -1,
           "disparition": "None",
           "attestation": "LUCR. 1, 594 incertum... constet, quid posset oriri, quid nequeat.",
@@ -877,10 +877,10 @@ map_data = {
       "definition": "Probably not, hardly",
       "construct": "INCERTUM AN",
       "group": "Who doubts",
-      "modalities": [
+      "analysis": [
         {
           "id": "apxcmmn",
-          "modal": "Modal: epistemic",
+          "category": "Modal: epistemic",
           "emergence": 1,
           "disparition": "None",
           "attestation": "CURT. 5, 4, 19 [no SoA] dux incertum an satis fidus.",
@@ -911,10 +911,10 @@ map_data = {
       "definition": "Probably, maybe",
       "construct": "INCERTUM AN",
       "group": "Who doubts",
-      "modalities": [
+      "analysis": [
         {
           "id": "ewvmkf",
-          "modal": "Modal: epistemic",
+          "category": "Modal: epistemic",
           "emergence": 1,
           "disparition": "None",
           "attestation": "TAC. Hist. 1, 75, 2 [no SoA] stetit domus utraque, sub Othone incertum an metu.",
@@ -945,10 +945,10 @@ map_data = {
       "definition": "Not sure",
       "construct": "INCERTO / INCERTO HOC / INCERTO EO",
       "group": "Who doubts",
-      "modalities": [
+      "analysis": [
         {
           "id": "aaizwnw",
-          "modal": "Modal: epistemic",
+          "category": "Modal: epistemic",
           "emergence": -1,
           "disparition": "None",
           "attestation": "LIV. 28, 36, 12 adnantes navibus, incerto prae tenebris, quid aut peterent aut vitarent,... interierunt.",
@@ -965,10 +965,10 @@ map_data = {
       "definition": "That cannot be discerned",
       "construct": "INCERTUS + VISU",
       "group": "Who doubts",
-      "modalities": [
+      "analysis": [
         {
           "id": "gzhvmt",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 1,
           "disparition": "None",
           "attestation": "STAT. Theb. 10, 391 nescio quid visu dubium incertumque moveri... videt.",

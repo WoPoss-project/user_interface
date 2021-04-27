@@ -15,10 +15,10 @@ map_data = {
       "definition": "Unrestrainedly, in an unregulated manner",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "kawlb",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. Cael. 57 quos intellegebat non communi condicione servitutis uti, sed licentius, liberius familiariusque cum domina vivere.",
@@ -40,10 +40,10 @@ map_data = {
       "definition": "Rightfully, lawfully, without restriction",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "ebtwa",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 3,
           "disparition": "None",
           "attestation": "CHROMAT. in Matth. 14, 1, 2 ut licenter ... deum ... patrem dicere audeamus.",

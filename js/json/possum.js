@@ -21,10 +21,10 @@ map_data = {
       "definition": "To be able",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "alvhqfi",
-          "modal": "Modal: dynamic possibility",
+          "category": "Modal: dynamic possibility",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Mil. 531 similiorem mulierem magisque eandem, ut pote quae non sit eadem, non reor deos facere posse.",
@@ -66,10 +66,10 @@ map_data = {
       "definition": "To bear, to endure",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "fjnkks",
-          "modal": "Modal: dynamic possibility",
+          "category": "Modal: dynamic possibility",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Stich. 619 (convivio intereris), si arte poteris accubare.",
@@ -91,10 +91,10 @@ map_data = {
       "definition": "To manage to do something",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "svxfwtl",
-          "modal": "Modal: dynamic possibility",
+          "category": "Modal: dynamic possibility",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Cist. 652 persequar iam illum intro, ut haec ex me sciat eadem, si possum tranquillum facere ex irato mihi.",
@@ -116,10 +116,10 @@ map_data = {
       "definition": "He / she can",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "oxmog",
-          "modal": "Modal: dynamic possibility",
+          "category": "Modal: dynamic possibility",
           "emergence": -3,
           "disparition": "None",
           "attestation": "NAEV. Com. 38 nolo ego hanc adeo efflictim amare: diu vivat volo, ut mihi prodesse possit.",
@@ -141,10 +141,10 @@ map_data = {
       "definition": "It is allowed, fair, appropriate",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "lcvlnhk",
-          "modal": "Modal: deontic authority",
+          "category": "Modal: deontic authority",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Merc. 450 non potes tu lege vendere illam.",
@@ -171,10 +171,10 @@ map_data = {
       "definition": "~ to have to",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "aqs",
-          "modal": "Modal: dynamic necessity",
+          "category": "Modal: dynamic necessity",
           "emergence": 4,
           "disparition": "None",
           "attestation": "HIL. in psalm. 118 aleph 8 p. 364, 10 si … angeli parvulorum patrem nostrum cotidie vident …, possumus testimonia eorum metuere, quos et nobiscum peccantibus manere et deo cotidie scimus adsistere.",
@@ -196,10 +196,10 @@ map_data = {
       "definition": "It is possible",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "irzuz",
-          "modal": "Modal: dynamic possibility",
+          "category": "Modal: dynamic possibility",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Asin. 118 non esse servus peior hoc quisquam potest nec magis versutus eqs.",
@@ -242,10 +242,10 @@ map_data = {
       "definition": "It can happen, be that",
       "construct": "FIERI POTEST UT",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "kiacb",
-          "modal": "Modal: dynamic possibility",
+          "category": "Modal: dynamic possibility",
           "emergence": -2,
           "disparition": "None",
           "attestation": "PLAUT. Persa 173 ovis si in ludum iret, potuisset iam fieri, ut probe litteras sciret.",
@@ -272,10 +272,10 @@ map_data = {
       "definition": "It is possible",
       "construct": "POTESTUR + passive infinitive",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "dhi",
-          "modal": "Modal: deontic authority",
+          "category": "Modal: deontic authority",
           "emergence": -2,
           "disparition": "None",
           "attestation": "ENN. Ann. 611 nec retrahi … potestur imperiis. [fragment, modal interpretation is uncertain]",
@@ -293,7 +293,7 @@ map_data = {
         },
         {
           "id": "osaappu",
-          "modal": "Modal: dynamic possibility",
+          "category": "Modal: dynamic possibility",
           "emergence": -2,
           "disparition": "None",
           "attestation": "CATO agr. 154 id labrum habeat … ansas IIII, uti transferri possitur.",
@@ -320,10 +320,10 @@ map_data = {
       "definition": "To be strong, powerful",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "days",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Cas. 282 (ad servum) stultitia est ei te esse tristem, cuius potestas plus potest.",
@@ -354,10 +354,10 @@ map_data = {
       "definition": "To have some meaning or value",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "bucjgs",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "VARRO frg. Non. p. 519, 24 quod verbum “censeo” et “arbitror” idem poterat ac valebat.",
@@ -379,10 +379,10 @@ map_data = {
       "definition": "To be very powerful, to prevail",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "tabrtq",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 2,
           "disparition": "None",
           "attestation": "ITALA gen. 32, 25 (angelus) vidit, quia non potest adversus eum (Iacob).",
@@ -404,10 +404,10 @@ map_data = {
       "definition": "It is possible",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "brsbfl",
-          "modal": "Modal: epistemic",
+          "category": "Modal: epistemic",
           "emergence": -2,
           "disparition": "None",
           "attestation": "PLAUT. Pseud. 633 potest ut alii ita arbitrentur et ego ut ne credam tibi.",

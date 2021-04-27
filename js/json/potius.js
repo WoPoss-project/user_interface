@@ -21,10 +21,10 @@ map_data = {
       "definition": "In a better way, preferably",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "twjexah",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Amph. 935 te, summe Iuppiter, quaeso, Amphitruoni ut ... iratus sies. :: a, propitius sit potius.",
@@ -63,10 +63,10 @@ map_data = {
       "definition": "More willingly",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "wxmbccj",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Amph. 455 si me inritassis, hodie lumbifragium hinc auferas. :: abeo potius.",
@@ -88,10 +88,10 @@ map_data = {
       "definition": "Better, more suitably, correctly",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "ywprc",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Asin. 653 quo nos vocabis nomine? :: libertos. :: non patronos? :: id potius.",
@@ -118,10 +118,10 @@ map_data = {
       "definition": "More probably, more likely",
       "construct": "POTIUS + future/subjunctive",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "sayfml",
-          "modal": "Modal: epistemic",
+          "category": "Modal: epistemic",
           "emergence": -2,
           "disparition": "None",
           "attestation": "PLAUT. Curc. 694 collum obstringe, abduce istum in malam crucem! :: quidquid est, ipse ibit potius (i. e. ultro ibit, criminibus suis perditus?).",
@@ -147,10 +147,10 @@ map_data = {
       "definition": "It is better to",
       "construct": "POTIUS est, unde / ut",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "gfubkq",
-          "modal": "Modal: deontic acceptability",
+          "category": "Modal: deontic acceptability",
           "emergence": 4,
           "disparition": "None",
           "attestation": "AUG. civ. 6, 8 p. 260, 10 D. potius est, unde gratiae debeantur histrionibus, qui oculis hominum pepercerunt nec omnia spectaculis nudaverunt, quae sacrarum aedium parietibus occuluntur.",
@@ -176,10 +176,10 @@ map_data = {
       "definition": "More rightfully",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "xij",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Rud. 1071 qui tuum potiust quam meum, quod in mari prehendi? (1069 iurene anne iniuria).",
@@ -210,10 +210,10 @@ map_data = {
       "definition": "Rather",
       "construct": "POTIUS QUAM",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "ogslyype",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Asin. 192 nobis meretricibus lucro fuisti potius quam decori tibi.",
@@ -240,10 +240,10 @@ map_data = {
       "definition": "In addition, besides",
       "construct": "ET POTIUS",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "nxm",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 2,
           "disparition": "None",
           "attestation": "CARM. de resurr. 293 vos ... dominum ... negastis et iustos potius crudeli caede necastis.",
@@ -265,10 +265,10 @@ map_data = {
       "definition": "Indeed",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "mvjgxb",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 5,
           "disparition": "None",
           "attestation": "SACR. Leon. 565 ut, quod nostro servitio geritur, te potius operante formetur.",
@@ -290,10 +290,10 @@ map_data = {
       "definition": "Principally, especially",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "zzxf",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -2,
           "disparition": "None",
           "attestation": "TER. Hec. 481 segreganda aut mater a me est … aut Philumena; nunc me pietas matris potius commodum suadet sequi.",
@@ -315,10 +315,10 @@ map_data = {
       "definition": "More, with more intensity, strength",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "isk",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 2,
           "disparition": "None",
           "attestation": "ITALA Ioh. 3, 19 dilexerunt homines potius tenebras quam lucem.",

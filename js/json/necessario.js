@@ -21,10 +21,10 @@ map_data = {
       "definition": "Necessarily has to happen/be done",
       "construct": "_",
       "group": "NECESSARILY, BY NECESSITY",
-      "modalities": [
+      "analysis": [
         {
           "id": "umprlpw",
-          "modal": "Modal: dynamic",
+          "category": "Modal: dynamic",
           "emergence": -2,
           "disparition": "None",
           "attestation": "CATO agr. 31, 2 vento austro caveto ne quam materiem ... tractes nisi necessario.",
@@ -58,10 +58,10 @@ map_data = {
       "definition": "In a way that cannot be changed, prevented, kept away",
       "construct": "_",
       "group": "NECESSARILY, BY NECESSITY",
-      "modalities": [
+      "analysis": [
         {
           "id": "joedic",
-          "modal": "Modal: dynamic",
+          "category": "Modal: dynamic",
           "emergence": -1,
           "disparition": "None",
           "attestation": "RHET. HER. 2, 20, 32 expositio vitiosa est, cum ab aliqua ... parte ad omnes confertur id, quod non necessario est omnibus adtributum.",
@@ -88,10 +88,10 @@ map_data = {
       "definition": "Necessarily follows something previously stated",
       "construct": "_",
       "group": "NECESSARILY, BY NECESSITY",
-      "modalities": [
+      "analysis": [
         {
           "id": "ltrhb",
-          "modal": "Modal: dynamic",
+          "category": "Modal: dynamic",
           "emergence": -1,
           "disparition": "None",
           "attestation": "RHET. HER. 3, 7, 13 principio apte tractato ... narratio non erit ulla, quae necessario consequatur.",
@@ -122,10 +122,10 @@ map_data = {
       "definition": "Necessarily in order to achieve a goal",
       "construct": "_",
       "group": "NECESSARILY, BY NECESSITY",
-      "modalities": [
+      "analysis": [
         {
           "id": "omouq",
-          "modal": "Modal: dynamic",
+          "category": "Modal: dynamic",
           "emergence": -1,
           "disparition": "None",
           "attestation": "RHET. HER. 2, 10, 14 laudabimus scriptoris ... brevitatem, quod tantum scripserit, quod necesse fuerit; illud, quod sine scripto intellegi potuerit, non necessario scribendum putarit.",
@@ -152,10 +152,10 @@ map_data = {
       "definition": "Vehemently, urgently",
       "construct": "_",
       "group": "NECESSARILY, BY NECESSITY",
-      "modalities": [
+      "analysis": [
         {
           "id": "rolvw",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 3,
           "disparition": "None",
           "attestation": "CYPR. domin. orat. 22 quam necessario ..., quam providenter et salubriter admonemur, quod peccatores sumus, qui pro peccatis rogare compellimur.",
@@ -177,10 +177,10 @@ map_data = {
       "definition": "Conveniently, aptly",
       "construct": "_",
       "group": "NECESSARILY, BY NECESSITY",
-      "modalities": [
+      "analysis": [
         {
           "id": "mhdjjg",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 1,
           "disparition": "None",
           "attestation": "HYG. astr. 4, 14, 2 ad inceptum revertamur et, ut necessario totidem verbis de luna ac sole dicere videamur, dicemus ita: eqs.",

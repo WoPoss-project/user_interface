@@ -21,10 +21,10 @@ map_data = {
       "definition": "That cannot be otherwise, changed, prevented",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "jfth",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "VARRO Men. 414 [ironically] doces historiam necessariam: semel unum singulum esse.",
@@ -68,10 +68,10 @@ map_data = {
       "definition": "Necessary to achieve a goal",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "xpfspo",
-          "modal": "Modal: dynamic",
+          "category": "Modal: dynamic",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. de orat. 1, 256 prope iam nimis duras leges imponere…, sed tamen ad id, quod cupiunt, adipiscendum prope necessarias. ",
@@ -103,10 +103,10 @@ map_data = {
       "definition": "Private parts",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "gaqwpr",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 1,
           "disparition": "None",
           "attestation": "CELS. 6, 2, 1 (de porrigine) non incommodum est summam cutem potius subinde corrumpi quam id, quod nocet, in aliam partem magis necessariam verti.",
@@ -123,10 +123,10 @@ map_data = {
       "definition": "Necessary to life (corporeal or civic life)",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "bkpqwuk",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. Inv. 2, 145 considerando, utra lex ad maiores, hoc est ad utiliores, ad honestiores ac magis necessarias res pertineat.",
@@ -161,10 +161,10 @@ map_data = {
       "definition": "Imposed, not willful",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "ymtlpagb",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. Q. Rosc. 15 illa superior fuit oratio necessaria, haec erit voluntaria, … illa pro reo, haec pro Roscio.",
@@ -190,10 +190,10 @@ map_data = {
       "definition": "Critical or difficult situations, where help is necessary",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "dklluzf",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. Verr. II 3, 72 Siculos re necessaria coactos auxilium ... petivisse.",
@@ -224,10 +224,10 @@ map_data = {
       "definition": "Someone who is close to someone else due to a binding of some kind (friendship, relationship or obligation)",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "ncguskc",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "RHET. HER. 4, 23, 33 quidam nullam hereditatem adiit; etiam a necessariis omnibus exhereditatus est.",
@@ -254,10 +254,10 @@ map_data = {
       "definition": "Someone required to carry out some duties, services",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "wcc",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. off. 2, 16 Panaetius utitur in re non dubia testibus non necessariis.",
@@ -284,10 +284,10 @@ map_data = {
       "definition": "Someone given an inheritance and who has no right to refuse it",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "pqqdawm",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 1,
           "disparition": "None",
           "attestation": "PROC. dig. 28, 5, 70 (‘Cornelius et Maevius, uter eorum volet, heres esto’) si hi ex numero necessariorum heredum essent, tum eqs. ",
@@ -313,10 +313,10 @@ map_data = {
       "definition": "Destitute, indigent",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "ybahhtg",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 6,
           "disparition": "None",
           "attestation": "PASCHAS. verba patr. 15, 2 (de eo, qui panem furatus est) puto, frater ille necessarius est.",
@@ -342,10 +342,10 @@ map_data = {
       "definition": "Something suitable, appropriate, useful to achieve an end",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "zruuje",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 2,
           "disparition": "None",
           "attestation": "VET. LAT. I Macc. 10, 19 (rec. B) vir fortis es <et> necessarius es, ut sis amicus noster.",
@@ -367,10 +367,10 @@ map_data = {
       "definition": "The main, central thing, person, element in a described situation",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "qzxv",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 2,
           "disparition": "None",
           "attestation": "TERT. carn. 5, 3, Marcion, destruis necessarium dedecus fidei, i. e. quod deus vere homo factus et passus est.",
@@ -392,10 +392,10 @@ map_data = {
       "definition": "Something of great value, precious",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "lkrjb",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 5,
           "disparition": "None",
           "attestation": "PALLAD. hist. mon. I 6, 9, p. 256ᶜ lapides ... necessarii atque pretiosi, smaragdi et iacinthi.",
@@ -422,10 +422,10 @@ map_data = {
       "definition": "It is / seems necessary",
       "construct": "NECESSARIUM EST / VIDETUR",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "yyopw",
-          "modal": "Modal: dynamic",
+          "category": "Modal: dynamic",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Rud. 252 sicine hic cum uvida veste grassabimur? :: hoc quod est, id necessarium est perpeti.",
@@ -459,7 +459,7 @@ map_data = {
         },
         {
           "id": "abc",
-          "modal": "Modal: deontic authority",
+          "category": "Modal: deontic authority",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. Inv. 1, 50 inventam (argumentationem) exornari… et suavissimum est et summe necessarium.",
@@ -486,10 +486,10 @@ map_data = {
       "definition": "It is necessary for me, I need",
       "construct": "NECESSARIUM HABEO",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "xipcmwb",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 2,
           "disparition": "None",
           "attestation": "VET. LAT. Luc. 19, 34 dominus eius necessarium habet. (elsewhere: dominus eum pullum asininum necessarium habet).",
@@ -512,7 +512,7 @@ map_data = {
         },
         {
           "id": "efgh",
-          "modal": "Modal: dynamic",
+          "category": "Modal: dynamic",
           "emergence": 4,
           "disparition": "None",
           "attestation": "PS. MAX. TAUR. 45, 2 dei filius non habebat necessarium, ut nasceretur, ut baptizaretur. Neque enim peccatum fecerat quod ei remitteretur in baptismo.",
@@ -534,10 +534,10 @@ map_data = {
       "definition": "I think it is necessary",
       "construct": "NECESSARIUM IUDICO / EXISTIMO",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "ktoou",
-          "modal": "Modal: deontic acceptability",
+          "category": "Modal: deontic acceptability",
           "emergence": 1,
           "disparition": "None",
           "attestation": "SEN. epist. 20, 13 necessarium ... iudico id, quod tibi scripsi ..., aliquos dies interponere.",

@@ -21,10 +21,10 @@ map_data = {
       "definition": "Come into possession, obtain something",
       "construct": "POTIOREM FIERI + Gen.",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "jjrskb",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Cas. 112 tun illam (Casinam uxorem) ducas? hercle me suspendio, quam tu eius potior fias, satiust mortuum. :: mea praedast illa.",
@@ -46,10 +46,10 @@ map_data = {
       "definition": "Prevailing, better",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "jzcqfsa",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Cas. 818 (ad novam nuptam) tua ... ut potior pollentia sit vincasque virum.",
@@ -96,10 +96,10 @@ map_data = {
       "definition": "To prefer",
       "construct": "POTIOREM, -IUS habeo",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "xnsebc",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -3,
           "disparition": "None",
           "attestation": "NAEV. Com. 10 ego semper pluris feci potioremque habui libertatem multo quam pecuniam.",
@@ -125,10 +125,10 @@ map_data = {
       "definition": "To prefer",
       "construct": "ALICUI POTIOR (POTIUS) est",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "xrpxqp",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -2,
           "disparition": "None",
           "attestation": "PLAUT. Men. 971 tergum quam gulam, crura quam ventrem oportet potiora esse servo, cui cor modeste situmst. ",
@@ -151,7 +151,7 @@ map_data = {
         },
         {
           "id": "jlmhtn",
-          "modal": "Modal: deontic volition",
+          "category": "Modal: deontic volition",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. rep. 6, 9 nihil mihi fuit potis, quam ut Masinissam convenirem.",
@@ -182,10 +182,10 @@ map_data = {
       "definition": "Preferred",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "lqdxkcgc",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. carm. frg. 33, 22 B. (Hercules moriens ad filium) mene an illam matrem potiorem putes.",
@@ -212,10 +212,10 @@ map_data = {
       "definition": "More appropriate, qualified",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "ubzxzteg",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. Att. 6, 3, 1 nemo ... potior, (cui provinciam relinquam, quam frater meus).",
@@ -237,10 +237,10 @@ map_data = {
       "definition": "More suited, appropriate, or appreciable",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "ehdzex",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. inv. 1, 17 utrum potius aut quid potissimum, quaeritur.",
@@ -262,10 +262,10 @@ map_data = {
       "definition": "Greater",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "wflhbh",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 4,
           "disparition": "None",
           "attestation": "CHALC. comm. 15 est ... primi limitis medietas in potiore numero, id est senario.",

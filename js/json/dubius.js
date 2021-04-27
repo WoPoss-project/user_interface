@@ -21,10 +21,10 @@ map_data = {
       "definition": "Anxious, concerned",
       "construct": "_",
       "group": "In doubt, undetermined",
-      "modalities": [
+      "analysis": [
         {
           "id": "ugbaix",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -3,
           "disparition": "None",
           "attestation": "NAEV. Trag. 53 dubii faventem per fretum intro currimus.",
@@ -55,10 +55,10 @@ map_data = {
       "definition": "Undecided whether to do something or not",
       "construct": "_",
       "group": "In doubt, undetermined",
-      "modalities": [
+      "analysis": [
         {
           "id": "lidknqq",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CAES. civ. 1, 3, 5 quorum vocibus et concursu terrentur infirmiores, dubii confirmantur.",
@@ -89,10 +89,10 @@ map_data = {
       "definition": "Not steady, variable",
       "construct": "_",
       "group": "In doubt, undetermined",
-      "modalities": [
+      "analysis": [
         {
           "id": "wxgrb",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -2,
           "disparition": "None",
           "attestation": "TER. Hec. 16 scibam dubiam fortunam esse scaenicam.",
@@ -140,10 +140,10 @@ map_data = {
       "definition": "Hesitant",
       "construct": "_",
       "group": "In doubt, undetermined",
-      "modalities": [
+      "analysis": [
         {
           "id": "dzirelf",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "VERG. Aen. 9, 797 retro dubius vestigia Turnus improperata refert.",
@@ -165,10 +165,10 @@ map_data = {
       "definition": "Uncertain whether something exists/is true or not",
       "construct": "_",
       "group": "In doubt, undetermined",
-      "modalities": [
+      "analysis": [
         {
           "id": "xiomo",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. Manil. 27 quae res est, quae cuiusquam animum in hac causa dubium facere possit?",
@@ -190,7 +190,7 @@ map_data = {
         },
         {
           "id": "essrf",
-          "modal": "Modal: epistemic",
+          "category": "Modal: epistemic",
           "emergence": -1,
           "disparition": "None",
           "attestation": "LIV. 7, 25, 5 dubii..., victos se an victores putarent.",
@@ -217,10 +217,10 @@ map_data = {
       "definition": "unsteadily moving from side to side",
       "construct": "_",
       "group": "In doubt, undetermined",
-      "modalities": [
+      "analysis": [
         {
           "id": "ydaml",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "LUCR. 5, 1237 concussaeque cadunt urbes dubiaeque minantur.",
@@ -242,10 +242,10 @@ map_data = {
       "definition": "Variegated",
       "construct": "_",
       "group": "In doubt, undetermined",
-      "modalities": [
+      "analysis": [
         {
           "id": "foplmsd",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -2,
           "disparition": "None",
           "attestation": "TER. Phorm. 342 cena dubia apponitur :: quid istuc verbi est ? :: ubi tu dubites quid sumas potissimum. ",
@@ -267,10 +267,10 @@ map_data = {
       "definition": "Ambiguous, uncertain",
       "construct": "_",
       "group": "Raising uncertainty",
-      "modalities": [
+      "analysis": [
         {
           "id": "dsg",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. Inv. 1, 51 inductio est oratio quae rebus non dubiis captat assensionem.",
@@ -305,10 +305,10 @@ map_data = {
       "definition": "It is uncertain",
       "construct": "DUBIUM EST",
       "group": "Raising uncertainty",
-      "modalities": [
+      "analysis": [
         {
           "id": "yqltjgc",
-          "modal": "Modal: epistemic",
+          "category": "Modal: epistemic",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Mil. 419 an dubium tibi est eam esse hanc?",
@@ -339,10 +339,10 @@ map_data = {
       "definition": "Not certain yet",
       "construct": "_",
       "group": "Raising uncertainty",
-      "modalities": [
+      "analysis": [
         {
           "id": "qbvuu",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. Phil. 5, 31 legatorum exspectatio dubitationem belli adfert; bello autem dubio quod potest studium esse dilectus?",
@@ -368,10 +368,10 @@ map_data = {
       "definition": "Arguable",
       "construct": "_",
       "group": "Raising uncertainty",
-      "modalities": [
+      "analysis": [
         {
           "id": "wstppal",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. Caecin. 6 propter iuris obscuram dubiamque rationem.",
@@ -393,10 +393,10 @@ map_data = {
       "definition": "That can be interpreted in two different ways",
       "construct": "_",
       "group": "Raising uncertainty",
-      "modalities": [
+      "analysis": [
         {
           "id": "iwunqjf",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. Epist. 2, 17, 3 commotus hominum non dubio sermone.",
@@ -427,10 +427,10 @@ map_data = {
       "definition": "In the middle",
       "construct": "_",
       "group": "Raising uncertainty",
-      "modalities": [
+      "analysis": [
         {
           "id": "buq",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 1,
           "disparition": "None",
           "attestation": "STAT. Theb. 12, 560 Creon occisos sepeliri vetans dubio caelique Erebique sub axe detinet (i. e. inter caelum et Erebum medio).",
@@ -452,10 +452,10 @@ map_data = {
       "definition": "Uncertain event in the future",
       "construct": "_",
       "group": "Raising uncertainty",
-      "modalities": [
+      "analysis": [
         {
           "id": "crzedd",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. Tusc. 1, 89 ad non dubiam mortem.",
@@ -477,10 +477,10 @@ map_data = {
       "definition": "Of whom one cannot be sure",
       "construct": "_",
       "group": "Raising uncertainty",
-      "modalities": [
+      "analysis": [
         {
           "id": "klhwl",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "OV. Met. 5, 145 matre Palaestina, dubio genitore creatus.",
@@ -507,10 +507,10 @@ map_data = {
       "definition": "Not to be relied on",
       "construct": "_",
       "group": "Raising uncertainty",
-      "modalities": [
+      "analysis": [
         {
           "id": "hlgr",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -2,
           "disparition": "None",
           "attestation": "ENN. Ann. 274 at non sic dubius fuit hostis Aeacida Burrus (i. e.  ut Hannibal).",
@@ -536,10 +536,10 @@ map_data = {
       "definition": "Suspect, arousing mistrust",
       "construct": "_",
       "group": "Raising uncertainty",
-      "modalities": [
+      "analysis": [
         {
           "id": "vlenoaji",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -2,
           "disparition": "None",
           "attestation": "PLAUT. Epid. 647 hic sunt quadraginta minae. Si quid erit dubium, immutabo.",
@@ -583,10 +583,10 @@ map_data = {
       "definition": "Of low quality",
       "construct": "_",
       "group": "Raising uncertainty",
-      "modalities": [
+      "analysis": [
         {
           "id": "umvsvei",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 1,
           "disparition": "None",
           "attestation": "MART. 3, 77, 6 pulpam de dubio petasone voras (i. e. hircoso).",
@@ -608,10 +608,10 @@ map_data = {
       "definition": "Adverse",
       "construct": "_",
       "group": "Raising uncertainty",
-      "modalities": [
+      "analysis": [
         {
           "id": "gxvjfwm",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -2,
           "disparition": "None",
           "attestation": "PLAUT. Capt. 406 rebus in dubiis, egenis.",
@@ -646,10 +646,10 @@ map_data = {
       "definition": "Dangerous",
       "construct": "_",
       "group": "Raising uncertainty",
-      "modalities": [
+      "analysis": [
         {
           "id": "ljcxujk",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "OV. Pont. 4, 10, 10 iactatus dubio … mari.",
@@ -681,10 +681,10 @@ map_data = {
       "definition": "Threatening, imminent",
       "construct": "_",
       "group": "Raising uncertainty",
-      "modalities": [
+      "analysis": [
         {
           "id": "zfzslqxp",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 6,
           "disparition": "None",
           "attestation": "COD. IUST. 9, 16, 2 (a. 243) qui adgressorem ... in dubio vitae discrimine constitutus occiderit.",
@@ -710,10 +710,10 @@ map_data = {
       "definition": "Difficult",
       "construct": "_",
       "group": "Raising uncertainty",
-      "modalities": [
+      "analysis": [
         {
           "id": "csw",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 1,
           "disparition": "None",
           "attestation": "CULEX 194 cui casus sociarit opem numenve deorum, prodere sit dubium.",
@@ -735,10 +735,10 @@ map_data = {
       "definition": "In danger",
       "construct": "_",
       "group": "Raising uncertainty",
-      "modalities": [
+      "analysis": [
         {
           "id": "jfnstm",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. Att. 2, 4, 7 his temporibus, tam dubia vita optimi cuiusque. ",
@@ -760,10 +760,10 @@ map_data = {
       "definition": "unstable, precarious or dark [light]",
       "construct": "_",
       "group": "Raising uncertainty",
-      "modalities": [
+      "analysis": [
         {
           "id": "jxpxq",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "VARRO frg. Serv. Aen. 2, 268 de crepuscolo, quod est dubia lux, - nam creperum dubium significat.",

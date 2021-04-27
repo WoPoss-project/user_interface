@@ -21,10 +21,10 @@ map_data = {
       "definition": "To be able",
       "construct": "POTIS esse",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "itggx",
-          "modal": "Modal: dynamic",
+          "category": "Modal: dynamic",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Amph. 626 qui … intellegere quisquam potis est? Ita nugas blatis.",
@@ -46,10 +46,10 @@ map_data = {
       "definition": "It is possible",
       "construct": "POTIS esse",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "p",
-          "modal": "Modal: dynamic",
+          "category": "Modal: dynamic",
           "emergence": -2,
           "disparition": "None",
           "attestation": "PLAUT. Bacch. 35 quid si hoc potis est ut tu taceas, ego loquar?",
@@ -71,10 +71,10 @@ map_data = {
       "definition": "Is it possible..?",
       "construct": "POTIN",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "xhazynjp",
-          "modal": "Modal: dynamic",
+          "category": "Modal: dynamic",
           "emergence": -3,
           "disparition": "None",
           "attestation": "[pragmatic use for deontic authority] PLAUT. Amph. 903 potin [est] ut apstineas manum?",
@@ -101,10 +101,10 @@ map_data = {
       "definition": "[impersonal] Is it possible..?",
       "construct": "POTIN",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "nejmmzn",
-          "modal": "Modal: dynamic",
+          "category": "Modal: dynamic",
           "emergence": -2,
           "disparition": "None",
           "attestation": "PLAUT. Trin. 759 potin est ab amico alicunde exorari argentum? :: potest.",

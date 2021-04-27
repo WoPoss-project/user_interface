@@ -27,10 +27,10 @@ map_data = {
       "definition": "Is / be the law",
       "construct": "IUS EST",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "huctei",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -5,
           "disparition": "None",
           "attestation": "LEX XII tab. 5, 3 uti legassit suae rei, ita ius esto.",
@@ -77,10 +77,10 @@ map_data = {
       "definition": "It is allowed",
       "construct": "IUS EST",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "wzken",
-          "modal": "Modal: Deontic authority, permission",
+          "category": "Modal: Deontic authority, permission",
           "emergence": -2,
           "disparition": "None",
           "attestation": "PLAUT. Aul. 747 si istuc ius est, ut tu istuc excusare possies.",
@@ -102,10 +102,10 @@ map_data = {
       "definition": "It is right",
       "construct": "IUS EST",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "lrsktsh",
-          "modal": "Modal: Deontic acceptability",
+          "category": "Modal: Deontic acceptability",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Cist. 20 hicine istud (i.e. bibere) decet? :: iusque fasque est.",
@@ -136,10 +136,10 @@ map_data = {
       "definition": "(Be) valid and binding",
       "construct": "IUS RATUMQUE (ESSE)",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "ux",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. Leg. 3, 6 quod… is, qui bellum geret, imperassit, ius ratumque esto.",
@@ -161,10 +161,10 @@ map_data = {
       "definition": "It is right, according to the law ",
       "construct": "IURIS EST",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "bocmru",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. inv. 1, 14 quid iuris ex civili more… sit.",
@@ -190,10 +190,10 @@ map_data = {
       "definition": "Something is well said or done",
       "construct": "IUS + DICO / POSTULO / AGO",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "knbaw",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -2,
           "disparition": "None",
           "attestation": "PLAUT. Epid. 25 operam da, operam reddetur tibi. :: ius dicis.",
@@ -219,10 +219,10 @@ map_data = {
       "definition": "According to justice, in righteousness",
       "construct": "IPSO IURE",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "pjfei",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 1,
           "disparition": "None",
           "attestation": "IAVOL. Dig. 45, 2, 2 cum duo eamdem pecuniam aut promiserint aut stipulati sunt, ipso iure et singulis in solidum debentur, et singuli debent.",
@@ -254,10 +254,10 @@ map_data = {
       "definition": "According to the law",
       "construct": "IPSO IURE",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "rz",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 2,
           "disparition": "None",
           "attestation": "GAIUS Dig. 9. 4. 27 pr. dici potest ipso iure pignus liberari; nullum enim pignus est, cuius persecutio negatur; usus fructus autem … ipso iure durat eo usque, donec non utendo constituto tempore pereat.",
@@ -283,10 +283,10 @@ map_data = {
       "definition": "Principles, precepts and similar",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "z",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -2,
           "disparition": "None",
           "attestation": "PLAUT. Aul. 490 si istud iuris pauperibus (puellis) ponitur.",
@@ -308,10 +308,10 @@ map_data = {
       "definition": "Reason, source or basis for an action",
       "construct": "IURE",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "awgzei",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -2,
           "disparition": "None",
           "attestation": "TER. Andr. 214 si lubitum fuerit, causam ceperit, quo iure quaque iniuria praecipitem [me] in pistrinum dabit.",
@@ -338,10 +338,10 @@ map_data = {
       "definition": "System of rules, regulations",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "sucbnpp",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. Verr. I 13 Siculi neque suas leges neque nostra senatus consulta neque communia iura tenuerunt.",
@@ -367,10 +367,10 @@ map_data = {
       "definition": "Bond in a relationship",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "jdgcwgaj",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "RHET. HER. 3, 3, 4 quod ius in parentes, deos, patriam natura comparavit, id religiose colendum. ",
@@ -392,10 +392,10 @@ map_data = {
       "definition": "Condition, status",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "cenl",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -2,
           "disparition": "None",
           "attestation": "PLAUT. Bacch. 613 sine modo et modestia sum, sine bono iure atque honore.",
@@ -425,10 +425,10 @@ map_data = {
       "definition": "To have the power (to do something)",
       "construct": "MEUM, ALICUI IUS EST / IUS HABERE and similar",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "hujayg",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -2,
           "disparition": "None",
           "attestation": "TER. Hec. 243 scio… meum ius esse, ut te cogam quae ego impero facere.",
@@ -459,10 +459,10 @@ map_data = {
       "definition": "To have the right (of / to do something)",
       "construct": "IUS EST, IUS HABERE and similar",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "gtqvno",
-          "modal": "Modal: Dynamic",
+          "category": "Modal: Dynamic",
           "emergence": -1,
           "disparition": "None",
           "attestation": "HOR. ars 466 sit ius liceatque perire poetis.",
@@ -484,10 +484,10 @@ map_data = {
       "definition": "One’s rights",
       "construct": "IUS MEUM and similar",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "auknqdo",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -2,
           "disparition": "None",
           "attestation": "PLAUT. Capt. 492 barbarica lege certum est ius meum omne persequi.",
@@ -513,10 +513,10 @@ map_data = {
       "definition": "Set of powers / rights as a whole",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "mcer",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -2,
           "disparition": "None",
           "attestation": "PLAUT. Capt. 244 (the imprisoned master is speaking) quod antehac pro iure imperitabam meo, nunc te oro.",
@@ -551,10 +551,10 @@ map_data = {
       "definition": "Subject to my control, belonging to me",
       "construct": "ILLUD MEI IURIS EST and similar",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "stal",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "OV. met. 8, 426 sume mei spolium… iuris.",
@@ -576,10 +576,10 @@ map_data = {
       "definition": "On one’s right",
       "construct": "SUO IURE",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "rwcbes",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 1,
           "disparition": "None",
           "attestation": "SEN. Dial. 9, 4, 7 spatiatur virtus et se utitur suo iure. ",
@@ -605,10 +605,10 @@ map_data = {
       "definition": "Court",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "apggqs",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -5,
           "disparition": "None",
           "attestation": "LEX XII tab. 1, 1 si in ius vocat.",
@@ -639,10 +639,10 @@ map_data = {
       "definition": "Sentence, decree, order",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "coixbbl",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -3,
           "disparition": "None",
           "attestation": "LEX Pletor. Praetor urbanus … ius … inter cives dicito. ",
@@ -669,10 +669,10 @@ map_data = {
       "definition": "Lawsuit, legal process, investigation",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "gwkveh",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. Quinct. 38 qui… non…, siquid in controversiam veniret, aut intra parietes aut summo iure experiretur?",
@@ -699,10 +699,10 @@ map_data = {
       "definition": "Good principle, reason",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "bhs",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "VARRO ling. 6, 71 quod (i.e. sponsio) tum et praetorium ius ad legem et censorium iudicium ad aequum existimabatur.",
@@ -728,10 +728,10 @@ map_data = {
       "definition": "Judiciary system as a whole",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "urjtsa",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. Verr. I. 2 praedonem iuris urbani.",
@@ -762,10 +762,10 @@ map_data = {
       "definition": "Legitimately, lawfully (according to the law)",
       "construct": "IURE",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "rgnanx",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -5,
           "disparition": "None",
           "attestation": "LEX XII tab. 3, 1 rebus… iure iudicatis. ",
@@ -800,10 +800,10 @@ map_data = {
       "definition": "Rightly, deservedly",
       "construct": "OPTIMO IURE",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "qpusk",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Cas. 375 optimum atque aequissimum istud esse iure iudico.",
@@ -846,10 +846,10 @@ map_data = {
       "definition": "At will",
       "construct": "IURE",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "khcdetdc",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 1,
           "disparition": "None",
           "attestation": "FLOR. Epit. 1, 17, 5 Fabius Maximus periculosissimum bellum sine periculo explicuit, nam… captis… superioribus iugis in subiectos suo iure detonuit.",

@@ -8,10 +8,10 @@
       "definition": "Daughter",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "tlvq",
-          "modal": "HIJA (Spanish)",
+          "category": "HIJA (Spanish)",
           "emergence": 10,
           "disparition": "None",
           "attestation": "“id est ante nata filia sua muliere” (glosas  silenses)",
@@ -33,10 +33,10 @@
       "definition": "Girl (affectionate vocative)",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "mtoxh",
-          "modal": "HIJA (Spanish)",
+          "category": "HIJA (Spanish)",
           "emergence": 13,
           "disparition": "None",
           "attestation": "“Entendió Apolonyo la su entençión: «Fija, dixo, non vengo por pasaruos liçión., desto seyet bien segura en vuestro corazón” (Libro de Apolonio, Autor anónimo c. 1240)",

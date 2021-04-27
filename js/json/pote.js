@@ -12,9 +12,9 @@ map_data = {
         "definition": "To be able, to manage",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "xgbvbio",
-            "modal": "Modal: dynamic",
+            "category": "Modal: dynamic",
             "emergence": -2,
             "disparition": "None",
             "attestation": "ENN. ann. 402 nec pote quisquam... corpus discerpere ferro.",
@@ -29,9 +29,9 @@ map_data = {
         "definition": "It is possible",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "wcazcm",
-            "modal": "Modal: dynamic",
+            "category": "Modal: dynamic",
             "emergence": -1,
             "disparition": "None",
             "attestation": "VARRO rust. 1, 15 (serunt… alii ulmos) ubi id pote, ut ibi, quod est campus, nulla potior serenda est (arbor). ",
@@ -46,9 +46,9 @@ map_data = {
         "definition": "To be powerful, have strength, be strong",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "yjpyry",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
             "attestation": "VARRO Men. 289 qui pote plus, urget, piscis ut saepe minutos magnus comest.",

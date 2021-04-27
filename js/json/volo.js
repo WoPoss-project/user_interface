@@ -21,10 +21,10 @@ map_data = {
       "definition": "To want, wish for (something) ",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "sggw",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -3,
           "disparition": "None",
           "attestation": "ENN. Scen. 238 otioso in otio animus nescit quid velit.",
@@ -99,10 +99,10 @@ map_data = {
       "definition": "What is it? What do you want? ",
       "construct": "QUID VIS?",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "cbmueyv",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -2,
           "disparition": "None",
           "attestation": "PLAUT. Truc. 187 sed quid ais, Astaphium? :: quid vis?",
@@ -129,10 +129,10 @@ map_data = {
       "definition": "If you like ",
       "construct": "SI QUID VIS",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "jklbm",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -2,
           "disparition": "None",
           "attestation": "PLAUT. Bacch. 1175 I hac me cum intro: atque ibi si quid vis filium concastigato.",
@@ -159,10 +159,10 @@ map_data = {
       "definition": "To desire to have, want (a particular thing or person)",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "hicngv",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -2,
           "disparition": "None",
           "attestation": "PLAUT. Curc. 313 animo male est. :: vin aquam? ",
@@ -189,10 +189,10 @@ map_data = {
       "definition": "To want to speak with, require the presence, attention etc. of (a person) ",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "mylosxei",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Asin. 392 quid quaeritas? :: Demaenetum volebam.",
@@ -214,10 +214,10 @@ map_data = {
       "definition": "To want (a person for something)",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "afyae",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Asin. 109 si quid te volam, ubi eris?",
@@ -244,10 +244,10 @@ map_data = {
       "definition": "Is there anything you want of me? ",
       "construct": "NUMQUID ME VIS?",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "qeyilmzz",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Cist. 117 numquid me vis, mater, intro qui eam?",
@@ -269,10 +269,10 @@ map_data = {
       "definition": "To wish, have a desire (to)",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "bjpg",
-          "modal": "Modal: deontic volition",
+          "category": "Modal: deontic volition",
           "emergence": -2,
           "disparition": "None",
           "attestation": "PLAUT. Men. 296 te non novi neque novisse adeo volo.",
@@ -294,10 +294,10 @@ map_data = {
       "definition": "To be willing, prepared (to)",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "glzaes",
-          "modal": "Modal: deontic intention",
+          "category": "Modal: deontic intention",
           "emergence": -2,
           "disparition": "None",
           "attestation": "PLAUT. Amph. 206 si sine vi et sine bello velint rapta et raptores tradere.",
@@ -324,10 +324,10 @@ map_data = {
       "definition": "To be disposed, care (to)",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "jbqxouwf",
-          "modal": "Modal: deontic intention",
+          "category": "Modal: deontic intention",
           "emergence": -3,
           "disparition": "None",
           "attestation": "NAEV. Com. 15 si quidem vis loqui, non perdocere. ",
@@ -353,10 +353,10 @@ map_data = {
       "definition": "To take voluntary action (to) ",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "gffdlqf",
-          "modal": "Modal: deontic volition",
+          "category": "Modal: deontic volition",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. de orat. 2, 235 tertium, sitne oratoris risum velle movere.",
@@ -378,10 +378,10 @@ map_data = {
       "definition": "To be about (to), on the point (of)",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "oajyyt",
-          "modal": "Modal: deontic intention",
+          "category": "Modal: deontic intention",
           "emergence": -3,
           "disparition": "None",
           "attestation": "ENN. Ann. 85 veluti consul cum mittere signum volt.",
@@ -408,10 +408,10 @@ map_data = {
       "definition": "To want (something to be done, to be the case, etc.)",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "cwxeql",
-          "modal": "Modal: deontic volition",
+          "category": "Modal: deontic volition",
           "emergence": -3,
           "disparition": "None",
           "attestation": "NAEV. Com. 37 Hanc adeo efflictim amare: diu vivat volo, ut mihi prodesse possit.",
@@ -441,10 +441,10 @@ map_data = {
       "definition": "If you wish to put it thus ",
       "construct": "SI ITA VIS",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "nrqlahs",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. Ad Brut. 1, 15, 8 effudi, si ita vis, honores in mortuos.",
@@ -466,10 +466,10 @@ map_data = {
       "definition": "If you like, if you wish",
       "construct": "SI VIS / VULTIS",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "crbpyve",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -2,
           "disparition": "None",
           "attestation": "CATO hist. 87 mittam te, si vis, cum equitibus.",
@@ -491,10 +491,10 @@ map_data = {
       "definition": "Whichever...you like",
       "construct": "QUOD... VIS",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "zmajfa",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -3,
           "disparition": "None",
           "attestation": "CATO Agr. 52, 2 hoc modo quod genus vis propagabis.",
@@ -516,10 +516,10 @@ map_data = {
       "definition": "Whether I like it or not, willy-nilly",
       "construct": "VELIM, NOLIM etc.",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "sgfrjsxm",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. ad Q. fr. 3, 8, 4 velit nolit scire difficile est.",
@@ -541,10 +541,10 @@ map_data = {
       "definition": "Wouldn’t you like (to)? You ought (to)",
       "construct": "VIS? VISNE?",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "hbojjt",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "POMPON. Com. 132 vis facere ut noverca vetulum derepente deserat?",
@@ -557,7 +557,7 @@ map_data = {
         },
         {
           "id": "vcpxcs",
-          "modal": "Modal: deontic authority",
+          "category": "Modal: deontic authority",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. Fam. 4, 5, 4  visne tu te, Serui, cohibere et meminisse hominem te esse natum?",
@@ -579,10 +579,10 @@ map_data = {
       "definition": "May (s/he) wish (not to have done something) [pragmatic use: deontic authority]",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "wzzwafi",
-          "modal": "Modal: deontic volition",
+          "category": "Modal: deontic volition",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIL 1, 838 nei quis intra terminos propius urbem ustrinam fecisse velit.",
@@ -608,10 +608,10 @@ map_data = {
       "definition": "I should be glad if [pragmatic use: deontic authority]",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "ydsbq",
-          "modal": "Modal: deontic volition",
+          "category": "Modal: deontic volition",
           "emergence": -2,
           "disparition": "None",
           "attestation": "PLAUT. Most. 632 velim quidem hercle ut uno nummo plus petas.",
@@ -638,10 +638,10 @@ map_data = {
       "definition": "Would that",
       "construct": "VELLEM",
       "group": "None",
-      "modalities": [
+      "analysis": [
         {
           "id": "xivpbbfq",
-          "modal": "Modal: deontic volition",
+          "category": "Modal: deontic volition",
           "emergence": -2,
           "disparition": "None",
           "attestation": "PLAUT. Poen. 1066 patrem atque matrem viverent vellem tibi.",
@@ -668,10 +668,10 @@ map_data = {
       "definition": "To wish...rather than",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "iqichj",
-          "modal": "Modal: deontic volition",
+          "category": "Modal: deontic volition",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. inv. 2, 5 quodsi… a multis eligere homines commodissimum quodque quam sese uni alicui certe vellent addicere.",
@@ -693,10 +693,10 @@ map_data = {
       "definition": "To will",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "abc",
-          "modal": "Modal: deontic volition",
+          "category": "Modal: deontic volition",
           "emergence": -2,
           "disparition": "None",
           "attestation": "PLAUT. Pseud. 696B modo quid me facere vis fac ut sciam.",
@@ -718,10 +718,10 @@ map_data = {
       "definition": "To decree, enact",
       "construct": "VELITIS IUBEATIS",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "yhmab",
-          "modal": "Modal: deontic authority",
+          "category": "Modal: deontic authority",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. Dom. 47 velitis iubeatis ut M. Tullio aqua et ignis interdicatur?",
@@ -743,10 +743,10 @@ map_data = {
       "definition": "To want, require",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "kofgnf",
-          "modal": "Modal: deontic authority",
+          "category": "Modal: deontic authority",
           "emergence": -1,
           "disparition": "None",
           "attestation": "HOR. Ars 89 versibus exponi tragicis res comica non vult.",
@@ -768,10 +768,10 @@ map_data = {
       "definition": "To wish (a person) well / ill",
       "construct": "BENE / MALE VELLE + dative",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "dwfaf",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -3,
           "disparition": "None",
           "attestation": "ENN. Sat. 8 is non bene vult tibi, qui falso criminat apud te.",
@@ -798,10 +798,10 @@ map_data = {
       "definition": "To have someone’s well-being or interests at heart",
       "construct": "with CAUSA",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "slhpfoiwr",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. att. 11, 8, 1 per eos, qui nostra causa volunt.",
@@ -823,10 +823,10 @@ map_data = {
       "definition": "To have as one’s object or purpose, aim at, be after",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "pcgmoa",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -2,
           "disparition": "None",
           "attestation": "PLAUT. Most. 936 quid volunt? Quid intro spectant?",
@@ -848,10 +848,10 @@ map_data = {
       "definition": "To want to be understood (as its meaning), imply, signify, mean",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "umovgd",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Merc. 254 nisi capram illam suspicor iam ne invenisse quae sit aut quid voluerit.",
@@ -873,10 +873,10 @@ map_data = {
       "definition": "To maintain, claim, have it (that)",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "pqdwm",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "VARRO L. 9, 21 tantum inter duos sensus interesse volunt, ut…",

@@ -1,7 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="db487090-34b1-4abd-9088-e9e00729d9e7" name="Default Changelist" comment="" />
+    <list default="true" id="db487090-34b1-4abd-9088-e9e00729d9e7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/aequus.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/aequus.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/apte.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/apte.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/aptus.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/aptus.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/certus.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/certus.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/certus_la.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/certus_la.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/debeo.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/debeo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/decens.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/decens.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/decenter.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/decenter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/decet.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/decet.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/dubie.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/dubie.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/dubio.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/dubio.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/dubium_adv.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/dubium_adv.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/dubium_noun.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/dubium_noun.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/dubius.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/dubius.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/facultas.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/facultas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/forsitan.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/forsitan.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/fortasse.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/fortasse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/illicite.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/illicite.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/illicito.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/illicito.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/illicitus.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/illicitus.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/incerta.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/incerta.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/incerte.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/incerte.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/incertim.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/incertim.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/incertum_noun.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/incertum_noun.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/incertus_adj.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/incertus_adj.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/indubitans.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/indubitans.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/indubitanter.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/indubitanter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/indubitate.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/indubitate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/indubitato.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/indubitato.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/indubitatus.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/indubitatus.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/ineptus.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/ineptus.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/inique.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/inique.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/iniquiter.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/iniquiter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/iniquus.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/iniquus.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/ius.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/ius.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/licenter_licet.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/licenter_licet.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/licet.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/licet.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/licite.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/licite.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/licite_licet.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/licite_licet.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/licito.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/licito.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/licito_licet.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/licito_licet.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/licitus.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/licitus.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/malo.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/malo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/meus.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/meus.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/necessarie.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/necessarie.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/necessario.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/necessario.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/necessarium.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/necessarium.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/necessarius.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/necessarius.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/necesse.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/necesse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/necessitas.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/necessitas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/necessitudo.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/necessitudo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/nequeo.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/nequeo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/nolo.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/nolo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/oportet.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/oportet.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/opus.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/opus.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/other/FIGLIA.json" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/other/FIGLIA.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/other/hija.json" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/other/hija.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/other/semantic_map_CARAT3.json" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/other/semantic_map_CARAT3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/other/semantic_map_CARTE.json" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/other/semantic_map_CARTE.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/other/semantic_map_CARTE_2_colour.json" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/other/semantic_map_CARTE_2_colour.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/other/semantic_map_carte.json" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/other/semantic_map_carte.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/possibilis.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/possibilis.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/possibilitas.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/possibilitas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/possibiliter.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/possibiliter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/possum.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/possum.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/pote.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/pote.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/potes.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/potes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/potestas.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/potestas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/potior.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/potior.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/potis.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/potis.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/potissimum.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/potissimum.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/potissimus.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/potissimus.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/potius.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/potius.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/probabilis.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/probabilis.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/probabilitas.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/probabilitas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/probabiliter.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/probabiliter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/queo.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/queo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/usus.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/usus.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/valeo.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/valeo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/volo.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/volo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/json/voluntas.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/voluntas.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -178,6 +261,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -364,7 +448,7 @@
       <workItem from="1617612386497" duration="5000" />
       <workItem from="1618830264310" duration="2291000" />
       <workItem from="1619445264908" duration="2858000" />
-      <workItem from="1619507188305" duration="11613000" />
+      <workItem from="1619507188305" duration="12355000" />
     </task>
     <servers />
   </component>

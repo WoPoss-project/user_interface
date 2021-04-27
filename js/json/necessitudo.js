@@ -12,9 +12,9 @@ map_data = {
         "definition": "Necessity",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "pmivl",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -2,
             "disparition": "None",
             "attestation": "ASELL. hist. 5 L. Aemilium Paulum... signis conlatis <non> decertare, nisi summa necessitudo aut summa ei occasio data esset.",
@@ -26,7 +26,7 @@ map_data = {
             }
         }, {
             "id": "donbpbb",
-            "modal": "Modal: dynamic",
+            "category": "Modal: dynamic",
             "emergence": -1,
             "disparition": "None",
             "attestation": "SALL. Catil. 33, 5 Te atque senatum obtestamur: consulatis miseris civibus, legis praesidium, quod iniquitas praetoris eripuit, restituatis neve nobis eam necessitudinem inponatis, ut quaeramus, quonam modo maxume ulti sanguinem nostrum pereamus.",
@@ -38,7 +38,7 @@ map_data = {
             }
         }, {
             "id": "vmupswpd",
-            "modal": "Modal: deontic acceptability",
+            "category": "Modal: deontic acceptability",
             "emergence": 6,
             "disparition": "None",
             "attestation": "BOETH. cons. 3, 6, 9 quodsi quid est in nobilitate bonum, id esse arbitror solum, ut imposita nobilibus necessitudo videatur, ne a maiorum virtute degeneret. ",
@@ -49,9 +49,9 @@ map_data = {
         "definition": "Bond between closely connected people (by family, friendship, obligation)",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "vobyud",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -2,
             "disparition": "None",
             "attestation": "LEX repetund. (CIL I2 583) 24 <quei ... se earum qua> necessitudine atingat, quae supra scripta sient. ",
@@ -66,9 +66,9 @@ map_data = {
         "definition": "Association of similar things",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "wpquim",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
             "attestation": "CIC. orat. 186 numerus (i.e. metrum) ... nullam habebat ... necessitudinem aut cognationem cum oratione. ",
@@ -79,9 +79,9 @@ map_data = {
         "definition": "Participants in a close relationship (kinship, friendship, obligation)",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "qmx",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
             "attestation": "VAL. MAX. 2, 1, 7 huius modi inter coniuges verecundia: quid? inter ceteras necessitudines nonne apparet consentanea? (after: pater cum filio..., socer cum genero)",

@@ -7,9 +7,9 @@ map_data = {
         "definition": "Allowed, lawful",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "nukbce",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
             "attestation": "VERG. Aen. 8, 468 licito tandem sermone fruuntur.",
@@ -24,9 +24,9 @@ map_data = {
         "definition": "It is allowed",
         "construct": "LICITUM EST",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "bidsbwr",
-            "modal": "Modal: deontic",
+            "category": "Modal: deontic",
             "emergence": 5,
             "disparition": "None",
             "attestation": "COD. IUST. 1, 57, 1 Iubemus apud Alexandrinae dumtaxat clarissimae civitatis iuridicum licitum et concessum esse singulis quibusque volentibus donationis conscriptae sollemniter instrumenta reserare.",
@@ -37,9 +37,9 @@ map_data = {
         "definition": "What is allowed",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "bkuiw",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
             "attestation": "MANIL. 4, 211 licitum sciet et vetitum quae poena sequatur.",

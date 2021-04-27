@@ -12,9 +12,9 @@ map_data = {
         "definition": "Extremely outstanding, excellent, the best",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "urbfwh",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -2,
             "disparition": "None",
             "attestation": "PLAUT. Men. 359 [Meretrix speaking] eccum video, qui mihi est usui et plurimum prodest; item hinc ... fit, ut meret, potissimus nostrae domi ut sit.",
@@ -29,9 +29,9 @@ map_data = {
         "definition": "Extremely useful, well-suited or worthy, important",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "jecyfqn",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
             "attestation": "CIC. Inv. 1, 17 utrum potius aut quid potissimum, quaeritur.",
@@ -42,9 +42,9 @@ map_data = {
         "definition": "Extremely serious",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "vqzf",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": 2,
             "disparition": "None",
             "attestation": "TERT. Apol. 22, 6 adspiratio daemonum ... mentis quoque corruptelas agit ... cum erroribus variis, quorum iste potissimus, quo deos istos ... mentibus commendat.",

@@ -21,10 +21,10 @@ map_data = {
       "definition": "definitus",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "tkoga",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Curc. 320 iam edes aliquid. ∷ nolo hercle aliquid, certum quam ‘aliquid’ mavolo.",
@@ -66,10 +66,10 @@ map_data = {
       "definition": "[nihil comperti]",
       "construct": "NIHIL CERTI",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "dpjnobmo",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Mil. 407 nihil habeo certi quid loquar.",
@@ -91,10 +91,10 @@ map_data = {
       "definition": "quidam",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "mxjorgq",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Pseud. 566 certum quod sciam, quo id sim facturus pacto nil etiam scio, nisi quia futurum est.",
@@ -116,10 +116,10 @@ map_data = {
       "definition": "statutus, animo propositus",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "ntxyze",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT . Epid. 163 senem oppugnare -umst consilium. ",
@@ -149,10 +149,10 @@ map_data = {
       "definition": "[statutum est]",
       "construct": "CERTUM EST",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "naocqo",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Epid. 163 senem oppugnare certumst consilium.",
@@ -174,10 +174,10 @@ map_data = {
       "definition": "(fere) volo",
       "construct": "CERTUM EST",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "zbjdfgrf",
-          "modal": "Modal: deontic",
+          "category": "Modal: deontic",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. 63ⁱᵉˢ, ex. gr. Amph. 265 quando imago est huius in me, certum est hominem eludere.",
@@ -194,10 +194,10 @@ map_data = {
       "definition": "[constat]",
       "construct": "CERTUM EST",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "syjwi",
-          "modal": "Modal: epistemic",
+          "category": "Modal: epistemic",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Capt. 732 certumne est tibi istuc? :: non moriri certius.",
@@ -235,10 +235,10 @@ map_data = {
       "definition": "obstinatus, firmus (de homine qui consilium cepit)",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "wowsac",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -3,
           "disparition": "None",
           "attestation": "ENN. scaen. 143 quos ego (Apollo) ... ex incertis certos compotesque consili dimitto. ",
@@ -255,10 +255,10 @@ map_data = {
       "definition": "probatus, quod putes verum esse vel re vera existere",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "ovzzcn",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -3,
           "disparition": "None",
           "attestation": "TER. Andr. 368 ‘opinor’ narras? ... certa res est.",
@@ -292,10 +292,10 @@ map_data = {
       "definition": "[mihi exploratum est]",
       "construct": "CERTUM HABEO",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "pfuvgxkc",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Merc. 655 si certum id, pro certo si habes.",
@@ -318,7 +318,7 @@ map_data = {
         },
         {
           "id": "emfgvlt",
-          "modal": "Modal: epistemic",
+          "category": "Modal: epistemic",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. Att. 12, 40, 5 certum non habeo (sc. quam diu hic maneam).",
@@ -345,10 +345,10 @@ map_data = {
       "definition": "[mihi exploratissimum est]",
       "construct": "CERTUM SCIO",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "xyuwukf",
-          "modal": "Modal: epistemic",
+          "category": "Modal: epistemic",
           "emergence": -3,
           "disparition": "None",
           "attestation": "TER. Phorm. 148 non certum scio.",
@@ -370,10 +370,10 @@ map_data = {
       "definition": "[dico/audio aliquid minime dubium]",
       "construct": "CERTUM + verbum dicendi/sentiendi",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "jlrgavyy",
-          "modal": "Modal: epistemic",
+          "category": "Modal: epistemic",
           "emergence": -3,
           "disparition": "None",
           "attestation": "TER. Hec. 841 vide ut mihi haec certa et clara attuleris.",
@@ -400,10 +400,10 @@ map_data = {
       "definition": "[minime dubie, comperte]",
       "construct": "prepos. + CERTUM",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "luojwp",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Merc. 655 si id fore ita sat animo acceptumst, certum id, pro certo si habes. || CIC. Att. 10, 6, 3 Pompeium pro certo habemus ... proficisci al.",
@@ -425,10 +425,10 @@ map_data = {
       "definition": "manifestus",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "ylctv",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Persa 582 tu mi es inimicus certus.",
@@ -454,10 +454,10 @@ map_data = {
       "definition": "cui credere licet",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "gokfxi",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Poen. 708 ut ipsus testis sit tibi certissimus.",
@@ -487,10 +487,10 @@ map_data = {
       "definition": "[qui aliquam rem cognitam habet]",
       "construct": "CERTIOR SUM",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "amgr",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Amph. 347 numquid nunc es certior?",
@@ -516,10 +516,10 @@ map_data = {
       "definition": "[compertum habeo]",
       "construct": "CERTUS SUM",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "necxdtcj",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Merc. 129 lubet scire (me), ex hoc metu ut sim certus*",
@@ -537,7 +537,7 @@ map_data = {
         },
         {
           "id": "acxgxlb",
-          "modal": "Modal: epistemic",
+          "category": "Modal: epistemic",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. Att. 2, 19, 5 hoc opinor: certi sumus periisse omnia.",
@@ -559,10 +559,10 @@ map_data = {
       "definition": "[facio ut aliquis aliquam rem cognitam habeat]",
       "construct": "CERTIOREM FACIO",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "opusq",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Aul. 245 abiit neque me certiorem fecit.",
@@ -592,10 +592,10 @@ map_data = {
       "definition": "[certiorem facere, (aliquando) confirmo]",
       "construct": "CERTUM FACIO",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "dusypvb",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Pseud. 1097 epistula atque imago me certum facit.",
@@ -625,10 +625,10 @@ map_data = {
       "definition": "[sine dubio]",
       "construct": "CERTO CERTIUS",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "aegb",
-          "modal": "Modal: epistemic",
+          "category": "Modal: epistemic",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Capt. 644 Quin nihil, inquam, invenies magis hoc certo certius.",
@@ -645,10 +645,10 @@ map_data = {
       "definition": "fidus",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "wcmiru",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -3,
           "disparition": "None",
           "attestation": "ENN. scaen. 210 amicus certus in re incerta cernitur.",
@@ -674,10 +674,10 @@ map_data = {
       "definition": "satis gravis",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "btqwayqw",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. Manil. 43 homines opinione non minus et fama quam aliqua ratione certa commoveri.",
@@ -694,10 +694,10 @@ map_data = {
       "definition": "singularis, separatus",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "hciksus",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. de orat. 1, 138 de re certis in personis ac temporibus locata.",
@@ -719,10 +719,10 @@ map_data = {
       "definition": "ita constitutus, ut rationi alicuius rei conveniat",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "dbajwke",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. orat. 55 utcunque orator ... animum audientis moveri volet, ita certum vocis admovebit sonum.",
@@ -744,10 +744,10 @@ map_data = {
       "definition": "nonnulli",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "xqiyhj",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. div. in Caec. 24 certos esse in consilio, quibus ostendi tabellas velit.",
@@ -769,10 +769,10 @@ map_data = {
       "definition": "legibus vel usu naturae, deorum cultus, civitatum al. constitutus",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "suqobc",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "Rhet. Her. 3, 3, 5 certo naturae termino definiemus.",
@@ -794,10 +794,10 @@ map_data = {
       "definition": "notus",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "zcecuihai",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. Verr. 4, 109 ratio certa est Aetnensium et publicis et privatis litteris consignata",
@@ -823,10 +823,10 @@ map_data = {
       "definition": "novi",
       "construct": "CERTUM HABEO",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "wccrjith",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": " CIC. Att. 12, 34, 1 te certum diem (certitudinem M pr. m. ) illius profectionis non habere.",
@@ -848,10 +848,10 @@ map_data = {
       "definition": "[profecto dico/audio aliquid]",
       "construct": "CERTUM + verbum dicendi/sentiendi",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "zdfnrqfo",
-          "modal": "Modal: epistemic",
+          "category": "Modal: epistemic",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. ac. 2, 92 interrogati ... certum respondeamus, [non] habemus (sc. quid respondeamus).",
@@ -873,10 +873,10 @@ map_data = {
       "definition": "verus, rectus",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "zhbkkp",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "LUCR. 5, 582 quandoquidem luna claram speciem certamque figuram praebet.",
@@ -902,10 +902,10 @@ map_data = {
       "definition": "[exactus]",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "gabcdkyp",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CAES. Gall. 5, 13, 4 certis mensuris ... videbamus.",
@@ -931,10 +931,10 @@ map_data = {
       "definition": "clarus, quod certo cognosci potest",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "zcxmvhrq",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "VITR. 1, 1, 8 nisi sonitus ad artificis aures certos et aequales fecerint.",
@@ -960,10 +960,10 @@ map_data = {
       "definition": "genuinus",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "emcsjhcm",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. Verr. 4, 175 quae dicimus rationibus populorum non interpositis ... sed certis ... relata atque confecta sunt.",
@@ -985,10 +985,10 @@ map_data = {
       "definition": "(speciatim fere idem quod) vera explorans",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "cfglbtmt",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. div. 1, 78 fiunt certae divinationum coniecturae.",
@@ -1010,10 +1010,10 @@ map_data = {
       "definition": "securus",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "msgrdkm",
-          "modal": "Modal: epistemic",
+          "category": "Modal: epistemic",
           "emergence": -1,
           "disparition": "None",
           "attestation": "VERG. Aen. 9, 95 certusque (suppl. velut: boni eventus) incerta pericula lustret Aeneas? ",
@@ -1051,10 +1051,10 @@ map_data = {
       "definition": "(sequitur adhortatio similiter)",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "qqml",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. Att. 2, 24, 2 Bibulus Pompeium fecerat certiorem, ut caveret insidias.",
@@ -1076,10 +1076,10 @@ map_data = {
       "definition": "tutus",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "occukqg",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. nat. deor. 2, 131 ab ventis Etesiis etiam maritimi cursus celeres et certi deriguntur.",
@@ -1101,10 +1101,10 @@ map_data = {
       "definition": "rectus",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "wwejdo",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "Rhet. Her.. 1, 2, 3 ars est praeceptio, qua dat certam viam rationemque dicendi.",
@@ -1126,10 +1126,10 @@ map_data = {
       "definition": "sine dubio eventurus",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "yuwlt",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. Verr. 2, 141 tutores ..., quod actum erat cum Habonio, putant id esse certissimum.",
@@ -1151,10 +1151,10 @@ map_data = {
       "definition": "[animum firmum habens]",
       "construct": "CERTUS SUI",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "ghpqid",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 1,
           "disparition": "None",
           "attestation": "SEN. epist. 91, 16 nemo altero fragilior est, nemo in crastinum sui certior.",
@@ -1176,10 +1176,10 @@ map_data = {
       "definition": "accuratus",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "ouwhgoag",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 4,
           "disparition": "None",
           "attestation": "VULG. Sirach. 19, 22 et non est sapientia nequitiae disciplina et non est cogitatus peccatorum prudentia / est nequitia et ipsa execratio et est insipiens qui minuitur sapientia / melior est homo qui deficit sapientia et deficiens sensu in timore quam qui ",

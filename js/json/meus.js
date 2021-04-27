@@ -21,10 +21,10 @@ map_data = {
       "definition": "Someone or something somehow concerned, familiar, related with me",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "nbvuvc",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -3,
           "disparition": "None",
           "attestation": "LIV. ANDR. Trag. 26 Ego puerum interea ancillae subdam lactantem meae, eqs. ",
@@ -83,10 +83,10 @@ map_data = {
       "definition": "Mine, of myself",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "zpyn",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -3,
           "disparition": "None",
           "attestation": "LIV. ANDR. trag. 19 etiam minitas? mitte ea, quae tua sunt magis quam mea.",
@@ -129,10 +129,10 @@ map_data = {
       "definition": "Master of myself, free",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "tinfc",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 1,
           "disparition": "None",
           "attestation": "PERS. 5, 88 vindicta postquam meus a praetore recessi.",
@@ -154,10 +154,10 @@ map_data = {
       "definition": "Dear",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "yislhyvsd",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Asin. 689 O libane, mi patrone.",
@@ -188,10 +188,10 @@ map_data = {
       "definition": "The one I talked about",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "ikgrcog",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CATULL. 17, 21 talis iste meus stupor (i. homo stupidus)",
@@ -213,10 +213,10 @@ map_data = {
       "definition": "Favorable, loyal to me",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "dtaasqq",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Mil. 615 quis homo sit magis meus quam tu es?",
@@ -238,10 +238,10 @@ map_data = {
       "definition": "It does (not) fit my habits",
       "construct": "(NON) EST MEUM",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "daeqvg",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Asin. 190 maledictis te eam ductare postulas ∷ non meum est ∷ nec meum..., ad te ut mittam gratis.",
@@ -271,10 +271,10 @@ map_data = {
       "definition": "It is my duty",
       "construct": "(NON) EST MEUM",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "uysydi",
-          "modal": "Modal: dynamic necessity",
+          "category": "Modal: dynamic necessity",
           "emergence": -1,
           "disparition": "None",
           "attestation": "VARRO rust. 3, 16, 3 meum erat, non tuum, eas novisse volucres.",
@@ -301,10 +301,10 @@ map_data = {
       "definition": "It is my will",
       "construct": "(NON) EST MEUM",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "caxc",
-          "modal": "Modal: deontic volition",
+          "category": "Modal: deontic volition",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. Verr. II 1, 21 meum fuit... rei publicae consulere.",
@@ -326,10 +326,10 @@ map_data = {
       "definition": "It is my merit",
       "construct": "(NON) EST MEUM",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "sbevj",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. epist. 2, 17, 7 quod mihi cum illo erat commune, sibi soli adtribuit;... quod autem meum erat proprium, ut..., id etiam populo se remisisse scribit; quod vero illius erat solius, id mecum communicat.",
@@ -351,10 +351,10 @@ map_data = {
       "definition": "I can, it is in my power",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "vqjgl",
-          "modal": "Modal: dynamic possibility",
+          "category": "Modal: dynamic possibility",
           "emergence": -1,
           "disparition": "None",
           "attestation": "OV. epist. 16, 24 cum sim rapta, meum quid nisi nolle fuit?",
@@ -381,10 +381,10 @@ map_data = {
       "definition": "He is mine (said in an abstract sense and playfully)",
       "construct": "ILLE MEUS EST",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "pkhvpyd",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -3,
           "disparition": "None",
           "attestation": "NAEV. com. 70 meus homo est (i. hunc ludos faciam).",
@@ -411,10 +411,10 @@ map_data = {
       "definition": "He is mine (said in an abstract sense and seriously)",
       "construct": "ILLE MEUS EST",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "iigxfzmb",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "OV. Met. 'vicimus et meus est!'",
@@ -436,10 +436,10 @@ map_data = {
       "definition": "Owed, appropriate to me",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "fucekjz",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Rud. 283 cibo meo servio.",
@@ -465,10 +465,10 @@ map_data = {
       "definition": "Family, household of slaves, friends, allies, companions",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "abcdef",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Cist. 364 quid ego usquam male feci tibi aut -us quisquam?",
@@ -490,10 +490,10 @@ map_data = {
       "definition": "Dear (vocative)",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "ghilm",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -2,
           "disparition": "None",
           "attestation": "PLAUT. Most. 346 Quid ego | hoc faciam postea, mea?",
@@ -519,10 +519,10 @@ map_data = {
       "definition": "What is mine",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "lppit",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Mil. 905 ad tua praecepta de meo nihil his novom adposivi.",

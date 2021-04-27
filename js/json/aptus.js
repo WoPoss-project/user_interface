@@ -12,9 +12,9 @@ map_data = {
         "definition": "Suitably, properly joined",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "liujppi",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -2,
             "disparition": "None",
             "attestation": "ENN. Ann. 373 vinclis venatica velox apta.",
@@ -29,9 +29,9 @@ map_data = {
         "definition": "Connected",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "vuwvywq",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
             "attestation": "CIC. inv. 2, 110 aptas inter se omnes causas et aliam in alia implicatam videbit. ",
@@ -46,9 +46,9 @@ map_data = {
         "definition": "Closely associated, dependent",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "cclkf",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
             "attestation": "CIC. Tusc. 5, 36 cui viro … ex se ipso apta sunt omnia.",
@@ -59,9 +59,9 @@ map_data = {
         "definition": "Fit for, adapted to, equipped",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "lvk",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -2,
             "disparition": "None",
             "attestation": "ENN. Trag. 380 o Fides alma apta pinnis …! ",
@@ -76,9 +76,9 @@ map_data = {
         "definition": "Joined together, properly arranged",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "inllzs",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
             "attestation": "CIC. nat. deor. 2, 115 quod … mundus … ita cohaeret ad permanendum, ut nihil ne excogitari quidem possit aptius.",
@@ -93,9 +93,9 @@ map_data = {
         "definition": "Suitable, fitted for something",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "pvvfvkjg",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
             "attestation": "VARRO Men. 569 aptam mollis umeris fibulam.",
@@ -110,9 +110,9 @@ map_data = {
         "definition": "Apt, appropriate, conforming to",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "hhpng",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
             "attestation": "VARRO rust. 1, 6, 2 infimis alia cultura aptior quam summis.",
@@ -124,7 +124,7 @@ map_data = {
             }
         }, {
             "id": "hxywf",
-            "modal": "Modal: deontic acceptability",
+            "category": "Modal: deontic acceptability",
             "emergence": -1,
             "disparition": "None",
             "attestation": "CIC. fin. 3, 57 quam … appellant εὐδοξίαν, aptius est bonam famam … appellare.",
@@ -139,9 +139,9 @@ map_data = {
         "definition": "Able to",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "fftxhr",
-            "modal": "Modal: dynamic possibility",
+            "category": "Modal: dynamic possibility",
             "emergence": -1,
             "disparition": "None",
             "attestation": "CIC. de orat. 1, 99 te … ad dicendum maxume natum aptumque.",

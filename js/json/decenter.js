@@ -17,9 +17,9 @@ map_data = {
         "definition": "Properly, appropriately, suitably",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "tndee",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
             "attestation": "HOR. epist. 2, 2, 216 ne... pulset lasciva decentius aetas.",
@@ -30,9 +30,9 @@ map_data = {
         "definition": "Decently, worthily, beautifully",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "fpipxdu",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": 1,
             "disparition": "None",
             "attestation": "SEN. Epist. 70, 20 parum munde et parum decenter. ",

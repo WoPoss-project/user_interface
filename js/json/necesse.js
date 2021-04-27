@@ -21,10 +21,10 @@ map_data = {
       "definition": "It is desired, required by an animate or inanimate entity that something happens, is carried through or somehow takes place",
       "construct": "NECESSE EST",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "fbdzti",
-          "modal": "Modal: dynamic",
+          "category": "Modal: dynamic",
           "emergence": -3,
           "disparition": "None",
           "attestation": "NAEV. com. 106 pati necesse est multa mortales mala.",
@@ -64,7 +64,7 @@ map_data = {
         },
         {
           "id": "qxdwg",
-          "modal": "Modal: deontic authority",
+          "category": "Modal: deontic authority",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. inv. 2, 146 consideretur, ex lege utrum stati fieri necesse sit.",
@@ -91,7 +91,7 @@ map_data = {
         },
         {
           "id": "qjqh",
-          "modal": "Modal: deontic acceptability",
+          "category": "Modal: deontic acceptability",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. Quinct. 26 necesse est iste, qui amicum ... fortunis spoliare conatus est, vanum se ... esse fateatur.",
@@ -122,10 +122,10 @@ map_data = {
       "definition": "It is desired, required by an animate or inanimate entity that something happens, is carried through or somehow takes place",
       "construct": "NECESSE ALIQUEM EST, UT",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "zaapln",
-          "modal": "Modal: dynamic",
+          "category": "Modal: dynamic",
           "emergence": 6,
           "disparition": "None",
           "attestation": "COMMON. patr. 5, 3 dicens quia si nolueris venire ad me, necesse me est ut ego veniam ad te. ",
@@ -147,10 +147,10 @@ map_data = {
       "definition": "It is necessary to me, I need / have to",
       "construct": "ALICUI NECESSE EST",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "zclh",
-          "modal": "Modal: dynamic",
+          "category": "Modal: dynamic",
           "emergence": -2,
           "disparition": "None",
           "attestation": "PLAUT. Amph. 501 mihi necesse est ire hinc... :: quid istuc est... negoti?",
@@ -173,7 +173,7 @@ map_data = {
         },
         {
           "id": "iejqzjg",
-          "modal": "Modal: deontic acceptability",
+          "category": "Modal: deontic acceptability",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. ad Brut. 17, 2 uxore amissa tibi est dolendum..., sed, ut modice (i.e. doleatur vel doleas), ceteris utile est, tibi necesse est.",
@@ -195,10 +195,10 @@ map_data = {
       "definition": "It is concluded, proven, known, that something is true, has to be taken for sure, or necessarily follows assumptions previously made",
       "construct": "NECESSE EST",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "xwf",
-          "modal": "Modal: epistemic",
+          "category": "Modal: epistemic",
           "emergence": -2,
           "disparition": "None",
           "attestation": "TER. Hec. 304 magnum nescioquid necessest evenisse, ... unde ira tam longa inter eas intercessit.",
@@ -216,7 +216,7 @@ map_data = {
         },
         {
           "id": "qavaod",
-          "modal": "Modal: dynamic",
+          "category": "Modal: dynamic",
           "emergence": -2,
           "disparition": "None",
           "attestation": "ENN. scaen. 429 aliquot somnia vera esse, sed omnia non necessest.",
@@ -244,7 +244,7 @@ map_data = {
         },
         {
           "id": "htbj",
-          "modal": "Modal: deontic authority",
+          "category": "Modal: deontic authority",
           "emergence": 2,
           "disparition": "None",
           "attestation": "GAIUS inst. 2, 227 lege Falcidia cautum est, ne plus ei testatori legare liceat quam dodrantem; itaque necesse est, ut heres quartam partem hereditatis habeat.",
@@ -266,10 +266,10 @@ map_data = {
       "definition": "Something that is needed, is essential to someone",
       "construct": "NECESSE EST",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "xsylt",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 2,
           "disparition": "None",
           "attestation": "TERT. pall. 5, 1 ad pallium induendum nec artificem necesse est, qui eqs.",
@@ -291,10 +291,10 @@ map_data = {
       "definition": "To consider, estimate, evaluate as necessary",
       "construct": "NECESSE HABEO",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "ugzr",
-          "modal": "Modal: deontic acceptability",
+          "category": "Modal: deontic acceptability",
           "emergence": -2,
           "disparition": "None",
           "attestation": "TER. Ad. 51 non necesse habeo omnia pro meo iure agere.",
@@ -320,10 +320,10 @@ map_data = {
       "definition": "To have to, to need something / to do something / to have something",
       "construct": "NECESSE HABEO",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "kysymmm",
-          "modal": "Modal: dynamic",
+          "category": "Modal: dynamic",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. part. 47 quod... ex his satis apertis efficietur, si id apertum est, non habebimus necesse semper concludere.",
@@ -350,10 +350,10 @@ map_data = {
       "definition": "It is concluded, proven, known, that something is true, has to be taken for sure, or necessarily follows assumptions previously made",
       "construct": "NECESSE HABEO",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "shhorb",
-          "modal": "Modal: dynamic",
+          "category": "Modal: dynamic",
           "emergence": 4,
           "disparition": "None",
           "attestation": "CHIRON. 751 quoduoqd… ex semine languido concepti erunt, necesse habent… ad naturam paternam seminis reverti.",
@@ -384,10 +384,10 @@ map_data = {
       "definition": "It is necessary",
       "construct": "NECESSE HABEO",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "djciz",
-          "modal": "Modal: dynamic",
+          "category": "Modal: dynamic",
           "emergence": 4,
           "disparition": "None",
           "attestation": "CHIRON 751 quodquod (quotquot) ... similia eis, qui habent vitia, admittunt seminare, ipsi se decipiunt; necesse habebit eum ad vitium paternum seminis reverti.",
@@ -405,7 +405,7 @@ map_data = {
         },
         {
           "id": "abc",
-          "modal": "Modal: deontic acceptability",
+          "category": "Modal: deontic acceptability",
           "emergence": 6,
           "disparition": "None",
           "attestation": "ANTHIM. 49 ostria vero necesse habet pro desiderio permittere interdum, quia frigida sunt et fleumatica.",
@@ -427,10 +427,10 @@ map_data = {
       "definition": "Necessarily",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "yyeqowm",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 2,
           "disparition": "None",
           "attestation": "VET. LAT. Sirach 21, 31 qui susurrio est in omnibus et non necesse, odietur.",
@@ -452,7 +452,7 @@ map_data = {
         },
         {
           "id": "syxy",
-          "modal": "Modal: dynamic",
+          "category": "Modal: dynamic",
           "emergence": 5,
           "disparition": "None",
           "attestation": "SERM. Arian. frg. 13 necesse, si filium habet deus, et uxorem habet eqs.",
@@ -474,10 +474,10 @@ map_data = {
       "definition": "Necessity",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "zyychhvk",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 2,
           "disparition": "None",
           "attestation": "VET. LAT. I Ioh. 3, 17 qui habuerit substantiam mundi et viderit fratrem suum necesse habere",
@@ -508,10 +508,10 @@ map_data = {
       "definition": "It must happen, it cannot be avoided / prevented, it is necessary",
       "construct": "NECESSUM EST",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "vsosrwmk",
-          "modal": "Modal: dynamic",
+          "category": "Modal: dynamic",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Asin. 895 nauteam bibere malim, si necessum sit, quam illam oscularier.",
@@ -529,7 +529,7 @@ map_data = {
         },
         {
           "id": "xzjh",
-          "modal": "Modal: epistemic",
+          "category": "Modal: epistemic",
           "emergence": -1,
           "disparition": "None",
           "attestation": "RHET. HER. 4, 9, 13 quis hoc credet, tantam amentiam quemquam tenuisse...? ergo aliquid fuisse necessum est; quid aliud, nisi id quod dico, potest esse?",
@@ -551,10 +551,10 @@ map_data = {
       "definition": "Necessity",
       "construct": "NECESSUM / -US",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "xigyf",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "LUCR. 2, 289 ne mens (Lambinus, res trad.) ipsa necessum intestinum habeat cunctis in rebus agendis ..., id facit exiguum clinamen principiorum.",
@@ -581,10 +581,10 @@ map_data = {
       "definition": "Inevitable, essential",
       "construct": "NECESSIS",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "ocmcq",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 4,
           "disparition": "None",
           "attestation": "DON. Ter. Eun. 998, 1 “nisi quia necessus fuit hoc facere” necessus nomen est, nam necessus et necessis et necessitas et necessum lectum est.",

@@ -12,9 +12,9 @@ map_data = {
         "definition": "Tightly, closely, consistently",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "bncqet",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
             "attestation": "CIC. Tim. 15 (mundus) ita apte cohaeret, ut dissolvi nullo modo queat.",
@@ -29,9 +29,9 @@ map_data = {
         "definition": "In a well-arranged manner, rhythmically",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "wjrs",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
             "attestation": "CIC. orat. 149 ut inter se quam aptissime cohaereant (verba).",
@@ -46,9 +46,9 @@ map_data = {
         "definition": "Suitably, conformably",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "mxerdeg",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
             "attestation": "CIC. fin. 3, 46 si cothurni laus illa esset, ad pedem apte convenire.",
@@ -66,9 +66,9 @@ map_data = {
         "definition": "Profitably, conveniently, properly",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "olzy",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
             "attestation": "CIC. Verr. 5, 54 illa … ita scite in aureis poculis inligabat, ita apte in scaphiis aureis includebat.",

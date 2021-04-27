@@ -21,10 +21,10 @@ map_data ={
       "definition": "Application (of something) to a purpose, employment, use",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "yyqpy",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Stich. 241 Fuit disertim, uerum id usu perdidi: Nunc Miccotrogus nomine e uero uocor.",
@@ -59,10 +59,10 @@ map_data ={
       "definition": "Means of using (a thing) or enjoying (conditions etc.) ",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "kcuks",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. Off. 3, 47 usu… urbis prohibere peregrinos.",
@@ -84,10 +84,10 @@ map_data ={
       "definition": "Power of exercising ",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "aaxxqk",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. Nat. Deor. 1, 123 deum… membris hominis praeditum omnibus, usu membrorum ne minimo quidem. ",
@@ -109,10 +109,10 @@ map_data ={
       "definition": "The use by legal right (of property owned by another), or the right of making such use ",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "fnygd",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "HOR. S. 2, 2, 134 ager … erit nulli proprius, sed cedet in usum nunc mihi nunc alii.",
@@ -138,10 +138,10 @@ map_data ={
       "definition": "The fact of being in continuous possession (of land or other property not owned by oneself), regarded as establishing a prescriptive right ",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "opcd",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -2,
           "disparition": "None",
           "attestation": "PLAUT. Amph. 374 Parum etiam, praeut futurumst, praedicas. Quoius nunc es? :: Tuos: nam pugnis usu fecisti tuom.",
@@ -163,10 +163,10 @@ map_data ={
       "definition": "Actual performance, practice",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "eafr",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -2,
           "disparition": "None",
           "attestation": "PLAUT. Bacch. Quia istaec lepida sunt memoratui: Eadem in usu atque ubi periclum facias aculeata sunt, animum fodicant, bona destimulant, facta et famam sauciant.",
@@ -190,10 +190,10 @@ map_data ={
       "definition": "The state of being practised (in a field)",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "szhnfx",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. De Orat. 2, 58 magnam eloquentiam ad scribendum attulit, sed nullum usum forensem.",
@@ -217,10 +217,10 @@ map_data ={
       "definition": "Practical experience (of events, affairs, etc.) ",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "yhqstq",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -2,
           "disparition": "None",
           "attestation": "TER. Ad. 856 quin res aetas usus semper aliquid adportet novi.",
@@ -242,10 +242,10 @@ map_data ={
       "definition": "The fact of possessing experience of life, the world, or similar ",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "kwunln",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "OV. Ep. 16, 145 felices, quibus usus adest ! Ego nescia rerum..",
@@ -271,10 +271,10 @@ map_data ={
       "definition": "A frequent or general practice, usage ",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "ihre",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "VAR. L. 10, 78 quaedam verba contra usum veterem inclinata patietur (consuetudo communis).",
@@ -306,10 +306,10 @@ map_data ={
       "definition": "Habitual dealings between persons, intercourse ",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "saadjp",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. S. Rosc. 15 cum Metellis, Serviliis … erat ei … domesticus usus et consuetudo. ",
@@ -336,10 +336,10 @@ map_data ={
       "definition": "Potential for use, value, utility ",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "nmghwo",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -2,
           "disparition": "None",
           "attestation": "PLAUT. Most. 123 ut (liberi) et in usum boni et in speciem… sint. ",
@@ -370,10 +370,10 @@ map_data ={
       "definition": "The use or purpose to which a thing (or person) is put, function ",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "tvkrheq",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "VAR. L. 9, 58 in quibus rebus non subest similis natura aut usus.",
@@ -395,10 +395,10 @@ map_data ={
       "definition": "Want of something requisite or useful, requirement, need ",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "lnjhruh",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Mil. 810 ego… dicam tum quando usus poscet.",
@@ -429,10 +429,10 @@ map_data ={
       "definition": "The need arises",
       "construct": "USUS VENIT",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "mecjm",
-          "modal": "Modal: dynamic",
+          "category": "Modal: dynamic",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Stich. 474 Idem ego istuc scio: Quando usus ueniet, fiet  :: Nunc ergo usus est.",
@@ -459,10 +459,10 @@ map_data ={
       "definition": "There is need",
       "construct": "USUS EST",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "eedokms",
-          "modal": "Modal: dynamic",
+          "category": "Modal: dynamic",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Asin. 376 dico ut usust fieri.",
@@ -488,10 +488,10 @@ map_data ={
       "definition": "Usufruct",
       "construct": "USUS FRUCTUS",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "rvjik",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Merc. 832 usus, fructus, victus, cultus iam mihi harunc aedium… alienatust.",
@@ -518,10 +518,10 @@ map_data ={
       "definition": "To the advantage or profit (of), useful(ly)",
       "construct": "EX USU / IN USU / IN USUM",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "nmeesm",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Merc. 394 vidi (illam). Verum non ex usu nostrost neque adeo placet.",
@@ -543,10 +543,10 @@ map_data ={
       "definition": "An actual instance (of an occurrence, fact) is experienced ",
       "construct": "USUS VENIT",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "vqqo",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 2,
           "disparition": "None",
           "attestation": "GEL. 2, 23, 4 nuper adeo usus huius rei (i.e. the inferiority of Latin comedies to their Greek originals) nobis venit.",
@@ -568,10 +568,10 @@ map_data ={
       "definition": "In one’s everyday experience ",
       "construct": "IN USU",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "sytnrm",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 1,
           "disparition": "None",
           "attestation": "PETR. 1, 3 nihil ex his quae in usu habemus … vident (i.e. in a school of rhetoric), sed piratas cum catenis in litore stantes.",

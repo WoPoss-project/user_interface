@@ -21,10 +21,10 @@ map_data = {
       "definition": "Doubt",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "gpbgk",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. inv. 2, 116 in scripto versatur controversia, cum ex scriptionis ratione aliquid dubii nascitur.",
@@ -55,10 +55,10 @@ map_data = {
       "definition": "Without hesitation",
       "construct": "SINE DUBIO",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "zakia",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "NEP. Thras. 1, 2 dubito, an hunc primum omnium ponam. Illud sine dubio (i. e. facio): neminem huic praefero fide.",
@@ -98,10 +98,10 @@ map_data = {
       "definition": "Willingly",
       "construct": "SINE DUBIO",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "hjsbudko",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 5,
           "disparition": "None",
           "attestation": "HERM. Pal. Sim. 2, 5 praestat ergo dives pauperi omnia sine dubio. ",
@@ -123,10 +123,10 @@ map_data = {
       "definition": "Someone who doubts, does not believe",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "qfxmog",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 2,
           "disparition": "None",
           "attestation": "TERT. Resurr. 5 p. 31, 6 rudes quique de communibus adhuc sensibus sapiunt et dubii et simplices (adhuc de fide Christiana dubitantes).",
@@ -152,10 +152,10 @@ map_data = {
       "definition": "Someone who hesitates",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "fhe",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 1,
           "disparition": "None",
           "attestation": "SEN. Epist. 95, 46 nihil est turpius dubio et incerto ac timide pedem referente.",
@@ -194,10 +194,10 @@ map_data = {
       "definition": "Fainthearted",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "dojeus",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 2,
           "disparition": "None",
           "attestation": "ITALA apoc. 21, 8 (Primas.) dubiis autem et infidelibus... pars erit in stagno.",
@@ -219,10 +219,10 @@ map_data = {
       "definition": "Ambiguity, uncertainty",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "hcsvto",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. fin. 4, 67 utrum… perspicuisne -a aperiuntur an dubiis perspicua tolluntur?… cum perspicuis dubia debeatis illustrare, dubiis perspicua conamini tollere.",
@@ -262,7 +262,7 @@ map_data = {
         },
         {
           "id": "vqkemn",
-          "modal": "Modal: epistemic",
+          "category": "Modal: epistemic",
           "emergence": -1,
           "disparition": "None",
           "attestation": "LIV. 6, 40, 17 possetisne ferre Sextium haud pro dubio consulem esse?",
@@ -289,10 +289,10 @@ map_data = {
       "definition": "Something arguable",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "gjblqvr",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 1,
           "disparition": "None",
           "attestation": "QUINT. inst. 5, 12, 2 argumentum oportet esse confessum: dubiis enim probari dubia qui possunt?",
@@ -314,10 +314,10 @@ map_data = {
       "definition": "Suspicion, feeling of mistrust",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "xaarll",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. Quinct. 5 non eo dico …, quo mihi veniat in dubium tua fides et constantia.",
@@ -339,10 +339,10 @@ map_data = {
       "definition": "Adverse, dangerous things or events",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "vohkq",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -2,
           "disparition": "None",
           "attestation": "PACUV. Trag. 307 o multimodis varie et dubium et prosperum copem diem!",
@@ -368,10 +368,10 @@ map_data = {
       "definition": "Without any doubt",
       "construct": "SINE DUBIO",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "gfwtqqf",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -2,
           "disparition": "None",
           "attestation": "TER. Eun. 1044 numquid Gnatho tu dubitas, quin ego nunc perpetuo perierim? :: sine dubio opinor.",
@@ -402,7 +402,7 @@ map_data = {
         },
         {
           "id": "czd",
-          "modal": "Modal: epistemic",
+          "category": "Modal: epistemic",
           "emergence": -1,
           "disparition": "None",
           "attestation": "VARRO rust. 2, 5, 10 qui sine dubio… praeponendi.",
@@ -429,10 +429,10 @@ map_data = {
       "definition": "[concessive] Sure… but",
       "construct": "SINE DUBIO",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "zsgzbpc",
-          "modal": "Modal: epistemic",
+          "category": "Modal: epistemic",
           "emergence": -1,
           "disparition": "None",
           "attestation": "VARRO Rust. 3, 9, 6 qui (galli) sine dubio sunt pulchri …, sed ad partus sunt steriliores.",
@@ -459,10 +459,10 @@ map_data = {
       "definition": "Evidently, of course",
       "construct": "SINE DUBIO",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "fi",
-          "modal": "Modal: epistemic",
+          "category": "Modal: epistemic",
           "emergence": 1,
           "disparition": "None",
           "attestation": "PETRON. 26, 3 sine dubio non repugnaverat puer.",
@@ -484,10 +484,10 @@ map_data = {
       "definition": "That is, namely",
       "construct": "SINE DUBIO",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "jzjaem",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 2,
           "disparition": "None",
           "attestation": "TERT. Fug. 9 med. Clipeum, quo possitis tela diaboli extinguere, resistentes sine dubio et excipientes omnem vim illius.",
@@ -509,10 +509,10 @@ map_data = {
       "definition": "As it is well known",
       "construct": "SINE DUBIO",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "waqag",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 2,
           "disparition": "None",
           "attestation": "TERT. ieiun. 9 p. 285, 6 cum corvi Heliam pane et carne saturare consuessent, cur... ei... angelus sine dubio panem solum et aquam obtulit?",
@@ -534,10 +534,10 @@ map_data = {
       "definition": "[future event] For sure",
       "construct": "SINE DUBIO",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "jqbtpd",
-          "modal": "Modal: epistemic",
+          "category": "Modal: epistemic",
           "emergence": 5,
           "disparition": "None",
           "attestation": "PALLAD. 7, 5, 3 gemmam, quae bene adparebit sine dubio processura. ",
@@ -559,10 +559,10 @@ map_data = {
       "definition": "Undoubtedly",
       "construct": "PROCUL DUBIO",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "yfyn",
-          "modal": "Modal: epistemic",
+          "category": "Modal: epistemic",
           "emergence": -2,
           "disparition": "None",
           "attestation": "CATO orig. 83 illi omnes quadrigenti procul dubio obtruncabuntur.",
@@ -589,10 +589,10 @@ map_data = {
       "definition": "[concessive] Sure… but",
       "construct": "PROCUL DUBIO",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "vjmo",
-          "modal": "Modal: epistemic",
+          "category": "Modal: epistemic",
           "emergence": 4,
           "disparition": "None",
           "attestation": "OPTAT. 7, 1 p. 164, 14 dei sunt procul dubio ambae voces, sed non ad unum populum sonat utraque.",
@@ -614,10 +614,10 @@ map_data = {
       "definition": "Evidently, of course",
       "construct": "PROCUL DUBIO",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "gpwgvd",
-          "modal": "Modal: epistemic",
+          "category": "Modal: epistemic",
           "emergence": 1,
           "disparition": "None",
           "attestation": "QUINT. Inst. 3, 23, 3 repetitio bonorum procul dubio labefactabat compositae civitatis statum.",
@@ -634,10 +634,10 @@ map_data = {
       "definition": "[future event] For sure",
       "construct": "PROCUL DUBIO",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "yu",
-          "modal": "Modal: epistemic",
+          "category": "Modal: epistemic",
           "emergence": 4,
           "disparition": "None",
           "attestation": "AMM. 16, 11, 5 sciens per ea erupturos procul dubio grassatores.",
@@ -664,10 +664,10 @@ map_data = {
       "definition": "So that no doubt is left",
       "construct": "PROCUL DUBIO",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "awpapu",
-          "modal": "Modal: epistemic",
+          "category": "Modal: epistemic",
           "emergence": 1,
           "disparition": "None",
           "attestation": "PLIN. Nat. 2, 165 procul dubio apparere, quo quid humilius sit, propius a centro esse terrae.",
@@ -689,10 +689,10 @@ map_data = {
       "definition": "Immediately",
       "construct": "PROCUL DUBIO",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "dkr",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 5,
           "disparition": "None",
           "attestation": "COD. Theod. 4, 10, 3 ad servitutis nexum procul dubio reducentur.",

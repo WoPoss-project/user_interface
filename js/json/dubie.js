@@ -21,10 +21,10 @@ map_data = {
       "definition": "Hesitantly, bashfully",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "vras",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "OV. met. 10, 287 dum stupet et dubie gaudet fallique veretur.",
@@ -46,10 +46,10 @@ map_data = {
       "definition": "Ambiguously",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "uceng",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. div. 1, 124 potest accidere, ut aliquod signum dubie datum pro certo sit acceptum.",
@@ -75,10 +75,10 @@ map_data = {
       "definition": "[negative] Without any discussion",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "moyjfjy",
-          "modal": "Modal: epistemic",
+          "category": "Modal: epistemic",
           "emergence": -1,
           "disparition": "None",
           "attestation": "LIV. 10, 21, 15 qui haud dubie tum primus omnium ductor habeatur.",
@@ -104,10 +104,10 @@ map_data = {
       "definition": "[negative] Undoubtedly, evidently",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "jupc",
-          "modal": "Modal: epistemic",
+          "category": "Modal: epistemic",
           "emergence": -1,
           "disparition": "None",
           "attestation": "LIV. 1, 9, 6 et haud dubie ad vim spectare res coepit.",
@@ -133,10 +133,10 @@ map_data = {
       "definition": "[negative] Certainly",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "rhfrsbs",
-          "modal": "Modal: epistemic",
+          "category": "Modal: epistemic",
           "emergence": -1,
           "disparition": "None",
           "attestation": "LIV. 1, 13, 7 haud dubie aliquanto numerus maior hoc ... fuit.",
@@ -167,10 +167,10 @@ map_data = {
       "definition": "[negative] Of course, as it is evident",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "gxezn",
-          "modal": "Modal: epistemic",
+          "category": "Modal: epistemic",
           "emergence": 1,
           "disparition": "None",
           "attestation": "QUINT. inst. 1, 1, 4 et morum quidem in his (nutricibus) haud dubie prior ratio est: recte tamen etiam loquatur.",
@@ -192,10 +192,10 @@ map_data = {
       "definition": "[negative, concessive] For sure… but",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "qcuq",
-          "modal": "Modal: epistemic",
+          "category": "Modal: epistemic",
           "emergence": 1,
           "disparition": "None",
           "attestation": "QUINT. inst. 3, 4, 1 nec dubie prope omnes ... hac partitione contenti fuerunt. verum eqs.",

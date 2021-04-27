@@ -17,9 +17,9 @@ map_data = {
         "definition": "To be unable (to)",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "buviujw",
-            "modal": "Modal: dynamic",
+            "category": "Modal: dynamic",
             "emergence": -3,
             "disparition": "None",
             "attestation": "PLAUT. Merc. 636 ubi habitaret invenires saltem, si nomen nequis.",
@@ -34,9 +34,9 @@ map_data = {
         "definition": "Not to be possible",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "hcxiiq",
-            "modal": "Modal: dynamic",
+            "category": "Modal: dynamic",
             "emergence": -3,
             "disparition": "None",
             "attestation": "PLAUT. Rud. 1064 alienon prius quam tuo dabis orationem? ut nequitur comprimi!",
@@ -51,9 +51,9 @@ map_data = {
         "definition": "To be unable to prevent oneself (from doing something)",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "qwud",
-            "modal": "Modal: dynamic",
+            "category": "Modal: dynamic",
             "emergence": -3,
             "disparition": "None",
             "attestation": "PLAUT. Mil. 1343 nequeo, quin fleam. ",

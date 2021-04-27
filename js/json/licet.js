@@ -15,10 +15,10 @@ map_data = {
       "definition": "To be for sale, salable",
       "construct": "LICEŌ",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "urkxcj",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Men. 549 ut quantum possint quique liceant veneant.",
@@ -44,10 +44,10 @@ map_data = {
       "definition": "To have for sale",
       "construct": "LICEŌ",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "uemgk",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 1,
           "disparition": "None",
           "attestation": "PLIN. Nat. 35, 88 quanti liceret pictor opera effecta. ",
@@ -69,10 +69,10 @@ map_data = {
       "definition": "To have the possibility/chance/opportunity of doing/undergoing something",
       "construct": "LICEŌ",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "qrxkhp",
-          "modal": "Modal: dynamic",
+          "category": "Modal: dynamic",
           "emergence": 5,
           "disparition": "None",
           "attestation": "PS. AUG. un. trin. p. 1209 unusne deus probari licet? nullus deus, nisi unus.",
@@ -94,10 +94,10 @@ map_data = {
       "definition": "To bid, to make an offer",
       "construct": "LICEOR",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "eicotw",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -2,
           "disparition": "None",
           "attestation": "PLAUT. Stich. 221 logos ridiculos vendo; age licemini; qui cena poscit?",
@@ -124,10 +124,10 @@ map_data = {
       "definition": "To bargain, negotiate",
       "construct": "LICEOR",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "ndnhsp",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 2,
           "disparition": "None",
           "attestation": "APUL. Met. 2, 21, 5 si qui mortuum servare vellet, de pretio liceretur.",
@@ -149,10 +149,10 @@ map_data = {
       "definition": "To claim something for a given price",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "ykwtshh",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. Att. 12, 38 a, 2 heredes Scapulae, si istos hortos… liceri cogitant, nihil est… emptori loci.",
@@ -179,10 +179,10 @@ map_data = {
       "definition": "It is allowed, permitted",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "wtyukvrbk",
-          "modal": "Modal: deontic",
+          "category": "Modal: deontic",
           "emergence": -3,
           "disparition": "None",
           "attestation": "NAEV. com. 127 quae sperat se nupturam... adulescentulo, ea licet senile tractet... rutabulum.",
@@ -216,7 +216,7 @@ map_data = {
         },
         {
           "id": "ehxwzo",
-          "modal": "Modal: dynamic",
+          "category": "Modal: dynamic",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Asin. 421 cui numquam unam rem me licet semel praecipere furi, quin centies eadem imperem.",
@@ -254,10 +254,10 @@ map_data = {
       "definition": "To be allowed against ",
       "construct": "MIHI LICET IN ALIQUEM VEL ALIQUID",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "huhunpen",
-          "modal": "Modal: deontic",
+          "category": "Modal: deontic",
           "emergence": 2,
           "disparition": "None",
           "attestation": "TERT. nat. 1, 10, 49 postremo licet vobis in eos deos, quos esse voluistis.",
@@ -279,10 +279,10 @@ map_data = {
       "definition": "Alright, I agree ",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "sdamhs",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -2,
           "disparition": "None",
           "attestation": "PLAUT. Amph. 544 (Iuppiter od Alcumenam ) numquid vis? ∷ etiam: ut actutum advenias. ∷ licet, prius tua opinione hic adero.",
@@ -308,10 +308,10 @@ map_data = {
       "definition": "It is necessary [ironically, hapax in Plautus]",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "uobsif",
-          "modal": "Modal: dynamic",
+          "category": "Modal: dynamic",
           "emergence": -2,
           "disparition": -1,
           "attestation": "PLAUT. Aul. 381 festo die si quid prodegeris, profesto egere liceat, nisi peperceris.",
@@ -333,10 +333,10 @@ map_data = {
       "definition": "It is allowed",
       "construct": "LICITUM EST",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "whlo",
-          "modal": "Modal: deontic",
+          "category": "Modal: deontic",
           "emergence": -2,
           "disparition": "None",
           "attestation": "PLAUT. Amph. 617 quin intro ire in aedis numquam licitum est.",
@@ -354,7 +354,7 @@ map_data = {
         },
         {
           "id": "afrclj",
-          "modal": "Modal: dynamic",
+          "category": "Modal: dynamic",
           "emergence": -2,
           "disparition": "None",
           "attestation": "PLAUT. Trin. 566 ego esse locuples... volo. ∷ licitumst, si velles; nunc, quom nihil est, non -et.",
@@ -376,10 +376,10 @@ map_data = {
       "definition": "[postmodal concessive value whence later the conjunction 'although' originates]",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "icfpnfx",
-          "modal": "Postmodal",
+          "category": "Postmodal",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Asin. 718 licet laudem Fortunam, tamen ut ne Salutem culpem.",
@@ -396,10 +396,10 @@ map_data = {
       "definition": "Since, as / when",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "rqdzzk",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 4,
           "disparition": "None",
           "attestation": "SERV. georg. 4, 454 quibus fatis faventibus ira numinum minora infert, licet maiora non possit.",
@@ -425,10 +425,10 @@ map_data = {
       "definition": "Immoderate or unruly behaviour",
       "construct": "LICĒNS",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "rrpqle",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. de orat. 3, 185 (e Theophrasto) inde, sc. ex anapaesto, ille licentior et divitior fluxit dithyrambus, cuius membra et pedes ... sunt in omni locupleti oratione diffusa.",
@@ -450,10 +450,10 @@ map_data = {
       "definition": "Permitted, allowed",
       "construct": "LICĒNS",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "qqfrhb",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 1,
           "disparition": "None",
           "attestation": "VAL. MAX. 7, 3, 10 infelicis animi impetum satietate licentis concubitus (i. e. cum scorto) resolutum ad id, quod non licebat, tardiorem... adferens (before: vulgari et permissa Venere).",

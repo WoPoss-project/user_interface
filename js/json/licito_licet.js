@@ -15,10 +15,10 @@ map_data = {
       "definition": "lawfully",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "sefls",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 2,
           "disparition": "None",
           "attestation": "GAIUS epit. 1, 4, 2 illicita sunt coniugia... si emancipatio intervenerit, nuptiae... licito contrahuntur.",

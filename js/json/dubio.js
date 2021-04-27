@@ -21,10 +21,10 @@ map_data = {
       "definition": "[negative] Undoubtedly",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "fdhtmh",
-          "modal": "Modal: epistemic",
+          "category": "Modal: epistemic",
           "emergence": 2,
           "disparition": "None",
           "attestation": "APUL. Met. 9, 2 nec dubio me lanceis illis… membratim compilassent, ni… cubiculum… protinus inrupissem.",

@@ -12,9 +12,9 @@ map_data = {
         "definition": "To be able to",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "zvniv",
-            "modal": "Modal: dynamic",
+            "category": "Modal: dynamic",
             "emergence": -3,
             "disparition": "None",
             "attestation": "PLAUT. Cist. 183 servolum iubet illum eundem persequi, si qua queat reperire quae sustulerit.",
@@ -25,9 +25,9 @@ map_data = {
         "definition": "To be possible",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "gngg",
-            "modal": "Modal: dynamic",
+            "category": "Modal: dynamic",
             "emergence": -3,
             "disparition": "None",
             "attestation": "CAECIL. com. 279 si non sarciri quitur.",

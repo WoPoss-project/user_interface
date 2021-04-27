@@ -21,10 +21,10 @@ map_data = {
       "definition": "Worth of approval",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "yjqigo",
-          "modal": "Modal: deontic",
+          "category": "Modal: deontic",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CAECIN. Cic. fam. 6, 7, 3 tot malis… fractum studium scribendi quid dignum auribus aut probabile potest adferre?",
@@ -50,10 +50,10 @@ map_data = {
       "definition": "Tolerable, that can be forgiven",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "pihaqdhiq",
-          "modal": "Modal: dynamic",
+          "category": "Modal: dynamic",
           "emergence": 1,
           "disparition": "None",
           "attestation": "NERAT. Dig. 41, 10, 5, 1 ut probabilis error … usucapioni non obstet (postea: in alieni facti ignorantia tolerabilis error est).",
@@ -75,10 +75,10 @@ map_data = {
       "definition": "Proven to be good at military arts",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "aefeqsn",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 3,
           "disparition": "None",
           "attestation": "PASS. Maximil. 1, 1 probabilis est (antea: cum bono tirone).",
@@ -100,10 +100,10 @@ map_data = {
       "definition": "Plausible, apparently true, clear to the understanding",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "pkmhju",
-          "modal": "Modal: epistemic",
+          "category": "Modal: epistemic",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. Quinct. 41 Dubitabitur, utrum sit probabilius, Sex. Naevium statim, si quid deberetur, petiturum fuisse, an ne appellaturum quidem biennio?",
@@ -125,10 +125,10 @@ map_data = {
       "definition": "Demonstrable",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "bmbzm",
-          "modal": "Modal: dynamic",
+          "category": "Modal: dynamic",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. de orat. 1, 240 (adversarii) disputationem… probabilem et prope veram videri.",

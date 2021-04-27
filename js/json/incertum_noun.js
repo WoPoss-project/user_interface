@@ -21,10 +21,10 @@ map_data = {
       "definition": "Unsure",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "vklnkpih",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -2,
           "disparition": "None",
           "attestation": "PLAUT. Pseud. 965 qui ex incerto faciet mihi quod quaero certius.",
@@ -63,10 +63,10 @@ map_data = {
       "definition": "Undefined span of time",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "byelk",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "LIV. 4, 13, 7 in incertum.",
@@ -88,10 +88,10 @@ map_data = {
       "definition": "Unsafe place",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "yugrvau",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 1,
           "disparition": "None",
           "attestation": "TAC. ann. 14, 29, 2 naves... fabricatur plano alveo adversus breve et incertum.",
@@ -113,10 +113,10 @@ map_data = {
       "definition": "Untrustworthy fate",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "idgnhf",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 4,
           "disparition": "None",
           "attestation": "HIL. in Matth. 26, 4 p. 1057 D incerti... metu... sollicitos.",
@@ -138,10 +138,10 @@ map_data = {
       "definition": "Ambiguity, unintelligibility",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "ycxrmh",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. Caecin. 38 ad incertum revocari bona eqs. ",
@@ -176,10 +176,10 @@ map_data = {
       "definition": "To be uncertain",
       "construct": "IN INCERTO ESSE and similar",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "pallf",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "BELL. ALEX. 16, 1 omnia... victoribus erant futura in incerto.",
@@ -206,7 +206,7 @@ map_data = {
         },
         {
           "id": "asfrzp",
-          "modal": "Modal: epistemic",
+          "category": "Modal: epistemic",
           "emergence": -1,
           "disparition": "None",
           "attestation": "SALL. Iug. 38, 5 fugere an manere tutius foret, in incerto erat.",
@@ -233,10 +233,10 @@ map_data = {
       "definition": "It is not sure",
       "construct": "INCERTUM EST DE",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "ziwwu",
-          "modal": "Modal: epistemic",
+          "category": "Modal: epistemic",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. div. in Caec. 60 [no SoA] cum incertum sit de iniuria.",
@@ -268,10 +268,10 @@ map_data = {
       "definition": "It is not sure",
       "construct": "INCERTUM EST IN",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "gvmhvk",
-          "modal": "Modal: epistemic",
+          "category": "Modal: epistemic",
           "emergence": 1,
           "disparition": "None",
           "attestation": "ULP. Dig. 18, 1, 7, 1 [no SoA] in rei veritate incertum est (before: ignoratur).",
@@ -293,10 +293,10 @@ map_data = {
       "definition": "Randomly, casually",
       "construct": "IN INCERTUM",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "ujptwyv",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "SALL. hist. frg. 2, 87 A 6 tela in incertum iacientes.",
@@ -327,10 +327,10 @@ map_data = {
       "definition": "Randomly, casually",
       "construct": "AD INCERTUM",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "olcnxj",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 4,
           "disparition": "None",
           "attestation": "PS. CYPR. singul. cler. 22 p. 199, 1 ne se ad incertum subiceret temptationi carnali.",
@@ -357,10 +357,10 @@ map_data = {
       "definition": "Randomly, casually",
       "construct": "EX INCERTO",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "xdemx",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 4,
           "disparition": "None",
           "attestation": "DICT. 3, 16 nunc planctus crebri, modo... silentium ex incerto.",
@@ -387,10 +387,10 @@ map_data = {
       "definition": "Lack of knowledge, uncertainty",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "ohipjwxj",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -2,
           "disparition": "None",
           "attestation": "PLAUT. Pseud. 759 quidquid incerti mi in animo prius aut ambiguom fuit, nunc liquet eqs.",
@@ -421,7 +421,7 @@ map_data = {
         },
         {
           "id": "msjbwn",
-          "modal": "Modal: epistemic",
+          "category": "Modal: epistemic",
           "emergence": 1,
           "disparition": "None",
           "attestation": "TAC. hist. 2, 83, 2 Vitellium in incerto fore, quam partem Italiae protegeret.",
@@ -443,10 +443,10 @@ map_data = {
       "definition": "Doubtfully, hesitantly",
       "construct": "INCERTUM",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "rjwis",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "OV. epist. 10, 9 incertum vigilans, a somno languida Ariadne.",
@@ -473,10 +473,10 @@ map_data = {
       "definition": "Doubtfully, hesitantly",
       "construct": "INCERTA",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "qplh",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 1,
           "disparition": "None",
           "attestation": "LUCAN. 1, 353 dubium non claro murmure volgus secum incerta fremit.",

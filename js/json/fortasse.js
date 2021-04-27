@@ -27,10 +27,10 @@ map_data ={
       "definition": "It may be, perhaps, possibly",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "owmfesk",
-          "modal": "Modal: epistemic",
+          "category": "Modal: epistemic",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Asin. 37 percepi... quid istuc sit loci: ubi fit polenta te fortasse dicere.",
@@ -52,10 +52,10 @@ map_data ={
       "definition": "around, about",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "ddcixo",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Mil. 350 noster est fortasse circiter triennium.",

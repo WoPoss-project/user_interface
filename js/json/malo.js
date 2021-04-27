@@ -21,10 +21,10 @@ map_data = {
       "definition": "To prefer",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "lse",
-          "modal": "Modal: deontic",
+          "category": "Modal: deontic",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Mil. 171 hau multos homines... nunc videre... quam te mavellem. ",
@@ -50,10 +50,10 @@ map_data = {
       "definition": "To rather consider, think",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "xdxonqr",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. Cael. 50 ea si tu non es – sicut ego malo – ...; sin eam te volunt esse eqs.",
@@ -80,10 +80,10 @@ map_data = {
       "definition": "To want",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "agwg",
-          "modal": "Modal: deontic",
+          "category": "Modal: deontic",
           "emergence": -1,
           "disparition": "None",
           "attestation": "GRAN. LIC. p. 26, 6 F. condiciones impositae, si rex pacem mallet.",
@@ -110,10 +110,10 @@ map_data = {
       "definition": "To decide to do something ",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "pfm",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 2,
           "disparition": "None",
           "attestation": "PAUL. coll. Mos. 4, 2, 1 interpretationem... facturus per ipsa capitula ire malui.",

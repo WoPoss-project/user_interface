@@ -21,10 +21,10 @@ map_data = {
       "definition": "Hesitantly",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "jnfxkyj",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 5,
           "disparition": "None",
           "attestation": "CLAUD. carm. min. app. 2, 93 dubiumque residens infremit (leo).",
@@ -46,10 +46,10 @@ map_data = {
       "definition": "[negative] Undoubtedly",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "hao",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 4,
           "disparition": "None",
           "attestation": "AUG. Epist. 9, 2 non dubium... magna.",
@@ -71,7 +71,7 @@ map_data = {
         },
         {
           "id": "qmff",
-          "modal": "Modal: epistemic",
+          "category": "Modal: epistemic",
           "emergence": 5,
           "disparition": "None",
           "attestation": "SEDUL. carm. pasch. 4, 27 nec dubium in caelum substantia pervenit illa.",

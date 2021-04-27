@@ -12,9 +12,9 @@ map_data = {
         "definition": "In an uncertain way ",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "nubs",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -3,
             "disparition": "None",
             "attestation": "PACUV. trag. 225 exul incerta vagat (Medea).",

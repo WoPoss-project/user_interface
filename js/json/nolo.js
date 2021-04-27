@@ -21,10 +21,10 @@ map_data ={
       "definition": "To be unwilling, not to want (to) ",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "lnhqbqn",
-          "modal": "Modal: deontic",
+          "category": "Modal: deontic",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Asin. 835 nolo ego metui, amari mavolo.",
@@ -71,10 +71,10 @@ map_data ={
       "definition": "To refuse, decline",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "rkiwbt",
-          "modal": "Modal: deontic",
+          "category": "Modal: deontic",
           "emergence": -2,
           "disparition": "None",
           "attestation": "LUCIL. Saturarum fragmenta 184 ut per‹i›isse uelis, quem uisere nolueris, cum debueris.",
@@ -96,10 +96,10 @@ map_data ={
       "definition": "Not to intend",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "yrsciq",
-          "modal": "Modal: deontic",
+          "category": "Modal: deontic",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. Q. fr. 3, 9, 8 lapsus est per errorem… quas (tabulas) noluit eas obsignavit.",
@@ -121,10 +121,10 @@ map_data ={
       "definition": "Willy-nilly, whether one wants to or not",
       "construct": "VELIM NOLIM(VE)",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "athzs",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. nat. deor. 1, 17, 8 ut mihi velim nolim sit certa quaedam tuenda sententia. ",
@@ -146,10 +146,10 @@ map_data ={
       "definition": "To feel (or express) unwillingness (that something should happen)",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "atinubs",
-          "modal": "Modal: deontic",
+          "category": "Modal: deontic",
           "emergence": -2,
           "disparition": "None",
           "attestation": "PLAUT. Stich. 734 nolo optaedescat.",
@@ -176,10 +176,10 @@ map_data ={
       "definition": "I could wish that (something had) not happened -> I am sorry that",
       "construct": "NOLLEM, NOLIM",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "uipgs",
-          "modal": "Modal: deontic",
+          "category": "Modal: deontic",
           "emergence": -2,
           "disparition": "None",
           "attestation": "TER. Adelphoe 775 sane nollem huc exitum.",
@@ -206,10 +206,10 @@ map_data ={
       "definition": "Not to want or care for",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "augnsnp",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -3,
           "disparition": "None",
           "attestation": "NAEV. Comoediarum fragmenta 8 Quasi dedita opera quae ego uolo ea tu non uis, quae ego nolo ea cupis.",
@@ -231,10 +231,10 @@ map_data ={
       "definition": "[negative imperative] Do not",
       "construct": "NOLI + infinitive",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "pgpqw",
-          "modal": "Postmodal",
+          "category": "Postmodal",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Mil. 1129 sed abi intro. Noli stare.",

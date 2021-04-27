@@ -21,10 +21,10 @@ map_data = {
       "definition": "(Technical term in rhetoric and philosophy) possible",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "tfbwld",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 1,
           "disparition": "None",
           "attestation": "QUINT. Inst. 3, 8, 25 melius… qui tertiam partem duxerunt δυνατόν, quod nostri possibile nominant; quae ut dura videatur appellatio, tamen sola est.",
@@ -46,10 +46,10 @@ map_data = {
       "definition": "That can be or happen",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "vwudovz",
-          "modal": "Modal: deontic authority permission",
+          "category": "Modal: deontic authority permission",
           "emergence": 2,
           "disparition": "None",
           "attestation": "VENUL. Dig. 45, 1, 137, 6 nec ad rem pertinet, quod ius mutari potest et id, quod nunc impossibile est, postea (i.e. iure mutato) possibile fieri.",
@@ -71,10 +71,10 @@ map_data = {
       "definition": "That can be or happen",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "dhdp",
-          "modal": "Modal: dynamic",
+          "category": "Modal: dynamic",
           "emergence": 2,
           "disparition": "None",
           "attestation": "VENUL. dig. 45, 1, 137, 5 si ab eo stipulatus sim, qui efficere non possit, cum alio possibile sit, iure factam obligationem Sabinus scribit.",
@@ -113,10 +113,10 @@ map_data = {
       "definition": "That can be satisfied, achieved",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "gaqml",
-          "modal": "Modal: dynamic",
+          "category": "Modal: dynamic",
           "emergence": 2,
           "disparition": "None",
           "attestation": "POMPON. dig. 28, 3, 16 in futurum… collatae condiciones si possibiles sunt [existere potuerunt, licet non exstiterint], efficiunt, ut superius testamentum rumpatur, etiamsi non exstiterint; si vero impossibiles sunt eqs. ",
@@ -151,10 +151,10 @@ map_data = {
       "definition": "That can be proven right",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "awgtyj",
-          "modal": "Modal: dynamic",
+          "category": "Modal: dynamic",
           "emergence": 4,
           "disparition": "None",
           "attestation": "SYMM. Epist. 7, 8 quod possibilis coniectura promittit.",
@@ -181,7 +181,7 @@ map_data = {
         },
         {
           "id": "abcde",
-          "modal": "Modal: epistemic",
+          "category": "Modal: epistemic",
           "emergence": 4,
           "disparition": "None",
           "attestation": "SYMM. Epist. 7, 8 quod possibilis coniectura promittit.",
@@ -217,10 +217,10 @@ map_data = {
       "definition": "Right, apt, worthy",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "ne",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 4,
           "disparition": "None",
           "attestation": "IUVENC. 3, 522 deus electis facilem praepandit in aethra possibilemque viam.",
@@ -246,10 +246,10 @@ map_data = {
       "definition": "Someone qualified, worthy",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "grzzu",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 4,
           "disparition": "None",
           "attestation": "PS. PHILO antiq. 53, 7 (Samuel ad deum) si possibilis sum, loquere.",
@@ -280,10 +280,10 @@ map_data = {
       "definition": "Someone who is strong, powerful",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "nyas",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 2,
           "disparition": "None",
           "attestation": "ITALA gen. 26, 16 perge a nobis, quia possibilior nobis factus es.",
@@ -318,10 +318,10 @@ map_data = {
       "definition": "Someone who is able to / can do something",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "nhkwke",
-          "modal": "Modal: dynamic",
+          "category": "Modal: dynamic",
           "emergence": 4,
           "disparition": "None",
           "attestation": "PHILO quaest. in gen. 4, 208 possibilis factus sum ad inveniendum.",
@@ -348,10 +348,10 @@ map_data = {
       "definition": "That is possible",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "mipaio",
-          "modal": "Modal: epistemic",
+          "category": "Modal: epistemic",
           "emergence": 5,
           "disparition": "None",
           "attestation": "ORIG. in Matth. 15, 16 p. 395, 30 Possibile est ex hoc ipso quod tradidit omnia sua, ut patiens aliquid humanum ex paupertate poeniteat eum facti, desideret autem similia possidere. ",

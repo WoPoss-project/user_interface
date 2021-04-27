@@ -12,9 +12,9 @@ map_data = {
         "definition": "In an uncertain way ",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "sraxqii",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": 6,
             "disparition": "None",
             "attestation": "CAES. AREL. epist. ad virg. 3, 5 p. 52, 6 M. ut ambiguitate constricta... incertim incedas.",

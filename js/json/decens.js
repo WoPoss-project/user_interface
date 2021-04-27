@@ -17,9 +17,9 @@ map_data = {
         "definition": "Right, apt, proper, fitting",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "xznjvuhm",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
             "attestation": "HOR. epist. 1, 1, 11 quid verum atque decens.",
@@ -34,9 +34,9 @@ map_data = {
         "definition": "It ought, it is appropriate",
         "construct": "DECENS EST",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "ywocw",
-            "modal": "Modal: deontic acceptability",
+            "category": "Modal: deontic acceptability",
             "emergence": 1,
             "disparition": "None",
             "attestation": "QUINT. Inst. 11, 1, 78 decentius erit … servare iudicium pudorem. ",
@@ -47,9 +47,9 @@ map_data = {
         "definition": "Nice, elegant, pleasant",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "mcwbhpu",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
             "attestation": "OV. am. 3, 1, 9 forma decens, vestis tenuissima, vultus amantis. ",
@@ -64,9 +64,9 @@ map_data = {
         "definition": "Pure, virtuous, chaste",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "yamgrvvi",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
             "attestation": "HOR. carm. 4, 1, 13 nobilis et decens … puer. ",

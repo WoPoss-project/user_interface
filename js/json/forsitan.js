@@ -27,10 +27,10 @@ map_data = {
       "definition": "Perhaps, possibly, maybe",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "euqz",
-          "modal": "Modal: epistemic",
+          "category": "Modal: epistemic",
           "emergence": -2,
           "disparition": "None",
           "attestation": "TER. Phorm. 717 si altera illaec magis instabit, forsitan nos reiciat.",
@@ -64,10 +64,10 @@ map_data = {
       "definition": "If, by any chance",
       "construct": "si, nisi forsitan",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "wuuyr",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CAEL. Cic. epist. 8, 3, 1 mea causa cupio, si fio, si forsitan cum locupletiore referam.",
@@ -94,10 +94,10 @@ map_data = {
       "definition": "Perhaps even",
       "construct": "forsitan et",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "riwwaruk",
-          "modal": "Modal: epistemic",
+          "category": "Modal: epistemic",
           "emergence": -1,
           "disparition": "None",
           "attestation": "LUCR. 5, 610 Forsitan et rosea sol alte lampade lucens possideat multum caecis fervoribus ignem circum se eqs.",
@@ -119,10 +119,10 @@ map_data = {
       "definition": "Around, about",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "orpn",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 1,
           "disparition": "None",
           "attestation": "MART. 10, 104, 7 Bilbilin ... quinto forsitan essedo videbis.",
@@ -144,10 +144,10 @@ map_data = {
       "definition": "As, for instance",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "djvvklm",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 2,
           "disparition": "None",
           "attestation": "TERT. anim. 34 p. 359, 26 Helena mille navibus de Troia eruitur nec mille denariis forsitan de lupanari.",
@@ -169,10 +169,10 @@ map_data = {
       "definition": "If by chance",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "kgu",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 6,
           "disparition": "None",
           "attestation": "GREG. TUR. glor. mart. 30 inquiri praecepit forsitan aliquis reperiretur. ",

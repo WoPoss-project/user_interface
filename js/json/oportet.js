@@ -12,9 +12,9 @@ map_data = {
         "definition": "It is necessary",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "mfxcwu",
-            "modal": "Modal: deontic authority",
+            "category": "Modal: deontic authority",
             "emergence": -2,
             "disparition": "None",
             "attestation": "LEX BANT. (CIL I 583) 8 quaeve ex h(ace) l(ege) facere oportuerit.",
@@ -25,9 +25,9 @@ map_data = {
         "definition": "It is necessary",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "pvqz",
-            "modal": "Modal: deontic acceptability",
+            "category": "Modal: deontic acceptability",
             "emergence": -3,
             "disparition": "None",
             "attestation": "PLAUT. Merc. 724 quin dicis? :: quin, si liceat… :: dictum oportuit.",
@@ -42,9 +42,9 @@ map_data = {
         "definition": "It is necessary",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "xvqwvjr",
-            "modal": "Modal: epistemic",
+            "category": "Modal: epistemic",
             "emergence": -3,
             "disparition": "None",
             "attestation": "PLAUT. Asin. 381 ut demonstratae sunt mihi, hasce aedis esse oportet, Demaenetus ubi dicitur habitare.",
@@ -59,9 +59,9 @@ map_data = {
         "definition": "It is necessary",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "jobvodx",
-            "modal": "Modal: dynamic",
+            "category": "Modal: dynamic",
             "emergence": -2,
             "disparition": "None",
             "attestation": "PLAUT. Aul. 180 Nam neque quisquam curialium venit neque magister quem dividere argentum oportuit.",
@@ -76,9 +76,9 @@ map_data = {
         "definition": "To have to",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "rjzizg",
-            "modal": "Modal: dynamic",
+            "category": "Modal: dynamic",
             "emergence": -2,
             "disparition": "None",
             "attestation": "TER. Andr. 481 adhuc, Archylis, quae adsolent quaeque oportent signa esse ad salutem, omnia huic esse video.",
@@ -93,9 +93,9 @@ map_data = {
         "definition": "To have to",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "cugunm",
-            "modal": "Modal: deontic acceptability",
+            "category": "Modal: deontic acceptability",
             "emergence": -1,
             "disparition": "None",
             "attestation": "VITR. 4, 6, 1 reliqua ... videntur oportere conlocari. ",
@@ -110,9 +110,9 @@ map_data = {
         "definition": "To have to",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "bgtph",
-            "modal": "Modal: deontic authority",
+            "category": "Modal: deontic authority",
             "emergence": -1,
             "disparition": "None",
             "attestation": "LEX URSON. (CIL I 594)1 125, 18 quibusque locos in decurionum loco | ex d(ecreto) d(ecurionum) col(oniae) Gen(etivae) d(ari) o(portebit),",

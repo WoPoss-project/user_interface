@@ -12,9 +12,9 @@ map_data = {
         "definition": "Without equanimity",
         "construct": "_",
         "group": "IN AN UNEQUAL WAY",
-        "modalities": [{
+        "analysis": [{
             "id": "pvmbaaq",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": 1,
             "disparition": "None",
             "attestation": "SVET. Iul. 45, 2 ut calvitii… deformitatem iniquissime ferret (Caesar).",
@@ -25,9 +25,9 @@ map_data = {
         "definition": "Unfairly, wrongfully",
         "construct": "_",
         "group": "IN AN UNEQUAL WAY",
-        "modalities": [{
+        "analysis": [{
             "id": "rojkn",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -2,
             "disparition": "None",
             "attestation": "PLAUT. Cas. 617 quid ego umquam erga Venerem inique fecerim...? ",
@@ -42,9 +42,9 @@ map_data = {
         "definition": "Unlawfully, not legitimately",
         "construct": "_",
         "group": "IN AN UNEQUAL WAY",
-        "modalities": [{
+        "analysis": [{
             "id": "braewu",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": 5,
             "disparition": "None",
             "attestation": "AUG. bon. coniug. 14, 16 agris inique ac perperam invasis. (right context: iniusta potestate, opposed to iuste quaesito agro, possessor legitimus).",
@@ -55,9 +55,9 @@ map_data = {
         "definition": "In the wrong way",
         "construct": "_",
         "group": "IN AN UNEQUAL WAY",
-        "modalities": [{
+        "analysis": [{
             "id": "unpuil",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -3,
             "disparition": "None",
             "attestation": "PLAUT. Rud. 1097 haud iniquom dicit (i. imperat )..., ut ostendatur vidulus. ∷ immo hercle insignite inique.",
@@ -75,9 +75,9 @@ map_data = {
         "definition": "Recklessly, imprudently",
         "construct": "_",
         "group": "IN AN UNEQUAL WAY",
-        "modalities": [{
+        "analysis": [{
             "id": "adyawj",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": 1,
             "disparition": "None",
             "attestation": "HOMER. 329 (Helena ad Paridem) moneo, ne rursus inique illius (i. e. Atridae) tua fata velis committere dextrae.",
@@ -88,9 +88,9 @@ map_data = {
         "definition": "Ill, badly",
         "construct": "_",
         "group": "IN AN UNEQUAL WAY",
-        "modalities": [{
+        "analysis": [{
             "id": "jdpsmu",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": 2,
             "disparition": "None",
             "attestation": "PORPH. Hor. Carm. 3, 5, 41/43 bene... additum ‘pudicae coniugis’, ne putares illum ideo osculum coniugis aversatum, quod de pudicitia eius iniquius sensisset.",

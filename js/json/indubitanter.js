@@ -12,9 +12,9 @@ map_data = {
         "definition": "Without doubt",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "vmmic",
-            "modal": "Modal: epistemic",
+            "category": "Modal: epistemic",
             "emergence": 4,
             "disparition": "None",
             "attestation": "CHAR. gramm. p. 85, 11 B. indubitanter nominativo ‘es’ finiuntur.",
@@ -25,9 +25,9 @@ map_data = {
         "definition": "What needs to happen/be done is not object of doubt",
         "construct": "INDUBITANTER FIAT",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "csecvf",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": 5,
             "disparition": "None",
             "attestation": "COD. Theod. 8, 7, 12 ei cui adscribtus est militiae indubitanter iungatur.",
@@ -42,9 +42,9 @@ map_data = {
         "definition": "Certainly [with a concessive nuance]",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "wvbjvk",
-            "modal": "Modal: epistemic",
+            "category": "Modal: epistemic",
             "emergence": 5,
             "disparition": "None",
             "attestation": "CONC. S I 5 p. 176, 9 quod enim erat naturae, id est mortem, indubitanter assumpsit; peccatum vero, quod non erat naturae, sed voluntatis, nullo pacto suscepit.",
@@ -55,9 +55,9 @@ map_data = {
         "definition": "Of course, clearly, evidently",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "ojwtwa",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": 5,
             "disparition": "None",
             "attestation": "DIONYS. EXIG. Conc. S I 5 p. 296, 11 voces ... eas quidem tamquam homini convenire, profecto quas humanitus protulit, illas vero deo verbo congruere, quas deitate dignas indubitanter exprompsit.",
@@ -68,9 +68,9 @@ map_data = {
         "definition": "So that one could not doubt any further",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "zvinwrn",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": 4,
             "disparition": "None",
             "attestation": "HIER. in Is. 21, 13 p. 194 B totum prophetiae testimonium de Jeremia posui, ut quae sit Cedar, indubitanter intelligas.",
@@ -85,9 +85,9 @@ map_data = {
         "definition": "Without hesitation, without fear",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "qfklgbp",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": 4,
             "disparition": "None",
             "attestation": "NON. p. 54, 24 Cato id vocabulum indubitanter adposuit.",
@@ -102,9 +102,9 @@ map_data = {
         "definition": "In such way that one could not doubt, firmly",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "zfvbjav",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": 4,
             "disparition": "None",
             "attestation": "ZENO 1, 2, 2 p. 271A dei dicto indubitanter ac fortiter creditur.",

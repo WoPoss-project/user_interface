@@ -26,7 +26,6 @@
     {
       "id": "zbrvkq",
       "definition": "playing card",
-      "modal": "playing card",
       "construct": "jouer aux cartes",
       "group": "playing card",
       "emergence": 14,
@@ -56,10 +55,6 @@
             "cert": true
           },
           {
-            "rel": "qevbmq",
-            "cert": true
-          },
-          {
             "rel": "ecrgttr",
             "cert": true
           }
@@ -69,7 +64,6 @@
     },
     {
       "id": "ujjtkh",
-      "modal": "playing card",
       "definition": "make a case more complicated",
       "construct": "brouiller les cartes",
       "group": "playing card",

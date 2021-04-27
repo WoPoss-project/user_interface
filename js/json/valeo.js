@@ -12,9 +12,9 @@ map_data = {
         "definition": "to be physically powerful, have strength ",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "xbbxlbg",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -2,
             "disparition": "None",
             "attestation": "PLAUT. Stich. 311 experiar fores an cubiti an pedes plus -eant.",
@@ -32,9 +32,9 @@ map_data = {
         "definition": "to have sufficient strength (for a task) ",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "rfnfgqo",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
             "attestation": "OV. Ep. 8, 6 cetera femineae non -uere manus.",
@@ -49,9 +49,9 @@ map_data = {
         "definition": "to be strong enough (to) ",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "qnfylo",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
             "attestation": "HOR. Carm. 3, 25, 15 Baccharum… -entium proceras manibus vertere fraxinos.",
@@ -62,9 +62,9 @@ map_data = {
         "definition": "to be vigorous or robust ",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "gnezr",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -3,
             "disparition": "None",
             "attestation": "CATO Agr. 33, 2 vitem novellam resicari tum erit tempus ubi -ebit.",
@@ -79,9 +79,9 @@ map_data = {
         "definition": "to be tough or stout ",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "ebfxkp",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
             "attestation": "VITR. 7, 1, 2 quo minus (axes)… -uerint, eo facilius clavis fixi continebitur.",
@@ -92,9 +92,9 @@ map_data = {
         "definition": "to be in sound health, be well",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "fzfa",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -3,
             "disparition": "None",
             "attestation": "PLAUT. Mil. 1318 matri oculi si -erent, mecum venissent simul.",
@@ -112,9 +112,9 @@ map_data = {
         "definition": "to be in (good, bad, etc.) health ",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "adducbc",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -3,
             "disparition": "None",
             "attestation": "PLAUT. Curc. 169 male -ere te, quod mi aegrest.",
@@ -125,9 +125,9 @@ map_data = {
         "definition": "[in asseverations]",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "cgjkrme",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": 1,
             "disparition": "None",
             "attestation": "MART. 4, 31, 3 ne -eam si non res est gratissima nobis.",
@@ -138,9 +138,9 @@ map_data = {
         "definition": "[at the close of a letter]",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "tklyufug",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
             "attestation": "CIC. Att. 11, 10, 2 plura ad te scribam, si mihi… rescripseris. -e.",
@@ -151,9 +151,9 @@ map_data = {
         "definition": "[scornful dismissal]",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "nkyyeqxm",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -3,
             "disparition": "None",
             "attestation": "PLAUT. Asin. 231 dic, quid me aequom censes pro illa tibi dare,…? :: tene? Viginti minas; atque ea lege: si alius ad me prius attulerit, tu -e.",
@@ -164,9 +164,9 @@ map_data = {
         "definition": "to have force or power ",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "kpyctcz",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
             "attestation": "OV. Met. 9, 239 iamque -ens et in omne latus diffusa sonabat… flamma.",
@@ -181,7 +181,7 @@ map_data = {
             }
         }, {
             "id": "dakvpm",
-            "modal": "Modal: dynamic",
+            "category": "Modal: dynamic",
             "emergence": -1,
             "disparition": "None",
             "attestation": "LUCR. 6, 1057 illud… mirari mitte, quod aestus non -et e lapide hoc (i. e. magnet) alias impellere item res.",
@@ -196,9 +196,9 @@ map_data = {
         "definition": "to be potent ",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "uvixzk",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
             "attestation": "CIC. Tusc. 5, 13 tamquam levia quaedam vin nihil -ent in aqua.",
@@ -206,7 +206,7 @@ map_data = {
             "relationships": {"origins": [], "destinations": [{"rel": "hefgwe", "cert": true}], "unspecified": []}
         }, {
             "id": "hefgwe",
-            "modal": "Modal: dynamic",
+            "category": "Modal: dynamic",
             "emergence": 1,
             "disparition": "None",
             "attestation": "COL. 6, 25 sucus… porri -et eius modi necare animalia.",
@@ -217,9 +217,9 @@ map_data = {
         "definition": "To possess, or have predominance in, military or political power, resources, etc.",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "szrerep",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
             "attestation": "CIC. Att. 16, 9 vereor ne -eat Antonius.",
@@ -230,9 +230,9 @@ map_data = {
         "definition": "to be formidably superior (by reason of a quality, gift, or similar) ",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "skci",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -2,
             "disparition": "None",
             "attestation": "PLAUT. Bacch. 226 non metus… dum quidem hoc -ebit pectus perfidia meum.",
@@ -247,9 +247,9 @@ map_data = {
         "definition": "to be highly proficient (in a field) ",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "ticjvm",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
             "attestation": "NEP. Alc. 1, 2 Alcibiades… disertus, ut in primis dicendo -eret.",
@@ -260,9 +260,9 @@ map_data = {
         "definition": "to have the upper hand, prevail ",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "owklk",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -2,
             "disparition": "None",
             "attestation": "TER. Hau. 26 quod malevolus vetus poeta dictitat… arbitrium vostrum, vostra existumatio -ebit.",
@@ -277,9 +277,9 @@ map_data = {
         "definition": "to have the ability or power (to) ",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "dw",
-            "modal": "Modal: dynamic",
+            "category": "Modal: dynamic",
             "emergence": -1,
             "disparition": "None",
             "attestation": "Rhet. Her. 1, 3 imitatio est, qua impellimur… ut aliquorum similes in dicendo -eamus esse.",
@@ -294,9 +294,9 @@ map_data = {
         "definition": "to have power to achieve a result, be effective, avail, succeed ",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "xcupyhp",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
             "attestation": "Q. CIC. Pet. 57 si competitoribus iudicium proponimus… perfici potest ut largitio nulla sit aut nihil -eat.",
@@ -311,9 +311,9 @@ map_data = {
         "definition": "to tend effectively (to a result), serve (towards) ",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "bowjwmbq",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
             "attestation": "Rhet. Her. 3, 19 pronuntiationem… utilem oratori esse et ad persuadendum plurimum -ere.",
@@ -324,9 +324,9 @@ map_data = {
         "definition": "to have power to affect one’s feelings, behaviour, etc, have weight or influence ",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "dlopmq",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -3,
             "disparition": "None",
             "attestation": "ENN. Scen. 201 cum opulenti loquuntur pariter atque ingobiles… eadem… oratio aequa non aeque -et. ",
@@ -344,9 +344,9 @@ map_data = {
         "definition": "to have legal authority or similar, be valid ",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "smwadda",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
             "attestation": "CIC. Dom. 68 nihil de meo capite potuisse ferri, nihil esse iure scriptum aut posse -ere.",
@@ -361,9 +361,9 @@ map_data = {
         "definition": "to hold good, apply ",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "gjfbs",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
             "attestation": "CIC. Top. 23 quod in re maiore -et -eat in minore.",
@@ -374,9 +374,9 @@ map_data = {
         "definition": "to be treated as equivalent (to), do duty (as) ",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "grxun",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
             "attestation": "CIC. Div. 2, 121 somnus… in quo -eant falsa pro veris.",
@@ -387,9 +387,9 @@ map_data = {
         "definition": "to be equivalent in value (to), be worth ",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "aafvwnp",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
             "attestation": "VAR. L. 5, 173 denarii, quod denos aeris -ebunt; quinarii quod quinos.",
@@ -400,9 +400,9 @@ map_data = {
         "definition": "to mean, signify ",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "zyvhq",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -2,
             "disparition": "None",
             "attestation": "LUCIL. 1216 “apud te” aliud longe est, neque idem -et “ad te”. ",
@@ -413,9 +413,9 @@ map_data = {
         "definition": "[formula at the beginning of letters]",
         "construct": "si -es, bene est",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "kqo",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
             "attestation": "CIC. Fam. 5, 2, 1 si tu exercitusque -etis, benest.",
@@ -426,9 +426,9 @@ map_data = {
         "definition": "goodbye! ",
         "construct": "-e (-eas etc.)",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "nhrfkpik",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -3,
             "disparition": "None",
             "attestation": "PLAUT. Asin. 745 ite intro cito. -ete.",
@@ -446,9 +446,9 @@ map_data = {
         "definition": "to bid goodbye",
         "construct": "-ere iubere/dicere",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "dgqigrf",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
             "attestation": "CIC. Att. 5, 2, 2 illum… salutavi, post etiam iussi -ere.",

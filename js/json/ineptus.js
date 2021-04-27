@@ -27,10 +27,10 @@ map_data = {
       "definition": "Someone who (or something that) does not fit time, place, human norms",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "wztmwqae",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Rud. 1204 nimis paene inepta atque odiosa eius amatiost.",
@@ -57,10 +57,10 @@ map_data = {
       "definition": "Stupid, light-minded, silly",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "nnqeag",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Rud. 681 desine, nimis inepta es.",
@@ -95,10 +95,10 @@ map_data = {
       "definition": "Not suited for a given purpose, unsuitable, useless",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "rkcmzp",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 4,
           "disparition": "None",
           "attestation": "COD. Theod. 7, 22, 5 pr. inaptos militiae curiarum societati coniungas.",
@@ -125,7 +125,7 @@ map_data = {
         },
         {
           "id": "abc",
-          "modal": "Modal: dynamic",
+          "category": "Modal: dynamic",
           "emergence": 5,
           "disparition": "None",
           "attestation": "MACR. Sat. 1, 11, 41 sed nec ad philosophandum ineptum vel impar servile ingenium fuit.",
@@ -147,10 +147,10 @@ map_data = {
       "definition": "Merciless, cruel ",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "liwac",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 6,
           "disparition": "None",
           "attestation": "SACR. Leon. p. 357 non... nos exagitet inepta laceratio superborum. ",
@@ -176,10 +176,10 @@ map_data = {
       "definition": "It is silly, foolish",
       "construct": "INEPTUM EST",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "tiljuba",
-          "modal": "Modal: deontic",
+          "category": "Modal: deontic",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. Verr. II 1, 148 ineptum est de tam perspicua eius impudentia pluribus verbis disputare.",
@@ -210,10 +210,10 @@ map_data = {
       "definition": "Absurdities, frivolities",
       "construct": "INEPTA",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "zxxcmry",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 4,
           "disparition": "None",
           "attestation": "PRUD. cath. 2, 35 inepta nunc omnes sua vultu colorant serio.",
@@ -235,10 +235,10 @@ map_data = {
       "definition": "Foolishly, stupidly, absurdly",
       "construct": "INEPTĒ",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "xnxs",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Merc. 381 haud... quicquam inepte feci, amantes ut solent.",

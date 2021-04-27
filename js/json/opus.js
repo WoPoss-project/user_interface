@@ -21,10 +21,10 @@ map_data = {
       "definition": "Work, oeuvre / activity",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "xcpbm",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Asin. 443 ut, quod sit sibi operis locatum, efficeret.",
@@ -103,10 +103,10 @@ map_data = {
       "definition": "It is my task, my duty",
       "construct": "adjective + MIHI OPUS EST",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "basxds",
-          "modal": "Modal: deontic",
+          "category": "Modal: deontic",
           "emergence": -1,
           "disparition": "None",
           "attestation": "HOR. carm. 1, 7, 5 quibus unum opus est, . . . Palladis urbem carmine . . . celebrare.",
@@ -136,10 +136,10 @@ map_data = {
       "definition": "It must be necessary",
       "construct": "OPERIS ESSE DEBET",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "vkxfnrnq",
-          "modal": "Modal: dynamic",
+          "category": "Modal: dynamic",
           "emergence": 5,
           "disparition": 6,
           "attestation": "THEOD. MOPS. In I Tim. 2, 1 p. 85, 8 Ante omnia, inquit, illud obsecro quod vel maxime vos scire operis esse debet, ut convenientes scire possitis quid fieri conveniens sit.",
@@ -161,10 +161,10 @@ map_data = {
       "definition": "Event, thing",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "qeocdefu",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -2,
           "disparition": "None",
           "attestation": "PLAUT. Capt. 594 ardent oculi: fit opus. ",
@@ -186,10 +186,10 @@ map_data = {
       "definition": "In construction, act of building, of coming into being",
       "construct": "IN OPERE",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "ikrrodex",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 5,
           "disparition": "None",
           "attestation": "SIDON. epist. 2, 9, 8 balneas habebat in opere uterque hospes, in usu neuter.",
@@ -215,10 +215,10 @@ map_data = {
       "definition": "Incessant and strenouous work",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "ciqwgl",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. de orat. 2, 162 adsiduis, uno opere eandem incudem diem noctemque tundentibus.",
@@ -253,10 +253,10 @@ map_data = {
       "definition": "It is hard, difficult",
       "construct": "OPUS EST",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "fbqdc",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 2,
           "disparition": "None",
           "attestation": "ITALA prov. 20, 6 virum … fidelem opus est invenire. ",
@@ -278,10 +278,10 @@ map_data = {
       "definition": "Agricultural work",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "jeyesyc",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Merc. 65 multo opere immundo rustico se exercitum. ",
@@ -303,10 +303,10 @@ map_data = {
       "definition": "Handicrafts",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "lwjkrei",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -2,
           "disparition": "None",
           "attestation": "PLAUT. Most. 262 nova pictura interpolare vis opus lepidissimum? ",
@@ -328,10 +328,10 @@ map_data = {
       "definition": "Military operations",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "kcmxqmn",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CAES. civ. 2, 13, 1 legati milites ex opere (i.e. faciendo) deducunt, oppugnatione desistunt; operibus custodias relinquunt.",
@@ -353,10 +353,10 @@ map_data = {
       "definition": "Medical treatment",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "sxv",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -2,
           "disparition": "None",
           "attestation": "PLAUT. Men. 883 lumbi … dolent manendo medicum, dum se ex opere recipiat.",
@@ -378,10 +378,10 @@ map_data = {
       "definition": "Literary work",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "zlmdp",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PS. PLAUT. Cas. 7 antiqua opera et verba … vobis placent.",
@@ -403,10 +403,10 @@ map_data = {
       "definition": "Hunting",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "jrclxedz",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "OV. met. 3, 147 per devia lustra vagantes participes operum compellat (Actaeon).",
@@ -428,10 +428,10 @@ map_data = {
       "definition": "Sexual intercourse",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "wuggc",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Asin. 873 Demaenetus opere foris faciendo lassus noctu … advenit; fundum alienum arat eqs.",
@@ -453,10 +453,10 @@ map_data = {
       "definition": "Forced labour",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "idblsflc",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 1,
           "disparition": "None",
           "attestation": "TAC. Germ. 25, 1 verberare servum ac vinculis et opere coercere.",
@@ -478,10 +478,10 @@ map_data = {
       "definition": "Whatever exists or happens according to God’s will ",
       "construct": "OPUS DEI, DIVINUM",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "twoibjc",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 2,
           "disparition": "None",
           "attestation": "ITALA Ioh. 6, 28 sq. dixerunt … ‘quid operemur, ut faciamus opera dei?’; respondit Iesus … ‘hoc est opus dei, ut credatis in eum, quem misit ille’.",
@@ -508,10 +508,10 @@ map_data = {
       "definition": "Charity",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "abc",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 3,
           "disparition": "None",
           "attestation": "CYPR. domin. orat. 32 ‘bona est oratio cum ieiunio et eleemosyna’ (Tob. 12, 8); nam qui… praemium pro operibus et eleemosynis redditurus est,… ad orationem cum operatione venienti benignus auditor est.",
@@ -533,10 +533,10 @@ map_data = {
       "definition": "To accomplish one’s task",
       "construct": "OPUS SUUM FACERE",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "ycobpta",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 1,
           "disparition": "None",
           "attestation": "SEN. Nat. 5, 9, 4 non habet forsitan tantum teporis quantum tactu appareat, opus tamen suum facit et densa diducit ac tenuat.",
@@ -558,10 +558,10 @@ map_data = {
       "definition": "A thing the size (of)",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "yzo",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "VERG. Aen. 5, 119 ingentem … Chimaeram (i.e. navem), urbis opus. ",
@@ -578,10 +578,10 @@ map_data = {
       "definition": "Work / reward (for a work)",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "ljbuxfo",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 2,
           "disparition": "None",
           "attestation": "ITALA psalm. 108, 20 hoc opus eorum, qui detrahunt mihi. ",
@@ -603,10 +603,10 @@ map_data = {
       "definition": "To be useless",
       "construct": "NULLUM OPUS HABEO",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "nxs",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 4,
           "disparition": "None",
           "attestation": "HIER. in Matth. 16, 18 sermone casso et nullum habente opus.",
@@ -632,10 +632,10 @@ map_data = {
       "definition": "In someone’s use, favor",
       "construct": "AD OPUS ALICUIUS",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "zngtwcrlh",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 9,
           "disparition": "None",
           "attestation": "SCHOL. Ter. p. 152, 32 (ad Ad. 252) Ctesipho …, ad cuius opus Aeschinus rapuerat puellam.",
@@ -657,10 +657,10 @@ map_data = {
       "definition": "Private possession",
       "construct": "OPUS PECULIARE",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "cefbvxdj",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -4,
           "disparition": "None",
           "attestation": "CASSIAN. inst. 4, 14 nullum peculiare opus … adfectatur (before: de opere ac sudore proprio, deinde de tanto operis sui quaestu ac sudore).",
@@ -682,10 +682,10 @@ map_data = {
       "definition": "It is necessary",
       "construct": "OPUS EST",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "ivftsi",
-          "modal": "Modal: dynamic",
+          "category": "Modal: dynamic",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Cas. 502 Nam mihi vicino hoc etiam conventost opus, ut quod mandavi curet.",
@@ -724,10 +724,10 @@ map_data = {
       "definition": "It is convenient, advantageous",
       "construct": "OPUS EST",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "qszrzzok",
-          "modal": "Modal: deontic",
+          "category": "Modal: deontic",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Merc. 917 tempus non est intro eundi;... non opus est, inquam, nunc intro te ire;... operae non est;... non est illi (amicae) commodum.",
@@ -749,10 +749,10 @@ map_data = {
       "definition": "I think it is necessary",
       "construct": "OPUS EXISTIMO",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "lhzmqn",
-          "modal": "Modal: dynamic",
+          "category": "Modal: dynamic",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Merc. 566 Quid cogitem? equidem hercle opus hoc facto existumo eqs.",
@@ -774,10 +774,10 @@ map_data = {
       "definition": "It is necessary",
       "construct": "OPUS FIT",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "qhm",
-          "modal": "Modal: dynamic",
+          "category": "Modal: dynamic",
           "emergence": 6,
           "disparition": "None",
           "attestation": "COD. IUST. de emend. cod. 3 si qua emendatione opus fieret, hanc facere non titubante animo, sed nostra auctoritate fretos.",
@@ -799,10 +799,10 @@ map_data = {
       "definition": "To need something",
       "construct": "OPUS HABEO",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "ialh",
-          "modal": "Modal: dynamic",
+          "category": "Modal: dynamic",
           "emergence": 2,
           "disparition": "None",
           "attestation": "ITALA I Thess. 5, 1 De temporibus autem et momentis, fratres, non habetis opus ut vobis scribamus. ",

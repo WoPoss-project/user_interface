@@ -22,10 +22,10 @@ map_data =
       "definition": "chance, opportunity",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "fmtei",
-          "modal": "Modal: dynamic",
+          "category": "Modal: dynamic",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Asin. 847 tibi potestatem dedi, cum hac annum ut esses, atque amanti argenti feci copiam.",
@@ -63,10 +63,10 @@ map_data =
       "definition": "to give the chance",
       "construct": "POTESTATEM DO",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "uadjmicq",
-          "modal": "Modal: dynamic",
+          "category": "Modal: dynamic",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Asin. 847 quoniam tibi potestatem dedi cum hac annum ut esses || PLAUT. Capt. 374 cum copiam istam mihi et potestatem facis ut ...remittam nuntium",
@@ -88,10 +88,10 @@ map_data =
       "definition": "power, control, by which someone (or something) is in control, can impel a particular line of thought or action, or by the means of which s/he can obtain something",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "owvv",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -2,
           "disparition": "None",
           "attestation": "PLAUT. Stich. 53 nolo nuptias mutarier; verum postremo in patris potestate est situm.",
@@ -145,10 +145,10 @@ map_data =
       "definition": "permission, freedom",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "ncuhk",
-          "modal": "Modal: deontic",
+          "category": "Modal: deontic",
           "emergence": -2,
           "disparition": "None",
           "attestation": "PLAUT. Capt. 374 cum copiam istam mihi et potestatem facis ut ...remittam nuntium",
@@ -182,10 +182,10 @@ map_data =
       "definition": "capacity, abilities",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "bzmozr",
-          "modal": "Modal: dynamic",
+          "category": "Modal: dynamic",
           "emergence": -2,
           "disparition": "None",
           "attestation": "LUCR. 2, 286 unde haec est nobis innata potestas?",
@@ -215,10 +215,10 @@ map_data =
       "definition": "control over oneself",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "djvbao",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -2,
           "disparition": "None",
           "attestation": "CATO orig. 95 a dum ex tanto gaudio in potestatem nostram redeamus.",
@@ -244,10 +244,10 @@ map_data =
       "definition": "to be in the power of someone",
       "construct": "IN POTESTATE(M) SUM",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "rmzhquj",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -2,
           "disparition": "None",
           "attestation": "PLAUT. Aul. 534 Nam quae indotata est, ea in potestate est viri.",
@@ -274,10 +274,10 @@ map_data =
       "definition": "to give permission",
       "construct": "POTESTATEM FACIO",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "xobqq",
-          "modal": "Modal: deontic",
+          "category": "Modal: deontic",
           "emergence": -2,
           "disparition": "None",
           "attestation": "PLAUT. Capt. 374  cum copiam istam mihi et potestatem facis ut … remittam nuntium",
@@ -303,10 +303,10 @@ map_data =
       "definition": "(referred to what indicates) means something",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "pwo",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "RHET. HER. 4, 25, 35 definitio est, quae rei alicuius proprias amplectitur potestates breviter.",
@@ -328,10 +328,10 @@ map_data =
       "definition": "that has some power",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "lkjcute",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. leg. 2, 31 a summis imperiis et summis potestatibus .. concilia ... instituta.",
@@ -353,10 +353,10 @@ map_data =
       "definition": "it is possible",
       "construct": "IN POTESTATE(M) SUM",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "qozqfdk",
-          "modal": "Modal: dynamic",
+          "category": "Modal: dynamic",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. Tusc. 3, 66 Ergo in potestate est abicere dolorem, cum velis, tempori servientem.",
@@ -378,10 +378,10 @@ map_data =
       "definition": "to offer oneself to someone else",
       "construct": "IN POTESTATEM SUI FACIO",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "upcwqm",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. ad Q. fr. 1, 2, 15 cum neque praetores diebus aliquot adiri possent vel potestatem sui facerent.",
@@ -411,10 +411,10 @@ map_data =
       "definition": "the person on whom the power of someone else relies",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "sszpbo",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 1,
           "disparition": "None",
           "attestation": "STAT. silv. 1, 2, 137 (Venus ad Amorem) tu, mea summa potestas, nate. ",
@@ -436,10 +436,10 @@ map_data =
       "definition": "value of something",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "qrgrlj",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 2,
           "disparition": "None",
           "attestation": "GAIUS dig. 13, 4, 3 pecuniarum ... licet videatur una et eadem potestas ubique esse, tamen aliis locis facilius et levibus usuris inveniuntur.",
@@ -461,10 +461,10 @@ map_data =
       "definition": "by which something can exist or happen (transl. possibility, potentiality)",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "secrl",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 2,
           "disparition": "None",
           "attestation": "PS. QUINT. decl. 7, 4 p. 136, 28 lex ... liberum hominem torqueri vetat omnium beneficiorum ista natura est, ut non sit necessitas, sed potestas. ",
@@ -487,7 +487,7 @@ map_data =
         },
         {
           "id": "gyrgvh",
-          "modal": "Modal: dynamic",
+          "category": "Modal: dynamic",
           "emergence": 4,
           "disparition": "None",
           "attestation": "IUVENC. 4, 503 hunc quoniam calicem non est transire potestas.",
@@ -514,10 +514,10 @@ map_data =
       "definition": "something that has been done powerfully or is proof of power",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "jkytybo",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 3,
           "disparition": "None",
           "attestation": "ITALA psalm. 113, 2 in exitu Israhel ex Aegypto ... facta est Iudaea sanctitas eius dei, Israhel potetas eius; mare vidit et fugit eqs.",
@@ -539,10 +539,10 @@ map_data =
       "definition": "possessions, borders undersomeone’s power, domains",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "qvhaeei",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 4,
           "disparition": "None",
           "attestation": "VULG. IV reg. 20, 13 rex monstravit legatis omnes thesauros suos in domo sua et in omni potestate sua.",

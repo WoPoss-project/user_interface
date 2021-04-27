@@ -12,9 +12,9 @@ map_data = {
         "definition": "To be powerful, have strength, be strong",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "mhvolajs",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
             "attestation": "VARRO ling. 5, 58 dei magni (sc. Terra et Caelum) sunt hi, quos augurum libri scriptos habent sic ‘divi qui potes’ pro illo quod Samothraces ‘theoe dynatoe’ (i. e. θεοὶ δυνατοί)",

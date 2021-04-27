@@ -7,9 +7,9 @@ map_data = {
         "definition": "equal, same, similar",
         "construct": "None",
         "group": "None",
-        "modalities": [{
+        "analysis": [{
             "id": "mbtgtsq",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -3,
             "disparition": "None",
             "attestation": "PLAUT. Cist. 532 quando aequa lege pauperi cum divite non licet, perdam operam potius quam carebo filia.",
@@ -30,9 +30,9 @@ map_data = {
         "definition": "flat, level",
         "construct": "None",
         "group": "None",
-        "modalities": [{
+        "analysis": [{
             "id": "aiysm",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
             "attestation": "VARRO ling. 5, 123 aqua, quod aequa summa.",
@@ -50,9 +50,9 @@ map_data = {
         "definition": "propitious, advantageous, suitable ",
         "construct": "None",
         "group": "None",
-        "modalities": [{
+        "analysis": [{
             "id": "hdkdbpe",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
             "attestation": "CAES. Civ. 1, 85, 2 qui etiam bona condicione, et loco et tempore aequo, confligere noluerit.",
@@ -64,7 +64,7 @@ map_data = {
             }
         }, {
             "id": "vscwa",
-            "modal": "Modal: dynamic",
+            "category": "Modal: dynamic",
             "emergence": -1,
             "disparition": "None",
             "attestation": "CAES. Civ. 3, 73, 5 locum se aecum ad dimicandum dedisse.",
@@ -75,9 +75,9 @@ map_data = {
         "definition": "favorable, positive, calm, just ",
         "construct": "None",
         "group": "None",
-        "modalities": [{
+        "analysis": [{
             "id": "egxoe",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -2,
             "disparition": "None",
             "attestation": "PLAUT. Amph. prol. 16 itaque aequi et iusti hic eritis omnes arbitri.",
@@ -92,9 +92,9 @@ map_data = {
         "definition": "mental composure, equanimity",
         "construct": "None",
         "group": "None",
-        "modalities": [{
+        "analysis": [{
             "id": "nh",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -2,
             "disparition": "None",
             "attestation": "PLAUT. Aul. 187 pol si est animus aequos tibi, sat habes, qui bene vitam colas. ",
@@ -105,9 +105,9 @@ map_data = {
         "definition": "Flat area ",
         "construct": "Aequum, -ī",
         "group": "None",
-        "modalities": [{
+        "analysis": [{
             "id": "jdnh",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
             "attestation": "BELL. Alex. 60, 3 cum Cassium... aciem instruxisse loco superiore videret, causa interposita, quod is in aequum non descenderet, Marcellus... persuadet. ",
@@ -118,9 +118,9 @@ map_data = {
         "definition": "same level, equality",
         "construct": "Aequum, -ī",
         "group": "None",
-        "modalities": [{
+        "analysis": [{
             "id": "lxfmmb",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": 1,
             "disparition": "None",
             "attestation": "SEN. benef. 2, 13, 2 quam potuit benignissimus fuit descenditque in aequum et detraxit muneri suo pompam.",
@@ -131,9 +131,9 @@ map_data = {
         "definition": "equal, same, similar",
         "construct": "Aequum, -ī",
         "group": "None",
-        "modalities": [{
+        "analysis": [{
             "id": "unnmyusg",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -2,
             "disparition": "None",
             "attestation": "CATO agr. 146, 3 si non reddet, aequom solvito.",
@@ -148,9 +148,9 @@ map_data = {
         "definition": "Equity, justice",
         "construct": "Aequum, -ī",
         "group": "None",
-        "modalities": [{
+        "analysis": [{
             "id": "hqkrs",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -2,
             "disparition": "None",
             "attestation": "PLAUT. Bacch. 418 dum caveatur, praeter aequum ne quid delinquat, sine.",
@@ -165,9 +165,9 @@ map_data = {
         "definition": "equally, to an equal extent",
         "construct": "Ex aequō",
         "group": "None",
-        "modalities": [{
+        "analysis": [{
             "id": "xwmdsvl",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -2,
             "disparition": "None",
             "attestation": "AFRAN. com. 289 quanto facilius ego, qui ex aequo venio, adducor ferre humana humanitus.",
@@ -178,9 +178,9 @@ map_data = {
         "definition": "at the same level ",
         "construct": "In aequō",
         "group": "None",
-        "modalities": [{
+        "analysis": [{
             "id": "zdpe",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
             "attestation": "LIV. 39, 50, 11 adeo in aequo eum duobus duarum potentissimarum gentium summis imperatoribus posuerunt.",
@@ -191,9 +191,9 @@ map_data = {
         "definition": "favorable, positive, calm, just",
         "construct": "Aequus, -ī",
         "group": "None",
-        "modalities": [{
+        "analysis": [{
             "id": "utbsegz",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -2,
             "disparition": "None",
             "attestation": "TER. Haut. 26 qua re omnes vos oratos volo, ne plus iniquom possit quam aequom oratio.",
@@ -204,9 +204,9 @@ map_data = {
         "definition": "it is right",
         "construct": "Aequum est",
         "group": "None",
-        "modalities": [{
+        "analysis": [{
             "id": "jilltc",
-            "modal": "Modal: deontic",
+            "category": "Modal: deontic",
             "emergence": -3,
             "disparition": "None",
             "attestation": "PLAUT. Rud. 1029 [no SoA] hoc optimum atque aequissimum est.",
@@ -224,9 +224,9 @@ map_data = {
         "definition": "it is right, more right, extremely right",
         "construct": "Aequum, -ius, -issimum est + subordinate clause",
         "group": "None",
-        "modalities": [{
+        "analysis": [{
             "id": "nyuc",
-            "modal": "Modal: dynamic",
+            "category": "Modal: dynamic",
             "emergence": -2,
             "disparition": "None",
             "attestation": "PLAUT. Amph. prol. 29 Humana matre natus, humano patre, mirari non est aequom, sibi si praetimet.",
@@ -238,7 +238,7 @@ map_data = {
             }
         }, {
             "id": "kupowa",
-            "modal": "Modal: deontic",
+            "category": "Modal: deontic",
             "emergence": -3,
             "disparition": "None",
             "attestation": "PLAUT. Rud. 1230 aequum videtur tibi, ut ego, alienum quod est, meum esse dicam.",
@@ -253,9 +253,9 @@ map_data = {
         "definition": "As it is right",
         "construct": "Ut aequum est",
         "group": "None",
-        "modalities": [{
+        "analysis": [{
             "id": "pnruqjg",
-            "modal": "Modal: deontic",
+            "category": "Modal: deontic",
             "emergence": -3,
             "disparition": "None",
             "attestation": "PLAUT. Curc. 637 is, prius quam moritur, mihi dedit tamquam suo, ut aequom fuerat, filio.",
@@ -266,9 +266,9 @@ map_data = {
         "definition": "to consider something to be right",
         "construct": "Aequum videtur, aequum esse videtur (putat, iudicat, censet)",
         "group": "None",
-        "modalities": [{
+        "analysis": [{
             "id": "ueuzhnl",
-            "modal": "Modal: deontic",
+            "category": "Modal: deontic",
             "emergence": -2,
             "disparition": "None",
             "attestation": "PLAUT. Stich. 112 edepol, pater, scio ut oportet esse, si sint ita ut ego aequom censeo.",
@@ -279,9 +279,9 @@ map_data = {
         "definition": "(it is) right and good",
         "construct": "Aequum et bonum",
         "group": "None",
-        "modalities": [{
+        "analysis": [{
             "id": "pbnjse",
-            "modal": "Modal: deontic",
+            "category": "Modal: deontic",
             "emergence": -2,
             "disparition": "None",
             "attestation": "TER. Phorm. 450 quod te absente hic filius egit, restitui in integrum aequomst et bonum.",
@@ -293,7 +293,7 @@ map_data = {
             }
         }, {
             "id": "zfnetz",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -3,
             "disparition": "None",
             "attestation": "PLAUT. Curc. 64 neque quicquam queo aequi bonique ab ei impetrare.",
@@ -304,9 +304,9 @@ map_data = {
         "definition": "in a level manner, uniformly",
         "construct": "Aequē",
         "group": "None",
-        "modalities": [{
+        "analysis": [{
             "id": "gpctiuv",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
             "attestation": "VITR. 4, 6, 1 corona summa... aeque librata sit capitulis summis columnarum, quae in pronao fuerint.",
@@ -321,9 +321,9 @@ map_data = {
         "definition": "equally",
         "construct": "Aequē",
         "group": "None",
-        "modalities": [{
+        "analysis": [{
             "id": "psirozio",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": 1,
             "disparition": "None",
             "attestation": "PLIN. nat. 7, 215 Nasica... aqua divisit horas aeque noctium ac dierum (ante inaequales fuerant).",
@@ -334,9 +334,9 @@ map_data = {
         "definition": "in the same manner, alike",
         "construct": "Aequē",
         "group": "None",
-        "modalities": [{
+        "analysis": [{
             "id": "wsxm",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -3,
             "disparition": "None",
             "attestation": "PLAUT. Asin. 332 animum adverte, ut aeque mecum haec scias.",
@@ -347,9 +347,9 @@ map_data = {
         "definition": "(more) rightfully, properly, correctly, with equity",
         "construct": "Aequius, aequissime",
         "group": "None",
-        "modalities": [{
+        "analysis": [{
             "id": "fajerpf",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
             "attestation": "CIC. Verr. 4, 147 nec... fuit, quod quisquam queri posset, cum lege aequissime scripta venderent.",
@@ -360,9 +360,9 @@ map_data = {
         "definition": "rightfully, properly, correctly, with equity",
         "construct": "Aequē",
         "group": "None",
-        "modalities": [{
+        "analysis": [{
             "id": "phljj",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
             "attestation": "CIC. fin. 5, 65 animi affectio... societatem coniunctionis humanae munifice et aeque tuens iustitia dicitur.",
@@ -377,9 +377,9 @@ map_data = {
         "definition": "rightfully, properly, correctly, with equity",
         "construct": "Aequiter",
         "group": "None",
-        "modalities": [{
+        "analysis": [{
             "id": "xgqk",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": 3,
             "disparition": "None",
             "attestation": "LIV. ANDR. trag. 3 praeda per participes aequiter partita est.",

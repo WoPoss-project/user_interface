@@ -12,9 +12,9 @@ map_data = {
         "definition": "possibility, power (of something to happen), chance, opportunity",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "bggwgj",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -2,
             "disparition": "None",
             "attestation": "TURPIL. com. 88 immortalitus se optulit mi haec facultas.",
@@ -29,7 +29,7 @@ map_data = {
             }
         }, {
             "id": "jluqs",
-            "modal": "Modal: dynamic",
+            "category": "Modal: dynamic",
             "emergence": -1,
             "disparition": "None",
             "attestation": "CIC. Verr. 5, 104 earum rerum nullam sibi... neque infitiandi rationem neque defendendi facultatem reliquit.",
@@ -44,9 +44,9 @@ map_data = {
         "definition": "condition",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "ezenpdjl",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
             "attestation": "CIC. Att. 11, 25, 3 ego huius miserrimae facultate confectus conflictor (nisi est corrupt.).",
@@ -57,9 +57,9 @@ map_data = {
         "definition": "means of help, support ",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "ontuz",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
             "attestation": "GRATT. 76 sunt quibus... decerptae volture plumae instrumentum operis fuit et non parva facultas. ",
@@ -70,9 +70,9 @@ map_data = {
         "definition": "a great number of ",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "rkdjjfe",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -2,
             "disparition": "None",
             "attestation": "VARRO frg. Gell. 17, 3, 4 in Graecia sparti copia modo coepit esse ex Hispania. Neque ea ipsa facultate usi Liburni.",
@@ -83,9 +83,9 @@ map_data = {
         "definition": "permission, freedom (to do something) ",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "pbeup",
-            "modal": "Modal: deontic",
+            "category": "Modal: deontic",
             "emergence": -1,
             "disparition": "None",
             "attestation": "NEP. Phoc. 4, 2 ne perorandi quidem ei (Phocioni) data est facultas.",
@@ -100,9 +100,9 @@ map_data = {
         "definition": "the right, power, possibility, opportunity (of)",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "pjbyjy",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
             "attestation": "CIC. inv. 1, 82 docebimus aliud... existimare oportere. huius facultatis maxime indigebimus cum eqs.",
@@ -114,7 +114,7 @@ map_data = {
             }
         }, {
             "id": "vbovrif",
-            "modal": "Modal: deontic",
+            "category": "Modal: deontic",
             "emergence": 2,
             "disparition": "None",
             "attestation": "GAIUS inst. 1, 152 amplius quam bis optandi facultatem non habet uxor.",
@@ -122,7 +122,7 @@ map_data = {
             "relationships": {"origins": [{"rel": "pbeup", "cert": true}], "destinations": [], "unspecified": []}
         }, {
             "id": "sfvotbj",
-            "modal": "Modal: dynamic",
+            "category": "Modal: dynamic",
             "emergence": 2,
             "disparition": "None",
             "attestation": "FLORENT. dig. 1, 5, 4 pr. Libertas est naturalis facultas eius quod cuique facere libet.",
@@ -133,9 +133,9 @@ map_data = {
         "definition": "power, ability, innate character",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "ttjkonasq",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
             "attestation": "CIC. de orat. 1, 215 multum inter se distant istae facultates (boni senatoris et egregii oratoris) longeque sunt diversae atque seiunctae eqs.",
@@ -147,7 +147,7 @@ map_data = {
             }
         }, {
             "id": "mgzp",
-            "modal": "Modal: dynamic",
+            "category": "Modal: dynamic",
             "emergence": -1,
             "disparition": "None",
             "attestation": "CIC. de orat. 1, 215 multum inter se distant istae facultates (boni senatoris et egregii oratoris) longeque sunt diversae atque seiunctae eqs.",
@@ -162,9 +162,9 @@ map_data = {
         "definition": "knowledge, discipline",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "delob",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": 8,
             "disparition": "None",
             "attestation": "PS. MATTH. evang. 21, 3 ego... docebo eum gentilitatis litteras et hebraeas, postea grammaticam et alias facultates.",
@@ -179,9 +179,9 @@ map_data = {
         "definition": "language, faculty or power of speech, way or style of speaking",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "ewyp",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": 4,
             "disparition": "None",
             "attestation": "MART.  CAP. 4, 333 Iuppiter... quidquid nosset illa (Dialectica) Latiari promere praecepit facultate.",
@@ -196,9 +196,9 @@ map_data = {
         "definition": "means, possessions, riches",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "qgyvkuc",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
             "attestation": "CIC. inv. 2, 112 ratio... praemii... est... distributa in beneficia, in hominem, in praemii genus, in facultates.",

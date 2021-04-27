@@ -21,10 +21,10 @@ map_data = {
             "definition": "To honour, to be appropriate, to fit",
             "construct": "DECEO",
             "group": "_",
-            "modalities": [
+            "analysis": [
                 {
                     "id": "fchhuyb",
-                    "modal": "Not modal",
+                    "category": "Not modal",
                     "emergence": -3,
                     "disparition": "None",
                     "attestation": "PLAUT. Mil. 64 vide caesaries quam decet.",
@@ -50,10 +50,10 @@ map_data = {
             "definition": "It ought, it is appropriate",
             "construct": "DECET",
             "group": "_",
-            "modalities": [
+            "analysis": [
                 {
                     "id": "emhewspe",
-                    "modal": "Modal: deontic acceptability",
+                    "category": "Modal: deontic acceptability",
                     "emergence": -3,
                     "disparition": "None",
                     "attestation": "PLAUT. Asin. 833 decet verecundum esse adulescentem, Agrippe.",
@@ -79,10 +79,10 @@ map_data = {
             "definition": "It is necessary",
             "construct": "DECET",
             "group": "_",
-            "modalities": [
+            "analysis": [
                 {
                     "id": "abc",
-                    "modal": "Modal: dynamic",
+                    "category": "Modal: dynamic",
                     "emergence": -3,
                     "disparition": "None",
                     "attestation": "PLAUT. Mil. 220 [a verb must be inferred] consule, arripe opem auxilium que ad hanc rem: propere hoc, non placide decet.",

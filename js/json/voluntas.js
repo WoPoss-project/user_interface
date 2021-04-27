@@ -17,9 +17,9 @@ map_data = {
         "definition": "the state of wanting to do something, will",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "spvf",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -3,
             "disparition": "None",
             "attestation": "PLAUT. Merc. 321 hoc non -as me impulit.",
@@ -37,9 +37,9 @@ map_data = {
         "definition": "what one wants to happen or be done, one’s will or wish ",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "pmwwyg",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
             "attestation": "POMPON. Com. 105 populis -as haec enim et vulgo datast.",
@@ -57,9 +57,9 @@ map_data = {
         "definition": "a wish (to do, bring about, etc. something) ",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "ilwqtf",
-            "modal": "Modal: deontic volition",
+            "category": "Modal: deontic volition",
             "emergence": -1,
             "disparition": "None",
             "attestation": "CIC. Catil. 4, 14 omnia… constituta sunt… cum mea summa cura… tum multo etiam maiore populi Romani… ad communis fortunas conservanda -ate.",
@@ -74,9 +74,9 @@ map_data = {
         "definition": "a last wish ",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "qqj",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
             "attestation": "CIC. de orat. 1, 242 defensionem testamentorum ac -atis mortuorum. ",
@@ -87,9 +87,9 @@ map_data = {
         "definition": "willingness, approval ",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "hjkhxahq",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -2,
             "disparition": "None",
             "attestation": "CAECIL. Com. 135 edepol -as homini rarenter venit.",
@@ -104,9 +104,9 @@ map_data = {
         "definition": "choice, option ",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "ficxdt",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
             "attestation": "CIC. Phil. 12, 27 -ate hospitem, necessitate hostem.",
@@ -121,9 +121,9 @@ map_data = {
         "definition": "deliberate choice ",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "wltka",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
             "attestation": "VAR. L. 10, 15 quod alia sunt a -ate, alia a natura.",
@@ -134,9 +134,9 @@ map_data = {
         "definition": "something given voluntarily ",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "mrdqql",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": 2,
             "disparition": "None",
             "attestation": "ULP. Dig. 50, 12, 3, 1 aequissimum est enim huiusmodi -ates in civitates collatas paenitentia non revocari.",
@@ -151,9 +151,9 @@ map_data = {
         "definition": "one’s intention ",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "vgsyomc",
-            "modal": "Modal: deontic intention",
+            "category": "Modal: deontic intention",
             "emergence": -1,
             "disparition": "None",
             "attestation": "CAES. Civ. 3, 84, 1 temptandum… quidnam Pompeius propositi aut -atis ad dimicandum haberet.",
@@ -168,9 +168,9 @@ map_data = {
         "definition": "intention, import (of speech or writing) ",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "pjag",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
             "attestation": "VAR. L. 9, 1 ut neutrius videatur pervidisse -atem.",
@@ -181,9 +181,9 @@ map_data = {
         "definition": "tendency of one’s will, inclination",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "iolzh",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -2,
             "disparition": "None",
             "attestation": "TER. Andr. 879 adeo inpotenti esse animo, ut praeter ciuium morem atque legem et sui -atem patris tamen hanc habere studeat cum summo probro!",
@@ -194,9 +194,9 @@ map_data = {
         "definition": "one’s sentiment towards a person or thing, disposition ",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "kiani",
-            "modal": "Modal: deontic volition",
+            "category": "Modal: deontic volition",
             "emergence": -1,
             "disparition": "None",
             "attestation": "CIC. Dom. 9 propter eorum egregiam in me conservando -atem.",
@@ -207,9 +207,9 @@ map_data = {
         "definition": "favorable disposition, goodwill, sympathy ",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "hjiua",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -2,
             "disparition": "None",
             "attestation": "TER. Ph. 29 -as vostra si ad poetam accesserit.",
@@ -220,9 +220,9 @@ map_data = {
         "definition": "of one’s own will, voluntarily ",
         "construct": "Voluntate",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "ckaksp",
-            "modal": "Modal: deontic volition",
+            "category": "Modal: deontic volition",
             "emergence": -3,
             "disparition": "None",
             "attestation": "PLAUT. Mil. 450 nisi -ate ibis, rapiam te domum. ",
@@ -233,9 +233,9 @@ map_data = {
         "definition": "against (one’s) wishes ",
         "construct": "Contra voluntatem",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "iffew",
-            "modal": "Modal: deontic volition",
+            "category": "Modal: deontic volition",
             "emergence": -1,
             "disparition": "None",
             "attestation": "CIC. Inv. 2, 52 invito senatu et omnino contra -atem omnium optimatium… legem agrariam ferebat.",
@@ -246,9 +246,9 @@ map_data = {
         "definition": "according to (one’s) wish ",
         "construct": "Ex voluntate",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "socsjv",
-            "modal": "Modal: deontic volition",
+            "category": "Modal: deontic volition",
             "emergence": -2,
             "disparition": "None",
             "attestation": "SCIP. MIN. orat. 23 adductum primo coetu damnavi, damnatum ex -ate dimisi.",
@@ -263,9 +263,9 @@ map_data = {
         "definition": "according to (one’s) wish ",
         "construct": "Ad voluntatem",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "scg",
-            "modal": "Modal: deontic volition",
+            "category": "Modal: deontic volition",
             "emergence": -1,
             "disparition": "None",
             "attestation": "LENT. Fam. 12, 15, 3 ad illorum -atem introductus in urbem.",
@@ -280,9 +280,9 @@ map_data = {
         "definition": "with the consent or agreement (of)",
         "construct": "Voluntate + Genitive",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "gkocqnpd",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -2,
             "disparition": "None",
             "attestation": "TER. Ph. 725 volo ipsius quoque -ate haec fieri, ne se eiectam praedicet.",

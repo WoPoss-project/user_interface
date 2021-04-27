@@ -21,10 +21,10 @@ map_data = {
       "definition": "unjust, not legitimate",
       "construct": "_",
       "group": "not equal",
-      "modalities": [
+      "analysis": [
         {
           "id": "pvlvu",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Merc. 818 lege dura vivont mulieres multoque iniquiore miserae quam viri eqs.",
@@ -55,10 +55,10 @@ map_data = {
       "definition": "troubled, annoyed, not calm, unsettled",
       "construct": "_",
       "group": "not equal",
-      "modalities": [
+      "analysis": [
         {
           "id": "dwqdzpx",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -2,
           "disparition": "None",
           "attestation": "TER. Phorm. 763 eum... animus iniquo hoc oppido ferre aiunt.",
@@ -80,10 +80,10 @@ map_data = {
       "definition": "furious, angry, hostile",
       "construct": "_",
       "group": "not equal",
-      "modalities": [
+      "analysis": [
         {
           "id": "ewzxcs",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -2,
           "disparition": "None",
           "attestation": "ACC. trag. 109 multi iniquo... animo sibi mala auxere in malis.",
@@ -114,10 +114,10 @@ map_data = {
       "definition": "not favourably inclined, ill-disposed, unfriendly, inimical",
       "construct": "_",
       "group": "not equal",
-      "modalities": [
+      "analysis": [
         {
           "id": "avrlpdo",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -2,
           "disparition": "None",
           "attestation": "PLAUT. Aul. 232 et te utar iniquiore et meus me ordo inrideat.",
@@ -148,10 +148,10 @@ map_data = {
       "definition": "not adequate, not favourable, troublesome",
       "construct": "_",
       "group": "not equal",
-      "modalities": [
+      "analysis": [
         {
           "id": "xztku",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -2,
           "disparition": "None",
           "attestation": "PLAUT. Poen. 504 tardo amico nihil est quicquam iniquius.",
@@ -186,7 +186,7 @@ map_data = {
         },
         {
           "id": "fvcmtmm",
-          "modal": "Modal: dynamic",
+          "category": "Modal: dynamic",
           "emergence": 1,
           "disparition": "None",
           "attestation": "MELA 3, 53 caeli ad maturanda semina iniqui.",
@@ -213,10 +213,10 @@ map_data = {
       "definition": "it is (it seems etc.) not fair, not acceptable",
       "construct": "INIQUUM EST / (ESSE) VIDETUR, EXISTIMATUR",
       "group": "not equal",
-      "modalities": [
+      "analysis": [
         {
           "id": "urvd",
-          "modal": "Modal: deontic",
+          "category": "Modal: deontic",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Cas. 378 iniquum (-us VE, unicus J) est, quia isti prius quam mihi dedit (facultatem sortiendi).",
@@ -243,10 +243,10 @@ map_data = {
       "definition": "injustice, error, moral offence",
       "construct": "_",
       "group": "not equal",
-      "modalities": [
+      "analysis": [
         {
           "id": "xbpcj",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -2,
           "disparition": "None",
           "attestation": "PLAUT. Amph. 173 nec aequom anne iniquom imperet cogitabit dominus.",
@@ -268,10 +268,10 @@ map_data = {
       "definition": "not flat, disadvantageous, not adequate (location)",
       "construct": "_",
       "group": "not equal",
-      "modalities": [
+      "analysis": [
         {
           "id": "alouof",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 1,
           "disparition": "None",
           "attestation": "CAES. Gall. 7, 83, 2 iniquo loco et leniter declivi.",
@@ -293,10 +293,10 @@ map_data = {
       "definition": "not adequate, unsuitable",
       "construct": "_",
       "group": "not equal",
-      "modalities": [
+      "analysis": [
         {
           "id": "gfnsymr",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 1,
           "disparition": "None",
           "attestation": "LIV. 5, 47, 2 ubi quid iniqui esset, alterni innixi sublevantesque in vicem... in summum (Capitolii) evasere Galli (as opposed to ascensu aequo).",
@@ -324,7 +324,7 @@ map_data = {
         },
         {
           "id": "mbknsvgk",
-          "modal": "Modal: dynamic",
+          "category": "Modal: dynamic",
           "emergence": 1,
           "disparition": "None",
           "attestation": "COLUM. 3, 11, 10 gravis est rubrica... et ad comprehendendum radicibus iniqua.",
@@ -351,10 +351,10 @@ map_data = {
       "definition": "not equal, not fair",
       "construct": "_",
       "group": "not equal",
-      "modalities": [
+      "analysis": [
         {
           "id": "vcbzw",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 1,
           "disparition": "None",
           "attestation": "CIC. Quinct. 73 Haec est iniqua certatio, non illa qua tu contra Alfenum utebare.",
@@ -385,10 +385,10 @@ map_data = {
       "definition": "harmful, adverse",
       "construct": "_",
       "group": "not equal",
-      "modalities": [
+      "analysis": [
         {
           "id": "rsahck",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "OV. am. 2, 16, 15 solliciti iaceant terraque premantur iniqua, in longas orbem qui secuere vias.",
@@ -431,10 +431,10 @@ map_data = {
       "definition": "not right, not adapted",
       "construct": "_",
       "group": "not equal",
-      "modalities": [
+      "analysis": [
         {
           "id": "oamigf",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. Caecin. 64 angustior iniquiorque defensio.",
@@ -456,10 +456,10 @@ map_data = {
       "definition": "hostile",
       "construct": "_",
       "group": "not equal",
-      "modalities": [
+      "analysis": [
         {
           "id": "hwbcxhe",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 1,
           "disparition": "None",
           "attestation": "HOR. carm. 1, 10, 15 Thessalos... ignes et iniqua (Troiae - Dative) castra.",
@@ -481,10 +481,10 @@ map_data = {
       "definition": "disproportionate, immoderate, excessive",
       "construct": "_",
       "group": "not equal",
-      "modalities": [
+      "analysis": [
         {
           "id": "lxobrqe",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 1,
           "disparition": "None",
           "attestation": "VERG. georg. 1, 164 iniquo pondere rastri.",
@@ -506,10 +506,10 @@ map_data = {
       "definition": "dissolute, evil, sinner, impious",
       "construct": "_",
       "group": "not equal",
-      "modalities": [
+      "analysis": [
         {
           "id": "jqzco",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 2,
           "disparition": "None",
           "attestation": "ITALA exod. 23, 1 (Lucif. Athan. 1, 3 p. 69, 25) non consenties cum iniquo fieri testis iniustus, non eris cum conpluribus in malitia.",
@@ -536,10 +536,10 @@ map_data = {
       "definition": "devil",
       "construct": "_",
       "group": "not equal",
-      "modalities": [
+      "analysis": [
         {
           "id": "axllfu",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 2,
           "disparition": "None",
           "attestation": "EPIST. Paul. et Cor. I rec. A 8 liberavit te dominus de manu iniqui. ",
@@ -561,10 +561,10 @@ map_data = {
       "definition": "poisoning",
       "construct": "MEDICAMENTA INIQUA",
       "group": "not equal",
-      "modalities": [
+      "analysis": [
         {
           "id": "lrkf",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 2,
           "disparition": "None",
           "attestation": "DOCTR. apost. 5, 1 Primum nequam et maledictis plena: moechationes, homicidia, falsa testimonia, fornicationes, desideria mala, magicae, medicamenta iniqua, eqs.",

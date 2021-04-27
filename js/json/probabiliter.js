@@ -21,10 +21,10 @@ map_data = {
       "definition": "In a way that can be proven, plausible",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "rtah",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. inv. 1, 44 argumentatio videtur esse inventum… rem aliquam aut probabiliter ostendens aut necessarie demonstrans.",
@@ -46,10 +46,10 @@ map_data = {
       "definition": "In a manner worth of approval, according to justice / merit",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "cwhjicn",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. fin. 3, 58 ut probabiliter acti ratio reddi posset.",

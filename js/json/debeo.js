@@ -21,10 +21,10 @@ map_data = {
       "definition": "To owe something to someone else",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "ikyhwan",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Mil. 421 quid tibi istic in istisce aedibus debetur, quid negotist?",
@@ -54,10 +54,10 @@ map_data = {
       "definition": "To be obliged to give or furnish something",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "xpmotr",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. inv. 2, 97 hostiae, quas debuisti ad sacrificium, praesto non fuerunt.",
@@ -79,10 +79,10 @@ map_data = {
       "definition": "To be obliged by necessity",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "jbsmy",
-          "modal": "Modal: dynamic",
+          "category": "Modal: dynamic",
           "emergence": -2,
           "disparition": "None",
           "attestation": "CATO agr. 119 cap. CXIX Ut odorem malum eximas de uino quid facere debeas.",
@@ -114,7 +114,7 @@ map_data = {
         },
         {
           "id": "bpdueo",
-          "modal": "Modal: deontic acceptability",
+          "category": "Modal: deontic acceptability",
           "emergence": -1,
           "disparition": "None",
           "attestation": "VARRO ling. 10, 1 non fundamenta, ut debuit, posita ab ullo.",
@@ -141,7 +141,7 @@ map_data = {
         },
         {
           "id": "ipnyzrb",
-          "modal": "Modal: deontic authority",
+          "category": "Modal: deontic authority",
           "emergence": -1,
           "disparition": "None",
           "attestation": "LEX Falcid. dig. 35, 2, 1 heres, qui eam pecuniam dare iussus damnatus erit, eam pecuniam debeto dare, quam damnatus est.",
@@ -167,10 +167,10 @@ map_data = {
       "definition": "To be obligated to someone",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "qcgcl",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. Att. 1, 1, 1 illi ita negant..., ut mihi se debere dicant.",
@@ -192,10 +192,10 @@ map_data = {
       "definition": "To be obliged by laws or customs",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "kd",
-          "modal": "Modal: deontic acceptability",
+          "category": "Modal: deontic acceptability",
           "emergence": -2,
           "disparition": "None",
           "attestation": "PLAUT. Amph. 39 debetis velle quae velimus: meruimus et ego et pater de vobis et re publica.",
@@ -217,10 +217,10 @@ map_data = {
       "definition": "~(not) to be allowed",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "lxtmws",
-          "modal": "Modal: deontic acceptability",
+          "category": "Modal: deontic acceptability",
           "emergence": -1,
           "disparition": "None",
           "attestation": "RHET. HER. 2, 3, 5 vituperatio eorum quae extra id crimen sunt non debeat assignari.",
@@ -246,10 +246,10 @@ map_data = {
       "definition": "Ought, should (for logical or similar reasons)",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "mkny",
-          "modal": "Modal: epistemic",
+          "category": "Modal: epistemic",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. Verr. 4, 65 erat candelabrum eo splendore qui ex... pulcherrimis gemmis esse debebat.",

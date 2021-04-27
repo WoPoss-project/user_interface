@@ -21,10 +21,10 @@ map_data = {
       "definition": "Unfairly",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "abc",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 1,
           "disparition": "None",
           "attestation": "INSCR. RevA [Revue Archéologique], VI 8, 1936 p. 269 n. 67 Fatus et Fortuna iniquiter iudicavit.",

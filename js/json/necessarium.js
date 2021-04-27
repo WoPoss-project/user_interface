@@ -21,10 +21,10 @@ map_data = {
       "definition": "Necessarily, by necessity",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "qtazcx",
-          "modal": "Modal: dynamic",
+          "category": "Modal: dynamic",
           "emergence": 4,
           "disparition": "None",
           "attestation": "PETR. CHRYS. Serm. 170, 2 quia diu circuierat… inimicus (i. e. diabolus), nunc necessarium circuit Christus.",

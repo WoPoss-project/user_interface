@@ -12,9 +12,9 @@ map_data = {
         "definition": "Without doubt",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "aams",
-            "modal": "Modal: epistemic",
+            "category": "Modal: epistemic",
             "emergence": 1,
             "disparition": "None",
             "attestation": "QUINT. decl. 288 p. 154, 26 indubitate pater hic timet ne et ille tyrannus fiat.",
@@ -32,9 +32,9 @@ map_data = {
         "definition": "Without discussion",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "rvidqr",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": 2,
             "disparition": "None",
             "attestation": "ULP. dig. 32, 1, 9 illud certe indubitate dicitur eqs. ",
@@ -49,9 +49,9 @@ map_data = {
         "definition": "Certainly, by all means",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "vevafxf",
-            "modal": "Modal: epistemic",
+            "category": "Modal: epistemic",
             "emergence": 2,
             "disparition": "None",
             "attestation": "TERT. uxor. 2, 2 p. 686, 1 Oe. ‘nubat ... in domino’ id est in nomine domini, quod est indubitate christiano.",
@@ -62,9 +62,9 @@ map_data = {
         "definition": "As it is agreeable",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "qxbbank",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": 5,
             "disparition": "None",
             "attestation": "CONC. S I 3 p. 42, 19 ex quibus est sapere perversa convictus et reprehensus indubitate velut haereticus.",
@@ -75,9 +75,9 @@ map_data = {
         "definition": "So that no doubt is left",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "culdpryt",
-            "modal": "Modal: epistemic",
+            "category": "Modal: epistemic",
             "emergence": 6,
             "disparition": "None",
             "attestation": "COD. Iust. 9, 41, 7 (a. 286) servos, qui proprii indubitate iuris tui probabuntur.",
@@ -88,9 +88,9 @@ map_data = {
         "definition": "Not ambiguously",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "ntyadaao",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": 4,
             "disparition": "None",
             "attestation": "IREN. 5, 7, 2 indubitate docuit, quoniam eqs. 5, 13, 4 manifeste et -e et sine ulla ambiguitate Corinthiis ait eqs.",
@@ -101,9 +101,9 @@ map_data = {
         "definition": "Without hesitation",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "pgdoot",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": 6,
             "disparition": "None",
             "attestation": "RUSTIC. CONC. S I 4 p. 4, 17 librum … a nobis … indubitate susceptum.",

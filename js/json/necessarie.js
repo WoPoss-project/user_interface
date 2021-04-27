@@ -21,10 +21,10 @@ map_data = {
       "definition": "Necessarily in order to achieve a goal",
       "construct": "_",
       "group": "NECESSARILY, BY NECESSITY",
-      "modalities": [
+      "analysis": [
         {
           "id": "rzubs",
-          "modal": "Modal: dynamic",
+          "category": "Modal: dynamic",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. inv. 2, 4 non unum aliquod proposuimus exemplum, cuius omnes partes ... exprimendae nobis necessarie viderentur, sed ... ex variis ingeniis excellentissima quaeque libavimus.",
@@ -50,10 +50,10 @@ map_data = {
       "definition": "Vehemently, urgently",
       "construct": "_",
       "group": "NECESSARILY, BY NECESSITY",
-      "modalities": [
+      "analysis": [
         {
           "id": "qujdzfe",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 3,
           "disparition": "None",
           "attestation": "CYPR. domin. orat. 25 illud ... necessarie monet dominus, ut in oratione dicamus: “…”.",
@@ -75,10 +75,10 @@ map_data = {
       "definition": "Conveniently, aptly",
       "construct": "_",
       "group": "NECESSARILY, BY NECESSITY",
-      "modalities": [
+      "analysis": [
         {
           "id": "vcrlxig",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 2,
           "disparition": "None",
           "attestation": "VET. LAT. II Macc. 15, 38 si bene et necessarie obtinuero in hac dispositione, hoc et ego optavi; si autem breviter et mediocriter, hoc evenerit mihi.",
@@ -100,10 +100,10 @@ map_data = {
       "definition": "Necessarily has to happen/be done",
       "construct": "_",
       "group": "NECESSARILY, BY NECESSITY",
-      "modalities": [
+      "analysis": [
         {
           "id": "ywbtykn",
-          "modal": "Modal: dynamic",
+          "category": "Modal: dynamic",
           "emergence": -1,
           "disparition": "None",
           "attestation": "VAL. MAX. 7, 6, 3 quidam fame enectus care quidem, verum necessarie comparato cibo vixit.",
@@ -129,7 +129,7 @@ map_data = {
         },
         {
           "id": "ehqcmj",
-          "modal": "Modal: deontic acceptability",
+          "category": "Modal: deontic acceptability",
           "emergence": 2,
           "disparition": "None",
           "attestation": "TERT. adv. Marc. 2, 13, 5 plenitudo divinitatis exhibens deum patrem diligendum pie, dominum timendum necessarie, ... timendum, quia nolit peccatores sui iam non paenitentes.",
@@ -160,10 +160,10 @@ map_data = {
       "definition": "In a way that cannot be changed, prevented, kept away",
       "construct": "_",
       "group": "NECESSARILY, BY NECESSITY",
-      "modalities": [
+      "analysis": [
         {
           "id": "cjkmbf",
-          "modal": "Modal: dynamic",
+          "category": "Modal: dynamic",
           "emergence": 2,
           "disparition": "None",
           "attestation": "TERT. praescr. 36, 7 de olivae nucleo mitis ... necessarie asper oleaster oritur.",
@@ -190,10 +190,10 @@ map_data = {
       "definition": "Necessarily follows something previously stated",
       "construct": "_",
       "group": "NECESSARILY, BY NECESSITY",
-      "modalities": [
+      "analysis": [
         {
           "id": "twwfa",
-          "modal": "Modal: dynamic",
+          "category": "Modal: dynamic",
           "emergence": 2,
           "disparition": "None",
           "attestation": "TERT. ieiun. 11, 3 adversarii aut et illa vetera solemnia recusare debebunt ‹ aut › exerta ista suscipere; necessarie, maxime cum et ista, a quocumque institutore sunt sive spiritali sive tantum fideli, eidem deo currant, cui et vetera.",

@@ -12,9 +12,9 @@ map_data = {
         "definition": "Undoubted",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "tcswk",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
             "attestation": "SEN. dial. 6, 20, 4 si Cn. Pompeium ... Neapoli valetudo abstulisset, indubitatus populi R. princeps excesserat.",
@@ -29,7 +29,7 @@ map_data = {
             }
         }, {
             "id": "jkiamjo",
-            "modal": "Modal: epistemic",
+            "category": "Modal: epistemic",
             "emergence": 1,
             "disparition": "None",
             "attestation": "PLIN. nat. 2, 63 omnia autem haec constant ratione circini semper indubitata.",
@@ -44,9 +44,9 @@ map_data = {
         "definition": "Certain, solid (referred to reasoning or knowledge)",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "jisgsc",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": 1,
             "disparition": "None",
             "attestation": "PLIN. nat. 6, 172 cum indubitata ratione umbrarum Eratosthenes mensuram terrae prodere inde conceperit.",
@@ -57,9 +57,9 @@ map_data = {
         "definition": "Not ambiguous",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "vzrqjv",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": 4,
             "disparition": "None",
             "attestation": "HIL. syn. 39 post ... illam ... indubitatam sacramentorum expositionem.",
@@ -70,9 +70,9 @@ map_data = {
         "definition": "It is undoubted",
         "construct": "INDUBITATUM EST",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "izsycs",
-            "modal": "Modal: epistemic",
+            "category": "Modal: epistemic",
             "emergence": 1,
             "disparition": "None",
             "attestation": "PLIN. nat. 7, 156 Massinissam LX annis regnasse indubitatum est.",
@@ -83,9 +83,9 @@ map_data = {
         "definition": "Steady",
         "construct": "_",
         "group": "_",
-        "modalities": [{
+        "analysis": [{
             "id": "yrgvxt",
-            "modal": "Not modal",
+            "category": "Not modal",
             "emergence": 1,
             "disparition": "None",
             "attestation": "PLIN. nat. 22, 103 extera corporum indubitatas confessiones habent (laser).",

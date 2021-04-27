@@ -21,10 +21,10 @@ map_data = {
       "definition": "State of necessity, constraint",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "fzjfkwr",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -2,
           "disparition": "None",
           "attestation": "PLAUT. Epid. 731 invitus do hanc veniam tibi, nisi necessitate cogar.",
@@ -71,7 +71,7 @@ map_data = {
         },
         {
           "id": "kxetm",
-          "modal": "Modal: dynamic",
+          "category": "Modal: dynamic",
           "emergence": -2,
           "disparition": "None",
           "attestation": "PLAUT. Pseud. 7 necessitas me subigit ut te rogitem.",
@@ -106,7 +106,7 @@ map_data = {
         },
         {
           "id": "abc",
-          "modal": "Modal: deontic authority",
+          "category": "Modal: deontic authority",
           "emergence": 2,
           "disparition": "None",
           "attestation": "S.C. de sumpt. lud. glad (CIL II 6278) 381 inpositam sibi (i.e. lanistis) -em de ceteris quos meliores opinabuntur transferre tantisper pleni numeri gregariorum gratia... transferre (gladiatores).",
@@ -133,10 +133,10 @@ map_data = {
       "definition": "State of inevitability",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "zlplkzm",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. div. 2, 17 ea, (i.e. solis lunaeque defectiones), ... quae naturae necessitas perfectura est.",
@@ -153,10 +153,10 @@ map_data = {
       "definition": "Something necessary",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "qtppo",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 1,
           "disparition": "None",
           "attestation": "TAC. ann. 1, 11, 4 libello opes publicae continebantur, ... tributa aut vectigalia et necessitates ac largitiones.",
@@ -182,10 +182,10 @@ map_data = {
       "definition": "Necessity (as opposed to willingness)",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "ssqd",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": 1,
           "disparition": "None",
           "attestation": "QUINT. inst. 7, 1, 34 aut voluntate aut necessitate, (sc. Milo occidit Clodium).",
@@ -207,10 +207,10 @@ map_data = {
       "definition": "Necessity dictated by oratorical/linguistic needs",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "cztp",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. de orat. 3, 184 poetas necessitas cogit et ipsi numeri ac modi sic verba versu includere, ut nihil sit ... brevius aut longius quam necesse est.",
@@ -232,10 +232,10 @@ map_data = {
       "definition": "Necessity for something to be true",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "lwoeed",
-          "modal": "Modal: dynamic",
+          "category": "Modal: dynamic",
           "emergence": 1,
           "disparition": "None",
           "attestation": "CIC. ac. 2, 116 quae (rationes)... nullam adhibent persuadendi necessitatem.",
@@ -262,10 +262,10 @@ map_data = {
       "definition": "State of shortage (of something necessary)",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "nsbapq",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. Cluent. 57 ille inopia et necessitate coactus in causa eius modi ad Caepasios fratres confugit, eqs. ",
@@ -292,10 +292,10 @@ map_data = {
       "definition": "To show / imply a state of necessity",
       "construct": "NECESSITATEM HABEO",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "fuzvn",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CIC. Lig. 4 nam profectio voluntatem habuit non turpem, remansio necessitatem etiam honestam.",
@@ -322,10 +322,10 @@ map_data = {
       "definition": "To be under the necessity of",
       "construct": "NECESSITATEM HABEO",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "uthan",
-          "modal": "Modal: dynamic",
+          "category": "Modal: dynamic",
           "emergence": 1,
           "disparition": "None",
           "attestation": "SEN. benef. 6, 27, 2 optas enim, non ut tu facultatem habeas referendae gratiae, sed ut ille necessitatem inplorandae.",
@@ -357,7 +357,7 @@ map_data = {
         },
         {
           "id": "def",
-          "modal": "Modal: deontic authority",
+          "category": "Modal: deontic authority",
           "emergence": 4,
           "disparition": "None",
           "attestation": "IULIAN. dig. 35, 1, 30 Si separatim mihi totus fundus pure, tibi sub condicione legatus fuerit et tu decesseris, antequam condicio exstiterit: non habebo necessitatem implere condicionem, utpote cum, etiamsi condicio defecerit, pars quam vindicaturus eras mihi adcrescat.",
@@ -391,10 +391,10 @@ map_data = {
       "definition": "Necessarily, by necessity ",
       "construct": "NECESSITATE",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "gixwrbsm",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -2,
           "disparition": "None",
           "attestation": "PLAUT. Persa 382 necessitate me mala ut fiam facit.",
@@ -416,10 +416,10 @@ map_data = {
       "definition": "There is need, it is needed",
       "construct": "NECESSITAS EST",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "mmksgsn",
-          "modal": "Modal: dynamic",
+          "category": "Modal: dynamic",
           "emergence": 1,
           "disparition": "None",
           "attestation": "SEN. epist. 12, 10 in necessitate vivere necessitas nulla est.",
@@ -450,10 +450,10 @@ map_data = {
       "definition": "Fellowship between persons with a tight bond",
       "construct": "_",
       "group": "_",
-      "modalities": [
+      "analysis": [
         {
           "id": "wzp",
-          "modal": "Not modal",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
           "attestation": "CAES. or. frg. Gell. 5, 13, 6 vel pro hospitio regis Nicomedis vel pro horum necessitate, quorum res agitur, refugere hoc munus ... non potui. ",
