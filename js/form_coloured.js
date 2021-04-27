@@ -793,7 +793,7 @@ function confirmForm(event) {
           definition: definitionData[0],
           construct: definitionData[1],
           group: definitionData[2],
-          modalities: definitionData[3],
+          analysis: definitionData[3],
         });
       });
       const data = {
@@ -1044,8 +1044,8 @@ if (localData && localData.normalForm) {
         const elements = col.childNodes;
         if (elements.length > 1) {
           const modals = elements[0];
-          if (meaning.modalities.length > 1) {
-            meaning.modalities.forEach((modality, i) => {
+          if (meaning.analysis.length > 1) {
+            meaning.analysis.forEach((modality, i) => {
               if (i > 0) {
                 createModality((event = null), (reconstruction = modals));
               }
@@ -1053,7 +1053,7 @@ if (localData && localData.normalForm) {
               addModalInfo(modal, modality);
             });
           } else {
-            const modality = meaning.modalities[0];
+            const modality = meaning.analysis[0];
             const modal = modals.childNodes[0];
             addModalInfo(modal, modality);
           }

@@ -25,8 +25,8 @@ if (localStorage.getItem('map')) {
   const existingRelationships = [];
   if (data.normalForm) {
     data.meanings.forEach((meaning) => {
-      if (meaning.modalities.length > 1) {
-        meaning.modalities.forEach((modality) => {
+      if (meaning.analysis.length > 1) {
+        meaning.analysis.forEach((modality) => {
           if ('relationships' in modality) {
             existingRelationships.concat(
               extractValues(modality, existingRelationships)
@@ -36,7 +36,7 @@ if (localStorage.getItem('map')) {
           }
         });
       } else {
-        const modality = meaning.modalities[0];
+        const modality = meaning.analysis[0];
         if ('relationships' in modality) {
           existingRelationships.concat(
             extractValues(modality, existingRelationships)
@@ -177,16 +177,16 @@ function createSelect(meanings) {
     // Checks which form was used for the main data gathering
     if (data.normalForm) {
       // Handles creation for complex form (with modalities)
-      if (meanings[i].modalities.length > 1) {
+      if (meanings[i].analysis.length > 1) {
         // Handles meanings which hold more than 1 modality
-        for (let j = 0; j < meanings[i].modalities.length; j++) {
+        for (let j = 0; j < meanings[i].analysis.length; j++) {
           const option = document.createElement('option');
           option.innerHTML = `${meanings[i].definition} - ${
-            meanings[i].modalities[j].category
+            meanings[i].analysis[j].category
           } ${
             meanings[i].group != '_' ? '(' + meanings[i].group + ')' : ''
           }`;
-          option.value = meanings[i].modalities[j].id;
+          option.value = meanings[i].analysis[j].id;
           select.appendChild(option);
         }
       } else {
@@ -195,7 +195,7 @@ function createSelect(meanings) {
         option.innerHTML = `${meanings[i].definition} ${
           meanings[i].group != '_' ? '(' + meanings[i].group + ')' : ''
         }`;
-        option.value = meanings[i].modalities[0].id;
+        option.value = meanings[i].analysis[0].id;
         select.appendChild(option);
       }
     } else {
@@ -285,9 +285,9 @@ function submit(event) {
       data.meanings.forEach((meaning) => {
         if (data.normalForm) {
           // Complex form
-          if (meaning.modalities.length > 1) {
+          if (meaning.analysis.length > 1) {
             // More than one modality
-            meaning.modalities.forEach((modality) => {
+            meaning.analysis.forEach((modality) => {
               modality = addRelationships(modality);
               // Save data symetrically
               if (modality.id === final[i].origin) {
@@ -298,7 +298,7 @@ function submit(event) {
             });
           } else {
             // Only one modality
-            let modality = meaning.modalities[0];
+            let modality = meaning.analysis[0];
             modality = addRelationships(modality);
             // Save data symetrically
             if (modality.id === final[i].origin) {

@@ -1041,12 +1041,12 @@ function prepareDefinitions() {
   const definitions = [];
   if (data.normalForm) {
     meanings.forEach((meaning) => {
-      if (meaning.modalities.length > 1) {
-        meaning.modalities.forEach((modalitiy) => {
+      if (meaning.analysis.length > 1) {
+        meaning.analysis.forEach((modalitiy) => {
           definitions.push(modalityFormatting(meaning, modalitiy));
         });
       } else {
-        definitions.push(modalityFormatting(meaning, meaning.modalities[0]));
+        definitions.push(modalityFormatting(meaning, meaning.analysis[0]));
       }
     });
   } else {
