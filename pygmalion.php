@@ -19,6 +19,16 @@
 <body>
 <?php include("ssi/menu.html"); ?>
 <main>
+    <aside class="sidebar">
+        <a href="#about">About</a>
+        <a href="#howTo">How to use Pygmalion</a>
+        <a href="#aboutMaps">The interactive maps</a>
+        <a href="#sharing">Sharing and re-using data</a>
+        <a href="#gallery">Example gallery</a>
+        <a href="#troubleshooting">Troubleshooting</a>
+    </aside>
+    <br id="about"/>
+    <div class="content">
     <h1>Pygmalion, a tool to visualise the diachronic description of meaning</h1>
 
     <p>Pygmalion is available in three versions. <a
@@ -74,11 +84,11 @@
             Science Foundation.
         </li>
     </ul>
-
+<br id="howTo"/>
     <p>We wish to express our gratitude to Adam Gitner (TLL project) for his valuable feedback on Pygmalion-simple.</p>
 
 
-    <h2 id="howTo">How to use Pygmalion-simple</h2>
+    <h2>How to use Pygmalion-simple</h2>
 
 
     <p>Pygmalion works on the base of two forms: the first one collects ‘semantic informations’, the second one
@@ -165,6 +175,33 @@
     <p>If the user is not interested in making explicit any relations between the meanings and/or collocations or
         if the user finishes to describe the relationships, s/he can click on the button ‘submit form’ and the semantic
         maps will appear.</p>
+        <h2>How to use Pygmalion-colour and Pygmalion-modal</h2>
+        <p>Pygmalion-colour and Pygmalion-modal were specifically conceived to improve the potential of their 'brother' Pygmalion-simple.
+            Pygmalion-colour allows a better visualisation of complex meaning descriptions through the use of colour, while Pygmalion-modal
+            is specifically conceived to explore modality whatever the theoretical framework, thus adapting to various nomenclatures.
+            Both work exactly as Pygmalion-simple. The only two
+            differences consist in the conception of the subfield ‘Description’ and in the presence of the button ‘Add new
+            (modal) description’.</p>
+
+        <p>In Pygmalion-modal, the subfield ‘Description’ contains the field ‘modality type’. There, the user can choose between a
+            pre-established list of possibilities – i.e. ‘not modal’, ‘modal: deontic’, ‘modal: dynamic’, ‘modal:
+            epistemic’, ‘premodal’ (i.e. the meaning belongs to a cross-linguistic group of meanings from which a modal
+            reading developed), ‘postmodal’ (i.e. the meaning belongs to a cross-linguistic group of meanings into which a
+            modal reading developed). If nothing suits the needs of the user, s/he can add his/her own types of modality, by
+            clicking on the option ‘Add a type of modality…’ at the end of the list. To choose a type of modality (or ‘not
+            modal’) is mandatory. In the final maps the different types of modality are colour-coded. The user can also
+            indicate whether the modal interpretation is certain or not. Certainty is the default option.
+        </p>
+        <p>In line with the importance given to semantic ambiguity in the WoPoss project, the user can add different
+            modal descriptions for each reading of a meaning, e.g. the same meaning ‘must’ can be read as ‘dynamic’,
+            ‘deontic’ and ‘epistemic’. Pygmalion being very flexible, the user can also decide to create three different
+            ‘meanings’ for each of these readings.</p>
+        <br id="aboutMaps"/>
+        <p>In Pygmalion-colour, the subfield ‘Description’ contains the field ‘analysis’ where the user can add any analytical category.
+            In the final maps the different categories are automatically colour-coded. As with the other versions, the user can also indicate
+            whether the analysis is certain or not. Certainty is the default option. In the same meaning/function
+            can be assigned to more than one category, the user can click on 'Add new description' and create a new entry with a different category.
+        </p>
 
     <h2>The interactive maps</h2>
     <p>Pygmalion generates two interactive maps, both chronological. The upper one contains all information entered by
@@ -177,41 +214,30 @@
         meaning ‘playing card’ is at the base of the meaning ‘small, not very solid house’ in the collocation ‘un
         château de cartes’, from which in turn the meaning ‘vain things’ derives.</p>
     <img src="images/image5.png" alt="map" class="block">
+        <br id="sharing"/>
     <p>To return to the previous visualisation of the map, the user must double-click on a meaning.
         The first attestation of each meaning is visible – as entered in the first form – when hovering the mouse over a
         meaning.
     </p>
-    <h2>How to use Pygmalion-colour and Pygmalion-modal</h2>
-    <p>Pygmalion-colour and Pygmalion-modal were specifically conceived to improve the potential of their 'brother' Pygmalion-simple.
-        Pygmalion-colour allows a better visualisation of complex meaning descriptions through the use of colour, while Pygmalion-modal
-        is specifically conceived to explore modality whatever the theoretical framework, thus adapting to various nomenclatures.
-        Both work exactly as Pygmalion-simple. The only two
-        differences consist in the conception of the subfield ‘Description’ and in the presence of the button ‘Add new
-        (modal) description’.</p>
 
-    <p>In Pygmalion-modal, the subfield ‘Description’ contains the field ‘modality type’. There, the user can choose between a
-        pre-established list of possibilities – i.e. ‘not modal’, ‘modal: deontic’, ‘modal: dynamic’, ‘modal:
-        epistemic’, ‘premodal’ (i.e. the meaning belongs to a cross-linguistic group of meanings from which a modal
-        reading developed), ‘postmodal’ (i.e. the meaning belongs to a cross-linguistic group of meanings into which a
-        modal reading developed). If nothing suits the needs of the user, s/he can add his/her own types of modality, by
-        clicking on the option ‘Add a type of modality…’ at the end of the list. To choose a type of modality (or ‘not
-        modal’) is mandatory. In the final maps the different types of modality are colour-coded. The user can also
-        indicate whether the modal interpretation is certain or not. Certainty is the default option.
-    </p>
-    <p>In line with the importance given to semantic ambiguity in the WoPoss project, the user can add different
-        modal descriptions for each reading of a meaning, e.g. the same meaning ‘must’ can be read as ‘dynamic’,
-        ‘deontic’ and ‘epistemic’. Pygmalion being very flexible, the user can also decide to create three different
-        ‘meanings’ for each of these readings.</p>
-    <p>In Pygmalion-colour, the subfield ‘Description’ contains the field ‘analysis’ where the user can add any analytical category.
-        In the final maps the different categories are automatically colour-coded. As with the other versions, the user can also indicate
-        whether the analysis is certain or not. Certainty is the default option. In the same meaning/function
-        can be assigned to more than one category, the user can click on 'Add new description' and create a new entry with a different category.
-    </p>
     <h2>Sharing and re-using data with Pygmalion</h2>
+        <br  id="gallery"/>
     <p>Once a user has created a map, s/he can export the data in JSON format through the ‘Export data map’ button’
         and/or save the map as an SVG file or as a PNG file through the dedicated buttons. Data can be shared and
         re-used according to the above-specified licence. Once a user receives a map data, s/he can import it through
         the ‘Import map data’ button. Map data can be imported from <a href="https://woposs.unine.ch/map.php" target="_blank">this address</a>.</p>
+
+   <h2>Example gallery</h2>
+        <ul>
+        <li>All the diachronic semantic maps of modal markers developed by the WoPoss team are available
+            <a href="https://woposs.unine.ch/semantic-modal-maps.php#maps" target="_blank">here</a>.</li>
+        <li>Other examples:
+        <ul>
+            <li><a href="semantic-maps/carte_en.php" target="_blank">CARTE_fr (English)</a> by Francesca Dell’Oro. </li>
+            <li><a href="semantic-maps/carte_es.php" target="_blank">CARTE_fr (Spanish)</a>  by Francesca Dell’Oro.</li>
+            <br  id="troubleshooting"/>
+            <li><a href="semantic-maps/carat.php" target="_blank">CARAT_fr (French)</a> by Francesca Dell’Oro.</li>
+        </ul></li></ul>
     <h2>Troubleshooting</h2>
     <ul>
         <li>If the import button does not work, please clean the browser cache before trying again.</li>
@@ -220,7 +246,7 @@
       <br/>
     <p style="font-size: smaller">[*] Loris Rimaz was engaged to create the code of Pygmalion thanks to the financial
         contribution of the Rectorate of the University of Lausanne.</p>
-
+    </div>
 </main>
 <?php include("ssi/footer.html"); ?>
 </body>

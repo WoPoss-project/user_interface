@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head>
-    <title>Semantic Map: CERTUS - WoPoss</title>
+    <title>Semantic Map: CARTE - WoPoss</title>
     <?php include("../ssi/head.html"); ?>
-
     <link rel="stylesheet" href="../css/form.css" />
+
     <link
             rel="stylesheet"
             href="https://rawgit.com/Caged/d3-tip/master/examples/example-styles.css"
@@ -15,7 +15,8 @@
     />
 
 
-    <script src="../js/json/certus.js">/**/</script>
+    <script src="../js/json/other/carte_es.js">/**/</script>
+
 
     <!-- jQuery & Bootstrap -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -27,7 +28,7 @@
     <script src="http://bigspotteddog.github.io/ScrollToFixed/jquery-scrolltofixed.js"
             type="text/javascript">/**/</script>
 
-    <script src="http://woposs.unil.ch/js/timeline.js" type="text/javascript">/**/</script>
+    <script src="../js/timeline.js" type="text/javascript">/**/</script>
 
     <!-- Sweetalert 2 -->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
@@ -35,6 +36,7 @@
     <!-- D3 -->
     <script src="https://d3js.org/d3.v5.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.min.js"></script>
+
 
 
     <style>
@@ -46,7 +48,7 @@
 <body>
 <?php include("../ssi/menu.html"); ?>
 <main>
-    <h1>Diachronic modal semantic map of CERTUS</h1>
+    <h1>Mapa semántico diacrónico de CARTE (fr)</h1>
 
         <div class="invisibleWhenNoData" id="map" style="visibility: hidden"></div>
         <div>
@@ -72,18 +74,18 @@
             <br />
             <br />
             <br />
-            <!--<button
-                    id="importData"
-                    style="
-          width: 175px;
-          float: left;
-          color: white;
-          margin-left: 100px;
-          font-size: 14px;
-        "
-            >
-                Import map data
-            </button>-->
+<!--            <button-->
+<!--                    id="importData"-->
+<!--                    style="-->
+<!--          width: 175px;-->
+<!--          float: left;-->
+<!--          color: white;-->
+<!--          margin-left: 100px;-->
+<!--          font-size: 14px;-->
+<!--        "-->
+<!--            >-->
+<!--                Import map data-->
+<!--            </button>-->
             <button
                     class="invisibleWhenNoData"
                     id="exportData"
@@ -173,6 +175,6 @@
     <script src="../js/map-load.js"></script>
     <script src="../js/network.js"></script>
 </main>
-<?php include("http://woposs.unil.ch/ssi/footer.html"); ?>
+<?php include("../ssi/footer.html"); ?>
 </body>
 </html>
