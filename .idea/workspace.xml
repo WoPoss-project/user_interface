@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="db487090-34b1-4abd-9088-e9e00729d9e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/semantic-maps/carat.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semantic-maps/carte_en.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semantic-maps/carte_es.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/menu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/json/debeo.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/debeo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/json/other/semantic_map_CARAT3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/json/other/semantic_map_CARTE_final.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pygmalion.php" beforeDir="false" afterPath="$PROJECT_DIR$/pygmalion.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/semantic-maps/map-certus.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-certus.php" afterDir="false" />
-    </list>
+    <list default="true" id="db487090-34b1-4abd-9088-e9e00729d9e7" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -378,7 +367,7 @@
       <workItem from="1619445264908" duration="2858000" />
       <workItem from="1619507188305" duration="23270000" />
       <workItem from="1619619704473" duration="2115000" />
-      <workItem from="1619689834027" duration="79000" />
+      <workItem from="1619689834027" duration="615000" />
     </task>
     <servers />
   </component>
