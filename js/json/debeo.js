@@ -4,7 +4,7 @@ map_data = {
   "etymology": [
     {
       "period": "PIE",
-      "form": "de + *ghh1b(h)-(e)i-, aor. *ghh1b(h)-eh1-",
+      "form": "de + *gʰh₁b⁽ʰ⁾-(e)i-, aor. *gʰh₁b⁽ʰ⁾-(e)h₁-",
       "def": "'to take'",
       "certitude": true
     },
