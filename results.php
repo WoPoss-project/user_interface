@@ -502,6 +502,10 @@
     </ul>
     <h3>Other presentations</h3>
     <ul>
+        <li>Marongiu, Paola (2021). “Visualisation des données à partir d’un corpus diachronique de Latin”. Lecture for the MA course
+            <em>Linguistique de corpus</em> (Prof. Corinne Rossari). April 26th
+            2021. University of Neuchâtel.
+        </li>
         <li>Dell’Oro, Francesca (2021). “Linguistique de corpus et linguistique historique: Introduction”. Lecture for the MA course
             <em>Linguistique de corpus</em> (Prof. Corinne Rossari). April 19th
             2021. University of Neuchâtel.

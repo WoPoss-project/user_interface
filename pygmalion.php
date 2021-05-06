@@ -233,6 +233,9 @@
             <a href="https://woposs.unine.ch/semantic-modal-maps.php#maps" target="_blank">here</a>.</li>
         <li>Other examples:
         <ul>
+<!--            <li><a href="semantic-maps/filia_en.php" target="_blank">FILIA_es/fr/it (English)</a> by Francesca Dell’Oro, Paola Marongiu and Helena Bermúdez Sabel. </li>-->
+<!--            <li><a href="semantic-maps/filia_es.php" target="_blank">FILIA_es/fr/it (Spanish)</a> by Francesca Dell’Oro, Paola Marongiu and Helena Bermúdez Sabel. </li>-->
+            <li><a href="semantic-maps/carte_en.php" target="_blank">CARTE_fr (English)</a> by Francesca Dell’Oro. </li>
             <li><a href="semantic-maps/carte_en.php" target="_blank">CARTE_fr (English)</a> by Francesca Dell’Oro. </li>
             <li><a href="semantic-maps/carte_es.php" target="_blank">CARTE_fr (Spanish)</a>  by Francesca Dell’Oro.</li>
             <br  id="troubleshooting"/>

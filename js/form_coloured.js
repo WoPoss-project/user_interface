@@ -499,7 +499,7 @@ function createModalSelect() {
   const modalSelect = document.createElement('select');
 
   // Creates a new select if none exist before...
-  const existingSelects = document.querySelector(`.modality`);
+  const existingSelects = document.querySelector(`.analysis`);
   const options = [];
   if (!existingSelects) {
     options.push(
@@ -555,7 +555,7 @@ function deleteEntry(event) {
     Swal.fire({
       icon: 'warning',
       title: 'Caution!',
-      text: 'Each sense/definition should have at least one modality',
+      text: 'Each meaning/definition should have at least an analysis',
     });
   }
 }
@@ -1122,11 +1122,11 @@ function addModalInfo(modal, modality) {
         }
       } else if (element.className === 'attest') {
         element.value = modality.attestation;
-      } else if (element.className === 'analysis') {
+      } else if (element.className === 'modality') {
         const options = [...element.childNodes];
         const optionsValues = options.map((opt) => opt.innerHTML);
         if (!optionsValues.includes(modality.category)) {
-          addGroup(modality.category, 'analysis', element);
+          addGroup(modality.category, 'modality', element);
         }
         element.value = modality.category;
       } else if (element.className === 'certitude') {
