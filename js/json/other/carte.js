@@ -24,7 +24,7 @@ map_data = {
   "dataFormat": "cent",
   "meanings": [
     {
-      "definition": "playing card",
+      "definition": "play cards",
       "construct": "jouer aux cartes",
       "group": "playing card",
       "analysis": [
@@ -258,7 +258,7 @@ map_data = {
       ]
     },
     {
-      "definition": "undertaking something, risking something ",
+      "definition": "undertake something, risk something",
       "construct": "jouer une carte",
       "group": "playing card",
       "analysis": [
@@ -288,7 +288,7 @@ map_data = {
       ]
     },
     {
-      "definition": "play one's last chance",
+      "definition": "take one's last chance",
       "construct": "jouer sa dernière carte",
       "group": "playing card",
       "analysis": [
@@ -520,7 +520,7 @@ map_data = {
       ]
     },
     {
-      "definition": "memory of the cost of a catered meal ",
+      "definition": "record of the cost of a catered meal ",
       "construct": "_",
       "group": "piece of paper, paperboard",
       "analysis": [
@@ -610,7 +610,7 @@ map_data = {
       ]
     },
     {
-      "definition": "restaurant menu",
+      "definition": "to eat à la carte",
       "construct": "diner à la carte",
       "group": "piece of paper, paperboard",
       "analysis": [

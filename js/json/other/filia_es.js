@@ -18,7 +18,7 @@ map_data = {
   "dataFormat": "cent",
   "meanings": [
     {
-      "definition": "Mujer en relación a su lugar de origen",
+      "definition": "[Persona de género femenino en relación a su lugar de origen]",
       "construct": "_",
       "group": "_",
       "analysis": [
@@ -45,7 +45,7 @@ map_data = {
       ]
     },
     {
-      "definition": "Mujer respecto de quienes la han engendrado",
+      "definition": "Persona de género femenino respecto de quienes la han engendrado",
       "construct": "_",
       "group": "_",
       "analysis": [
@@ -160,7 +160,7 @@ map_data = {
       ]
     },
     {
-      "definition": "Mujer religiosa respecto del obispo de su diócesis",
+      "definition": "[Dicho por un obispo dirigiéndose a una mujer religiosa de su diócesis]",
       "construct": "_",
       "group": "_",
       "analysis": [
@@ -189,7 +189,7 @@ map_data = {
       ]
     },
     {
-      "definition": "Mujer respecto de quienes la han engendrado",
+      "definition": "Persona de género femenino respecto de quienes la han engendrado",
       "construct": "_",
       "group": "_",
       "analysis": [
@@ -239,7 +239,7 @@ map_data = {
       ]
     },
     {
-      "definition": "Mujer respecto de quienes la han engendrado",
+      "definition": "Persona de género femenino respecto de quienes la han engendrado",
       "construct": "_",
       "group": "_",
       "analysis": [

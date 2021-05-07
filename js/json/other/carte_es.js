@@ -24,7 +24,7 @@ map_data = {
   "dataFormat": "cent",
   "meanings": [
     {
-      "definition": "carta de juego",
+      "definition": "jugar a las cartas",
       "construct": "jouer aux cartes",
       "group": "carta de juego",
       "analysis": [
@@ -495,7 +495,7 @@ map_data = {
       ]
     },
     {
-      "definition": "echarle una mano a alguien",
+      "definition": "dejar a alguien la libertad de decidir",
       "construct": "bailler la carte blanche",
       "group": "hoja de papel, cartón",
       "analysis": [
