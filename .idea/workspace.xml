@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db487090-34b1-4abd-9088-e9e00729d9e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/js/json/other/ex.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/json/other/example.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/json/other/filia_es.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semantic-maps/filia_en.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semantic-maps/filia_es.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/form_coloured.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/form_coloured.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pygmalion.php" beforeDir="false" afterPath="$PROJECT_DIR$/pygmalion.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results.php" beforeDir="false" afterPath="$PROJECT_DIR$/results.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/map-load.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/map-load.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -383,6 +376,7 @@
       <workItem from="1620143013380" duration="659000" />
       <workItem from="1620200294374" duration="4943000" />
       <workItem from="1620291096874" duration="5690000" />
+      <workItem from="1620386305303" duration="260000" />
     </task>
     <servers />
   </component>
