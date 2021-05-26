@@ -46,13 +46,13 @@
     </p>
     <p>To quickly learn how to work with Pygmalion and draw your own maps, please read the tutorial in <a href="#howTo">this
             section</a>. You will also find some ideas about how to use Pygmalion.</p>
-    <p>Both tools, Pygmalion-simple and Pygmalion-modal, as well as the code are freely available as open access
+    <p id="refnote1">Both tools, Pygmalion-simple and Pygmalion-modal, as well as the code are freely available as open access
         resources. Feel free to share with us your comments and critics. The WoPoss team hopes to be able to continue to
         improve the tool in the future.</p>
 
     <p>Pygmalion was created by Francesca Dell’Oro (conceptualisation, general supervision, testing), Loris Rimaz
-        (conceptualisation, main development, testing)<a href="#note1">*</a>, Helena Bermúdez Sabel (conceptualisation, development, testing)
-        & Paola Marongiu (testing) in the framework of the WoPoss project. It is released under a GPLv3 licence. Please
+        (conceptualisation, main development, testing),<a href="#note1">*</a> Helena Bermúdez Sabel (conceptualisation, development, testing)
+        and Paola Marongiu (testing) in the framework of the WoPoss project. It is released under a GPLv3 licence. Please
         cite our work as follows:</p>
 
     <ul>
@@ -221,8 +221,7 @@
     </p>
 
     <h2>Sharing and re-using data with Pygmalion</h2>
-        <br  id="gallery"/>
-    <p>Once a user has created a map, s/he can export the data in JSON format through the ‘Export data map’ button’
+    <p id="gallery">Once a user has created a map, s/he can export the data in JSON format through the ‘Export data map’ button’
         and/or save the map as an SVG file or as a PNG file through the dedicated buttons. Data can be shared and
         re-used according to the above-specified licence. Once a user receives a map data, s/he can import it through
         the ‘Import map data’ button. Map data can be imported from <a href="https://woposs.unine.ch/map.php" target="_blank">this address</a>.</p>
@@ -233,13 +232,12 @@
             <a href="https://woposs.unine.ch/semantic-modal-maps.php#maps" target="_blank">here</a>.</li>
         <li>Other examples:
         <ul>
-<!--            <li><a href="semantic-maps/filia_en.php" target="_blank">FILIA_es/fr/it (English)</a> by Francesca Dell’Oro, Paola Marongiu and Helena Bermúdez Sabel. </li>-->
-<!--            <li><a href="semantic-maps/filia_es.php" target="_blank">FILIA_es/fr/it (Spanish)</a> by Francesca Dell’Oro, Paola Marongiu and Helena Bermúdez Sabel. </li>-->
-            <li><a href="semantic-maps/carte_en.php" target="_blank">CARTE_fr (English)</a> by Francesca Dell’Oro. </li>
-            <li><a href="semantic-maps/carte_en.php" target="_blank">CARTE_fr (English)</a> by Francesca Dell’Oro. </li>
-            <li><a href="semantic-maps/carte_es.php" target="_blank">CARTE_fr (Spanish)</a>  by Francesca Dell’Oro.</li>
-            <br  id="troubleshooting"/>
             <li><a href="semantic-maps/carat.php" target="_blank">CARAT_fr (French)</a> by Francesca Dell’Oro.</li>
+            <li><a href="semantic-maps/carte_en.php" target="_blank">CARTE_fr (English)</a> by Francesca Dell’Oro. </li>
+            <li id="troubleshooting"><a href="semantic-maps/carte_es.php" target="_blank">CARTE_fr (Spanish)</a>  by Francesca Dell’Oro.</li>
+            <li><a href="semantic-maps/filia_en.php" target="_blank">FILIA_es/fr/it (English)</a> by Francesca Dell’Oro, Paola Marongiu and Helena Bermúdez Sabel. </li>
+            <li><a href="semantic-maps/filia_es.php" target="_blank">FILIA_es/fr/it (Spanish)</a> by Francesca Dell’Oro, Paola Marongiu and Helena Bermúdez Sabel. </li>
+
         </ul></li></ul>
     <h2>Troubleshooting</h2>
     <ul>
@@ -247,7 +245,7 @@
     </ul>
     <br id="note1"/>
       <br/>
-    <p style="font-size: smaller">[*] Loris Rimaz was engaged to create the code of Pygmalion thanks to the financial
+    <p style="font-size: smaller"><a href="#refnote1">[*]</a> Loris Rimaz was engaged to create the code of Pygmalion thanks to the financial
         contribution of the Rectorate of the University of Lausanne.</p>
     </div>
 </main>
