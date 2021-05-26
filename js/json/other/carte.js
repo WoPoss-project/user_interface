@@ -24,8 +24,8 @@ map_data = {
   "dataFormat": "cent",
   "meanings": [
     {
-      "definition": "play cards",
-      "construct": "jouer aux cartes",
+      "definition": "game",
+      "construct": "_",
       "group": "playing card",
       "analysis": [
         {

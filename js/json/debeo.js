@@ -24,7 +24,7 @@ map_data = {
       "analysis": [
         {
           "id": "ikyhwan",
-          "category": "Not modal",
+          "category": "Premodal",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Mil. 421 quid tibi istic in istisce aedibus debetur, quid negotist?",
