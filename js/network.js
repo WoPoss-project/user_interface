@@ -141,22 +141,22 @@ function drawGraph() {
     .append('rect')
     .attr('width', (d) => {
       const w = d.name.split(' ');
-      const text = w[0] + (w[1] ? ' ' + w[1] : '') + (w[2] ? '...' : '');
-      return getTextWidth(text) + 12;
+      const text = w.slice(0,4).join(' ') + (w[4] ? '...' : '');
+      return getTextWidth(text) + 8;
     })
     .attr('height', 20)
     .attr('x', 5)
     .attr('y', -26)
     .attr('rx', 3)
     .attr('ry', 3)
-    .style('fill', (d) => colors[d.modal])
+    .style('fill', (d) => colors[d.category])
     .style('opacity', 0.5);
 
   // Circles
   node
     .append('circle')
     .attr('r', 10)
-    .style('stroke', (d) => colors[d.modal])
+    .style('stroke', (d) => colors[d.category])
     .style('stroke-width', 2)
     .style(
       'fill',
@@ -169,7 +169,7 @@ function drawGraph() {
     .append('text')
     .text((d) => {
       const w = d.name.split(' ');
-      return w[0] + (w[1] ? ' ' + w[1] : '') + (w[2] ? '...' : '');
+      return w.slice(0,4).join(' ') + (w[4] ? '...' : '');
     })
     .attr('dx', 10)
     .attr('dy', -10);
@@ -236,7 +236,7 @@ function extractDefinitionData() {
       id: def.id,
       name: def.meaning,
       emergence: def.emergence,
-      modal: def.modal,
+      category: def.category,
     });
     // Create links data
     for (rel in def.relationships) {

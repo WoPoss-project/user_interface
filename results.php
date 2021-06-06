@@ -424,7 +424,7 @@
 
         <li>Bermúdez Sabel, Helena (in press). “Digital tools for semantic annotation: the WoPoss use case”. <em>Bulletin
                 de linguistique et des sciences du langage</em> 30.
-            [<a href="http://doi.org/10.5281/zenodo.3572410" target="_blank">Preprint</a>].
+            [<a href="http://doi.org/10.5281/zenodo.3572410" target="_blank">Preprint</a>]
         </li>
 
     </ul>
@@ -452,17 +452,17 @@
             théorie de la modalité, annotation linguistique et partage des données”. <em>11<sup>e</sup> Journée de
                 linguistique suisse</em>. November 6, 2020. Université de Fribourg. Fribourg, Switzerland.
             [<a href="https://sagw.ch/fileadmin/redaktion_ssg/dokumente/2020-10-09_DSL11_Abstracts.pdf" target="_blank">Abstract</a>,
-            p. 21] [<a href="https://woposs.unine.ch/outputs/presentation-journees.mp4">Presentation</a>].
+            p. 21] [<a href="https://woposs.unine.ch/outputs/presentation-journees.mp4">Presentation</a>]
         </li>
         <li>Dell’Oro, Francesca (2020). “WoPoss – A <em>Wo</em>rld of <em>Poss</em>ibilities. An open access annotated
             corpus to study the diachrony of modality in the Latin language”. <em>DH2020</em>. July 22-24, 2020. Ottawa, Canada. [<a
                     href="https://dh2020.adho.org/wp-content/uploads/2020/07/406_WoPossAWorldofPossibilitiesAnopenaccessannotatedcorpustostudythediachronyofmodalityintheLatinlanguage.html"
-                    target="_blank">Abstract</a>] [<a target="_blank" href="http://dx.doi.org/10.17613/pp6j-0p86">Presentation</a>].
+                    target="_blank">Abstract</a>] [<a target="_blank" href="http://dx.doi.org/10.17613/pp6j-0p86">Presentation</a>]
         </li>
         <li>Marongiu, Paola (2020). “Co-occurrence of modal markers: a network analysis approach”. <em>DH2020</em>. July 22-24, 2020. Ottawa, Canada. [<a
                     target="_blank"
                     href="https://dh2020.adho.org/wp-content/uploads/2020/07/507_Cooccurrenceofmodalmarkersanetworkanalysisapproach.html">Abstract</a>]
-            [<a href="http://dx.doi.org/10.17613/ecef-8y53" target="_blank">Presentation</a>].
+            [<a href="http://dx.doi.org/10.17613/ecef-8y53" target="_blank">Presentation</a>]
         </li>
     </ul>
     <h3>Posters</h3>
@@ -474,13 +474,13 @@
             [<a target="_blank" href="https://woposs.unine.ch/outputs/poster-journees.pdf">PDF</a>] [Presentation: <a
                     href="https://woposs.unine.ch/outputs/poster-journees.mp4" target="_blank">Firefox</a>,
             <a target="_blank" href="https://woposs.unine.ch/outputs/poster-journees.mp4">Chrome</a>,
-            <a href="https://woposs.unine.ch/outputs/poster-journees-safari.mp4" target="_blank">Safari</a>].
+            <a href="https://woposs.unine.ch/outputs/poster-journees-safari.mp4" target="_blank">Safari</a>]
         </li>
         <li>Bermúdez Sabel, Helena; Dell’Oro, Francesca; Marongiu, Paola (2020). “Visualisation of semantic shifts:
             the
             case of modal markers”. <em>DH2020</em>. July 22-24, 2020. Ottawa, Canada. [<a target="_blank"
                                                          href="https://dh2020.adho.org/wp-content/uploads/2020/07/165_Visualisationofsemanticshiftsthecaseofmodalmarkers.html">Abstract</a>]
-            [<a href="http://dx.doi.org/10.17613/scy4-br70" target="_blank">Poster</a>].
+            [<a href="http://dx.doi.org/10.17613/scy4-br70" target="_blank">Poster</a>]
         </li>
     </ul>
 
@@ -492,10 +492,10 @@
                     Digital Classics, Summer 2021</a></em>. May 6, 2021. [<a href="https://github.com/SunoikisisDC/SunoikisisDC-2020-2021/wiki/SunoikisisDC-Summer-2021-Session-4" target="_blank">Session outline</a>]
             [<a href="https://github.com/SunoikisisDC/SunoikisisDC-2020-2021/blob/master/Summer-2021/Session4_slides.pdf"
                 target="_blank">Slides</a>]
-            [<a href="https://www.youtube.com/watch?v=7jvWi_IevC0" target="_blank">Presentation</a>].
+            [<a href="https://www.youtube.com/watch?v=7jvWi_IevC0" target="_blank">Presentation</a>]
         </li>
 
-        <li>Dell’Oro, Francesca (2021). “Les corpora arborés (treebanks): de l’annotation linguistique à l’emploi. Le cas des langues anciennes”. Lecture for
+        <li>Dell’Oro, Francesca (2021). “Les corpora arborés (treebanks) : de l’annotation linguistique à l’emploi. Le cas des langues anciennes”. Lecture for
             the course <em>Littérature grecque et Humanités numériques. La tragédie grecque à l’ère des Humanités numériques.
                 L’exemple de l’Ajax de Sophocle (Printemps 2021)</em> (Prof. M. Romanello). April 1, 2021. University of Lausanne. Lausanne, Switzerland.</li>
         <li>Dell’Oro, Francesca (2020). “Automatic annotation of Latin and Greek texts: lemmatisation, morphological
@@ -505,10 +505,10 @@
                     Session 7. Using Treebanks</em></a>. November 19, 2020.
             [<a href="https://raw.githubusercontent.com/SunoikisisDC/SunoikisisDC-2020-2021/master/Fall-2020-slides/TreebanksAutomaticAnnotation.pdf"
                 target="_blank">Slides</a>]
-            [<a href="https://youtu.be/EfHnR0nl9tE" target="_blank">Presentation</a>, 1:04:20].
+            [<a href="https://youtu.be/EfHnR0nl9tE" target="_blank">Presentation</a>, 1:04:20]
         </li>
 
-        <li>Dell’Oro, Francesca (2019). “Due suffissi derivazionali modali: greco antico <em>-ιμος</em> e latino <em>-bilis</em>em>”. <em>I
+        <li>Dell’Oro, Francesca (2019). “Due suffissi derivazionali modali: greco antico <em>-ιμος</em> e latino <em>-bilis</em>”. <em>I
                 processi di derivazione tra linguistica
                 indoeuropea e linguistica generale</em>. Giornata di studio e approfondimento. June 17, 2019. Università degli Studi di
             Milano. Milan. Italy. [<a href="http://www.studilefili.unimi.it/extfiles/unimidire/56101/attachment/locandina-processi-derivazione-2.pdf" target="_blank">Program</a>]
@@ -518,12 +518,12 @@
     <h3>Other presentations</h3>
     <ul>
         <li>Dell’Oro, Francesca; Bermúdez Sabel, Helena; Marongiu, Paola; Rimaz, Loris (2021). <em>Pygmalion, un outil lexicographique pour dessiner des
-                cartes interactives</em>. May 11, 2021. University of Neuchâtel. Neuchâtel, Switzerland.</li>
-        <li>Marongiu, Paola (2021). “Visualisation des données à partir d’un corpus diachronique de Latin”. Lecture for the MA course
+                cartes interactives</em>. May 11, 2021. University of Neuchâtel. Neuchâtel, Switzerland. [<a href="outputs/pygmalion_neuchatel.mp4">Presentation</a>]</li>
+        <li>Marongiu, Paola (2021). “Visualisation des données à partir d’un corpus diachronique de latin”. Lecture for the MA course
             <em>Linguistique de corpus</em> (Prof. Corinne Rossari). April 26,
             2021. University of Neuchâtel. Neuchâtel, Switzerland.
         </li>
-        <li>Dell’Oro, Francesca (2021). “Linguistique de corpus et linguistique historique: Introduction”. Lecture for the MA course
+        <li>Dell’Oro, Francesca (2021). “Linguistique de corpus et linguistique historique : introduction”. Lecture for the MA course
             <em>Linguistique de corpus</em> (Prof. Corinne Rossari). April 19,
             2021. University of Neuchâtel. Neuchâtel, Switzerland.
         </li>
@@ -539,14 +539,14 @@
             <em>Workshop on modality and written corpora</em>. December 17,
             2019. University of Neuchâtel. Neuchâtel, Switzerland.
         </li>
-        <li>Dell’Oro, Francesca (2019). “Comment les sens modaux émergent-ils ? Une étude de cas : italien <em>occorrere</em> « arriver, se passer » et « falloir, être nécessaire »”
+        <li>Dell’Oro, Francesca (2019). “Comment les sens modaux émergent-ils ? Une étude de cas : italien <em>occorrere</em> « arriver, se passer » et « falloir, être nécessaire »”.
         <em>Séminaire de recherche de la Section des sciences du langage et de l'information</em>.
         May 28, 2019.
             University of Lausanne. Lausanne, Switzerland.
         </li>
         <li>Dell’Oro, Francesca (2019). “The modal domain from the perspective of Latin adjectives in <em>-bilis</em> in synchrony
             and diachrony: from a theoretical model to
-            annotation”. <em>La modalité: de la théorie à l’encodage. Modality: from theory to encoding</em>. May 6, 2019.
+            annotation”. <em>La modalité : de la théorie à l’encodage. Modality: from theory to encoding</em>. May 6, 2019.
             University of Lausanne. Lausanne, Switzerland.
         </li>
         <li>Marongiu, Paola (2019). “Le verbe italien <em>contare</em> dans une approche corpus-driven: aspects syntaxiques, sémantiques et pragmatiques”.
@@ -599,7 +599,7 @@
             National
             Science Foundation. [<a target="_blank" href="db.php">Instructions
                 and dataset</a>]
-            [<a href="outputs/copy_of_WoPoss.zip">download file</a>].
+            [<a href="outputs/copy_of_WoPoss.zip">Download file</a>]
         </li>
     </ul>
 
@@ -615,19 +615,19 @@
     <ul>
         <li><em><a target="_blank" href="https://www.unine.ch/isla/en/home/colloques/theorling-2021.html">TheorLing: Theoretical linguistics in the light of the interaction of qualitative and quantitative
                     approaches</a></em>.
-            International Symposium. Upcoming. University of Neuchâtel. Neuchâtel, Switzerland. [<a href="outputs/call.pdf">Call for papers</a>].
+            International Symposium. June 21-22. University of Neuchâtel. Neuchâtel, Switzerland. [<a href="outputs/call.pdf">Call for papers</a>]
         </li>
 <li>Dürrschnabel, Vera (2020). <em>An introduction to Semitic languages for classicists</em>. October 20, 2020. University of Lausanne. Lausanne, Switzerland.</li>
 
         <li>Dell’Oro, Francesca; Rossari, Corinne (org.) (2019). <em>Workshop on modality and written corpora</em>. December 17,
-            2019. University of Neuchâtel. Neuchâtel, Switzerland. [<a href="outputs/flyer_workshop.pdf" target="_blank">Program</a>].
+            2019. University of Neuchâtel. Neuchâtel, Switzerland. [<a href="outputs/flyer_workshop.pdf" target="_blank">Program</a>]
         </li>
 
-        <li>Dell’Oro, Francesca; Picca, Davide (org.) (2019). <em>La modalité: de la théorie à l’encodage. Modality: from theory to encoding</em>. May 6, 2019.
-            University of Lausanne. Lausanne, Switzerland. [<a href="outputs/flyer_modality.pdf" target="_blank">Program</a>].
-        </li>
         <li>Ruiz Fabo, Pablo (2019). <em>Distributional
                 word representations</em>. August 30, 2019. University of Lausanne. Lausanne, Switzerland.</li>
+        <li>Dell’Oro, Francesca; Picca, Davide (org.) (2019). <em>La modalité : de la théorie à l’encodage. Modality: from theory to encoding</em>. May 6, 2019.
+            University of Lausanne. Lausanne, Switzerland. [<a href="outputs/flyer_modality.pdf" target="_blank">Program</a>]
+        </li>
 <li>Rossari, Corinne; Dell’Oro, Francesca (org.) (2019). <em>Journée des doctorant.e.s en sémantique</em>. April 11, 2019. University of Neuchâtel. Neuchâtel, Switzerland.</li>
 
     </ul>
