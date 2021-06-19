@@ -597,7 +597,11 @@
                 to
                 the WoPoss guidelines</em>. Swiss
             National
-            Science Foundation. [<a target="_blank" href="db.php">Instructions
+            Science Foundation. 
+
+<a href="https://doi.org/10.5281/zenodo.4896533"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4896533.svg" alt="DOI"></a>
+
+ [<a target="_blank" href="db.php">Instructions
                 and dataset</a>]
             [<a href="outputs/copy_of_WoPoss.zip">Download file</a>]
         </li>
