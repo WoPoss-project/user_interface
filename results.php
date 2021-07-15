@@ -422,8 +422,8 @@
             <em>ACME</em> 72 (2) (2019). DOI: <a href="https://doi.org/10.13130/2282-0035/13679 ">10.13130/2282-0035/13679</a>
         </li>
 
-        <li>Bermúdez Sabel, Helena (in press). “Digital tools for semantic annotation: the WoPoss use case”. <em>Bulletin
-                de linguistique et des sciences du langage</em> 30.
+        <li>Bermúdez Sabel, Helena (2019). “Digital tools for semantic annotation: the WoPoss use case”. <em>Bulletin
+                de linguistique et des sciences du langage</em> 30.1.
             [<a href="http://doi.org/10.5281/zenodo.3572410" target="_blank">Preprint</a>]
         </li>
 

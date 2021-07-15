@@ -14,7 +14,7 @@ map_data = {
       "def": "'master, in control of', 'to be master'",
       "certitude": true
     }
-    ],
+  ],
   "dataFormat": "cent",
   "meanings": [
     {
@@ -323,7 +323,7 @@ map_data = {
       "analysis": [
         {
           "id": "days",
-          "category": "Not modal",
+          "category": "Premodal",
           "emergence": -3,
           "disparition": "None",
           "attestation": "PLAUT. Cas. 282 (ad servum) stultitia est ei te esse tristem, cuius potestas plus potest.",
