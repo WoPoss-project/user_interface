@@ -6,11 +6,11 @@ map_data = {
       "period": "PIE",
       "form": "*pót-i-",
       "def": "",
-      "certitude": false
+      "certitude": true
     },
     {
       "period": "PIt",
-      "form": "poti-, pot-ē-",
+      "form": "*poti-, *pot-ē-",
       "def": "'master, in control of', 'to be master'",
       "certitude": true
     }
@@ -116,7 +116,7 @@ map_data = {
     },
     {
       "definition": "More probably, more likely",
-      "construct": "POTIUS + future/subjunctive",
+      "construct": "Potius + future/subjunctive",
       "group": "_",
       "analysis": [
         {
@@ -145,7 +145,7 @@ map_data = {
     },
     {
       "definition": "It is better to",
-      "construct": "POTIUS est, unde / ut",
+      "construct": "Potius est, unde / ut",
       "group": "_",
       "analysis": [
         {
@@ -208,7 +208,7 @@ map_data = {
     },
     {
       "definition": "Rather",
-      "construct": "POTIUS QUAM",
+      "construct": "Potius quam",
       "group": "_",
       "analysis": [
         {
@@ -238,7 +238,7 @@ map_data = {
     },
     {
       "definition": "In addition, besides",
-      "construct": "ET POTIUS",
+      "construct": "Et potius",
       "group": "_",
       "analysis": [
         {

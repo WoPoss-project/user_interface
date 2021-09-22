@@ -1,9 +1,9 @@
 map_data = {
     "normalForm": true,
     "headword": "OPORTET, -uit, -ēre",
-    "etymology": [{"period": "PIE", "form": "ue-u(o)rt-", "def": "‘to turn’", "certitude": true}, {
+    "etymology": [{"period": "PIE", "form": "*u̯e-u̯(o)rt-", "def": "'to turn'", "certitude": true}, {
         "period": "PIt",
-        "form": "[*]op-wort-(ē-)",
+        "form": "*op-wort-(ē-)",
         "def": "",
         "certitude": true
     }],

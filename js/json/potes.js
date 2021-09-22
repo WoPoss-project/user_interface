@@ -1,9 +1,9 @@
 map_data = {
     "normalForm": true,
     "headword": "POTĒS",
-    "etymology": [{"period": "PIE", "form": "*pót-i-", "def": "", "certitude": false}, {
+    "etymology": [{"period": "PIE", "form": "*pót-i-", "def": "", "certitude": true}, {
         "period": "PIt",
-        "form": "poti-, pot-ē-",
+        "form": "*poti-, *pot-ē-",
         "def": "'master, in control of', 'to be master'",
         "certitude": true
     }],

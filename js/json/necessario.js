@@ -4,14 +4,14 @@ map_data = {
   "etymology": [
     {
       "period": "PIE",
-      "form": "*ḱiesdʰ-",
-      "def": "‘to drive away; (intr.) go away’",
+      "form": "*ḱi̯esdʰ-",
+      "def": "'to drive away; (intr.) go away'",
       "certitude": true
     },
     {
       "period": "PIt",
-      "form": "kesd-e/o-",
-      "def": "‘to go away, avoid’",
+      "form": "*kesd-e/o-",
+      "def": "'to go away, avoid'",
       "certitude": true
     }
   ],
@@ -20,7 +20,7 @@ map_data = {
     {
       "definition": "Necessarily has to happen/be done",
       "construct": "_",
-      "group": "NECESSARILY, BY NECESSITY",
+      "group": "Necessarily, by necessity",
       "analysis": [
         {
           "id": "umprlpw",
@@ -57,7 +57,7 @@ map_data = {
     {
       "definition": "In a way that cannot be changed, prevented, kept away",
       "construct": "_",
-      "group": "NECESSARILY, BY NECESSITY",
+      "group": "Necessarily, by necessity",
       "analysis": [
         {
           "id": "joedic",
@@ -87,7 +87,7 @@ map_data = {
     {
       "definition": "Necessarily follows something previously stated",
       "construct": "_",
-      "group": "NECESSARILY, BY NECESSITY",
+      "group": "Necessarily, by necessity",
       "analysis": [
         {
           "id": "ltrhb",
@@ -121,7 +121,7 @@ map_data = {
     {
       "definition": "Necessarily in order to achieve a goal",
       "construct": "_",
-      "group": "NECESSARILY, BY NECESSITY",
+      "group": "Necessarily, by necessity",
       "analysis": [
         {
           "id": "omouq",
@@ -151,7 +151,7 @@ map_data = {
     {
       "definition": "Vehemently, urgently",
       "construct": "_",
-      "group": "NECESSARILY, BY NECESSITY",
+      "group": "Necessarily, by necessity",
       "analysis": [
         {
           "id": "rolvw",
@@ -176,7 +176,7 @@ map_data = {
     {
       "definition": "Conveniently, aptly",
       "construct": "_",
-      "group": "NECESSARILY, BY NECESSITY",
+      "group": "Necessarily, by necessity",
       "analysis": [
         {
           "id": "mhdjjg",

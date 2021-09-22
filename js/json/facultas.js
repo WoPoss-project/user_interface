@@ -3,10 +3,10 @@ map_data = {
     "headword": "FACULTĀS, -ātis",
     "etymology": [{
         "period": "PIE",
-        "form": "*dʰeh₁- 'to put' [aor.]; *dʰh₁-k- 'to make', *dʰh₁-k-i- [pr.]",
-        "def": "",
+        "form": "*dʰeh₁- [aor.]; *dʰh₁-k-, *dʰh₁-k-i- [pr.]",
+        "def": "'to put'; 'to make'",
         "certitude": true
-    }, {"period": "PIt", "form": "fak-i- [pr.], fēk- / fak- [aor.]", "def": "", "certitude": true}],
+    }, {"period": "PIt", "form": "*fak-i- [pr.], *fēk- / *fak- [aor.]", "def": "", "certitude": true}],
     "dataFormat": "cent",
     "meanings": [{
         "definition": "possibility, power (of something to happen), chance, opportunity",

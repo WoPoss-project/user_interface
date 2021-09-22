@@ -3,10 +3,10 @@ map_data = {
     "headword": "NECESSITŪDO, -inis ",
     "etymology": [{
         "period": "PIE",
-        "form": "*ḱiesdh-",
+        "form": "*ḱi̯esdh-",
         "def": "'to drive away; (intr.) go away'",
         "certitude": true
-    }, {"period": "PIt", "form": "kesd-e/o-", "def": "'to go away, avoid'", "certitude": true}],
+    }, {"period": "PIt", "form": "*kesd-e/o-", "def": "'to go away, avoid'", "certitude": true}],
     "dataFormat": "cent",
     "meanings": [{
         "definition": "Necessity",

@@ -4,8 +4,8 @@ map_data = {
   "etymology": [
     {
       "period": "PIt",
-      "form": "lik-ē-",
-      "def": "‘to be available, have the value of’",
+      "form": "*lik-ē-",
+      "def": "'to be available, have the value of'",
       "certitude": true
     }
   ],
@@ -13,7 +13,7 @@ map_data = {
   "meanings": [
     {
       "definition": "To be for sale, salable",
-      "construct": "LICEŌ",
+      "construct": "Liceō",
       "group": "_",
       "analysis": [
         {
@@ -42,7 +42,7 @@ map_data = {
     },
     {
       "definition": "To have for sale",
-      "construct": "LICEŌ",
+      "construct": "Liceō",
       "group": "_",
       "analysis": [
         {
@@ -67,7 +67,7 @@ map_data = {
     },
     {
       "definition": "To have the possibility/chance/opportunity of doing/undergoing something",
-      "construct": "LICEŌ",
+      "construct": "Liceō",
       "group": "_",
       "analysis": [
         {
@@ -92,7 +92,7 @@ map_data = {
     },
     {
       "definition": "To bid, to make an offer",
-      "construct": "LICEOR",
+      "construct": "Liceor",
       "group": "_",
       "analysis": [
         {
@@ -122,7 +122,7 @@ map_data = {
     },
     {
       "definition": "To bargain, negotiate",
-      "construct": "LICEOR",
+      "construct": "Liceor",
       "group": "_",
       "analysis": [
         {
@@ -147,7 +147,7 @@ map_data = {
     },
     {
       "definition": "To claim something for a given price",
-      "construct": "_",
+      "construct": "Liceor",
       "group": "_",
       "analysis": [
         {
@@ -252,7 +252,7 @@ map_data = {
     },
     {
       "definition": "To be allowed against ",
-      "construct": "MIHI LICET IN ALIQUEM VEL ALIQUID",
+      "construct": "Mihi licet in aliquem vel aliquid",
       "group": "_",
       "analysis": [
         {
@@ -331,7 +331,7 @@ map_data = {
     },
     {
       "definition": "It is allowed",
-      "construct": "LICITUM EST",
+      "construct": "Licitum est",
       "group": "_",
       "analysis": [
         {
@@ -423,7 +423,7 @@ map_data = {
     },
     {
       "definition": "Immoderate or unruly behaviour",
-      "construct": "LICĒNS",
+      "construct": "Licēns",
       "group": "_",
       "analysis": [
         {
@@ -448,7 +448,7 @@ map_data = {
     },
     {
       "definition": "Permitted, allowed",
-      "construct": "LICĒNS",
+      "construct": "Licēns",
       "group": "_",
       "analysis": [
         {

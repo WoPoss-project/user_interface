@@ -1,7 +1,7 @@
 map_data = {
     "normalForm": true,
     "headword": "INĪQUĒ",
-    "etymology": [{"period": "PIE", "form": "*n + *aikʷos", "def": "", "certitude": false}, {
+    "etymology": [{"period": "PIE", "form": "*n- + *aikʷos", "def": "", "certitude": false}, {
         "period": "Lat",
         "form": "in + aequus",
         "def": "'not equal'",
@@ -11,7 +11,7 @@ map_data = {
     "meanings": [{
         "definition": "Without equanimity",
         "construct": "_",
-        "group": "IN AN UNEQUAL WAY",
+        "group": "In an equal way",
         "analysis": [{
             "id": "pvmbaaq",
             "category": "Not modal",
@@ -41,7 +41,7 @@ map_data = {
     }, {
         "definition": "Unlawfully, not legitimately",
         "construct": "_",
-        "group": "IN AN UNEQUAL WAY",
+        "group": "In an equal way",
         "analysis": [{
             "id": "braewu",
             "category": "Not modal",
@@ -54,7 +54,7 @@ map_data = {
     }, {
         "definition": "In the wrong way",
         "construct": "_",
-        "group": "IN AN UNEQUAL WAY",
+        "group": "In an equal way",
         "analysis": [{
             "id": "unpuil",
             "category": "Not modal",
@@ -74,7 +74,7 @@ map_data = {
     }, {
         "definition": "Recklessly, imprudently",
         "construct": "_",
-        "group": "IN AN UNEQUAL WAY",
+        "group": "In an equal way",
         "analysis": [{
             "id": "adyawj",
             "category": "Not modal",
@@ -87,7 +87,7 @@ map_data = {
     }, {
         "definition": "Ill, badly",
         "construct": "_",
-        "group": "IN AN UNEQUAL WAY",
+        "group": "In an equal way",
         "analysis": [{
             "id": "jdpsmu",
             "category": "Not modal",

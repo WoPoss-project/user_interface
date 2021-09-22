@@ -6,7 +6,7 @@ map_data = {
         "form": "*h₁p-i- [pr.], *h₁e-h₁(o)p- [pf.]",
         "def": "'to get, grab'",
         "certitude": true
-    }, {"period": "PIt", "form": "ap-(e)i-", "def": "'to get, seize'", "certitude": true}],
+    }, {"period": "PIt", "form": "*ap-(e)i-", "def": "'to get, seize'", "certitude": true}],
     "dataFormat": "cent",
     "meanings": [{
         "definition": "Tightly, closely, consistently",

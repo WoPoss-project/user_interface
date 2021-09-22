@@ -1,12 +1,12 @@
 map_data = {
     "normalForm": true,
-    "headword": "INDUBITATUS",
+    "headword": "INDUBITATUS, -a, -um",
     "etymology": [{
         "period": "PIE",
-        "form": "PIE *dui-bʰh₂u-o-",
-        "def": "'double'",
+        "form": "*n- + *dui-bʰh₂u-o-",
+        "def": "'not, un-' + 'double'",
         "certitude": true
-    }, {"period": "PIt", "form": "du(i)-fwo-", "def": "", "certitude": true}],
+    }, {"period": "PIt", "form": "*n- + *du(i)-fwo-", "def": "", "certitude": true}],
     "dataFormat": "cent",
     "meanings": [{
         "definition": "Undoubted",
@@ -68,7 +68,7 @@ map_data = {
         }]
     }, {
         "definition": "It is undoubted",
-        "construct": "INDUBITATUM EST",
+        "construct": "Indubitatum est",
         "group": "_",
         "analysis": [{
             "id": "izsycs",

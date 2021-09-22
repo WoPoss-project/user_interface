@@ -1,18 +1,17 @@
-map_data =
-{
+map_data = {
   "normalForm": true,
-  "headword": "POTESTAS",
+  "headword": "POTESTAS, -ātis",
   "etymology": [
     {
       "period": "PIE",
-      "form": "*pót-i",
+      "form": "*pót-i-",
       "def": "'master'",
       "certitude": true
     },
     {
       "period": "PIt",
-      "form": "*pot-ē-",
-      "def": "‘to be master, to be able’",
+      "form": "*poti-, *pot-ē-",
+      "def": "'master, in control of', 'to be master'",
       "certitude": true
     }
   ],
@@ -61,7 +60,7 @@ map_data =
     },
     {
       "definition": "to give the chance",
-      "construct": "POTESTATEM DO",
+      "construct": "Potestatem do",
       "group": "_",
       "analysis": [
         {
@@ -242,7 +241,7 @@ map_data =
     },
     {
       "definition": "to be in the power of someone",
-      "construct": "IN POTESTATE(M) SUM",
+      "construct": "In potestate(m) sum",
       "group": "_",
       "analysis": [
         {
@@ -272,7 +271,7 @@ map_data =
     },
     {
       "definition": "to give permission",
-      "construct": "POTESTATEM FACIO",
+      "construct": "Potestatem facio",
       "group": "_",
       "analysis": [
         {
@@ -351,7 +350,7 @@ map_data =
     },
     {
       "definition": "it is possible",
-      "construct": "IN POTESTATE(M) SUM",
+      "construct": "In potestate(m) sum",
       "group": "_",
       "analysis": [
         {
@@ -376,7 +375,7 @@ map_data =
     },
     {
       "definition": "to offer oneself to someone else",
-      "construct": "IN POTESTATEM SUI FACIO",
+      "construct": "In potestatem sui facio",
       "group": "_",
       "analysis": [
         {
@@ -561,4 +560,4 @@ map_data =
       ]
     }
   ]
-};
+}

@@ -3,12 +3,12 @@ map_data = {
     "headword": "VOLUNTĀS, -ātis",
     "etymology": [{
         "period": "PIE",
-        "form": "*u̯elh₁- [aor.], *u̯eih₁-",
+        "form": "*u̯elh₁- [aor.], *u̯ei̯h₁-",
         "def": "'to strive after, pursue'",
         "certitude": true
     }, {
         "period": "PIt",
-        "form": "wel-mi, -si, -ti [pr.], wel-e/o- [sb.], wel-ī- [opt.]",
+        "form": "*wel-mi, -si, -ti [pr.], *wel-e/o- [sb.], *wel-ī- [opt.]",
         "def": "",
         "certitude": true
     }],
@@ -22,7 +22,7 @@ map_data = {
             "category": "Not modal",
             "emergence": -3,
             "disparition": "None",
-            "attestation": "PLAUT. Merc. 321 hoc non -as me impulit.",
+            "attestation": "PLAUT. Merc. 321 hoc non voluntas me impulit.",
             "certainty": true,
             "relationships": {
                 "origins": [],
@@ -42,7 +42,7 @@ map_data = {
             "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
-            "attestation": "POMPON. Com. 105 populis -as haec enim et vulgo datast.",
+            "attestation": "POMPON. Com. 105 populis voluntas haec enim et vulgo datast.",
             "certainty": true,
             "relationships": {
                 "origins": [{"rel": "spvf", "cert": true}],
@@ -62,7 +62,7 @@ map_data = {
             "category": "Modal: deontic volition",
             "emergence": -1,
             "disparition": "None",
-            "attestation": "CIC. Catil. 4, 14 omnia… constituta sunt… cum mea summa cura… tum multo etiam maiore populi Romani… ad communis fortunas conservanda -ate.",
+            "attestation": "CIC. Catil. 4, 14 omnia… constituta sunt… cum mea summa cura… tum multo etiam maiore populi Romani… ad communis fortunas conservanda voluntate.",
             "certainty": true,
             "relationships": {
                 "origins": [{"rel": "spvf", "cert": true}, {"rel": "pmwwyg", "cert": true}],
@@ -79,7 +79,7 @@ map_data = {
             "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
-            "attestation": "CIC. de orat. 1, 242 defensionem testamentorum ac -atis mortuorum. ",
+            "attestation": "CIC. de orat. 1, 242 defensionem testamentorum ac voluntatis mortuorum. ",
             "certainty": true,
             "relationships": {"origins": [], "destinations": [], "unspecified": [{"rel": "ilwqtf", "cert": true}]}
         }]
@@ -92,7 +92,7 @@ map_data = {
             "category": "Not modal",
             "emergence": -2,
             "disparition": "None",
-            "attestation": "CAECIL. Com. 135 edepol -as homini rarenter venit.",
+            "attestation": "CAECIL. Com. 135 edepol voluntas homini rarenter venit.",
             "certainty": true,
             "relationships": {
                 "origins": [{"rel": "spvf", "cert": true}],
@@ -109,7 +109,7 @@ map_data = {
             "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
-            "attestation": "CIC. Phil. 12, 27 -ate hospitem, necessitate hostem.",
+            "attestation": "CIC. Phil. 12, 27 voluntate hospitem, necessitate hostem.",
             "certainty": true,
             "relationships": {
                 "origins": [{"rel": "pmwwyg", "cert": true}],
@@ -126,7 +126,7 @@ map_data = {
             "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
-            "attestation": "VAR. L. 10, 15 quod alia sunt a -ate, alia a natura.",
+            "attestation": "VAR. L. 10, 15 quod alia sunt a voluntate, alia a natura.",
             "certainty": true,
             "relationships": {"origins": [], "destinations": [], "unspecified": [{"rel": "ficxdt", "cert": true}]}
         }]
@@ -139,7 +139,7 @@ map_data = {
             "category": "Not modal",
             "emergence": 2,
             "disparition": "None",
-            "attestation": "ULP. Dig. 50, 12, 3, 1 aequissimum est enim huiusmodi -ates in civitates collatas paenitentia non revocari.",
+            "attestation": "ULP. Dig. 50, 12, 3, 1 aequissimum est enim huiusmodi voluntates in civitates collatas paenitentia non revocari.",
             "certainty": true,
             "relationships": {
                 "origins": [{"rel": "ficxdt", "cert": true}, {"rel": "scg", "cert": true}],
@@ -156,7 +156,7 @@ map_data = {
             "category": "Modal: deontic intention",
             "emergence": -1,
             "disparition": "None",
-            "attestation": "CAES. Civ. 3, 84, 1 temptandum… quidnam Pompeius propositi aut -atis ad dimicandum haberet.",
+            "attestation": "CAES. Civ. 3, 84, 1 temptandum… quidnam Pompeius propositi aut voluntatis ad dimicandum haberet.",
             "certainty": true,
             "relationships": {
                 "origins": [{"rel": "pmwwyg", "cert": true}],
@@ -173,7 +173,7 @@ map_data = {
             "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
-            "attestation": "VAR. L. 9, 1 ut neutrius videatur pervidisse -atem.",
+            "attestation": "VAR. L. 9, 1 ut neutrius videatur pervidisse voluntatem.",
             "certainty": true,
             "relationships": {"origins": [], "destinations": [], "unspecified": [{"rel": "vgsyomc", "cert": true}]}
         }]
@@ -186,7 +186,7 @@ map_data = {
             "category": "Not modal",
             "emergence": -2,
             "disparition": "None",
-            "attestation": "TER. Andr. 879 adeo inpotenti esse animo, ut praeter ciuium morem atque legem et sui -atem patris tamen hanc habere studeat cum summo probro!",
+            "attestation": "TER. Andr. 879 adeo inpotenti esse animo, ut praeter ciuium morem atque legem et sui voluntatem patris tamen hanc habere studeat cum summo probro!",
             "certainty": true,
             "relationships": {"origins": [], "destinations": [], "unspecified": []}
         }]
@@ -199,7 +199,7 @@ map_data = {
             "category": "Modal: deontic volition",
             "emergence": -1,
             "disparition": "None",
-            "attestation": "CIC. Dom. 9 propter eorum egregiam in me conservando -atem.",
+            "attestation": "CIC. Dom. 9 propter eorum egregiam in me conservando voluntatem.",
             "certainty": true,
             "relationships": {"origins": [{"rel": "pmwwyg", "cert": true}], "destinations": [], "unspecified": []}
         }]
@@ -212,7 +212,7 @@ map_data = {
             "category": "Not modal",
             "emergence": -2,
             "disparition": "None",
-            "attestation": "TER. Ph. 29 -as vostra si ad poetam accesserit.",
+            "attestation": "TER. Ph. 29 voluntas vostra si ad poetam accesserit.",
             "certainty": true,
             "relationships": {"origins": [], "destinations": [], "unspecified": [{"rel": "hjkhxahq", "cert": true}]}
         }]
@@ -225,7 +225,7 @@ map_data = {
             "category": "Modal: deontic volition",
             "emergence": -3,
             "disparition": "None",
-            "attestation": "PLAUT. Mil. 450 nisi -ate ibis, rapiam te domum. ",
+            "attestation": "PLAUT. Mil. 450 nisi voluntate ibis, rapiam te domum. ",
             "certainty": true,
             "relationships": {"origins": [], "destinations": [], "unspecified": [{"rel": "spvf", "cert": true}]}
         }]
@@ -238,7 +238,7 @@ map_data = {
             "category": "Modal: deontic volition",
             "emergence": -1,
             "disparition": "None",
-            "attestation": "CIC. Inv. 2, 52 invito senatu et omnino contra -atem omnium optimatium… legem agrariam ferebat.",
+            "attestation": "CIC. Inv. 2, 52 invito senatu et omnino contra voluntatem omnium optimatium… legem agrariam ferebat.",
             "certainty": true,
             "relationships": {"origins": [], "destinations": [], "unspecified": [{"rel": "scg", "cert": true}]}
         }]
@@ -251,7 +251,7 @@ map_data = {
             "category": "Modal: deontic volition",
             "emergence": -2,
             "disparition": "None",
-            "attestation": "SCIP. MIN. orat. 23 adductum primo coetu damnavi, damnatum ex -ate dimisi.",
+            "attestation": "SCIP. MIN. orat. 23 adductum primo coetu damnavi, damnatum ex voluntate dimisi.",
             "certainty": true,
             "relationships": {
                 "origins": [{"rel": "spvf", "cert": true}],
@@ -268,7 +268,7 @@ map_data = {
             "category": "Modal: deontic volition",
             "emergence": -1,
             "disparition": "None",
-            "attestation": "LENT. Fam. 12, 15, 3 ad illorum -atem introductus in urbem.",
+            "attestation": "LENT. Fam. 12, 15, 3 ad illorum voluntatem introductus in urbem.",
             "certainty": true,
             "relationships": {
                 "origins": [{"rel": "socsjv", "cert": true}],
@@ -285,7 +285,7 @@ map_data = {
             "category": "Not modal",
             "emergence": -2,
             "disparition": "None",
-            "attestation": "TER. Ph. 725 volo ipsius quoque -ate haec fieri, ne se eiectam praedicet.",
+            "attestation": "TER. Ph. 725 volo ipsius quoque voluntate haec fieri, ne se eiectam praedicet.",
             "certainty": true,
             "relationships": {
                 "origins": [{"rel": "spvf", "cert": true}],

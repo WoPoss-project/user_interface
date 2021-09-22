@@ -1,6 +1,6 @@
 map_data = {
   "normalForm": true,
-  "headword": "CERTUS",
+  "headword": "CERTUS, -a, -um",
   "etymology": [
     {
       "period": "PIE",
@@ -64,7 +64,7 @@ map_data = {
     },
     {
       "definition": "nothing defined",
-      "construct": "NIHIL CERTI",
+      "construct": "Nihil certi",
       "group": "_",
       "analysis": [
         {
@@ -147,7 +147,7 @@ map_data = {
     },
     {
       "definition": "it is decided",
-      "construct": "CERTUM EST",
+      "construct": "Certum est",
       "group": "_",
       "analysis": [
         {
@@ -172,7 +172,7 @@ map_data = {
     },
     {
       "definition": "~I want",
-      "construct": "CERTUM EST",
+      "construct": "Certum est",
       "group": "_",
       "analysis": [
         {
@@ -192,7 +192,7 @@ map_data = {
     },
     {
       "definition": "it is certain",
-      "construct": "CERTUM EST",
+      "construct": "Certum est",
       "group": "_",
       "analysis": [
         {
@@ -290,7 +290,7 @@ map_data = {
     },
     {
       "definition": "I consider it certain",
-      "construct": "CERTUM HABEO",
+      "construct": "Certum habeo",
       "group": "_",
       "analysis": [
         {
@@ -343,7 +343,7 @@ map_data = {
     },
     {
       "definition": "I know for sure",
-      "construct": "CERTUM SCIO",
+      "construct": "Certum scio",
       "group": "_",
       "analysis": [
         {
@@ -368,7 +368,7 @@ map_data = {
     },
     {
       "definition": "to hear/say something accurate",
-      "construct": "CERTUM + verbum dicendi/sentiendi",
+      "construct": "Certum + verbum dicendi/sentiendi",
       "group": "_",
       "analysis": [
         {
@@ -398,7 +398,7 @@ map_data = {
     },
     {
       "definition": "for sure, undoubtedly",
-      "construct": "prepos. + CERTUM",
+      "construct": "prepos. + certum",
       "group": "_",
       "analysis": [
         {
@@ -485,7 +485,7 @@ map_data = {
     },
     {
       "definition": "to be informed",
-      "construct": "CERTIOR SUM",
+      "construct": "Certior sum",
       "group": "_",
       "analysis": [
         {
@@ -514,7 +514,7 @@ map_data = {
     },
     {
       "definition": "I am certain",
-      "construct": "CERTUS SUM",
+      "construct": "Certus sum",
       "group": "_",
       "analysis": [
         {
@@ -557,7 +557,7 @@ map_data = {
     },
     {
       "definition": "to inform",
-      "construct": "CERTIOREM FACIO",
+      "construct": "Certiorem facio",
       "group": "_",
       "analysis": [
         {
@@ -590,7 +590,7 @@ map_data = {
     },
     {
       "definition": "to inform, (sometimes) to make certain",
-      "construct": "CERTUM FACIO",
+      "construct": "Certum facio",
       "group": "_",
       "analysis": [
         {
@@ -623,7 +623,7 @@ map_data = {
     },
     {
       "definition": "certainly",
-      "construct": "CERTO CERTIUS",
+      "construct": "Certo certius",
       "group": "_",
       "analysis": [
         {
@@ -821,7 +821,7 @@ map_data = {
     },
     {
       "definition": "I know",
-      "construct": "CERTUM HABEO",
+      "construct": "Certum habeo",
       "group": "_",
       "analysis": [
         {
@@ -846,7 +846,7 @@ map_data = {
     },
     {
       "definition": "to hear/say something for sure",
-      "construct": "CERTUM + verbum dicendi/sentiendi",
+      "construct": "Certum + verbum dicendi/sentiendi",
       "group": "_",
       "analysis": [
         {
@@ -1149,7 +1149,7 @@ map_data = {
     },
     {
       "definition": "confident with good reasons",
-      "construct": "CERTUS SUI",
+      "construct": "Certus sui",
       "group": "_",
       "analysis": [
         {
@@ -1202,4 +1202,4 @@ map_data = {
       ]
     }
   ]
-};
+}

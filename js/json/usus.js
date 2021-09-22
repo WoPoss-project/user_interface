@@ -1,17 +1,17 @@
-map_data ={
+map_data = {
   "normalForm": true,
-  "headword": "ŪSUS",
+  "headword": "ŪSUS, -ūs",
   "etymology": [
     {
       "period": "PIE",
       "form": "*h₃eit-",
-      "def": "'to take along'? ",
+      "def": "'to take along'?",
       "certitude": true
     },
     {
       "period": "PIt",
       "form": "*oit-e/o-, *oisso-",
-      "def": " 'to use',  'used' ",
+      "def": "'to use',  'used'",
       "certitude": true
     }
   ],
@@ -427,7 +427,7 @@ map_data ={
     },
     {
       "definition": "The need arises",
-      "construct": "USUS VENIT",
+      "construct": "Usus venit",
       "group": "_",
       "analysis": [
         {
@@ -457,7 +457,7 @@ map_data ={
     },
     {
       "definition": "There is need",
-      "construct": "USUS EST",
+      "construct": "Usus est",
       "group": "_",
       "analysis": [
         {
@@ -486,7 +486,7 @@ map_data ={
     },
     {
       "definition": "Usufruct",
-      "construct": "USUS FRUCTUS",
+      "construct": "Usus fructus",
       "group": "_",
       "analysis": [
         {
@@ -516,7 +516,7 @@ map_data ={
     },
     {
       "definition": "To the advantage or profit (of), useful(ly)",
-      "construct": "EX USU / IN USU / IN USUM",
+      "construct": "Ex usu / In usu / In usum",
       "group": "_",
       "analysis": [
         {
@@ -541,7 +541,7 @@ map_data ={
     },
     {
       "definition": "An actual instance (of an occurrence, fact) is experienced ",
-      "construct": "USUS VENIT",
+      "construct": "Usus venit",
       "group": "_",
       "analysis": [
         {
@@ -566,7 +566,7 @@ map_data ={
     },
     {
       "definition": "In one’s everyday experience ",
-      "construct": "IN USU",
+      "construct": "In usu",
       "group": "_",
       "analysis": [
         {

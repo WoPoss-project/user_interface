@@ -4,13 +4,13 @@ map_data = {
   "etymology": [
     {
       "period": "PIE",
-      "form": "*uelh₁- [aor.], *ueih₁-",
+      "form": "*u̯elh₁- [aor.], *u̯ei̯h₁-",
       "def": "'to strive after, pursue'",
       "certitude": true
     },
     {
       "period": "PIt",
-      "form": "wel-mi, -si, -ti [pr.], wel-e/o- [sb.], wel-ī- [opt.]",
+      "form": "*wel-mi, -si, -ti [pr.], *wel-e/o- [sb.], *wel-ī- [opt.]",
       "def": "",
       "certitude": true
     }
@@ -97,7 +97,7 @@ map_data = {
     },
     {
       "definition": "What is it? What do you want? ",
-      "construct": "QUID VIS?",
+      "construct": "Quid vis?",
       "group": "_",
       "analysis": [
         {
@@ -127,7 +127,7 @@ map_data = {
     },
     {
       "definition": "If you like ",
-      "construct": "SI QUID VIS",
+      "construct": "Si quid vis",
       "group": "_",
       "analysis": [
         {
@@ -242,7 +242,7 @@ map_data = {
     },
     {
       "definition": "Is there anything you want of me? ",
-      "construct": "NUMQUID ME VIS?",
+      "construct": "Numquid me vis?",
       "group": "_",
       "analysis": [
         {
@@ -439,7 +439,7 @@ map_data = {
     },
     {
       "definition": "If you wish to put it thus ",
-      "construct": "SI ITA VIS",
+      "construct": "Si ita vis",
       "group": "_",
       "analysis": [
         {
@@ -464,7 +464,7 @@ map_data = {
     },
     {
       "definition": "If you like, if you wish",
-      "construct": "SI VIS / VULTIS",
+      "construct": "Si vis / vultis",
       "group": "_",
       "analysis": [
         {
@@ -489,7 +489,7 @@ map_data = {
     },
     {
       "definition": "Whichever...you like",
-      "construct": "QUOD... VIS",
+      "construct": "Quod... vis",
       "group": "_",
       "analysis": [
         {
@@ -514,7 +514,7 @@ map_data = {
     },
     {
       "definition": "Whether I like it or not, willy-nilly",
-      "construct": "VELIM, NOLIM etc.",
+      "construct": "Velim, nolim etc.",
       "group": "_",
       "analysis": [
         {
@@ -539,7 +539,7 @@ map_data = {
     },
     {
       "definition": "Wouldn’t you like (to)? You ought (to)",
-      "construct": "VIS? VISNE?",
+      "construct": "Vis? Visne?",
       "group": "_",
       "analysis": [
         {
@@ -636,7 +636,7 @@ map_data = {
     },
     {
       "definition": "Would that",
-      "construct": "VELLEM",
+      "construct": "Vellem",
       "group": "None",
       "analysis": [
         {
@@ -716,7 +716,7 @@ map_data = {
     },
     {
       "definition": "To decree, enact",
-      "construct": "VELITIS IUBEATIS",
+      "construct": "Velitis iubeatis",
       "group": "_",
       "analysis": [
         {
@@ -766,7 +766,7 @@ map_data = {
     },
     {
       "definition": "To wish (a person) well / ill",
-      "construct": "BENE / MALE VELLE + dative",
+      "construct": "Bene / male velle + dative",
       "group": "_",
       "analysis": [
         {
@@ -796,7 +796,7 @@ map_data = {
     },
     {
       "definition": "To have someone’s well-being or interests at heart",
-      "construct": "with CAUSA",
+      "construct": "volo + causa",
       "group": "_",
       "analysis": [
         {

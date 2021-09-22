@@ -5,7 +5,7 @@ map_data = {
     {
       "period": "PIE",
       "form": "*h₂oi-u, gen.sg. *h₂i-eu-s ",
-      "def": "‘vital force, eternity’",
+      "def": "'vital force, eternity'",
       "certitude": true
     },
     {
@@ -17,7 +17,7 @@ map_data = {
     {
       "period": "PIt",
       "form": "*jowos, *jowes-",
-      "def": "‘oath, law’",
+      "def": "'oath, law'",
       "certitude": true
     }
   ],
@@ -25,7 +25,7 @@ map_data = {
   "meanings": [
     {
       "definition": "Is / be the law",
-      "construct": "IUS EST",
+      "construct": "Ius est",
       "group": "_",
       "analysis": [
         {
@@ -75,7 +75,7 @@ map_data = {
     },
     {
       "definition": "It is allowed",
-      "construct": "IUS EST",
+      "construct": "Ius est",
       "group": "_",
       "analysis": [
         {
@@ -100,7 +100,7 @@ map_data = {
     },
     {
       "definition": "It is right",
-      "construct": "IUS EST",
+      "construct": "Ius est",
       "group": "_",
       "analysis": [
         {
@@ -134,7 +134,7 @@ map_data = {
     },
     {
       "definition": "(Be) valid and binding",
-      "construct": "IUS RATUMQUE (ESSE)",
+      "construct": "Ius ratumque (esse)",
       "group": "_",
       "analysis": [
         {
@@ -159,7 +159,7 @@ map_data = {
     },
     {
       "definition": "It is right, according to the law ",
-      "construct": "IURIS EST",
+      "construct": "Iuris est",
       "group": "_",
       "analysis": [
         {
@@ -188,7 +188,7 @@ map_data = {
     },
     {
       "definition": "Something is well said or done",
-      "construct": "IUS + DICO / POSTULO / AGO",
+      "construct": "Ius + dico / postulo / ago",
       "group": "_",
       "analysis": [
         {
@@ -217,7 +217,7 @@ map_data = {
     },
     {
       "definition": "According to justice, in righteousness",
-      "construct": "IPSO IURE",
+      "construct": "Ipso iure",
       "group": "_",
       "analysis": [
         {
@@ -252,7 +252,7 @@ map_data = {
     },
     {
       "definition": "According to the law",
-      "construct": "IPSO IURE",
+      "construct": "Ipso iure",
       "group": "_",
       "analysis": [
         {
@@ -306,7 +306,7 @@ map_data = {
     },
     {
       "definition": "Reason, source or basis for an action",
-      "construct": "IURE",
+      "construct": "Iure",
       "group": "_",
       "analysis": [
         {
@@ -423,7 +423,7 @@ map_data = {
     },
     {
       "definition": "To have the power (to do something)",
-      "construct": "MEUM, ALICUI IUS EST / IUS HABERE and similar",
+      "construct": "Meum, alicui ius est / ius habere and similar",
       "group": "_",
       "analysis": [
         {
@@ -457,7 +457,7 @@ map_data = {
     },
     {
       "definition": "To have the right (of / to do something)",
-      "construct": "IUS EST, IUS HABERE and similar",
+      "construct": "Ius est, Ius habere and similar",
       "group": "_",
       "analysis": [
         {
@@ -482,7 +482,7 @@ map_data = {
     },
     {
       "definition": "One’s rights",
-      "construct": "IUS MEUM and similar",
+      "construct": "Ius meum and similar",
       "group": "_",
       "analysis": [
         {
@@ -549,7 +549,7 @@ map_data = {
     },
     {
       "definition": "Subject to my control, belonging to me",
-      "construct": "ILLUD MEI IURIS EST and similar",
+      "construct": "Illud mei iuris est and similar",
       "group": "_",
       "analysis": [
         {
@@ -574,7 +574,7 @@ map_data = {
     },
     {
       "definition": "On one’s right",
-      "construct": "SUO IURE",
+      "construct": "Suo iure",
       "group": "_",
       "analysis": [
         {
@@ -760,7 +760,7 @@ map_data = {
     },
     {
       "definition": "Legitimately, lawfully (according to the law)",
-      "construct": "IURE",
+      "construct": "Iure",
       "group": "_",
       "analysis": [
         {
@@ -798,7 +798,7 @@ map_data = {
     },
     {
       "definition": "Rightly, deservedly",
-      "construct": "OPTIMO IURE",
+      "construct": "Optimo iure",
       "group": "_",
       "analysis": [
         {
@@ -844,7 +844,7 @@ map_data = {
     },
     {
       "definition": "At will",
-      "construct": "IURE",
+      "construct": "Iure",
       "group": "_",
       "analysis": [
         {

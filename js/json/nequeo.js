@@ -1,14 +1,14 @@
 map_data = {
     "normalForm": true,
-    "headword": "NEQUEO, īvī/-iī, itum, īre",
+    "headword": "NEQUEO, -īvī/-iī, -itum, -īre",
     "etymology": [{
         "period": "PIE",
-        "form": "*ne + *h₁ei- / *h₁i-",
+        "form": "*ne- + *h₁ei- / *h₁i-",
         "def": "'not, un-' + 'to go'",
         "certitude": true
     }, {
         "period": "PIt",
-        "form": "*ne-kʷe + *ei- / *i-, *ito-, *eitu- / *itu-",
+        "form": "*ne-kʷe- + *ei- / *i-, *ito-, *eitu- / *itu-",
         "def": "'not, un-' + ‘to go’, 'gone', 'the going'",
         "certitude": true
     }],

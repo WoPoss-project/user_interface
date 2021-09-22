@@ -4,13 +4,13 @@ map_data = {
   "etymology": [
     {
       "period": "PIE",
-      "form": "mǵ-i(V)s- *uelh₁- [aor.], ueih₁",
-      "def": "‘greater’ + ‘to strive after, pursue’",
+      "form": "*mǵ-i(V)s- + *u̯elh₁- [aor.], *u̯ei̯h₁-",
+      "def": "'greater' + 'to strive after, pursue'",
       "certitude": true
     },
     {
       "period": "PIt",
-      "form": "magjōs-, -jo/es- + wel-mi, -si, -ti [pr.], wel-e/o- [subj.], wel-ī- [opt.]",
+      "form": "*magjōs-, -jo/es-, -is + *wel-mi, -si, -ti [pr.], *wel-e/o- [subj.], *wel-ī- [opt.]",
       "def": "",
       "certitude": true
     }

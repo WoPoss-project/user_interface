@@ -628,7 +628,7 @@
                             href="https://woposs.unine.ch/semantic-maps/map-queo.php">https://woposs.unine.ch/semantic-maps/map-queo.php</a></span>
         </span></li>
 
-        <li><a href="semantic-maps/map-meus.php">USUS</a> <span class="cite"><span>(How to cite <img
+        <li><a href="semantic-maps/map-usus.php">USUS</a> <span class="cite"><span>(How to cite <img
                             src="images/book.png" alt="book icon"/>)</span> <span class="reference">Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
                             href="semantic-maps/map-usus.php" target="_blank">usus</a>”. v.1.0. WoPoss.  <a
                             href="https://woposs.unine.ch/semantic-maps/map-usus.php">https://woposs.unine.ch/semantic-maps/map-usus.php</a></span>

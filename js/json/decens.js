@@ -32,7 +32,7 @@ map_data = {
         }]
     }, {
         "definition": "It ought, it is appropriate",
-        "construct": "DECENS EST",
+        "construct": "Decens est",
         "group": "_",
         "analysis": [{
             "id": "ywocw",

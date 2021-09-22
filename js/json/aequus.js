@@ -1,12 +1,12 @@
 map_data = {
     "normalForm": true,
-    "headword": "Aequus",
+    "headword": "AEQUUS, -a, -um",
     "etymology": [{"period": "PIE", "form": "*aikʷos", "def": "", "certitude": false}],
     "dataFormat": "cent",
     "meanings": [{
         "definition": "equal, same, similar",
-        "construct": "None",
-        "group": "None",
+        "construct": "_",
+        "group": "_",
         "analysis": [{
             "id": "mbtgtsq",
             "category": "Not modal",
@@ -28,8 +28,8 @@ map_data = {
         }]
     }, {
         "definition": "flat, level",
-        "construct": "None",
-        "group": "None",
+        "construct": "_",
+        "group": "_",
         "analysis": [{
             "id": "aiysm",
             "category": "Not modal",
@@ -48,8 +48,8 @@ map_data = {
         }]
     }, {
         "definition": "propitious, advantageous, suitable ",
-        "construct": "None",
-        "group": "None",
+        "construct": "_",
+        "group": "_",
         "analysis": [{
             "id": "hdkdbpe",
             "category": "Not modal",
@@ -73,8 +73,8 @@ map_data = {
         }]
     }, {
         "definition": "favorable, positive, calm, just ",
-        "construct": "None",
-        "group": "None",
+        "construct": "_",
+        "group": "_",
         "analysis": [{
             "id": "egxoe",
             "category": "Not modal",
@@ -90,8 +90,8 @@ map_data = {
         }]
     }, {
         "definition": "mental composure, equanimity",
-        "construct": "None",
-        "group": "None",
+        "construct": "_",
+        "group": "_",
         "analysis": [{
             "id": "nh",
             "category": "Not modal",
@@ -104,7 +104,7 @@ map_data = {
     }, {
         "definition": "Flat area ",
         "construct": "Aequum, -ī",
-        "group": "None",
+        "group": "_",
         "analysis": [{
             "id": "jdnh",
             "category": "Not modal",
@@ -117,7 +117,7 @@ map_data = {
     }, {
         "definition": "same level, equality",
         "construct": "Aequum, -ī",
-        "group": "None",
+        "group": "_",
         "analysis": [{
             "id": "lxfmmb",
             "category": "Not modal",
@@ -130,7 +130,7 @@ map_data = {
     }, {
         "definition": "equal, same, similar",
         "construct": "Aequum, -ī",
-        "group": "None",
+        "group": "_",
         "analysis": [{
             "id": "unnmyusg",
             "category": "Not modal",
@@ -147,7 +147,7 @@ map_data = {
     }, {
         "definition": "Equity, justice",
         "construct": "Aequum, -ī",
-        "group": "None",
+        "group": "_",
         "analysis": [{
             "id": "hqkrs",
             "category": "Not modal",
@@ -164,7 +164,7 @@ map_data = {
     }, {
         "definition": "equally, to an equal extent",
         "construct": "Ex aequō",
-        "group": "None",
+        "group": "_",
         "analysis": [{
             "id": "xwmdsvl",
             "category": "Not modal",
@@ -177,7 +177,7 @@ map_data = {
     }, {
         "definition": "at the same level ",
         "construct": "In aequō",
-        "group": "None",
+        "group": "_",
         "analysis": [{
             "id": "zdpe",
             "category": "Not modal",
@@ -190,7 +190,7 @@ map_data = {
     }, {
         "definition": "favorable, positive, calm, just",
         "construct": "Aequus, -ī",
-        "group": "None",
+        "group": "_",
         "analysis": [{
             "id": "utbsegz",
             "category": "Not modal",
@@ -201,15 +201,15 @@ map_data = {
             "relationships": {"origins": [{"rel": "egxoe", "cert": true}], "destinations": [], "unspecified": []}
         }]
     }, {
-        "definition": "it is right",
+        "definition": "(something) is right",
         "construct": "Aequum est",
-        "group": "None",
+        "group": "_",
         "analysis": [{
             "id": "jilltc",
-            "category": "Modal: deontic",
+            "category": "Not modal",
             "emergence": -3,
             "disparition": "None",
-            "attestation": "PLAUT. Rud. 1029 [no SoA] hoc optimum atque aequissimum est.",
+            "attestation": "PLAUT. Rud. 1029 hoc optimum atque aequissimum est.",
             "certainty": true,
             "relationships": {
                 "origins": [],
@@ -223,7 +223,7 @@ map_data = {
     }, {
         "definition": "it is right, more right, extremely right",
         "construct": "Aequum, -ius, -issimum est + subordinate clause",
-        "group": "None",
+        "group": "_",
         "analysis": [{
             "id": "nyuc",
             "category": "Modal: dynamic",
@@ -252,7 +252,7 @@ map_data = {
     }, {
         "definition": "As it is right",
         "construct": "Ut aequum est",
-        "group": "None",
+        "group": "_",
         "analysis": [{
             "id": "pnruqjg",
             "category": "Modal: deontic",
@@ -265,7 +265,7 @@ map_data = {
     }, {
         "definition": "to consider something to be right",
         "construct": "Aequum videtur, aequum esse videtur (putat, iudicat, censet)",
-        "group": "None",
+        "group": "_",
         "analysis": [{
             "id": "ueuzhnl",
             "category": "Modal: deontic",
@@ -278,7 +278,7 @@ map_data = {
     }, {
         "definition": "(it is) right and good",
         "construct": "Aequum et bonum",
-        "group": "None",
+        "group": "_",
         "analysis": [{
             "id": "pbnjse",
             "category": "Modal: deontic",
@@ -303,7 +303,7 @@ map_data = {
     }, {
         "definition": "in a level manner, uniformly",
         "construct": "Aequē",
-        "group": "None",
+        "group": "_",
         "analysis": [{
             "id": "gpctiuv",
             "category": "Not modal",
@@ -320,7 +320,7 @@ map_data = {
     }, {
         "definition": "equally",
         "construct": "Aequē",
-        "group": "None",
+        "group": "_",
         "analysis": [{
             "id": "psirozio",
             "category": "Not modal",
@@ -333,7 +333,7 @@ map_data = {
     }, {
         "definition": "in the same manner, alike",
         "construct": "Aequē",
-        "group": "None",
+        "group": "_",
         "analysis": [{
             "id": "wsxm",
             "category": "Not modal",
@@ -346,7 +346,7 @@ map_data = {
     }, {
         "definition": "(more) rightfully, properly, correctly, with equity",
         "construct": "Aequius, aequissime",
-        "group": "None",
+        "group": "_",
         "analysis": [{
             "id": "fajerpf",
             "category": "Not modal",
@@ -359,7 +359,7 @@ map_data = {
     }, {
         "definition": "rightfully, properly, correctly, with equity",
         "construct": "Aequē",
-        "group": "None",
+        "group": "_",
         "analysis": [{
             "id": "phljj",
             "category": "Not modal",
@@ -376,7 +376,7 @@ map_data = {
     }, {
         "definition": "rightfully, properly, correctly, with equity",
         "construct": "Aequiter",
-        "group": "None",
+        "group": "_",
         "analysis": [{
             "id": "xgqk",
             "category": "Not modal",

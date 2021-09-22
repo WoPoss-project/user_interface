@@ -610,7 +610,7 @@ map_data = {
       ]
     },
     {
-      "definition": "to eat à la carte",
+      "definition": "to eat à la carte, i.e. choosing from a list",
       "construct": "diner à la carte",
       "group": "piece of paper, paperboard",
       "analysis": [

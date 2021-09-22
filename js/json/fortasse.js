@@ -1,23 +1,23 @@
-map_data ={
+map_data = {
   "normalForm": true,
   "headword": "FORTASSE",
   "etymology": [
     {
       "period": "PIE",
-      "form": "bʰr̥-t + i",
-      "def": "‘bearing, case’?",
+      "form": "*bʰr̥-ti-",
+      "def": "'bearing, case'?",
       "certitude": true
     },
     {
       "period": "PIt",
-      "form": " forti- [f.], fortu-",
-      "def": "‘luck’",
+      "form": "*for-ti- [f.], for-tu-",
+      "def": "'luck'",
       "certitude": true
     },
     {
       "period": "Lat",
       "form": " forte + an + sit",
-      "def": "‘perchance it be that’",
+      "def": "'perchance it be that'",
       "certitude": false
     }
   ],

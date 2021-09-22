@@ -4,14 +4,14 @@ map_data = {
   "etymology": [
     {
       "period": "PIE",
-      "form": "*ḱiesdʰ-",
-      "def": "‘to drive away; (intr.) go away’",
+      "form": "*ḱi̯esdʰ-",
+      "def": "'to drive away; (intr.) go away'",
       "certitude": true
     },
     {
       "period": "PIt",
-      "form": "kesd-e/o-",
-      "def": "‘to go away, avoid’",
+      "form": "*kesd-e/o-",
+      "def": "'to go away, avoid'",
       "certitude": true
     }
   ],

@@ -10,7 +10,7 @@ map_data = {
     },
     {
       "period": "PIt",
-      "form": "poti-, pot-ē-",
+      "form": "*poti-, *pot-ē-",
       "def": "'master, in control of', 'to be master'",
       "certitude": true
     }

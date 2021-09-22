@@ -4,13 +4,13 @@ map_data = {
   "etymology": [
     {
       "period": "PIE",
-      "form": "*h1mo-",
+      "form": "*h₁mo-",
       "def": "'my'",
       "certitude": true
     },
     {
       "period": "PIt",
-      "form": "mejo-",
+      "form": "*mejo-",
       "def": "",
       "certitude": true
     }
@@ -236,7 +236,7 @@ map_data = {
     },
     {
       "definition": "It does (not) fit my habits",
-      "construct": "(NON) EST MEUM",
+      "construct": "(non) est meum",
       "group": "_",
       "analysis": [
         {
@@ -269,7 +269,7 @@ map_data = {
     },
     {
       "definition": "It is my duty",
-      "construct": "(NON) EST MEUM",
+      "construct": "(non) est meum",
       "group": "_",
       "analysis": [
         {
@@ -299,7 +299,7 @@ map_data = {
     },
     {
       "definition": "It is my will",
-      "construct": "(NON) EST MEUM",
+      "construct": "(non) est meum",
       "group": "_",
       "analysis": [
         {
@@ -324,7 +324,7 @@ map_data = {
     },
     {
       "definition": "It is my merit",
-      "construct": "(NON) EST MEUM",
+      "construct": "(non) est meum",
       "group": "_",
       "analysis": [
         {
@@ -379,7 +379,7 @@ map_data = {
     },
     {
       "definition": "He is mine (said in an abstract sense and playfully)",
-      "construct": "ILLE MEUS EST",
+      "construct": "Ille meus est",
       "group": "_",
       "analysis": [
         {
@@ -409,7 +409,7 @@ map_data = {
     },
     {
       "definition": "He is mine (said in an abstract sense and seriously)",
-      "construct": "ILLE MEUS EST",
+      "construct": "Ille meus est",
       "group": "_",
       "analysis": [
         {

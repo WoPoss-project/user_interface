@@ -10,7 +10,7 @@ map_data = {
     },
     {
       "period": "PIt",
-      "form": "du(i)-fwo-",
+      "form": "*du(i)-fwo-",
       "def": "",
       "certitude": true
     }

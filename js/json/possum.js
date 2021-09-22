@@ -10,7 +10,7 @@ map_data = {
     },
     {
       "period": "PIt",
-      "form": "poti-, pot-ē-",
+      "form": "*poti-, *pot-ē-",
       "def": "'master, in control of', 'to be master'",
       "certitude": true
     }
@@ -240,7 +240,7 @@ map_data = {
     },
     {
       "definition": "It can happen, be that",
-      "construct": "FIERI POTEST UT",
+      "construct": "Fieri potest ut",
       "group": "_",
       "analysis": [
         {
@@ -270,7 +270,7 @@ map_data = {
     },
     {
       "definition": "It is possible",
-      "construct": "POTESTUR + passive infinitive",
+      "construct": "Potestur + passive infinitive",
       "group": "_",
       "analysis": [
         {

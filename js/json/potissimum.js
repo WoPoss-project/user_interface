@@ -1,9 +1,9 @@
 map_data = {
     "normalForm": true,
     "headword": "POTISSIMUM",
-    "etymology": [{"period": "PIE", "form": "*pót-i-", "def": "", "certitude": false}, {
+    "etymology": [{"period": "PIE", "form": "*pót-i-", "def": "", "certitude": true}, {
         "period": "PIt",
-        "form": "poti-, pot-ē-",
+        "form": "*poti-, *pot-ē-",
         "def": "'master, in control of', 'to be master'",
         "certitude": true
     }],
@@ -11,7 +11,7 @@ map_data = {
     "meanings": [{
         "definition": "Extremely willingly",
         "construct": "_",
-        "group": "EXTREMELY, ESPECIALLY",
+        "group": "Extremely, especially",
         "analysis": [{
             "id": "mtywcbj",
             "category": "Not modal",
@@ -24,7 +24,7 @@ map_data = {
     }, {
         "definition": "Extremely well, rightfully",
         "construct": "_",
-        "group": "EXTREMELY, ESPECIALLY",
+        "group": "Extremely, especially",
         "analysis": [{
             "id": "mwsull",
             "category": "Not modal",
@@ -41,7 +41,7 @@ map_data = {
     }, {
         "definition": "Especially, above all, in the first place",
         "construct": "_",
-        "group": "EXTREMELY, ESPECIALLY",
+        "group": "Extremely, especially",
         "analysis": [{
             "id": "zcd",
             "category": "Not modal",

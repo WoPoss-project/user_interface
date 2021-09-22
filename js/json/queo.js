@@ -1,10 +1,10 @@
 map_data = {
     "normalForm": true,
-    "headword": "QUEO, īvī/-iī, itum, īre ",
+    "headword": "QUEO, īvī/-iī, -itum, -īre ",
     "etymology": [{"period": "PIE", "form": "*h₁ei- / *h₁i-", "def": "'to go'", "certitude": true}, {
         "period": "PIt",
         "form": "*ei- / *i-, *ito-, *eitu- / *itu-",
-        "def": "‘to go’, 'gone', 'the going'",
+        "def": "'to go', 'gone', 'the going'",
         "certitude": true
     }],
     "dataFormat": "cent",

@@ -1,16 +1,16 @@
-map_data ={
+map_data = {
   "normalForm": true,
   "headword": "NŌLŌ, nolle, noluī",
   "etymology": [
     {
       "period": "PIE",
-      "form": "*ne + *u̯elh₁- [aor.], *uei̯h₁-",
+      "form": "*ne- + *u̯elh₁- [aor.], *u̯ei̯h₁-",
       "def": "'not, un' + 'to strive after, pursue'",
       "certitude": true
     },
     {
       "period": "PIt",
-      "form": "ne + wel-mi, -si, -ti [pr.], wel-e/o- [sb.], wel-ī- [opt.]",
+      "form": "*ne- + *wel-mi, -si, -ti [pr.], *wel-e/o- [sb.], *wel-ī- [opt.]",
       "def": "",
       "certitude": true
     }
@@ -119,7 +119,7 @@ map_data ={
     },
     {
       "definition": "Willy-nilly, whether one wants to or not",
-      "construct": "VELIM NOLIM(VE)",
+      "construct": "Velim nolim(ve)",
       "group": "_",
       "analysis": [
         {
@@ -174,7 +174,7 @@ map_data ={
     },
     {
       "definition": "I could wish that (something had) not happened -> I am sorry that",
-      "construct": "NOLLEM, NOLIM",
+      "construct": "Nollem, nolim",
       "group": "_",
       "analysis": [
         {
@@ -229,7 +229,7 @@ map_data ={
     },
     {
       "definition": "[negative imperative] Do not",
-      "construct": "NOLI + infinitive",
+      "construct": "Noli + infinitive",
       "group": "_",
       "analysis": [
         {

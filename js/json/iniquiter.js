@@ -4,7 +4,7 @@ map_data = {
   "etymology": [
     {
       "period": "PIE",
-      "form": "*n + *aikʷos",
+      "form": "*n- + *aikʷos",
       "def": "",
       "certitude": false
     },

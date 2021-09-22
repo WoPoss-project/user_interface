@@ -1,7 +1,7 @@
 map_data = {
     "normalForm": true,
     "headword": "LICITUS, -a, -um",
-    "etymology": [{"period": "PIt", "form": "lik-ē-", "def": "", "certitude": true}],
+    "etymology": [{"period": "PIt", "form": "*lik-ē-", "def": "'to be available, have the value of'", "certitude": true}],
     "dataFormat": "cent",
     "meanings": [{
         "definition": "Allowed, lawful",
@@ -22,7 +22,7 @@ map_data = {
         }]
     }, {
         "definition": "It is allowed",
-        "construct": "LICITUM EST",
+        "construct": "Licitum est",
         "group": "_",
         "analysis": [{
             "id": "bidsbwr",

@@ -4,14 +4,14 @@ map_data = {
   "etymology": [
     {
       "period": "PIE",
-      "form": "*ḱiesdʰ-",
-      "def": "‘to drive away; (intr.) go away’",
+      "form": "*ḱi̯esdʰ-",
+      "def": "'to drive away; (intr.) go away'",
       "certitude": true
     },
     {
       "period": "PIt",
-      "form": "kesd-e/o-",
-      "def": "‘to go away, avoid’",
+      "form": "*kesd-e/o-",
+      "def": "'to go away, avoid'",
       "certitude": true
     }
   ],
@@ -420,7 +420,7 @@ map_data = {
     },
     {
       "definition": "It is / seems necessary",
-      "construct": "NECESSARIUM EST / VIDETUR",
+      "construct": "Necessarium est / videtur",
       "group": "_",
       "analysis": [
         {
@@ -484,7 +484,7 @@ map_data = {
     },
     {
       "definition": "It is necessary for me, I need",
-      "construct": "NECESSARIUM HABEO",
+      "construct": "Necessarium habeo",
       "group": "_",
       "analysis": [
         {
@@ -532,7 +532,7 @@ map_data = {
     },
     {
       "definition": "I think it is necessary",
-      "construct": "NECESSARIUM IUDICO / EXISTIMO",
+      "construct": "Necessarium iudico / existimo",
       "group": "_",
       "analysis": [
         {

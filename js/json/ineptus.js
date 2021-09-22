@@ -4,14 +4,14 @@ map_data = {
   "etymology": [
     {
       "period": "PIE",
-      "form": "*n + *h₁p-i- [pr.], *h1e-h1(o)p- [pf.].",
-      "def": "'to get, grab'",
+      "form": "*n- + *h₁p-i- [pr.], *h₁e-h₁(o)p- [pf.].",
+      "def": "'not, un-' + 'to get, grab'",
       "certitude": true
     },
     {
       "period": "PIt",
-      "form": "n + ap-(e)i-",
-      "def": " 'to get, seize'",
+      "form": "*n- + *ap-(e)i-",
+      "def": "'not, un-' + 'to get, seize'",
       "certitude": true
     },
     {
@@ -174,7 +174,7 @@ map_data = {
     },
     {
       "definition": "It is silly, foolish",
-      "construct": "INEPTUM EST",
+      "construct": "Ineptum est",
       "group": "_",
       "analysis": [
         {
@@ -208,7 +208,7 @@ map_data = {
     },
     {
       "definition": "Absurdities, frivolities",
-      "construct": "INEPTA",
+      "construct": "Inepta",
       "group": "_",
       "analysis": [
         {
@@ -233,7 +233,7 @@ map_data = {
     },
     {
       "definition": "Foolishly, stupidly, absurdly",
-      "construct": "INEPTĒ",
+      "construct": "Ineptē",
       "group": "_",
       "analysis": [
         {

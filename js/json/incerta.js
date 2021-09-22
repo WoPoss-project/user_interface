@@ -6,7 +6,7 @@ map_data = {
         "form": "*n- + *krito-",
         "def": "'not, un-' + 'sifted'",
         "certitude": true
-    }, {"period": "PIt", "form": "n- + krito-", "def": "'not, un-' + 'distinguished'", "certitude": true}],
+    }, {"period": "PIt", "form": "*n- + *krito-", "def": "'not, un-' + 'distinguished'", "certitude": true}],
     "dataFormat": "cent",
     "meanings": [{
         "definition": "In an uncertain way ",

@@ -1,6 +1,6 @@
 map_data = {
   "normalForm": true,
-  "headword": "CERTUS",
+  "headword": "CERTUS, -a, -um",
   "etymology": [
     {
       "period": "PIE",
@@ -64,7 +64,7 @@ map_data = {
     },
     {
       "definition": "[nihil comperti]",
-      "construct": "NIHIL CERTI",
+      "construct": "Nihil certi",
       "group": "_",
       "analysis": [
         {
@@ -147,7 +147,7 @@ map_data = {
     },
     {
       "definition": "[statutum est]",
-      "construct": "CERTUM EST",
+      "construct": "Certum est",
       "group": "_",
       "analysis": [
         {
@@ -172,7 +172,7 @@ map_data = {
     },
     {
       "definition": "(fere) volo",
-      "construct": "CERTUM EST",
+      "construct": "Certum est",
       "group": "_",
       "analysis": [
         {
@@ -192,7 +192,7 @@ map_data = {
     },
     {
       "definition": "[constat]",
-      "construct": "CERTUM EST",
+      "construct": "Certum est",
       "group": "_",
       "analysis": [
         {
@@ -290,7 +290,7 @@ map_data = {
     },
     {
       "definition": "[mihi exploratum est]",
-      "construct": "CERTUM HABEO",
+      "construct": "Certum habeo",
       "group": "_",
       "analysis": [
         {
@@ -343,7 +343,7 @@ map_data = {
     },
     {
       "definition": "[mihi exploratissimum est]",
-      "construct": "CERTUM SCIO",
+      "construct": "Certum scio",
       "group": "_",
       "analysis": [
         {
@@ -368,7 +368,7 @@ map_data = {
     },
     {
       "definition": "[dico/audio aliquid minime dubium]",
-      "construct": "CERTUM + verbum dicendi/sentiendi",
+      "construct": "Certum + verbum dicendi/sentiendi",
       "group": "_",
       "analysis": [
         {
@@ -398,7 +398,7 @@ map_data = {
     },
     {
       "definition": "[minime dubie, comperte]",
-      "construct": "prepos. + CERTUM",
+      "construct": "prepos. + certum",
       "group": "_",
       "analysis": [
         {
@@ -485,7 +485,7 @@ map_data = {
     },
     {
       "definition": "[qui aliquam rem cognitam habet]",
-      "construct": "CERTIOR SUM",
+      "construct": "Certior sum",
       "group": "_",
       "analysis": [
         {
@@ -514,7 +514,7 @@ map_data = {
     },
     {
       "definition": "[compertum habeo]",
-      "construct": "CERTUS SUM",
+      "construct": "Certus sum",
       "group": "_",
       "analysis": [
         {
@@ -557,7 +557,7 @@ map_data = {
     },
     {
       "definition": "[facio ut aliquis aliquam rem cognitam habeat]",
-      "construct": "CERTIOREM FACIO",
+      "construct": "Certiorem facio",
       "group": "_",
       "analysis": [
         {
@@ -590,7 +590,7 @@ map_data = {
     },
     {
       "definition": "[certiorem facere, (aliquando) confirmo]",
-      "construct": "CERTUM FACIO",
+      "construct": "Certum facio",
       "group": "_",
       "analysis": [
         {
@@ -623,7 +623,7 @@ map_data = {
     },
     {
       "definition": "[sine dubio]",
-      "construct": "CERTO CERTIUS",
+      "construct": "Certo certius",
       "group": "_",
       "analysis": [
         {
@@ -821,7 +821,7 @@ map_data = {
     },
     {
       "definition": "novi",
-      "construct": "CERTUM HABEO",
+      "construct": "Certum habeo",
       "group": "_",
       "analysis": [
         {
@@ -846,7 +846,7 @@ map_data = {
     },
     {
       "definition": "[profecto dico/audio aliquid]",
-      "construct": "CERTUM + verbum dicendi/sentiendi",
+      "construct": "Certum + verbum dicendi/sentiendi",
       "group": "_",
       "analysis": [
         {
@@ -1149,7 +1149,7 @@ map_data = {
     },
     {
       "definition": "[animum firmum habens]",
-      "construct": "CERTUS SUI",
+      "construct": "Certus sui",
       "group": "_",
       "analysis": [
         {
@@ -1202,4 +1202,4 @@ map_data = {
       ]
     }
   ]
-};
+}

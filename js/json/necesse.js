@@ -4,14 +4,14 @@ map_data = {
   "etymology": [
     {
       "period": "PIE",
-      "form": "*ḱiesdʰ-",
-      "def": "‘to drive away; (intr.) go away’",
+      "form": "*ḱi̯esdʰ-",
+      "def": "'to drive away; (intr.) go away'",
       "certitude": true
     },
     {
       "period": "PIt",
-      "form": "kesd-e/o-",
-      "def": "‘to go away, avoid’",
+      "form": "*kesd-e/o-",
+      "def": "'to go away, avoid'",
       "certitude": true
     }
   ],
@@ -19,7 +19,7 @@ map_data = {
   "meanings": [
     {
       "definition": "It is desired, required by an animate or inanimate entity that something happens, is carried through or somehow takes place",
-      "construct": "NECESSE EST",
+      "construct": "Necesse est",
       "group": "_",
       "analysis": [
         {
@@ -120,7 +120,7 @@ map_data = {
     },
     {
       "definition": "It is desired, required by an animate or inanimate entity that something happens, is carried through or somehow takes place",
-      "construct": "NECESSE ALIQUEM EST, UT",
+      "construct": "Necesse aliquem est, ut",
       "group": "_",
       "analysis": [
         {
@@ -145,7 +145,7 @@ map_data = {
     },
     {
       "definition": "It is necessary to me, I need / have to",
-      "construct": "ALICUI NECESSE EST",
+      "construct": "Alicui necesse est",
       "group": "_",
       "analysis": [
         {
@@ -193,7 +193,7 @@ map_data = {
     },
     {
       "definition": "It is concluded, proven, known, that something is true, has to be taken for sure, or necessarily follows assumptions previously made",
-      "construct": "NECESSE EST",
+      "construct": "Necesse est",
       "group": "_",
       "analysis": [
         {
@@ -264,7 +264,7 @@ map_data = {
     },
     {
       "definition": "Something that is needed, is essential to someone",
-      "construct": "NECESSE EST",
+      "construct": "Necesse est",
       "group": "_",
       "analysis": [
         {
@@ -289,7 +289,7 @@ map_data = {
     },
     {
       "definition": "To consider, estimate, evaluate as necessary",
-      "construct": "NECESSE HABEO",
+      "construct": "Necesse habeo",
       "group": "_",
       "analysis": [
         {
@@ -318,7 +318,7 @@ map_data = {
     },
     {
       "definition": "To have to, to need something / to do something / to have something",
-      "construct": "NECESSE HABEO",
+      "construct": "Necesse habeo",
       "group": "_",
       "analysis": [
         {
@@ -348,7 +348,7 @@ map_data = {
     },
     {
       "definition": "It is concluded, proven, known, that something is true, has to be taken for sure, or necessarily follows assumptions previously made",
-      "construct": "NECESSE HABEO",
+      "construct": "Necesse habeo",
       "group": "_",
       "analysis": [
         {
@@ -382,7 +382,7 @@ map_data = {
     },
     {
       "definition": "It is necessary",
-      "construct": "NECESSE HABEO",
+      "construct": "Necesse habeo",
       "group": "_",
       "analysis": [
         {
@@ -506,7 +506,7 @@ map_data = {
     },
     {
       "definition": "It must happen, it cannot be avoided / prevented, it is necessary",
-      "construct": "NECESSUM EST",
+      "construct": "Necessum est",
       "group": "_",
       "analysis": [
         {
@@ -549,7 +549,7 @@ map_data = {
     },
     {
       "definition": "Necessity",
-      "construct": "NECESSUM / -US",
+      "construct": "Necessum / -us",
       "group": "_",
       "analysis": [
         {
@@ -579,7 +579,7 @@ map_data = {
     },
     {
       "definition": "Inevitable, essential",
-      "construct": "NECESSIS",
+      "construct": "Necessis",
       "group": "_",
       "analysis": [
         {

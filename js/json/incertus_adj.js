@@ -10,7 +10,7 @@ map_data = {
     },
     {
       "period": "PIt",
-      "form": "n- + krito-",
+      "form": "*n- + *krito-",
       "def": "'not, un-' + 'distinguished'",
       "certitude": true
     }
@@ -812,7 +812,7 @@ map_data = {
     },
     {
       "definition": "It is not sure",
-      "construct": "INCERTUM EST",
+      "construct": "Incertum est",
       "group": "Who doubts",
       "analysis": [
         {
@@ -850,7 +850,7 @@ map_data = {
     },
     {
       "definition": "It is not sure",
-      "construct": "INCERTUM + verbs other than esse",
+      "construct": "Incertum + verbs other than esse",
       "group": "Who doubts",
       "analysis": [
         {
@@ -875,15 +875,15 @@ map_data = {
     },
     {
       "definition": "Probably not, hardly",
-      "construct": "INCERTUM AN",
+      "construct": "Incertum an",
       "group": "Who doubts",
       "analysis": [
         {
           "id": "apxcmmn",
-          "category": "Modal: epistemic",
+          "category": "Not modal",
           "emergence": 1,
           "disparition": "None",
-          "attestation": "CURT. 5, 4, 19 [no SoA] dux incertum an satis fidus.",
+          "attestation": "CURT. 5, 4, 19 dux incertum an satis fidus.",
           "certainty": true,
           "relationships": {
             "origins": [
@@ -909,15 +909,15 @@ map_data = {
     },
     {
       "definition": "Probably, maybe",
-      "construct": "INCERTUM AN",
+      "construct": "Incertum an",
       "group": "Who doubts",
       "analysis": [
         {
           "id": "ewvmkf",
-          "category": "Modal: epistemic",
+          "category": "Not modal",
           "emergence": 1,
           "disparition": "None",
-          "attestation": "TAC. Hist. 1, 75, 2 [no SoA] stetit domus utraque, sub Othone incertum an metu.",
+          "attestation": "TAC. Hist. 1, 75, 2 stetit domus utraque, sub Othone incertum an metu.",
           "certainty": true,
           "relationships": {
             "origins": [
@@ -943,7 +943,7 @@ map_data = {
     },
     {
       "definition": "Not sure",
-      "construct": "INCERTO / INCERTO HOC / INCERTO EO",
+      "construct": "Incerto / Incerto hoc / Incerto eo",
       "group": "Who doubts",
       "analysis": [
         {
@@ -963,7 +963,7 @@ map_data = {
     },
     {
       "definition": "That cannot be discerned",
-      "construct": "INCERTUS + VISU",
+      "construct": "Incertus + visu",
       "group": "Who doubts",
       "analysis": [
         {

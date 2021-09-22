@@ -10,7 +10,7 @@ map_data = {
     },
     {
       "period": "PIt",
-      "form": "de + χab/f-ē-",
+      "form": "de + *χab/f-ē-",
       "def": "'has taken > has, holds'",
       "certitude": true
     }

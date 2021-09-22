@@ -617,13 +617,16 @@
     </ul>
     <h2>Organisation of scientific events</h2>
     <ul>
+     <li>Dell’Oro, Francesca; Rossari, Corinne (org.) (2019). <em>Workshop on modality and written corpora</em> (Session 2). September 6,
+            2021. University of Neuchâtel. Neuchâtel, Switzerland. [<a href="https://www.unine.ch/isla/home/colloques/workshop-on-modality-and-corpora.html" target="_blank">Program</a>]
+        </li>
         <li><em><a target="_blank" href="https://www.unine.ch/isla/en/home/colloques/theorling-2021.html">TheorLing: Theoretical linguistics in the light of the interaction of qualitative and quantitative
                     approaches</a></em>.
             International Symposium. June 21-22. University of Neuchâtel. Neuchâtel, Switzerland. [<a href="outputs/call.pdf">Call for papers</a>]
         </li>
 <li>Dürrschnabel, Vera (2020). <em>An introduction to Semitic languages for classicists</em>. October 20, 2020. University of Lausanne. Lausanne, Switzerland.</li>
 
-        <li>Dell’Oro, Francesca; Rossari, Corinne (org.) (2019). <em>Workshop on modality and written corpora</em>. December 17,
+        <li>Dell’Oro, Francesca; Rossari, Corinne (org.) (2019). <em>Workshop on modality and written corpora</em> (Session 1). December 17,
             2019. University of Neuchâtel. Neuchâtel, Switzerland. [<a href="outputs/flyer_workshop.pdf" target="_blank">Program</a>]
         </li>
 

@@ -5,7 +5,7 @@ map_data = {
     {
       "period": "PIE",
       "form": "*h₃ep-os, -es- [n.]",
-      "def": "' work'",
+      "def": "'work'",
       "certitude": true
     },
     {
@@ -101,7 +101,7 @@ map_data = {
     },
     {
       "definition": "It is my task, my duty",
-      "construct": "adjective + MIHI OPUS EST",
+      "construct": "adjective + mihi opus est",
       "group": "_",
       "analysis": [
         {
@@ -134,7 +134,7 @@ map_data = {
     },
     {
       "definition": "It must be necessary",
-      "construct": "OPERIS ESSE DEBET",
+      "construct": "Operis esse debet",
       "group": "_",
       "analysis": [
         {
@@ -184,7 +184,7 @@ map_data = {
     },
     {
       "definition": "In construction, act of building, of coming into being",
-      "construct": "IN OPERE",
+      "construct": "In opere",
       "group": "_",
       "analysis": [
         {
@@ -251,7 +251,7 @@ map_data = {
     },
     {
       "definition": "It is hard, difficult",
-      "construct": "OPUS EST",
+      "construct": "Opus est",
       "group": "_",
       "analysis": [
         {
@@ -476,7 +476,7 @@ map_data = {
     },
     {
       "definition": "Whatever exists or happens according to God’s will ",
-      "construct": "OPUS DEI, DIVINUM",
+      "construct": "Opus dei, divinum",
       "group": "_",
       "analysis": [
         {
@@ -531,7 +531,7 @@ map_data = {
     },
     {
       "definition": "To accomplish one’s task",
-      "construct": "OPUS SUUM FACERE",
+      "construct": "Opus suum facere",
       "group": "_",
       "analysis": [
         {
@@ -601,7 +601,7 @@ map_data = {
     },
     {
       "definition": "To be useless",
-      "construct": "NULLUM OPUS HABEO",
+      "construct": "Nullum opus habeo",
       "group": "_",
       "analysis": [
         {
@@ -630,7 +630,7 @@ map_data = {
     },
     {
       "definition": "In someone’s use, favor",
-      "construct": "AD OPUS ALICUIUS",
+      "construct": "Ad opus alicuius",
       "group": "_",
       "analysis": [
         {
@@ -655,7 +655,7 @@ map_data = {
     },
     {
       "definition": "Private possession",
-      "construct": "OPUS PECULIARE",
+      "construct": "Opus peculiare",
       "group": "_",
       "analysis": [
         {
@@ -680,7 +680,7 @@ map_data = {
     },
     {
       "definition": "It is necessary",
-      "construct": "OPUS EST",
+      "construct": "Opus est",
       "group": "_",
       "analysis": [
         {
@@ -722,7 +722,7 @@ map_data = {
     },
     {
       "definition": "It is convenient, advantageous",
-      "construct": "OPUS EST",
+      "construct": "Opus est",
       "group": "_",
       "analysis": [
         {
@@ -747,7 +747,7 @@ map_data = {
     },
     {
       "definition": "I think it is necessary",
-      "construct": "OPUS EXISTIMO",
+      "construct": "Opus existimo",
       "group": "_",
       "analysis": [
         {
@@ -772,7 +772,7 @@ map_data = {
     },
     {
       "definition": "It is necessary",
-      "construct": "OPUS FIT",
+      "construct": "Opus fit",
       "group": "_",
       "analysis": [
         {
@@ -797,7 +797,7 @@ map_data = {
     },
     {
       "definition": "To need something",
-      "construct": "OPUS HABEO",
+      "construct": "Opus habeo",
       "group": "_",
       "analysis": [
         {

@@ -6,11 +6,11 @@ map_data = {
       "period": "PIE",
       "form": "*pót-i-",
       "def": "",
-      "certitude": false
+      "certitude": true
     },
     {
       "period": "PIt",
-      "form": "poti-, pot-ē-",
+      "form": "*poti-, *pot-ē-",
       "def": "'master, in control of', 'to be master'",
       "certitude": true
     }
@@ -19,7 +19,7 @@ map_data = {
   "meanings": [
     {
       "definition": "To be able",
-      "construct": "POTIS esse",
+      "construct": "Potis esse",
       "group": "_",
       "analysis": [
         {
@@ -44,7 +44,7 @@ map_data = {
     },
     {
       "definition": "It is possible",
-      "construct": "POTIS esse",
+      "construct": "Potis esse",
       "group": "_",
       "analysis": [
         {
@@ -69,7 +69,7 @@ map_data = {
     },
     {
       "definition": "Is it possible..?",
-      "construct": "POTIN",
+      "construct": "Potin",
       "group": "_",
       "analysis": [
         {
@@ -99,7 +99,7 @@ map_data = {
     },
     {
       "definition": "[impersonal] Is it possible..?",
-      "construct": "POTIN",
+      "construct": "Potin",
       "group": "_",
       "analysis": [
         {

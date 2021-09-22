@@ -1,6 +1,6 @@
 map_data = {
   "normalForm": true,
-  "headword": "NECESSITĀS, -atis",
+  "headword": "NECESSITĀS, -ātis",
   "etymology": [
     {
       "period": "PIE",
@@ -10,7 +10,7 @@ map_data = {
     },
     {
       "period": "PIt",
-      "form": "kesd-e/o-",
+      "form": "*kesd-e/o-",
       "def": "'to go away, avoid'",
       "certitude": true
     }

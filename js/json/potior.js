@@ -1,16 +1,16 @@
 map_data = {
   "normalForm": true,
-  "headword": "POTIOR, -IUS",
+  "headword": "POTIOR, -ius",
   "etymology": [
     {
       "period": "PIE",
       "form": "*pót-i-",
       "def": "",
-      "certitude": false
+      "certitude": true
     },
     {
       "period": "PIt",
-      "form": "poti-, pot-ē-",
+      "form": "*poti-, *pot-ē-",
       "def": "'master, in control of', 'to be master'",
       "certitude": true
     }
@@ -19,7 +19,7 @@ map_data = {
   "meanings": [
     {
       "definition": "Come into possession, obtain something",
-      "construct": "POTIOREM FIERI + Gen.",
+      "construct": "Potiorem fieri + Gen.",
       "group": "_",
       "analysis": [
         {
@@ -94,7 +94,7 @@ map_data = {
     },
     {
       "definition": "To prefer",
-      "construct": "POTIOREM, -IUS habeo",
+      "construct": "Potiorem, -ius habeo",
       "group": "_",
       "analysis": [
         {
@@ -123,7 +123,7 @@ map_data = {
     },
     {
       "definition": "To prefer",
-      "construct": "ALICUI POTIOR (POTIUS) est",
+      "construct": "Alicui potior (potius) est",
       "group": "_",
       "analysis": [
         {

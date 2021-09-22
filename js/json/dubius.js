@@ -10,7 +10,7 @@ map_data = {
     },
     {
       "period": "PIt",
-      "form": "du(i)-fwo-",
+      "form": "*du(i)-fwo-",
       "def": "",
       "certitude": true
     }
@@ -303,7 +303,7 @@ map_data = {
     },
     {
       "definition": "It is uncertain",
-      "construct": "DUBIUM EST",
+      "construct": "Dubium est",
       "group": "Raising uncertainty",
       "analysis": [
         {

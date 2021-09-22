@@ -1,6 +1,6 @@
 map_data = {
     "normalForm": true,
-    "headword": "DECEO, decuī, decēre",
+    "headword": "DECEO, -uī, -ēre",
     "etymology": [
         {
             "period": "PIE",
@@ -19,7 +19,7 @@ map_data = {
     "meanings": [
         {
             "definition": "To honour, to be appropriate, to fit",
-            "construct": "DECEO",
+            "construct": "Deceo",
             "group": "_",
             "analysis": [
                 {
@@ -48,7 +48,7 @@ map_data = {
         },
         {
             "definition": "It ought, it is appropriate",
-            "construct": "DECET",
+            "construct": "Decet",
             "group": "_",
             "analysis": [
                 {
@@ -77,7 +77,7 @@ map_data = {
         },
         {
             "definition": "It is necessary",
-            "construct": "DECET",
+            "construct": "Decet",
             "group": "_",
             "analysis": [
                 {

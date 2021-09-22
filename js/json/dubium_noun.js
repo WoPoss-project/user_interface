@@ -1,6 +1,6 @@
 map_data = {
   "normalForm": true,
-  "headword": "DUBIUM [noun]",
+  "headword": "DUBIUM, -ii [noun]",
   "etymology": [
     {
       "period": "PIE",
@@ -10,7 +10,7 @@ map_data = {
     },
     {
       "period": "PIt",
-      "form": "du(i)-fwo-",
+      "form": "*du(i)-fwo-",
       "def": "",
       "certitude": true
     }
@@ -53,7 +53,7 @@ map_data = {
     },
     {
       "definition": "Without hesitation",
-      "construct": "SINE DUBIO",
+      "construct": "Sine dubio",
       "group": "_",
       "analysis": [
         {
@@ -96,7 +96,7 @@ map_data = {
     },
     {
       "definition": "Willingly",
-      "construct": "SINE DUBIO",
+      "construct": "Sine dubio",
       "group": "_",
       "analysis": [
         {
@@ -366,7 +366,7 @@ map_data = {
     },
     {
       "definition": "Without any doubt",
-      "construct": "SINE DUBIO",
+      "construct": "Sine dubio",
       "group": "_",
       "analysis": [
         {
@@ -427,7 +427,7 @@ map_data = {
     },
     {
       "definition": "[concessive] Sure… but",
-      "construct": "SINE DUBIO",
+      "construct": "Sine dubio",
       "group": "_",
       "analysis": [
         {
@@ -457,7 +457,7 @@ map_data = {
     },
     {
       "definition": "Evidently, of course",
-      "construct": "SINE DUBIO",
+      "construct": "Sine dubio",
       "group": "_",
       "analysis": [
         {
@@ -482,7 +482,7 @@ map_data = {
     },
     {
       "definition": "That is, namely",
-      "construct": "SINE DUBIO",
+      "construct": "Sine dubio",
       "group": "_",
       "analysis": [
         {
@@ -507,7 +507,7 @@ map_data = {
     },
     {
       "definition": "As it is well known",
-      "construct": "SINE DUBIO",
+      "construct": "Sine dubio",
       "group": "_",
       "analysis": [
         {
@@ -532,7 +532,7 @@ map_data = {
     },
     {
       "definition": "[future event] For sure",
-      "construct": "SINE DUBIO",
+      "construct": "Sine dubio",
       "group": "_",
       "analysis": [
         {
@@ -557,7 +557,7 @@ map_data = {
     },
     {
       "definition": "Undoubtedly",
-      "construct": "PROCUL DUBIO",
+      "construct": "Procul dubio",
       "group": "_",
       "analysis": [
         {
@@ -587,7 +587,7 @@ map_data = {
     },
     {
       "definition": "[concessive] Sure… but",
-      "construct": "PROCUL DUBIO",
+      "construct": "Procul dubio",
       "group": "_",
       "analysis": [
         {
@@ -612,7 +612,7 @@ map_data = {
     },
     {
       "definition": "Evidently, of course",
-      "construct": "PROCUL DUBIO",
+      "construct": "Procul dubio",
       "group": "_",
       "analysis": [
         {
@@ -632,7 +632,7 @@ map_data = {
     },
     {
       "definition": "[future event] For sure",
-      "construct": "PROCUL DUBIO",
+      "construct": "Procul dubio",
       "group": "_",
       "analysis": [
         {
@@ -662,7 +662,7 @@ map_data = {
     },
     {
       "definition": "So that no doubt is left",
-      "construct": "PROCUL DUBIO",
+      "construct": "Procul dubio",
       "group": "_",
       "analysis": [
         {
@@ -687,7 +687,7 @@ map_data = {
     },
     {
       "definition": "Immediately",
-      "construct": "PROCUL DUBIO",
+      "construct": "Procul dubio",
       "group": "_",
       "analysis": [
         {

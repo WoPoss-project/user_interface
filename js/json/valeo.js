@@ -6,10 +6,10 @@ map_data = {
         "form": "*h₂ulh₁-eh₁-",
         "def": "'to be strong'",
         "certitude": true
-    }, {"period": "PIt", "form": "wal-ē-", "def": "", "certitude": true}],
+    }, {"period": "PIt", "form": "*wal-ē-", "def": "", "certitude": true}],
     "dataFormat": "cent",
     "meanings": [{
-        "definition": "to be physically powerful, have strength ",
+        "definition": "To be physically powerful, have strength ",
         "construct": "_",
         "group": "_",
         "analysis": [{
@@ -17,11 +17,11 @@ map_data = {
             "category": "Not modal",
             "emergence": -2,
             "disparition": "None",
-            "attestation": "PLAUT. Stich. 311 experiar fores an cubiti an pedes plus -eant.",
+            "attestation": "PLAUT. Stich. 311 experiar fores an cubiti an pedes plus valeant.",
             "certainty": true,
             "relationships": {
                 "origins": [{"rel": "gnezr", "cert": true}],
-                "destinations": [{"rel": "xbbxlbg", "cert": true}, {"rel": "rfnfgqo", "cert": true}, {
+                "destinations": [{"rel": "rfnfgqo", "cert": true}, {
                     "rel": "ebfxkp",
                     "cert": true
                 }, {"rel": "skci", "cert": true}],
@@ -29,7 +29,7 @@ map_data = {
             }
         }]
     }, {
-        "definition": "to have sufficient strength (for a task) ",
+        "definition": "To have sufficient strength (for a task) ",
         "construct": "_",
         "group": "_",
         "analysis": [{
@@ -37,7 +37,7 @@ map_data = {
             "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
-            "attestation": "OV. Ep. 8, 6 cetera femineae non -uere manus.",
+            "attestation": "OV. Ep. 8, 6 cetera femineae non valuere manus.",
             "certainty": true,
             "relationships": {
                 "origins": [{"rel": "xbbxlbg", "cert": true}],
@@ -54,7 +54,7 @@ map_data = {
             "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
-            "attestation": "HOR. Carm. 3, 25, 15 Baccharum… -entium proceras manibus vertere fraxinos.",
+            "attestation": "HOR. Carm. 3, 25, 15 Baccharum… valentium proceras manibus vertere fraxinos.",
             "certainty": true,
             "relationships": {"origins": [], "destinations": [], "unspecified": [{"rel": "rfnfgqo", "cert": true}]}
         }]
@@ -67,7 +67,7 @@ map_data = {
             "category": "Not modal",
             "emergence": -3,
             "disparition": "None",
-            "attestation": "CATO Agr. 33, 2 vitem novellam resicari tum erit tempus ubi -ebit.",
+            "attestation": "CATO Agr. 33, 2 vitem novellam resicari tum erit tempus ubi valebit.",
             "certainty": true,
             "relationships": {
                 "origins": [],
@@ -84,7 +84,7 @@ map_data = {
             "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
-            "attestation": "VITR. 7, 1, 2 quo minus (axes)… -uerint, eo facilius clavis fixi continebitur.",
+            "attestation": "VITR. 7, 1, 2 quo minus (axes)… valuerint, eo facilius clavis fixi continebitur.",
             "certainty": true,
             "relationships": {"origins": [{"rel": "xbbxlbg", "cert": true}], "destinations": [], "unspecified": []}
         }]
@@ -97,7 +97,7 @@ map_data = {
             "category": "Not modal",
             "emergence": -3,
             "disparition": "None",
-            "attestation": "PLAUT. Mil. 1318 matri oculi si -erent, mecum venissent simul.",
+            "attestation": "PLAUT. Mil. 1318 matri oculi si valerent, mecum venissent simul.",
             "certainty": true,
             "relationships": {
                 "origins": [],
@@ -117,7 +117,7 @@ map_data = {
             "category": "Not modal",
             "emergence": -3,
             "disparition": "None",
-            "attestation": "PLAUT. Curc. 169 male -ere te, quod mi aegrest.",
+            "attestation": "PLAUT. Curc. 169 male valere te, quod mi aegrest.",
             "certainty": true,
             "relationships": {"origins": [], "destinations": [], "unspecified": [{"rel": "fzfa", "cert": true}]}
         }]
@@ -130,12 +130,12 @@ map_data = {
             "category": "Not modal",
             "emergence": 1,
             "disparition": "None",
-            "attestation": "MART. 4, 31, 3 ne -eam si non res est gratissima nobis.",
+            "attestation": "MART. 4, 31, 3 ne valeam si non res est gratissima nobis.",
             "certainty": true,
             "relationships": {"origins": [{"rel": "fzfa", "cert": true}], "destinations": [], "unspecified": []}
         }]
     }, {
-        "definition": "[at the close of a letter]",
+        "definition": "[closing a letter]",
         "construct": "_",
         "group": "_",
         "analysis": [{
@@ -143,7 +143,7 @@ map_data = {
             "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
-            "attestation": "CIC. Att. 11, 10, 2 plura ad te scribam, si mihi… rescripseris. -e.",
+            "attestation": "CIC. Att. 11, 10, 2 plura ad te scribam, si mihi… rescripseris. Vale.",
             "certainty": true,
             "relationships": {"origins": [{"rel": "nhrfkpik", "cert": true}], "destinations": [], "unspecified": []}
         }]
@@ -156,7 +156,7 @@ map_data = {
             "category": "Not modal",
             "emergence": -3,
             "disparition": "None",
-            "attestation": "PLAUT. Asin. 231 dic, quid me aequom censes pro illa tibi dare,…? :: tene? Viginti minas; atque ea lege: si alius ad me prius attulerit, tu -e.",
+            "attestation": "PLAUT. Asin. 231 dic, quid me aequom censes pro illa tibi dare,…? :: tene? Viginti minas; atque ea lege: si alius ad me prius attulerit, tu vale.",
             "certainty": true,
             "relationships": {"origins": [], "destinations": [], "unspecified": [{"rel": "nhrfkpik", "cert": true}]}
         }]
@@ -169,7 +169,7 @@ map_data = {
             "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
-            "attestation": "OV. Met. 9, 239 iamque -ens et in omne latus diffusa sonabat… flamma.",
+            "attestation": "OV. Met. 9, 239 iamque valens et in omne latus diffusa sonabat… flamma.",
             "certainty": true,
             "relationships": {
                 "origins": [{"rel": "dlopmq", "cert": true}],
@@ -184,7 +184,7 @@ map_data = {
             "category": "Modal: dynamic",
             "emergence": -1,
             "disparition": "None",
-            "attestation": "LUCR. 6, 1057 illud… mirari mitte, quod aestus non -et e lapide hoc (i. e. magnet) alias impellere item res.",
+            "attestation": "LUCR. 6, 1057 illud… mirari mitte, quod aestus non valet e lapide hoc (i. e. magnet) alias impellere item res.",
             "certainty": true,
             "relationships": {
                 "origins": [],
@@ -201,7 +201,7 @@ map_data = {
             "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
-            "attestation": "CIC. Tusc. 5, 13 tamquam levia quaedam vin nihil -ent in aqua.",
+            "attestation": "CIC. Tusc. 5, 13 tamquam levia quaedam vin nihil valent in aqua.",
             "certainty": true,
             "relationships": {"origins": [], "destinations": [{"rel": "hefgwe", "cert": true}], "unspecified": []}
         }, {
@@ -209,7 +209,7 @@ map_data = {
             "category": "Modal: dynamic",
             "emergence": 1,
             "disparition": "None",
-            "attestation": "COL. 6, 25 sucus… porri -et eius modi necare animalia.",
+            "attestation": "COL. 6, 25 sucus… porri valet eius modi necare animalia.",
             "certainty": true,
             "relationships": {"origins": [{"rel": "uvixzk", "cert": true}], "destinations": [], "unspecified": []}
         }]
@@ -222,7 +222,7 @@ map_data = {
             "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
-            "attestation": "CIC. Att. 16, 9 vereor ne -eat Antonius.",
+            "attestation": "CIC. Att. 16, 9 vereor ne valeat Antonius.",
             "certainty": true,
             "relationships": {"origins": [{"rel": "owklk", "cert": true}], "destinations": [], "unspecified": []}
         }]
@@ -235,7 +235,7 @@ map_data = {
             "category": "Not modal",
             "emergence": -2,
             "disparition": "None",
-            "attestation": "PLAUT. Bacch. 226 non metus… dum quidem hoc -ebit pectus perfidia meum.",
+            "attestation": "PLAUT. Bacch. 226 non metus… dum quidem hoc valebit pectus perfidia meum.",
             "certainty": true,
             "relationships": {
                 "origins": [{"rel": "dlopmq", "cert": true}, {"rel": "xbbxlbg", "cert": true}],
@@ -252,7 +252,7 @@ map_data = {
             "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
-            "attestation": "NEP. Alc. 1, 2 Alcibiades… disertus, ut in primis dicendo -eret.",
+            "attestation": "NEP. Alc. 1, 2 Alcibiades… disertus, ut in primis dicendo valeret.",
             "certainty": true,
             "relationships": {"origins": [], "destinations": [], "unspecified": [{"rel": "xcupyhp", "cert": true}]}
         }]
@@ -265,7 +265,7 @@ map_data = {
             "category": "Not modal",
             "emergence": -2,
             "disparition": "None",
-            "attestation": "TER. Hau. 26 quod malevolus vetus poeta dictitat… arbitrium vostrum, vostra existumatio -ebit.",
+            "attestation": "TER. Hau. 26 quod malevolus vetus poeta dictitat… arbitrium vostrum, vostra existumatio valebit.",
             "certainty": true,
             "relationships": {
                 "origins": [],
@@ -282,7 +282,7 @@ map_data = {
             "category": "Modal: dynamic",
             "emergence": -1,
             "disparition": "None",
-            "attestation": "Rhet. Her. 1, 3 imitatio est, qua impellimur… ut aliquorum similes in dicendo -eamus esse.",
+            "attestation": "Rhet. Her. 1, 3 imitatio est, qua impellimur… ut aliquorum similes in dicendo valeamus esse.",
             "certainty": true,
             "relationships": {
                 "origins": [],
@@ -299,7 +299,7 @@ map_data = {
             "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
-            "attestation": "Q. CIC. Pet. 57 si competitoribus iudicium proponimus… perfici potest ut largitio nulla sit aut nihil -eat.",
+            "attestation": "Q. CIC. Pet. 57 si competitoribus iudicium proponimus… perfici potest ut largitio nulla sit aut nihil valeat.",
             "certainty": true,
             "relationships": {
                 "origins": [],
@@ -316,7 +316,7 @@ map_data = {
             "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
-            "attestation": "Rhet. Her. 3, 19 pronuntiationem… utilem oratori esse et ad persuadendum plurimum -ere.",
+            "attestation": "Rhet. Her. 3, 19 pronuntiationem… utilem oratori esse et ad persuadendum plurimum valere.",
             "certainty": true,
             "relationships": {"origins": [], "destinations": [], "unspecified": [{"rel": "dw", "cert": true}]}
         }]
@@ -329,7 +329,7 @@ map_data = {
             "category": "Not modal",
             "emergence": -3,
             "disparition": "None",
-            "attestation": "ENN. Scen. 201 cum opulenti loquuntur pariter atque ingobiles… eadem… oratio aequa non aeque -et. ",
+            "attestation": "ENN. Scen. 201 cum opulenti loquuntur pariter atque ingobiles… eadem… oratio aequa non aeque valet. ",
             "certainty": true,
             "relationships": {
                 "origins": [],
@@ -349,7 +349,7 @@ map_data = {
             "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
-            "attestation": "CIC. Dom. 68 nihil de meo capite potuisse ferri, nihil esse iure scriptum aut posse -ere.",
+            "attestation": "CIC. Dom. 68 nihil de meo capite potuisse ferri, nihil esse iure scriptum aut posse valere.",
             "certainty": true,
             "relationships": {
                 "origins": [{"rel": "dlopmq", "cert": true}],
@@ -366,7 +366,7 @@ map_data = {
             "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
-            "attestation": "CIC. Top. 23 quod in re maiore -et -eat in minore.",
+            "attestation": "CIC. Top. 23 quod in re maiore valet valeat in minore.",
             "certainty": true,
             "relationships": {"origins": [], "destinations": [], "unspecified": [{"rel": "smwadda", "cert": true}]}
         }]
@@ -379,7 +379,7 @@ map_data = {
             "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
-            "attestation": "CIC. Div. 2, 121 somnus… in quo -eant falsa pro veris.",
+            "attestation": "CIC. Div. 2, 121 somnus… in quo valeant falsa pro veris.",
             "certainty": true,
             "relationships": {"origins": [], "destinations": [], "unspecified": [{"rel": "aafvwnp", "cert": true}]}
         }]
@@ -392,7 +392,7 @@ map_data = {
             "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
-            "attestation": "VAR. L. 5, 173 denarii, quod denos aeris -ebunt; quinarii quod quinos.",
+            "attestation": "VAR. L. 5, 173 denarii, quod denos aeris valebunt; quinarii quod quinos.",
             "certainty": true,
             "relationships": {"origins": [], "destinations": [], "unspecified": [{"rel": "grxun", "cert": true}]}
         }]
@@ -405,33 +405,33 @@ map_data = {
             "category": "Not modal",
             "emergence": -2,
             "disparition": "None",
-            "attestation": "LUCIL. 1216 “apud te” aliud longe est, neque idem -et “ad te”. ",
+            "attestation": "LUCIL. 1216 “apud te” aliud longe est, neque idem valet “ad te”. ",
             "certainty": true,
             "relationships": {"origins": [{"rel": "dlopmq", "cert": true}], "destinations": [], "unspecified": []}
         }]
     }, {
         "definition": "[formula at the beginning of letters]",
-        "construct": "si -es, bene est",
+        "construct": "Si vales, bene est",
         "group": "_",
         "analysis": [{
             "id": "kqo",
             "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
-            "attestation": "CIC. Fam. 5, 2, 1 si tu exercitusque -etis, benest.",
+            "attestation": "CIC. Fam. 5, 2, 1 si tu exercitusque valetis, benest.",
             "certainty": true,
             "relationships": {"origins": [{"rel": "nhrfkpik", "cert": true}], "destinations": [], "unspecified": []}
         }]
     }, {
         "definition": "goodbye! ",
-        "construct": "-e (-eas etc.)",
+        "construct": "Vale (valeas etc.)",
         "group": "_",
         "analysis": [{
             "id": "nhrfkpik",
             "category": "Not modal",
             "emergence": -3,
             "disparition": "None",
-            "attestation": "PLAUT. Asin. 745 ite intro cito. -ete.",
+            "attestation": "PLAUT. Asin. 745 ite intro cito. Valete.",
             "certainty": true,
             "relationships": {
                 "origins": [],
@@ -444,14 +444,14 @@ map_data = {
         }]
     }, {
         "definition": "to bid goodbye",
-        "construct": "-ere iubere/dicere",
+        "construct": "Valere iubere/dicere",
         "group": "_",
         "analysis": [{
             "id": "dgqigrf",
             "category": "Not modal",
             "emergence": -1,
             "disparition": "None",
-            "attestation": "CIC. Att. 5, 2, 2 illum… salutavi, post etiam iussi -ere.",
+            "attestation": "CIC. Att. 5, 2, 2 illum… salutavi, post etiam iussi valere.",
             "certainty": true,
             "relationships": {"origins": [{"rel": "nhrfkpik", "cert": true}], "destinations": [], "unspecified": []}
         }]

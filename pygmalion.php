@@ -77,7 +77,7 @@
                     href="https://woposs.unine.ch/pygmalion-colour.php" target="_blank"><em>Pygmalion-colour
                     1.0. A
                     tool
-                    to draw interactive and diachronic semantic maps of modality</em></a>. WoPoss. A World of
+                    to draw interactive and diachronic semantic maps</em></a>. WoPoss. A World of
             Possibilities.
             Swiss
             National

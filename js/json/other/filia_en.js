@@ -196,9 +196,9 @@ map_data = {
         {
           "id": "tlvq",
           "category": "HIJA (Spanish)",
-          "emergence": 10,
+          "emergence": 12,
           "disparition": "None",
-          "attestation": "“id est ante nata filia sua muliere” (glosas  silenses)",
+          "attestation": "“Dues fijas dexo niñas, e prendetlas en los braços;” (Poema del Mio Cid, c.1140)",
           "certainty": true,
           "relationships": {
             "origins": [],

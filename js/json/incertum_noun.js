@@ -1,6 +1,6 @@
 map_data = {
   "normalForm": true,
-  "headword": "INCERTUM, -Ī ",
+  "headword": "INCERTUM, -ī ",
   "etymology": [
     {
       "period": "PIE",
@@ -10,7 +10,7 @@ map_data = {
     },
     {
       "period": "PIt",
-      "form": "n- + krito-",
+      "form": "*n- + *krito-",
       "def": "'not, un-' + 'distinguished'",
       "certitude": true
     }
@@ -174,7 +174,7 @@ map_data = {
     },
     {
       "definition": "To be uncertain",
-      "construct": "IN INCERTO ESSE and similar",
+      "construct": "In incerto esse (and similar)",
       "group": "_",
       "analysis": [
         {
@@ -230,16 +230,16 @@ map_data = {
       ]
     },
     {
-      "definition": "It is not sure",
-      "construct": "INCERTUM EST DE",
+      "definition": "(something) is not sure",
+      "construct": "Incertum est de",
       "group": "_",
       "analysis": [
         {
           "id": "ziwwu",
-          "category": "Modal: epistemic",
+          "category": "Not modal",
           "emergence": -1,
           "disparition": "None",
-          "attestation": "CIC. div. in Caec. 60 [no SoA] cum incertum sit de iniuria.",
+          "attestation": "CIC. div. in Caec. 60 cum incertum sit de iniuria.",
           "certainty": true,
           "relationships": {
             "origins": [
@@ -265,16 +265,16 @@ map_data = {
       ]
     },
     {
-      "definition": "It is not sure",
-      "construct": "INCERTUM EST IN",
+      "definition": "(something) is not sure",
+      "construct": "Incertum est in",
       "group": "_",
       "analysis": [
         {
           "id": "gvmhvk",
-          "category": "Modal: epistemic",
+          "category": "Not modal",
           "emergence": 1,
           "disparition": "None",
-          "attestation": "ULP. Dig. 18, 1, 7, 1 [no SoA] in rei veritate incertum est (before: ignoratur).",
+          "attestation": "ULP. Dig. 18, 1, 7, 1 in rei veritate incertum est (before: ignoratur).",
           "certainty": true,
           "relationships": {
             "origins": [
@@ -291,7 +291,7 @@ map_data = {
     },
     {
       "definition": "Randomly, casually",
-      "construct": "IN INCERTUM",
+      "construct": "In incertum",
       "group": "_",
       "analysis": [
         {
@@ -325,7 +325,7 @@ map_data = {
     },
     {
       "definition": "Randomly, casually",
-      "construct": "AD INCERTUM",
+      "construct": "Ad incertum",
       "group": "_",
       "analysis": [
         {
@@ -355,7 +355,7 @@ map_data = {
     },
     {
       "definition": "Randomly, casually",
-      "construct": "EX INCERTO",
+      "construct": "Ex incerto",
       "group": "_",
       "analysis": [
         {
@@ -441,7 +441,7 @@ map_data = {
     },
     {
       "definition": "Doubtfully, hesitantly",
-      "construct": "INCERTUM",
+      "construct": "Incertum",
       "group": "_",
       "analysis": [
         {
@@ -471,7 +471,7 @@ map_data = {
     },
     {
       "definition": "Doubtfully, hesitantly",
-      "construct": "INCERTA",
+      "construct": "Incerta",
       "group": "_",
       "analysis": [
         {

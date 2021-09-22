@@ -4,14 +4,14 @@ map_data = {
   "etymology": [
     {
       "period": "PIE",
-      "form": "bʰr̥-t»",
-      "def": "‘bearing, case’?",
+      "form": "*bʰr̥-ti-",
+      "def": "'bearing, case'?",
       "certitude": true
     },
     {
       "period": "PIt",
-      "form": " forti- [f.], fortu-",
-      "def": "‘luck’",
+      "form": "*for-ti- [f.], for-tu-",
+      "def": "'luck'",
       "certitude": true
     },
     {

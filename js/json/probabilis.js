@@ -4,16 +4,11 @@ map_data = {
   "etymology": [
     {
       "period": "PIE",
-      "form": "*pro-bʰ(h₂)u-o-",
+      "form": "*pro-*bʰ(h₂)u-o-",
       "def": "",
       "certitude": true
     },
-    {
-      "period": "PIt",
-      "form": "pro-f(w)-o-",
-      "def": "'favourable' ",
-      "certitude": true
-    }
+    {"period":"PIt","form":"* pro-f(w)-o-","def":"'favourable'","certitude":true}
     ],
   "dataFormat": "cent",
   "meanings": [

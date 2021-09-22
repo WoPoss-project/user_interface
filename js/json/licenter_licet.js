@@ -4,8 +4,8 @@ map_data = {
   "etymology": [
     {
       "period": "PIt",
-      "form": "lik-ē-",
-      "def": "‘to be available, have the value of’",
+      "form": "*lik-ē-",
+      "def": "'to be available, have the value of'",
       "certitude": true
     }
   ],

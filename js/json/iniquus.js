@@ -4,7 +4,7 @@ map_data = {
   "etymology": [
     {
       "period": "PIE",
-      "form": "*n + *aikʷos",
+      "form": "*n- + *aikʷos",
       "def": "",
       "certitude": false
     },
@@ -211,7 +211,7 @@ map_data = {
     },
     {
       "definition": "it is (it seems etc.) not fair, not acceptable",
-      "construct": "INIQUUM EST / (ESSE) VIDETUR, EXISTIMATUR",
+      "construct": "Iniquum est / (esse) videtur, existimatur",
       "group": "not equal",
       "analysis": [
         {
@@ -559,7 +559,7 @@ map_data = {
     },
     {
       "definition": "poisoning",
-      "construct": "MEDICAMENTA INIQUA",
+      "construct": "Medicamenta iniqua",
       "group": "not equal",
       "analysis": [
         {

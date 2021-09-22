@@ -3,10 +3,10 @@ map_data = {
     "headword": "INDUBITATĒ",
     "etymology": [{
         "period": "PIE",
-        "form": "PIE *dui-bʰh₂u-o-",
-        "def": "'double'",
+        "form": "*n- + *dui-bʰh₂u-o-",
+        "def": "'not, un-' + 'double'",
         "certitude": true
-    }, {"period": "PIt", "form": "du(i)-fwo-", "def": "", "certitude": true}],
+    }, {"period": "PIt", "form": "*n- + *du(i)-fwo-", "def": "", "certitude": true}],
     "dataFormat": "cent",
     "meanings": [{
         "definition": "Without doubt",
