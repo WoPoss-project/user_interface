@@ -1,0 +1,273 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport"
+			content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<title>Multi-format publishing and re-purposing of historical linguistics data</title>
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/league.css">
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+		<link rel="stylesheet" href="css/reveal-override.css" />
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h2>Multi-format publishing and re-purposing of historical linguistics data</h2>
+					<h4>Helena Bermúdez Sabel</h4>
+					<h5>University of Neuchâtel</h5>
+				</section>
+				<section>
+					<h2>Outline</h2>
+					<ul>
+						<li>Introduction <ul>
+								<li>the WoPoss project as an use case</li>
+								<li>research question and goals</li>
+							</ul></li>
+						<li>An open science workflow</li>
+						<li>Multi-format publishing as a re-usability strategy</li>
+						<li>Conclusion</li>
+					</ul>
+				</section>
+				<section>
+					<section>
+						<h2>Introduction</h2>
+					</section>
+					<section>
+						<h2>The WoPoss project</h2>
+						<ul>
+							<li><em><a href="https://woposs.unine.ch">A world of possibilities.
+										Modal pathways over an the extra-long period of time: the
+										diachrony of modality in the Latin language</a></em>. SNF
+								project n° 176778 </li>
+							<li>The team: <ul>
+									<li>PI: Francesca Dell’Oro</li>
+									<li>Senior researcher: Helena Bermúdez Sabel</li>
+									<li>PhD student and project assistant: Paola Marongiu</li>
+								</ul></li>
+						</ul>
+					</section>
+					<section>
+						<h2>The WoPoss project</h2>
+						<ul>
+							<li>Research question: how have Latin modal markers evolved during a
+								long period of time (1000 years)?</li>
+							<li>Method: automatic linguistic annotation + manual semantic annotation
+								of a representative corpus</li>
+						</ul>
+					</section>
+					<section>
+						<h2>WoPoss as an extrapolable use case</h2>
+						<ul>
+							<li>Generic goals <ul><li>to have an annotated corpus that it is useful
+										and shareable</li>
+									<li>to have a GUI that it is useful and intuitive</li>
+								</ul></li>
+						</ul>
+					</section>
+					<section>
+						<h2>WoPoss as an extrapolable use case</h2>
+						<ul>
+							<li>Generic challenges <ul><li>source text retrieval: copyright,
+										philological quality, heterogeneity of formats</li>
+									<li>preprocessing: orthographic conventions, abbreviations,
+										editorial information</li>
+									<li>annotation: pipeline, tool-dependency, formats</li>
+									<li>publication: formats</li>
+								</ul></li>
+						</ul>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>An open science workflow</h2>
+					</section>
+					<section>
+						<img src="workflow.png" alt="woposs workflow" />
+					</section>
+					<section>
+						<h2>Corpus preparation</h2>
+						<ul>
+							<li>Text retrieval (online, open-source)</li>
+							<li>Homogenization</li>
+						</ul>
+					</section>
+					<section>
+						<img src="html_ex.png" alt="example TEI" />
+						<h3>Source example: TEI-Epidoc</h3>
+					</section>
+					<section>
+						<img src="tei_ex.png" alt="example HTML" />
+						<h3>Source example: HTML</h3>
+					</section>
+					<section>
+						<h2>Plain text transformation</h2>
+						<ul>
+							<li>Evaluation of each file</li>
+							<li>Conversion of typographical conventions and/or markup to
+								pseudo-markup</li>
+							<li>Plain text output</li>
+						</ul>
+					</section>
+					<!--	<section>
+						<img src="workflow.png" alt="woposs workflow" />
+					</section>-->
+					<section>
+						<h2>Automatic linguistic analysis</h2>
+						<ul>
+							<li>Input: plain text</li>
+							<li>Method: StanfordNLP library for Python (<a
+									href="https://stanfordnlp.github.io/stanza/">Stanza</a>)</li>
+							<li>Output: CONLL-U</li>
+						</ul>
+					</section>
+					<section>
+						<img src="conllu.png" alt="CONLL-U example" />
+						<h3>CONLL-U</h3>
+					</section>
+					<section>
+						<h2>Manual annotation</h2>
+						<img src="inception.png" alt="INCEpTION example" />
+					</section>
+					<section>
+						<h2>Output: UIMA CAS XMI</h2>
+						<ul>
+							<li>Exportation of results of annotation process: UIMA CAS XMI
+										<ul><li>Unstructured Information Management Applications:
+										standard for annotation</li>
+									<li>Feature structures are represented in the UIMA Common
+										Analysis Structure (CAS)</li></ul>
+							</li>
+						</ul>
+					</section>
+					<section>
+						<h2>XMI snippets</h2>
+						<img src="xmi1.png" alt="XMI example" class="fragment" />
+						<img src="xmi2.png" alt="XMI example" class="fragment" />
+						<img src="xmi3.png" alt="XMI example" class="fragment" />
+						<img src="xmi4.png" alt="XMI example" class="fragment" />
+					</section>
+					<section>
+						<h2>TEI transformation</h2>
+						<ul>
+							<li>More spread format than UIMA CAS in the DH community</li>
+							<li>More suitable to contain editorial information</li>
+						</ul>
+					</section>
+					<section>
+						<img src="tei1png" alt="TEI example" />
+					</section>
+					<section>
+						<div style="display:flex">
+							<img src="tei2.png" alt="TEI example" />
+							<img src="tei3.png" alt="TEI example" class="fragment" />
+						</div>
+					</section>
+					<section>
+						<h2>Correction and enrichment</h2>
+						<ul>
+							<li>Validation (and correction) of the annotation and/or textual issues 
+							<li> 
+							<li>Transformation of pseudo-markup into TEI elements</li>
+							<li>Addition of metadata (DHTK, <a
+									href="http://ceur-ws.org/Vol-2014/paper-09.pdf">Picca &amp;
+									Egloff 2017</a>)</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Diachronic semantic maps of modal markers</h2>
+						<ul>
+							<li>Initial source: synthesis of lexicographical works</li>
+							<li>To be reviewed with the results of the corpus-based, empirical
+								analysis</li>
+						</ul>
+					</section>
+					<section>
+						<a href="https://woposs.unine.ch/semantic-maps/map-debeo.php">
+							<img src="semantic_map.png" alt="semantic map" />
+						</a>
+					</section>
+					<section>
+						<img src="grapg.png" alt="semantic map" />
+					</section>
+					<section>
+						<h2>Important remarks</h2>
+						<ul>
+							<li>Use of standardized formats during the workflow</li>
+							<li>Dependance of external software: free and open source</li>
+							<li>Creation of customized programs tailored to the project
+								specifications: open source</li>
+						</ul>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>Multi-format publishing as a re-usability strategy</h2>
+					</section>
+					<section>
+						<h2>Data sharing</h2>
+						<ul>
+							<li>Dataset <ul>
+									<li>Plain text version of the sources texts: useful for
+										computational analyses</li>
+									<li>Diachronic modal semantic maps in JSON, SVG and PNG.
+										Interactive version online</li>
+									<li>Results of the automatic annotation in CONLL-U format</li>
+								</ul></li>
+						</ul>
+					</section>
+					<section>
+						<h2>Data sharing</h2>
+						<ul>
+							<li>Dataset <ul>
+									<li>Results of the semantic annotation in: <ul>
+											<li>UIMA CAS XMI</li>
+											<li>TEI</li>
+											<li>RDF/XML (see <a href="https://lila-erc.eu/#page-top"
+												>LiLa: Linking Latin</a>)</li>
+										</ul></li>
+								</ul></li>
+							<li>GUI</li>
+							<li>Web application <ul>
+									<li>Dataset and GUI functionalities as an eXist-DB
+										application</li>
+								</ul></li>
+						</ul>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>Conclusions</h2>
+					</section>
+					<section>
+						<h2>Multi-format publishing and specialized target users</h2>
+						<ul>
+							<li>FAIR principles (both during development and results)</li>
+							<li>Sharing of materials at every stage of development</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Thank you!</h2>
+						<a>https://woposs.unine.ch</a>
+						<a>https://woposs.unine.ch/outputs/eadh/slides.html</a>
+					</section>
+				</section>
+			</div>
+		</div>
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+            Reveal.initialize({
+                hash: true,
+                
+                slideNumber: true,
+                
+                plugins:[RevealMarkdown, RevealHighlight, RevealNotes]
+            });</script>
+	</body>
+</html>
