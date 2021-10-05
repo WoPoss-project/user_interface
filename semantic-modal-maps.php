@@ -537,7 +537,7 @@
                             href="semantic-maps/map-volo.php" target="_blank">opus</a>”. v.1.0. WoPoss. <a
                             href="https://woposs.unine.ch/semantic-maps/map-opus.php">https://woposs.unine.ch/semantic-maps/map-opus.php</a></span>
         </span></li>
-        <li><a href="semantic-maps/map-probabilis.php">POSSIBILIS</a> <span class="cite"><span>(How to cite <img
+        <li><a href="semantic-maps/map-possibilis.php">POSSIBILIS</a> <span class="cite"><span>(How to cite <img
                             src="images/book.png" alt="book icon"/>)</span> <span class="reference">Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
                             href="semantic-maps/map-possibilis.php" target="_blank">possibilis</a>”. v.1.0. WoPoss.  <a
                             href="https://woposs.unine.ch/semantic-maps/map-possibilis.php">https://woposs.unine.ch/semantic-maps/map-possibilis.php</a></span></span>
