@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="db487090-34b1-4abd-9088-e9e00729d9e7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/json/possum.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/json/possum.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news.php" beforeDir="false" afterPath="$PROJECT_DIR$/news.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/EADH2021/slides.html" beforeDir="false" afterPath="$PROJECT_DIR$/outputs/EADH2021/slides.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/EADH2021/wop_light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/EADH2021/wop_neg.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/results.php" beforeDir="false" afterPath="$PROJECT_DIR$/results.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-modal-maps.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-modal-maps.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -391,6 +398,7 @@
       <workItem from="1622707598222" duration="1970000" />
       <workItem from="1626087194758" duration="712000" />
       <workItem from="1626163407009" duration="779000" />
+      <workItem from="1633417130084" duration="1533000" />
     </task>
     <servers />
   </component>
