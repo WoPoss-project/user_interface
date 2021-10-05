@@ -415,6 +415,8 @@
 
     <h2>Journal articles</h2>
     <ul>
+    <li>Dell’Oro, Francesca (2022). “Verbs of motion and intermediate source domains of modality: the understudied case of It. <em>occorrere</em> ‘to be necessary, to be needed'”.
+     <em>Folia Linguistica Historica</em> 43 (1).</li>
         <li>Dell’Oro, Francesca (2020). “<a href="https://riviste.unimi.it/index.php/ACME/article/view/13679/12819"
                                             target="_blank">L’expression de la modalité par des adjectifs: une
                 comparaison entre l’adjectif grec ancien en -<em>ιμος</em>
@@ -427,6 +429,11 @@
             [<a href="http://doi.org/10.5281/zenodo.3572410" target="_blank">Preprint</a>]
         </li>
 
+    </ul>
+    <h2>Book chapters</h2>
+    <ul>
+    <li>
+Dell’Oro, Francesca (2022). “The French construction ‘j’arrive à + INF’ at the borders of modality. An exploratory survey of a journalistic corpus”, in <em>tba</em>, Alessandria: Dell’Orso. </li>
     </ul>
     <h2>Contributions to conferences</h2>
     <h3>Conference proceedings</h3>
@@ -442,7 +449,11 @@
     </ul>
     <h3>Refereed conference talks</h3>
     <ul>
-
+    <li>Bermúdez Sabel, Helena (2021). “<em>Pygmalion</em>: una herramienta para la visualización interactiva del cambio semántico desde una perspectiva diacrónica”. <em>Scire Vias: Humanidades Digitales y conocimiento.
+V congreso de la Sociedad Internacional de Humanidades Digitales Hispánicas (HDH 2021)</em>. October 4-10, 2021. Santiago de Compostela, Spain. [<a href="https://woposs.unine.ch/outputs/HDH2021/slides_es.html" target="_blank">Slides</a>]</li>
+    
+    <li>Bermúdez Sabel, Helena (2021). “Multi-format publishing and re-purposing of historical linguistics data”. <em>EADH2021: Interdisciplinary perspectives on data. Second international
+     conference of the European Association for Digital Humanities</em>. September 21-24, 2021. Siberian Federal University. Krasnoyarsk, Russia. [<a href="https://woposs.unine.ch/outputs/eadh/slides.html" target="_blank">Slides</a>]</li>
         <li>Dell’Oro, Francesca; Marongiu, Paola (2021). “<em>Pygmalion</em>, una herramienta digital para elaborar mapas semánticos: algunos casos de uso en el aula | <em>Pygmalion</em>, a tool to draw interactive diachronic semantic maps: some use cases for
             the classroom”. <em>I Jornada
                     de lexicografía en el contexto del aprendizaje de lenguas</em>. May 10, 2021. Universidad Complutense de Madrid. Madrid, Spain.
@@ -517,6 +528,11 @@
     </ul>
     <h3>Other presentations</h3>
     <ul>
+    <li>Dell’Oro, Francesca (2021). “Diachronie et typologie de la modalité: sources et structures des prédicats modaux”. <em> Linguistique historique et linguistique de corpus : perspectives syntaxiques, 
+    sémantiques et pragmatiques avec un regard sur la modalité</em>. Programme doctoral en Sciences du langage de la Conférence universitaire de Suisse occidentale (CUSO). October 18-19, 2021. Les Diablerets, Switzerland.</li>
+  
+    <li>Dell’Oro, Francesca; Bermúdez Sabel, Helena (2021). “La modalité dans les Évangiles (latin et grec)”. <em> Linguistique historique et linguistique de corpus : perspectives syntaxiques, 
+    sémantiques et pragmatiques avec un regard sur la modalité</em>. Programme doctoral en Sciences du langage de la Conférence universitaire de Suisse occidentale (CUSO). October 18-19, 2021. Les Diablerets, Switzerland.</li>
         <li>Dell’Oro, Francesca; Bermúdez Sabel, Helena; Marongiu, Paola; Rimaz, Loris (2021). <em>Pygmalion, un outil lexicographique pour dessiner des
                 cartes interactives</em>. May 11, 2021. University of Neuchâtel. Neuchâtel, Switzerland. [<a href="outputs/pygmalion_neuchatel.mp4">Presentation</a>]</li>
         <li>Marongiu, Paola (2021). “Visualisation des données à partir d’un corpus diachronique de latin”. Lecture for the MA course
@@ -617,6 +633,8 @@
     </ul>
     <h2>Organisation of scientific events</h2>
     <ul>
+    <li>Dell’Oro, Francesca; Rossari, Corinne (org.) (2021). <em> Linguistique historique et linguistique de corpus : perspectives syntaxiques, 
+    sémantiques et pragmatiques avec un regard sur la modalité</em>. Programme doctoral en Sciences du langage de la Conférence universitaire de Suisse occidentale (CUSO). October 18-19, 2021. Les Diablerets, Switzerland.</li>
      <li>Dell’Oro, Francesca; Rossari, Corinne (org.) (2019). <em>Workshop on modality and written corpora</em> (Session 2). September 6,
             2021. University of Neuchâtel. Neuchâtel, Switzerland. [<a href="https://www.unine.ch/isla/home/colloques/workshop-on-modality-and-corpora.html" target="_blank">Program</a>]
         </li>
