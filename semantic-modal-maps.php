@@ -651,7 +651,23 @@
                             href="https://woposs.unine.ch/semantic-maps/map-voluntas.php">https://woposs.unine.ch/semantic-maps/map-voluntas.php</a></span>
         </span></li>
     </ul>
-
+ <h3>Sources</h3>
+    <ul>
+        <li>Michiel de Vaan (2011). <em>Etymological Dictionary of Latin</em>. Leiden: Brill.</li>
+        <li>Ernout, Alfred &amp; Antoine Meillet (1932). <em>Dictionnaire étymologique de la langue latine: histoire des
+                mots</em>. Paris:
+            Klincksieck.
+        </li>
+        <li>Meiser, Gerhard (1998). <em>Historische Laut- und Formenlehre der lateinischen Sprache</em>. Darmstadt:
+            Wissenschaftliche
+            Buchgesellschaft.
+        </li>
+        <li>P.G.W. Glare, ed. (2012). <em>Oxford Latin Dictionary</em>. Oxford: Oxford University Press.</li>
+        <li>Thesaurusbüro München Internationale Thesaurus-Kommission, ed. (1900-). <em>Thesaurus Linguae
+                Latinae</em>. Berlin:
+            De Gruyter.
+        </li>
+    </ul>
 
 </main>
 <?php include("ssi/footer.html"); ?>

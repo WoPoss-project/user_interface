@@ -47,6 +47,10 @@ button:hover {
   background-color: rgb(38, 125, 196);
 }
 
+.top {
+    margin-top: 3%;
+}
+
 small {
   float: right;
 }
@@ -192,3 +196,5 @@ div.tooltip-donut {
     margin-top: 0;
   }
 }
+
+

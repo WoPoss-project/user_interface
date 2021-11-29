@@ -12,18 +12,20 @@
         }
 
         .title:before {
-            content:'';
+            content: '';
             display: inline-block;
             position: relative;
             left: 3px;
             border: 6px solid transparent;
             border-left-color: #000;
         }
+
         .title.active:before {
             left: 0;
             top: 3px;
             border-color: #000 transparent transparent;
         }
+
         .title:hover {
             cursor: pointer;
         }
@@ -33,6 +35,7 @@
             /*transform: translateY(-100%);*/
             display: none;
         }
+
         .content.show {
             /*transform: translateY(0);*/
             display: inline-block;
@@ -42,7 +45,7 @@
             margin-right: 1em;
         }
 
-        .content{
+        .content {
             padding-left: 1em;
         }
 
@@ -63,6 +66,7 @@
             cursor: pointer;
             margin-top: 1%;
         }
+
         .indent {
             margin-left: 3em;
         }
@@ -82,11 +86,11 @@
         <li><a href="#search-relation">Search by modal relation</a></li>
     </ul>
     <h2 id="search-marker">Search by modal marker</h2>
-    <form>
+    <form method="get" action="marker.php">
         <fieldset>
             <label for="marker">Choose a modal marker (required)</label>
             <select name="marker" id="marker" required="required">
-                <option disabled selected value> -- select an option -- </option>
+                <option disabled selected value> -- select an option --</option>
                 <optgroup label="Verbs">
                     <option value="debeo">debeo</option>
                     <option value="decet">decet</option>
@@ -101,19 +105,23 @@
                     <option value="volo">volo</option>
                 </optgroup>
                 <optgroup label="Phrases">
-                    <option value="aequum-esse">aequuum est</option>
-                    <option value="est-inf">est + infinitive</option>
-                    <option value="habeo-inf">habeo + infinitive</option>
-                    <option value="ius-esse">ius est</option>
-                    <option value="meum-esse">meum est</option>
-                    <option value="necesse-esse">necesse est</option>
-                    <option value="opus-esse">opus est</option>
-                    <option value="usus-esse">usus est</option>
+                    <option value="aequum_est">aequuum est</option>
+                    <option value="est_inf">est + infinitive</option>
+                    <option value="habeo_inf">habeo + infinitive</option>
+                    <option value="ius_est">ius est</option>
+                    <option value="meum_est">meum est</option>
+                    <option value="necesse_est">necesse est</option>
+                    <option value="necesse_habeo">necesse habeo</option>
+                    <option value="opus_est">opus est</option>
+                    <option value="usus_est">usus est</option>
                 </optgroup>
                 <optgroup label="Verbal adjectives">
-                    <option value="bilis">-bilis</option>
-                    <option value="ndus">-ndus</option>
-                    <option value="turus">-turus</option>
+                    <option value="-bilis">-bilis</option>
+                    <option value="-bilis_est">-bilis est</option>
+                    <option value="-ndus">-ndus</option>
+                    <option value="-ndus_est">-ndus est</option>
+                    <option value="-turus">-turus</option>
+                    <option value="-turus_est">-turus est</option>
                 </optgroup>
                 <optgroup label="Adjectives">
                     <option value="aequus">aequus</option>
@@ -121,10 +129,14 @@
                     <option value="certus">certus</option>
                     <option value="dubius">dubius</option>
                     <option value="illicitus">illicitus</option>
+                    <option value="impossibilis">impossibilis</option>
+                    <option value="impossibilis_est">impossibilis est</option>
                     <option value="incertus">incertus</option>
                     <option value="ineptus">ineptus</option>
                     <option value="licitus">licitus</option>
                     <option value="necessarius">necessarius</option>
+                    <option value="possibilis">possibilis</option>
+                    <option value="possibilis_est">possibilis est</option>
                 </optgroup>
                 <optgroup label="Nouns">
                     <option value="illicitus">dubium</option>
@@ -140,119 +152,54 @@
                 <optgroup label="Adverbs">
                     <option value="certe">certe</option>
                     <option value="dubius">dubie</option>
-                    <option value="dubius">forsan</option>
-                    <option value="dubius">forsitan</option>
-                    <option value="dubius">fortasse</option>
-                    <option value="dubius">indubitate</option>
-                    <option value="dubius">indubitanter</option>
-                    <option value="dubius">necessarie</option>
-                    <option value="dubius">possibiliter</option>
-                    <option value="dubius">probabiliter</option>
+                    <option value="forsitan">fors(it)an</option>
+                    <option value="fortasse">fortasse</option>
+                    <option value="indubitate">indubitate/indubitanter</option>
+                    <option value="necessarie">necessarie</option>
+                    <option value="possibiliter">possibiliter</option>
+                    <option value="probabiliter">probabiliter</option>
                 </optgroup>
             </select><br/>
-           <!-- <label for="marker">Choose a second modal marker (optional)</label>
-            <select name="marker" id="marker">
-                <option disabled selected value> - select an option - </option>
-                <optgroup label="Verbs">
-                    <option value="debeo">debeo</option>
-                    <option value="decet">decet</option>
-                    <option value="licet">licet</option>
-                    <option value="nequeo">nequeo</option>
-                    <option value="nolo">nolo</option>
-                    <option value="malo">malo</option>
-                    <option value="oportet">oportet</option>
-                    <option value="possum">possum</option>
-                    <option value="queo">queo</option>
-                    <option value="valet">valet</option>
-                    <option value="volo">volo</option>
-                </optgroup>
-                <optgroup label="Phrases">
-                    <option value="aequum-esse">aequuum est</option>
-                    <option value="est-inf">est + infinitive</option>
-                    <option value="habeo-inf">habeo + infinitive</option>
-                    <option value="ius-esse">ius est</option>
-                    <option value="meum-esse">meum est</option>
-                    <option value="necesse-esse">necesse est</option>
-                    <option value="opus-esse">opus est</option>
-                    <option value="usus-esse">usus est</option>
-                </optgroup>
-                <optgroup label="Verbal adjectives">
-                    <option value="bilis">-bilis</option>
-                    <option value="ndus">-ndus</option>
-                    <option value="turus">-turus</option>
-                </optgroup>
-                <optgroup label="Adjectives">
-                    <option value="aequus">aequus</option>
-                    <option value="aptus">aptus</option>
-                    <option value="certus">certus</option>
-                    <option value="dubius">dubius</option>
-                    <option value="illicitus">illicitus</option>
-                    <option value="incertus">incertus</option>
-                    <option value="ineptus">ineptus</option>
-                    <option value="licitus">licitus</option>
-                    <option value="necessarius">necessarius</option>
-                </optgroup>
-                <optgroup label="Nouns">
-                    <option value="illicitus">dubium</option>
-                    <option value="illicitus">facultas</option>
-                    <option value="illicitus">possibilitas</option>
-                    <option value="illicitus">potestas</option>
-                    <option value="illicitus">illicitus</option>
-                    <option value="illicitus">necessitas</option>
-                    <option value="illicitus">necessitudo</option>
-                    <option value="illicitus">probabilitas</option>
-                    <option value="illicitus">voluntas</option>
-                </optgroup>
-                <optgroup label="Adverbs">
-                    <option value="certe">certe</option>
-                    <option value="dubius">dubie</option>
-                    <option value="dubius">fors(it)an</option>
-                    <option value="dubius">fortasse</option>
-                    <option value="dubius">indubitate(r)</option>
-                    <option value="dubius">necessarie</option>
-                    <option value="dubius">possibiliter</option>
-                    <option value="dubius">probabiliter</option>
-                </optgroup>
-            </select>-->
+
         </fieldset>
         <h3 class="title">Description of the marker</h3>
-        <div class="wrapper"><div class="content">
-                <fieldset>
-                    <label class="title">Co-occurrence: marker must be in the vicinity of...</label>
-                    <div class="wrapper">
-                        <div class="content"><label for="lemma">Lemma</label>
-                            <input type="text" id="lemma" name="lemma"/><br/>
-                            <label for="form">Word(s)</label>
-                            <input type="text" id="form" name="form"/><br/>
-                            <label for="pos">Part of Speech</label>
-                            <select name="pos" id="pos">
-                                <option disabled selected value> -- select an option --</option>
-                                <option value="ADJ">adjective</option>
-                                <option value="ADP">adposition</option>
-                                <option value="ADV">adverb</option>
-                                <option value="AUX">auxiliary</option>
-                                <option value="CCONJ">coordinating conjunction</option>
-                                <option value="DET">determiner</option>
-                                <option value="INTJ">interjection</option>
-                                <option value="NOUN">noun</option>
-                                <option value="NUM">numeral</option>
-                                <option value="PRON">pronoun</option>
-                                <!--            <option value="PROPN">proper noun</option>-->
-                                <option value="PUNCT">punctuation</option>
-                                <option value="SCONJ">subordinating conjunction</option>
-                                <option value="VERB">verb</option>
-                                <option value="X">other</option>
-                            </select><br/>
-                            <label for="windowleft">Context left (number of tokens between the marker and the element
-                                described
-                                above)</label>
-                            <input type="number" id="windowleft"><br/>
-                            <label for="windowright">Context right (number of tokens between the marker and the element
-                                described
-                                above)</label>
-                            <input type="number" id="windowright"></div>
-                    </div>
-                </fieldset>
+        <div class="wrapper">
+            <div class="content">
+                <!--                <fieldset>
+                                    <label class="title">Co-occurrence: marker must be in the vicinity of...</label>
+                                    <div class="wrapper">
+                                        <div class="content"><label for="lemma">Lemma</label>
+                                            <input type="text" id="lemma" name="lemma"/><br/>
+                                            <label for="form">Word(s)</label>
+                                            <input type="text" id="form" name="form"/><br/>
+                                            <label for="pos">Part of Speech</label>
+                                            <select name="pos" id="pos">
+                                                <option disabled selected value> -- select an option --</option>
+                                                <option value="ADJ">adjective</option>
+                                                <option value="ADP">adposition</option>
+                                                <option value="ADV">adverb</option>
+                                                <option value="AUX">auxiliary</option>
+                                                <option value="CCONJ">coordinating conjunction</option>
+                                                <option value="DET">determiner</option>
+                                                <option value="INTJ">interjection</option>
+                                                <option value="NOUN">noun</option>
+                                                <option value="NUM">numeral</option>
+                                                <option value="PRON">pronoun</option>
+                                                <option value="PUNCT">punctuation</option>
+                                                <option value="SCONJ">subordinating conjunction</option>
+                                                <option value="VERB">verb</option>
+                                                <option value="X">other</option>
+                                            </select><br/>
+                                            <label for="windowleft">Context left (number of tokens between the marker and the element
+                                                described
+                                                above)</label>
+                                            <input type="number" id="windowleft"><br/>
+                                            <label for="windowright">Context right (number of tokens between the marker and the element
+                                                described
+                                                above)</label>
+                                            <input type="number" id="windowright"></div>
+                                    </div>
+                                </fieldset>-->
                 <fieldset>
                     <label class="title" for="pertinence">Pertinence of the potential marker(s)</label>
                     <div class="wrapper">
@@ -280,136 +227,128 @@
                 <fieldset>
                     <label class="title">Morphological features of the marker</label>
                     <div class="wrapper">
-<!--                        <div class="content"><label class="title">Nominal features</label>-->
-<!--                            <div class="wrapper">-->
-                                <div class="content"><label for="gender" class="title">Gender</label>
-                                    <div class="wrapper">
-                                        <div class="content" id="gender">
-                                            <input type="checkbox" name="Fem" id="Fem" value="Fem" checked/> <label
-                                                    for="Fem">Feminine</label>
-                                            <input type="checkbox" name="Masc" id="Masc" value="Masc" checked/> <label
-                                                    for="Masc">Masculine</label>
-                                            <input type="checkbox" name="Neut" id="Neut" value="Neut" checked/> <label
-                                                    for="Neut">Neuter</label>
-                                        </div>
-                                    </div>
-                                    <label for="number" class="title">Number</label>
-                                    <div class="wrapper">
-                                        <div id="number" class="content">
-                                            <input type="checkbox" name="Sing" id="Sing" value="Sing" checked/> <label
-                                                    for="Sing">Singular</label>
-                                            <input type="checkbox" name="Plur" id="Plur" value="Plur" checked/> <label
-                                                    for="Plur">Plural</label>
-                                        </div>
-                                    </div>
-                                    <label for="case" class="title">Case</label>
-                                    <div class="wrapper">
-                                        <div class="content" id="case">
-                                            <input type="checkbox" name="Abl" id="Abl" value="Abl" checked/> <label
-                                                    for="Abl">Ablative</label>
-                                            <input type="checkbox" name="Acc" id="Acc" value="Acc" checked/> <label
-                                                    for="Acc">Accusative</label>
-                                            <input type="checkbox" name="Dat" id="Dat" value="Dat" checked/> <label
-                                                    for="Dat">Dative</label>
-                                            <input type="checkbox" name="Gen" id="Gen" value="Gen" checked/> <label
-                                                    for="Gen">Genitive</label>
-                                            <input type="checkbox" name="Loc" id="Loc" value="Loc" checked/> <label
-                                                    for="Loc">Locative</label>
-                                            <input type="checkbox" name="Nom" id="Nom" value="Nom" checked/> <label
-                                                    for="Nom">Nominative</label>
-                                            <input type="checkbox" name="Voc" id="Voc" value="Voc" checked/> <label
-                                                    for="Voc">Vocative</label>
-                                        </div>
-                                    </div>
-                                    <label for="degree" class="title">Degree</label>
-                                    <div class="wrapper">
-                                        <div class="content" id="degree">
-                                            <input type="checkbox" name="Cmp" id="Cmp" value="Cmp" checked/> <label
-                                                    for="Cmp">Comparative</label>
-                                            <input type="checkbox" name="Pos" id="Pos" value="Pos" checked/> <label
-                                                    for="Pos">Positive</label>
-                                            <input type="checkbox" name="Sup" id="Sup" value="Sup" checked/> <label
-                                                    for="Sup">Superlative</label>
-                                        </div>
-<!--                                    </div>-->
-<!--                                </div>-->
+                        <div class="content"><label for="gender" class="title">Gender</label>
+                            <div class="wrapper">
+                                <div class="content" id="gender">
+                                    <input type="checkbox" name="Fem" id="Fem" value="Fem" checked/> <label
+                                            for="Fem">Feminine</label>
+                                    <input type="checkbox" name="Masc" id="Masc" value="Masc" checked/> <label
+                                            for="Masc">Masculine</label>
+                                    <input type="checkbox" name="Neut" id="Neut" value="Neut" checked/> <label
+                                            for="Neut">Neuter</label>
+                                </div>
                             </div>
-<!--                            <label class="title">Verbal Features</label>-->
-<!--                            <div class="wrapper">-->
-<!--                                <div class="content">-->
-                                    <label for="vbform" class="title">(De)verbal forms</label>
-                                    <div class="wrapper">
-                                        <div class="content" id="vbform">
-                                            <input type="checkbox" name="Fin" id="Fin" value="Fin" checked/> <label
-                                                    for="Fin">Finite</label>
-                                            <input type="checkbox" name="Gdv" id="Gdv" value="Gdv" checked/> <label
-                                                    for="Gdv">Gerundive</label>
-                                            <input type="checkbox" name="Ger" id="Ger" value="Ger" checked/> <label
-                                                    for="Ger">Gerund</label>
-                                            <input type="checkbox" name="Inf" id="Inf" value="Inf" checked/> <label
-                                                    for="Inf">Infinitive</label>
-                                            <input type="checkbox" name="Part" id="Part" value="Part" checked/> <label
-                                                    for="Part">Participle</label>
-                                        </div>
-                                    </div>
-                                    <label class="title" for="person">Person</label>
-                                    <div class="wrapper">
-                                        <div id="person" class="content">
-                                            <input type="checkbox" name="1" id="1" value="1" checked/> <label
-                                                    for="1">1</label>
-                                            <input type="checkbox" name="2" id="2" value="2" checked/> <label
-                                                    for="2">2</label>
-                                            <input type="checkbox" name="3" id="3" value="3" checked/> <label
-                                                    for="3">3</label>
-                                        </div>
-                                    </div>
-                                    <label for="aspect" class="title">Aspect</label>
-                                    <div class="wrapper">
-                                        <div class="content" id="aspect">
-                                            <input type="checkbox" name="Imp" id="Imp" value="Imp" checked/> <label
-                                                    for="Imp">Imperfect</label>
-                                            <input type="checkbox" name="Perf" id="Perf" value="Perf" checked/> <label
-                                                    for="Perf">Perfect</label>
-                                        </div>
-                                    </div>
-                                    <label for="mood" class="title">Mood</label>
-                                    <div class="wrapper">
-                                        <div class="content" id="mood">
-                                            <input type="checkbox" name="Impt" id="Impt" value="Impt" checked/> <label
-                                                    for="Impt">Imperative</label>
-                                            <input type="checkbox" name="Ind" id="Ind" value="Ind" checked/> <label
-                                                    for="Ind">Indicative</label>
-                                            <input type="checkbox" name="Sub" id="Sub" value="Sub" checked/> <label
-                                                    for="Sub">Subjunctive</label>
-                                        </div>
-                                    </div>
-                                    <label for="tense" class="title">Tense</label>
-                                    <div class="wrapper">
-                                        <div id="tense" class="content">
-                                            <input type="checkbox" name="Fut" id="Fut" value="Fut" checked/> <label
-                                                    for="Fut">Future</label>
-                                            <input type="checkbox" name="Past" id="Past" value="Past" checked/> <label
-                                                    for="Past">Past
-                                                tense
-                                                /
-                                                preterite</label>
-                                            <input type="checkbox" name="Pqp" id="Pqp" value="Pqp" checked/> <label
-                                                    for="Pqp">Pluperfect</label>
-                                            <input type="checkbox" name="Pres" id="Pres" value="Pres" checked/> <label
-                                                    for="Pres">Present</label>
-                                        </div>
-                                    </div>
-                                    <label for="voice" class="title">Voice</label>
-                                    <div class="wrapper">
-                                        <div class="content" id="voice">
-                                            <input type="checkbox" name="Act" id="Act" value="Act" checked/> <label
-                                                    for="Act">Active</label>
-                                            <input type="checkbox" name="Pass" id="Pass" value="Pass" checked/> <label
-                                                    for="Pass">Passive</label>
-                                        </div>
-                                    </div>
-<!--                                </div>-->
-<!--                            </div>-->
+                            <label for="number" class="title">Number</label>
+                            <div class="wrapper">
+                                <div id="number" class="content">
+                                    <input type="checkbox" name="Sing" id="Sing" value="Sing" checked/> <label
+                                            for="Sing">Singular</label>
+                                    <input type="checkbox" name="Plur" id="Plur" value="Plur" checked/> <label
+                                            for="Plur">Plural</label>
+                                </div>
+                            </div>
+                            <label for="case" class="title">Case</label>
+                            <div class="wrapper">
+                                <div class="content" id="case">
+                                    <input type="checkbox" name="Abl" id="Abl" value="Abl" checked/> <label
+                                            for="Abl">Ablative</label>
+                                    <input type="checkbox" name="Acc" id="Acc" value="Acc" checked/> <label
+                                            for="Acc">Accusative</label>
+                                    <input type="checkbox" name="Dat" id="Dat" value="Dat" checked/> <label
+                                            for="Dat">Dative</label>
+                                    <input type="checkbox" name="Gen" id="Gen" value="Gen" checked/> <label
+                                            for="Gen">Genitive</label>
+                                    <input type="checkbox" name="Loc" id="Loc" value="Loc" checked/> <label
+                                            for="Loc">Locative</label>
+                                    <input type="checkbox" name="Nom" id="Nom" value="Nom" checked/> <label
+                                            for="Nom">Nominative</label>
+                                    <input type="checkbox" name="Voc" id="Voc" value="Voc" checked/> <label
+                                            for="Voc">Vocative</label>
+                                </div>
+                            </div>
+                            <label for="degree" class="title">Degree</label>
+                            <div class="wrapper">
+                                <div class="content" id="degree">
+                                    <input type="checkbox" name="Cmp" id="Cmp" value="Cmp" checked/> <label
+                                            for="Cmp">Comparative</label>
+                                    <input type="checkbox" name="Pos" id="Pos" value="Pos" checked/> <label
+                                            for="Pos">Positive</label>
+                                    <input type="checkbox" name="Sup" id="Sup" value="Sup" checked/> <label
+                                            for="Sup">Superlative</label>
+                                </div>
+                            </div>
+
+                            <label for="vbform" class="title">(De)verbal forms</label>
+                            <div class="wrapper">
+                                <div class="content" id="vbform">
+                                    <input type="checkbox" name="Fin" id="Fin" value="Fin" checked/> <label
+                                            for="Fin">Finite</label>
+                                    <input type="checkbox" name="Gdv" id="Gdv" value="Gdv" checked/> <label
+                                            for="Gdv">Gerundive</label>
+                                    <input type="checkbox" name="Ger" id="Ger" value="Ger" checked/> <label
+                                            for="Ger">Gerund</label>
+                                    <input type="checkbox" name="Inf" id="Inf" value="Inf" checked/> <label
+                                            for="Inf">Infinitive</label>
+                                    <input type="checkbox" name="Part" id="Part" value="Part" checked/> <label
+                                            for="Part">Participle</label>
+                                </div>
+                            </div>
+                            <label class="title" for="person">Person</label>
+                            <div class="wrapper">
+                                <div id="person" class="content">
+                                    <input type="checkbox" name="1" id="1" value="1" checked/> <label
+                                            for="1">1</label>
+                                    <input type="checkbox" name="2" id="2" value="2" checked/> <label
+                                            for="2">2</label>
+                                    <input type="checkbox" name="3" id="3" value="3" checked/> <label
+                                            for="3">3</label>
+                                </div>
+                            </div>
+                            <label for="aspect" class="title">Aspect</label>
+                            <div class="wrapper">
+                                <div class="content" id="aspect">
+                                    <input type="checkbox" name="Imp" id="Imp" value="Imp" checked/> <label
+                                            for="Imp">Imperfect</label>
+                                    <input type="checkbox" name="Perf" id="Perf" value="Perf" checked/> <label
+                                            for="Perf">Perfect</label>
+                                </div>
+                            </div>
+                            <label for="mood" class="title">Mood</label>
+                            <div class="wrapper">
+                                <div class="content" id="mood">
+                                    <input type="checkbox" name="Impt" id="Impt" value="Impt" checked/> <label
+                                            for="Impt">Imperative</label>
+                                    <input type="checkbox" name="Ind" id="Ind" value="Ind" checked/> <label
+                                            for="Ind">Indicative</label>
+                                    <input type="checkbox" name="Sub" id="Sub" value="Sub" checked/> <label
+                                            for="Sub">Subjunctive</label>
+                                </div>
+                            </div>
+                            <label for="tense" class="title">Tense</label>
+                            <div class="wrapper">
+                                <div id="tense" class="content">
+                                    <input type="checkbox" name="Fut" id="Fut" value="Fut" checked/> <label
+                                            for="Fut">Future</label>
+                                    <input type="checkbox" name="Past" id="Past" value="Past" checked/> <label
+                                            for="Past">Past
+                                        tense
+                                        /
+                                        preterite</label>
+                                    <input type="checkbox" name="Pqp" id="Pqp" value="Pqp" checked/> <label
+                                            for="Pqp">Pluperfect</label>
+                                    <input type="checkbox" name="Pres" id="Pres" value="Pres" checked/> <label
+                                            for="Pres">Present</label>
+                                </div>
+                            </div>
+                            <label for="voice" class="title">Voice</label>
+                            <div class="wrapper">
+                                <div class="content" id="voice">
+                                    <input type="checkbox" name="Act" id="Act" value="Act" checked/> <label
+                                            for="Act">Active</label>
+                                    <input type="checkbox" name="Pass" id="Pass" value="Pass" checked/> <label
+                                            for="Pass">Passive</label>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
@@ -418,22 +357,28 @@
                 <fieldset><label class="title">Syntactical features of the marker</label>
                     <div class="wrapper">
                         <div class="content">
-                            <label class="title">Polarity</label><div class="wrapper">
-                                <div class="content"><input id="affirmative" checked="checked" name="affirmative" type="checkbox"
-                                          value="affirmative">
+                            <label class="title">Polarity</label>
+                            <div class="wrapper">
+                                <div class="content"><input id="affirmative" checked="checked" name="affirmative"
+                                                            type="checkbox"
+                                                            value="affirmative">
                                     <label for="affirmative">Marker in an affirmative utterance</label>
                                     <input id="negative" checked="checked" name="negative" type="checkbox"
                                            value="negative">
-                                    <label for="negative">Marker in a negative utterance</label></div></div><br/>
+                                    <label for="negative">Marker in a negative utterance</label></div>
+                            </div>
+                            <br/>
                             <label class="title">Type of utterance</label>
-                            <div class="wrapper"><div class="content"><input id="interrogative" checked="checked" name="interrogative"
-                                                           type="checkbox"
-                                                           value="interrogative">
+                            <div class="wrapper">
+                                <div class="content"><input id="interrogative" checked="checked" name="interrogative"
+                                                            type="checkbox"
+                                                            value="interrogative">
                                     <label for="interrogative">Marker in an interrogative utterance</label>
                                     <input id="nonint" checked="checked" name="nonint" type="checkbox" value="nonint">
-                                    <label for="nonint">Marker in a non-interrogative utterance</label></div></div>
+                                    <label for="nonint">Marker in a non-interrogative utterance</label></div>
+                            </div>
 
-                            <input type="checkbox" value="subordinate" id="subordinate" name="subordinate"/>
+<!--                            <input type="checkbox" value="subordinate" id="subordinate" name="subordinate"/>
                             <label for="subordinate">The marker is in a subordinate clause</label>
                             <br/> <label class="title">The governor of the marker is:</label>
                             <div class="wrapper">
@@ -472,9 +417,9 @@
                                         <input type="checkbox" name="X" id="X" value="X"/> <label for="X">other</label>
                                     </div>
                                 </div>
-                            </div>
+                            </div>-->
 
-                            <label for="dependency" class="title">The marker has a dependency relation of type</label>
+                            <!--<label for="dependency" class="title">The marker has a dependency relation of type</label>
                             <div class="wrapper">
                                 <div class="content" id="dependency">
                                     <input type="checkbox" name="acl" id="acl" value="acl"/> <label
@@ -523,11 +468,12 @@
                                     <input type="checkbox" name="xcomp" id="xcomp" value="xcomp"/> <label
                                             for="xcomp">xcomp</label>
                                 </div>
-                            </div>
+                            </div>-->
+
                         </div>
                     </div>
                 </fieldset>
-    </div>
+            </div>
         </div>
 
         <h3 class="title">Description of the scope</h3>
@@ -535,19 +481,25 @@
             <div class="content">
                 <fieldset>
                     <label class="title">Polarity</label>
-                    <div class="wrapper"><div class="content"><input type="checkbox" value="scope-aff" id="scope-aff" name="scope-aff"
-                                                   checked/> <label
+                    <div class="wrapper">
+                        <div class="content"><input type="checkbox" value="scope-aff" id="scope-aff" name="scope-aff"
+                                                    checked/> <label
                                     for="scope-aff">Scope: affirmative</label>
                             <input type="checkbox" value="scope-neg" id="scope-neg" name="scope-neg" checked/> <label
-                                    for="scope-neg">Scope: negative</label></div></div></fieldset>
+                                    for="scope-neg">Scope: negative</label></div>
+                    </div>
+                </fieldset>
                 <fieldset>
 
-                    <label class="title">Type of utterance</label><div class="wrapper">
-                        <div class="content"><input type="checkbox" value="scope-int" id="scope-int" name="scope-int" checked/> <label
+                    <label class="title">Type of utterance</label>
+                    <div class="wrapper">
+                        <div class="content"><input type="checkbox" value="scope-int" id="scope-int" name="scope-int"
+                                                    checked/> <label
                                     for="scope-int">Scope: interrogative utterance</label>
                             <input type="checkbox" value="scope-noint" id="scope-noint" name="scope-noint" checked/>
                             <label
-                                    for="scope-noint">Scope: non-interrogative utterance</label></div></div>
+                                    for="scope-noint">Scope: non-interrogative utterance</label></div>
+                    </div>
                 </fieldset>
                 <fieldset>
                     <input type="checkbox" value="no-part" id="no-part" name="no-part"/> <label for="no-part">Scope with
@@ -595,11 +547,12 @@
                     <input type="checkbox" value="no-soa" id="no-soa" name="no-soa"/> <label for="no-soa">No state of
                         affairs</label>
                 </fieldset>
-        </div>
+            </div>
         </div>
 
-             <h3 class="title">Description of the modal relation</h3>
-        <div class="wrapper"><div class="content">
+        <h3 class="title">Description of the modal relation</h3>
+        <div class="wrapper">
+            <div class="content">
                 <fieldset><h4><input value="dynamic" id="dymamic" type="checkbox" checked/> <label for="dymamic">Modal
                             meaning: dynamic</label></h4>
                     <span class="title">See filters</span>
@@ -835,7 +788,7 @@
             </div>
         </div>
 
-             <h3 class="title">Description of the work</h3>
+        <h3 class="title">Description of the work</h3>
         <div class="wrapper">
             <div class="content">
                 <fieldset class="incomplete">Filter by author name <em>(list of authors)</em></fieldset>
@@ -878,14 +831,15 @@
         </div>
         <input type="submit" value="Submit">
 
-        </form>
+    </form>
 
     <h2 id="search-relation">Search by modal relation</h2>
     <h3>Selection of the modal meaning</h3>
     <p>At least ONE of the three major modality types must be selected.</p>
 
     <form>
-        <fieldset><h4><input value="dynamic" id="dymamic" type="checkbox" checked/> <label for="dymamic">Modal meaning: dynamic</label></h4>
+        <fieldset><h4><input value="dynamic" id="dymamic" type="checkbox" checked/> <label for="dymamic">Modal meaning:
+                    dynamic</label></h4>
             <span class="title">See filters</span>
 
             <div class="wrapper">
@@ -935,7 +889,8 @@
             </div>
         </fieldset>
         <fieldset>
-            <h4><input type="checkbox" value="deontic" id="deontic" checked/> <label for="deontic">Modal meaning: deontic</label>  </h4>
+            <h4><input type="checkbox" value="deontic" id="deontic" checked/> <label for="deontic">Modal meaning:
+                    deontic</label></h4>
             <span class="title">See filters</span>
             <div class="wrapper">
                 <div class="content">
@@ -1052,28 +1007,30 @@
             </div>
         </fieldset>
         <fieldset>
-                <h4><input type="checkbox" id="epistemic" value="epistemic" checked/> <label for="epistemic">Epistemic</label> </h4>
-                <span class="title">See filters</span>
+            <h4><input type="checkbox" id="epistemic" value="epistemic" checked/> <label
+                        for="epistemic">Epistemic</label></h4>
+            <span class="title">See filters</span>
 
-                <div class="wrapper">
-                    <div class="content">
-                        <div class="indent">
-                            <input type="checkbox" value="certain" id="certain"/> <label
-                                    for="certain">Absolutely certain</label>
-                            <input type="checkbox" value="probable" id="probable"/> <label
-                                    for="probable">Probable</label>
-                            <input type="checkbox" value="possible" id="possible"/> <label
-                                    for="possible">Possible</label>
-                            <input type="checkbox" value="improbable" id="improbable"/> <label
-                                    for="improbable">Improbable</label>
-                            <input type="checkbox" value="impossible" id="impossible"/> <label
-                                    for="impossible">Impossible</label>
-                        </div>
+            <div class="wrapper">
+                <div class="content">
+                    <div class="indent">
+                        <input type="checkbox" value="certain" id="certain"/> <label
+                                for="certain">Absolutely certain</label>
+                        <input type="checkbox" value="probable" id="probable"/> <label
+                                for="probable">Probable</label>
+                        <input type="checkbox" value="possible" id="possible"/> <label
+                                for="possible">Possible</label>
+                        <input type="checkbox" value="improbable" id="improbable"/> <label
+                                for="improbable">Improbable</label>
+                        <input type="checkbox" value="impossible" id="impossible"/> <label
+                                for="impossible">Impossible</label>
                     </div>
                 </div>
+            </div>
         </fieldset>
-<h3 class="title">More detailed description of the modal relation</h3>
-        <div class="wrapper"><div class="content">
+        <h3 class="title">More detailed description of the modal relation</h3>
+        <div class="wrapper">
+            <div class="content">
                 <fieldset>
                     <label class="title">Direction</label>
                     <div class="wrapper">
@@ -1233,7 +1190,7 @@
         </div>
 
 
-<h3 class="title">Description of the marker</h3>
+        <h3 class="title">Description of the marker</h3>
 
         <div class="wrapper">
             <div class="content">
@@ -1253,7 +1210,8 @@
 
 
         <h3 class="title">Description of the scope</h3>
-        <div class="wrapper"><div class="content">
+        <div class="wrapper">
+            <div class="content">
                 <fieldset>
                     <input type="checkbox" value="scope-aff" id="scope-aff" name="scope-aff" checked/> <label
                             for="scope-aff">Scope: affirmative</label>
@@ -1358,10 +1316,6 @@
 
 
         </div>
-
-
-
-
 
 
         <input type="submit" value="Submit">

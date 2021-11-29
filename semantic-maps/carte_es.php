@@ -171,8 +171,7 @@
             >
                 Save graph as SVG
             </button>
-        </div>
-    <script src="../js/map-load.js"></script>
+           </div>     <script src="../js/map-load.js"></script>
     <script src="../js/network.js"></script>
 </main>
 <?php include("../ssi/footer.html"); ?>

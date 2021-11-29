@@ -5,12 +5,95 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db487090-34b1-4abd-9088-e9e00729d9e7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/css/results.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marker.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news.php" beforeDir="false" afterPath="$PROJECT_DIR$/news.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/outputs/EADH2021/slides.html" beforeDir="false" afterPath="$PROJECT_DIR$/outputs/EADH2021/slides.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/outputs/EADH2021/wop_light.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/outputs/EADH2021/wop_neg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/form.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/form.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/maps.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/maps.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db-mockup.php" beforeDir="false" afterPath="$PROJECT_DIR$/db-mockup.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/all-versions_logos/LOGO_WoP_DEF/WEB/LOGO_WOP_WEB.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/results.php" beforeDir="false" afterPath="$PROJECT_DIR$/results.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/carat.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/carat.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/carte_en.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/carte_en.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/carte_es.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/carte_es.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/filia_en.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/filia_en.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/filia_es.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/filia_es.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-aequus.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-aequus.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-apte.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-apte.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-aptus.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-aptus.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-certus-la.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-certus-la.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-certus.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-certus.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-debeo.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-debeo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-decens.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-decens.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-decenter.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-decenter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-decet.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-decet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-dubie.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-dubie.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-dubio.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-dubio.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-dubium-adv.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-dubium-adv.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-dubium-noun.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-dubium-noun.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-dubius.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-dubius.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-facultas.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-facultas.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-forsitan.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-forsitan.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-fortasse.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-fortasse.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-illicite.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-illicite.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-illicito.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-illicito.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-illicitus.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-illicitus.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-incerta.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-incerta.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-incerte.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-incerte.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-incertim.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-incertim.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-incertum.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-incertum.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-incertus.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-incertus.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-indubitans.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-indubitans.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-indubitanter.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-indubitanter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-indubitate.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-indubitate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-indubitato.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-indubitato.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-indubitatus.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-indubitatus.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-ineptus.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-ineptus.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-inique.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-inique.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-iniquiter.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-iniquiter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-iniquus.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-iniquus.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-ius.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-ius.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-licenter.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-licenter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-licet.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-licet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-licite-licet.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-licite-licet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-licite.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-licite.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-licito-licet.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-licito-licet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-licito.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-licito.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-licitus.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-licitus.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-malo.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-malo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-meus.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-meus.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-necessarie.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-necessarie.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-necessario.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-necessario.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-necessarium.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-necessarium.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-necessarius.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-necessarius.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-necesse.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-necesse.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-necessitas.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-necessitas.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-necessitudo.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-necessitudo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-nequeo.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-nequeo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-nolo.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-nolo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-oportet.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-oportet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-opus.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-opus.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-possibilis.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-possibilis.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-possibilitas.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-possibilitas.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-possibiliter.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-possibiliter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-possum.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-possum.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-pote.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-pote.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-potes.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-potes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-potestas.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-potestas.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-potior.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-potior.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-potis.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-potis.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-potissimum.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-potissimum.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-potissimus.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-potissimus.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-potius.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-potius.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-probabilis.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-probabilis.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-probabilitas.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-probabilitas.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-probabiliter.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-probabiliter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-queo.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-queo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-usus.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-usus.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-valeo.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-valeo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-volo.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-volo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semantic-maps/map-voluntas.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-maps/map-voluntas.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/semantic-modal-maps.php" beforeDir="false" afterPath="$PROJECT_DIR$/semantic-modal-maps.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -209,10 +292,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/js/json/other" />
       <recent name="$PROJECT_DIR$/semantic-maps" />
       <recent name="$PROJECT_DIR$/js" />
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/js/json" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -399,6 +482,12 @@
       <workItem from="1626087194758" duration="712000" />
       <workItem from="1626163407009" duration="779000" />
       <workItem from="1633417130084" duration="1533000" />
+      <workItem from="1633428525492" duration="1554000" />
+      <workItem from="1633958216066" duration="1731000" />
+      <workItem from="1637679904095" duration="1794000" />
+      <workItem from="1637743208682" duration="9132000" />
+      <workItem from="1637827477444" duration="2227000" />
+      <workItem from="1638172899528" duration="2524000" />
     </task>
     <servers />
   </component>
