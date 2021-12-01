@@ -1,4 +1,4 @@
-map_data = {
+map_data ={
   "normalForm": true,
   "headword": "LICET, -uit/-itum est, -ēre",
   "etymology": [
@@ -209,6 +209,10 @@ map_data = {
               {
                 "rel": "whlo",
                 "cert": true
+              },
+              {
+                "rel": "abc",
+                "cert": true
               }
             ],
             "unspecified": []
@@ -243,9 +247,47 @@ map_data = {
               {
                 "rel": "qrxkhp",
                 "cert": true
+              },
+              {
+                "rel": "abc",
+                "cert": true
               }
             ],
             "unspecified": []
+          }
+        }
+      ]
+    },
+    {
+      "definition": "It is possible",
+      "construct": "_",
+      "group": "_",
+      "analysis": [
+        {
+          "id": "abc",
+          "category": "Modal: epistemic",
+          "emergence": -1,
+          "disparition": "None",
+          "attestation": "LUCR. 5, 597 Nam licet hinc mundi patefactum totius unum largifluum fontem scatere atque erumpere lumen, ex omni mundo quia sic elementa vaporis undique conveniunt et sic coniectus eorum confluit, ex uno capite hic ut profluat ardor.",
+          "certainty": true,
+          "relationships": {
+            "origins": [
+              {
+                "rel": "wtyukvrbk",
+                "cert": true
+              },
+              {
+                "rel": "ehxwzo",
+                "cert": true
+              }
+            ],
+            "destinations": [],
+            "unspecified": [
+              {
+                "rel": "icfpnfx",
+                "cert": true
+              }
+              ]
           }
         }
       ]
@@ -387,7 +429,12 @@ map_data = {
           "relationships": {
             "origins": [],
             "destinations": [],
-            "unspecified": []
+            "unspecified": [
+              {
+                "rel": "abc",
+                "cert": true
+              }
+              ]
           }
         }
       ]

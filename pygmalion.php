@@ -37,7 +37,7 @@
                 href="https://woposs.unine.ch/pygmalion-colour.php" target="_blank">Pygmalion-colour
             1.0</a> which enables to add colour-coded analytical categories defined by the user and <a
                 href="https://woposs.unine.ch/pygmalion-modal.php" target="_blank">Pygmalion-modal 1.0</a> which is specifically
-        designed for drawing diachronic semantic maps of modal markers or concepts. The working principles of
+        designed for drawing diachronic maps of modal markers or concepts. The working principles of
         Pygmalion-simple, Pygmalion-colour and Pygmalion-modal are identical.
         Mainly meant as a tool to represent the diachronic evolution of meaning as attested by philological evidence,
         Pygmalion is very flexible and can be easily adapted to
@@ -59,7 +59,7 @@
         <li>Dell’Oro, Francesca – Rimaz, Loris – Bermúdez Sabel, Helena &amp; Marongiu, Paola (2020). <a href="https://woposs.unine.ch/pygmalion-simple.php"><em>Pygmalion-simple
                     1.0.
                     A
-                    tool to draw interactive and diachronic semantic maps</em></a>. WoPoss. A World of Possibilities. Swiss
+                    tool to draw interactive and diachronic maps</em></a>. WoPoss. A World of Possibilities. Swiss
             National
             Science
             Foundation.
@@ -68,7 +68,7 @@
         <li>Dell’Oro, Francesca – Rimaz, Loris – Bermúdez Sabel, Helena &amp; Marongiu, Paola (2020). <a href="https://woposs.unine.ch/pygmalion-form.php" target="_blank"><em>Pygmalion-modal
                     1.0. A
                     tool
-                    to draw interactive and diachronic semantic maps of modality</em></a>. WoPoss. A World of Possibilities.
+                    to draw interactive and diachronic maps of modality</em></a>. WoPoss. A World of Possibilities.
             Swiss
             National
             Science Foundation
@@ -77,7 +77,7 @@
                     href="https://woposs.unine.ch/pygmalion-colour.php" target="_blank"><em>Pygmalion-colour
                     1.0. A
                     tool
-                    to draw interactive and diachronic semantic maps</em></a>. WoPoss. A World of
+                    to draw interactive and diachronic maps</em></a>. WoPoss. A World of
             Possibilities.
             Swiss
             National
@@ -119,7 +119,7 @@
             <img src="images/image4.png" alt="etymology_uncertain" class="block et">
         </li>
         <li><strong>Date format</strong>. The user chooses the format of the date: centuries, decades or specific years.
-            While the chronological line in the semantic map indicates only the centuries, whatever the choice of the
+            While the chronological line in the map indicates only the centuries, whatever the choice of the
             user, each arrow corresponding to a certain meaning will be positioned inside the space of a century
             according to the specific (and relative) decade or year of emergence. Please notice that once you have chosen a format, all entries must be in that format.
         </li>
@@ -228,15 +228,15 @@
 
    <h2>Example gallery</h2>
         <ul>
-        <li>All the diachronic semantic maps of modal markers developed by the WoPoss team are available
-            <a href="https://woposs.unine.ch/semantic-modal-maps.php#maps" target="_blank">here</a>.</li>
+        <li>All the diachronic maps of modal markers developed by the WoPoss team are available
+            <a href="https://woposs.unine.ch/diachronic-visualisations.php#maps" target="_blank">here</a>.</li>
         <li>Other examples:
         <ul>
-            <li><a href="semantic-maps/carat.php" target="_blank">CARAT_fr (French)</a> by Francesca Dell’Oro.</li>
-            <li><a href="semantic-maps/carte_en.php" target="_blank">CARTE_fr (English)</a> by Francesca Dell’Oro. </li>
-            <li id="troubleshooting"><a href="semantic-maps/carte_es.php" target="_blank">CARTE_fr (Spanish)</a>  by Francesca Dell’Oro.</li>
-            <li><a href="semantic-maps/filia_en.php" target="_blank">FILIA_es/fr/it (English)</a> by Francesca Dell’Oro, Paola Marongiu and Helena Bermúdez Sabel. </li>
-            <li><a href="semantic-maps/filia_es.php" target="_blank">FILIA_es/fr/it (Spanish)</a> by Francesca Dell’Oro, Paola Marongiu and Helena Bermúdez Sabel. </li>
+            <li><a href="maps/carat.php" target="_blank">CARAT_fr (French)</a> by Francesca Dell’Oro.</li>
+            <li><a href="maps/carte_en.php" target="_blank">CARTE_fr (English)</a> by Francesca Dell’Oro. </li>
+            <li id="troubleshooting"><a href="maps/carte_es.php" target="_blank">CARTE_fr (Spanish)</a>  by Francesca Dell’Oro.</li>
+            <li><a href="maps/filia_en.php" target="_blank">FILIA_es/fr/it (English)</a> by Francesca Dell’Oro, Paola Marongiu and Helena Bermúdez Sabel. </li>
+            <li><a href="maps/filia_es.php" target="_blank">FILIA_es/fr/it (Spanish)</a> by Francesca Dell’Oro, Paola Marongiu and Helena Bermúdez Sabel. </li>
 
         </ul></li></ul>
     <h2>Troubleshooting</h2>

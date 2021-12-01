@@ -35,155 +35,155 @@
 
         </li>
     </ul>
-    <h3 class="title">Diachronic modal semantic maps (dictionary-based)</h3>
+    <h3 class="title">Diachronic modal visualisations (dictionary-based)</h3>
     <div class="wrapper">
         <div class="content">
             <ul>
-                <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-aequus.php"
+                <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="maps/map-aequus.php"
                                                                      target="_blank">aequus</a>”. v.1.0. WoPoss.
                 </li>
                 <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
-                            href="semantic-maps/map-aptus.php" target="_blank">aptus</a>”. v.1.0.
+                            href="maps/map-aptus.php" target="_blank">aptus</a>”. v.1.0.
                     WoPoss.<br/>
                     <span class="newline">Related map:</span>
                     <ul>
                         <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
-                                    href="semantic-maps/map-apte.php" target="_blank">apte</a>”.
+                                    href="maps/map-apte.php" target="_blank">apte</a>”.
                             v.1.0. WoPoss.
                         </li>
                     </ul>
                 </li>
                 <li>Marongiu, Paola; Bermúdez Sabel, Helena; Dell‘Oro, Francesca (2021). “<a
-                            href="semantic-maps/map-certus.php" target="_blank">certus</a> (bilingual)”. v.1.0.
+                            href="maps/map-certus.php" target="_blank">certus</a> (bilingual)”. v.1.0.
                     WoPoss.
                 </li>
                 <li>Marongiu, Paola; Bermúdez Sabel, Helena; Dell‘Oro, Francesca (2021). “<a
-                            href="semantic-maps/map-certus-la.php" target="_blank">certus</a> (monolingual)”.
+                            href="maps/map-certus-la.php" target="_blank">certus</a> (monolingual)”.
                     v.1.0. WoPoss.
                 </li>
-                <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-debeo.php"
+                <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="maps/map-debeo.php"
                                                                      target="_blank">debeo</a>”. v.1.0.
                     WoPoss.
                 </li>
 
                 <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
-                            href="semantic-maps/map-decet.php" target="_blank">decet</a>”. v.1.0.
+                            href="maps/map-decet.php" target="_blank">decet</a>”. v.1.0.
                     WoPoss.<br/>
                     <span class="newline">Related map:</span>
                     <ul>
                         <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
-                                    href="semantic-maps/map-decens.php" target="_blank">decens</a>”.
+                                    href="maps/map-decens.php" target="_blank">decens</a>”.
                             v.1.0. WoPoss.
                         </li>
 
                         <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
-                                    href="semantic-maps/map-decenter.php" target="_blank">decenter</a>”.
+                                    href="maps/map-decenter.php" target="_blank">decenter</a>”.
                             v.1.0. WoPoss.
                         </li>
                     </ul>
                 </li>
 
                 <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
-                            href="semantic-maps/map-dubius.php" target="_blank">dubius</a>”. v.1.0.
+                            href="maps/map-dubius.php" target="_blank">dubius</a>”. v.1.0.
                     WoPoss.<br/>
                     <span class="newline">Related maps:</span>
 
                     <ul>
                         <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
-                                    href="semantic-maps/map-dubie.php" target="_blank">dubie</a>”. v.1.0.
+                                    href="maps/map-dubie.php" target="_blank">dubie</a>”. v.1.0.
                             WoPoss.
                         </li>
                         <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
-                                    href="semantic-maps/map-dubio.php" target="_blank">dubio</a>”. v.1.0.
+                                    href="maps/map-dubio.php" target="_blank">dubio</a>”. v.1.0.
                             WoPoss.
                         </li>
                         <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
-                                    href="semantic-maps/map-dubium-adv.php" target="_blank">dubium</a> (adverb)”. v.1.0.
+                                    href="maps/map-dubium-adv.php" target="_blank">dubium</a> (adverb)”. v.1.0.
                             WoPoss.
                         </li>
                         <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
-                                    href="semantic-maps/map-dubium-noun.php" target="_blank">dubium</a> (noun)”. v.1.0.
+                                    href="maps/map-dubium-noun.php" target="_blank">dubium</a> (noun)”. v.1.0.
                             WoPoss.
                         </li>
                     </ul>
                 </li>
-                <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-facultas.php"
+                <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="maps/map-facultas.php"
                                                                      target="_blank">facultas</a>”. v.1.0.
                     WoPoss.
                 </li>
-                <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-forsitan.php"
+                <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="maps/map-forsitan.php"
                                                                      target="_blank">forsitan</a>”. v.1.0.
                     WoPoss.
                 </li>
-                <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-fortasse.php"
+                <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="maps/map-fortasse.php"
                                                                      target="_blank">fortasse</a>”. v.1.0.
                     WoPoss.
                 </li>
                 <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
-                            href="semantic-maps/map-illicitus.php" target="_blank">illicitus</a>”. v.1.0.
+                            href="maps/map-illicitus.php" target="_blank">illicitus</a>”. v.1.0.
                     WoPoss.<br/>
                     <span class="newline">Related maps:</span>
 
                     <ul>
                         <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
-                                    href="semantic-maps/map-illicite.php" target="_blank">illicite</a>”. v.1.0.
+                                    href="maps/map-illicite.php" target="_blank">illicite</a>”. v.1.0.
                             WoPoss.
                         </li>
                         <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
-                                    href="semantic-maps/map-illicito.php" target="_blank">illicito</a>”. v.1.0.
+                                    href="maps/map-illicito.php" target="_blank">illicito</a>”. v.1.0.
                             WoPoss.
                         </li>
 
 
                     </ul>
                 </li>
-                <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-incertus.php"
+                <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="maps/map-incertus.php"
                                                                      target="_blank">incertus</a> (adjective)”.
                     v.1.0. WoPoss.<br/>
                     <span class="newline">Related maps:</span>
                     <ul>
                         <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
-                                    href="semantic-maps/map-incerta.php" target="_blank">incerta</a>”. v.1.0.
+                                    href="maps/map-incerta.php" target="_blank">incerta</a>”. v.1.0.
                             WoPoss.
                         </li>
                         <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
-                                    href="semantic-maps/map-incerte.php" target="_blank">incerte</a>”. v.1.0.
+                                    href="maps/map-incerte.php" target="_blank">incerte</a>”. v.1.0.
                             WoPoss.
                         </li>
                         <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
-                                    href="semantic-maps/map-incertim.php" target="_blank">incertim</a>”. v.1.0.
+                                    href="maps/map-incertim.php" target="_blank">incertim</a>”. v.1.0.
                             WoPoss.
                         </li>
                         <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
-                                    href="semantic-maps/map-incertum.php" target="_blank">incertum</a> (noun)”.
+                                    href="maps/map-incertum.php" target="_blank">incertum</a> (noun)”.
                             v.1.0. WoPoss.
                         </li>
                     </ul>
                 </li>
-                <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-indubitans.php"
+                <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="maps/map-indubitans.php"
                                                                      target="_blank">indubitans</a>”.
                     v.1.0. WoPoss.<br/>
                     <span class="newline">Related map:</span>
                     <ul>
                         <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
-                                    href="semantic-maps/map-indubitanter.php"
+                                    href="maps/map-indubitanter.php"
                                     target="_blank">indubitanter</a>”.
                             v.1.0. WoPoss.
                         </li>
                     </ul>
                 </li>
-                <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-indubitatus.php"
+                <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="maps/map-indubitatus.php"
                                                                      target="_blank">indubitatus</a>”.
                     v.1.0. WoPoss.<br/>
                     <span class="newline">Related maps:</span>
                     <ul>
                         <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
-                                    href="semantic-maps/map-indubitate.php"
+                                    href="maps/map-indubitate.php"
                                     target="_blank">indubitate</a>”.
                             v.1.0. WoPoss.
                         </li>
                         <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
-                                    href="semantic-maps/map-indubitato.php"
+                                    href="maps/map-indubitato.php"
                                     target="_blank">indubitato</a>”.
                             v.1.0. WoPoss.
                         </li>
@@ -191,49 +191,49 @@
 
                     </ul>
                 </li>
-                <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-ineptus.php"
+                <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="maps/map-ineptus.php"
                                                                      target="_blank">ineptus</a>”. v.1.0.
                     WoPoss.
                 </li>
                 <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
-                            href="semantic-maps/map-iniquus.php" target="_blank">iniquus</a>”. v.1.0.
+                            href="maps/map-iniquus.php" target="_blank">iniquus</a>”. v.1.0.
                     WoPoss.<br/>
                     <span class="newline">Related maps:</span>
 
                     <ul>
                         <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
-                                    href="semantic-maps/map-inique.php" target="_blank">inique</a>”. v.1.0.
+                                    href="maps/map-inique.php" target="_blank">inique</a>”. v.1.0.
                             WoPoss.
                         </li>
                         <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
-                                    href="semantic-maps/map-iniquiter.php" target="_blank">iniquiter</a>”. v.1.0.
+                                    href="maps/map-iniquiter.php" target="_blank">iniquiter</a>”. v.1.0.
                             WoPoss.
                         </li>
 
                     </ul>
                 </li>
 
-                <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-ius.php"
+                <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="maps/map-ius.php"
                                                                      target="_blank">ius</a>”. v.1.0.
                     WoPoss.
                 </li>
 
                 <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
-                            href="semantic-maps/map-licet.php" target="_blank">licet</a>”. v.1.0.
+                            href="maps/map-licet.php" target="_blank">licet</a>”. v.1.0.
                     WoPoss.<br/>
                     <span class="newline">Related maps:</span>
 
                     <ul>
                         <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
-                                    href="semantic-maps/map-licenter.php" target="_blank">licenter</a>”. v.1.0.
+                                    href="maps/map-licenter.php" target="_blank">licenter</a>”. v.1.0.
                             WoPoss.
                         </li>
                         <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
-                                    href="semantic-maps/map-licite-licet.php" target="_blank">licite</a>”. v.1.0.
+                                    href="maps/map-licite-licet.php" target="_blank">licite</a>”. v.1.0.
                             WoPoss.
                         </li>
                         <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
-                                    href="semantic-maps/map-licito-licet.php" target="_blank">licito</a>”. v.1.0.
+                                    href="maps/map-licito-licet.php" target="_blank">licito</a>”. v.1.0.
                             WoPoss.
                         </li>
 
@@ -242,18 +242,18 @@
                 </li>
 
                 <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
-                            href="semantic-maps/map-licitus.php" target="_blank">licitus</a>”. v.1.0.
+                            href="maps/map-licitus.php" target="_blank">licitus</a>”. v.1.0.
                     WoPoss.<br/>
                     <span class="newline">Related maps:</span>
 
                     <ul>
                         <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
-                                    href="semantic-maps/map-licite.php" target="_blank">licite</a>”. v.1.0.
+                                    href="maps/map-licite.php" target="_blank">licite</a>”. v.1.0.
                             WoPoss.
                         </li>
 
                         <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
-                                    href="semantic-maps/map-licito.php" target="_blank">licito</a>”. v.1.0.
+                                    href="maps/map-licito.php" target="_blank">licito</a>”. v.1.0.
                             WoPoss.
                         </li>
 
@@ -261,149 +261,149 @@
                 </li>
 
                 <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
-                            href="semantic-maps/map-malo.php" target="_blank">malo</a>”. v.1.0. WoPoss.
+                            href="maps/map-malo.php" target="_blank">malo</a>”. v.1.0. WoPoss.
                 </li>
                 <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
-                            href="semantic-maps/map-meus.php" target="_blank">meus</a>”. v.1.0. WoPoss.
+                            href="maps/map-meus.php" target="_blank">meus</a>”. v.1.0. WoPoss.
                 </li>
 
                 <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
-                            href="semantic-maps/map-necessarius.php" target="_blank">necessarius</a>”. v.1.0.
+                            href="maps/map-necessarius.php" target="_blank">necessarius</a>”. v.1.0.
                     WoPoss.<br/>
                     <span class="newline">Related maps:</span>
 
                     <ul>
                         <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
-                                    href="semantic-maps/map-necessarie.php" target="_blank">necessarie</a>”. v.1.0.
+                                    href="maps/map-necessarie.php" target="_blank">necessarie</a>”. v.1.0.
                             WoPoss.
                         </li>
                         <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
-                                    href="semantic-maps/map-necessario.php" target="_blank">necessario</a>”. v.1.0.
+                                    href="maps/map-necessario.php" target="_blank">necessario</a>”. v.1.0.
                             WoPoss.
                         </li>
                         <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
-                                    href="semantic-maps/map-necessarium.php" target="_blank">necessarium</a>”. v.1.0.
+                                    href="maps/map-necessarium.php" target="_blank">necessarium</a>”. v.1.0.
                             WoPoss.
                         </li>
                     </ul>
                 </li>
 
-                <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-necesse.php"
+                <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="maps/map-necesse.php"
                                                                      target="_blank">necesse</a>”. v.1.0.
                     WoPoss.
                 </li>
                 <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
-                            href="semantic-maps/map-necessitas.php" target="_blank">necessasitas</a>”. v.1.0.
+                            href="maps/map-necessitas.php" target="_blank">necessasitas</a>”. v.1.0.
                     WoPoss.
                 </li>
-                <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-necessitudo.php"
+                <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="maps/map-necessitudo.php"
                                                                      target="_blank">necessitudo</a>”. v.1.0.
                     WoPoss.
                 </li>
-                <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-nequeo.php"
+                <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="maps/map-nequeo.php"
                                                                      target="_blank">nequeo</a>”. v.1.0. WoPoss.
                 </li>
 
-                <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-nolo.php"
+                <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="maps/map-nolo.php"
                                                                      target="_blank">nolo</a>”. v.1.0. WoPoss.
                 </li>
                 <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
-                            href="semantic-maps/map-oportet.php" target="_blank">oportet</a>”. v.1.0. WoPoss.
+                            href="maps/map-oportet.php" target="_blank">oportet</a>”. v.1.0. WoPoss.
                 </li>
                 <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
-                            href="semantic-maps/map-opus.php" target="_blank">opus</a>”. v.1.0. WoPoss.
+                            href="maps/map-opus.php" target="_blank">opus</a>”. v.1.0. WoPoss.
                 </li>
-                <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-possibilitas.php"
+                <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="maps/map-possibilitas.php"
                                                                      target="_blank">possibilitas</a>”. v.1.0.
                     WoPoss.
                 </li>
 
                 <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
-                            href="semantic-maps/map-possibilis.php" target="_blank">possibilis</a>”. v.1.0.
+                            href="maps/map-possibilis.php" target="_blank">possibilis</a>”. v.1.0.
                     WoPoss.<br/>
                     <span class="newline">Related map:</span>
                     <ul>
                         <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
-                                    href="semantic-maps/map-possibiliter.php" target="_blank">possibiliter</a>”.
+                                    href="maps/map-possibiliter.php" target="_blank">possibiliter</a>”.
                             v.1.0. WoPoss.
                         </li>
                     </ul>
                 </li>
                 <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
-                            href="semantic-maps/map-possum.php" target="_blank">possum</a>”. v.1.0.
+                            href="maps/map-possum.php" target="_blank">possum</a>”. v.1.0.
                     WoPoss.
                 </li>
-                <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-potis.php"
+                <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="maps/map-potis.php"
                                                                      target="_blank">potis</a>”.
                     v.1.0. WoPoss.<br/>
                     <span class="newline">Related maps:</span>
                     <ul>
                         <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
-                                    href="semantic-maps/map-pote.php"
+                                    href="maps/map-pote.php"
                                     target="_blank">pote</a>”.
                             v.1.0. WoPoss.
                         </li>
                         <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
-                                    href="semantic-maps/map-potes.php"
+                                    href="maps/map-potes.php"
                                     target="_blank">potes</a>”.
                             v.1.0. WoPoss.
                         </li>
                         <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
-                                    href="semantic-maps/map-potior.php"
+                                    href="maps/map-potior.php"
                                     target="_blank">potior</a>”.
                             v.1.0. WoPoss.
                         </li>
                         <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
-                                    href="semantic-maps/map-potissimum.php"
+                                    href="maps/map-potissimum.php"
                                     target="_blank">potissimum</a>”.
                             v.1.0. WoPoss.
                         </li>
                         <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
-                                    href="semantic-maps/map-potissimus.php"
+                                    href="maps/map-potissimus.php"
                                     target="_blank">potissimus</a>”.
                             v.1.0. WoPoss.
                         </li>
 
                         <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
-                                    href="semantic-maps/map-potius.php"
+                                    href="maps/map-potius.php"
                                     target="_blank">potius</a>”.
                             v.1.0. WoPoss.
                         </li>
                     </ul>
                 </li>
-                <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-potestas.php"
+                <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="maps/map-potestas.php"
                                                                      target="_blank">potestas</a>”. v.1.0.
                     WoPoss.
                 </li>
                 <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
-                            href="semantic-maps/map-probabilis.php" target="_blank">probabilis</a>”. v.1.0.
+                            href="maps/map-probabilis.php" target="_blank">probabilis</a>”. v.1.0.
                     WoPoss.<br/>
                     <span class="newline">Related map:</span>
                     <ul>
                         <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
-                                    href="semantic-maps/map-probabiliter.php" target="_blank">probabiliter</a>”.
+                                    href="maps/map-probabiliter.php" target="_blank">probabiliter</a>”.
                             v.1.0. WoPoss.
                         </li>
                     </ul>
                 </li>
-                <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-probabilitas.php"
+                <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="maps/map-probabilitas.php"
                                                                      target="_blank">probabilitas</a>”. v.1.0.
                     WoPoss.
                 </li>
-                <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-queo.php"
+                <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="maps/map-queo.php"
                                                                      target="_blank">queo</a>”. v.1.0. WoPoss.
                 </li>
                 <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
-                            href="semantic-maps/map-usus.php" target="_blank">usus</a>”. v.1.0. WoPoss.
+                            href="maps/map-usus.php" target="_blank">usus</a>”. v.1.0. WoPoss.
                 </li>
-                <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-valeo.php"
+                <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="maps/map-valeo.php"
                                                                      target="_blank">valeo</a>”. v.1.0. WoPoss.
                 </li>
                 <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
-                            href="semantic-maps/map-volo.php" target="_blank">volo</a>”. v.1.0.
+                            href="maps/map-volo.php" target="_blank">volo</a>”. v.1.0.
                     WoPoss.
                 </li>
-                <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="semantic-maps/map-voluntas.php"
+                <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="maps/map-voluntas.php"
                                                                      target="_blank">voluntas</a>”. v.1.0.
                     WoPoss.
                 </li>
@@ -633,7 +633,7 @@ Agents, Networks and Vectors</em>. November 17, 2021. Zurich, Switzerland. [<a h
                     href="https://woposs.unine.ch/pygmalion-colour.php" target="_blank"><em>Pygmalion-colour
                     1.0. A
                     tool
-                    to draw interactive and diachronic semantic maps</em></a>. WoPoss. A World of
+                    to draw interactive and diachronic maps</em></a>. WoPoss. A World of
             Possibilities.
             Swiss
             National
@@ -643,7 +643,7 @@ Agents, Networks and Vectors</em>. November 17, 2021. Zurich, Switzerland. [<a h
                     href="https://woposs.unine.ch/pygmalion-simple.php"><em>Pygmalion-simple
                     1.0.
                     A
-                    tool to draw interactive and diachronic semantic maps</em></a>. WoPoss. A World of Possibilities.
+                    tool to draw interactive and diachronic maps of semantics</em></a>. WoPoss. A World of Possibilities.
             Swiss
             National
             Science
@@ -654,7 +654,7 @@ Agents, Networks and Vectors</em>. November 17, 2021. Zurich, Switzerland. [<a h
                     href="https://woposs.unine.ch/pygmalion-modal.php" target="_blank"><em>Pygmalion-modal
                     1.0. A
                     tool
-                    to draw interactive and diachronic semantic maps of modality</em></a>. WoPoss. A World of
+                    to draw interactive and diachronic maps of modality</em></a>. WoPoss. A World of
             Possibilities.
             Swiss
             National
