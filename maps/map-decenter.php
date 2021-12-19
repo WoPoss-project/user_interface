@@ -50,10 +50,10 @@
 <body>
 <?php include("../ssi/menu.html"); ?>
 <main>
-    <h1>Diachronic semantic map of DECENTER</h1>
+    <h1>Diachronic map of DECENTER</h1>
     <ul>
         <li><a href="map-decens.php" target="_blank">DECENS</a></li>
-        li><a href="map-decet.php" target="_blank">DECET</a></li>
+        <li><a href="map-decet.php" target="_blank">DECET</a></li>
 
     </ul>
     <div class="invisibleWhenNoData" id="map" style="visibility: hidden"></div>
@@ -68,7 +68,7 @@
           visibility: hidden;
         "
         >
-            <option value="construct">Collocations</option>
+            <option value="construct">Constructions / collocations</option>
             <option value="group">Groups</option>
             <option value="chronology">Chronological</option>
         </select>

@@ -69,7 +69,7 @@
           visibility: hidden;
         "
         >
-            <option value="construct">Collocations</option>
+            <option value="construct">Constructions / collocations</option>
             <option value="group">Groups</option>
             <option value="chronology">Chronological</option>
         </select>

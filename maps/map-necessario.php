@@ -49,9 +49,9 @@
 <body>
 <?php include("../ssi/menu.html"); ?>
 <main>
-    <h1>Diachronic modal semantic map of NECESSARIO</h1>
+    <h1>Diachronic modal map of NECESSARIO</h1>
 
-    <p>See related diachronic semantic maps:</p>
+    <p>See related diachronic maps:</p>
     <ul>
 
         <li><a href="map-necessarie.php" target="_blank">NECESSARIE</a></li>
@@ -70,7 +70,7 @@
           visibility: hidden;
         "
         >
-            <option value="construct">Collocations</option>
+            <option value="construct">Constructions / collocations</option>
             <option value="group">Groups</option>
             <option value="chronology">Chronological</option>
         </select>

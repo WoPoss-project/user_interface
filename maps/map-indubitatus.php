@@ -49,9 +49,9 @@
 <body>
 <?php include("../ssi/menu.html"); ?>
 <main>
-    <h1>Diachronic modal semantic map of INDUBITATUS</h1>
+    <h1>Diachronic modal map of INDUBITATUS</h1>
 
-    <p>See related diachronic semantic maps:</p>
+    <p>See related diachronic maps:</p>
     <ul>
         <li><a href="map-indubitate.php" target="_blank">INDUBITATE</a></li>
         <li><a href="map-indubitato.php" target="_blank">INDUBITATO</a></li>
@@ -69,7 +69,7 @@
           visibility: hidden;
         "
         >
-            <option value="construct">Collocations</option>
+            <option value="construct">Constructions / collocations</option>
             <option value="group">Groups</option>
             <option value="chronology">Chronological</option>
         </select>

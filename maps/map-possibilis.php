@@ -51,7 +51,7 @@
 <body>
 <?php include("../ssi/menu.html"); ?>
 <main>
-    <h1>Diachronic modal semantic map of POSSIBILIS</h1>
+    <h1>Diachronic modal map of POSSIBILIS</h1>
     <p>See related diachronic semantic map:</p>
     <ul>
         <li><a href="map-possibiliter.php" target="_blank">POSSIBILITER</a></li>
@@ -68,7 +68,7 @@
           visibility: hidden;
         "
         >
-            <option value="construct">Collocations</option>
+            <option value="construct">Constructions / collocations</option>
             <option value="group">Groups</option>
             <option value="chronology">Chronological</option>
         </select>

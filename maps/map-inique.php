@@ -49,9 +49,9 @@
 <body>
 <?php include("../ssi/menu.html"); ?>
 <main>
-    <h1>Diachronic modal semantic map of INIQUUS</h1>
+    <h1>Diachronic modal map of INIQUUS</h1>
 
-    <p>See related diachronic semantic maps:</p>
+    <p>See related diachronic maps:</p>
     <ul>
         <li><a href="map-iniquiter.php" target="_blank">INIQUITER</a></li>
         <li><a href="map-iniquus.php" target="_blank">INIQUUS</a></li>
@@ -68,7 +68,7 @@
           visibility: hidden;
         "
         >
-            <option value="construct">Collocations</option>
+            <option value="construct">Constructions / collocations</option>
             <option value="group">Groups</option>
             <option value="chronology">Chronological</option>
         </select>

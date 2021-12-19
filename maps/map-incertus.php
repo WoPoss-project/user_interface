@@ -50,9 +50,9 @@
 <body>
 <?php include("../ssi/menu.html"); ?>
 <main>
-    <h1>Diachronic modal semantic map of INCERTUS (adjective)</h1>
+    <h1>Diachronic modal map of INCERTUS (adjective)</h1>
 
-    <p>See related diachronic semantic maps:</p>
+    <p>See related diachronic maps:</p>
     <ul>
         <li><a href="map-incerta.php" target="_blank">INCERTA</a></li>
         <li><a href="map-incerte.php" target="_blank">INCERTE</a></li>
@@ -71,7 +71,7 @@
           visibility: hidden;
         "
         >
-            <option value="construct">Collocations</option>
+            <option value="construct">Constructions / collocations</option>
             <option value="group">Groups</option>
             <option value="chronology">Chronological</option>
         </select>
