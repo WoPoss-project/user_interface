@@ -48,7 +48,7 @@
 <body>
 <?php include("../ssi/menu.html"); ?>
 <main>
-    <h1>Diachronic semantic map with the romance evolution of FILIA in French, Spanish and Italian</h1>
+    <h1>Diachronic map with the Romance evolution of FILIA in French, Spanish and Italian</h1>
 
         <div class="invisibleWhenNoData" id="map" style="visibility: hidden"></div>
         <div>

@@ -48,7 +48,7 @@
 <body>
 <?php include("../ssi/menu.html"); ?>
 <main>
-    <h1>Diachronic semantic map of CARTE (fr)</h1>
+    <h1>Diachronic map of CARTE (fr)</h1>
 
         <div class="invisibleWhenNoData" id="map" style="visibility: hidden"></div>
         <div>

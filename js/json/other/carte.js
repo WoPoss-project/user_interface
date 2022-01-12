@@ -450,13 +450,13 @@ map_data = {
       ]
     },
     {
-      "definition": "paperboard",
+      "definition": "cardboard",
       "construct": "_",
-      "group": "piece of paper, paperboard",
+      "group": "piece of paper, cardboard",
       "analysis": [
         {
           "id": "hiclam",
-          "category": "piece of paper, paperboard",
+          "category": "piece of paper, cardboard",
           "emergence": 15,
           "disparition": "None",
           "attestation": "Coquillart, Droitz nouv., II, de Dolo, p. 153, Bibl. elz. dans GDF. : Noz bourgeoises tiennent ces termes De façonner leurs culz de cartes Affin qu'ilz en semblent plus fermes",
@@ -497,11 +497,11 @@ map_data = {
     {
       "definition": "giving someone a free hand ",
       "construct": "bailler la carte blanche",
-      "group": "piece of paper, paperboard",
+      "group": "piece of paper, cardboard",
       "analysis": [
         {
           "id": "adspe",
-          "category": "piece of paper, paperboard",
+          "category": "piece of paper, cardboard",
           "emergence": 16,
           "disparition": "None",
           "attestation": "Est. ",
@@ -522,11 +522,11 @@ map_data = {
     {
       "definition": "record of the cost of a catered meal ",
       "construct": "_",
-      "group": "piece of paper, paperboard",
+      "group": "piece of paper, cardboard",
       "analysis": [
         {
           "id": "pvqgxa",
-          "category": "piece of paper, paperboard",
+          "category": "piece of paper, cardboard",
           "emergence": 18,
           "disparition": "None",
           "attestation": "Trév. ",
@@ -552,11 +552,11 @@ map_data = {
     {
       "definition": "memory of the expense of a meal at an innkeeper's house ",
       "construct": "_",
-      "group": "piece of paper, paperboard",
+      "group": "piece of paper, cardboard",
       "analysis": [
         {
           "id": "vkcbiqep",
-          "category": "piece of paper, paperboard",
+          "category": "piece of paper, cardboard",
           "emergence": 18,
           "disparition": "None",
           "attestation": "Chamfort, Caractères et anecdotes, p. 177",
@@ -582,11 +582,11 @@ map_data = {
     {
       "definition": "restaurant menu",
       "construct": "_",
-      "group": "piece of paper, paperboard",
+      "group": "piece of paper, cardboard",
       "analysis": [
         {
           "id": "aoexyah",
-          "category": "piece of paper, paperboard",
+          "category": "piece of paper, cardboard",
           "emergence": 19,
           "disparition": "None",
           "attestation": "Boiste",
@@ -612,11 +612,11 @@ map_data = {
     {
       "definition": "to eat à la carte, i.e. choosing from a list",
       "construct": "diner à la carte",
-      "group": "piece of paper, paperboard",
+      "group": "piece of paper, cardboard",
       "analysis": [
         {
           "id": "zweoj",
-          "category": "piece of paper, paperboard",
+          "category": "piece of paper, cardboard",
           "emergence": 19,
           "disparition": "None",
           "attestation": "Jouy, L'Hermite de la Chaussée d'Antin, t. 3, p. 88",
@@ -637,11 +637,11 @@ map_data = {
     {
       "definition": "a ticket that is used to establish a person's identity, to give him or her access somewhere (carte d'admission)",
       "construct": "_",
-      "group": "piece of paper, paperboard",
+      "group": "piece of paper, cardboard",
       "analysis": [
         {
           "id": "ikia",
-          "category": "piece of paper, paperboard",
+          "category": "piece of paper, cardboard",
           "emergence": 18,
           "disparition": "None",
           "attestation": "Marat, Les Pamphlets, Nouv. dénonciation contre Necker, p. 190",
@@ -671,11 +671,11 @@ map_data = {
     {
       "definition": "electoral card",
       "construct": "_",
-      "group": "piece of paper, paperboard",
+      "group": "piece of paper, cardboard",
       "analysis": [
         {
           "id": "suutekk",
-          "category": "piece of paper, paperboard",
+          "category": "piece of paper, cardboard",
           "emergence": 19,
           "disparition": "None",
           "attestation": "Stendhal, Lucien Leuwen, p. 76",
@@ -696,11 +696,11 @@ map_data = {
     {
       "definition": "Card-carrying prostitute, registered with the police and medically supervised. ",
       "construct": "fille en carte",
-      "group": "piece of paper, paperboard",
+      "group": "piece of paper, cardboard",
       "analysis": [
         {
           "id": "gufdv",
-          "category": "piece of paper, paperboard",
+          "category": "piece of paper, cardboard",
           "emergence": 19,
           "disparition": "None",
           "attestation": "Parent dans Esn.",
@@ -721,11 +721,11 @@ map_data = {
     {
       "definition": "visiting, business card",
       "construct": "_",
-      "group": "piece of paper, paperboard",
+      "group": "piece of paper, cardboard",
       "analysis": [
         {
           "id": "bjvbhpn",
-          "category": "piece of paper, paperboard",
+          "category": "piece of paper, cardboard",
           "emergence": 19,
           "disparition": "None",
           "attestation": "Jouy, L'Hermite de la Chaussée d'Antin, t. 1, p. 322",
@@ -746,11 +746,11 @@ map_data = {
     {
       "definition": "postcard",
       "construct": "carte-poste, carte postale",
-      "group": "piece of paper, paperboard",
+      "group": "piece of paper, cardboard",
       "analysis": [
         {
           "id": "feaigoc",
-          "category": "piece of paper, paperboard",
+          "category": "piece of paper, cardboard",
           "emergence": 19,
           "disparition": "None",
           "attestation": "Décret du 26-28 sept. dans Littré Suppl. 1877",
@@ -771,11 +771,11 @@ map_data = {
     {
       "definition": "punched card",
       "construct": "carte perforée",
-      "group": "piece of paper, paperboard",
+      "group": "piece of paper, cardboard",
       "analysis": [
         {
           "id": "ohlenfn",
-          "category": "piece of paper, paperboard",
+          "category": "piece of paper, cardboard",
           "emergence": 20,
           "disparition": "None",
           "attestation": "",
