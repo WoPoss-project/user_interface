@@ -173,10 +173,10 @@
             Save graph as SVG
         </button>
         <br/>
-        <div class="top">
+        </div> <div> <div class="top">
             <h3>Sources</h3>
             <ul>
-                  <li>Ernout, Alfred &amp; Antoine Meillet (2001). <em>Dictionnaire étymologique de la langue latine:
+                  <li>Alfred Ernout &amp; Antoine Meillet (2001). <em>Dictionnaire étymologique de la langue latine:
                         histoire des mots</em> (reprint of the 4th ed. with additions and corrections by Jacques André). Paris: Klincksieck.
                 </li>
                 <li>Michiel de Vaan (2008). <em>Etymological Dictionary of Latin</em>. Leiden: Brill.</li>

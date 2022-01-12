@@ -173,6 +173,8 @@
         >
             Save graph as SVG
         </button>
+        <br/>
+        </div> <div> <div class="top">
         <h3>How to cite</h3>
 
         <ul>
@@ -182,6 +184,7 @@
                         href="https://woposs.unine.ch/maps/carat.php">https://woposs.unine.ch/maps/carat.php</a>
             </li>
         </ul>
+    </div>
     </div>
     <script src="../js/map-load.js"></script>
     <script src="../js/network.js"></script>

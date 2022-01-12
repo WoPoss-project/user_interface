@@ -171,13 +171,14 @@
             >
                 Save graph as SVG
             </button>
-           <h3>How to cite</h3>
-
-<ul><li>Dell‘Oro, Francesca (2021). “<a
-                                    href="maps/carte_en.php"
-                                    target="_blank">carte (English version)</a>”.  <a
-                                    href="https://woposs.unine.ch/maps/carte_en.php">https://woposs.unine.ch/maps/carte_en.php</a></li></ul>
 </div>
+<div class="top">
+    <h3>How to cite</h3>
+
+    <ul><li>Dell‘Oro, Francesca (2021). “<a
+                    href="maps/carte_en.php"
+                    target="_blank">carte (English version)</a>”.  <a
+                    href="https://woposs.unine.ch/maps/carte_en.php">https://woposs.unine.ch/maps/carte_en.php</a></li></ul></div>
 <script src="../js/map-load.js"></script>
     <script src="../js/network.js"></script>
 </main>
