@@ -3,125 +3,6 @@
 <head>
     <title>Team - WoPoss</title>
     <?php include("ssi/head.html"); ?>
-
-    <script type="application/ld+json">
-        {
-            "@context": "http://www.schema.org",
-            "@type": "Person",
-            "@id": "https://woposs.unine.ch/team.php/#paolamarongiu",
-            "name": "Paola Marongiu",
-            "nationality": "Italian",
-            "birthPlace" : {
-                "@type": "Place",
-                "address": {
-                    "addressRegion": "Sardinia"
-                }
-            },
-            "affiliation": [
-                {
-                    "@type": "Organization",
-                    "name": "Université de Lausanne",
-                    "sameAs": [
-                        "UNIL",
-                        "https://www.unil.ch/",
-                        "University of Lausanne"
-                    ]
-                }
-            ],
-            "alumniOf": [
-                {
-                    "@type": "CollegeOrUniversity",
-                    "name": "Università degli studi di Pavia",
-                    "sameAs": "https://web.unipv.it/"
-                },
-                {
-                    "@type": "CollegeOrUniversity",
-                    "name": "Università di Bologna"
-                }
-            ],
-            "image": "https://woposs.unine.ch/images/team/paola.jpg",
-            "gender": "Female",
-            "Description": "Linguist",
-            "disambiguatingDescription": "PhD student in Historical Linguistics and Digital Humanities",
-            "jobTitle": "PhD candidate",
-            "worksFor": [
-                {
-                    "@type": "Organization",
-                    "name": "WoPoss",
-                    "sameAs": [
-                        "https://woposs.unine.ch/",
-                        "A World of Possibilities"
-                    ]
-                }
-            ],
-            "sameAs": [
-                "https://applicationspub.unil.ch/interpub/noauth/php/Un/UnPers.php?PerNum=1213017&LanCode=8",
-                "https://orcid.org/0000-0002-5060-3307",
-                "https://www.researchgate.net/profile/Paola_Marongiu"
-            ]
-        }
-    </script>
-    <script type="application/ld+json">
-        {
-            "@context": "http://www.schema.org",
-            "@type": "Person",
-            "@id": "http://viaf.org/viaf/4746154801906456310002",
-            "name": "Helena Bermúdez Sabel",
-            "alternateName": "Helena Bermúdez-Sabel",
-            "nationality": "Galician",
-            "birthPlace" : {
-                "@type": "Place",
-                "address": {
-                    "addressLocality": "Santiago de Compostela",
-                    "addressRegion": "Galicia"
-                }
-            },
-            "affiliation": [
-                {
-                    "@type": "Organization",
-                    "name": "Université de Lausanne",
-                    "sameAs": [
-                        "UNIL",
-                        "https://www.unil.ch/",
-                        "University of Lausanne"
-                    ]
-                }
-            ],
-            "alumniOf": [
-                {
-                    "@type": "CollegeOrUniversity",
-                    "name": "Universidade de Santiago de Compostela",
-                    "sameAs": ["www.usc.gal/",
-                          "https://en.wikipedia.org/wiki/University_of_Santiago_de_Compostela",
-"University of Santiago de Compostela"
-]
-                }
-            ],
-            "image": "https://woposs.unine.ch/images/team/helena.jpg",
-            "gender": "Female",
-            "Description": "Digital Humanist",
-            "disambiguatingDescription": "Researcher in Historical Linguistics and Digital Humanities",
-            "jobTitle": "Postdoctoral researcher",
-            "worksFor": [
-                {
-                    "@type": "Organization",
-                    "name": "WoPoss",
-                    "sameAs": [
-                        "https://woposs.unine.ch/",
-                        "A World of Possibilities"
-                    ]
-                }
-            ],
-            "sameAs": [
-                "https://unil.academia.edu/HelenaBermudezSabel",
-"http://www.unil.ch/unisciences/helenabermudezsabel",
-                "https://orcid.org/0000-0002-8627-1367",
-                "https://www.researchgate.net/profile/Helena_Bermudez-Sabel",
-"https://scholar.google.es/citations?user=ku9HaRYAAAAJ&hl=en"
-            ]
-        }
-    </script>
-
 </head>
 <body>
 <?php include("ssi/menu.html"); ?>
@@ -207,7 +88,25 @@
 
         </div>
 
-    </div><h2 id="past-collaborators">Past collaborators</h2>
+    </div>
+    <h2 id="collaborators">Collaborators</h2>
+    <div class="members_et">
+<div></div>
+        <div>
+            <figure>
+                <img src="images/team/pauline.jpg" alt="Pauline Jacsont"/>
+                <figcaption>Pauline Jacsont (MA 2021)</figcaption>
+            </figure>
+            <p>Pauline Jacsont defended her master's thesis at the University of Neuchâtel in the summer of 2021,
+                on studying the Latin tragedies of the time through the prism of textometry.
+                She is now studying Digital Humanities at the University of Geneva (certificate of specialisation),
+                and she also works on a digitisation project at the Spanish Institute at this same university
+                (<em>Untangling the cordel</em>). Her passion for classical studies motivated her to join the Woposs project,
+                offering her the opportunity to collaborate with the
+                Sapienza University of Rome to enrich the EDR epigraphic database. </p></div>
+        <div></div>
+    </div>
+    <h2 id="past-collaborators">Past collaborators</h2>
     <div class="members_et">
 
         <div>

@@ -46,7 +46,7 @@
     </p>
     <p>To quickly learn how to work with Pygmalion and draw your own maps, please read the tutorial in <a href="#howTo">this
             section</a>. You will also find some ideas about how to use Pygmalion.</p>
-    <p id="refnote1">Both tools, Pygmalion-simple and Pygmalion-modal, as well as the code are freely available as open access
+    <p id="refnote1">All versions as well as the code are freely available as open access
         resources. Feel free to share with us your comments and critics. The WoPoss team hopes to be able to continue to
         improve the tool in the future.</p>
 

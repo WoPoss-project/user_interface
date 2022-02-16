@@ -414,6 +414,15 @@
 
     <h2>Journal articles</h2>
     <ul>
+        <li>McGillivray, Barbara; Kondakova, Daria; Burman, Annie; Dell’Oro, Francesca; Bermúdez Sabel, Helena;
+            Marongiu, Paola; Márquez Cruz, Manuel (accepted). “A new corpus annotation framework for Latin diachronic lexical
+            semantics”. <em>Journal of Latin Linguistics</em>.</li>
+
+        <li>Marongiu, Paola; Dell’Oro, Francesca (2022). “From static to interactive maps:
+            drawing diachronic maps of (Latin) modality with <em>Pygmalion</em>”. <em>Journal of Open Humanities Data</em>, 8 (2), 1–14. DOI:
+            <a href=">https://doi.org/10.5334/johd.58" target="_blank">10.5334/johd.58</a>
+
+        </li>
         <li>Dell’Oro, Francesca (2022). “Verbs of motion and intermediate source domains of modality: the understudied
             case of It. <em>occorrere</em> ‘to be necessary, to be needed'”.
             <em>Folia Linguistica Historica</em> 43 (1).
@@ -422,7 +431,7 @@
                                             target="_blank">L’expression de la modalité par des adjectifs: une
                 comparaison entre l’adjectif grec ancien en -<em>ιμος</em>
                 et l’adjectif latin en -<em>bilis</em></a>”.
-            <em>ACME</em> 72 (2) (2019). DOI: <a href="https://doi.org/10.13130/2282-0035/13679 ">10.13130/2282-0035/13679</a>
+            <em>ACME</em> 72 (2) (2019). DOI: <a href="https://doi.org/10.13130/2282-0035/13679">10.13130/2282-0035/13679</a>
         </li>
 
         <li>Bermúdez Sabel, Helena (2019). “Digital tools for semantic annotation: the WoPoss use case”. <em>Bulletin
@@ -433,6 +442,8 @@
     </ul>
     <h2>Book chapters</h2>
     <ul>
+        <li> Dell’Oro, Francesca (in preparation). “Mood/Modality” in <em>The Wiley Blackwell Companion to Diachronic
+                Linguistics</em>, edited by Edith Aldridge, Anne Breitbarth, Katalin É.Kiss, Adam Ledgeway, Joe Salmons, and Alexandra Simonenko.</li>
         <li>
             Dell’Oro, Francesca; Bermúdez Sabel, Helena; Marongiu, Paola (accepted). “<em>Pygmalion</em> in the classroom: a tool to draw lexicographic diachronic
             maps and their application to didactics”, in <em>La Lexicografía didáctica: recursos para el aprendizaje de lenguas</em>. Madrid: Guillermo Escolar Editor
@@ -522,6 +533,8 @@ Agents, Networks and Vectors</em>. November 17, 2021. Zurich, Switzerland. [<a h
     <h2>Lectures and talks</h2>
     <h3>Invited talks</h3>
     <ul>
+        <li>Dell’Oro, Francesca (2022). “Il partecipante della modalità e le costruzioni di movimento tra latino e lingue romanze”. Sodalizio Glottologico Milanese.
+            February 25, 2022. Milan, Italy.</li>
         <li>Dell’Oro, Francesca (2021). “Linguistic annotations of Greek and Latin inscriptions”.
             <em><a href="https://github.com/SunoikisisDC/SunoikisisDC-2020-2021/wiki/Summer-2021-Sunoikisis-DC"
                    target="_blank">Sunoikisis
