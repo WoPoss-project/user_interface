@@ -176,7 +176,7 @@
          <h3>How to cite</h3>
 
             <ul><li>Dell‘Oro, Francesca; Marongiu, Paola; Bermúdez Sabel, Helena (2021). “<a
-                            href="maps/filia_es.php"
+                            href="https://woposs.unine.ch/maps/filia_es.php"
                             target="_blank">filia (Spanish version)</a>”. <a
                             href="https://woposs.unine.ch/maps/filia_es.php">https://woposs.unine.ch/maps/filia_es.php</a></li></ul>
             </div></div>

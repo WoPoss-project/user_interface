@@ -175,8 +175,8 @@
             </div> <div> <div class="top">
            <h3>How to cite</h3>
 
-<ul><li>Dell‘Oro, Francesca; Marongiu, Paola; Bermúdez Sabel, Helena (2021). “<a
-                                    href="maps/filia_en.php"
+<ul><li>Dell’Oro, Francesca; Marongiu, Paola; Bermúdez Sabel, Helena (2021). “<a
+                                    href="https://woposs.unine.ch/maps/filia_en.php"
                                     target="_blank">filia (Enlish version)</a>”. <a
                                     href="https://woposs.unine.ch/maps/filia_en.php">https://woposs.unine.ch/maps/filia_en.php</a></li></ul>
             </div></div>

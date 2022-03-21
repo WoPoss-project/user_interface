@@ -176,7 +176,7 @@
            <h3>How to cite</h3>
 
 <ul><li>Dell‘Oro, Francesca (2021). “<a
-                                    href="maps/carte.php"
+                                    href="https://woposs.unine.ch/maps/carte_es.php"
                                     target="_blank">carte (Spanish version)</a>”. v.1.0. WoPoss.  <a
                                     href="https://woposs.unine.ch/maps/carte_es.php">https://woposs.unine.ch/maps/carte_es.php</a></li></ul>
             </div></div>

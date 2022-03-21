@@ -179,7 +179,7 @@
 
         <ul>
             <li>Dell‘Oro, Francesca (2021). “<a
-                        href="maps/carat.php"
+                        href="https://woposs.unine.ch/maps/carat.php"
                         target="_blank">carat</a>”. WoPoss. <a
                         href="https://woposs.unine.ch/maps/carat.php">https://woposs.unine.ch/maps/carat.php</a>
             </li>

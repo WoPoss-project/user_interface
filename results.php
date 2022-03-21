@@ -420,7 +420,7 @@
 
         <li>Marongiu, Paola; Dell’Oro, Francesca (2022). “From static to interactive maps:
             drawing diachronic maps of (Latin) modality with <em>Pygmalion</em>”. <em>Journal of Open Humanities Data</em>, 8 (2), 1–14. DOI:
-            <a href=">https://doi.org/10.5334/johd.58" target="_blank">10.5334/johd.58</a>
+            <a href="https://doi.org/10.5334/johd.58" target="_blank">10.5334/johd.58</a>
 
         </li>
         <li>Dell’Oro, Francesca (2022). “Verbs of motion and intermediate source domains of modality: the understudied
