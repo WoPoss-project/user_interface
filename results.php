@@ -446,7 +446,8 @@
                 Linguistics</em>, edited by Edith Aldridge, Anne Breitbarth, Katalin É.Kiss, Adam Ledgeway, Joe Salmons, and Alexandra Simonenko.</li>
         <li>
             Dell’Oro, Francesca; Bermúdez Sabel, Helena; Marongiu, Paola (accepted). “<em>Pygmalion</em> in the classroom: a tool to draw lexicographic diachronic
-            maps and their application to didactics”, in <em>La Lexicografía didáctica: recursos para el aprendizaje de lenguas</em>. Madrid: Guillermo Escolar Editor
+            maps and their application to didactics” in <em>La lexicografía didáctica: Reflexiones y recursos orientados al aprendizaje de lenguas</em>.,
+            edited by Manuel Márquez Cruz, and Viviane Ferreira Martins. Madrid: Guillermo Escolar Editor
         </li>
         <li>
             Dell’Oro, Francesca (2022). “The French construction ‘j’arrive à + INF’ at the borders of modality. An
@@ -533,6 +534,8 @@ Agents, Networks and Vectors</em>. November 17, 2021. Zurich, Switzerland. [<a h
     <h2>Lectures and talks</h2>
     <h3>Invited talks</h3>
     <ul>
+        <li>Dell’Oro, Francesca (2022). “The participant of modality and motion constructions between Latin and Romance”.
+            <em>Doktorierendenkolloquium Linguistik</em>. March 17, 2022. University of Zurich. Zurich, Switzerland.</li>
         <li>Dell’Oro, Francesca (2022). “Il partecipante della modalità e le costruzioni di movimento tra latino e lingue romanze”. Sodalizio Glottologico Milanese.
             February 25, 2022. Milan, Italy.</li>
         <li>Dell’Oro, Francesca (2021). “Linguistic annotations of Greek and Latin inscriptions”.
