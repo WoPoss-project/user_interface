@@ -6,12 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="db487090-34b1-4abd-9088-e9e00729d9e7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maps/carat.php" beforeDir="false" afterPath="$PROJECT_DIR$/maps/carat.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maps/carte_en.php" beforeDir="false" afterPath="$PROJECT_DIR$/maps/carte_en.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maps/carte_es.php" beforeDir="false" afterPath="$PROJECT_DIR$/maps/carte_es.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maps/filia_en.php" beforeDir="false" afterPath="$PROJECT_DIR$/maps/filia_en.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maps/filia_es.php" beforeDir="false" afterPath="$PROJECT_DIR$/maps/filia_es.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logos/unine.jpeg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/results.php" beforeDir="false" afterPath="$PROJECT_DIR$/results.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssi/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/ssi/footer.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -417,7 +415,9 @@
       <workItem from="1643639329425" duration="673000" />
       <workItem from="1644327235483" duration="1344000" />
       <workItem from="1644998339551" duration="2257000" />
-      <workItem from="1647861984680" duration="220000" />
+      <workItem from="1647861984680" duration="820000" />
+      <workItem from="1647941971976" duration="128000" />
+      <workItem from="1648472374042" duration="1093000" />
     </task>
     <servers />
   </component>

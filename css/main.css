@@ -215,7 +215,8 @@ address a {
     width: 20em;
 }
 .unine {
-    width: 10em;
+    width: 12em;
+    height: min-content;
 }
 
 .address,
