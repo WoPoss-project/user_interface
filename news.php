@@ -12,6 +12,18 @@
     <h1>News and Outreach</h1>
     <div class="news">
         <div>
+            <article id="journee">
+                <h2>Workshop <em>L’état de nécessité : perspectives écologiques, linguistiques et juridiques</em></h2>
+                <img src="images/news/journee.png"/>
+                <p>The WoPoss team invites you to participate in the workshop <em>Après-midi d’étude autour de l’état de nécessité :
+                        perspectives écologiques, linguistiques et juridiques</em> organised by Jean-Jacques Aubert, Francesca Dell'Oro and
+                    Jean-Philippe Dunand. The workshop will take place on May 24th at 14h15 (room D59, <a href="https://www.google.com/maps/place/Av.+du+Premier-Mars+26,+2000+Neuch%C3%A2tel/@46.9939856,6.936458,17z/data=!3m1!4b1!4m5!3m4!1s0x478e0b362590b5df:0xe767668fd80f4258!8m2!3d46.9939856!4d6.9386467" target="_blank">Av. du 1er-mars 26</a>).</p>
+                    <p>The organisation of this event is funded by the Centre Interfacultaire d’Histoire du Droit et de Droit Romain (CIHDDR, University of
+                Neuchâtel) ad the Swiss National Science Foundation.</p>
+
+                <p>You can read the complete program <a href="outputs/flyer_necessite.pdf">here</a>.</p>
+
+            </article>
             <article id="cuso">
                 <h2>Modality will be addressed in a course of the CUSO PhD Program</h2>
                 <img src="images/news/cuso.png"/>

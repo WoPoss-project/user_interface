@@ -202,12 +202,25 @@
                             src="images/book.png" alt="book icon"/>)</span> <span class="reference">Marongiu, Paola; Bermúdez Sabel, Helena; Dell‘Oro, Francesca (2021). “<a
                             href="maps/map-certus.php" target="_blank">certus</a> (bilingual)”. v.1.0. WoPoss.  <a
                             href="https://woposs.unine.ch/maps/map-certus.php">https://woposs.unine.ch/maps/map-certus.php</a></span>
+        </span>
+            Related map:
+            <ul>
+
+                <li><a href="maps/map-certus-la.php">CERTUS</a>, monolingual <span class="cite"><span>(How to cite <img
+                                    src="images/book.png" alt="book icon"/>)</span> <span class="reference">Marongiu, Paola; Bermúdez Sabel, Helena; Dell‘Oro, Francesca (2021). “<a
+                                    href="maps/map-certus-la.php" target="_blank">certus</a> (monolingual)”. v.1.0. WoPoss.  <a
+                                    href="https://woposs.unine.ch/maps/map-certus-la.php">https://woposs.unine.ch/maps/map-certus-la.php</a></span>
         </span></li>
-        <li><a href="maps/map-certus-la.php">CERTUS</a>, monolingual <span class="cite"><span>(How to cite <img
-                            src="images/book.png" alt="book icon"/>)</span> <span class="reference">Marongiu, Paola; Bermúdez Sabel, Helena; Dell‘Oro, Francesca (2021). “<a
-                            href="maps/map-certus-la.php" target="_blank">certus</a> (monolingual)”. v.1.0. WoPoss.  <a
-                            href="https://woposs.unine.ch/maps/map-certus-la.php">https://woposs.unine.ch/maps/map-certus-la.php</a></span>
+
+                <li><a href="maps/map-certe.php">CERTE</a> <span class="cite"><span>(How to cite <img
+                                    src="images/book.png" alt="book icon"/>)</span> <span class="reference">Marongiu, Paola (2022). “<a
+                                    href="maps/map-certe.php" target="_blank">certe</a>”. v.1.0. WoPoss.  <a
+                                    href="https://woposs.unine.ch/maps/map-certe.php">https://woposs.unine.ch/maps/map-certe.php</a></span>
         </span></li>
+            </ul>
+
+
+        </li>
         <li><a href="maps/map-debeo.php">DEBEO</a> <span class="cite"><span>(How to cite <img
                             src="images/book.png" alt="book icon"/>)</span> <span class="reference">Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a
                             href="maps/map-debeo.php"

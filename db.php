@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
-<head>
-    <title>Outputs - WoPoss</title>
-    <?php include("ssi/head.html"); ?>
-
-
-</head>
-<body>
-<?php include("ssi/menu.html"); ?>
-        <main>
+       <main xmlns="http://www.w3.org/1999/xhtml" data-template="templates:surround" data-template-with="templates/page_woposs.html" data-template-at="content">
             <h1>Query the corpus</h1>
             <p>The corpus spans
                 from the 3rd
@@ -32,6 +22,3 @@
                 <li>After you finish, you may go back to the dashboard (upper menu), select “Settings” and click of the red button “Delete” (upper right corner).</li>
             </ol>
         </main>
-<?php include("ssi/footer.html"); ?>
-</body>
-</html>

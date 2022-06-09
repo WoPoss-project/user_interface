@@ -25,7 +25,17 @@
     <h2>Project milestones</h2>
     <h3>Annotation guidelines</h3>
     <ul>
-        <li>Dell’Oro, Francesca (2019). <em>WoPoss guidelines for annotation</em>.
+        <li>Dell’Oro, Francesca (2022). <em>WoPoss guidelines for annotation</em>. Revised version.
+            Swiss
+            National
+            Science Foundation.
+
+            <a href="https://doi.org/10.5281/zenodo.6417878"><img
+                        src="https://zenodo.org/badge/DOI/10.5281/zenodo.6417878.svg" alt="DOI"></a>
+
+
+        </li>
+        <li>Dell’Oro, Francesca (2019). <em>WoPoss guidelines for annotation</em>. Version 1.0.
             Swiss
             National
             Science Foundation.
@@ -55,12 +65,19 @@
                 </li>
                 <li>Marongiu, Paola; Bermúdez Sabel, Helena; Dell‘Oro, Francesca (2021). “<a
                             href="maps/map-certus.php" target="_blank">certus</a> (bilingual)”. v.1.0.
-                    WoPoss.
+                    WoPoss.<br/>
+                    <span class="newline">Related maps:</span>
+                    <ul>
+                        <li>Marongiu, Paola; Bermúdez Sabel, Helena; Dell‘Oro, Francesca (2021). “<a
+                                    href="maps/map-certus-la.php" target="_blank">certus</a> (monolingual)”.
+                            v.1.0. WoPoss.
+                        </li>
+                        <li>Marongiu, Paola (2022). “<a
+                                    href="maps/map-certe.php" target="_blank">certe</a>”. v.1.0. WoPoss.
+                        </li>
+                    </ul>
                 </li>
-                <li>Marongiu, Paola; Bermúdez Sabel, Helena; Dell‘Oro, Francesca (2021). “<a
-                            href="maps/map-certus-la.php" target="_blank">certus</a> (monolingual)”.
-                    v.1.0. WoPoss.
-                </li>
+
                 <li>Marongiu, Paola; Dell‘Oro, Francesca (2021). “<a href="maps/map-debeo.php"
                                                                      target="_blank">debeo</a>”. v.1.0.
                     WoPoss.
@@ -414,49 +431,74 @@
 
     <h2>Journal articles</h2>
     <ul>
+        <li>Marongiu, Paola (in preparation). “Modal markers in co-occurrence: a study on Terence’s comedies” in Dell’Oro,
+            Francesca; Rossari, Corinne (ed.). “Theoretical issues in the light of the interaction between quantitative
+            and qualitative data: recent approaches and tendencies”. Thematic issue of <em>TRANEL (Travaux neuchâtelois de
+                linguistique)</em>.
+        </li>
         <li>McGillivray, Barbara; Kondakova, Daria; Burman, Annie; Dell’Oro, Francesca; Bermúdez Sabel, Helena;
-            Marongiu, Paola; Márquez Cruz, Manuel (accepted). “A new corpus annotation framework for Latin diachronic lexical
-            semantics”. <em>Journal of Latin Linguistics</em>.</li>
+            Marongiu, Paola; Márquez Cruz, Manuel (in press). “A new corpus annotation framework for Latin diachronic
+            lexical
+            semantics”. <em>Journal of Latin Linguistics</em> 21.1.
+        </li>
 
         <li>Marongiu, Paola; Dell’Oro, Francesca (2022). “From static to interactive maps:
-            drawing diachronic maps of (Latin) modality with <em>Pygmalion</em>”. <em>Journal of Open Humanities Data</em>, 8 (2), 1–14. DOI:
+            drawing diachronic maps of (Latin) modality with <em>Pygmalion</em>”. <em>Journal of Open Humanities
+                Data</em>, 8 (2), 1–14. DOI:
             <a href="https://doi.org/10.5334/johd.58" target="_blank">10.5334/johd.58</a>
 
         </li>
         <li>Dell’Oro, Francesca (2022). “Verbs of motion and intermediate source domains of modality: the understudied
             case of It. <em>occorrere</em> ‘to be necessary, to be needed'”.
-            <em>Folia Linguistica Historica</em> 43 (1).
+            <em>Folia Linguistica Historica</em> 43 (1), 1-33. DOI: <a href="https://doi.org/10.1515/flin-2022-2017">10.1515/flin-2022-201</a>
         </li>
         <li>Dell’Oro, Francesca (2020). “<a href="https://riviste.unimi.it/index.php/ACME/article/view/13679/12819"
                                             target="_blank">L’expression de la modalité par des adjectifs: une
                 comparaison entre l’adjectif grec ancien en -<em>ιμος</em>
                 et l’adjectif latin en -<em>bilis</em></a>”.
-            <em>ACME</em> 72 (2) (2019). DOI: <a href="https://doi.org/10.13130/2282-0035/13679">10.13130/2282-0035/13679</a>
+            <em>ACME</em> 72 (2/2019), 193-209. DOI: <a href="https://doi.org/10.13130/2282-0035/13679">10.13130/2282-0035/13679</a>
         </li>
 
-        <li>Bermúdez Sabel, Helena (2019). “Digital tools for semantic annotation: the WoPoss use case”. <em>Bulletin
-                de linguistique et des sciences du langage</em> 30.1.
-            [<a href="http://doi.org/10.5281/zenodo.3572410" target="_blank">Preprint</a>]
+        <li>Bermúdez Sabel, Helena (2019). “Digital tools for semantic annotation: the WoPoss use case”.
+            <em><a href="https://www.unil.ch/files/live/sites/sli/files/shared/BIL/BIL30.pdf" target="_blank">Bulletin
+                    de linguistique et des sciences du langage</a></em> 30, 12–37.
         </li>
 
     </ul>
     <h2>Book chapters</h2>
     <ul>
         <li> Dell’Oro, Francesca (in preparation). “Mood/Modality” in <em>The Wiley Blackwell Companion to Diachronic
-                Linguistics</em>, edited by Edith Aldridge, Anne Breitbarth, Katalin É.Kiss, Adam Ledgeway, Joe Salmons, and Alexandra Simonenko.</li>
+                Linguistics</em>, edited by Edith Aldridge, Anne Breitbarth, Katalin É. Kiss, Adam Ledgeway, Joe
+            Salmons, and Alexandra Simonenko.
+        </li>
         <li>
-            Dell’Oro, Francesca; Bermúdez Sabel, Helena; Marongiu, Paola (accepted). “<em>Pygmalion</em> in the classroom: a tool to draw lexicographic diachronic
-            maps and their application to didactics” in <em>La lexicografía didáctica: Reflexiones y recursos orientados al aprendizaje de lenguas</em>.,
-            edited by Manuel Márquez Cruz, and Viviane Ferreira Martins. Madrid: Guillermo Escolar Editor
+            Dell’Oro, Francesca; Bermúdez Sabel, Helena; Marongiu, Paola (2022). “<em>Pygmalion</em> in the classroom: a
+            tool to draw lexicographic diachronic
+            maps and their application to didactics” in <em>La lexicografía didáctica: Reflexiones y recursos orientados
+                al aprendizaje de lenguas</em>,
+            edited by Manuel Márquez Cruz, and Viviane Ferreira Martins. Madrid: Guillermo Escolar Editor, 35–48.
+            [<a href="outputs/DellOro_BermudezSabel_Marongiu_Pygmalion_Lexicografia.pdf">Preprint</a>]
         </li>
         <li>
             Dell’Oro, Francesca (2022). “The French construction ‘j’arrive à + INF’ at the borders of modality. An
             exploratory survey of a journalistic corpus”, in <em>tba</em>. Alessandria: Dell’Orso.
         </li>
     </ul>
+    <h2>Editorial work</h2>
+    <ul>
+        <li>Dell’Oro, Francesca; Rossari, Corinne (ed.). “Theoretical issues in the light of the interaction between
+            quantitative and qualitative data: recent approaches and tendencies”. Thematic issue of
+            <em>TRANEL (Travaux neuchâtelois de linguistique)</em>.
+        </li>
+    </ul>
     <h2>Contributions to conferences</h2>
     <h3>Conference proceedings</h3>
     <ul>
+        <li>Bermúdez Sabel, Helena; Dell’Oro, Francesca; Montrichard, Cyrielle; Rossari, Corinne (accepted). “Setting up
+            bilingual comparable corpora with non-contemporary languages”.
+            <em>Proceedings of the LREC 2022 15th Workshop on building and using comparable corpora</em>. Edited by R.
+            Rapp, P. Zweigenhaum, S. Sharoff. Paris: European Language Resources Association (ELRA).
+        </li>
         <li>Dell’Oro, Francesca; Bermúdez Sabel, Helena; Marongiu, Paola (2020). “<a target="_blank"
                                                                                      href="https://campus.dariah.eu/resource/dariah-ch-workshop2019#session-9">Implemented
                 to be shared: the WoPoss annotation of semantic modality in a Latin diachronic corpus</a>”. <a
@@ -469,9 +511,30 @@
     </ul>
     <h3>Refereed conference talks</h3>
     <ul>
-    <li>Marongiu, Paola (2021). “Co-occurrence of modal markers in a Latin corpus.
-From texts to networks”. <em>Modelling Constructional Variation and Change:
-Agents, Networks and Vectors</em>. November 17, 2021. Zurich, Switzerland. [<a href="https://woposs.unine.ch/outputs/zurich_paola.pdf" target="_blank">Slides</a>]</li>
+        <li>Dell’Oro, Francesca (2022). “After volition: Latin <em>volo</em> and the addressee of speech”. <em>La
+                postmodalité et les cycles de vie des expressions modales</em>. Maison
+            de la Recherche en Sciences Humaines (MRSH), Université de Caen Normandie. June 2-3, 2022. Caen (France).
+            [<a href="outputs/abstract-volo.pdf">Abstract</a>]
+        </li>
+        <li>Bermúdez Sabel, Helena; Marongiu, Paola; Dell’Oro, Francesca (2022). “Premodal, modal and postmodal: a
+            corpus-based
+            study of the polyfunctionality of Latin modal markers”. <em>La postmodalité et les cycles de vie des
+                expressions modales</em>. Maison
+            de la Recherche en Sciences Humaines (MRSH), Université de Caen Normandie. June 2-3, 2022. Caen (France).
+            [<a href="outputs/abstract-caen.pdf">Abstract</a>]
+        </li>
+
+
+        <li>Marongiu, Paola (2022). “Investigating semantic issues in Latin by means of network analysis”. <em>Graphs
+                and
+                Networks in the Humanities 2022</em>. February 3-4, 2022. Amsterdam (Netherlands). [<a
+                    href="https://graphentechnologien.hypotheses.org/files/2022/01/Investigating_semantic_issues_in_Latin_by_means_of_etc-Marongiu.pdf">Abstract</a>]
+        </li>
+        <li>Marongiu, Paola (2021). “Co-occurrence of modal markers in a Latin corpus.
+            From texts to networks”. <em>Modelling Constructional Variation and Change:
+                Agents, Networks and Vectors</em>. November 17, 2021. Zurich, Switzerland. [<a
+                    href="https://woposs.unine.ch/outputs/zurich_paola.pdf" target="_blank">Slides</a>]
+        </li>
         <li>Bermúdez Sabel, Helena (2021). “<em>Pygmalion</em>: una herramienta para la visualización interactiva del
             cambio semántico desde una perspectiva diacrónica”. <em>Scire Vias: Humanidades Digitales y conocimiento.
                 V congreso de la Sociedad Internacional de Humanidades Digitales Hispánicas (HDH 2021)</em>. October
@@ -534,10 +597,23 @@ Agents, Networks and Vectors</em>. November 17, 2021. Zurich, Switzerland. [<a h
     <h2>Lectures and talks</h2>
     <h3>Invited talks</h3>
     <ul>
-        <li>Dell’Oro, Francesca (2022). “The participant of modality and motion constructions between Latin and Romance”.
-            <em>Doktorierendenkolloquium Linguistik</em>. March 17, 2022. University of Zurich. Zurich, Switzerland.</li>
-        <li>Dell’Oro, Francesca (2022). “Il partecipante della modalità e le costruzioni di movimento tra latino e lingue romanze”. Sodalizio Glottologico Milanese.
-            February 25, 2022. Milan, Italy.</li>
+        <li>Dell’Oro, Francesca (2022). “Les corpora parallèles dans
+            l’enseignement des langues anciennes: le
+            cas de la modalité”. <em>La traduction et son processus didactique</em>. May 10, 2022. University of
+            Lausanne. Lausanne, Switzerland.
+        </li>
+        <li>Dell’Oro, Francesca (2022). “The participant of modality and motion constructions between Latin and Romance
+            (the case of It. <em>occorrere</em>
+            and the case of Lat. <em>(ne)queo</em>)”.
+            <a href="https://www.linguistik.uzh.ch/de/whatsup/Linguistische-Kolloquien/LiZZ-Doktorierendenkolloquium.html"
+               target="_blank"><em>LiZZ
+                    – Doktorierendenkolloquium Linguistik</em></a>. March 17, 2022. University of Zurich. Zurich,
+            Switzerland.
+        </li>
+        <li>Dell’Oro, Francesca (2022). “Il partecipante della modalità e le costruzioni di movimento tra latino e
+            lingue romanze (il caso di <em>occorrere</em>)”. Sodalizio Glottologico Milanese.
+            February 25, 2022. Milan, Italy.
+        </li>
         <li>Dell’Oro, Francesca (2021). “Linguistic annotations of Greek and Latin inscriptions”.
             <em><a href="https://github.com/SunoikisisDC/SunoikisisDC-2020-2021/wiki/Summer-2021-Sunoikisis-DC"
                    target="_blank">Sunoikisis
@@ -579,6 +655,12 @@ Agents, Networks and Vectors</em>. November 17, 2021. Zurich, Switzerland. [<a h
     </ul>
     <h3>Other presentations</h3>
     <ul>
+
+        <li>Marongiu, Paola (2022). “Co-occurrence de marqueurs modaux dans un corpus de Térence”. Lecture for
+            the MA seminar
+            <em>Séminaire de langue et littérature latines : Térence, Théâtre</em> (Prof. Jean-Jacques Aubert). May 5,
+            2022. University of Neuchâtel. Neuchâtel, Switzerland.
+        </li>
         <li>Dell’Oro, Francesca (2021). “Diachronie et typologie de la modalité: sources et structures des prédicats
             modaux”. <em> Linguistique historique et linguistique de corpus : perspectives syntaxiques,
                 sémantiques et pragmatiques avec un regard sur la modalité</em>. Programme doctoral en Sciences du
@@ -659,7 +741,8 @@ Agents, Networks and Vectors</em>. November 17, 2021. Zurich, Switzerland. [<a h
                     href="https://woposs.unine.ch/pygmalion-simple.php"><em>Pygmalion-simple
                     1.0.
                     A
-                    tool to draw interactive and diachronic maps of semantics</em></a>. WoPoss. A World of Possibilities.
+                    tool to draw interactive and diachronic maps of semantics</em></a>. WoPoss. A World of
+            Possibilities.
             Swiss
             National
             Science
@@ -715,6 +798,13 @@ Agents, Networks and Vectors</em>. November 17, 2021. Zurich, Switzerland. [<a h
     </ul>
     <h2>Organisation of scientific events</h2>
     <ul>
+        <li>Aubert, Jean-Jacques; Dell’Oro, Francesca; Dunand, Jean-Philippe (org.) (2022). <em>Après-midi d’étude
+                autour de l’état de nécessité:
+                perspectives écologiques, linguistiques et juridiques</em>. May 24, 2022. University of Neuchâtel.
+            Neuchâtel,
+            Switzerland. [<a href="outputs/flyer_necessite.pdf"
+                             target="_blank">Program</a>]
+        </li>
         <li>Dell’Oro, Francesca; Rossari, Corinne (org.) (2021). <em> Linguistique historique et linguistique de corpus
                 : perspectives syntaxiques,
                 sémantiques et pragmatiques avec un regard sur la modalité</em>. Programme doctoral en Sciences du
@@ -731,7 +821,8 @@ Agents, Networks and Vectors</em>. November 17, 2021. Zurich, Switzerland. [<a h
                     Theoretical linguistics in the light of the interaction of qualitative and quantitative
                     approaches</a></em>.
             International Symposium. June 21-22. University of Neuchâtel. Neuchâtel, Switzerland. [<a
-                    href="outputs/call.pdf">Call for papers</a>] [<a href="https://www.unine.ch/files/live/sites/isla/files/lf/program_TheorLing-1.pdf">Program</a>]
+                    href="outputs/call.pdf">Call for papers</a>] [<a
+                    href="https://www.unine.ch/files/live/sites/isla/files/lf/program_TheorLing-1.pdf">Program</a>]
         </li>
         <li>Dürrschnabel, Vera (2020). <em>An introduction to Semitic languages for classicists</em>. October 20, 2020.
             University of Lausanne. Lausanne, Switzerland.
@@ -755,6 +846,53 @@ Agents, Networks and Vectors</em>. November 17, 2021. Zurich, Switzerland. [<a h
             11, 2019. University of Neuchâtel. Neuchâtel, Switzerland.
         </li>
 
+    </ul>
+    <h2>Expert/Reviewer activities</h2>
+    <ul>
+        <li>Semantics expert activity entrusted by the Section for Language
+            Sciences and Information, University of Lausanne (2019-2020) in favour of the team led
+            by Irina Guseva Canu at Unisanté, University of Lausanne, in the framework of the
+            OMEGA-NET project, COST Action CA16216 “Network on the Coordination and Harmonisation of
+            European Occupational Cohorts”.
+            <ul>
+                <li>Goal: setting up of a methodology to devise the semantic shared elements of the
+                    reference definitions of 'burn-out' in order to formulate a shared definition of
+                    the term.
+                </li>
+                <li>Publications:
+                    <ul>
+                        <li>Guseva-Canu, Irina; Marca, Sandy C.; Dell’Oro, Francesca and the Delphi
+                            panel of OMEGA-NET [Á. Balázs, E. Bergamaschi, C. Besse, R. Bianchi, J.
+                            Bislimovska, A. Koscec Bjelajac, M. Bugge, C. I. Busneag, Ç. Çağlayan,
+                            M. Cernițanu, C. Costa Pereira, N. Dernovšček Hafner, N. Droz, M.
+                            Eglite, L. Godderis, Ha. Gündel, J. J. Hakanen, R. M. Iordache, I.
+                            Khireddine‑Medouni, S. Kiran, F. Larese-Filon, C. Lazor-Blanchet, P.
+                            Légeron, T. Loney, N. Majery, E. Merisalu, I. S. Mehlum, L. Michaud, D.
+                            Mijakoski, J. Minov, A. Modenese, M. Molan, H. van der Molen, E. Nena,
+                            D. Nolimal, M. Otelea, E. Pletea, N. Pranjic, D. Rebergen, J. Reste, E.
+                            Schernhammer, A. Wahlen.] (2020). “Harmonized burnout definition,
+                            finally. A systematic review, semantic analysis, and Delphi consensus in
+                            29 countries”. <em>Scandinavian Journal of Work, Environment &amp;
+                                Health</em> – Online-First Articles 2020: 1-13. DOI: <a
+                                    href="https://doi.org/10.5271/sjweh.3935" target="blank"
+                            >10.5271/sjweh.3935</a>
+                        </li>
+                        <li>Dell’Oro, Francesca; Marca, Sandy C.; Guseva-Canu, Irina (forthcoming).
+                            “Human-based evaluation of content similarity in the context of clinical
+                            research: The case of the original reference definitions of ‘burnout’”.
+                            <em>Journal of Applied Linguistics and Professional Practice</em>.
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <h2>Follow-up projects</h2>
+    <ul>
+        <li><em>Les corpora latins et français : une fabrique pour l’accès à la représentation des connaissances (Latin
+                and French corpora: a factory to access knowledge representation)</em>. PIs: Francesca Dell’Oro and
+            Corine Rossari (University of Neuchâtel). Funded by the Empiris Foundation (Fund Jakob Wüest).
+        </li>
     </ul>
 </main>
 <?php include("ssi/footer.html"); ?>
