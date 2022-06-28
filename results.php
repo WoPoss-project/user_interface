@@ -646,7 +646,9 @@ Jun 15, 2022. <a href="https://linguistlist.org/issues/33.2004/" target="_blank"
                 target="_blank">Slides</a>]
             [<a href="https://youtu.be/EfHnR0nl9tE" target="_blank">Presentation</a>, 1:04:20]
         </li>
-
+<li>Bermúdez Sabel, Helena; Dell’Oro, Francesca (2019). “Une édition numérique pour explorer un corpus de
+    (retro-)traductions parallèles”, <em>Humanités numériques et texte littéraire traduit. Editer et analyser des corpus de versions parallèles</em>.
+    September 24, 2019. Université Grenoble Alpes, Grenoble (France)</li>
         <li>Dell’Oro, Francesca (2019). “Due suffissi derivazionali modali: greco antico <em>-ιμος</em> e latino <em>-bilis</em>”.
             <em>I
                 processi di derivazione tra linguistica
@@ -912,7 +914,7 @@ stages”</em>. November 14-15, 2022. University of Neuchâtel. Neuchâtel, Swit
     <ul>
         <li><em><a href="https://www.unine.ch/isla/home/recherche/actuel/les-corpora-latins-et-francais-.html" target="_blank">Les corpora latins et français : une fabrique pour l’accès à la représentation des connaissances (Latin
                 and French corpora: a factory to access knowledge representation)</a></em>. PIs: Francesca Dell’Oro and
-            Corine Rossari (University of Neuchâtel). Funded by the Empiris Foundation (Fund Jakob Wüest).
+            Corinne Rossari (University of Neuchâtel). Funded by the Empiris Foundation (Fund Jakob Wüest).
         </li>
     </ul>
 </main>
