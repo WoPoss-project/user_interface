@@ -213,7 +213,7 @@
         </span></li>
 
                 <li><a href="maps/map-certe.php">CERTE</a> <span class="cite"><span>(How to cite <img
-                                    src="images/book.png" alt="book icon"/>)</span> <span class="reference">Marongiu, Paola (2022). “<a
+                                    src="images/book.png" alt="book icon"/>)</span> <span class="reference">Marongiu, Paola; Dell‘Oro, Francesca  (2022). “<a
                                     href="maps/map-certe.php" target="_blank">certe</a>”. v.1.0. WoPoss.  <a
                                     href="https://woposs.unine.ch/maps/map-certe.php">https://woposs.unine.ch/maps/map-certe.php</a></span>
         </span></li>

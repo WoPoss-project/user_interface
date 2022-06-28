@@ -72,7 +72,7 @@
                                     href="maps/map-certus-la.php" target="_blank">certus</a> (monolingual)”.
                             v.1.0. WoPoss.
                         </li>
-                        <li>Marongiu, Paola (2022). “<a
+                        <li>Marongiu, Paola; Dell‘Oro, Francesca (2022). “<a
                                     href="maps/map-certe.php" target="_blank">certe</a>”. v.1.0. WoPoss.
                         </li>
                     </ul>
@@ -484,7 +484,12 @@
             exploratory survey of a journalistic corpus”, in <em>tba</em>. Alessandria: Dell’Orso.
         </li>
     </ul>
-    <h2>Editorial work</h2>
+<h2>Reviews</h2>
+<ul>
+<li>Dell’Oro, Francesca (2022). “Kagan (2020), <em>The semantics of case</em>”. <em>LINGUIST List</em>, 33.2004.
+Jun 15, 2022. <a href="https://linguistlist.org/issues/33.2004/" target="_blank">https://linguistlist.org/issues/33.2004</a>.</li>
+</ul>
+    <h2>Edited volumes</h2>
     <ul>
         <li>Dell’Oro, Francesca; Rossari, Corinne (ed.). “Theoretical issues in the light of the interaction between
             quantitative and qualitative data: recent approaches and tendencies”. Thematic issue of
@@ -494,10 +499,10 @@
     <h2>Contributions to conferences</h2>
     <h3>Conference proceedings</h3>
     <ul>
-        <li>Bermúdez Sabel, Helena; Dell’Oro, Francesca; Montrichard, Cyrielle; Rossari, Corinne (accepted). “Setting up
+        <li>Bermúdez Sabel, Helena; Dell’Oro, Francesca; Montrichard, Cyrielle; Rossari, Corinne (2022). “Setting up
             bilingual comparable corpora with non-contemporary languages”.
-            <em>Proceedings of the LREC 2022 15th Workshop on building and using comparable corpora</em>. Edited by R.
-            Rapp, P. Zweigenhaum, S. Sharoff. Paris: European Language Resources Association (ELRA).
+            <em><a href="https://comparable.limsi.fr/bucc2022/BUCC2022-proceedings-20220617.pdf">Proceedings of the LREC 2022 15th Workshop on building and using comparable corpora</a></em>. Edited by R.
+            Rapp, P. Zweigenhaum, S. Sharoff. Paris: European Language Resources Association (ELRA), 52–60.
         </li>
         <li>Dell’Oro, Francesca; Bermúdez Sabel, Helena; Marongiu, Paola (2020). “<a target="_blank"
                                                                                      href="https://campus.dariah.eu/resource/dariah-ch-workshop2019#session-9">Implemented
@@ -655,12 +660,21 @@
     </ul>
     <h3>Other presentations</h3>
     <ul>
-
+<li>Dell’Oro, Francesca (2022). “L’annotation et la visualisation de la modalité dans un corpus textuel” (provisional title).
+    <em> Approches numériques des relations sémantiques: du lexique au corpus</em>. Programme doctoral en Sciences du
+    langage de la Conférence universitaire de Suisse occidentale (CUSO). November 28-29, 2022. University of Neuchâtel. Neuchâtel, Switzerland.</li>
         <li>Marongiu, Paola (2022). “Co-occurrence de marqueurs modaux dans un corpus de Térence”. Lecture for
             the MA seminar
             <em>Séminaire de langue et littérature latines : Térence, Théâtre</em> (Prof. Jean-Jacques Aubert). May 5,
             2022. University of Neuchâtel. Neuchâtel, Switzerland.
         </li>
+
+<li>Bermúdez Sabel, Helena; Montrichard, Cyrielle (2022). “Présentation du projet: <em>Les corpora latins et français : une fabrique pour l’accès à la représentation des connaissances</em>”.  Lecture for the MA course
+            <em>Linguistique de corpus</em> (Prof. Corinne Rossari). May 30,
+            2022. University of Neuchâtel. Neuchâtel, Switzerland.</li>
+<li>Dell’Oro, Francesca; Bermúdez Sabel, Helena; Marongiu, Paola (2022). “L’annotation de corpus: perspectives synchroniques et diachroniques”.  Lecture for the MA course
+            <em>Linguistique de corpus</em> (Prof. Corinne Rossari). April 4,
+            2022. University of Neuchâtel. Neuchâtel, Switzerland.</li>
         <li>Dell’Oro, Francesca (2021). “Diachronie et typologie de la modalité: sources et structures des prédicats
             modaux”. <em> Linguistique historique et linguistique de corpus : perspectives syntaxiques,
                 sémantiques et pragmatiques avec un regard sur la modalité</em>. Programme doctoral en Sciences du
@@ -726,6 +740,9 @@
     <h2>Software</h2>
 
     <ul>
+<li>McGillivray, Barbara; Kondakova, Daria; Bermúdez Sabel, Helena (2022). <em>Code for analysing the semantic annotation of Latin data from SemEval 2020 task 1</em>. 
+Zenodo. <a href="https://doi.org/10.5281/zenodo.6325749">10.5281/zenodo.6325749</a>.
+</li>
 
         <li>Dell’Oro, Francesca; Rimaz, Loris; Bermúdez Sabel, Helena; Marongiu, Paola (2021). <a
                     href="https://woposs.unine.ch/pygmalion-colour.php" target="_blank"><em>Pygmalion-colour
@@ -798,6 +815,8 @@
     </ul>
     <h2>Organisation of scientific events</h2>
     <ul>
+<li>Chair of Historical Linguistics (F. Dell’Oro) and chair of French Linguistics (C. Rossari) (org.) (2022). <em>International conference “Modality in historical
+stages”</em>. November 14-15, 2022. University of Neuchâtel. Neuchâtel, Switzerland.</li>
         <li>Aubert, Jean-Jacques; Dell’Oro, Francesca; Dunand, Jean-Philippe (org.) (2022). <em>Après-midi d’étude
                 autour de l’état de nécessité:
                 perspectives écologiques, linguistiques et juridiques</em>. May 24, 2022. University of Neuchâtel.
@@ -886,11 +905,13 @@
                 </li>
             </ul>
         </li>
+<li>Advise on the conceptualization of an automatic linguistic annotation pipeline for the Greek inscriptions of
+ the project <a href="https://library.brown.edu/iip" target="_blank">Inscriptions of Israel/Palestine</a> (Brown University), including the elaboration of a proof-of-concept. April-September, 2021.</li>
     </ul>
     <h2>Follow-up projects</h2>
     <ul>
-        <li><em>Les corpora latins et français : une fabrique pour l’accès à la représentation des connaissances (Latin
-                and French corpora: a factory to access knowledge representation)</em>. PIs: Francesca Dell’Oro and
+        <li><em><a href="https://www.unine.ch/isla/home/recherche/actuel/les-corpora-latins-et-francais-.html" target="_blank">Les corpora latins et français : une fabrique pour l’accès à la représentation des connaissances (Latin
+                and French corpora: a factory to access knowledge representation)</a></em>. PIs: Francesca Dell’Oro and
             Corine Rossari (University of Neuchâtel). Funded by the Empiris Foundation (Fund Jakob Wüest).
         </li>
     </ul>
