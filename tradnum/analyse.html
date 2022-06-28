@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Analyse</title>
+   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="css/poems.css" />
+        <script src="js/alignment.js">/**/</script>
+        <script src="js/menu.js">/**/</script>
+        <script src="js/chart.js/dist/Chart.js">/**/</script>
+    </head>
+    <body>
+        <nav>
+            <a href="index.html">Textes</a>
+            <a href="analyse.html" class="selected">Analyse</a>
+        </nav>
+        <main>
+            <h1>Une édition numérique pour explorer les traductions et rétrotraductions
+                de l’expérience <a
+                    href="http://ouvroir-litt-arts.univ-grenoble-alpes.fr/revues/actalittarts/auteur/224-l-epreuve-de-l-etranger"
+                    target="_blank"><em>Épreuves de l’étranger</em></a></h1>
+
+            <div class="chart">
+                <h3>Fréquence des types de traduction</h3>
+                <canvas id="myChart" width="100" height="50"></canvas>
+            </div>
+            <div class="chart">
+                <h3>Différences d'alignement (traductions)</h3>
+                <canvas id="overview" width="100" height="40"></canvas>
+            </div>
+            <div class="chart">
+                <h3>Vue d'ensemble de l'alignement (retrotraductions)</h3>
+                <canvas id="retro" width="100" height="50"></canvas>
+            </div>
+            
+            <script>
+var ctx = document.getElementById('myChart').getContext('2d');
+var myChart = new Chart(ctx, {
+    type: 'horizontalBar',
+    data: {
+        labels:[ 'Gr1', 'Gr2', 'Gr1R', 'Gr2R', 'It1', 'It2', 'It1R', 'It2R'],
+        datasets:[ {
+            label: 'Trad. littérale',
+            data:[38, 26, 22, 49, 43, 71, 73, 82],
+            backgroundColor: '#D4A81C'
+        }, {
+            label: 'Transposition',
+            data:[57, 45, 36, 40, 17, 27, 16, 29],
+            backgroundColor: '#857A9D'
+        }, {
+            label: 'Modulation',
+            data:[15, 34, 41, 18, 48, 18, 17, 4],
+            backgroundColor: '#EBCCD1'
+        }, {
+            label: 'Adaptation',
+            data:[4, 3, 0, 0, 0, 0, 0, 0],
+            backgroundColor: '#939D7A'
+        },        
+        {
+            label: 'Emprunt',
+            data:[1, 1, 0, 0, 0, 0, 0, 0],
+            backgroundColor: '#3e5473'
+        }]
+    },
+    options: {
+        scales: {
+            xAxes:[ { scaleLabel: {
+                    display: true,
+                    labelString: 'Nombre de tokens alignés',
+                    fontSize: 16
+                },
+                stacked: true
+            }],
+            yAxes:[ {
+                ticks: {
+                    beginAtZero: true
+                },
+                scaleLabel: {
+                    display: true,
+                    labelString: 'Traduction',
+                    fontSize: 16
+                },
+                stacked: true
+            }]
+        }
+    }
+});
+
+
+var chart2 = document.getElementById('overview').getContext('2d');
+var secondChart = new Chart(chart2, {
+    type: 'horizontalBar',
+    data: {
+        labels:[ 'Gr1', 'Gr2', 'It1', 'It2' ],
+        datasets:[ {
+            label: 'Ajouts',
+            data:[0.6, 30, 8.2, 0],
+            backgroundColor: '#939D7A'
+        }, {
+            label: 'Suppressions',
+            data:[5, 9.1, 10, 10, 3.3],
+            backgroundColor: '#c15656'
+        }]
+    },
+    options: {
+        scales: {
+            xAxes:[ { scaleLabel: {
+                    display: true,
+                    labelString: 'Quantité relative',
+                    fontSize: 16
+                },
+                stacked: true
+            }],
+            yAxes:[ {
+                ticks: {
+                    beginAtZero: true
+                },
+                scaleLabel: {
+                    display: true,
+                    labelString: 'Traduction',
+                    fontSize: 16
+                },
+                stacked: true
+            }]
+        }
+    }
+});
+
+
+var chart3 = document.getElementById('retro').getContext('2d');
+var thirdChart = new Chart(chart3, {
+    type: 'horizontalBar',
+    data: {
+        labels:['Gr1R', 'Gr2R', 'It1R', 'It2R'],
+        datasets:[ {
+            label: 'Alignés',
+            data:[99, 101, 104, 105],
+            backgroundColor: '#D4A81C'
+        }, {
+            label: 'Non-alignés',
+            data:[15, 8, 4, 11],
+            backgroundColor: '#c15656'
+        }]
+    },
+    options: {
+        scales: {
+            xAxes:[ { scaleLabel: {
+                    display: true,
+                    labelString: 'Nombre de tokens',
+                    fontSize: 16
+                }
+            }],
+            yAxes:[ {
+                ticks: {
+                    beginAtZero: true
+                },
+                scaleLabel: {
+                    display: true,
+                    labelString: 'Traduction',
+                    fontSize: 16
+                }
+            }]
+        }
+    }
+});
+
+
+</script>
+            
+            
+        </main>
+    </body>
+</html>
